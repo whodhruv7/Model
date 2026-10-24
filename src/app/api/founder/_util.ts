@@ -1,0 +1,5 @@
+// Shared small helpers for founder routes.
+export function maskKey(key: string): string {
+  if (key.length <= 8) return '••••••••';
+  return `${key.slice(0, 3)}…${key.slice(-4)}`;
+}

@@ -1,0 +1,131 @@
+// VidhyaSaathy — Saathy AI Learning Companion
+// Data model aligned with the Product Blueprint:
+//  - School > Class > Subject > Chapter > Concept hierarchy (LES/SES sections)
+//  - Per-concept mastery from evidence (VS-22 bands, AI-08) — internal only
+//  - Concept-tagged teacher notes (VS-11) used for grounded answers (VS-28)
+//  - Evidence records (AI-08) recorded from Quick Checks (VS-18 loop)
+//  - Conversations/messages + app settings (founder PIN, provider config)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model StudentProfile {
+  id             String   @id @default("main")
+  name           String   @default("Learner")
+  className      String   @default("Class 9")
+  section        String   @default("A")
+  board          String   @default("CBSE")
+  schoolName     String   @default("Demo Public School")
+  // Chat preferences (Chat Settings)
+  tone           String   @default("friendly") // friendly | balanced | formal
+  style          String   @default("steps") // simple | steps | detailed
+  length         String   @default("balanced") // concise | balanced | thorough
+  language       String   @default("english") // english | hinglish | hindi
+  socratic       Boolean  @default(true)
+  animations     Boolean  @default(true)
+  sounds         Boolean  @default(false)
+  // Current learning context
+  focusSubjectId String?
+  focusChapterId String?
+  focusConceptId String?
+  updatedAt      DateTime @updatedAt
+}
+
+model Subject {
+  id       String    @id @default(cuid())
+  name     String
+  order    Int       @default(0)
+  chapters Chapter[]
+}
+
+model Chapter {
+  id       String    @id @default(cuid())
+  subjectId String
+  subject  Subject   @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  number   Int       @default(0)
+  name     String
+  order    Int       @default(0)
+  concepts Concept[]
+}
+
+model Concept {
+  id            String        @id @default(cuid())
+  chapterId     String
+  chapter       Chapter       @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  name          String
+  order         Int           @default(0)
+  prerequisites String        @default("[]") // JSON array of concept ids
+  mastery       MasteryState?
+  notes         TeacherNote[]
+  evidences     EvidenceRecord[]
+}
+
+// Internal mastery estimate (AI-08). NEVER shown to the student as a number/label.
+model MasteryState {
+  id        String   @id @default(cuid())
+  conceptId String   @unique
+  concept   Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  score     Float    @default(0.5) // 0..1 internal estimate
+  attempts  Int      @default(0)
+  correct   Int      @default(0)
+  updatedAt DateTime @updatedAt
+}
+
+// Concept-tagged teacher notes (VS-11) — the grounding fuel for Saathy answers.
+model TeacherNote {
+  id        String  @id @default(cuid())
+  conceptId String
+  concept   Concept @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  title     String
+  sourceRef String // e.g. "Motion — Slide 4"
+  content   String
+  published Boolean @default(true)
+}
+
+// Learning evidence (AI-08) recorded from Quick Checks and practice (VS-18).
+model EvidenceRecord {
+  id        String   @id @default(cuid())
+  conceptId String
+  concept   Concept  @relation(fields: [conceptId], references: [id], onDelete: Cascade)
+  correct   Boolean
+  difficulty Int     @default(2) // L1 basic | L2 medium | L3 application
+  source    String   @default("quickcheck") // quickcheck | practice | quiz
+  createdAt DateTime @default(now())
+}
+
+model Conversation {
+  id        String    @id @default(cuid())
+  title     String    @default("New chat")
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  messages  Message[]
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           String // "user" | "assistant"
+  content        String
+  meta           String? // JSON: { mode, sources, quickcheck, followups, evidence? }
+  createdAt      DateTime     @default(now())
+}
+
+// Singleton settings row. Founder PIN gates provider/model configuration.
+model AppSettings {
+  id             String    @id @default("main")
+  founderPin     String    @default("2405")
+  provider       String    @default("builtin") // builtin | custom
+  builtinModelId String    @default("glm-4-plus")
+  customBaseUrl  String?
+  customApiKey   String?
+  customModelId  String?
+  verifiedAt     DateTime?
+  updatedAt      DateTime  @updatedAt
+}

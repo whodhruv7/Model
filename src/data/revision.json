@@ -1,0 +1,4182 @@
+{
+ "plan": {
+  "title": "How to Use This Sheet (Tonight: 3 Rounds, 2 Hours)",
+  "body": "Ye sheet tumhara <strong>kal ke exam ka master key</strong> hai. Ek hi PDF, saare 7 chapters, zero filler. Raat ko sirf teen rounds khelo - bas. Round 1 mein formulas aur tricks ratt lo (inhe padhne se hi speed aati hai). Round 2 mein har Important Question ko <strong>pehle khud try karo</strong>, phir solution se mila lo - yahi asli revision hai. Round 3 mein MCQs rapid-fire maaro aur jo galat ho, uske aage star laga do. Subah exam se pehle sirf aakhri page (Exam Morning Power Page) dobara dekho. Agar ye plan follow kiya, toh 80/80 koi badi baat nahi hai.",
+  "rounds": [
+   {
+    "round": "<strong>Round 1</strong> (~40 min)",
+    "do": "Saare Formula Tables + Concept Checklists + Speed Tricks",
+    "goal": "Pura book ka hissa aankh band karke yaad ho jaye - formulas, kab-use-karna, trap warnings."
+   },
+   {
+    "round": "<strong>Round 2</strong> (~60 min)",
+    "do": "75 Most Important Questions (chapter-wise)",
+    "goal": "Book-style best questions with chhote solutions. Khud solve karo, phir check karo."
+   },
+   {
+    "round": "<strong>Round 3</strong> (~40 min)",
+    "do": "97 Rapid-Fire MCQs (12-15 per chapter)",
+    "goal": "4 options, 1 answer, 1-line logic. Galat wale pe star - wo subah dobara dekho."
+   },
+   {
+    "round": "<strong>Subah</strong> (~15 min)",
+    "do": "Exam Morning Power Page (last page)",
+    "goal": "Whole book ke 12 killer formulas + exam-hall rules. Fresh dimaag = full marks."
+   }
+  ],
+  "golden": ""
+ },
+ "chapters": [
+  {
+   "num": 1,
+   "name": "Coordinate Geometry",
+   "star": false,
+   "title": "Chapter 1: Coordinate Geometry",
+   "intro": "Graph par points ki language: kahan hai (x, y), do points ke beech kitna faasla, midpoint kahan, reflection kaise hota hai. Formulas kam, soch smart - isi chapter mein 3-4-5 triple tumhara best friend ban jata hai.",
+   "formulas": [
+    {
+     "f": "d = √((x<sub>2</sub>−x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub>−y<sub>1</sub>)<sup>2</sup>)",
+     "meaning": "Do points ke beech ka seedha faasla. Dono coordinates ka difference lo, square karo, jodo, root nikalo. Bas.",
+     "ex": "(1, 2) se (4, 6): √(3<sup>2</sup> + 4<sup>2</sup>) = √25 = 5"
+    },
+    {
+     "f": "Origin se d = √(x<sup>2</sup> + y<sup>2</sup>)",
+     "meaning": "Point (x, y) ka ghar (origin) se faasla. Triples ratt lo: (3,4,5), (5,12,13), (8,15,17) - phir root ki zaroorat hi nahi.",
+     "ex": "(6, 8): √(36 + 64) = √100 = 10"
+    },
+    {
+     "f": "Same y? d = |x<sub>2</sub> − x<sub>1</sub>|<br>Same x? d = |y<sub>2</sub> − y<sub>1</sub>|",
+     "meaning": "Ek coordinate same hai? Formula chhodo - bas subtract karo. Free marks!",
+     "ex": "(2, 5) se (9, 5): |9 − 2| = 7"
+    },
+    {
+     "f": "M = ((x<sub>1</sub>+x<sub>2</sub>)/2, (y<sub>1</sub>+y<sub>2</sub>)/2)",
+     "meaning": "Midpoint = dono coordinates ka average. \"Bisects\" dikhe toh yehi.",
+     "ex": "(1, 2), (5, 8) ka midpoint = (3, 5)"
+    },
+    {
+     "f": "Reverse: B = 2M − A (har coordinate pe)",
+     "meaning": "Ek end + midpoint diya ho toh dusra end = 2×midpoint − end. Midpoint se double karo, ek end minus.",
+     "ex": "A(1, 3), M(4, 7) → B = (8−1, 14−3) = (7, 11)"
+    },
+    {
+     "f": "x-axis mein reflect: (x, −y)<br>y-axis mein reflect: (−x, y)<br>Origin mein: (−x, −y)",
+     "meaning": "Mirror image: jis axis mein reflect karna hai, USI coordinate ka sign badlo, dusra waise hi rehne do.",
+     "ex": "(4, −3) in x-axis → (4, 3)"
+    },
+    {
+     "f": "Right angle test: (sabse badi side)<sup>2</sup> = baaki dono ka sum",
+     "meaning": "Pythagoras ka ulta: agar barabar hai toh right angle confirm. Triangle type puchhe toh yehi karo.",
+     "ex": "3, 4, 5: 5<sup>2</sup> = 25 = 9 + 16 ✓"
+    },
+    {
+     "f": "Circle: point (x, y) par hai agar x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>",
+     "meaning": "Centre origin wale circle ke liye: x<sup>2</sup>+y<sup>2</sup> chhota = andar, barabar = par, bada = bahar.",
+     "ex": "r = 5, point (3, 4): 9 + 16 = 25 → par hai ✓"
+    },
+    {
+     "f": "On the x-axis → y = 0; on the y-axis → x = 0",
+     "meaning": "Axis par pade point mein dusri coordinate zero hoti hai. Equidistant point maange toh yehi maan ke solve karo.",
+     "ex": "y-axis par (0, k) lo, dono points se faasla barabar rakho"
+    },
+    {
+     "f": "Right triangle ka area (vertices se) = ½ × leg × leg",
+     "meaning": "Right angle mil jaye toh Heron/box mat karo - dono legs multiply karke aadha. Done.",
+     "ex": "Legs 8 aur 6 → area = 24 sq units"
+    }
+   ],
+   "checks": [
+    "<strong>Quadrant signs:</strong> I (+,+), II (−,+) - upper left, III (−,−), IV (+,−). Axis par point ho toh quadrant NAHI hota.",
+    "<strong>Ordered pair ka order matter karta hai:</strong> (3, 5) ≠ (5, 3). Pehla number x (horizontal), dusra y (vertical).",
+    "<strong>Perpendicular distance:</strong> point se x-axis ka faasla = |y|, y-axis ka = |x|. Sign nahi, magnitude.",
+    "<strong>Collinear points:</strong> teeno ke beech ka bada distance = chhote dono ka sum. Distance formula 3 baar lagao.",
+    "<strong>Parallelogram check:</strong> opposite sides equal (distance formula se) - ya diagonals ka midpoint same.",
+    "<strong>Square/rectangle verify:</strong> sides + diagonals sab check karo; square mein diagonals bhi equal hoti hain.",
+    "<strong>Rectangle ka missing vertex:</strong> opposite corners ka midpoint same hota hai - isse nikalo.",
+    "<strong>Grid-walk vs direct:</strong> galiyon mein chalna (horizontal+vertical) seedhe faasle se LAMBA hota hai, kabhi barabar nahi (except straight line).",
+    "<strong>x<sup>2</sup>+y<sup>2</sup> compare karo r<sup>2</sup> se</strong> - andar/par/bahar ka ek-line test."
+   ],
+   "tricks": [
+    {
+     "trick": "Same y? Distance = |x<sub>2</sub> - x<sub>1</sub>|. Same x? Distance = |y<sub>2</sub> - y<sub>1</sub>|",
+     "when": "Points share a coordinate - skip the formula, just subtract."
+    },
+    {
+     "trick": "Distance from origin = √(x<sup>2</sup> + y<sup>2</sup>). Memorise triples: (3,4,5), (6,8,10), (5,12,13), (8,15,17)",
+     "when": "\"How far from the origin?\" - spot the triple, answer in 2 seconds."
+    },
+    {
+     "trick": "Reflect in x-axis: (x, -y). In y-axis: (-x, y). In both: (-x, -y)",
+     "when": "Any \"mirror image / reflection\" wording."
+    },
+    {
+     "trick": "Midpoint = averages of the coordinates; reverse: B = 2M - A",
+     "when": "\"Midpoint\", \"bisects\", or one endpoint + midpoint given."
+    },
+    {
+     "trick": "Right angle test: (biggest side)<sup>2</sup> = sum of squares of other two",
+     "when": "\"Prove/verify right angle\", triangle classification."
+    },
+    {
+     "trick": "Point on circle centre O radius r ⟺ x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>",
+     "when": "\"On/inside/outside the circle\" - compare x<sup>2</sup>+y<sup>2</sup> with r<sup>2</sup>."
+    },
+    {
+     "trick": "\"On the x-axis\" → y = 0; \"on the y-axis\" → x = 0",
+     "when": "Building coordinates of axis points."
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Figure reading + distance formula (T2/T4)",
+     "stem": "A delivery boy starts at home O(0, 0), rides 4 units east to a tea stall at A(4, 0), then rides 3 units north to deliver food at B(4, 3), and finally rides straight back to O. Using the figure: (i) what is the total distance he rode? (ii) when he is at B, how far is he from home (straight line)? (iii) if a drone could fly directly from O to B, how much shorter would the O-to-B trip be compared to his road trip O-A-B?",
+     "steps": [
+      "Read the figure: O to A is horizontal with the same y-coordinate, so OA = |4 - 0| = 4 units. A to B is vertical with the same x-coordinate, so AB = |3 - 0| = 3 units. Same-coordinate pairs give free distances.",
+      "The ride home B to O is the slanted stretch BO. Route makes a right angle at A, so triangle OAB has legs 4 and 3.",
+      "Distance formula (or the 3-4-5 triple): BO = √((4-0)<sup>2</sup> + (3-0)<sup>2</sup>) = √(16 + 9) = √25 = 5 units.",
+      "(i) Total distance ridden = OA + AB + BO = 4 + 3 + 5 = 12 units.",
+      "(ii) At B, straight-line distance from home = BO = 5 units.",
+      "(iii) Road O-A-B = 4 + 3 = 7 units; direct O-to-B = 5 units. Saving = 7 - 5 = 2 units."
+     ],
+     "answer": "(i) 12 units (ii) 5 units (iii) 2 units shorter",
+     "why": [
+      "Same-coordinate pairs need only subtraction - save the formula for the slanted side.",
+      "The right angle at A makes OB the hypotenuse - spotting the 3-4-5 triple kills the square root work instantly."
+     ],
+     "hinglish": "Delivery wala scene ek right triangle hai: east 4, north 3, toh ghar seedha 5 - 3-4-5 triple yaad hai na? Total ride 12 units, par seedhi line sirf 5. Graph paper par ghoomna mehnga hai, drone hi bhej do!",
+     "fig": "f1d_walk.png"
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Distance from origin (T4)",
+     "stem": "Find the distance of the point (6, 8) from the origin. Which Pythagorean triple is hiding inside this question, and how can the triple help you answer faster next time?",
+     "steps": [
+      "Given: point (6, 8). Needed: distance from O(0, 0).",
+      "Distance from origin = √(x² + y²) = √(6² + 8²).",
+      "Compute the squares: 36 + 64 = 100.",
+      "Take the root: √100 = 10.",
+      "The hidden triple is 3-4-5 scaled by 2: 6-8-10. If you spot (6, 8), you can jump straight to 10 without squaring.",
+      "So the distance is 10 units."
+     ],
+     "answer": "10 units; the triple 6-8-10 (which is 2 x (3-4-5)).",
+     "why": [
+      "Spotting the triple is a safe shortcut only when BOTH numbers of a known triple appear exactly; otherwise use the formula."
+     ],
+     "hinglish": "Origin se distance ka short formula: √(x² + y²). 6 aur 8 ko dekhte hi 3-4-5 wala triple yaad karo - dono numbers 2 se multiply ho rahe hain, isliye answer 5 ka 2 guna = 10. Triples ratt lo: 3-4-5, 5-12-13, 8-15-17, 7-24-25. Par dhyan rahe - triple tabhi use karo jab numbers EXACT match karein, warna seedha formula lagao.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Moderate",
+     "concept": "Distance formula (T4)",
+     "stem": "Find the distance between A(1, 2) and B(4, 6) using (i) the helper-triangle method and (ii) the direct formula. Confirm both give the same value.",
+     "steps": [
+      "Given: A(1, 2), B(4, 6). Needed: AB by two methods.",
+      "Helper triangle: the horizontal leg is |4 - 1| = 3 and the vertical leg is |6 - 2| = 4.",
+      "By Pythagoras, AB = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+      "Direct formula: AB = √((4 - 1)² + (6 - 2)²) = √(3² + 4²) = 5.",
+      "Both methods agree: AB = 5 units. The helper triangle simply explains where the formula comes from."
+     ],
+     "answer": "AB = 5 units by both methods.",
+     "why": [
+      "Showing both methods builds the habit of verifying with geometry - on hard questions this catches sign slips instantly."
+     ],
+     "hinglish": "Yahi chapter ka hero question hai. Helper triangle mein humne sirf differences liye - 3 aur 4 - aur wo 3-4-5 triple nikla, isliye answer 5. Formula bhi wahi karta hai, bas ek line mein. Dono ka jawab same aana hi chahiye kyunki formula Pythagoras ka hi shortcut hai. Aage se seedha formula use karo, par agar kabhi doubt ho, helper triangle bana lo.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "Reflection chain (T7)",
+     "stem": "The point P(4, -3) is reflected in the x-axis to get P₁, and then P₁ is reflected in the y-axis to get P₂. Write the coordinates of P₁ and P₂, and find the length PP₂.",
+     "steps": [
+      "Given: P(4, -3) and a chain of two reflections. Needed: images and PP₂.",
+      "Reflection in the x-axis keeps x and flips the sign of y: P₁ = (4, 3).",
+      "Reflection in the y-axis keeps y and flips the sign of x: P₂ = (-4, 3).",
+      "PP₂ joins (4, -3) to (-4, 3): x-difference = -4 - 4 = -8, y-difference = 3 - (-3) = 6.",
+      "PP₂ = √((-8)² + 6²) = √(64 + 36) = √100 = 10.",
+      "Check with preserved distances: PP₁ = |3 - (-3)| = 6 (vertical segment), P₁P₂ = |(-4) - 4| = 8 (horizontal segment), and indeed 6² + 8² = 10², so the numbers are internally consistent."
+     ],
+     "answer": "P₁ = (4, 3), P₂ = (-4, 3), PP₂ = 10 units.",
+     "why": [],
+     "hinglish": "Reflection ke do simple rules: x-axis mein ungli x-axis par - sirf y ka sign palto. y-axis mein - sirf x ka sign palto. Chain mein dono lagane se (4, -3) pehle (4, 3) bana, phir (-4, 3). Ab distance: 8 aur 6 ka 8-6-10 triple! Aur verification sundar hai: PP₁ = 6 vertical, P₁P₂ = 8 horizontal, inka Pythagoras bhi 10 hi deta hai. Double confirmation mil gaya.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Right-angle by converse Pythagoras (T6)",
+     "stem": "A(1, 1), B(4, 1) and C(4, 5) are three points. Use the distance formula and the converse of the Baudhayana-Pythagoras Theorem to show that angle B is a right angle, and find the area of triangle ABC.",
+     "steps": [
+      "Given: three vertices. Needed: prove right angle at B, then area.",
+      "AB: same y = 1, so AB = |4 - 1| = 3.",
+      "BC: same x = 4, so BC = |5 - 1| = 4.",
+      "AC = √((4 - 1)² + (5 - 1)²) = √(9 + 16) = √25 = 5.",
+      "Check the converse: AC² = 25 and AB² + BC² = 9 + 16 = 25. They are equal, so the angle opposite AC - which is angle B - is a right angle.",
+      "Area of a right triangle = (1/2) x leg x leg = (1/2) x 3 x 4 = 6 square units.",
+      "The hidden triple is again 3-4-5."
+     ],
+     "answer": "Angle B = 90 degrees (since 3² + 4² = 5² = AC²); area = 6 square units.",
+     "why": [],
+     "hinglish": "Converse Pythagoras ka use yaad karo: agar c² = a² + b², toh c ke saamne wala angle 90 hai. Yahan AC sabse lambi hai (5), aur 3² + 4² = 5² nikla, toh B par right angle. Area ke liye right triangle ka bonus: do legs ko base-height maan lo, (1/2)(3)(4) = 6. Coordinate geometry mein area aise hi nikalte hain jab triangle axis-aligned legs rakhta hai.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Difficult",
+     "concept": "Reverse midpoint (T8)",
+     "stem": "M(-1, 3) is the midpoint of the segment joining A(2, -4) and B(x, y). Find B, and verify your answer by checking that MA = MB.",
+     "steps": [
+      "Given: midpoint and one endpoint. Needed: the other endpoint.",
+      "Midpoint equations: (-1) = (2 + x)/2 and 3 = (-4 + y)/2.",
+      "Solve the first: multiply by 2: -2 = 2 + x, so x = -4.",
+      "Solve the second: 6 = -4 + y, so y = 10.",
+      "So B = (-4, 10).",
+      "Verify MA: differences (2 - (-1)) = 3 and (-4 - 3) = -7, MA = √(9 + 49) = √58.",
+      "Verify MB: differences (-4 - (-1)) = -3 and (10 - 3) = 7, MB = √(9 + 49) = √58. Equal, so B is correct."
+     ],
+     "answer": "B = (-4, 10), verified since MA = MB = √58.",
+     "why": [
+      "Reverse midpoint = undo the average: multiply by 2, then subtract the known endpoint. Verification with equal distances is cheap and catches slips."
+     ],
+     "hinglish": "Midpoint wala equation ulta chalana hai: average diya hai, original nikalna hai. 2 se multiply karo, phir known endpoint minus karo. x ke liye: (-1)(2) - 2 = -4. y ke liye: (3)(2) - (-4) = 10. Verification zaroor karo - MA aur MB dono √58 aaye, matlab M sach mein beech mein baitha hai. Bina verification ke answer likhna adhoora hai.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Difficult",
+     "concept": "Equidistant point on an axis (T5/T8)",
+     "stem": "Find the point on the y-axis that is equidistant from P(-2, 0) and Q(6, 4). Verify your answer.",
+     "steps": [
+      "Given: unknown point R on the y-axis. Needed: R equidistant from P and Q.",
+      "On the y-axis the point has the form R(0, y) - fix the zero first.",
+      "RP² = (0 - (-2))² + (y - 0)² = 4 + y².",
+      "RQ² = (0 - 6)² + (y - 4)² = 36 + (y - 4)².",
+      "Set them equal: 4 + y² = 36 + y² - 8y + 16.",
+      "Cancel y² from both sides (this is why the equation stays linear and easy): 4 = 52 - 8y.",
+      "So 8y = 48, giving y = 6. Hence R = (0, 6).",
+      "Verify: RP = √(4 + 36) = √40 = 2√10. RQ = √(36 + (6 - 4)²) = √(36 + 4) = √40 = 2√10. Equal, so R is correct."
+     ],
+     "answer": "R = (0, 6), verified since RP = RQ = 2√10.",
+     "why": [
+      "Comparing squared distances avoids square roots entirely; and y² cancels, leaving a linear equation."
+     ],
+     "hinglish": "Y-axis par point = (0, y) - pehle yeh lock karo. Phir dono distances ke SQUARES barabar rakho, root ka jhanjhat khatam. Sabse sundar cheez: y² dono taraf cancel ho gaya aur seedha linear equation mil gaya, y = 6. Verify karo: dono distances 2√10. Aisa equidistant point technically perpendicular bisector par baithta hai - yahan humne uska sirf y-axis wala intersection nikala. 2√10 ko 6.32 likhne ki zaroorat nahi.",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "High",
+     "concept": "Missing rectangle vertex (T6/T8)",
+     "stem": "Three vertices of a rectangle are A(1, 2), B(5, 2) and C(5, 7). Find the fourth vertex D, and verify the rectangle property that its diagonals are equal.",
+     "steps": [
+      "Given: three consecutive vertices. Needed: D and the diagonal check.",
+      "AB is horizontal (y = 2 for both) with length 4; BC is vertical (x = 5 for both) with length 5.",
+      "In a rectangle the fourth side DA must be vertical (above A) and CD horizontal - so D must sit directly above A at the same height as C.",
+      "Directly above A(1, 2) means x = 1; at the same height as C means y = 7. So D = (1, 7).",
+      "Verify with side lengths: DA from (1, 7) to (1, 2) has length 5, CD from (5, 7) to (1, 7) has length 4 - matching the opposite sides.",
+      "Diagonal AC = √((5 - 1)² + (7 - 2)²) = √(16 + 25) = √41.",
+      "Diagonal BD = √((1 - 5)² + (7 - 2)²) = √(16 + 25) = √41. Equal, so the rectangle property holds."
+     ],
+     "answer": "D = (1, 7); diagonals AC = BD = √41, confirming the rectangle.",
+     "why": [],
+     "hinglish": "Rectangle ka chautha vertex pattern se milta hai: A ke seedha upar, C ke level par. x = 1 (A jaisa), y = 7 (C jaisa). Phir property check - diagonals barabar? Dono √41. Yahan √41 ko simplify nahi kar sakte (41 prime hai), toh root form hi final hai. Notice karo: har rectangle mein diagonals barabar hote hain - ye test humne parallelogram question (Q23) mein bhi use kiya tha, wahan fail hua tha, yahan pass.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "High",
+     "concept": "Area of right triangle from coordinates (T12)",
+     "stem": "A triangle has vertices O(0, 0), A(8, 0) and B(0, 6). Show that it is right-angled, find its hypotenuse, and compute its area and perimeter.",
+     "steps": [
+      "Given: three vertices, two of them on the axes. Needed: right angle, hypotenuse, area, perimeter.",
+      "OA lies along the x-axis: length 8. OB lies along the y-axis: length 6.",
+      "The x-axis and y-axis are perpendicular, and OA, OB lie along them, so the angle at O is 90 degrees.",
+      "Hypotenuse AB = √(8² + 6²) = √(64 + 36) = √100 = 10 (the 6-8-10 triple).",
+      "Area = (1/2) x OA x OB = (1/2) x 8 x 6 = 24 square units.",
+      "Perimeter = 8 + 6 + 10 = 24 units. A charming coincidence: area 24 and perimeter 24."
+     ],
+     "answer": "Right angle at O; hypotenuse AB = 10; area = 24 sq units; perimeter = 24 units.",
+     "why": [],
+     "hinglish": "Jab triangle ke do sides axes par baithe hon, right angle free mein milta hai - axis parallel hi perpendicular hote hain. Phir 8-6-10 triple se hypotenuse 10. Area = 24, perimeter bhi 24 - dono number same! Aisi coincidences questions mein jaan-bujh ke rakhi jaati hain, toh apne practice questions mein bhi aisi numbers chuno toh checking easy hoti hai.",
+     "fig": null
+    },
+    {
+     "n": 10,
+     "level": "HOTS",
+     "concept": "Grid-walk vs direct distance (T11/T4)",
+     "stem": "A delivery robot moves on a grid of unit squares. It must travel from station S(1, 1) to station T(7, 4). (i) What is the length of the shortest path using only horizontal and vertical moves? (ii) What is the straight-line distance? (iii) A second robot flies directly. How much distance does it save compared to the ground robot?",
+     "steps": [
+      "Given: grid unit 1, S(1, 1) to T(7, 4). Needed: street length, direct length, saving.",
+      "Horizontal gap = 7 - 1 = 6 units; vertical gap = 4 - 1 = 3 units.",
+      "Ground robot (only axis moves): 6 + 3 = 9 units. Every such path has exactly this length - no order of moves can beat it.",
+      "Flying robot (straight line): √(6² + 3²) = √(36 + 9) = √45 = 3√5 (approximately 6.71 units).",
+      "Saving = 9 - 3√5 (exactly), approximately 9 - 6.71 = 2.29 units.",
+      "Keep the exact answer 9 - 3√5 in the final statement; the decimal is only for intuition."
+     ],
+     "answer": "(i) 9 units (ii) 3√5 units (approx 6.71) (iii) saving 9 - 3√5 approx 2.29 units.",
+     "why": [],
+     "hinglish": "Grid-walk ka funda: horizontal steps + vertical steps hamesha fix hote hain (yahan 6 + 3 = 9), chahe kisi bhi order mein chalo. Direct distance Pythagoras se 3√5. Saving 9 - 3√5 approx 2.3 units. Ye question Q26 (city auto) ka bhai hai - wahan 200 m blocks the, yahan 1 unit. Same skeleton, naye numbers - yahi 'question structure' samajhna original practice hai, ratna nahi.",
+     "fig": "f1d_robot.png"
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Quadrant signs",
+     "stem": "The point (-7, 4) lies in which quadrant?",
+     "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+     ],
+     "ans": "B",
+     "expl": "x = -7 is negative and y = +4 is positive. The sign pattern (-, +) is exactly the definition of Quadrant II (above the x-axis, left of the y-axis).",
+     "hinglish": "Pehla number minus (left), doosra plus (upar) - ye Quadrant II ka signature hai. Bas signs match karo, answer mil gaya.",
+     "traps": {
+      "A": "(+, +) would need BOTH positive; here x is negative.",
+      "C": "Quadrant III is (-, -) - y must also be negative.",
+      "D": "Quadrant IV is (+, -) - both signs are wrong here."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Coordinate meaning",
+     "stem": "The perpendicular distance of the point (-4, 9) from the y-axis is:",
+     "options": [
+      "9 units",
+      "4 units",
+      "-4 units",
+      "√97 units"
+     ],
+     "ans": "B",
+     "expl": "Distance from the y-axis is given by the size of the x-coordinate: |x| = |-4| = 4. Distances are never negative.",
+     "hinglish": "y-axis se doori = |x|. Minus sirf side batata hai (left), distance toh 4 hi hai. Distance kabhi negative nahi hota - option C khatam. √97 toh origin se distance hai (4² + 9²).",
+     "traps": {
+      "A": "9 is the distance from the x-axis, not the y-axis.",
+      "C": "Distances are always non-negative; -4 is a coordinate, not a distance.",
+      "D": "√97 is the distance from the origin."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Distance formula 6-8-10",
+     "stem": "The distance between (1, -2) and (7, 6) is:",
+     "options": [
+      "10 units",
+      "12 units",
+      "√84 units",
+      "14 units"
+     ],
+     "ans": "A",
+     "expl": "Differences: 7 - 1 = 6 and 6 - (-2) = 8. Distance = √(36 + 64) = √100 = 10, the 6-8-10 triple.",
+     "hinglish": "6 aur 8 dikh rahe hain? 3-4-5 ka do guna - seedha 10. Triple yaad rakho toh square karne ki bhi zaroorat nahi.",
+     "traps": {
+      "B": "12 would come from adding instead of applying Pythagoras.",
+      "C": "√84 comes from miscomputing the y-difference as 4 or 8-(-2) as something else."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Half-turn symmetry",
+     "stem": "If P(a, b) lies in Quadrant II, then the point (-a, -b) lies in:",
+     "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+     ],
+     "ans": "D",
+     "expl": "In Q II, a is negative and b is positive. So -a is positive and -b is negative: signs (+, -), which is Quadrant IV. Flipping both signs reflects the point through the origin (a half-turn).",
+     "hinglish": "Q II mein a negative, b positive. Dono ke sign palte toh (+, -) = Q IV. Yaad rakho: (x, y) aur (-x, -y) hamesha opposite quadrants mein hote hain - origin ke through mirror.",
+     "traps": {
+      "A": "Both signs must flip, not stay one-negative-one-positive.",
+      "B": "Same quadrant is impossible after a half-turn."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Reflection in y-axis",
+     "stem": "The reflection of the point (-3, -5) in the y-axis is:",
+     "options": [
+      "(3, -5)",
+      "(3, 5)",
+      "(-3, 5)",
+      "(-3, -5)"
+     ],
+     "ans": "A",
+     "expl": "Reflection in the y-axis flips only the sign of x: (-3, -5) becomes (3, -5). The y-coordinate is untouched.",
+     "hinglish": "y-axis mein mirror = sirf x ka sign ulta. (-3, -5) ka x minus tha, ab plus: (3, -5). y ko mat chhedo - wahi sabse common galti hai.",
+     "traps": {
+      "B": "(3, 5) flips both signs - that is reflection in BOTH axes.",
+      "C": "(-3, 5) flips y only - that is the x-axis reflection."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Midpoint",
+     "stem": "The midpoint of the segment joining (-3, 8) and (5, -2) is:",
+     "options": [
+      "(1, 3)",
+      "(2, 6)",
+      "(1, 5)",
+      "(4, 3)"
+     ],
+     "ans": "A",
+     "expl": "Midpoint = ((-3 + 5)/2, (8 + (-2))/2) = (2/2, 6/2) = (1, 3).",
+     "hinglish": "Average lo dono coordinates ka: (-3 + 5)/2 = 1 aur (8 - 2)/2 = 3. (2, 6) wo galti hai jab divide karna bhool jaate ho.",
+     "traps": {
+      "B": "(2, 6) is the sum of the coordinates without halving.",
+      "C": "The y-average was computed as (8 - 2)/2 = 5 by dropping a sign.",
+      "D": "Adds only the x-pair wrongly."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "5-12-13 triple",
+     "stem": "The distance of (5, -12) from the origin is:",
+     "options": [
+      "7 units",
+      "13 units",
+      "17 units",
+      "169 units"
+     ],
+     "ans": "B",
+     "expl": "√(25 + 144) = √169 = 13. The 5-12-13 triple, again with a harmless minus sign.",
+     "hinglish": "5-12-13 triple ratt lo. Minus ko ignore karo - square ke baad koi matlab nahi. 169 square hai, root nahi - aisi chhoti galti bahut log karte hain.",
+     "traps": {
+      "A": "5 + (-12) size subtraction - meaningless.",
+      "C": "17 = 5 + 12 (adding instead of Pythagoras).",
+      "D": "169 is 13 squared."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Perimeter of right triangle",
+     "stem": "The perimeter of the triangle with vertices (0, 0), (4, 0), (0, 3) is:",
+     "options": [
+      "7 units",
+      "12 units",
+      "10 units",
+      "6 units"
+     ],
+     "ans": "B",
+     "expl": "Legs are 4 and 3; hypotenuse = 5 (3-4-5). Perimeter = 4 + 3 + 5 = 12.",
+     "hinglish": "Axis par baithe legs 4 aur 3, hypotenuse 5. Sab JODO: 12. 7 sirf do legs ka sum hai - hypotenuse bhool gaye.",
+     "traps": {
+      "A": "3 + 4 only - forgot the hypotenuse.",
+      "C": "Confused with a different triple.",
+      "D": "Half the perimeter."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Area of right triangle",
+     "stem": "The area of the triangle with vertices (0, 0), (8, 0) and (0, 6) is:",
+     "options": [
+      "48 sq units",
+      "24 sq units",
+      "14 sq units",
+      "10 sq units"
+     ],
+     "ans": "B",
+     "expl": "Right angle at the origin with legs 8 and 6. Area = (1/2)(8)(6) = 24.",
+     "hinglish": "Right triangle ka area = aadha x base x height = 24. 48 wo galti hai jab 1/2 multiply karna bhool jaate ho.",
+     "traps": {
+      "A": "Missing the factor 1/2.",
+      "C": "8 + 6 - a sum, not an area.",
+      "D": "Applied some ratio incorrectly."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Assertion-reason",
+     "stem": "Assertion (A): The distance of a point (x, y) from the origin is √(x² + y²). Reason (R): The Baudhayana-Pythagoras Theorem gives hypotenuse = √(sum of squares of legs). Choose the correct option:",
+     "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true, R is false",
+      "A is false, R is true"
+     ],
+     "ans": "A",
+     "expl": "The distance formula from the origin is exactly Pythagoras applied to the legs x and y. The assertion is true and the reason is the actual justification behind it.",
+     "hinglish": "A sahi hai, aur wo sahi ISLIYE hai kyunki origin se jaane wala segment right triangle ka hypotenuse hai jiske legs x aur y hain. R wahi theorem hai - toh R, A ko explain karta hai. Option A.",
+     "traps": {
+      "B": "R genuinely explains A here - do not dismiss the connection.",
+      "C": "R is a correct statement of the theorem.",
+      "D": "A is the standard distance-from-origin result."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Equidistant on x-axis",
+     "stem": "The point (x, 0) is equidistant from (2, 3) and (6, 3). Then x equals:",
+     "options": [
+      "4",
+      "2",
+      "8",
+      "3"
+     ],
+     "ans": "A",
+     "expl": "(x - 2)² + 9 = (x - 6)² + 9. The 9s cancel: (x - 2)² = (x - 6)², so x - 2 = plus/minus (x - 6). The negative-sign branch gives a contradiction (0 = -8... no solution from that branch), the positive-sign branch gives x - 2 = x - 6? Also impossible - so take x - 2 = -(x - 6): 2x = 8, x = 4. Geometrically, x = 4 is the midpoint of 2 and 6, directly below the midpoint of the two given points.",
+     "hinglish": "Dono given points ka y same hai (3), isliye equidistant point unke beech ke THEEK beech mein hoga: (2 + 6)/2 = 4. Equation se bhi x = 4 hi aata hai. Ye symmetry ka use hai - jab dono points same height par hon toh answer unka midpoint hota hai.",
+     "traps": {
+      "B": "That is the first point itself.",
+      "C": "8 is beyond the second point - not symmetric.",
+      "D": "3 is not the average of 2 and 6."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Order independence of distance",
+     "stem": "Statement: If the two points in a distance calculation are interchanged, the computed distance changes. Is the statement TRUE or FALSE, and why?",
+     "options": [
+      "TRUE, because x and y swap places",
+      "FALSE, because the differences are squared, which erases the sign change",
+      "TRUE, because the formula is order-dependent",
+      "FALSE, because distance is always zero"
+     ],
+     "ans": "B",
+     "expl": "Swapping the points changes (x2 - x1) into (x1 - x2) = negative of it. But squaring makes both equal. Hence the distance is unchanged.",
+     "hinglish": "Points ulta karne se differences ka sign ulta hota hai, par square laga-te-hi sign khatam. Isliye distance same rehta hai. Ye freedom hai - jis point ko pehle maano, jawab same.",
+     "traps": {
+      "A": "Coordinates do not swap - only the subtraction order flips.",
+      "C": "The formula is order-independent.",
+      "D": "Distance is zero only for identical points."
+     }
+    },
+    {
+     "n": 13,
+     "level": "Normal",
+     "concept": "Axis membership",
+     "stem": "A point whose x-coordinate is 0 must lie:",
+     "options": [
+      "on the x-axis",
+      "on the y-axis",
+      "in Quadrant II",
+      "at the origin"
+     ],
+     "ans": "B",
+     "expl": "x = 0 means zero sideways distance from the y-axis, so the point sits on the y-axis - at (0, y) for some y. It is the origin only if additionally y = 0.",
+     "hinglish": "x = 0 matlab left-right displacement zero = seedha y-axis par. Origin tabhi banega jab y bhi 0 ho. x-axis wale options mein y = 0 hota hai - ulta mat karo.",
+     "traps": {
+      "A": "On the x-axis it is y that equals 0.",
+      "C": "Quadrant points have both coordinates non-zero.",
+      "D": "Origin needs y = 0 as well."
+     }
+    },
+    {
+     "n": 14,
+     "level": "HOTS",
+     "concept": "Circumcentre of right triangle",
+     "stem": "For the right triangle with vertices (0, 0), (6, 0) and (0, 8), the point equidistant from all three vertices is:",
+     "options": [
+      "(3, 4)",
+      "(3, 5)",
+      "(4, 3)",
+      "(2, 3)"
+     ],
+     "ans": "A",
+     "expl": "Hypotenuse joins (6, 0) to (0, 8); its midpoint is (3, 4). In a right triangle the midpoint of the hypotenuse is equidistant from all three vertices (distance 5 here: 3-4-5 again).",
+     "hinglish": "Q42 wala theorem yaad karo - right triangle mein hypotenuse ka MIDPOINT hi teeno se equidistant. (6,0) aur (0,8) ka midpoint = (3, 4). Distance check: origin se 5, dono vertices se 5. Bang on.",
+     "traps": {
+      "B": "Not the midpoint of the hypotenuse.",
+      "C": "Swapped coordinates.",
+      "D": "No geometric basis."
+     }
+    }
+   ],
+   "short": "Coordinate Geometry"
+  },
+  {
+   "num": 2,
+   "name": "Linear Equations in One and Two Variables",
+   "star": false,
+   "title": "Chapter 2: Linear Equations in One and Two Variables",
+   "intro": "Duniya ke har \"fixed + per-unit\" scene ko ek line y = ax + b mein likhna. Bill ho, age ho, tanki ho ya matchstick pattern - sab isi ek shape mein aata hai. Slope aur intercept padhna seekh lo, chapter khatam.",
+   "formulas": [
+    {
+     "f": "y = ax + b",
+     "meaning": "<strong>a</strong> = har unit ka rate (slope), <strong>b</strong> = shuruati/fixed amount. \"Rs 300 joining + Rs 60 per session\" → y = 60x + 300.",
+     "ex": "y = 60x + 300; x = 5 sessions → y = 600"
+    },
+    {
+     "f": "Slope from 2 points: a = (y<sub>2</sub>−y<sub>1</sub>)/(x<sub>2</sub>−x<sub>1</sub>)",
+     "meaning": "Per step kitna badla. Upar utha toh plus, neeche gira toh minus.",
+     "ex": "(1, 4), (3, 10): a = (10−4)/(3−1) = 3"
+    },
+    {
+     "f": "Do bills diya ho? Equations MINUS karo",
+     "meaning": "Dono equations ko subtract karo - fixed wala (b) cancel ho jata hai, rate (a) khud nikal aata hai. Phir b wapas nikaalo.",
+     "ex": "y = ax + b ke 2 points → pehle a, phir b"
+    },
+    {
+     "f": "Pattern: T(n) = kn + c, jahan c = (first term) − k",
+     "meaning": "Har step mein utna hi add ho (k)? Toh linear pattern. c nikaalne ke liye pehle term se k ghatao.",
+     "ex": "4, 9, 14, ...: k = 5, c = 4−5 = −1 → T(n) = 5n − 1"
+    },
+    {
+     "f": "y-intercept = (0, b); x-intercept: y = 0 rakh ke solve",
+     "meaning": "Line jahan y-axis ko kaate = (0, b). x-axis ka point chahiye toh y ko zero maan lo.",
+     "ex": "y = 2x + 8: y-cut (0, 8), x-cut (−4, 0)"
+    },
+    {
+     "f": "Bada |a| = steeper line; same a = parallel lines",
+     "meaning": "Slope compare karo: jiska |a| bada, wo zyada khadi. a same ho toh kabhi milengi nahi (parallel).",
+     "ex": "y = 3x − 1 steeper than y = x + 9"
+    },
+    {
+     "f": "Growth: add/earn → +a. Decay: spend/drain → −a",
+     "meaning": "Scene padho: paisa jud raha hai toh slope plus, fat raha hai toh minus. Decay mein bhi formula same.",
+     "ex": "Bela: 500 − 30x (decay); tanki: 900 − 45t"
+    },
+    {
+     "f": "p(x) ki value: x ki jagah number daal do",
+     "meaning": "Polynomial machine hai - input daalo, output lo. p(x) = 3x − 7 at x = 5: 15 − 7 = 8.",
+     "ex": "p(−2) for 4x − 9 = −8 − 9 = −17"
+    },
+    {
+     "f": "Degree = highest power. Linear = degree 1",
+     "meaning": "2x + 9 linear, x<sup>2</sup> + 1 quadratic, x<sup>3</sup> cubic. Constant polynomial ka degree 0.",
+     "ex": "4y<sup>3</sup> + y: degree 3, cubic"
+    }
+   ],
+   "checks": [
+    "<strong>Variable pehchano:</strong> jo cheez badal rahi hai (sessions, km, months) wahi x hai; jo puchha hai wo y.",
+    "<strong>Fixed fee kabhi x se multiply nahi hoti</strong> - wo b hai, chahe kuch bhi ho.",
+    "<strong>Do conditions = do equations.</strong> \"Sum 50 aur difference 8\" jaise scenes minus/karne par solve hote hain.",
+    "<strong>Age problems:</strong> \"Mother 4 times daughter\" → m = 4d; saalon baad dono mein +k add hota hai.",
+    "<strong>Coin/money problems:</strong> count alag, value alag - 5x + 10y type equation banao.",
+    "<strong>Matchstick patterns:</strong> pehla figure alag (c), har naya figure fixed adds (k) → T(n) = kn + c.",
+    "<strong>Line ki graph reading:</strong> (0, b) se shuru, slope a se chadho/utro. Har point (x, y) line par hai agar equation satisfy ho.",
+    "<strong>Two lines same equation = same line</strong> (infinite solutions); same a different b = parallel (no meeting).",
+    "<strong>C ≠ F kabhi barabar nahi hota?</strong> Hota hai! F = 1.8C + 32 mein C = F rakho: C = −40. Yaad rakhna, HOTS favourite."
+   ],
+   "tricks": [
+    {
+     "trick": "Fixed fee + rate × quantity → y = ax + b (b = fixed part, a = per-unit rate)",
+     "when": "\"Rs 300 joining + Rs 60 per session\" style wording."
+    },
+    {
+     "trick": "Two observations? Subtract the equations - b cancels, a pops out",
+     "when": "Fit y = ax + b from two bills or data points."
+    },
+    {
+     "trick": "Pattern adds k every step → T(n) = kn + c; c = (first term) - k",
+     "when": "Matchstick, tile and money patterns."
+    },
+    {
+     "trick": "Slope a = Δy/Δx; bigger |a| = steeper; same a = parallel",
+     "when": "\"Which line is steeper / are they parallel?\""
+    },
+    {
+     "trick": "Changing b shifts the line up/down; changing a pivots it about (0, b)",
+     "when": "\"What happens to the graph if ...?\""
+    },
+    {
+     "trick": "Spends / loses / drains → minus slope (decay). Adds / earns / fills → plus (growth)",
+     "when": "Growth vs decay identification."
+    },
+    {
+     "trick": "y-intercept = (0, b); x-intercept: put y = 0, solve",
+     "when": "\"Where does the line cut the axes?\""
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Word problem: sum and difference (T5)",
+     "stem": "The sum of two numbers is 50, and one of them is 8 more than the other. Find the numbers.",
+     "steps": [
+      "Let the smaller number be x. Then the larger is x + 8.",
+      "Sum condition: x + (x + 8) = 50.",
+      "Simplify: 2x + 8 = 50, so 2x = 42, giving x = 21.",
+      "The numbers are 21 and 29.",
+      "Check in words: 21 + 29 = 50 and 29 - 21 = 8. Both conditions hold."
+     ],
+     "answer": "The numbers are 21 and 29.",
+     "why": [],
+     "hinglish": "Chota number x maan lo, bada apne aap x + 8 ban jaata hai. Sum equation se x = 21. Aur LAST STEP yaad rakho: dono numbers report karo - sirf 'x = 21' likha toh aadha answer hai. Words mein wapas check karo, equation mein hi nahi.",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Fee structure modelling (T5/T8)",
+     "stem": "A badminton academy charges a joining fee of Rs 300 plus Rs 60 for every session attended. (i) Write the total cost for n sessions. (ii) Find the cost for 12 sessions. (iii) A player paid Rs 780 in total. How many sessions did she attend?",
+     "steps": [
+      "Cost = fixed part + variable part = 300 + 60n.",
+      "For 12 sessions: 300 + 60(12) = 300 + 720 = Rs 1020.",
+      "Reverse: 300 + 60n = 780.",
+      "Subtract 300: 60n = 480, so n = 8.",
+      "Check: 300 + 60(8) = 300 + 480 = 780. Correct - she attended 8 sessions."
+     ],
+     "answer": "(i) 300 + 60n (ii) Rs 1020 (iii) 8 sessions.",
+     "why": [],
+     "hinglish": "Fixed + rate x count - yahi har bill ka formula hai. Aage jaane ke liye substitute, peeche aane ke liye solve. 780 mein se 300 hataya toh sessions ka khel bacha: 480/60 = 8.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Moderate",
+     "concept": "Linear decay money (T8)",
+     "stem": "Bela has Rs 500 and spends Rs 30 every day. (i) Write the amount left after n days. (ii) After how many days will she be left with Rs 200? (iii) What is the amount left after 15 days, and why does the model stay valid only up to 10 days of reaching zero? Actually find the exact day her money runs out.",
+     "steps": [
+      "Amount(n) = 500 - 30n.",
+      "Set 500 - 30n = 200: 30n = 300, n = 10 days.",
+      "After 15 days: 500 - 30(15) = 500 - 450 = Rs 50.",
+      "Running out: 500 - 30n = 0 gives n = 500/30 = 16.67 days. Money reaches zero partway through the 17th day.",
+      "So the linear model describes her cash only until about 16.67 days; beyond that the amount cannot go below 0."
+     ],
+     "answer": "(i) 500 - 30n (ii) after 10 days (iii) Rs 50 after 15 days; money hits zero during the 17th day (n = 500/30 = 16.67), where the model ends.",
+     "why": [
+      "Real decay models hit a floor. Reporting WHEN the floor is reached (and that the model stops there) is the mark of a careful modeller."
+     ],
+     "hinglish": "Decay question mein teen sawaal hote hain: kitna bacha (substitute), kab itna bacha (solve), kab khatam (zero set karo). Yahan 16.67 din - matlab 17ve din ke beech mein khatam. Model ki limit batana bhi answer ka hissa hai - paisa negative nahi ho sakta!",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "Piecewise-style fare (T8)",
+     "stem": "A taxi charges Rs 40 for the first 3 km (and any part of it), then Rs 18 for every additional km. (i) Find the fare for a 12 km trip. (ii) Write the fare for a trip of n km where n is at least 3. (iii) For what distance is the fare Rs 148?",
+     "steps": [
+      "Beyond 3 km, chargeable extra distance = (n - 3) km.",
+      "Fare for 12 km: 40 + 18 x (12 - 3) = 40 + 162 = Rs 202.",
+      "General: F(n) = 40 + 18(n - 3) = 18n - 54 + 40 = 18n - 14, valid for n at least 3.",
+      "Set 18n - 14 = 148: 18n = 162, n = 9 km.",
+      "Check with the original description: 40 for the first 3 km plus 18 x 6 = 108 for the next 6 km: total 148. Correct."
+     ],
+     "answer": "(i) Rs 202 (ii) F(n) = 18n - 14 for n at least 3 (iii) 9 km.",
+     "why": [],
+     "hinglish": "PDF ke auto-fare jaisa hi question, bas numbers naye. Formula banane ke liye (n - 3) ka idea zaroori hai - pehle 3 km ka paisa already fixed 40 mein hai. Simplify karke 18n - 14 milta hai aur reverse solve se 9 km. Hamesha original description se verify karo.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Age problem (T5)",
+     "stem": "A mother is 4 times as old as her daughter. After 6 years, the sum of their ages will be 82 years. Find their present ages.",
+     "steps": [
+      "Let the daughter be x now; the mother is 4x.",
+      "After 6 years: daughter x + 6, mother 4x + 6.",
+      "Sum: (x + 6) + (4x + 6) = 82.",
+      "Simplify: 5x + 12 = 82, so 5x = 70, x = 14.",
+      "Present ages: daughter 14, mother 56.",
+      "Check: after 6 years they are 20 and 62, sum 82. Correct."
+     ],
+     "answer": "Daughter 14 years, mother 56 years.",
+     "why": [],
+     "hinglish": "Age questions mein 'after' ka matlab dono ke age mein addition. 5x + 12 = 82 se x = 14. Check zaroori: 20 + 62 = 82. Mother 4x isliye 56 - equation se nahi, definition se.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Difficult",
+     "concept": "Fit y = ax + b (T9)",
+     "stem": "A learning platform charges a fixed monthly fee plus a per-module charge. A student observed that accessing 10 modules cost Rs 400 and accessing 14 modules cost Rs 500. Assuming the bill is y = ax + b, find a and b, and interpret both numbers.",
+     "steps": [
+      "Substitute both observations into y = ax + b: 400 = 10a + b and 500 = 14a + b.",
+      "Subtract the first from the second: 100 = 4a, so a = 25.",
+      "Back-substitute into the first: 400 = 10(25) + b = 250 + b, so b = 150.",
+      "The relationship is y = 25x + 150.",
+      "Interpretation: a = 25 is the charge per module (Rs 25 per module); b = 150 is the fixed monthly fee (Rs 150 even with zero modules).",
+      "Verify with the second point: 25(14) + 150 = 350 + 150 = 500. Correct."
+     ],
+     "answer": "a = 25 (per-module rate), b = 150 (fixed fee); y = 25x + 150.",
+     "why": [
+      "Subtracting the equations kills b instantly - the entire technique rests on b being identical in both lines."
+     ],
+     "hinglish": "Do observation, do equation, ek SUBTRACTION - b khatam, a seedha mil gaya (25). Phir wapas jao, b nikaalo (150). Interpretation zaroor likho: 25 = per-module charge, 150 = fixed fee. Ye interpretation wali line hi examiner ko dikhati hai ki tumne samjha hai, sirf calculation nahi kiya.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Difficult",
+     "concept": "Temperature scales (T9)",
+     "stem": "The relation between Celsius C and Fahrenheit F has the linear form F = aC + b. Water melts at 0 degrees Celsius and 32 degrees Fahrenheit, and boils at 100 degrees Celsius and 212 degrees Fahrenheit. Find a and b.",
+     "steps": [
+      "First data point: C = 0, F = 32 gives 32 = a(0) + b, so b = 32 directly - a gift.",
+      "Second data point: C = 100, F = 212 gives 212 = 100a + 32.",
+      "So 100a = 180, giving a = 1.8 (which is 9/5).",
+      "The relation is F = 1.8C + 32, the famous conversion formula.",
+      "Verification: C = 100 gives 180 + 32 = 212. Correct."
+     ],
+     "answer": "a = 1.8 (= 9/5), b = 32; F = 1.8C + 32.",
+     "why": [],
+     "hinglish": "Yahan data ki kripa se b PEHLE mil gaya (zero input pe output hi b hai!). Phir sirf ek equation bachi, a = 1.8. Ye formula tum pehle se jaante ho - ab tumne use DERIVE kiya hai. Fitting ka asli maza yahi hai.",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "Difficult",
+     "concept": "Matchstick pattern (T6/T7)",
+     "stem": "Squares are made with matchsticks placed in a row, each new square sharing one side with the previous one. The counts are 4, 7, 10, ... (i) How many matchsticks for n squares? (ii) For 22 squares? (iii) Can exactly 100 matchsticks form such a row of squares? Justify.",
+     "steps": [
+      "Sequence 4, 7, 10 has constant difference 3: rule M(n) = 3n + c. From stage 1: 3 + c = 4, so c = 1. Rule: M(n) = 3n + 1.",
+      "For 22 squares: M(22) = 66 + 1 = 67 matchsticks.",
+      "Reachability: set 3n + 1 = 100, giving 3n = 99, n = 33.",
+      "n = 33 is a whole number, so YES - a row of 33 squares uses exactly 100 matchsticks.",
+      "The justification is the integrality of n: patterns exist only at whole-number stages."
+     ],
+     "answer": "(i) 3n + 1 (ii) 67 (iii) Yes - stage n = 33 uses exactly 100 matchsticks.",
+     "why": [],
+     "hinglish": "3n + 1 wala rule - ek square 4, har naya square sirf 3 extra le raha hai kyunki ek side share hoti hai. 'Can 100 form a stage?' ka matlab: solve karo aur INTEGRITY check karo. Yahan n = 33 whole number - YES. Agar 33.33 aata toh answer 'No, kabhi nahi' hota - aur wahi asli answer hota.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "High",
+     "concept": "Compare two lines (T11/T12)",
+     "stem": "Draw-free reasoning: compare the graphs of y = 3x + 1 and y = -3x + 1. State their common features, their differences, and the geometric relationship between the two lines.",
+     "steps": [
+      "Common feature: same b = 1, so both cut the y-axis at the same point (0, 1).",
+      "Difference: slopes +3 and -3 - equal in size, opposite in sign.",
+      "Positive slope: as x grows, y grows (uphill). Negative slope: as x grows, y falls (downhill).",
+      "Geometric relationship: the two lines are mirror images of each other in the y-axis. Reason: replacing x by -x in y = 3x + 1 gives y = -3x + 1 - reflection in the y-axis flips the sign of x.",
+      "They are NOT parallel (slopes differ), so they cross - exactly at the shared point (0, 1)."
+     ],
+     "answer": "Both pass through (0, 1); slopes +3 and -3 make them mirror images in the y-axis, crossing at (0, 1) - not parallel.",
+     "why": [],
+     "hinglish": "Same intercept, opposite slopes: dono lines (0, 1) mein milti hain aur wahan se ek upar, ek neeche jaati hain - y-axis ke aaine mein twin. 'Replace x by -x' wala reflection argument coordinate geometry ka classic move hai - Chapter 1 ke reflections se seedha connection.",
+     "fig": "f2d_lines.png"
+    },
+    {
+     "n": 10,
+     "level": "HOTS",
+     "concept": "Wire rectangle area function (T14)",
+     "stem": "A wire of length 36 cm is bent into a rectangle. Let the length be x cm. (i) Write the area as a function of x. (ii) Find ALL lengths x that give an area of 77 sq cm. (iii) Which single length gives the largest area, and what is that area?",
+     "steps": [
+      "Perimeter 36 means half-perimeter 18: length + width = 18. Width = 18 - x.",
+      "Area A(x) = x(18 - x) = 18x - x² - a quadratic function (the PDF builds exactly this in its Example 3 with a 20 cm wire).",
+      "Set x(18 - x) = 77: x² - 18x + 77 = 0. Look for two numbers with product 77 and sum 18: 7 and 11.",
+      "So x = 7 or x = 11. Both are genuine: a 7 x 11 rectangle and an 11 x 7 rectangle are the SAME rectangle turned around - one answer in two descriptions.",
+      "Largest area: test symmetric candidates. x = 9 gives 9 x 9 = 81; x = 8 gives 8 x 10 = 80; x = 10 gives 10 x 8 = 80. The square (x = 9) wins with area 81.",
+      "Structure noticed: areas rise toward x = 9 and fall after it - symmetric about the square."
+     ],
+     "answer": "(i) A(x) = 18x - x² (ii) x = 7 or 11 (the same rectangle, two descriptions) (iii) x = 9 gives the maximum area 81 sq cm.",
+     "why": [],
+     "hinglish": "Ye PDF ke wire example ka bada bhai. Area quadratic nikla (18x - x²) - chapter linear hai par evaluation quadratic ki bhi practice hai (Ex 2.2 mein tha). 77 ke liye do answers (7 aur 11) ek hi rectangle ke do naam hain - symmetry! Aur square (9 x 9 = 81) max deta hai - ye observation Grade 10 mein formally aayega, aaj ke liye table-test kaafi hai.",
+     "fig": null
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Coefficient",
+     "stem": "The coefficient of x in the expression 5x - 7 is:",
+     "options": [
+      "5",
+      "-7",
+      "5x",
+      "1"
+     ],
+     "ans": "A",
+     "expl": "The coefficient is the number multiplying the variable x, which is 5. The -7 is the constant term.",
+     "hinglish": "Coefficient = variable ke saath juda number. 5x ka coefficient 5. -7 constant hai, coefficient nahi.",
+     "traps": {
+      "B": "-7 is the constant term, not attached to x.",
+      "C": "5x is the whole term.",
+      "D": "1 is the coefficient of a bare x, not of 5x."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Degree",
+     "stem": "The degree of the polynomial 4 - 3y + y² is:",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+     ],
+     "ans": "B",
+     "expl": "The powers present are 0 (the 4), 1 (the -3y) and 2 (the y²). The highest is 2, so the degree is 2.",
+     "hinglish": "Order mein likha nahi hai par koi baat nahi - powers scan karo: 0, 1, 2. Max = 2. Quadratic.",
+     "traps": {
+      "A": "1 is just the middle term's power.",
+      "C": "No cube is present.",
+      "D": "0 would mean a constant polynomial."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Constant polynomial",
+     "stem": "The degree of the constant polynomial -9 is:",
+     "options": [
+      "-9",
+      "0",
+      "1",
+      "undefined"
+     ],
+     "ans": "B",
+     "expl": "Any constant c can be written as c x x⁰, and x⁰ = 1. So the degree (power of the variable) is 0.",
+     "hinglish": "Constant ka degree ZERO hota hai - isko x⁰ ke roop mein likh sakte ho. Ye MCQ ka pakka sawaal hai.",
+     "traps": {
+      "A": "-9 is the value, not the degree.",
+      "C": "There is no x term at all.",
+      "D": "It is defined - it is 0."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Evaluation",
+     "stem": "The value of 4x - 9 at x = -2 is:",
+     "options": [
+      "-17",
+      "17",
+      "-1",
+      "1"
+     ],
+     "ans": "A",
+     "expl": "4(-2) - 9 = -8 - 9 = -17. Both terms are negative here.",
+     "hinglish": "4(-2) = -8, phir -9 jodo: -17. Dono negative milke aur negative - sign ka khel.",
+     "traps": {
+      "B": "Lost a minus somewhere.",
+      "C": "Computed 4 - 2 - 9 style without brackets.",
+      "D": "Sign error in 4 x (-2)."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Reverse evaluation",
+     "stem": "The machine y = 5x + 2 gives output 27. The input x is:",
+     "options": [
+      "5",
+      "4",
+      "6",
+      "25"
+     ],
+     "ans": "A",
+     "expl": "5x + 2 = 27 gives 5x = 25, so x = 5.",
+     "hinglish": "Peeche chalna hai: 27 se 2 ghatayo (25), 5 se divide (5). Verify: 5(5) + 2 = 27.",
+     "traps": {
+      "B": "Arithmetic slip 27 - 2 = 24.",
+      "C": "Added before dividing.",
+      "D": "Reported 5x instead of x."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Sum-difference words",
+     "stem": "Two numbers add to 46, and one of them is 6 more than the other. The numbers are:",
+     "options": [
+      "20 and 26",
+      "23 and 23",
+      "18 and 28",
+      "21 and 25"
+     ],
+     "ans": "A",
+     "expl": "Let them be x and x + 6: 2x + 6 = 46 gives x = 20. Numbers 20 and 26.",
+     "hinglish": "2x + 6 = 46 se x = 20. Check: 20 + 26 = 46, difference 6. Dono condition sahi.",
+     "traps": {
+      "B": "Equal numbers differ by 0.",
+      "C": "Difference is 10, not 6.",
+      "D": "Difference is 4."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Pattern rule",
+     "stem": "A sequence begins 4, 9, 14, 19, ... Its nth-term rule is:",
+     "options": [
+      "5n - 1",
+      "5n + 1",
+      "4n",
+      "n + 3"
+     ],
+     "ans": "A",
+     "expl": "The constant difference is 5, so the rule is 5n + c. Stage 1: 5 + c = 4 gives c = -1. Rule: 5n - 1. Check stage 2: 10 - 1 = 9. Correct.",
+     "hinglish": "Difference 5 pakdo, phir first term se c nikaalo: 4 = 5 + c isliye c = -1. 5n - 1. Verify with 9: 10 - 1 = 9 sahi.",
+     "traps": {
+      "B": "Would give 6 as the first term.",
+      "C": "Wrong difference handling.",
+      "D": "No pattern fit at all."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Fit y = ax + b",
+     "stem": "A service costs Rs 90 for 2 units and Rs 210 for 6 units. In the model y = ax + b:",
+     "options": [
+      "a = 30, b = 30",
+      "a = 30, b = 90",
+      "a = 45, b = 0",
+      "a = 35, b = 20"
+     ],
+     "ans": "A",
+     "expl": "210 - 90 = 120 = 4a, so a = 30. Back-substitute: 90 = 2(30) + b = 60 + b, b = 30. Model: y = 30x + 30.",
+     "hinglish": "4 units ka difference 120: per-unit 30. Wapas: 90 - 60 = 30 fixed. Interpretation: Rs 30 per unit + Rs 30 base.",
+     "traps": {
+      "B": "Forgot to subtract the per-unit part.",
+      "C": "Mixed up which pair to use.",
+      "D": "No consistent fit."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Slope meaning in conversion",
+     "stem": "In the conversion F = 1.8C + 32, the number 1.8 tells us that:",
+     "options": [
+      "a 1 degree rise in Celsius gives a 1.8 degree rise in Fahrenheit",
+      "Fahrenheit is always 1.8 more than Celsius",
+      "water boils at 1.8 degrees",
+      "the scales meet at 1.8"
+     ],
+     "ans": "A",
+     "expl": "The slope is the rate of change: each extra degree Celsius lifts the Fahrenheit reading by 1.8. (Option B confuses slope with a constant offset - the offset is 32, not 1.8.)",
+     "hinglish": "Slope = rate: C mein 1 degree badho toh F mein 1.8 badho. Fixed gap toh 32 hai - wo b wala hissa hai, 1.8 nahi.",
+     "traps": {
+      "B": "That is what b would mean, but b = 32 here.",
+      "C": "Boiling is at 100 C / 212 F.",
+      "D": "The scales meet at -40, not 1.8."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Disguised slope",
+     "stem": "The slope of the line 3y = 6x + 12 is:",
+     "options": [
+      "6",
+      "2",
+      "3",
+      "12"
+     ],
+     "ans": "B",
+     "expl": "Divide by 3 first: y = 2x + 4. The slope is 2. Reading the raw coefficient 6 before isolating y is the classic trap.",
+     "hinglish": "Pehle y = ... banao! 3 se divide: y = 2x + 4. Slope 2. Seedha 6 padhna sabse common galti hai.",
+     "traps": {
+      "A": "That is the coefficient of x before dividing.",
+      "C": "That is the divisor.",
+      "D": "That is the constant after dividing."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Lines through origin",
+     "stem": "Which of these lines passes through the origin?",
+     "options": [
+      "y = 5x",
+      "y = 5x + 1",
+      "y = x - 3",
+      "y = 2"
+     ],
+     "ans": "A",
+     "expl": "A line passes through (0, 0) exactly when its constant term b is 0. Only y = 5x has b = 0.",
+     "hinglish": "Origin se guzarne ka ek hi test: b = 0. Baaki sab (0, b) par y-axis kaat-ti hain, origin se nahi.",
+     "traps": {
+      "B": "Cuts y-axis at (0, 1).",
+      "C": "Cuts at (0, -3).",
+      "D": "Horizontal line at height 2."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Parallel detection",
+     "stem": "The lines y = 4x - 3 and y = 4x + 7 are:",
+     "options": [
+      "perpendicular",
+      "parallel",
+      "the same line",
+      "intersecting at one point"
+     ],
+     "ans": "B",
+     "expl": "Same slope 4, different intercepts (-3 vs 7): parallel lines that never meet.",
+     "hinglish": "Slope same, intercept alag = parallel. Same slope SAME intercept hota toh ek hi line hoti.",
+     "traps": {
+      "A": "Perpendicularity is about slope products -1, not equality.",
+      "C": "Intercepts differ.",
+      "D": "Parallel lines never intersect."
+     }
+    },
+    {
+     "n": 13,
+     "level": "Normal",
+     "concept": "Growth vs decay",
+     "stem": "The model h(t) = 3 - 0.5t describes:",
+     "options": [
+      "linear growth",
+      "linear decay",
+      "no change",
+      "quadratic behaviour"
+     ],
+     "ans": "B",
+     "expl": "The rate of change (slope) is -0.5: each month the height drops by 0.5. Negative slope means decay.",
+     "hinglish": "Slope negative = decay. 3 starting value, 0.5 per month girawat - PDF ke water-tank example jaisa.",
+     "traps": {
+      "A": "Growth needs a positive slope.",
+      "C": "Something IS changing - by 0.5 per step.",
+      "D": "The rule is degree 1, not 2."
+     }
+    },
+    {
+     "n": 14,
+     "level": "HOTS",
+     "concept": "Triangle with axes",
+     "stem": "The line y = 3x + 6 and the two coordinate axes form a triangle. Its area is:",
+     "options": [
+      "6 sq units",
+      "12 sq units",
+      "3 sq units",
+      "18 sq units"
+     ],
+     "ans": "A",
+     "expl": "y-intercept (0, 6); x-intercept: 3x + 6 = 0 gives x = -2, point (-2, 0). Right triangle with legs 6 and 2: area = (1/2)(6)(2) = 6.",
+     "hinglish": "Intercepts (0, 6) aur (-2, 0). Origin ke saath right triangle: legs 6 aur 2, area 6. Length absolute value mein lo - negative coordinate se area negative nahi hota.",
+     "traps": {
+      "B": "Forgot the 1/2.",
+      "C": "Used the wrong leg.",
+      "D": "Multiplied intercepts without halving."
+     }
+    }
+   ],
+   "short": "Linear Equations"
+  },
+  {
+   "num": 3,
+   "name": "Number Systems and Exponents",
+   "star": false,
+   "title": "Chapter 3: Number Systems and Exponents",
+   "intro": "Numbers ki family tree (N, Z, Q, R), recurring decimals ko fraction banana, surds ko rationalise karna aur exponent laws. Proof wale questions (√2, √3, √5 irrational) pakke aate hain - skeleton ratt lo.",
+   "formulas": [
+    {
+     "f": "N ⊂ Z ⊂ Q ⊂ R",
+     "meaning": "Counting numbers → unme negatives jude → unme fractions jude → unme irrationals jude. Har naya set purana cover karta hai.",
+     "ex": "−3 ∈ Z, 2/7 ∈ Q, √2 ∈ R par Q se bahar"
+    },
+    {
+     "f": "Terminating test: fraction ko REDUCE karo, denominator sirf 2<sup>m</sup> × 5<sup>n</sup> ho toh terminate",
+     "meaning": "Pehle simplify karo (33/125 → already clean), phir denominator ke prime factors dekho. 3, 7, 11 aaye = non-terminating repeating.",
+     "ex": "17/312 → 312 = 2<sup>3</sup>×3×13 → repeating"
+    },
+    {
+     "f": "Pure recurring: 0.ababab... = (block)/(99...9)",
+     "meaning": "Jitne digits repeat, utne 9s denominator mein. 0.777... = 7/9; 0.454545... = 45/99 = 5/11.",
+     "ex": "0.666... = 6/9 = 2/3"
+    },
+    {
+     "f": "Mixed recurring: (sab digits − non-repeat)/(9...90...0)",
+     "meaning": "Upar: poori decimal ke digits minus jo pehle the. Neeche: 9s (repeating ke liye) + 0s (non-repeating ke liye).",
+     "ex": "0.4777... = (47−4)/90 = 43/90"
+    },
+    {
+     "f": "√a × √b = √(ab); √a/√b = √(a/b)",
+     "meaning": "Same root ke surds multiply/divide ho toh andar jodo/kaato. Pehle simplify karna best: √72 = 6√2.",
+     "ex": "√2 × √8 = √16 = 4"
+    },
+    {
+     "f": "Rationalise: conjugate se multiply karo",
+     "meaning": "Neeche √a ± √b ho toh (√a ± √b) se upar-neeche multiply - (a−b) formula se root gayab.",
+     "ex": "1/(√5−2) × (√5+2)/(√5+2) = √5 + 2"
+    },
+    {
+     "f": "a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup>; a<sup>m</sup>/a<sup>n</sup> = a<sup>m−n</sup>; (a<sup>m</sup>)<sup>n</sup> = a<sup>mn</sup>",
+     "meaning": "Multiply = powers add; divide = powers minus; power of power = powers multiply. Base SAME hona chahiye.",
+     "ex": "3<sup>5</sup> × 3<sup>−2</sup> = 3<sup>3</sup> = 27"
+    },
+    {
+     "f": "a<sup>0</sup> = 1; a<sup>−n</sup> = 1/a<sup>n</sup>; a<sup>1/n</sup> = <sup>n</sup>√a; a<sup>m/n</sup> = <sup>n</sup>√(a<sup>m</sup>)",
+     "meaning": "Zero power = 1. Minus power = palat do. Fraction power = root. 64<sup>2/3</sup> matlab cube root of 64, phir square.",
+     "ex": "64<sup>2/3</sup> = (4)<sup>2</sup> = 16; 64<sup>−2/3</sup> = 1/16"
+    },
+    {
+     "f": "Same base banao → exponents barabar rakh do",
+     "meaning": "8 = 2<sup>3</sup>, 125 = 5<sup>3</sup>, 1/81 = 3<sup>−4</sup>. Dono side same base aaye toh powers equate karo - equation solved.",
+     "ex": "3<sup>x</sup> = 1/81 = 3<sup>−4</sup> → x = −4"
+    },
+    {
+     "f": "rational ± irrational = irrational; irrational × non-zero rational = irrational",
+     "meaning": "Ek irrational ke saath rational jodo ya guna karo - result irrational hi rahega (rational × rational ke alawa).",
+     "ex": "3 + √2, √2 × 4 dono irrational"
+    }
+   ],
+   "checks": [
+    "<strong>Irrational ka matlab:</strong> decimal na terminate ho, na repeat. √2, π, 0.101001000... sab irrational.",
+    "<strong>0.999... = 1 exactly</strong> - proof: x = 0.999..., 10x = 9.999..., 10x − x = 9 → x = 1. MCQ favourite!",
+    "<strong>Between any two rationals infinitely many irrationals</strong> (aur vice versa) - density. Example banane ke liye surds use karo: √(a/b) forms.",
+    "<strong>√n irrational jab tak n perfect square na ho</strong> - 2, 3, 5, 6, 7 sabke roots irrational; √4, √9, √16 rational.",
+    "<strong>Irrationality proof ka skeleton:</strong> maan lo p/q (lowest terms) → square karo → prime p, q ko divide karta hai → p, q dono divide karte hain → contradiction. Iska flow ratt lo.",
+    "<strong>Compare surds:</strong> sabko same root ke andar le aao - (√7)<sup>2</sup> = 7, (2√2)<sup>2</sup> = 8, (3)<sup>2</sup> = 9 → order mil gaya.",
+    "<strong>Conjugate pair magic:</strong> x = 2 + √3 ho toh 1/x = 2 − √3 (multiply karke check karo). x ± 1/x ke questions isi se khul te hain.",
+    "<strong>Telescoping sum:</strong> 1/(√2+1) + 1/(√3+√2) + ... har term rationalise karne par √(next) − √(prev) bachta hai - chain collapse ho jati hai.",
+    "<strong>Nested radical:</strong> √(7 + 4√3) = √(4 + 3 + 2·2·√3) = 2 + √3. Pattern: m + n = given, mn = inner term."
+   ],
+   "tricks": [
+    {
+     "trick": "Terminating? REDUCE first, then check: denominator = 2<sup>m</sup> × 5<sup>n</sup> only",
+     "when": "\"Without long division, state whether the decimal terminates\"."
+    },
+    {
+     "trick": "Pure recurring 0.abab... = block/99...9. Mixed: (all digits - non-repeating)/99..900..0",
+     "when": "Convert recurring decimals to p/q form."
+    },
+    {
+     "trick": "Compare surds: same root index banao, then compare inside values",
+     "when": "\"Arrange in increasing order\"."
+    },
+    {
+     "trick": "Rationalise: multiply by the conjugate. Telescoping sum collapses to (last - first)",
+     "when": "Surds in denominators; 1/(√a+√b) chains."
+    },
+    {
+     "trick": "Same base first: 8 = 2<sup>3</sup>, 125 = 5<sup>3</sup>, 1/81 = 3<sup>-4</sup> → equate exponents",
+     "when": "Every exponent equation."
+    },
+    {
+     "trick": "Irrationality skeleton: assume p/q → square → prime lemma → contradiction",
+     "when": "\"Prove √2 / √3 / √5 is irrational\"."
+    },
+    {
+     "trick": "rational ± irrational = irrational; irrational × non-zero rational = irrational",
+     "when": "True/false closure statements."
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Terminating test (T2)",
+     "stem": "Without performing long division, decide whether each decimal expansion terminates: (i) 17/8, (ii) 13/3125, (iii) 7/12, (iv) 64/455, (v) 6/15.",
+     "steps": [
+      "Given: five fractions. Needed: terminating or not, via the 2ᵐ × 5ⁿ test on the REDUCED denominator.",
+      "(i) 17/8: 8 = 2³ = 2³ × 5⁰. Only 2s, so it terminates (in fact 2.125).",
+      "(ii) 13/3125: 3125 = 5⁵. Only 5s, so it terminates.",
+      "(iii) 7/12: 12 = 2² × 3. The stray 3 can never be absorbed into a power of 10, so it recurs.",
+      "(iv) 64/455: 455 = 5 × 7 × 13. The primes 7 and 13 force a recurring decimal.",
+      "(v) 6/15: reduce first! 6/15 = 2/5, and 5 = 5¹, so it terminates (0.4). Testing 15 = 3 × 5 without reducing would give the wrong verdict."
+     ],
+     "answer": "(i) terminates (ii) terminates (iii) recurs (iv) recurs (v) terminates (6/15 = 2/5 = 0.4)",
+     "why": [
+      "10 = 2 × 5, so a fraction terminates exactly when its reduced denominator divides some power of 10 - only primes 2 and 5 can appear."
+     ],
+     "hinglish": "Sabse pehla kaam: fraction ko lowest terms mein lao. Phir denominator ko prime factors mein todo. Sirf 2 aur 5 dikh rahe hain? Decimal ruk jayega. Koi aur prime (3, 7, 13...) dikh gaya? Chalti-firti decimal aayegi. (v) wala question isliye diya hai kyunki students 15 dekh ke turant 'recur' bol dete hain - pehle 3 cancel karo!",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Pure recurring to p/q (T3)",
+     "stem": "Express in p/q form: (i) 0.777... (the 7 repeating), (ii) 0.373737... (the block 37 repeating), (iii) 0.090909... (the block 09 repeating).",
+     "steps": [
+      "Given: three pure recurring decimals (repeat starts immediately). Needed: exact fractions.",
+      "(i) Let x = 0.777... . Multiply by 10 (one repeating digit → shift by one place): 10x = 7.777... .",
+      "Subtract: 10x - x = 7.777... - 0.777... = 7. So 9x = 7 and x = 7/9.",
+      "(ii) Let x = 0.373737... . Two repeating digits → multiply by 100: 100x = 37.3737... .",
+      "Subtract: 100x - x = 37. So 99x = 37 and x = 37/99.",
+      "(iii) Let x = 0.090909... . Two repeating digits → 100x = 9.0909... . Subtract: 99x = 9, x = 9/99 = 1/11."
+     ],
+     "answer": "(i) 7/9 (ii) 37/99 (iii) 1/11",
+     "why": [
+      "Multiplying by 10ᵋ lines up two identical infinite tails; subtracting cancels them and leaves a finite equation. k repeating digits need a shift of 10ᵋ."
+     ],
+     "hinglish": "Rule simple hai: jitne digit repeat ho rahe hain, utne 9 denominator mein. Ek digit repeat = 9, do digit = 99. 0.777... = 7/9, 0.3737... = 37/99. Bas repeating block ke digits upar likh do aur neeche utne hi 9. (iii) mein 9/99 ko 1/11 tak reduce karna mat bhoolna.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Basic",
+     "concept": "Surd simplification (T7)",
+     "stem": "Simplify into k√( ) form: (i) √72, (ii) √245, (iii) √175, (iv) √(147).",
+     "steps": [
+      "Given: four radicals. Needed: extract every perfect-square factor.",
+      "(i) 72 = 36 × 2, so √72 = √36 · √2 = 6√2.",
+      "(ii) 245 = 49 × 5, so √245 = 7√5.",
+      "(iii) 175 = 25 × 7, so √175 = 5√7.",
+      "(iv) 147 = 49 × 3, so √147 = 7√3."
+     ],
+     "answer": "(i) 6√2 (ii) 7√5 (iii) 5√7 (iv) 7√3",
+     "why": [
+      "√(ab) = √a√b lets the perfect-square factor walk out of the root; what remains inside must be square-free."
+     ],
+     "hinglish": "Andar sabse bada perfect square dhoondo aur bahar nikalo. 72 = 36×2, 36 ka root 6, toh 6√2. Yaad rakho: 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144 - ye aapke dost hain. Jitna bada square nikaloge, utna chhota root; 72 ko 4×18 karke √18 ko phir simplify karna double kaam hai.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "Irrationality proof (T5)",
+     "stem": "Prove that √3 is irrational.",
+     "steps": [
+      "Given: a claim to contradict. Assume √3 = p/q where p, q are integers, q ≠ 0, and the fraction is in lowest terms (p and q share no common prime).",
+      "Squaring both sides: 3 = p²/q², so p² = 3q².",
+      "Then 3 divides p². Since 3 is prime, 3 divides p itself (a prime dividing a square must divide the number). Write p = 3r.",
+      "Substitute: (3r)² = 3q² ⇒ 9r² = 3q² ⇒ q² = 3r².",
+      "So 3 divides q², hence 3 divides q.",
+      "Now 3 divides both p and q - contradicting lowest terms. The assumption is false, therefore √3 is irrational. ∎"
+     ],
+     "answer": "√3 is irrational (by contradiction; 3 divides both p and q, contradicting lowest terms).",
+     "why": [
+      "The contradiction must land on the EXACT assumption made (coprimality); that is why the final sentence names lowest terms."
+     ],
+     "hinglish": "Proof ka 4-step skeleton yaad karo: (1) assume p/q lowest terms, (2) square karo - prime upar aa jata hai, (3) prime dono (p aur q) ko divide karta nikla, (4) lowest terms se contradiction - done! √2 mein prime 2 tha, yahan 3 hai, √5 mein 5 hoga. Bas prime badlo, skeleton same.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Rationalising a + b√c denominator (T9)",
+     "stem": "Rationalise the denominator and simplify: 1/(3 + 2√2).",
+     "steps": [
+      "Given: denominator 3 + 2√2. Its conjugate is 3 - 2√2 (flip the sign of the surd term).",
+      "Multiply numerator and denominator by the conjugate:",
+      "= (3 - 2√2)/((3 + 2√2)(3 - 2√2)).",
+      "Denominator: 3² - (2√2)² = 9 - 8 = 1 (difference of squares).",
+      "So the expression equals 3 - 2√2. Check numerically: 1/(3 + 2.828...) = 1/5.828... ≈ 0.1716, and 3 - 2.828... = 0.1716 ✓."
+     ],
+     "answer": "3 - 2√2",
+     "why": [
+      "The conjugate turns the denominator into a² - b², which has no surds; here it even collapses to 1, giving a free simplification."
+     ],
+     "hinglish": "Conjugate ka matlab: sirf beech ka sign ulta. 3 + 2√2 ka conjugate 3 - 2√2. Multiply karo, denominator (a+b)(a-b) = a²-b² ban jata hai. Yahan 9-8=1 nikla - jackpot! Answer 3-2√2. Aise lucky cases (denominator 1) exam mein bahut aate hain, isliye denominator ko poori tarah simplify karna kabhi mat chhodna.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Moderate",
+     "concept": "Comparing surds (T8)",
+     "stem": "Arrange in increasing order: √7, 2√2, √5, 3√3/2.",
+     "steps": [
+      "Given: four positive surds. All are positive, so squaring preserves the order.",
+      "√7 → 7. 2√2 → (2√2)² = 4 × 2 = 8. √5 → 5. (3√3)/2 → (9 × 3)/4 = 27/4 = 6.75.",
+      "Order of the squares: 5 < 6.75 < 7 < 8.",
+      "So the original order: √5 < 3√3/2 < √7 < 2√2.",
+      "Check: √5 ≈ 2.236, 3√3/2 ≈ 2.598, √7 ≈ 2.646, 2√2 ≈ 2.828 ✓."
+     ],
+     "answer": "√5 < 3√3/2 < √7 < 2√2",
+     "why": [
+      "For positive quantities a < b ⇔ a² < b² - comparing squares avoids fiddly decimal roots."
+     ],
+     "hinglish": "Compare karne ka best trick: dono ko square karo. 2√2 ka square (2)² × 2 = 8 hota hai - coefficient bhi square hota hai, ye bhoolna sabse common galti hai! (3√3/2)² = 9×3/4 = 6.75. Ab squares ko order karo aur original order likho. Numerical check se confirm kar lo.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Moderate",
+     "concept": "Same-base equations (T11)",
+     "stem": "Solve: (i) 3ˣ = 1/81, (ii) 5⁽ˣ⁻²⁾ = 125, (iii) (2/3)ˣ = 27/8.",
+     "steps": [
+      "Given: three exponential equations. Strategy: one base on both sides, then equate exponents.",
+      "(i) 1/81 = 1/3⁴ = 3⁻⁴. So 3ˣ = 3⁻⁴ ⇒ x = -4.",
+      "(ii) 125 = 5³. So 5⁽ˣ⁻²⁾ = 5³ ⇒ x - 2 = 3 ⇒ x = 5.",
+      "(iii) 27/8 = 3³/2³ = (3/2)³ = (2/3)⁻³. So x = -3.",
+      "Check: (2/3)⁻³ = (3/2)³ = 27/8 ✓."
+     ],
+     "answer": "(i) x = -4 (ii) x = 5 (iii) x = -3",
+     "why": [
+      "Equality of powers with the same base forces equal exponents; the whole game is rewriting both sides into one base."
+     ],
+     "hinglish": "Exponent equation mein dono taraf SAME base lao. 1/81 ko 3⁻⁴ dekho - negative exponent ka perfect use. (2/3)ˣ = 27/8 mein ulta fraction banana padta hai: 27/8 = (3/2)³ = (2/3)⁻³. Fraction ka negative exponent = fraction flip. Ye teen patterns exam ke favourites hain.",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "Moderate",
+     "concept": "Fractional and negative exponents (T10)",
+     "stem": "Evaluate without a calculator: (i) (81/16)⁻³⁴ʸ... rewrite: (81/16)^(-3/4), (ii) 8^(2/3) + 4^(-1/2), (iii) (5²/√5)².",
+     "steps": [
+      "Given: expressions with fractional and negative exponents.",
+      "(i) (81/16)^(-3/4): the negative exponent flips the fraction; the 1/4 takes a fourth root. (16/81)^(3/4) = (⁴√(16/81))³ = (2/3)³ = 8/27.",
+      "(ii) 8^(2/3) = (³√8)² = 2² = 4. 4^(-1/2) = 1/√4 = 1/2. Sum = 4 + 1/2 = 9/2.",
+      "(iii) 5²/√5 = 5²/5^(1/2) = 5^(3/2). Squaring: 5³ = 125.",
+      "Check (iii) numerically: 25/2.236 ≈ 11.18; 11.18² ≈ 125 ✓."
+     ],
+     "answer": "(i) 8/27 (ii) 9/2 (iii) 125",
+     "why": [
+      "a^(m/n) = (root n of a) to the m; the negative sign means reciprocal. Order root-then-power keeps numbers small."
+     ],
+     "hinglish": "Fractional exponent do kaam karta hai: neeche wala number ROOT, upar wala POWER. 8^(2/3): cube root of 8 = 2, phir square = 4. Negative exponent: flip karo. Root pehle lo, power baad mein - numbers chhote rehte hain. (i) mein (81/16) ko flip karke 16/81 banana zaroori tha.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "Difficult",
+     "concept": "Conjugate pairs x and 1/x (T14)",
+     "stem": "If x = 2 + √3, find the value of x² + 1/x² without evaluating x numerically beyond the given form.",
+     "steps": [
+      "First find 1/x by rationalising: 1/(2 + √3) = (2 - √3)/((2 + √3)(2 - √3)) = (2 - √3)/(4 - 3) = 2 - √3.",
+      "So x and 1/x are conjugates: x = 2 + √3, 1/x = 2 - √3.",
+      "Square both: x² = 4 + 4√3 + 3 = 7 + 4√3; (1/x)² = 7 - 4√3.",
+      "Add: x² + 1/x² = 14 (the surd terms cancel).",
+      "Check numerically: x ≈ 3.732, x² ≈ 13.93, 1/x² ≈ 0.0718, sum ≈ 14.0 ✓."
+     ],
+     "answer": "14",
+     "why": [
+      "Conjugate reciprocals have surd terms in opposite signs; squares keep that symmetry, so the middle terms cancel on adding."
+     ],
+     "hinglish": "Ye conjugate-pair trick poore algebra mein chalega. Pehle 1/x nikaalo - denominator 1 aaya, matlab x aur 1/x perfect conjugates. Square karke jodo: ±4√3 terms aapas mein uda do. Answer 14. Aage ke liye yaad rakho: x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x).",
+     "fig": null
+    },
+    {
+     "n": 10,
+     "level": "High",
+     "concept": "Telescoping surd sum (T14)",
+     "stem": "Evaluate: 1/(√2 + 1) + 1/(√3 + √2) + 1/(2 + √3).",
+     "steps": [
+      "Key identity: 1/(√(n+1) + √n) = √(n+1) - √n (multiply by the conjugate; denominator becomes n+1-n = 1).",
+      "First term: 1/(√2 + 1) = √2 - 1.",
+      "Second: 1/(√3 + √2) = √3 - √2.",
+      "Third: 1/(2 + √3) = √4 - √3 = 2 - √3.",
+      "Sum: (√2 - 1) + (√3 - √2) + (2 - √3) = 2 - 1 = 1 (everything in between cancels - telescoping)."
+     ],
+     "answer": "1",
+     "why": [
+      "Each conjugate-rationalised term is a difference of consecutive roots; in the written sum every middle root appears once with plus and once with minus."
+     ],
+     "hinglish": "Ye 'telescoping' pattern dekho: har term rationalise karne par root ka difference banta hai: √2-1, √3-√2, 2-√3. Jodne par beech ke saare roots gayab, sirf first ka minus aur last ka plus bachta hai: 2 - 1 = 1. Agar 1/(√(n+1)+√n) type dikhe, turant conjugate socho.",
+     "fig": null
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Set classification",
+     "stem": "Which of the following is irrational?",
+     "options": [
+      "0.101001000100001...",
+      "0.25",
+      "3/8",
+      "√49"
+     ],
+     "ans": "A",
+     "expl": "The gaps between 1s keep growing, so no block repeats: non-terminating, non-recurring, hence irrational. The others terminate or simplify (0.25, 3/8, √49 = 7).",
+     "hinglish": "Pattern dekho - ones ke beech gap badhta ja raha hai, koi block repeat nahi hoga. Isliye irrational. Baaki teeno rational hain.",
+     "traps": {
+      "B": "Terminating decimal, hence rational.",
+      "C": "Ratio of integers, rational.",
+      "D": "Perfect square under the root: 7."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Pure recurring to p/q",
+     "stem": "0.333... (the 3 repeating) written as a fraction is:",
+     "options": [
+      "1/3",
+      "3/10",
+      "33/100",
+      "1/30"
+     ],
+     "ans": "A",
+     "expl": "One repeating digit: x = 3/9 = 1/3. Check: 1/3 = 0.333... ✓.",
+     "hinglish": "Ek digit repeat = upar wo digit, neeche 9. 3/9 = 1/3. Denominator 10 wale options terminating decimals dete hain - wo galat.",
+     "traps": {
+      "B": "3/10 = 0.3, terminates - no repetition.",
+      "C": "33/100 = 0.33 terminates.",
+      "D": "Extra zero in denominator: 1/30 = 0.0333..."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Terminating test",
+     "stem": "Without division, the decimal expansion of 77/210 is:",
+     "options": [
+      "terminating",
+      "non-terminating recurring",
+      "non-terminating non-recurring",
+      "cannot be decided"
+     ],
+     "ans": "B",
+     "expl": "77/210 = 11/30 (cancel 7). 30 = 2 × 3 × 5 has the prime 3, so it recurs.",
+     "hinglish": "Pehle 7 cancel karo - 11/30 banta hai. 30 mein 3 hai, toh recurring. Ye reduce-first wala hi case hai.",
+     "traps": {
+      "A": "30 is not of the form 2ᵐ×5ⁿ.",
+      "C": "Every rational recurs or terminates - never truly random.",
+      "D": "The test always decides."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Set nesting",
+     "stem": "Which statement is TRUE?",
+     "options": [
+      "Z ⊂ N",
+      "Q ⊂ Z",
+      "N ⊂ Q",
+      "R ⊂ Q"
+     ],
+     "ans": "C",
+     "expl": "Naturals sit inside integers, integers inside rationals, rationals inside reals: N ⊂ Z ⊂ Q ⊂ R. So N ⊂ Q is true.",
+     "hinglish": "Nesting yaad karo: N sabse andar, phir Z, phir Q, sabse bahar R. C options wala direction sahi hai.",
+     "traps": {
+      "A": "Negatives are in Z but not N.",
+      "B": "Fractions like 1/2 are in Q but not Z.",
+      "D": "Irrationals are in R but not Q - R is bigger."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Mixed recurring to p/q",
+     "stem": "0.4777... (the 4 not repeating, the 7 repeating) equals:",
+     "options": [
+      "43/90",
+      "47/100",
+      "47/90",
+      "43/99"
+     ],
+     "ans": "A",
+     "expl": "(47 - 4)/90 = 43/90: one 9 for the repeating digit, one 0 for the fixed digit.",
+     "hinglish": "(poora - head)/(9 + 0): (47-4)/90 = 43/90. Option C wala 47/90 hota agar 4 bhi repeat karta.",
+     "traps": {
+      "B": "That is 0.47 exactly, terminating.",
+      "C": "Denominator pattern wrong for mixed recurrence.",
+      "D": "99 would fit 0.434343..."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Surd multiplication",
+     "stem": "√2 × √8 equals:",
+     "options": [
+      "√10",
+      "4",
+      "2√4",
+      "16"
+     ],
+     "ans": "B",
+     "expl": "√2 × √8 = √16 = 4. Roots multiply by multiplying radicands.",
+     "hinglish": "√2 × √8 = √16 = 4. Under-root multiply hota hai, add nahi.",
+     "traps": {
+      "A": "Radicands are multiplied, not added.",
+      "C": "2√4 = 4 by luck of notation, but √2·√8 = √16 directly; writing 2√4 shows wrong method.",
+      "D": "Forgot to take the root at the end."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Comparing surds",
+     "stem": "Which is the largest?",
+     "options": [
+      "2√3",
+      "3√2",
+      "4",
+      "√15"
+     ],
+     "ans": "B",
+     "expl": "Squares: 12, 18, 16, 15. The largest square is 18, so 3√2 is largest.",
+     "hinglish": "Sabko square karo: 2√3 → 12, 3√2 → 18, 4 → 16, √15 → 15. Sabse bada square 18 - winner 3√2.",
+     "traps": {
+      "A": "12 is the smallest square here.",
+      "C": "16 < 18.",
+      "D": "15 < 18. Coefficient se confuse hona common galti hai."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Same-base equation",
+     "stem": "If 3ˣ = 1/243, then x =",
+     "options": [
+      "5",
+      "-5",
+      "1/5",
+      "-243"
+     ],
+     "ans": "B",
+     "expl": "1/243 = 1/3⁵ = 3⁻⁵, so x = -5.",
+     "hinglish": "1/243 ko 3⁻⁵ likho. Negative exponent = reciprocal. x = -5.",
+     "traps": {
+      "A": "3⁵ = 243, not 1/243.",
+      "C": "Fractional exponent confusion.",
+      "D": "Equating x with the value, not the exponent."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Conjugate with 1",
+     "stem": "1/(√5 - 2) equals:",
+     "options": [
+      "√5 + 2",
+      "√5 - 2",
+      "(√5+2)/3",
+      "1/3"
+     ],
+     "ans": "A",
+     "expl": "Multiply by (√5 + 2): denominator (√5)² - 2² = 5 - 4 = 1. So the value is √5 + 2.",
+     "hinglish": "Conjugate multiply karo, denominator 5-4 = 1 nikla. Answer khud √5+2 hai - magic collapse.",
+     "traps": {
+      "B": "That is the original denominator, not the value.",
+      "C": "Wrong denominator (3 would come from √9).",
+      "D": "No rationalising done at all."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Difference of squares",
+     "stem": "(√7 + √5)(√7 - √5) equals:",
+     "options": [
+      "2",
+      "12",
+      "√2",
+      "35"
+     ],
+     "ans": "A",
+     "expl": "(√7)² - (√5)² = 7 - 5 = 2.",
+     "hinglish": "(a+b)(a-b) = a²-b². Roots ke square = andar wale numbers. 7-5 = 2.",
+     "traps": {
+      "B": "Added the squares instead of subtracting.",
+      "C": "Took root of the difference.",
+      "D": "Multiplied radicands - that is √35, a different expression."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Conjugate reciprocal",
+     "stem": "If x = 3 + 2√2, then 1/x equals:",
+     "options": [
+      "3 - 2√2",
+      "2√2 - 3",
+      "1/(3+2√2) simplified to 1/3",
+      "6"
+     ],
+     "ans": "A",
+     "expl": "1/(3+2√2) = (3-2√2)/((3)²-(2√2)²) = (3-2√2)/(9-8) = 3 - 2√2.",
+     "hinglish": "Conjugate multiply karo, denominator 9-8 = 1. Toh 1/x khud conjugate hai. x aur 1/x ka pair yaad rakho.",
+     "traps": {
+      "B": "Sign flipped on the wrong term.",
+      "C": "No simplification attempted.",
+      "D": "That is x + 1/x = 6, a different question."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Fractional exponents",
+     "stem": "(16/81)^(-1/4) equals:",
+     "options": [
+      "3/2",
+      "2/3",
+      "-3/2",
+      "81/16"
+     ],
+     "ans": "A",
+     "expl": "Negative exponent flips: (81/16)^(1/4) = ⁴√81 / ⁴√16 = 3/2.",
+     "hinglish": "Minus matlab flip, 1/4 matlab fourth root. (81/16)^(1/4) = 3/2. Root pehle lo, numbers chhote rahenge.",
+     "traps": {
+      "B": "Forgot to flip for the negative exponent.",
+      "C": "Root lene ke baad bhi minus rakh diya - root value negative nahi hoti.",
+      "D": "Ignored the exponent entirely."
+     }
+    },
+    {
+     "n": 13,
+     "level": "Normal",
+     "concept": "Square of surd sum",
+     "stem": "(√3 + √2)² equals:",
+     "options": [
+      "5 + 2√6",
+      "5 + √6",
+      "13",
+      "5"
+     ],
+     "ans": "A",
+     "expl": "3 + 2√6 + 2 = 5 + 2√6. The cross term 2√3√2 = 2√6 is essential.",
+     "hinglish": "(a+b)² = a² + 2ab + b². Cross term 2√6 bhoolna sabse common galti. 5 + 2√6.",
+     "traps": {
+      "B": "Missed the factor 2 on the cross term.",
+      "C": "Squaring the radicands wrongly: 3 + 2 + ... no.",
+      "D": "Dropped the cross term completely."
+     }
+    },
+    {
+     "n": 14,
+     "level": "Normal",
+     "concept": "Conjugate collapse",
+     "stem": "1/(√9 - √8) equals:",
+     "options": [
+      "3 + 2√2",
+      "3 - 2√2",
+      "1",
+      "3 + √8"
+     ],
+     "ans": "A",
+     "expl": "√9 = 3, √8 = 2√2. Multiply by (3 + 2√2): denominator 9 - 8 = 1, value 3 + 2√2.",
+     "hinglish": "Pehle roots simplify: √9 = 3, √8 = 2√2. Phir conjugate - denominator 1. Answer 3+2√2.",
+     "traps": {
+      "B": "Conjugate ka sign ulta kar diya.",
+      "C": "1/(3-2√2) ≠ 1 - compute karo.",
+      "D": "Rationalise kiye bina sirf sign badla."
+     }
+    }
+   ],
+   "short": "Number Systems & Exponents"
+  },
+  {
+   "num": 4,
+   "name": "Algebraic Identities and Factorisation",
+   "star": true,
+   "title": "Chapter 4: Algebraic Identities and Factorisation ★ MOST IMPORTANT",
+   "intro": "Pura chapter ek toolbox hai - 8 identities + 5 factorisation moves. Exam mein sabse zyada marks yahin se: near-number evaluation, x+1/x chains, cube bridges aur zero-sum shortcut. Identities ko \"kab use karna hai\" ke saath yaad karo, akela formula kaam nahi karta.",
+   "formulas": [
+    {
+     "f": "(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>",
+     "meaning": "Square + DOUBLE product + square. Beech wala 2ab hi asli identity hai - wo bhool gaye toh sirf squares likhna galat.",
+     "ex": "(2x + 3)<sup>2</sup> = 4x<sup>2</sup> + 12x + 9"
+    },
+    {
+     "f": "(a − b)<sup>2</sup> = a<sup>2</sup> − 2ab + b<sup>2</sup>",
+     "meaning": "Sirf MIDDLE term minus hota hai, last term plus rehta hai. a<sup>2</sup> − 2ab − b<sup>2</sup> likhna classic disaster hai.",
+     "ex": "(3x − 4y)<sup>2</sup> = 9x<sup>2</sup> − 24xy + 16y<sup>2</sup>"
+    },
+    {
+     "f": "a<sup>2</sup> − b<sup>2</sup> = (a + b)(a − b)",
+     "meaning": "Do direction mein chalta hai: factorise karo YA quick multiply karo. \"Without direct multiplication\" dikhe toh yehi.",
+     "ex": "51 × 49 = 50<sup>2</sup> − 1<sup>2</sup> = 2499"
+    },
+    {
+     "f": "(x + a)(x + b) = x<sup>2</sup> + (a+b)x + ab",
+     "meaning": "x ka coefficient = dono numbers ka SUM, constant = PRODUCT. Sum-product yaad rakhna, expansion nahi karna.",
+     "ex": "(x + 4)(x + 7) = x<sup>2</sup> + 11x + 28"
+    },
+    {
+     "f": "(a + b + c)<sup>2</sup> = a<sup>2</sup>+b<sup>2</sup>+c<sup>2</sup> + 2ab + 2bc + 2ca",
+     "meaning": "Teen squares + har JODI ka double (3 jodiyan hote hain, bhoolna mat). Cross term ka sign = uske dono parents ke signs ka product.",
+     "ex": "(2p + 3q − 4r)<sup>2</sup> mein 12pq, −24qr, −16pr"
+    },
+    {
+     "f": "(a ± b)<sup>3</sup> = a<sup>3</sup> ± 3a<sup>2</sup>b + 3ab<sup>2</sup> ± b<sup>3</sup>",
+     "meaning": "Signs same order mein: (a+b)<sup>3</sup> sab plus; (a−b)<sup>3</sup> mein + − + − pattern (last term minus!).",
+     "ex": "103<sup>3</sup> = 1000000 + 90000 + 2700 + 27 = 1092727"
+    },
+    {
+     "f": "a<sup>3</sup> + b<sup>3</sup> = (a+b)(a<sup>2</sup> − ab + b<sup>2</sup>)<br>a<sup>3</sup> − b<sup>3</sup> = (a−b)(a<sup>2</sup> + ab + b<sup>2</sup>)",
+     "meaning": "Bracket apna sign rakhta hai; trinomial ke beech wale term ka sign OPPOSITE. 8a<sup>3</sup>+27b<sup>3</sup> = (2a)<sup>3</sup>+(3b)<sup>3</sup> pehle banao.",
+     "ex": "x<sup>3</sup> − 27 = (x−3)(x<sup>2</sup>+3x+9)"
+    },
+    {
+     "f": "Bridges: a<sup>2</sup>+b<sup>2</sup> = (a+b)<sup>2</sup> − 2ab<br>a<sup>3</sup>+b<sup>3</sup> = (a+b)<sup>3</sup> − 3ab(a+b)",
+     "meaning": "a+b aur ab diye ho toh ye bridges DIRECT answer dete hain. Given values kabhi random nahi hote - bridge laga do.",
+     "ex": "a+b=12, ab=27 → a<sup>3</sup>+b<sup>3</sup> = 1728 − 972 = 756"
+    },
+    {
+     "f": "Crown: a<sup>3</sup>+b<sup>3</sup>+c<sup>3</sup> − 3abc = (a+b+c)(a<sup>2</sup>+b<sup>2</sup>+c<sup>2</sup>−ab−bc−ca)",
+     "meaning": "Agar <strong>a+b+c = 0</strong> ho toh RIGHT side zero → <strong>a<sup>3</sup>+b<sup>3</sup>+c<sup>3</sup> = 3abc</strong>. Ye shortcut exam ka king hai.",
+     "ex": "12<sup>3</sup> + 1<sup>3</sup> + (−13)<sup>3</sup> = 3×12×1×(−13) = −468"
+    },
+    {
+     "f": "x + 1/x = s → x<sup>2</sup> + 1/x<sup>2</sup> = s<sup>2</sup> − 2 → x<sup>3</sup> + 1/x<sup>3</sup> = s<sup>3</sup> − 3s",
+     "meaning": "Chain chalao: har baar square/cube karo aur 2 (ya 3s) minus. x − 1/x = d ho toh PLUS 2 / PLUS 3d hota hai.",
+     "ex": "s = 3 → 7 → 18 → x<sup>4</sup>+1/x<sup>4</sup> = 47"
+    },
+    {
+     "f": "(a+b)<sup>2</sup> − (a−b)<sup>2</sup> = 4ab; (a+b)<sup>2</sup> + (a−b)<sup>2</sup> = 2(a<sup>2</sup>+b<sup>2</sup>)",
+     "meaning": "Jodi wale identities: difference = 4ab (quick multiply engine), sum = 2(a<sup>2</sup>+b<sup>2</sup>).",
+     "ex": "5.5<sup>2</sup> − 4.5<sup>2</sup> = 4 × 5.5 × 4.5 = 99"
+    },
+    {
+     "f": "Middle-term split: x<sup>2</sup> + px + q → 2 numbers jinka sum p, product q",
+     "meaning": "x<sup>2</sup>+7x+12: 4 aur 3 (sum 7, product 12) → (x+4)(x+3). General ax<sup>2</sup>+bx+c mein product = a×c lo.",
+     "ex": "x<sup>2</sup> − 11x − 26 = (x−13)(x+2)"
+    }
+   ],
+   "checks": [
+    "<strong>Golden order of factorisation:</strong> (1) HCF common → (2) identity → (3) grouping → (4) middle-term split → (5) substitution. HCF SABSE PEHLE, hamesha.",
+    "<strong>Near numbers:</strong> 98<sup>2</sup> = (100−2)<sup>2</sup>, 103<sup>3</sup> = (100+3)<sup>3</sup>, 999<sup>2</sup> + 2·999 + 1 = (999+1)<sup>2</sup> = 1000000. Round number ke (round ± chhota) mein todo.",
+    "<strong>Zero-sum instant:</strong> a+b+c = 0 dikha → cubes ka sum = 3abc likh ke aage badho. 25<sup>3</sup> − 75<sup>3</sup> + 50<sup>3</sup> = 3×25×(−75)×50.",
+    "<strong>Crown ka converse:</strong> a<sup>3</sup>+b<sup>3</sup>+c<sup>3</sup> = 3abc ho toh either a+b+c = 0 YA a = b = c.",
+    "<strong>x<sup>4</sup> + x<sup>2</sup> + 1 = (x<sup>2</sup>+x+1)(x<sup>2</sup>−x+1)</strong> - add-subtract x<sup>2</sup> trick. x<sup>4</sup> − 81 jaise chains mein har layer ko todte raho.",
+    "<strong>Cubic factoring:</strong> x = 1, −1, 2, −2 try karo root ke liye; root mil gaya toh (x − root) se divide.",
+    "<strong>Sign of cross terms in (a+b+c)<sup>2</sup>:</strong> har cross term ka sign uske dono parents ke signs ka product. Count karo - exactly 3 pairs, har ek twice.",
+    "<strong>Cube bridge scaled version:</strong> 2x+3y = 13, xy = 6 → 8x<sup>3</sup>+27y<sup>3</sup> = (2x+3y)<sup>3</sup> − 3(2x)(3y)(2x+3y). Pehle block banao, phir bridge.",
+    "<strong>Verify karna mana nahi:</strong> factorisation ke baad expand karke check karo - 30 second mein galat answer pakda jata hai."
+   ],
+   "tricks": [
+    {
+     "trick": "Near round numbers: 51 × 49 = 50<sup>2</sup> - 1; 102<sup>2</sup> = 100<sup>2</sup> + 2·100·2 + 4",
+     "when": "\"Evaluate without direct multiplication\"."
+    },
+    {
+     "trick": "Given a + b and ab: a<sup>2</sup> + b<sup>2</sup> = (a+b)<sup>2</sup> - 2ab; a<sup>3</sup> + b<sup>3</sup> = (a+b)<sup>3</sup> - 3ab(a+b)",
+     "when": "Bridge questions - the two givens are never random."
+    },
+    {
+     "trick": "a + b + c = 0 → a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc, instantly",
+     "when": "Zero-sum cubes like 25<sup>3</sup> - 75<sup>3</sup> + 50<sup>3</sup>."
+    },
+    {
+     "trick": "x + 1/x = s → square it: x<sup>2</sup> + 1/x<sup>2</sup> = s<sup>2</sup> - 2 → keep chaining up",
+     "when": "The whole x + 1/x family."
+    },
+    {
+     "trick": "Spot perfect cubes (8, 27, 64, 125, a<sup>3</sup>b<sup>3</sup>) → apply a<sup>3</sup> ± b<sup>3</sup>",
+     "when": "27a<sup>3</sup> + 64 type expressions."
+    },
+    {
+     "trick": "Cubic factoring: test x = 1, -1, 2, -2 for a root, then divide",
+     "when": "x<sup>3</sup> - 3x<sup>2</sup> - 9x - 5 type."
+    },
+    {
+     "trick": "HCF first, ALWAYS - before any identity or grouping",
+     "when": "Every factorisation: move 1 of the golden sequence."
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Near-number squares (T3)",
+     "stem": "Evaluate using identities: (i) 102², (ii) 98², (iii) 9.7².",
+     "steps": [
+      "Given: three squares near round numbers. Write each as (100 ± k) or (10 ± k).",
+      "(i) 102² = (100+2)² = 10000 + 400 + 4 = 10404.",
+      "(ii) 98² = (100-2)² = 10000 - 400 + 4 = 9604.",
+      "(iii) 9.7² = (10 - 0.3)² = 100 - 6 + 0.09 = 94.09."
+     ],
+     "answer": "(i) 10404 (ii) 9604 (iii) 94.09",
+     "why": [
+      "The identity replaces one hard multiplication with three easy pieces; the cross term 2×100×k does the heavy lifting."
+     ],
+     "hinglish": "Round number ke paas wale squares ka JUGAAD: (100±2)². 98² = 10000 - 400 + 4 = 9604. Dhyan do: 9.7² mein cross term 2×10×0.3 = 6, aur 0.3² = 0.09 - decimals ka square chhota hota hai, 0.9 nahi!",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Square-sum identities (T1/T11)",
+     "stem": "If a + b = 10 and a - b = 4, find (i) a² + b² and (ii) ab - all in one line each, using identities.",
+     "steps": [
+      "Given: the pair-sum and pair-difference. Needed: sum of squares and the product.",
+      "Add the two squares identities: (a+b)² + (a-b)² = 2(a² + b²).",
+      "So a² + b² = (10² + 4²)/2 = (100 + 16)/2 = 58.",
+      "Subtract: (a+b)² - (a-b)² = 4ab.",
+      "So ab = (100 - 16)/4 = 84/4 = 21.",
+      "Check: (a+b)(a-b) = 10×4 = 40 = a² - b²; with a²+b² = 58 we get a² = 49, b² = 9, a = 7, b = 3 ✓ (ab = 21 ✓)."
+     ],
+     "answer": "a² + b² = 58, ab = 21",
+     "why": [
+      "The two companion identities convert (a+b, a-b) directly into (a²+b², ab) without ever solving for a and b."
+     ],
+     "hinglish": "Ye identity-pair exam ka shortcut bomb hai: (a+b)²+(a-b)² = 2(a²+b²) aur (a+b)²-(a-b)² = 4ab. Dono values plug karo - 58 aur 21. Solving for a, b optional hai, sirf check ke liye.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Basic",
+     "concept": "Middle-term splitting (T6)",
+     "stem": "Factorise: (i) x² + 7x + 12, (ii) x² - 5x - 36, (iii) x² - 11x + 24.",
+     "steps": [
+      "Given: three monic quadratics. Find two numbers with the right SUM and PRODUCT.",
+      "(i) sum 7, product 12 → 3 and 4: (x + 3)(x + 4).",
+      "(ii) sum -5, product -36 → -9 and +4: (x - 9)(x + 4).",
+      "(iii) sum -11, product 24 → -8 and -3: (x - 8)(x - 3).",
+      "Checks: 3+4 = 7, 3×4 = 12 ✓; -9+4 = -5, -9×4 = -36 ✓; -8-3 = -11, 24 ✓."
+     ],
+     "answer": "(i) (x+3)(x+4) (ii) (x-9)(x+4) (iii) (x-8)(x-3)",
+     "why": [
+      "Expanding (x+p)(x+q) gives sum and product - so factorising reverses exactly those two readings."
+     ],
+     "hinglish": "Do numbers dhoondo: jiska sum middle coefficient ho, product last term ho. Sign logic: product positive toh dono same sign (sum ke hisaab se), product negative toh alag-alag. (ii) mein product -36 aur sum -5: -9 aur +4 jeette hain.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "x + 1/x chain (T10)",
+     "stem": "If x + 1/x = 5, find (i) x² + 1/x² and (ii) x⁴ + 1/x⁴.",
+     "steps": [
+      "Given: x + 1/x = 5. Square both sides: x² + 2 + 1/x² = 25.",
+      "(i) x² + 1/x² = 25 - 2 = 23.",
+      "Square again: (x² + 1/x²)² = x⁴ + 2 + 1/x⁴ = 23² = 529.",
+      "(ii) x⁴ + 1/x⁴ = 529 - 2 = 527."
+     ],
+     "answer": "(i) 23 (ii) 527",
+     "why": [
+      "Every square introduces a constant middle term 2 (because x · 1/x = 1); subtract it to keep the chain clean."
+     ],
+     "hinglish": "Chain method: square karo, 2 minus karo, phir dobara square karo, phir 2 minus. 5 → 23 → 527. Ek hi line mein: (x+1/x)² - 2 = x²+1/x². Ye chain chalti hi jati hai - x⁶ ke liye x³ wale bridge ka use hota hai.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Cube sum bridge (T11)",
+     "stem": "If a + b = 12 and ab = 27, find a³ + b³ and a² + b².",
+     "steps": [
+      "Given: pair-sum and product. Cube bridge: a³ + b³ = (a+b)³ - 3ab(a+b).",
+      "a³ + b³ = 12³ - 3(27)(12) = 1728 - 972 = 756.",
+      "Square identity: a² + b² = (a+b)² - 2ab = 144 - 54 = 90."
+     ],
+     "answer": "a³ + b³ = 756, a² + b² = 90",
+     "why": [
+      "Both bridges express symmetric quantities in terms of (sum, product) - no need to solve for a and b."
+     ],
+     "hinglish": "Symmetric quantities ka rule: sab kuch (sum, product) se nikhlo. Cube bridge: (a+b)³ - 3ab(a+b). 1728 - 972 = 756. Square: 144 - 54 = 90. Solving a, b se bhi hoga but identity wala path 2 line ka hai.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Moderate",
+     "concept": "Crown identity evaluation (T9)",
+     "stem": "Using a suitable identity, evaluate 12³ + 1³ + (-13)³.",
+     "steps": [
+      "Spot the zero sum: 12 + 1 + (-13) = 0.",
+      "Zero-sum shortcut: if a + b + c = 0 then a³ + b³ + c³ = 3abc.",
+      "So the value = 3 × 12 × 1 × (-13) = -468."
+     ],
+     "answer": "-468",
+     "why": [
+      "The identity a³+b³+c³-3abc = (a+b+c)(...) collapses to 0 on the left whenever a+b+c = 0."
+     ],
+     "hinglish": "Numbers dekho: 12, 1, -13 - sum zero! Turant shortcut: cubes ka sum = 3abc = -468. Bina koi cube nikaale. Ye 'zero-sum spotting' exam mein 3 second ka kaam hai - 5 marks bachate hain.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Difficult",
+     "concept": "Cubic factorisation by root (T12)",
+     "stem": "Factorise completely: x³ - 3x² - 9x - 5.",
+     "steps": [
+      "Hunt for an integer root: try x = -1: (-1)³ - 3(1) - 9(-1) - 5 = -1 - 3 + 9 - 5 = 0 ✓. So (x + 1) is a factor.",
+      "Divide: x³ - 3x² - 9x - 5 = (x + 1)(x² - 4x - 5).",
+      "(Verify by expanding: x³ - 4x² - 5x + x² - 4x - 5 = x³ - 3x² - 9x - 5 ✓.)",
+      "Factorise the quadratic: x² - 4x - 5: sum -4, product -5 → -5 and +1: (x - 5)(x + 1).",
+      "Final: (x + 1)²(x - 5)."
+     ],
+     "answer": "(x + 1)²(x - 5)",
+     "why": [
+      "An integer root r of a polynomial always yields the factor (x - r); testing small integers (0, ±1, ±2) is the fastest opening move."
+     ],
+     "hinglish": "Cubic factorisation ka opening: chhote integers try karo. x = -1 par zero mila, toh (x+1) factor. Long division ya coefficient comparison se quadratic mila: x²-4x-5, wo phir middle-term split. Final (x+1)²(x-5).",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "Difficult",
+     "concept": "Crown identity forward use (T9)",
+     "stem": "If x + y + z = 6 and xy + yz + zx = 11, find x³ + y³ + z³ - 3xyz.",
+     "steps": [
+      "First get the sum of squares: x²+y²+z² = (x+y+z)² - 2(xy+yz+zx) = 36 - 22 = 14.",
+      "Crown identity: x³+y³+z³-3xyz = (x+y+z)(x²+y²+z² - xy - yz - zx).",
+      "The bracket: 14 - 11 = 3.",
+      "Value = 6 × 3 = 18."
+     ],
+     "answer": "18",
+     "why": [
+      "The crown identity needs (sum) and (sum of squares minus pair-sum) - both computable from the givens."
+     ],
+     "hinglish": "Do steps: pehle x²+y²+z² = 36-22 = 14. Phir crown identity: bracket = 14-11 = 3. Multiply: 6×3 = 18. Zero-sum nahi tha isliye poora identity use hua.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "Difficult",
+     "concept": "Scaled square bridge (T11)",
+     "stem": "If 9x² + 25y² = 181 and xy = 2, find 3x - 5y.",
+     "steps": [
+      "Note 9x² = (3x)² and 25y² = (5y)².",
+      "(3x - 5y)² = 9x² - 2(3x)(5y) + 25y² = 181 - 30xy = 181 - 60 = 121.",
+      "So 3x - 5y = ±11."
+     ],
+     "answer": "3x - 5y = 11 or -11",
+     "why": [
+      "Spotting the scaled square (3x, 5y) converts the given sum of squares into a completed square minus the cross term."
+     ],
+     "hinglish": "9x² aur 25y² ko (3x)², (5y)² dekho. Cross term 2×3x×5y = 30xy = 60. 181 - 60 = 121 = 11². Sign: dono values possible - ±11. Ye 'scaled variables' wala pattern har identity mein chalta hai.",
+     "fig": null
+    },
+    {
+     "n": 10,
+     "level": "Difficult",
+     "concept": "Zero-sum with big numbers (T9)",
+     "stem": "Without cubing any number, evaluate 25³ - 75³ + 50³.",
+     "steps": [
+      "Sum check: 25 - 75 + 50 = 0. So a = 25, b = -75, c = 50 has a + b + c = 0.",
+      "Zero-sum shortcut: a³ + b³ + c³ = 3abc.",
+      "Value = 3 × 25 × (-75) × 50.",
+      "25 × 75 = 1875; 1875 × 50 = 93,750; times 3 = 281,250. With the minus sign: -281,250."
+     ],
+     "answer": "-281,250",
+     "why": [
+      "The zero sum makes three cubes collapse into one product - this is the identity's designed use."
+     ],
+     "hinglish": "25 - 75 + 50 = 0 - zero-sum! -75 ko b banake shortcut lagao: 3×25×(-75)×50 = -281250. Teen cubes (15625 + ... + 125000) karne ki zaroorat hi nahi. Sign: ek negative factor, toh result negative.",
+     "fig": null
+    },
+    {
+     "n": 11,
+     "level": "High",
+     "concept": "Decimal cube sum (T3/T9)",
+     "stem": "Without cubing, evaluate 0.86³ + 0.14³.",
+     "steps": [
+      "a + b = 0.86 + 0.14 = 1.",
+      "Bridge: a³ + b³ = (a+b)³ - 3ab(a+b) = 1 - 3ab.",
+      "ab = 0.86 × 0.14 = 0.1204.",
+      "Value = 1 - 3(0.1204) = 1 - 0.3612 = 0.6388."
+     ],
+     "answer": "0.6388",
+     "why": [
+      "The pair-sum 1 makes (a+b)³ trivial; only the product needs one multiplication."
+     ],
+     "hinglish": "0.86 + 0.14 = 1 - yahi design hai. Bridge: 1 - 3(0.1204) = 0.6388. Decimals ka product dhyan se: 86×14 = 1204, four decimal places. Cubes bilkul nahi nikaale.",
+     "fig": null
+    },
+    {
+     "n": 12,
+     "level": "High",
+     "concept": "Bridge reversed for product (T11)",
+     "stem": "If p³ + q³ = 35 and p + q = 5, find pq.",
+     "steps": [
+      "Bridge: p³ + q³ = (p+q)³ - 3pq(p+q).",
+      "35 = 125 - 3pq · 5 = 125 - 15pq.",
+      "15pq = 90, so pq = 6."
+     ],
+     "answer": "pq = 6",
+     "why": [
+      "The bridge reads equally well backwards: the product is recovered from the two cube-related quantities."
+     ],
+     "hinglish": "Bridge ka reverse use: 35 = 125 - 15pq. pq = 6. Check: p, q roots of t²-5t+6 = (t-2)(t-3): p=2, q=3 → 8+27 = 35 ✓.",
+     "fig": null
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Near-number square",
+     "stem": "101² equals:",
+     "options": [
+      "10201",
+      "10021",
+      "1021",
+      "10404"
+     ],
+     "ans": "A",
+     "expl": "(100+1)² = 10000 + 200 + 1 = 10201.",
+     "hinglish": "10000 + 200 + 1. Cross term 2×100×1 = 200.",
+     "traps": {
+      "B": "Cross term 20 likh diya.",
+      "C": "Dropped both extra terms.",
+      "D": "That is 102²."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Equidistant product",
+     "stem": "51 × 49 equals:",
+     "options": [
+      "2499",
+      "2501",
+      "2490",
+      "2489"
+     ],
+     "ans": "A",
+     "expl": "(50+1)(50-1) = 2500 - 1 = 2499.",
+     "hinglish": "Average 50, offset 1: 2500-1 = 2499. Multiplication one second mein.",
+     "traps": {
+      "B": "Added 1 instead of subtracting.",
+      "C": "Wrong offset.",
+      "D": "Arithmetic slip."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Companion identity",
+     "stem": "(a+b)² - (a-b)² equals:",
+     "options": [
+      "2ab",
+      "4ab",
+      "2(a²+b²)",
+      "0"
+     ],
+     "ans": "B",
+     "expl": "Subtracting the expansions cancels a² and b², leaving 4ab.",
+     "hinglish": "Squares ka difference = 4ab. Sum = 2(a²+b²). Dono yaad rakho.",
+     "traps": {
+      "A": "Missed the factor 2.",
+      "C": "That is the SUM of the two squares.",
+      "D": "The difference is not zero."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Middle-term splitting",
+     "stem": "x² + 7x + 12 factorises as:",
+     "options": [
+      "(x+3)(x+4)",
+      "(x+2)(x+6)",
+      "(x+1)(x+12)",
+      "(x-3)(x-4)"
+     ],
+     "ans": "A",
+     "expl": "3 + 4 = 7 and 3 × 4 = 12.",
+     "hinglish": "Sum 7, product 12: 3 aur 4.",
+     "traps": {
+      "B": "2+6 = 8 ≠ 7.",
+      "C": "1+12 = 13.",
+      "D": "Signs wrong: sum would be -7."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Perfect square spotting",
+     "stem": "9x² + 12x + 4 equals:",
+     "options": [
+      "(3x+2)²",
+      "(3x+4)²",
+      "(9x+2)²",
+      "(3x+2)(3x-2)"
+     ],
+     "ans": "A",
+     "expl": "(3x)² + 2(3x)(2) + 2² = (3x+2)².",
+     "hinglish": "Middle term 12x = 2×3x×2 ✓. Perfect square.",
+     "traps": {
+      "B": "(3x+4)² = 9x²+24x+16.",
+      "C": "(9x+2)² = 81x²+36x+4.",
+      "D": "That is 9x²-4."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "x + 1/x square",
+     "stem": "If x + 1/x = 2, then x² + 1/x² equals:",
+     "options": [
+      "2",
+      "4",
+      "6",
+      "0"
+     ],
+     "ans": "A",
+     "expl": "(x+1/x)² = x²+2+1/x² = 4 ⇒ x²+1/x² = 2.",
+     "hinglish": "4 - 2 = 2. (x=1 hit karke bhi dekh sakte ho.)",
+     "traps": {
+      "B": "Forgot to subtract 2.",
+      "C": "Subtracted -2.",
+      "D": "Sign error."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Trinomial square",
+     "stem": "(a + b + c)² equals:",
+     "options": [
+      "a²+b²+c²+2ab+2bc+2ca",
+      "a²+b²+c²+ab+bc+ca",
+      "a²+b²+c²",
+      "a²+b²+c²+2abc"
+     ],
+     "ans": "A",
+     "expl": "Three squares plus TWICE each of the three pairwise products.",
+     "hinglish": "Teen squares + teen cross terms, har cross term par coefficient 2.",
+     "traps": {
+      "B": "Missing the 2s.",
+      "C": "Cross terms dropped.",
+      "D": "2abc is a triple product - never appears."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Cube bridge",
+     "stem": "If x + 1/x = 3, then x³ + 1/x³ equals:",
+     "options": [
+      "18",
+      "27",
+      "21",
+      "30"
+     ],
+     "ans": "A",
+     "expl": "x³+1/x³ = 27 - 3·3 = 27 - 9 = 18.",
+     "hinglish": "s³ - 3s = 27 - 9 = 18.",
+     "traps": {
+      "B": "(x+1/x)³ hi maan liya.",
+      "C": "Subtracted 6.",
+      "D": "Added 3."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Zero-sum cube",
+     "stem": "If a + b + c = 0, then a³ + b³ + c³ equals:",
+     "options": [
+      "3abc",
+      "0",
+      "-3abc",
+      "abc"
+     ],
+     "ans": "A",
+     "expl": "Crown identity with a+b+c = 0 gives a³+b³+c³ = 3abc.",
+     "hinglish": "Zero-sum shortcut: 3abc. Yaad kar lo - har saal aata hai.",
+     "traps": {
+      "B": "Only the PRODUCT side vanishes, not the cubes.",
+      "C": "Sign flipped.",
+      "D": "Missing the 3."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Near-number cube",
+     "stem": "The last three digits of 999³ are:",
+     "options": [
+      "299",
+      "001",
+      "999",
+      "997"
+     ],
+     "ans": "A",
+     "expl": "999³ = (1000-1)³ = 997002999; last three digits 299.",
+     "hinglish": "Full value 997002999 - last three: 299.",
+     "traps": {
+      "B": "That is 1001³'s neighbourhood error.",
+      "C": "Copied the base.",
+      "D": "First three digits."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Cube sum formula",
+     "stem": "a³ + b³ equals:",
+     "options": [
+      "(a+b)(a²-ab+b²)",
+      "(a+b)(a²+ab+b²)",
+      "(a+b)³",
+      "(a-b)(a²+ab+b²)"
+     ],
+     "ans": "A",
+     "expl": "Standard factorisation; the trinomial's middle term is -ab.",
+     "hinglish": "Sum: binomial plus, trinomial middle minus.",
+     "traps": {
+      "B": "That is a³-b³'s factor.",
+      "C": "Not a factorisation.",
+      "D": "Wrong binomial."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Three-variable square bridge",
+     "stem": "If a + b + c = 9 and ab + bc + ca = 26, then a² + b² + c² equals:",
+     "options": [
+      "29",
+      "55",
+      "107",
+      "29±... 33"
+     ],
+     "ans": "A",
+     "expl": "81 = a²+b²+c² + 52, so the sum of squares is 29.",
+     "hinglish": "81 - 52 = 29.",
+     "traps": {
+      "B": "Added 2Σ instead of subtracting.",
+      "C": "Doubled wrongly.",
+      "D": "Arithmetic slip."
+     }
+    },
+    {
+     "n": 13,
+     "level": "Normal",
+     "concept": "Cube sum from data",
+     "stem": "If x + y = 5 and xy = 6, then x³ + y³ equals:",
+     "options": [
+      "35",
+      "125",
+      "53",
+      "63"
+     ],
+     "ans": "A",
+     "expl": "125 - 3·6·5 = 125 - 90 = 35.",
+     "hinglish": "(x+y)³ - 3xy(x+y) = 125 - 90 = 35.",
+     "traps": {
+      "B": "That is (x+y)³.",
+      "C": "Subtracted 3xy only.",
+      "D": "Arithmetic slip."
+     }
+    },
+    {
+     "n": 14,
+     "level": "Normal",
+     "concept": "Bridge reversed",
+     "stem": "If a³ + b³ = 152 and a + b = 8, then ab equals:",
+     "options": [
+      "15",
+      "12",
+      "19",
+      "16"
+     ],
+     "ans": "A",
+     "expl": "152 = 512 - 3ab(8) ⇒ 24ab = 360 ⇒ ab = 15.",
+     "hinglish": "512 - 152 = 360. 360/24 = 15.",
+     "traps": {
+      "B": "Arithmetic slip.",
+      "C": "Divided by wrong number.",
+      "D": "Assumed ab = a+b."
+     }
+    },
+    {
+     "n": 15,
+     "level": "HOTS",
+     "concept": "Sum-cube identity form",
+     "stem": "(a + b + c)³ equals:",
+     "options": [
+      "a³+b³+c³+3(a+b)(b+c)(c+a)",
+      "a³+b³+c³+3abc",
+      "a³+b³+c³+3(a+b+c)(ab+bc+ca)",
+      "(a+b)(b+c)(c+a)"
+     ],
+     "ans": "A",
+     "expl": "Standard identity; option C misses the -3abc correction, so A is the clean exact form.",
+     "hinglish": "(a+b)(b+c)(c+a) wala form yaad rakho - expansion se match karta hai.",
+     "traps": {
+      "B": "Too small.",
+      "C": "Missing -3abc term.",
+      "D": "No cubes at all."
+     }
+    }
+   ],
+   "short": "Algebraic Identities"
+  },
+  {
+   "num": 6,
+   "name": "Perimeter and Area",
+   "star": true,
+   "title": "Chapter 6: Perimeter and Area ★ MOST IMPORTANT",
+   "intro": "Book ka sabse scoring chapter - Heron, circles, sectors, rings aur composite figures. Ek hi baat yaad rakho: figure banao (2 inch ka bhi), values likho, phir formula fire karo. π ka choice (22/7 vs 3.14) pehla decision hai har circle question ka.",
+   "formulas": [
+    {
+     "f": "Rectangle: P = 2(l + b), A = l × b<br>Square: P = 4a, A = a<sup>2</sup>, diagonal = a√2",
+     "meaning": "Basic shapes. Square ka diagonal side ka √2 guna - reverse mein bhi use hota hai.",
+     "ex": "Square side 7 → diagonal 7√2"
+    },
+    {
+     "f": "Triangle: A = ½ × base × height",
+     "meaning": "Height base ke PERPENDICULAR honi chahiye. Parallelogram ka aadha hota hai same base-height pe.",
+     "ex": "b = 14, h = 9 → A = 63 cm<sup>2</sup>"
+    },
+    {
+     "f": "Heron: s = (a+b+c)/2, A = √(s(s−a)(s−b)(s−c))",
+     "meaning": "Teen sides diye ho toh yehi. Rhythm: s nikalo → 3 differences → multiply (pair smart) → root.",
+     "ex": "3, 4, 5: s = 6, A = √(6·3·2·1) = 6"
+    },
+    {
+     "f": "Right triangle? A = ½ × leg × leg (Heron SKIP)",
+     "meaning": "Sides 5-12-13, 9-40-41 jaise dikhe (a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup>) toh right angle hai - direct formula, time bachao.",
+     "ex": "9, 40, 41 → A = 180 cm<sup>2</sup>"
+    },
+    {
+     "f": "Equilateral: A = (√3/4)a<sup>2</sup>, height = (√3/2)a",
+     "meaning": "Sab sides barabar? Heron ki zaroorat nahi. Reverse bhi: area diya ho toh side = √(4A/√3).",
+     "ex": "a = 8 → A = 16√3 cm<sup>2</sup>"
+    },
+    {
+     "f": "Parallelogram: A = b×h<br>Rhombus: A = ½d<sub>1</sub>d<sub>2</sub><br>Trapezium: A = ½(a+b)h",
+     "meaning": "Rhombus mein DIAGNALS (perpendicular) ka product aadha. Trapezium mein parallel sides ka sum, height, aadha.",
+     "ex": "d<sub>1</sub>=10, d<sub>2</sub>=24 → rhombus A = 120"
+    },
+    {
+     "f": "Circle: C = 2πr, A = πr<sup>2</sup>",
+     "meaning": "π ka choice: radius 7 ka multiple ho toh 22/7, warna 3.14. Reverse: C diya → r = C/(2π).",
+     "ex": "r = 14: C = 88 cm, A = 616 cm<sup>2</sup>"
+    },
+    {
+     "f": "Arc: ℓ = (θ/360) × 2πr<br>Sector area: (θ/360) × πr<sup>2</sup> = ½ℓr<br>Sector perimeter = ℓ + 2r",
+     "meaning": "Sector = pizza slice: poore circle ka θ/360 hissa. Gem: A = ½ × arc × r. Perimeter mein DONO radii + arc.",
+     "ex": "r = 21, θ = 60°: ℓ = 22, A = 77"
+    },
+    {
+     "f": "Segment area = sector − triangle",
+     "meaning": "Chord aur arc ke beech ka hissa. Sector se equilateral/60° triangle minus karo (θ=60° pe triangle equilateral hota hai).",
+     "ex": "θ = 60°, r = 21: segment = 77 − (√3/4)×441"
+    },
+    {
+     "f": "Ring: A = π(R<sup>2</sup> − r<sup>2</sup>) = π(R+r)(R−r)<br>Outside path: R = r + w",
+     "meaning": "Donut ka area. Path bahar ho toh outer radius = inner + width; path andar ho toh radii minus karo.",
+     "ex": "R = 12, r = 8: A = π×20×4 = 320×22/7 ≈ 1005.7"
+    },
+    {
+     "f": "Wheel: distance = revolutions × circumference",
+     "meaning": "Kitne chakkar = kitni distance / circumference. Reverse bhi chalta hai.",
+     "ex": "d = 70 cm wheel, 1 km = 100000 cm → 100000/220 ≈ 455 rev"
+    },
+    {
+     "f": "Brahmagupta (cyclic quadrilateral): A = √((s−a)(s−b)(s−c)(s−d))",
+     "meaning": "Char sides wala CYCLIC quadrilateral (sab vertices circle par). Same s = semi-perimeter; koi (s−..) multiply hota hai.",
+     "ex": "s = 31, sides 13,14,15,20 type → root before multiply"
+    },
+    {
+     "f": "1 hectare = 10000 m<sup>2</sup>",
+     "meaning": "Bade field ka unit. hectare → m<sup>2</sup> mein x10000.",
+     "ex": "0.5 hectare = 5000 m<sup>2</sup>"
+    }
+   ],
+   "checks": [
+    "<strong>Heron mein pairing smart karo:</strong> (s−a)(s−b)(s−c) ko aise jodo ki multiplication easy ho - jaise 18×7×11×4 ko (18×4)×(7×11).",
+    "<strong>Wire re-bending questions:</strong> perimeter SAME rehta hai - pehle shape ka perimeter nikaalo, wahi naye shape ka radius/side banta hai.",
+    "<strong>Ratio questions:</strong> sides ko 3x, 4x, 5x likho, perimeter/x diya hua use karke x nikaalo, phir Heron.",
+    "<strong>Composite figures:</strong> rectangle + semicircle, circle in square - area ko TODDO (add ya minus), perimeter ko TRACE karo (sirf outer boundary).",
+    "<strong>Ring ke 2 givens:</strong> (R−r) aur (R+r) alag alag diye ho toh direct (R+r)(R−r) multiply karo - individual radii ki zaroorat nahi.",
+    "<strong>Chord wala ring trick:</strong> chord of OUTER circle tangent to inner → half-chord<sup>2</sup> = R<sup>2</sup> − r<sup>2</sup> (Pythagoras) → ring area = π × (chord/2)<sup>2</sup>.",
+    "<strong>Goat/cow grazing:</strong> corner pe tied → sector of angle 90°; edge ke beech mein → 180°. Sector area = fraction of circle.",
+    "<strong>Track questions:</strong> perimeter = 2 straights + 1 full circle (2 semicircles); area = rectangle + full circle.",
+    "<strong>Same perimeter different shapes:</strong> circle ka area SABSE BADA hota hai - comparison MCQs ka standard answer.",
+    "<strong>Units discipline:</strong> cm vs m vs km - pehle same unit mein lao, phir formula. Answer ke saath unit likhna compulsory hai."
+   ],
+   "tricks": [
+    {
+     "trick": "π choice: radius multiple of 7 → 22/7; otherwise 3.14",
+     "when": "First decision of every circle question."
+    },
+    {
+     "trick": "Sector and arc = θ/360 × (full circle value). Gem: sector area = ½ × arc × r",
+     "when": "Pizza-slice sector questions."
+    },
+    {
+     "trick": "Sides satisfy a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>? Area = ½ × leg × leg - skip Heron",
+     "when": "5-12-13, 9-40-41 style triangles."
+    },
+    {
+     "trick": "Heron rhythm: s → three differences → multiply (pair smartly) → root",
+     "when": "Three sides given, height unknown."
+    },
+    {
+     "trick": "Ring: A = π(R+r)(R-r). Path outside: R = r + w. Path inside: subtract squares",
+     "when": "Garden path / ring / border questions."
+    },
+    {
+     "trick": "Wheel: distance = revolutions × circumference",
+     "when": "\"How many revolutions / how far does it travel\"."
+    },
+    {
+     "trick": "Equilateral: area = (√3/4)a<sup>2</sup>, height = (√3/2)a",
+     "when": "All sides equal - no Heron needed."
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Heron direct (T2)",
+     "stem": "Find the area of a triangle with sides 5 cm, 12 cm and 13 cm.",
+     "steps": [
+      "s = (5 + 12 + 13)/2 = 15 cm.",
+      "Differences: s - a = 10, s - b = 3, s - c = 2.",
+      "A = √(15 × 10 × 3 × 2) = √900 = 30 cm².",
+      "Cross-check: 5² + 12² = 169 = 13², so it is right-angled; ½ × 5 × 12 = 30 ✓."
+     ],
+     "answer": "30 cm²",
+     "why": [
+      "Spotting the right angle gives an instant verification - Heron must agree with ½ab."
+     ],
+     "hinglish": "Heron ka 4-step rhythm: s nikaalo, differences nikaalo, multiply, root. 15×10×3×2 = 900, root = 30. Bonus: 5-12-13 Pythagorean triple hai - ½×5×12 = 30 se confirm.",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Arc and sector (T7)",
+     "stem": "For a circle of radius 7 cm, find (i) the length of an arc subtending 90° at the centre and (ii) the area of the corresponding sector.",
+     "steps": [
+      "Fraction of the circle: 90/360 = 1/4.",
+      "Arc = (1/4) × 2πr = (1/4) × 44 = 11 cm.",
+      "Sector area = (1/4) × πr² = (1/4) × 154 = 38.5 cm²."
+     ],
+     "answer": "arc = 11 cm, sector = 38.5 cm²",
+     "why": [
+      "Everything scales by θ/360 - compute the full-circle value once, then take the fraction."
+     ],
+     "hinglish": "90° matlab quarter circle. Arc = 44/4 = 11 cm, area = 154/4 = 38.5 cm². Fraction pehle likho, calculation aadhi ho jati hai.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Basic",
+     "concept": "Ring area (T9)",
+     "stem": "Two concentric circles have radii 10 cm and 6 cm. Find the area of the ring between them (π = 3.14).",
+     "steps": [
+      "Ring area = π(R² - r²) = π(100 - 36) = 64π.",
+      "With π = 3.14: 64 × 3.14 = 200.96 cm²."
+     ],
+     "answer": "200.96 cm²",
+     "why": [
+      "Subtract the inner disk from the outer disk; factorising R²-r² = (R+r)(R-r) speeds the arithmetic."
+     ],
+     "hinglish": "Ring = bada circle - chhota circle. π(100-36) = 64π. 3.14 se: 200.96 cm². R²-r² ko (R+r)(R-r) likhoge toh mental math ho jata hai.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "Heron classic (T2)",
+     "stem": "A triangular park has sides 122 m, 120 m and 22 m. Find its area.",
+     "steps": [
+      "s = (122 + 120 + 22)/2 = 132 m.",
+      "Differences: 132-122 = 10, 132-120 = 12, 132-22 = 110.",
+      "Product: 132 × 10 × 12 × 110 = 1,742,400.",
+      "A = √1742400 = 1320 m²."
+     ],
+     "answer": "1320 m²",
+     "why": [
+      "Pair the factors smartly: 132×110 = 14520 and 10×12 = 120; 14520×120 = 1742400. Grouping reveals the square: (1320)²."
+     ],
+     "hinglish": "s = 132, differences 10, 12, 110. Product 1742400, root 1320 m². Note the beauty: root = s × 10 = 1320 - aise patterns pehchano.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Brahmagupta (T5)",
+     "stem": "A cyclic quadrilateral has sides 13 cm, 10 cm, 13 cm and 10 cm (in order). Find its area using Brahmagupta's formula.",
+     "steps": [
+      "Cyclic quadrilateral ⇒ Brahmagupta applies: A = √((s-a)(s-b)(s-c)(s-d)).",
+      "s = (13 + 10 + 13 + 10)/2 = 23 cm.",
+      "Differences: 10, 13, 10, 13.",
+      "Product: 10 × 13 × 10 × 13 = 16900. A = √16900 = 130 cm²."
+     ],
+     "answer": "130 cm²",
+     "why": [
+      "Heron's pattern extends to four sides; the symmetric sides make every difference reappear - a designed clean answer."
+     ],
+     "hinglish": "Cyclic quadrilateral mein Heron ka bhai Brahmagupta: same (s - side) pattern, char baar. s = 23, differences 10,13,10,13. Product 16900, root 130 cm².",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Moderate",
+     "concept": "Wheel revolutions (T13)",
+     "stem": "A wheel of diameter 70 cm makes a journey of 1.1 km. How many complete revolutions does it make (π = 22/7)?",
+     "steps": [
+      "Circumference = πd = (22/7) × 70 = 220 cm.",
+      "Convert the journey: 1.1 km = 1100 m = 110000 cm.",
+      "Revolutions = 110000/220 = 500."
+     ],
+     "answer": "500 revolutions",
+     "why": [
+      "One revolution moves the wheel exactly one circumference; total distance divided by circumference gives the count."
+     ],
+     "hinglish": "Ek chakkar = circumference = 220 cm. Distance 110000 cm. 110000/220 = 500 revolutions. Units same karo pehle - km vs cm sabse common galti.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Moderate",
+     "concept": "Sector area and arc (T7)",
+     "stem": "A sector of a circle of radius 21 cm has central angle 120°. Find (i) the arc length, (ii) the sector area, (iii) the sector's perimeter.",
+     "steps": [
+      "Fraction: 120/360 = 1/3.",
+      "Full circle: C = 2π(21) = 132 cm; A = π(441) = 1386 cm².",
+      "Arc = 132/3 = 44 cm.",
+      "Sector area = 1386/3 = 462 cm².",
+      "Perimeter = arc + 2 radii = 44 + 42 = 86 cm."
+     ],
+     "answer": "arc 44 cm; area 462 cm²; perimeter 86 cm",
+     "why": [
+      "The sector owns one third of the circumference AND one third of the area; its perimeter needs the two straight edges too."
+     ],
+     "hinglish": "120° = one-third. Arc 44, area 462. Perimeter mein DO radii: 44 + 42 = 86 cm. Arc + ek radius likhna classic mistake hai.",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "Moderate",
+     "concept": "Wire re-bending (T12)",
+     "stem": "A wire of length 132 cm is first bent into an equilateral triangle and then re-bent into a circle. Which shape encloses more area, and by how much (√3 ≈ 1.73, π = 22/7)?",
+     "steps": [
+      "Equilateral triangle: side = 132/3 = 44 cm.",
+      "Area = (√3/4)(44)² = (√3/4)(1936) = 484√3 ≈ 837.3 cm².",
+      "Circle: circumference 132 ⇒ r = 132 × 7/44 = 21 cm.",
+      "Area = π(441) = 1386 cm².",
+      "Difference = 1386 - 837.3 = 548.7 cm². The circle wins."
+     ],
+     "answer": "Circle: 1386 vs 484√3 ≈ 837.3; the circle encloses about 548.7 cm² more.",
+     "why": [
+      "The same perimeter always encloses more area as a circle than as any polygon - this question quantifies it."
+     ],
+     "hinglish": "Same wire, do shapes. Triangle: 484√3 ≈ 837 cm². Circle: 1386 cm². Circle 549 cm² zyada. Ye universal truth hai - fixed perimeter par circle sabse bada area deta hai.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "Difficult",
+     "concept": "Outside circular path (T10)",
+     "stem": "A circular park of radius 17 m is surrounded by a path 4 m wide running outside it. Find the area of the path (π = 22/7).",
+     "steps": [
+      "Outer radius R = 17 + 4 = 21 m.",
+      "Path area = π(R² - r²) = (22/7)(441 - 289) = (22/7)(152).",
+      "= 3344/7 ≈ 477.7 m²."
+     ],
+     "answer": "152π ≈ 477.7 m²",
+     "why": [
+      "An outside path adds to the radius once; the ring formula πw(2r + w) is the fast version: (22/7)(4)(38)."
+     ],
+     "hinglish": "Bahar wala path: R = 21. π(152) ≈ 477.7 m². Shortcut: πw(2r+w) = (22/7)×4×38 - same answer, direct.",
+     "fig": null
+    },
+    {
+     "n": 10,
+     "level": "High",
+     "concept": "Running track (T11)",
+     "stem": "A running track is 90 m long on each straight and has two semicircular ends of diameter 56 m. Find (i) the perimeter of the track and (ii) the area enclosed (π = 22/7).",
+     "steps": [
+      "Perimeter = two straights + two semicircular arcs = 90 + 90 + one full circle of diameter 56.",
+      "Circle circumference = πd = (22/7)(56) = 176 m.",
+      "Perimeter = 180 + 176 = 356 m.",
+      "Area = rectangle 90 × 56 + full circle π(28²) = 5040 + (22/7)(784) = 5040 + 2464 = 7504 m²."
+     ],
+     "answer": "(i) 356 m (ii) 7504 m²",
+     "why": [
+      "Two semicircles of equal diameter combine into one full circle - for both length and area."
+     ],
+     "hinglish": "Do semicircles = ek full circle. Perimeter 180 + 176 = 356 m. Area 5040 + 2464 = 7504 m². Track problems mein halves ko jod kar full banao.",
+     "fig": "f6d_track.png"
+    },
+    {
+     "n": 11,
+     "level": "High",
+     "concept": "Costs: fence and plough (T13)",
+     "stem": "A circular garden has radius 35 m. Fencing costs ₹20 per metre and ploughing costs ₹0.50 per m². Find the total cost of fencing the boundary once and ploughing the whole garden (π = 22/7).",
+     "steps": [
+      "Circumference = 2πr = 2 × (22/7) × 35 = 220 m.",
+      "Fencing cost = 220 × 20 = ₹4400.",
+      "Area = πr² = (22/7)(1225) = 3850 m².",
+      "Ploughing cost = 3850 × 0.50 = ₹1925.",
+      "Total = 4400 + 1925 = ₹6325."
+     ],
+     "answer": "₹6325",
+     "why": [
+      "Perimeter multiplies per-metre rates; area multiplies per-square-metre rates - never interchange them."
+     ],
+     "hinglish": "Fencing = boundary × rate/m: 220×20 = 4400. Ploughing = area × rate/m²: 3850×0.5 = 1925. Total ₹6325. Rate ke saath unit dekho - /m ya /m².",
+     "fig": null
+    },
+    {
+     "n": 12,
+     "level": "HOTS",
+     "concept": "Grazing goat (T13/T14)",
+     "stem": "A goat is tied to one corner of a rectangular field 40 m by 30 m with a rope 21 m long. Find the area it can graze, assuming it cannot leave the field (π = 22/7).",
+     "steps": [
+      "At a corner of a rectangle, only 90° of the circle's sweep lies inside the field: a quarter circle.",
+      "Grazing area = (1/4)πr² = (1/4) × (22/7) × 441 = 346.5 m²."
+     ],
+     "answer": "346.5 m²",
+     "why": [
+      "The two fences of the corner cut the reachable disk to a quarter; the rope length is the radius."
+     ],
+     "hinglish": "Corner par sirf 90° ka sector available - quarter circle. ¼ × π × 441 = 346.5 m². Rope = radius, corner = center.",
+     "fig": "f6d_goat.png"
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Rectangle basics",
+     "stem": "A rectangle is 15 cm by 8 cm. Its perimeter and area are:",
+     "options": [
+      "46 cm, 120 cm²",
+      "23 cm, 120 cm²",
+      "46 cm, 100 cm²",
+      "30 cm, 120 cm²"
+     ],
+     "ans": "A",
+     "expl": "P = 2(15+8) = 46 cm; A = 15×8 = 120 cm².",
+     "hinglish": "2(15+8) = 46 aur 15×8 = 120. Units: cm aur cm².",
+     "traps": {
+      "B": "Forgot to double the sum.",
+      "C": "Area miscalculated.",
+      "D": "Used l+b not 2(l+b)."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Circumference",
+     "stem": "The circumference of a circle of radius 7 cm is:",
+     "options": [
+      "44 cm",
+      "154 cm",
+      "22 cm",
+      "88 cm"
+     ],
+     "ans": "A",
+     "expl": "2πr = 2×(22/7)×7 = 44 cm.",
+     "hinglish": "2×22 = 44 cm. Area would be 154 - confuse mat karo.",
+     "traps": {
+      "B": "That is the area.",
+      "C": "πr not 2πr.",
+      "D": "Doubled twice."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Circle area",
+     "stem": "The area of a circle of diameter 14 cm is:",
+     "options": [
+      "154 cm²",
+      "616 cm²",
+      "44 cm²",
+      "88 cm²"
+     ],
+     "ans": "A",
+     "expl": "r = 7: πr² = 154 cm².",
+     "hinglish": "Diameter 14 → radius 7. Area 154. Radius se diameter confusion sabse common galti.",
+     "traps": {
+      "B": "Used d instead of r in πr².",
+      "C": "That is a circumference-style number.",
+      "D": "Wrong formula."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Equilateral area",
+     "stem": "The area of an equilateral triangle of side 8 cm is:",
+     "options": [
+      "16√3 cm²",
+      "32√3 cm²",
+      "8√3 cm²",
+      "64√3 cm²"
+     ],
+     "ans": "A",
+     "expl": "(√3/4)(64) = 16√3.",
+     "hinglish": "64/4 = 16. 16√3 cm².",
+     "traps": {
+      "B": "Used a²/2.",
+      "C": "Forgot to square the side.",
+      "D": "Coefficient error."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Heron 3-4-5",
+     "stem": "The area of a triangle with sides 3, 4, 5 cm is:",
+     "options": [
+      "6 cm²",
+      "12 cm²",
+      "10 cm²",
+      "7.5 cm²"
+     ],
+     "ans": "A",
+     "expl": "Right triangle (3²+4² = 5²): ½×3×4 = 6 cm².",
+     "hinglish": "Right triangle spot karo - ½×3×4 = 6.",
+     "traps": {
+      "B": "Skipped ½.",
+      "C": "Wrong legs.",
+      "D": "Heron arithmetic slip."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Sector area quarter",
+     "stem": "The area of a sector of angle 90° in a circle of radius 14 cm is:",
+     "options": [
+      "154 cm²",
+      "77 cm²",
+      "38.5 cm²",
+      "616 cm²"
+     ],
+     "ans": "A",
+     "expl": "(1/4)π(196) = 154 cm².",
+     "hinglish": "90° = quarter. 616/4 = 154.",
+     "traps": {
+      "B": "Used ½ instead of ¼.",
+      "C": "One-eighth.",
+      "D": "Full circle area."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Ring area",
+     "stem": "Two concentric circles have radii 7 cm and 14 cm. The ring area is:",
+     "options": [
+      "462 cm²",
+      "154 cm²",
+      "616 cm²",
+      "231 cm²"
+     ],
+     "ans": "A",
+     "expl": "π(196 - 49) = π·147 = 462 cm².",
+     "hinglish": "147π = 462. Difference of squares.",
+     "traps": {
+      "B": "Inner circle only.",
+      "C": "Outer circle only.",
+      "D": "Arithmetic slip."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Trapezium",
+     "stem": "A trapezium has parallel sides 10 cm and 14 cm, height 6 cm. Its area is:",
+     "options": [
+      "72 cm²",
+      "84 cm²",
+      "60 cm²",
+      "48 cm²"
+     ],
+     "ans": "A",
+     "expl": "½(10+14)(6) = 72 cm².",
+     "hinglish": "Average 12 × height 6 = 72.",
+     "traps": {
+      "B": "Skipped the ½.",
+      "C": "Used difference 4.",
+      "D": "Wrong average."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Heron 13-14-15",
+     "stem": "The area of a triangle with sides 13, 14, 15 cm is:",
+     "options": [
+      "84 cm²",
+      "91 cm²",
+      "78 cm²",
+      "105 cm²"
+     ],
+     "ans": "A",
+     "expl": "s = 21; 21·6·7·8 = 7056; √7056 = 84.",
+     "hinglish": "s = 21, product 7056, root 84. Classic 13-14-15.",
+     "traps": {
+      "B": "s taken as 42.",
+      "C": "Arithmetic slip.",
+      "D": "Multiplied wrong pair."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Wheel revolutions",
+     "stem": "A wheel of diameter 70 cm travels 2.2 km. The number of revolutions is:",
+     "options": [
+      "1000",
+      "500",
+      "2000",
+      "1100"
+     ],
+     "ans": "A",
+     "expl": "C = 220 cm; 220000/220 = 1000.",
+     "hinglish": "2.2 km = 220000 cm. 220 se divide: 1000.",
+     "traps": {
+      "B": "Half the distance.",
+      "C": "Radius/diameter mix.",
+      "D": "Unit conversion error."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Brahmagupta simple",
+     "stem": "A cyclic quadrilateral has sides 8, 15, 8, 15 cm. Its area is:",
+     "options": [
+      "120 cm²",
+      "115 cm²",
+      "46 cm²",
+      "240 cm²"
+     ],
+     "ans": "A",
+     "expl": "s = 23; (23-8)²(23-15)² = 15²·8²; area = 120.",
+     "hinglish": "a,a,b,b pattern: area = ab = 120.",
+     "traps": {
+      "B": "Arithmetic slip.",
+      "C": "Used perimeter directly.",
+      "D": "Doubled."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Ratio of areas",
+     "stem": "The radii of two circles are in the ratio 2 : 5. The ratio of their areas is:",
+     "options": [
+      "4 : 25",
+      "2 : 5",
+      "4 : 10",
+      "8 : 125"
+     ],
+     "ans": "A",
+     "expl": "Areas carry the square of the ratio: 2² : 5² = 4 : 25.",
+     "hinglish": "k² rule: 4:25.",
+     "traps": {
+      "B": "Linear ratio kept.",
+      "C": "Half-squared.",
+      "D": "Cubed."
+     }
+    },
+    {
+     "n": 13,
+     "level": "Normal",
+     "concept": "Arc of 120°",
+     "stem": "An arc subtends 120° at the centre of a circle of radius 21 cm. Its length is:",
+     "options": [
+      "44 cm",
+      "22 cm",
+      "66 cm",
+      "88 cm"
+     ],
+     "ans": "A",
+     "expl": "(1/3)(132) = 44 cm.",
+     "hinglish": "One-third of circumference.",
+     "traps": {
+      "B": "Used 1/6.",
+      "C": "Used 1/2.",
+      "D": "Full circle."
+     }
+    },
+    {
+     "n": 14,
+     "level": "Normal",
+     "concept": "Minute hand sector",
+     "stem": "The area swept by a 21 cm long minute hand in 10 minutes is (π = 22/7):",
+     "options": [
+      "231 cm²",
+      "1386 cm²",
+      "77 cm²",
+      "115.5 cm²"
+     ],
+     "ans": "A",
+     "expl": "10 min → 60° → (1/6)π(441) = 231 cm².",
+     "hinglish": "10 min = 60° = one-sixth. 1386/6 = 231.",
+     "traps": {
+      "B": "Full circle.",
+      "C": "Wrong fraction.",
+      "D": "Used 5/6 somehow."
+     }
+    },
+    {
+     "n": 15,
+     "level": "HOTS",
+     "concept": "Square-circle-same-area",
+     "stem": "A square and a circle have EQUAL areas of 154 cm² (π = 22/7). Which is true about their perimeters?",
+     "options": [
+      "The square's perimeter is larger",
+      "The circle's perimeter is larger",
+      "They are equal",
+      "Cannot be determined"
+     ],
+     "ans": "A",
+     "expl": "Circle r = 7, C = 44. Square side √154 ≈ 12.41, P ≈ 49.64 > 44.",
+     "hinglish": "Equal area par circle ka perimeter HAMESHA chhota. Isliye circle 'best' shape hai.",
+     "traps": {
+      "B": "Backwards - circle wins on perimeter for equal area.",
+      "C": "Never equal (isoperimetric).",
+      "D": "It is determined."
+     }
+    }
+   ],
+   "short": "Perimeter & Area"
+  },
+  {
+   "num": 7,
+   "name": "Probability",
+   "star": false,
+   "title": "Chapter 7: Probability",
+   "intro": "Chance ka math - coin, dice, cards, bags. Sab kuch ek fraction hai: favourable/total. Bas total outcomes ginna aana chahiye (2 dice = 36, 3 coins = 8, deck ke 5 magic numbers). \"At least one\" dikhe toh complement laga do - aadhe questions wahi se solve hote hain.",
+   "formulas": [
+    {
+     "f": "P(E) = favourable outcomes / total outcomes",
+     "meaning": "Probability = jitne result hum chahte hain / sab possible results. Hamesha 0 se 1 ke beech.",
+     "ex": "Die pe even: 3/6 = 1/2"
+    },
+    {
+     "f": "0 ≤ P(E) ≤ 1; sure event P = 1; impossible P = 0",
+     "meaning": "Probability 1.4 ya negative kabhi nahi ho sakti. MCQ mein \"which CANNOT be a probability\" - 1.4 type options.",
+     "ex": "P(sun rises) = 1; P(7 on a die) = 0"
+    },
+    {
+     "f": "P(not E) = 1 − P(E)",
+     "meaning": "Complement: \"nahi hone ka chance\" = 1 minus hone ka chance. \"At least one\" ke liye GOLD: P(at least one) = 1 − P(none).",
+     "ex": "P(E) = 0.65 → P(not E) = 0.35"
+    },
+    {
+     "f": "n coins → 2<sup>n</sup> outcomes<br>1 exact sequence (HHT) = 1/2<sup>n</sup>",
+     "meaning": "2 coins → 4, 3 coins → 8 outcomes. \"Exactly HHT\" jaise kisi EK order ka chance 1/8 hota hai.",
+     "ex": "3 coins exactly 2 heads: 3/8 (HHt, HtH, tHH)"
+    },
+    {
+     "f": "1 die → 6 outcomes; 2 dice → 36 (ordered pairs)",
+     "meaning": "Do dice ko (first, second) jodi mein gino - 6 × 6 = 36. Sum 7 raja hai: 6 ways (1-6, 2-5, 3-4, 4-3, 5-2, 6-1).",
+     "ex": "P(sum = 7) = 6/36 = 1/6"
+    },
+    {
+     "f": "Cards ke 5 magic numbers: 4 aces, 12 face, 26 red, 13 per suit, 9 numbered per suit",
+     "meaning": "Deck ke 90% answers inhi 5 numbers se aate hain. Ratta maar lo - card question mein sochna hi nahi padega.",
+     "ex": "P(ace) = 4/52 = 1/13; P(face) = 12/52 = 3/13"
+    },
+    {
+     "f": "Without replacement: numerator AUR denominator dono shrink",
+     "meaning": "Ball/card wapas nahi mila toh dusri draw mein total ek kam, favourable bhi ho sakta hai ek kam.",
+     "ex": "2 reds from 5R3B: (5/8)×(4/7) = 20/56 = 5/14"
+    },
+    {
+     "f": "Empirical P = times it happened / total trials",
+     "meaning": "Experiment/data se probability. 400 mein 96 walk → P = 96/400 = 0.24.",
+     "ex": "500 bulbs, 15 defective → P(good) = 485/500 = 0.97"
+    },
+    {
+     "f": "Geometric P = favourable area / total area",
+     "meaning": "Dartboard, spinner, segment - chance = area ka fraction. Angles bhi area hi hain (spinner).",
+     "ex": "Inner circle r=5 in 20×20 board: 25π/400"
+    },
+    {
+     "f": "Mutually exclusive: P(A ya B) = P(A) + P(B)",
+     "meaning": "Dono events ek saath kabhi nahi ho sakte (red ya king jaise overlap ho toh common minus karo).",
+     "ex": "P(red or king) = 26/52 + 4/52 − 2/52 = 28/52"
+    }
+   ],
+   "checks": [
+    "<strong>Sample space pehle likho</strong> - S = {1,2,3,4,5,6} ya {HH, HT, TH, TT}. Bina S ke answer likhna risky hai.",
+    "<strong>Coins mein HT ≠ TH galti:</strong> unordered sochoge toh 3 outcomes aayenge - GALAT. Hamesha ordered gino (4, 8).",
+    "<strong>Two-dice grid banao:</strong> 6×6 table mein sum/product bharna 30 second leta hai aur kabhi nahi galat hota.",
+    "<strong>\"At least one six\" in 2 dice</strong> = 1 − P(no six) = 1 − (5/6)<sup>2</sup> = 11/36. Direct ginte waqt 6 pairs bhool jaate hain!",
+    "<strong>Difference events:</strong> |a−b| = 1 ke 10 ways hote hain ((1,2)...(6,5) dono order) - ordered pair hi rakhna.",
+    "<strong>Empirical table:</strong> saare P ka total EXACTLY 1 hona chahiye - missing probability isi se nikalti hai.",
+    "<strong>Same colour / different colour draws:</strong> RR + BB + RB jaise cases ko add karo, ya ek hi colour ke pairs gino.",
+    "<strong>Game fairness:</strong> dono ke total chances barabar = fair. P(A) + P(B) + P(draw) = 1 yaad rakho.",
+    "<strong>Expected count:</strong> 300 rolls pe six ≈ 300 × 1/6 = 50 times. P × trials = expectation."
+   ],
+   "tricks": [
+    {
+     "trick": "\"At least one\" → 1 - P(none). Works for coins, dice, bags",
+     "when": "Any \"at least one\" wording."
+    },
+    {
+     "trick": "Without replacement: numerator AND denominator both shrink",
+     "when": "Two or three draws, balls not returned."
+    },
+    {
+     "trick": "Deck counts: 4 aces, 12 face cards, 26 red, 13 per suit, 9 numbered per suit",
+     "when": "Every card question - 5 numbers, 90% of answers."
+    },
+    {
+     "trick": "Two dice = 36 ordered pairs; sum 7 is the king (6 ways). Draw the 6×6 grid",
+     "when": "Sum / product / difference on two dice."
+    },
+    {
+     "trick": "n coins → 2<sup>n</sup> outcomes; one exact sequence (like HHT) = 1/2<sup>n</sup>",
+     "when": "Three-coins questions."
+    },
+    {
+     "trick": "Geometric P = favourable area / total area",
+     "when": "Darts, spinners, random points on segments."
+    },
+    {
+     "trick": "P(E) + P(not E) = 1",
+     "when": "\"Find P(not ...)\" or when P(E) is given directly."
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Two coins (T1/T8)",
+     "stem": "Two coins are tossed together. Find P(i) exactly one head, (ii) at least one head, (iii) no head.",
+     "steps": [
+      "S = {HH, HT, TH, TT}: n(S) = 4.",
+      "(i) Exactly one head: {HT, TH}: P = 2/4 = 1/2.",
+      "(ii) At least one head: {HH, HT, TH}: P = 3/4.",
+      "(iii) No head: {TT}: P = 1/4. Note (ii) and (iii) are complements: 3/4 + 1/4 = 1 ✓."
+     ],
+     "answer": "(i) 1/2 (ii) 3/4 (iii) 1/4",
+     "why": [
+      "'At least' questions pair with 'none' through the complement - checking they sum to 1 validates both."
+     ],
+     "hinglish": "Chaar outcomes. Exactly one head = HT, TH = 1/2. At least one = 3/4 (complement of TT). At least wale questions mein 'none' nikaalo, 1 minus karo.",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "Single draw from a bag (T6)",
+     "stem": "A bag contains 4 red, 5 blue and 3 green balls. One ball is drawn at random. Find P(i) red, (ii) not green, (iii) red or blue.",
+     "steps": [
+      "Total = 4 + 5 + 3 = 12.",
+      "(i) P(red) = 4/12 = 1/3.",
+      "(ii) P(not green) = 1 - 3/12 = 9/12 = 3/4.",
+      "(iii) P(red or blue) = (4+5)/12 = 9/12 = 3/4 (which matches (ii), since 'not green' = 'red or blue')."
+     ],
+     "answer": "(i) 1/3 (ii) 3/4 (iii) 3/4",
+     "why": [
+      "Disjoint categories add; 'not green' and 'red or blue' describe the same set here - a built-in consistency check."
+     ],
+     "hinglish": "Total 12. Red 1/3. Not green 3/4. Red-or-blue bhi 3/4 - same cheez hai dono! Consistency check hamesha karo.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Basic",
+     "concept": "Card basics (T4)",
+     "stem": "One card is drawn from a well-shuffled deck of 52. Find P(i) an ace, (ii) a red card, (iii) a face card, (iv) the queen of hearts.",
+     "steps": [
+      "(i) Aces: 4 → P = 4/52 = 1/13.",
+      "(ii) Red cards: 26 → P = 26/52 = 1/2.",
+      "(iii) Face cards (J, Q, K): 3 × 4 = 12 → P = 12/52 = 3/13.",
+      "(iv) One specific card: P = 1/52."
+     ],
+     "answer": "(i) 1/13 (ii) 1/2 (iii) 3/13 (iv) 1/52",
+     "why": [
+      "Four deck counts (4, 12, 13, 26) answer a third of all card questions instantly."
+     ],
+     "hinglish": "Yaad rakho: aces 4, reds 26, face cards 12, hearts 13. 1/13, 1/2, 3/13, 1/52. Ye counts ratta - deck questions 90% inhi par.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Basic",
+     "concept": "Two-dice sum intro (T3)",
+     "stem": "Two dice are rolled together. Find P(sum = 7) and P(sum = 2).",
+     "steps": [
+      "n(S) = 36 ordered pairs.",
+      "Sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): 6 pairs → P = 6/36 = 1/6.",
+      "Sum 2: (1,1) only → P = 1/36."
+     ],
+     "answer": "1/6 and 1/36",
+     "why": [
+      "The 36-grid shows sum 7 as the longest diagonal and sum 2 as a single corner."
+     ],
+     "hinglish": "36 outcomes. Sum 7 six tarike - sabse likely! 1/6. Sum 2 sirf (1,1) - 1/36. Grid banao rough mein, pairs ginn lo.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "Two-dice conditions (T3)",
+     "stem": "Two dice are rolled. Find P(i) the sum is a prime number, (ii) the product is odd, (iii) both dice show the same number.",
+     "steps": [
+      "(i) Prime sums: 2 (1 pair), 3 (2), 5 (4), 7 (6), 11 (2): total 15 pairs → P = 15/36 = 5/12.",
+      "(ii) Product odd ⇔ both dice odd: 3 × 3 = 9 pairs → P = 9/36 = 1/4.",
+      "(iii) Doubles: (1,1), ..., (6,6): 6 pairs → P = 6/36 = 1/6."
+     ],
+     "answer": "(i) 5/12 (ii) 1/4 (iii) 1/6",
+     "why": [
+      "Products split by parity cleanly: odd needs odd×odd; even is the complement 27/36."
+     ],
+     "hinglish": "Prime sums ka count: 1+2+4+6+2 = 15 → 5/12. Product odd = dono odd = 1/4. Doubles 1/6. 36-grid se teeno direct padho.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Moderate",
+     "concept": "Three coins (T8)",
+     "stem": "Three coins are tossed together. Find P(i) exactly two heads, (ii) at least two heads, (iii) all three same.",
+     "steps": [
+      "S has 2³ = 8 outcomes.",
+      "(i) Exactly two heads: HHT, HTH, THH → 3/8.",
+      "(ii) At least two heads: those 3 plus HHH → 4/8 = 1/2.",
+      "(iii) All same: HHH, TTT → 2/8 = 1/4."
+     ],
+     "answer": "(i) 3/8 (ii) 1/2 (iii) 1/4",
+     "why": [
+      "'Exactly' and 'at least' differ by the all-heads outcome - read the wording like a lawyer."
+     ],
+     "hinglish": "8 outcomes. Exactly 2: teen paths = 3/8. At least 2: +HHH = 1/2. All same 1/4. Tree diagram banao - 8 paths dikh jayengi.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Moderate",
+     "concept": "At least one (T5)",
+     "stem": "A coin is tossed 4 times (or four coins together). Find P(at least one tail).",
+     "steps": [
+      "Total outcomes: 2⁴ = 16.",
+      "Complement: no tail means all heads: 1 outcome.",
+      "P(at least one tail) = 1 - 1/16 = 15/16."
+     ],
+     "answer": "15/16",
+     "why": [
+      "'At least one' almost always means '1 minus none' - the only exception is when 'none' is harder to count than the direct list."
+     ],
+     "hinglish": "At least one tail = 1 - (no tail). No tail = HHHH = 1/16. Answer 15/16. Complement rule ka best use.",
+     "fig": null
+    },
+    {
+     "n": 8,
+     "level": "Difficult",
+     "concept": "Cards: two aces (T7)",
+     "stem": "Two cards are drawn from a deck without replacement. Find P(both are aces).",
+     "steps": [
+      "First ace: 4/52 = 1/13. Second ace: 3/51 = 1/17.",
+      "P = (1/13)(1/17) = 1/221.",
+      "Combination check: C(4,2)/C(52,2) = 6/1326 = 1/221 ✓."
+     ],
+     "answer": "1/221",
+     "why": [
+      "Two-stage multiplication with shrinking counts; 51 = the deck after one card leaves."
+     ],
+     "hinglish": "1/13 × 1/17 = 1/221. Doosra ace 51 cards mein se 3 - shrinking deck.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "Difficult",
+     "concept": "Geometric: dartboard (T10)",
+     "stem": "A dart hits a square board of side 20 cm at a random point. A circle of diameter 10 cm is painted at the centre. Find P(the dart lands inside the circle).",
+     "steps": [
+      "Board area = 400 cm². Circle radius = 5 cm; area = 25π cm².",
+      "P = 25π/400 = π/16.",
+      "With π = 22/7: 22/112 = 11/56 ≈ 0.196."
+     ],
+     "answer": "π/16 ≈ 0.196",
+     "why": [
+      "Both measures are areas; the π cancels if kept symbolic."
+     ],
+     "hinglish": "Circle/board = 25π/400 = π/16. Dono same measure (area) - yahi rule hai. π symbolic rakho jab tak ho sake.",
+     "fig": "f7d_dart.png"
+    },
+    {
+     "n": 10,
+     "level": "High",
+     "concept": "At least one with bag draws (T5/T7)",
+     "stem": "A bag has 4 red and 4 blue balls. Three balls are drawn without replacement. Find P(at least one red).",
+     "steps": [
+      "Complement: no red = all three blue.",
+      "P(all blue) = (4/7)(3/6)(2/5) = 24/210 = 4/35.",
+      "P(at least one red) = 1 - 4/35 = 31/35."
+     ],
+     "answer": "31/35",
+     "why": [
+      "'At least one' with three draws is far easier through the complement - one cascade instead of three cases."
+     ],
+     "hinglish": "At least one red = 1 - (sab blue). Sab blue: 4/7×3/6×2/5 = 4/35. Answer 31/35. Complement hi sahi raasta hai.",
+     "fig": null
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Single die event",
+     "stem": "A die is rolled once. P(a number less than 3) is:",
+     "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/6"
+     ],
+     "ans": "A",
+     "expl": "{1, 2}: 2/6 = 1/3.",
+     "hinglish": "1 aur 2 - do outcomes. 1/3.",
+     "traps": {
+      "B": "Included 3 (less than means strictly).",
+      "C": "Used complement wrongly.",
+      "D": "One outcome only."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Two coins",
+     "stem": "Two coins are tossed. P(exactly two heads) is:",
+     "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3"
+     ],
+     "ans": "A",
+     "expl": "Only HH among 4 outcomes: 1/4.",
+     "hinglish": "Sirf HH. 1/4.",
+     "traps": {
+      "B": "That is exactly-one-head.",
+      "C": "At least one head.",
+      "D": "Wrong denominator."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Sure event",
+     "stem": "A die is rolled. 'Getting a number less than 10' has probability:",
+     "options": [
+      "1",
+      "5/6",
+      "0",
+      "9/10"
+     ],
+     "ans": "A",
+     "expl": "Every outcome satisfies it: 6/6 = 1 - a sure event.",
+     "hinglish": "Sab outcomes jeette hain - sure event, P = 1.",
+     "traps": {
+      "B": "5 outcomes only?",
+      "C": "That is impossible events.",
+      "D": "No such fraction here."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Card: ace",
+     "stem": "One card is drawn from 52. P(an ace) is:",
+     "options": [
+      "1/13",
+      "1/4",
+      "1/52",
+      "4/13"
+     ],
+     "ans": "A",
+     "expl": "4 aces: 4/52 = 1/13.",
+     "hinglish": "4 aces → 1/13.",
+     "traps": {
+      "B": "That is P(red).",
+      "C": "One specific ace.",
+      "D": "Mis-reduced."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Card: face card",
+     "stem": "P(a face card) from a deck of 52 is:",
+     "options": [
+      "3/13",
+      "1/13",
+      "4/13",
+      "12/13"
+     ],
+     "ans": "A",
+     "expl": "12 face cards: 12/52 = 3/13.",
+     "hinglish": "12 face cards (J, Q, K × 4). 3/13.",
+     "traps": {
+      "B": "One rank only.",
+      "C": "One suit's face cards.",
+      "D": "Complement."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Sum = 7",
+     "stem": "Two dice: P(sum = 7) is:",
+     "options": [
+      "1/6",
+      "1/36",
+      "7/36",
+      "5/36"
+     ],
+     "ans": "A",
+     "expl": "Six pairs sum to 7: 6/36 = 1/6.",
+     "hinglish": "Chhe pairs - most likely sum. 1/6.",
+     "traps": {
+      "B": "One pair only (that is sum 2 or 12).",
+      "C": "Matched numerator to the sum.",
+      "D": "Off-by-one."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Range check",
+     "stem": "Which CANNOT be a probability?",
+     "options": [
+      "1.4",
+      "0",
+      "1",
+      "0.999"
+     ],
+     "ans": "A",
+     "expl": "Probabilities lie in [0, 1]; 1.4 exceeds 1.",
+     "hinglish": "1.4 range se bahar.",
+     "traps": {
+      "B": "0 is legal (impossible event).",
+      "C": "1 is legal (sure event).",
+      "D": "0.999 is legal."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Sum to 1",
+     "stem": "P(E) = 0.65. P(not E) equals:",
+     "options": [
+      "0.35",
+      "0.65",
+      "1.65",
+      "0.5"
+     ],
+     "ans": "A",
+     "expl": "1 - 0.65 = 0.35.",
+     "hinglish": "Complement: 1 minus.",
+     "traps": {
+      "B": "Copied the given.",
+      "C": "Added instead.",
+      "D": "Halved."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Three coins exactly two heads",
+     "stem": "Three coins: P(exactly two heads) is:",
+     "options": [
+      "3/8",
+      "1/2",
+      "1/8",
+      "5/8"
+     ],
+     "ans": "A",
+     "expl": "HHT, HTH, THH: 3 of 8.",
+     "hinglish": "Teen paths. 3/8.",
+     "traps": {
+      "B": "That is at least two.",
+      "C": "All heads only.",
+      "D": "Wrong denominator."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Two dice: at least one six",
+     "stem": "Two dice: P(at least one 6) is:",
+     "options": [
+      "11/36",
+      "1/6",
+      "1/36",
+      "25/36"
+     ],
+     "ans": "A",
+     "expl": "Complement: no six = 25/36; so 11/36.",
+     "hinglish": "1 - 25/36 = 11/36. Complement route.",
+     "traps": {
+      "B": "Counted (6,6) pairs as 6+6 - double count.",
+      "C": "Both sixes only.",
+      "D": "That is neither-six."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Spinner",
+     "stem": "A spinner has equal quarters marked A, B, C, D. P(not A) is:",
+     "options": [
+      "3/4",
+      "1/4",
+      "1/2",
+      "1/3"
+     ],
+     "ans": "A",
+     "expl": "1 - 1/4 = 3/4.",
+     "hinglish": "Complement of quarter.",
+     "traps": {
+      "B": "That is P(A).",
+      "C": "Half-turn thinking.",
+      "D": "Three options but unequal? They are equal quarters."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Complement with three coins",
+     "stem": "Three coins: P(at least one head) is:",
+     "options": [
+      "7/8",
+      "3/8",
+      "1/2",
+      "15/16"
+     ],
+     "ans": "A",
+     "expl": "1 - P(all tails) = 1 - 1/8 = 7/8.",
+     "hinglish": "1 - 1/8 = 7/8.",
+     "traps": {
+      "B": "Exactly one head.",
+      "C": "Half guess.",
+      "D": "Four-coin answer."
+     }
+    },
+    {
+     "n": 13,
+     "level": "HOTS",
+     "concept": "At least one six: complement",
+     "stem": "A die is rolled 3 times. P(at least one 6) is:",
+     "options": [
+      "91/216",
+      "1/2",
+      "3/6",
+      "125/216"
+     ],
+     "ans": "A",
+     "expl": "1 - (5/6)³ = 1 - 125/216 = 91/216.",
+     "hinglish": "Complement: no six in 3 rolls = 125/216. 1 minus = 91/216.",
+     "traps": {
+      "B": "Guessed even split.",
+      "C": "Added 1/6 three times (double counts).",
+      "D": "That is P(no six)."
+     }
+    }
+   ],
+   "short": "Probability"
+  },
+  {
+   "num": 8,
+   "name": "Sequences and Progressions",
+   "star": false,
+   "title": "Chapter 8: Sequences and Progressions",
+   "intro": "Numbers ki lines: AP mein fixed ADD, GP mein fixed MULTIPLY, Virahanka mein pichhle do ka SUM. Formula daalo, term nikaalo, \"which term\" solve karo. Sierpinski aur doubling wale GP questions kal exam ke favourite hain.",
+   "formulas": [
+    {
+     "f": "AP: t<sub>n</sub> = a + (n−1)d, jahan d = t<sub>2</sub> − t<sub>1</sub>",
+     "meaning": "Har baar utna hi ADD ho raha ho → AP. a = pehla term, d = common difference (minus bhi ho sakta hai!).",
+     "ex": "3, 8, 13, ...: a = 3, d = 5; t<sub>10</sub> = 3 + 45 = 48"
+    },
+    {
+     "f": "\"k is a term?\" → solve a + (n−1)d = k",
+     "meaning": "n NIKAL ke dekho: n natural number aaya = YES (position n); fraction aaya = NO, kabhi nahi aayega.",
+     "ex": "t<sub>n</sub> = 3n−7, k = 557: n = 188 → YES"
+    },
+    {
+     "f": "Sum: 1 + 2 + ... + n = n(n+1)/2",
+     "meaning": "Gauss ka pairing trick: pehla + aakhri, dobara pehla+1 + aakhri−1 ... har pair same sum, pairs = n/2.",
+     "ex": "S<sub>100</sub> = 100 × 101/2 = 5050"
+    },
+    {
+     "f": "Range sum k + ... + m = S<sub>m</sub> − S<sub>k−1</sub> ya ((first + last)/2) × count",
+     "meaning": "Beech ka sum? Dono method same answer. Count = (last − first)/step + 1 bhoolna mat.",
+     "ex": "25 + ... + 58: (25+58)/2 × 34 = 1411"
+    },
+    {
+     "f": "GP: t<sub>n</sub> = a·r<sup>n−1</sup>, jahan r = t<sub>2</sub>/t<sub>1</sub>",
+     "meaning": "Har baar fixed GUNA (multiply/divide) → GP. r negative ho toh terms alternate karti hain.",
+     "ex": "3, 12, 48: r = 4; t<sub>5</sub> = 3 × 4<sup>4</sup> = 768"
+    },
+    {
+     "f": "Virahanka-Fibonacci: V<sub>n</sub> = V<sub>n−1</sub> + V<sub>n−2</sub>",
+     "meaning": "Pichhle DO terms ka sum agla term. 1, 2, 3, 5, 8, 13, 21, 34, ... Poet Virahanka (7th century) ne diya tha.",
+     "ex": "13 ke baad: 8+13 = 21, phir 34, 55, 89"
+    },
+    {
+     "f": "Explicit vs Recursive rule",
+     "meaning": "Explicit: kisi bhi n ke liye direct formula (t<sub>n</sub> = 3n + 1) - jump far. Recursive: agla term pichhle se (t<sub>n+1</sub> = t<sub>n</sub> + 3) - ek-ek karke.",
+     "ex": "Dono same sequence de sakte hain!"
+    },
+    {
+     "f": "Sierpinski: triangles = 3<sup>n</sup>, black area = (3/4)<sup>n</sup><br>Carpet: pieces = 8<sup>n</sup>, area = (8/9)<sup>n</sup>",
+     "meaning": "Stage 0 se shuru hota hai (original shape), isliye exponent = stage number. Count GP (r=3 ya 8), area shrinking GP (r=3/4, 8/9).",
+     "ex": "Stage 4: 3<sup>4</sup> = 81 triangles, area (3/4)<sup>4</sup> = 81/256"
+    },
+    {
+     "f": "Bouncing/folding GP: exponent = number of bounces/stages",
+     "meaning": "Ball 24 ft se giri, har bounce 3/4: heights 18, 13.5, 13.5×3/4, ... a = 18, r = 3/4. Bacteria double: 30 × 2<sup>n</sup>.",
+     "ex": "20 folds: 0.1 mm × 2<sup>20</sup> ≈ 105 km? Nahi - 0.1×2<sup>20</sup> mm = 104.8 m"
+    },
+    {
+     "f": "AP graph = straight line (slope d); GP graph = curve",
+     "meaning": "Points (1, t<sub>1</sub>), (2, t<sub>2</sub>), ... plot karo: equal steps → line; guna hota gaya → curve. Graph se AP/GP pehchano.",
+     "ex": "(1,2),(2,5),(3,8) → line y = 3x−1"
+    }
+   ],
+   "checks": [
+    "<strong>Pehla sawaal har sequence ka:</strong> difference constant hai? → AP. Ratio constant? → GP. Dono nahi → neither (ya quadratic/Virahanka).",
+    "<strong>d nikalte waqt order:</strong> d = baad wala − pehle wala. 11, 7, 3: d = −4 (decreasing AP).",
+    "<strong>Two conditions = two equations:</strong> \"t<sub>3</sub> = 12, t<sub>50</sub> = 106\" → subtract karo, d milta hai, phir a. Ye book ka starred question hai.",
+    "<strong>t<sub>11</sub> = 38, t<sub>16</sub> = 73 → 5d = 35 → d = 7, a = −32; t<sub>31</sub> = a + 30d = 178.</strong> NCERT starred - pakka aata hai.",
+    "<strong>Multiples counting:</strong> \"how many 2-digit multiples of 3\" → AP 12, 15, ..., 99; n = (99−12)/3 + 1 = 30; sum = n/2 × (first+last).",
+    "<strong>Three numbers in AP?</strong> Unhe a−d, a, a+d likho - \"sum diya\" se a turant milta hai. GP mein a/r, a, ar.",
+    "<strong>Sum of first n odd numbers = n<sup>2</sup></strong>; first n even = n(n+1); squares 1,4,9 mein differences = odd numbers. Ye identities proof questions mein aati hain.",
+    "<strong>Recursive rule iterate karo dheere se</strong> - har term ko pichhle se banao, jump mat maaro. Hidden pattern dhundhna ho toh 4-5 terms likho.",
+    "<strong>100 as consecutive sums (starred):</strong> 18+...+22 aur 9+...+16 - do hi tarike. Method: n terms → sum = n·(first+last)/2 = 100 solve karo.",
+    "<strong>Exponents count karo:</strong> doubling kitni baar hua? 2<sup>20</sup> mein 20 doublings. Chessboard 64th square = 2<sup>63</sup> grains."
+   ],
+   "tricks": [
+    {
+     "trick": "Constant +/- between terms? It is an AP: d = t<sub>2</sub> - t<sub>1</sub>, t<sub>n</sub> = a + (n - 1)d. 10th term = a + 9d",
+     "when": "'Each time 5 more', fixed fee + per-km charges, yearly increments, row/seat counts"
+    },
+    {
+     "trick": "Constant x or divide between terms? It is a GP: r = t<sub>2</sub>/t<sub>1</sub>, t<sub>n</sub> = ar<sup>n-1</sup>. t<sub>10</sub> of 3, 6, 12 = 3 x 2<sup>9</sup> = 1536",
+     "when": "'Doubles', 'halves', '3/4 of previous height', '10% growth', 'splits into 3'"
+    },
+    {
+     "trick": "'Is k a term?' - solve t<sub>n</sub> = k. n a natural number = YES at position n; n fractional = NO",
+     "when": "'Is 100 a term?', 'which term is 607?', 'prove 461 is not a term'"
+    },
+    {
+     "trick": "Two term-facts given? Two equations: a + (n - 1)d = value (AP) or ar<sup>k</sup> = value (GP). Subtract / divide them",
+     "when": "'3rd term is 12 and 50th is 106', 't<sub>11</sub> = 38, t<sub>16</sub> = 73', 't<sub>2</sub> = 9, t<sub>5</sub> = 243'"
+    },
+    {
+     "trick": "Sums: 1 + ... + n = n(n + 1)/2. Range k + ... + m = S<sub>m</sub> - S<sub>k-1</sub>, or (first + last)/2 x count",
+     "when": "'Total marbles', 'sum of all multiples of 3 up to 99', '25 + 26 + ... + 58'"
+    },
+    {
+     "trick": "Real-life GP: the exponent counts the doublings / stages / bounces. Sierpinski starts at Stage 0, so count = 3<sup>n</sup> there",
+     "when": "'Bacteria double every hour', 'bounces to 3/4', 'Stage 6 of the fractal', 'folded 20 times'"
+    },
+    {
+     "trick": "Graph fingerprint: AP points lie on a straight line of slope d; GP points bend on a steepening curve (r > 1) or melt to 0 (0 < r < 1)",
+     "when": "'Do the points lie on a line?', 'what shape does the plot make?', 'sketch the growth'"
+    }
+   ],
+   "imps": [
+    {
+     "n": 1,
+     "level": "Basic",
+     "concept": "Membership test (T4)",
+     "stem": "For the sequence t<sub>n</sub> = 3n - 7, check whether 557 is a term. Also check whether 460 is a term. Justify both answers.",
+     "steps": [
+      "Test 557: solve 3n - 7 = 557, so 3n = 564 and n = 564/3 = 188.",
+      "n = 188 is a natural number, so 557 IS a term - exactly the 188th.",
+      "Test 460: solve 3n - 7 = 460, so 3n = 467 and n = 467/3 = 155.666...",
+      "n is not a whole number, so 460 is NOT a term of this sequence."
+     ],
+     "answer": "557 is a term (the 188th); 460 is not a term (n = 467/3 is not natural).",
+     "why": [
+      "The membership test: k is a term if and only if (k + 7)/3 lands on a natural number. A decimal n is impossible because positions are 1, 2, 3, ... only."
+     ],
+     "hinglish": "Membership test ka funda: equation solve karo, n whole number aaya toh haan, fraction aaya toh na. 557 ke liye n = 188 perfect. 460 ke liye n = 155.67 - aisa position exist hi nahi karta. Bas yahi logic exam mein 2 mark dilaata hai.",
+     "fig": null
+    },
+    {
+     "n": 2,
+     "level": "Basic",
+     "concept": "AP terms via a + (n-1)d (T8)",
+     "stem": "For the AP 3, 8, 13, 18, ...: (i) state a and d. (ii) Find the 10th and 26th terms. (iii) Write the explicit rule t<sub>n</sub>.",
+     "steps": [
+      "(i) a = 3; d = 8 - 3 = 5 (verify: 13 - 8 = 5 ✓).",
+      "(ii) t<sub>10</sub> = 3 + (10 - 1) × 5 = 3 + 45 = 48.",
+      "t<sub>26</sub> = 3 + (26 - 1) × 5 = 3 + 125 = 128.",
+      "(iii) t<sub>n</sub> = 3 + (n - 1) × 5 = 5n - 2.",
+      "Cross-check with the previous question: 5n - 2 with t<sub>10</sub> = 48 and t<sub>15</sub> = 72 matches this AP - same sequence, two descriptions."
+     ],
+     "answer": "(i) a = 3, d = 5 (ii) t<sub>10</sub> = 48, t<sub>26</sub> = 128 (iii) t<sub>n</sub> = 5n - 2",
+     "why": [
+      "t<sub>n</sub> = a + (n - 1)d works because you climb d exactly (n - 1) times from a. Expanding it gives a linear rule (coefficient of n = d)."
+     ],
+     "hinglish": "a pehla term, d step size. 10th term = 3 + 9 baar step 5 = 48. Aur t<sub>n</sub> = 5n - 2 - dekho, coefficient 5 hi d hai aur constant a - d = 3 - 5 = -2. Dono form ek hi kahani.",
+     "fig": null
+    },
+    {
+     "n": 3,
+     "level": "Basic",
+     "concept": "Gauss pairing and S20 (T10)",
+     "stem": "Use the pairing method to find 1 + 2 + 3 + ... + 10. Then use the formula to find S<sub>20</sub>.",
+     "steps": [
+      "Write S = 1 + 2 + ... + 10 and again backwards S = 10 + 9 + ... + 1.",
+      "Add column-wise: every column gives 11, and there are 10 columns, so 2S = 110.",
+      "Hence S = 55.",
+      "Formula route: S<sub>n</sub> = n(n + 1)/2, so S<sub>20</sub> = 20 × 21/2 = 210."
+     ],
+     "answer": "1 + ... + 10 = 55; S<sub>20</sub> = 210.",
+     "why": [
+      "Pairing first term with last turns a long addition into one multiplication - the idea Āryabhaṭa recorded and Gauss made famous."
+     ],
+     "hinglish": "Aage se likho, peechhe se likho, jodo - har column ka total 11, das columns, toh sum aadha = 55. Gauss ko school mein isi trick ne legend bana diya tha. S<sub>20</sub> ke liye seedha formula: 20 × 21/2 = 210.",
+     "fig": null
+    },
+    {
+     "n": 4,
+     "level": "Moderate",
+     "concept": "Which term is 607 (T4/T8)",
+     "stem": "Which term of the sequence t<sub>n</sub> = 5n - 3 is 607?",
+     "steps": [
+      "Set 5n - 3 = 607.",
+      "5n = 610.",
+      "n = 122.",
+      "n is a natural number, so 607 is the 122nd term of the sequence."
+     ],
+     "answer": "The 122nd term.",
+     "why": [
+      "'Which term' questions are linear equations in disguise: solve, then confirm n is a counting number."
+     ],
+     "hinglish": "Seedha equation: 5n - 3 = 607, n = 122. Whole number aaya toh answer pakka. Fraction aata toh answer hota 'not a term' - yahan toh clean 122 nikla.",
+     "fig": null
+    },
+    {
+     "n": 5,
+     "level": "Moderate",
+     "concept": "AP from two conditions (T9)",
+     "stem": "An AP consists of 50 terms. Its 3rd term is 12 and its last (50th) term is 106. Find the 29th term.",
+     "steps": [
+      "Let the AP have first term a and common difference d.",
+      "3rd term: a + 2d = 12.",
+      "50th term: a + 49d = 106.",
+      "Subtract: 47d = 94, so d = 2. Then a = 12 - 2d = 12 - 4 = 8.",
+      "t<sub>29</sub> = 8 + 28 × 2 = 64."
+     ],
+     "answer": "d = 2, a = 8; t<sub>29</sub> = 64.",
+     "why": [
+      "Two facts about two different terms = two linear equations in a and d. Subtracting kills a and exposes d instantly."
+     ],
+     "hinglish": "Do equations, do unknowns - classic combo. 47d = 94 se d = 2, wapas daal ke a = 8. 29th term = 64. Ye pattern itna common hai ki exam mein ye question 'free marks' hai agar method yaad ho.",
+     "fig": null
+    },
+    {
+     "n": 6,
+     "level": "Moderate",
+     "concept": "Two-digit multiples of 3: count and sum (T8/T10)",
+     "stem": "How many two-digit numbers are divisible by 3? What is the sum of all these two-digit numbers?",
+     "steps": [
+      "Two-digit multiples of 3: smallest 12, largest 99. They form the AP 12, 15, 18, ..., 99 with d = 3.",
+      "Count: 12 + (n - 1) × 3 = 99 gives (n - 1) × 3 = 87, n - 1 = 29, n = 30. So there are 30 such numbers.",
+      "Sum by the average idea: sum = (first + last)/2 × count = (12 + 99)/2 × 30.",
+      "= (111/2) × 30 = 111 × 15 = 1665."
+     ],
+     "answer": "30 numbers; their sum is 1665.",
+     "why": [
+      "Any 'multiples of k between...' question is an AP in disguise: find first and last, count by the nth-term equation, sum by average × count."
+     ],
+     "hinglish": "12 se 99 tak 3 ke multiples = AP. Count: (99-12)/3 + 1 = 30. Sum ka Āryabhaṭa trick: average × count = 55.5 × 30 = 1665. Pehla-akhirka jodo, aadha karo, count se guna karo - formula rattne ki zaroorat nahi.",
+     "fig": null
+    },
+    {
+     "n": 7,
+     "level": "Moderate",
+     "concept": "Bouncing ball heights (T13)",
+     "stem": "A ball is dropped from a height of 24 feet. After hitting the ground it bounces up to 3/4 of its previous height each time. (i) Write the heights reached after each of the first five bounces. (ii) The heights form a GP - state a and r. (iii) Show that after the 7th bounce the ball stays below 1/6 of its original dropping height.",
+     "steps": [
+      "(i) Bounce 1: 24 × 3/4 = 18 ft. Bounce 2: 18 × 3/4 = 13.5 ft. Bounce 3: 10.125 ft. Bounce 4: 7.59375 ft. Bounce 5: 5.6953125 ft.",
+      "(ii) The bounce heights 18, 13.5, 10.125, ... form a GP with first term a = 18 and ratio r = 3/4 (each height is 3/4 of the one before).",
+      "(iii) 1/6 of 24 ft = 4 ft. Continuing: bounce 6 = 5.6953125 × 3/4 = 4.271484375 ft (still above 4), bounce 7 = 4.271484375 × 3/4 = 3.20361328125 ft.",
+      "3.2036... ft < 4 ft, so from the 7th bounce onward the ball never rises above 1/6 of the original height.",
+      "Formula route: bounce-n height = 18 × (3/4)<sup>n-1</sup>; set it below 4 and count the bounces."
+     ],
+     "answer": "(i) 18, 13.5, 10.125, 7.59375, 5.6953 ft (ii) a = 18, r = 3/4 (iii) 7th-bounce height 3.2036 ft is below 4 ft = 1/6 of 24 ft.",
+     "why": [
+      "The bounce heights START at bounce 1 with value 24 × 3/4 - the drop height 24 is the 'zeroth' term, not the first."
+     ],
+     "hinglish": "Pehla bounce 24 ka 3/4 = 18 ft. Har baar 3/4 - GP with r = 3/4. 24 ka 1/6 = 4 ft. 6th bounce 4.27 (abhi bhi upar), 7th bounce 3.20 - ab 4 ke neeche. Ball ki story bhi GP hai, bas shrinking wali.",
+     "fig": "f8d_ball.png"
+    },
+    {
+     "n": 8,
+     "level": "Difficult",
+     "concept": "31st term from t11 and t16 (T9)",
+     "stem": "Find the 31st term of an AP whose 11th term is 38 and whose 16th term is 73.",
+     "steps": [
+      "a + 10d = 38 and a + 15d = 73.",
+      "Subtract: 5d = 35, so d = 7.",
+      "Back-substitute: a = 38 - 10 × 7 = 38 - 70 = -32.",
+      "t<sub>31</sub> = a + 30d = -32 + 30 × 7 = -32 + 210 = 178."
+     ],
+     "answer": "178.",
+     "why": [
+      "Two term-facts minus each other give (difference of indices) × d - here 5 steps apart means 5d = 35."
+     ],
+     "hinglish": "11th aur 16th ke beech 5 steps = 5d = 35, d = 7. a negative nikla (-32) - koi problem nahi, AP negative se shuru hokar chadhti hai. 31st = 178.",
+     "fig": null
+    },
+    {
+     "n": 9,
+     "level": "Difficult",
+     "concept": "Sierpinski triangle counts and areas (T13)",
+     "stem": "The figure shows Stages 0 to 3 of the Sierpiński triangle, built from an equilateral triangle by repeatedly joining midpoints and removing the central triangle. (i) How many black triangles are there at Stages 0 to 3? (ii) Predict Stages 4 and 5 and find the rule for Stage n. (iii) If the Stage-0 black area is 1 square unit, what is the black area at Stage n, and what happens to it as n grows?",
+     "steps": [
+      "(i) Stage 0: 1 black triangle; Stage 1: 3; Stage 2: 9; Stage 3: 27 - every black triangle is replaced by 3 smaller ones.",
+      "(ii) Stage 4: 81; Stage 5: 243. Rule: at Stage n the count is 3<sup>n</sup> - a GP with a = 1, r = 3 indexed from Stage 0.",
+      "(iii) Each stage keeps 3 of every 4 equal pieces, so the area multiplies by 3/4: area at Stage n = (3/4)<sup>n</sup> (1, 3/4, 9/16, 27/64, ...).",
+      "As n grows, (3/4)<sup>n</sup> heads to 0 - the number of triangles explodes while the total black area melts away."
+     ],
+     "answer": "(i) 1, 3, 9, 27 (ii) 81 and 243; count at Stage n = 3<sup>n</sup> (iii) area = (3/4)<sup>n</sup>, which tends to 0.",
+     "why": [
+      "Count and area ride two different GPs: x3 for the count, x3/4 for the area. Stage indexing starts at 0 - that is why the count is 3<sup>n</sup> and not 3<sup>n-1</sup>."
+     ],
+     "hinglish": "Count har stage par 3 se multiply: 1, 3, 9, 27, 81, 243 - Stage n pe 3<sup>n</sup>. Area har baar 3/4 ho jaata hai: (3/4)<sup>n</sup>. Ek cheez badhti hai, doosri ghatti hai - fractal ka jaadu. Stage 0 se shuru - exponent mein +1 ka farak yaad rakho.",
+     "fig": "f8d_sier.png"
+    },
+    {
+     "n": 10,
+     "level": "Difficult",
+     "concept": "Three numbers in AP: sum and product (T9)",
+     "stem": "Three numbers are in AP. Their sum is 27 and their product is 504. Find the numbers.",
+     "steps": [
+      "Let the numbers be 9 - x, 9, 9 + x (middle term = average = 27/3 = 9).",
+      "Product: (9 - x) × 9 × (9 + x) = 9(81 - x<sup>2</sup>) = 504.",
+      "81 - x<sup>2</sup> = 56, so x<sup>2</sup> = 25, x = 5 (or -5, which only reverses the order).",
+      "Numbers: 4, 9, 14. Check: sum 27 ✓; product 4 × 9 × 14 = 504 ✓."
+     ],
+     "answer": "4, 9, 14 (or the same three in reverse order).",
+     "why": [
+      "Writing an AP as (m - x, m, m + x) converts 'three in AP' into ONE unknown - the single smartest substitution for such problems."
+     ],
+     "hinglish": "Teen AP numbers ka middle = average = 9. Baaki do ko 9 - x, 9 + x likho - sum apne aap sambhal jaata hai. Product equation se x<sup>2</sup> = 25. x = ±5 dono same set dete hain, bas order ulta.",
+     "fig": null
+    },
+    {
+     "n": 11,
+     "level": "High",
+     "concept": "GP: sum 13/12, product -1 (T12)",
+     "stem": "The sum of the first three terms of a GP is 13/12 and their product is -1. Find the common ratio and the three terms.",
+     "steps": [
+      "Let the terms be a/r, a, ar. Product = (a/r) × a × (ar) = a<sup>3</sup> = -1, so a = -1.",
+      "Sum: a(1/r + 1 + r) = 13/12, so -(1/r + 1 + r) = 13/12.",
+      "Thus 1/r + r = -13/12 - 1 = -25/12.",
+      "Multiply by 12r: 12 + 12r<sup>2</sup> = -25r, i.e. 12r<sup>2</sup> + 25r + 12 = 0.",
+      "Split the middle term: 12r<sup>2</sup> + 16r + 9r + 12 = 4r(3r + 4) + 3(3r + 4) = (3r + 4)(4r + 3) = 0.",
+      "r = -4/3 or r = -3/4.",
+      "For r = -3/4: terms 4/3, -1, 3/4 (sum 16/12 - 12/12 + 9/12 = 13/12 ✓, product -1 ✓).",
+      "For r = -4/3: terms 3/4, -1, 4/3 - the same three numbers in reverse order."
+     ],
+     "answer": "r = -3/4 (or -4/3); terms are 4/3, -1, 3/4 in some order.",
+     "why": [
+      "Product of a/r × a × ar = a<sup>3</sup> - three symmetric terms reduce the product condition to a single cube, and the quadratic factorises by splitting."
+     ],
+     "hinglish": "Symmetric writing se product = a<sup>3</sup> = -1, matlab middle term -1. Quadratic 12r<sup>2</sup> + 25r + 12 middle-term split se (3r + 4)(4r + 3). Do r aaye par dono same teen numbers dete hain, bas order ulta. Boss-level question - ye kar liya toh chapter ka raja tum ho.",
+     "fig": null
+    }
+   ],
+   "mcqs": [
+    {
+     "n": 1,
+     "level": "Normal",
+     "concept": "Identify the AP",
+     "stem": "Which of the following is an arithmetic progression?",
+     "options": [
+      "1, 2, 4, 8, 16",
+      "2, 5, 8, 11, 14",
+      "1, 4, 9, 16, 25",
+      "1, 1/2, 1/4, 1/8"
+     ],
+     "ans": "B",
+     "expl": "2, 5, 8, 11, 14 has a constant difference of 3 between consecutive terms - the definition of an AP. The others are a GP (doubling), the squares (differences 3, 5, 7 grow) and a halving GP.",
+     "hinglish": "AP ka test = constant ADD. Option B mein har baar +3. Baaki teeno multiplication wale ya growing-gap wale - GP ya neither.",
+     "traps": {
+      "A": "That doubles each time - a GP with r = 2.",
+      "C": "Differences are 3, 5, 7 - growing, not constant.",
+      "D": "Each term halves - a GP with r = 1/2."
+     }
+    },
+    {
+     "n": 2,
+     "level": "Normal",
+     "concept": "Common difference",
+     "stem": "The common difference of the AP 5, 9, 13, 17, ... is:",
+     "options": [
+      "4",
+      "5",
+      "9",
+      "-4"
+     ],
+     "ans": "A",
+     "expl": "d = t<sub>2</sub> - t<sub>1</sub> = 9 - 5 = 4 (and 13 - 9 = 4 confirms it).",
+     "hinglish": "Do consecutive terms ka farak hi d hai: 9 - 5 = 4. Ek baar doosre pair se bhi check karo - 13 - 9 = 4 ✓.",
+     "traps": {
+      "B": "5 is the first term a, not the difference.",
+      "C": "9 is the second term, not a difference.",
+      "D": "The AP increases, so d must be positive."
+     }
+    },
+    {
+     "n": 3,
+     "level": "Normal",
+     "concept": "Tenth term of an AP",
+     "stem": "The 10th term of the AP 7, 11, 15, 19, ... is:",
+     "options": [
+      "43",
+      "47",
+      "39",
+      "51"
+     ],
+     "ans": "A",
+     "expl": "a = 7, d = 4. t<sub>10</sub> = 7 + 9 × 4 = 7 + 36 = 43.",
+     "hinglish": "7 + 9 steps × 4 = 43. Yaad rakho (n - 1) multiply hota hai, n nahi - yahi galti option C jaise traps banti hai.",
+     "traps": {
+      "B": "Used 10 steps instead of 9: 7 + 40 = 47.",
+      "C": "Forgot one step: 7 + 8 × 4 = 39.",
+      "D": "Overshot the arithmetic: wrong step count."
+     }
+    },
+    {
+     "n": 4,
+     "level": "Normal",
+     "concept": "Which term is 109",
+     "stem": "Which term of the AP 4, 9, 14, 19, ... is 109?",
+     "options": [
+      "21st",
+      "22nd",
+      "20th",
+      "23rd"
+     ],
+     "ans": "B",
+     "expl": "a = 4, d = 5. Solve 4 + (n - 1) × 5 = 109: (n - 1) × 5 = 105, n - 1 = 21, n = 22.",
+     "hinglish": "(109 - 4)/5 = 21 steps, toh 22nd term. Steps + 1 = position - off-by-one ka sawal hai.",
+     "traps": {
+      "A": "21 is the number of steps, not the position.",
+      "C": "Miscounted the division: 105/5 = 21.",
+      "D": "Added two extra somewhere - check (n - 1) × 5 = 105."
+     }
+    },
+    {
+     "n": 5,
+     "level": "Normal",
+     "concept": "Sum of first 15 naturals",
+     "stem": "The sum 1 + 2 + 3 + ... + 15 equals:",
+     "options": [
+      "120",
+      "105",
+      "240",
+      "135"
+     ],
+     "ans": "A",
+     "expl": "S<sub>15</sub> = 15 × 16/2 = 15 × 8 = 120.",
+     "hinglish": "n(n+1)/2 = 15 × 16/2. 16 ka aadha 8, 15 × 8 = 120. Ratta nahi - half karo pehle, multiply easy ho jaata hai.",
+     "traps": {
+      "B": "That is S<sub>14</sub> - one term short.",
+      "C": "Forgot to halve: 15 × 16 = 240.",
+      "D": "Wrong pairing - recompute 15 × 8."
+     }
+    },
+    {
+     "n": 6,
+     "level": "Normal",
+     "concept": "Triangular number",
+     "stem": "The 8th triangular number is:",
+     "options": [
+      "28",
+      "36",
+      "45",
+      "24"
+     ],
+     "ans": "B",
+     "expl": "T<sub>8</sub> = 8 × 9/2 = 36 (also 1 + 2 + ... + 8).",
+     "hinglish": "Triangular = S<sub>n</sub>. 8 × 9/2 = 36. List yaad ho toh 1, 3, 6, 10, 15, 21, 28, 36 - aathwaan 36.",
+     "traps": {
+      "A": "That is the 7th triangular number.",
+      "C": "That is the 9th.",
+      "D": "Used 8 × 6 - wrong formula."
+     }
+    },
+    {
+     "n": 7,
+     "level": "Normal",
+     "concept": "Common ratio with sign",
+     "stem": "The common ratio of the GP 2, -6, 18, -54, ... is:",
+     "options": [
+      "3",
+      "-3",
+      "-2",
+      "1/3"
+     ],
+     "ans": "B",
+     "expl": "r = t<sub>2</sub>/t<sub>1</sub> = -6/2 = -3. Check: 18/(-6) = -3 ✓.",
+     "hinglish": "Signs baari-baari palat rahe hain - matlab r negative. -6/2 = -3. Negative ratio = alternating GP.",
+     "traps": {
+      "A": "Ignored the minus sign of the second term.",
+      "C": "Divided the wrong pair.",
+      "D": "Inverted the division - that is 1/r territory."
+     }
+    },
+    {
+     "n": 8,
+     "level": "Normal",
+     "concept": "Fifth term of a GP",
+     "stem": "The 5th term of the GP 3, 12, 48, ... is:",
+     "options": [
+      "192",
+      "768",
+      "144",
+      "576"
+     ],
+     "ans": "B",
+     "expl": "a = 3, r = 4. The 5th term is ar<sup>4</sup> = 3 × 4<sup>4</sup> = 3 × 256 = 768. (The exponent is 4, not 5 - the first term uses r<sup>0</sup>.)",
+     "hinglish": "t<sub>5</sub> = ar<sup>4</sup> - pehla term r<sup>0</sup> leta hai. 4<sup>4</sup> = 256, × 3 = 768. Exponent = position - 1.",
+     "traps": {
+      "A": "That is 3 × 4<sup>3</sup> - the 4th term, one step short.",
+      "C": "Wrong ratio used (3 instead of 4).",
+      "D": "Miscounted the exponent chain."
+     }
+    },
+    {
+     "n": 9,
+     "level": "Normal",
+     "concept": "Virahanka next term",
+     "stem": "The next term of the sequence 1, 2, 3, 5, 8, 13, ... is:",
+     "options": [
+      "18",
+      "21",
+      "26",
+      "16"
+     ],
+     "ans": "B",
+     "expl": "Each term is the sum of the previous two (Virahānka-Fibonacci): 8 + 13 = 21.",
+     "hinglish": "Do pichhle ka sum: 8 + 13 = 21. Virahānka sequence - 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 ratt lo.",
+     "traps": {
+      "A": "Added 13 + 5 - skipped a term.",
+      "C": "Doubled 13 - that is a GP rule, not this one.",
+      "D": "Added 13 + 3 - wrong window."
+     }
+    },
+    {
+     "n": 10,
+     "level": "Normal",
+     "concept": "Recursive rule to terms",
+     "stem": "A sequence has t<sub>1</sub> = 2 and t<sub>n</sub> = t<sub>n-1</sub> + 5. Its 6th term is:",
+     "options": [
+      "27",
+      "32",
+      "30",
+      "22"
+     ],
+     "ans": "A",
+     "expl": "This is an AP with a = 2, d = 5: t<sub>6</sub> = 2 + 5 × 5 = 27.",
+     "hinglish": "+5 ka AP. 6th term = 2 + (6-1) × 5 = 27. Five steps from the start - not six.",
+     "traps": {
+      "B": "Used 6 steps: 2 + 30.",
+      "C": "Started the count at 0 and slipped.",
+      "D": "Subtracted instead of added."
+     }
+    },
+    {
+     "n": 11,
+     "level": "Normal",
+     "concept": "Halving GP next term",
+     "stem": "The sequence 1, 1/2, 1/4, 1/8, ... continues with next term:",
+     "options": [
+      "1/16",
+      "1/10",
+      "1/12",
+      "1/6"
+     ],
+     "ans": "A",
+     "expl": "Common ratio r = 1/2, so the next term is 1/8 × 1/2 = 1/16.",
+     "hinglish": "Har term aadhi - r = 1/2. 1/8 ka aadha 1/16. Halving GP kabhi zero par nahi rukti, bas girti jaati hai.",
+     "traps": {
+      "B": "Subtracted a constant - the pattern multiplies.",
+      "C": "Wrong halving anchor.",
+      "D": "Mixed the addition and division patterns."
+     }
+    },
+    {
+     "n": 12,
+     "level": "Normal",
+     "concept": "Sierpinski stage 4 count",
+     "stem": "In the Sierpinski triangle (Stage 0 = 1 black triangle), the number of black triangles at Stage 4 is:",
+     "options": [
+      "27",
+      "81",
+      "243",
+      "12"
+     ],
+     "ans": "B",
+     "expl": "The count is 3<sup>n</sup> at Stage n: Stage 4 gives 3<sup>4</sup> = 81.",
+     "hinglish": "Stage 0 se shuru - count 3<sup>n</sup>. Stage 4 = 3<sup>4</sup> = 81. Off-by-one ka trap: 27 Stage 3 hai.",
+     "traps": {
+      "A": "That is Stage 3 - the classic off-by-one.",
+      "C": "That is Stage 5.",
+      "D": "Added 3 each stage instead of multiplying."
+     }
+    }
+   ],
+   "short": "Sequences & Progressions"
+  }
+ ],
+ "final": {
+  "title": "Exam Morning Power Page (Subah Sirf Ye Page)",
+  "body": "Subah exam se pehle poora book nahi - sirf ye page. Ye whole syllabus ke 12 sabse killer formulas hain jo har section mein kaam aate hain, plus exam-hall ke 8 rules. Is page ko 3 baar padho, gehri saans lo, aur exam dené jao. Tum ready ho.",
+  "formulas": [
+   {
+    "f": "Distance √((x<sub>2</sub>−x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub>−y<sub>1</sub>)<sup>2</sup>) + triples (3,4,5)",
+    "ch": "Ch 1",
+    "use": "Coordinates se har faasla; triple dikhe toh 2-second answer."
+   },
+   {
+    "f": "y = ax + b (a = rate, b = fixed)",
+    "ch": "Ch 2",
+    "use": "Bill/pattern/age - sab isme; slope compare = steeper/parallel."
+   },
+   {
+    "f": "Recurring decimal: block/99...9; mixed: (all−non-repeat)/(9..0..)",
+    "ch": "Ch 3",
+    "use": "0.454545 = 45/99; 0.4777... = 43/90. Denominator 2<sup>m</sup>×5<sup>n</sup> = terminating."
+   },
+   {
+    "f": "a<sup>m</sup>×a<sup>n</sup> = a<sup>m+n</sup>; a<sup>m/n</sup> = <sup>n</sup>√(a<sup>m</sup>); same base → equate",
+    "ch": "Ch 3",
+    "use": "8 = 2<sup>3</sup>, 1/81 = 3<sup>−4</sup> banao, powers barabar rakho."
+   },
+   {
+    "f": "(a±b)<sup>2</sup>; a<sup>2</sup>−b<sup>2</sup> = (a+b)(a−b); (x+a)(x+b)",
+    "ch": "Ch 4",
+    "use": "98<sup>2</sup>, 51×49, factorisation - sab inhi se."
+   },
+   {
+    "f": "Crown: a+b+c = 0 → a<sup>3</sup>+b<sup>3</sup>+c<sup>3</sup> = 3abc",
+    "ch": "Ch 4",
+    "use": "Zero-sum dikha, 3abc likho, marks pakke."
+   },
+   {
+    "f": "x + 1/x = s → s<sup>2</sup>−2 → s<sup>3</sup>−3s → chain",
+    "ch": "Ch 4",
+    "use": "x−1/x = d ho toh d<sup>2</sup>+2, d<sup>3</sup>+3d."
+   },
+   {
+    "f": "Heron: s → 3 differences → multiply → √; right triangle → ½·leg·leg",
+    "ch": "Ch 6",
+    "use": "Pehle 5-12-13 check karo - Heron skip ho sakta hai."
+   },
+   {
+    "f": "Arc ℓ = (θ/360)2πr; Sector = (θ/360)πr<sup>2</sup> = ½ℓr; Ring = π(R+r)(R−r)",
+    "ch": "Ch 6",
+    "use": "π choice: 7 ka multiple → 22/7, warna 3.14."
+   },
+   {
+    "f": "P(E) = fav/total; P(not E) = 1−P(E); at least one → 1 − P(none)",
+    "ch": "Ch 7",
+    "use": "2 dice = 36, 3 coins = 8, cards: 4 ace / 12 face / 26 red / 13 suit / 9 numbered."
+   },
+   {
+    "f": "AP: t<sub>n</sub> = a + (n−1)d; Sum = n(n+1)/2; GP: t<sub>n</sub> = ar<sup>n−1</sup>",
+    "ch": "Ch 8",
+    "use": "Which term → n natural? Sierpinski: 3<sup>n</sup>, (3/4)<sup>n</sup>."
+   },
+   {
+    "f": "Virahanka: V<sub>n</sub> = V<sub>n−1</sub> + V<sub>n−2</sub> (1,2,3,5,8,13,...)",
+    "ch": "Ch 8",
+    "use": "Pichhle do ka sum - 1 mark ka pakka question."
+   }
+  ],
+  "rules": [
+   "<strong>Figure banao</strong> - coordinate geometry, area, probability (grid) sab mein 2-inch figure half confusion khatam karta hai.",
+   "<strong>Given values kabhi random nahi hote</strong> - a+b, ab diye hain toh bridge lagana hi hai; s diya hai toh Heron.",
+   "<strong>π ka sahi choice:</strong> 7 ka multiple → 22/7; warna 3.14. Galat choice = pura question galat.",
+   "<strong>Units likho</strong> - cm, cm<sup>2</sup>, m/s. Unit chhoda toh half mark kata jata hai.",
+   "<strong>MCQ strategy:</strong> options se value daal ke check karna allowed hai - 98<sup>2</sup> type mein options khud bata denge.",
+   "<strong>Steps mat chhodo:</strong> identity ka naam / formula likhna = method marks, chahe calculation slip ho jaye.",
+   "<strong>Last 10 minutes:</strong> sirf CHECKING - units, signs (minus wale terms), aur \"at least one\" ke complements dobara dekho.",
+   "<strong>Trap alarm:</strong> (a−b)<sup>2</sup> ka last term PLUS hota hai; HT aur TH alag outcomes; without replacement mein denominator bhi shrink hota hai."
+  ],
+  "drill": [
+   "Exam Morning Power Page ke 12 formulas <strong>bol ke ek baar likho</strong> - haath se likhne se muscle memory banti hai.",
+   "Apne <strong>starred MCQs aur galtiyan</strong> dohrao - sirf wahi, teen minute. Naya kuch nahi, sirf apni mistakes.",
+   "Trap alarms zor se bolo: (a−b)<sup>2</sup> ka last term PLUS, HT ≠ TH, without replacement mein denominator shrink, π ka sahi choice.",
+   "Triples aur squares ghoshit karo: 3-4-5, 5-12-13, 8-15-17, 7-24-25; squares 11<sup>2</sup> = 121 se 20<sup>2</sup> = 400 tak.",
+   "Geometry formulas bol ke revise karo - Heron ka s, sector ka θ/360, ring ka (R+r)(R−r). Awaaz nikalne se yaad pakka hota hai.",
+   "Gehri saans lo aur bolo: <strong>\"Maine 172 solved examples kiye hain - paper bas unka naya version hai.\"</strong> Ab jaao, 80/80 tumhara hai."
+  ],
+  "pep": "Tumhare paas poora syllabus, saare tricks aur 172 solved examples hain. Kal bas wahi dikhao jo tumne practice kiya hai. Sheet tumhare saath hai, formula tumhare dimaag mein - ab sirf likhne ki deri hai. All the best - <strong>80/80 is yours.</strong>"
+ }
+}
