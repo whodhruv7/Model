@@ -3,7 +3,7 @@
 // Saathy — the chat experience. Orchestrates context, streaming, the mastery
 // loop, and the three-panel layout (sidebar / chat / settings).
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Menu, PanelLeftClose, PanelLeftOpen, Settings as SettingsIcon, Sparkles, Download } from 'lucide-react';
+import { Menu, PanelLeftClose, PanelLeftOpen, Settings as SettingsIcon, Sparkles, Download, FileDown } from 'lucide-react';
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { useToast } from '@/hooks/use-toast';
 import { Mascot, type MascotPose } from './mascot';
@@ -546,6 +546,16 @@ export function ChatApp() {
               Fix {weakestConcept.name}
             </button>
           ) : null}
+
+          <a
+              href="/api/download/app"
+              download="Saathy.html"
+              className="hidden rounded-xl p-2 text-[#5c6f8a] transition hover:bg-[#ffe6d7] hover:text-[#a05c2e] sm:block"
+              aria-label="Download the standalone Saathy app as an HTML file"
+              title="Download app as HTML (works offline)"
+            >
+              <FileDown className="h-5 w-5" />
+            </a>
 
           {activeId ? (
             <a
