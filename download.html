@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Download Saathy — VidhyaSaathy</title>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#FFF5ED 0%,#FBE9DF 45%,#D7E9F5 100%);font-family:Manrope,system-ui,-apple-system,sans-serif;color:#17324F}
+  .card{background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border:1px solid #D8DDE7;border-radius:28px;padding:44px 36px;text-align:center;max-width:360px;box-shadow:0 24px 60px rgba(16,43,76,.14)}
+  .cloud{font-size:56px;line-height:1;animation:bob 2.4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  h1{margin:18px 0 8px;font-size:24px;font-weight:800}
+  p{margin:0 0 26px;color:#637C96;font-size:14.5px;line-height:1.55}
+  a.btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#214F78,#2a6aa8);color:#fff;text-decoration:none;font-weight:800;font-size:16px;padding:16px 34px;border-radius:999px;box-shadow:0 10px 24px rgba(33,79,120,.35);transition:transform .15s ease}
+  a.btn:active{transform:scale(.96)}
+  .hint{margin-top:18px;font-size:12px;color:#8ba3bd}
+  @media (prefers-reduced-motion: reduce){.cloud{animation:none}}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="cloud">☁️</div>
+  <h1>Saathy is downloading…</h1>
+  <p>If the download didn't start automatically, tap the button below. You'll get one HTML file — open it in any browser, works fully offline.</p>
+  <a class="btn" href="public/Saathy.html" download="Saathy.html">⬇ Download Saathy.html</a>
+  <div class="hint">207 KB · no install · no internet needed</div>
+</div>
+<script>
+  window.addEventListener('load', function () {
+    var a = document.querySelector('a.btn');
+    if (a) { try { a.click(); } catch (e) {} }
+  });
+</script>
+</body>
+</html>
