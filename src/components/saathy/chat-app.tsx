@@ -589,20 +589,20 @@ export function ChatApp() {
               <div className="flex flex-col items-center pt-6 text-center sm:pt-10">
                 <Mascot pose={celebrate ? 'excited' : 'happy'} size={120} float animationsEnabled={animations} interactive alt="Saathy, your learning companion" />
                 <h1 className="mt-3 text-[24px] font-extrabold tracking-tight text-[#16305b] sm:text-[28px]">
-                  Hi {ctx?.profile.name ?? 'there'}! I&apos;m Saathy. ☁️
+                  Hi {ctx?.profile.name ?? 'there'} — ready when you are ☁️
                 </h1>
-                <p className="mt-1.5 max-w-[44ch] text-[14px] font-semibold leading-relaxed text-[#5c6f8a]">
+                <p className="mt-1.5 max-w-[46ch] text-[14px] font-semibold leading-relaxed text-[#5c6f8a]">
                   {currentChapterInfo
-                    ? `Ready for ${currentChapterInfo.subject} — ${currentChapterInfo.chapter.name}? I know your class material and I adapt to how you're doing.`
-                    : 'What are we learning today?'}
+                    ? `I've read ${currentChapterInfo.chapter.name} properly — every section. Ask me anything from it, or start below. Pehle main check kar lungi tum kitna yaad rakhte ho, phir waise hi samjhaungi.`
+                    : 'Maths, science ya theory — jo poochna hai poochho. I will first see where you stand, then teach it your way.'}
                 </p>
 
                 <div className="mt-6 grid w-full max-w-xl grid-cols-1 gap-2 sm:grid-cols-2">
                   {[
-                    { label: 'Explain a concept', desc: 'Step-by-step, from your notes', act: () => chipPrefill(`Explain ${focusConcept?.name ?? currentChapterInfo?.chapter.name ?? 'a concept'} `) },
-                    { label: 'Solve a question', desc: 'Guided, not copy-paste', act: () => chipPrefill('Solve this: ') },
-                    { label: 'Practise with questions', desc: 'Quick checks at your level', act: () => chipSend(`Start a practice round on ${currentChapterInfo?.chapter.name ?? 'my current chapter'}`, 'practise') },
-                    { label: 'Summarise my notes', desc: 'From your teacher\u2019s material', act: () => chipSend(`Summarise my teacher's notes for ${currentChapterInfo?.chapter.name ?? 'the current chapter'}`, 'summarise') },
+                    { label: 'Samjha do', desc: 'step by step, your book, your pace', act: () => chipPrefill(`Explain ${focusConcept?.name ?? currentChapterInfo?.chapter.name ?? 'a concept'} `) },
+                    { label: 'Yeh solve karo', desc: 'guided — no copy-paste answers', act: () => chipPrefill('Solve this: ') },
+                    { label: 'Test me', desc: 'quick questions at my level', act: () => chipSend(`Start a practice round on ${currentChapterInfo?.chapter.name ?? 'my current chapter'}`, 'practise') },
+                    { label: 'Notes bhar do', desc: 'teacher material, compressed', act: () => chipSend(`Summarise my teacher's notes for ${currentChapterInfo?.chapter.name ?? 'the current chapter'}`, 'summarise') },
                   ].map((chip, i) => (
                     <button
                       key={chip.label}

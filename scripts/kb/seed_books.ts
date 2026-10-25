@@ -1,5 +1,5 @@
-// Seed: Ganita Manjari (the school's actual textbook) as the mastery tree.
-// 14 chapters, book-derived concepts, fresh profile + founder settings.
+// Seed: the school's actual textbooks as the mastery tree.
+//   Ganita Manjari (maths, chapters 1-14) + Understanding Society (SST, 101-109).
 // Run: bun scripts/kb/seed_books.ts
 import { PrismaClient } from '@prisma/client';
 
@@ -84,6 +84,56 @@ const BOOK: ChapterDef[] = [
   },
 ];
 
+// Understanding Society: India and Beyond (Grade 9, Parts 1-2).
+// Chapter numbers are 101-109 to keep them unique next to the maths book.
+const SST_BOOK: ChapterDef[] = [
+  {
+    number: 101,
+    name: 'Atmosphere and Climate',
+    concepts: [['Composition of the Atmosphere', []], ['Layers of the Atmosphere', ['Composition of the Atmosphere']], ['Weather and Climate', ['Layers of the Atmosphere']], ['Elements of Weather and Climate', ['Weather and Climate']], ['Seasons in India', ['Weather and Climate']]],
+  },
+  {
+    number: 102,
+    name: 'Building Blocks in Economics: The Problem of Choice',
+    concepts: [['Choices and Limited Resources', []], ['Opportunity Cost', ['Choices and Limited Resources']], ['Key Questions in Economics', ['Opportunity Cost']], ['Factors of Production', ['Key Questions in Economics']], ['Economic Systems', ['Factors of Production']]],
+  },
+  {
+    number: 103,
+    name: 'The Price Puzzle: What Drives the Market',
+    concepts: [['Demand', []], ['Demand Schedule and Curve', ['Demand']], ['Determinants of Demand', ['Demand']], ['Supply', ['Demand']], ['Market Equilibrium', ['Supply']]],
+  },
+  {
+    number: 104,
+    name: 'Oceans and Life',
+    concepts: [['Ocean Relief', []], ['Waves', ['Ocean Relief']], ['Tides', ['Waves']], ['Ocean Currents', ['Tides']], ['Cyclones and Tsunamis', ['Ocean Currents']], ['Marine Resources and Blue Economy', ['Ocean Relief']], ['Maritime Zones', ['Marine Resources and Blue Economy']]],
+  },
+  {
+    number: 105,
+    name: 'Life on Earth',
+    concepts: [['Biomes', []], ['Terrestrial Biomes', ['Biomes']], ['Aquatic Biomes', ['Biomes']], ['Biodiversity', ['Biomes']], ['Forests and Livelihoods', ['Biodiversity']], ['Ecological Commons', ['Forests and Livelihoods']]],
+  },
+  {
+    number: 106,
+    name: 'Resistance and Resilience (1000-1700 CE)',
+    concepts: [['Invasions and Resistance', []], ['Rajput Resistance', ['Invasions and Resistance']], ['Mughal-Rajput Dynamics', ['Rajput Resistance']], ['The Ahoms and Vijayanagara', ['Invasions and Resistance']], ['Marathas and Swarajya', ['Mughal-Rajput Dynamics']], ['The Sikhs and the Khalsa', ['Invasions and Resistance']], ['Bhakti Tradition', ['Invasions and Resistance']], ['Temples and the Economy', ['Bhakti Tradition']]],
+  },
+  {
+    number: 107,
+    name: 'Governance and Public Policy',
+    concepts: [['Government vs Governance', []], ['Good Governance', ['Government vs Governance']], ['E-Governance', ['Good Governance']], ['Public Policy', ['Government vs Governance']], ['The Policy Cycle', ['Public Policy']], ['Policy Coordination', ['The Policy Cycle']]],
+  },
+  {
+    number: 108,
+    name: 'Managing Your Personal Finances',
+    concepts: [['Pillars of Personal Finance', []], ['Budgeting and Saving', ['Pillars of Personal Finance']], ['Investing and Compounding', ['Budgeting and Saving']], ['Investment Options', ['Investing and Compounding']], ['Insurance and Risk', ['Investment Options']], ['Income Tax', ['Pillars of Personal Finance']]],
+  },
+  {
+    number: 109,
+    name: 'From Ideas to Startups',
+    concepts: [['What is Entrepreneurship', []], ['Business Plan', ['What is Entrepreneurship']], ['Functional Areas of a Business', ['Business Plan']], ['Profit and Loss', ['Functional Areas of a Business']], ['Startups and the Nation', ['What is Entrepreneurship']]],
+  },
+];
+
 async function main() {
   await db.evidenceRecord.deleteMany();
   await db.teacherNote.deleteMany();
@@ -115,12 +165,13 @@ async function main() {
   });
 
   const subject = await db.subject.create({ data: { name: 'Ganita Manjari Mathematics', order: 1 } });
+  const sstSubject = await db.subject.create({ data: { name: 'Social Science — Understanding Society', order: 2 } });
 
   for (const [i, ch] of BOOK.entries()) {
     const chapter = await db.chapter.create({
       data: { subjectId: subject.id, number: ch.number, name: ch.name, order: i + 1 },
     });
-    for (const [j, [name, prereqs]] of ch.concepts.entries()) {
+    for (const [j, [name]] of ch.concepts.entries()) {
       await db.concept.create({
         data: {
           chapterId: chapter.id,
@@ -132,10 +183,26 @@ async function main() {
     }
   }
 
+  for (const [i, ch] of SST_BOOK.entries()) {
+    const chapter = await db.chapter.create({
+      data: { subjectId: sstSubject.id, number: ch.number, name: ch.name, order: i + 1 },
+    });
+    for (const [j, [name]] of ch.concepts.entries()) {
+      await db.concept.create({
+        data: {
+          chapterId: chapter.id,
+          name,
+          order: j + 1,
+          prerequisites: '[]',
+        },
+      });
+    }
+  }
+
   // Resolve prerequisites by name (same chapter scope)
   const concepts = await db.concept.findMany({ include: { chapter: true } });
   for (const c of concepts) {
-    const def = BOOK.find((b) => b.number === c.chapter.number);
+    const def = BOOK.find((b) => b.number === c.chapter.number) ?? SST_BOOK.find((b) => b.number === c.chapter.number);
     if (!def) continue;
     const prereq = def.concepts.find(([n]) => n === c.name)?.[1] ?? [];
     if (prereq.length > 0) {
@@ -150,7 +217,7 @@ async function main() {
   });
 
   const counts = await db.concept.count();
-  console.log(`Seed complete: Ganita Manjari — ${BOOK.length} chapters, ${counts} concepts, all bands fresh (level checks pending)`);
+  console.log(`Seed complete: Ganita Manjari (${BOOK.length} chapters) + Understanding Society (${SST_BOOK.length} chapters) — ${counts} concepts, all bands fresh (level checks pending)`);
 }
 
 main()

@@ -1,8 +1,10 @@
-// Book knowledge layer — Ganita Manjari (Grades 9-10, 14 chapters).
-// Built from the school's actual textbooks (scripts/kb/build_kb.py).
+// Book knowledge layer — the school's actual textbooks:
+//   Ganita Manjari (mathematics, 14 chapters) + Understanding Society: India and
+//   Beyond (social science, 9 chapters). Built by scripts/kb/build_kb*.py.
 // In the future VidhyaSaathy app this module stays as-is: same JSON shape,
-// same retrieval contract — only the corpus file grows.
-import kb from '@/data/books/ganita-manjari.json';
+// same retrieval contract — only the corpus files grow.
+import mathsKb from '@/data/books/ganita-manjari.json';
+import sstKb from '@/data/books/understanding-society.json';
 import type { ConceptHit } from './context';
 
 export interface BookSection {
@@ -12,6 +14,8 @@ export interface BookSection {
   sectionId: string;
   title: string;
   content: string;
+  book: string;
+  part?: number;
 }
 
 export interface BookChunk {
@@ -31,9 +35,18 @@ interface KbChapter {
   title: string;
   intro: string;
   sections: KbSection[];
+  book?: string;
+  part?: number;
 }
 
-const KB = kb as KbChapter[];
+interface KbChapterMeta extends KbChapter {
+  book: string;
+}
+
+const KB: KbChapterMeta[] = [
+  ...(mathsKb as KbChapter[]).map((c) => ({ ...c, book: c.book ?? 'Ganita Manjari' })),
+  ...(sstKb as KbChapter[]).map((c) => ({ ...c, book: c.book ?? 'Understanding Society' })),
+];
 
 const STOP = new Set([
   'the', 'a', 'an', 'of', 'is', 'are', 'what', 'how', 'why', 'do', 'does', 'in', 'on', 'for',
@@ -44,6 +57,8 @@ const STOP = new Set([
 
 export function tokenize(s: string): string[] {
   return s
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // fold IAST diacritics: Śhivājī -> Shivaji
     .toLowerCase()
     .replace(/[^a-z0-9\u0900-\u097F\s]/g, ' ')
     .split(/\s+/)
@@ -61,6 +76,8 @@ function allSections(): BookSection[] {
         sectionId: sec.id,
         title: sec.title,
         content: sec.content,
+        book: ch.book,
+        part: ch.part,
       });
     }
   }
@@ -84,7 +101,19 @@ function buildIndex() {
 }
 
 // Chapter names a student might type, mapped to book chapter numbers.
+// Maths chapters are 1-14; Understanding Society chapters are 101-109.
 const CHAPTER_HINTS: Array<[RegExp, number]> = [
+  // --- Understanding Society (SST) — checked first, more specific phrasing ---
+  [/personal finance|budget|fixed deposit|mutual fund|insurance|income tax|tax slab|compounding|emi|pillar of|invest(ing|ment) option/i, 108],
+  [/entrepreneur|startup|business plan|functional area|business venture|lijjat|profit and loss|marketing and sales|human resources/i, 109],
+  [/governance|public policy|policy cycle|e-governance|stakeholder|good governance|policy process|civic/i, 107],
+  [/rajput|mughal|chola|sultanate|vijayanagara|maratha|shivaji|bhakti|sikh|khalsa|ahom|pratap|haldighati|swarajya|medieval india|resilience/i, 106],
+  [/biome|ecosystem|biodiversity|tundra|taiga|grassland|rainforest|ecotourism|sacred grove|forest dwellers|ecological commons|life on earth/i, 105],
+  [/ocean|\btides?\b|\bwaves?\b|tsunami|cyclone|maritime|eez|unclos|blue economy|marine resource|sea/i, 104],
+  [/demand curve|supply curve|demand schedule|supply schedule|market equilibrium|law of demand|law of supply|price puzzle|equilibrium price/i, 103],
+  [/opportunity cost|scarcity|factors of production|economic system|planned economy|market economy|economic survey|problem of choice|central problems/i, 102],
+  [/atmosphere|\bclimate\b|weather|monsoon|insolation|greenhouse|ozone layer|jet stream|stratosphere|troposphere/i, 101],
+  // --- Ganita Manjari (mathematics) ---
   [/cartesian|coordinate|coordinates|plot|abscissa|ordinate|quadrant/i, 1],
   [/linear polynomial|linear growth|linear decay|linear relationship/i, 2],
   [/irrational|rational number|integer|real number|surds?|shuny|shoonya|zero/i, 3],
@@ -93,8 +122,8 @@ const CHAPTER_HINTS: Array<[RegExp, number]> = [
   [/perimeter|area|circumference|heron|triangle.*area|area.*circle/i, 6],
   [/probabilit|sample space|tree diagram|dice|coin|random/i, 7],
   [/sequence|progression|\bap\b|\bgp\b|arithmetic|geometric|fibonacci|virahanka|pattern/i, 8],
-  [/proposition|converse|number pattern|perfect square|factors?/i, 9],
-  [/data|mean|median|mode|combine quantities/i, 10],
+  [/proposition|converse|number pattern|perfect square/i, 9],
+  [/\bdata\b|mean|median|mode|combine quantities/i, 10],
   [/algorithm|\bgcd\b|greatest common|divisor|data structure/i, 11],
   [/quadrilateral|parallelogram|tiling|rhombus|trapezium/i, 12],
   [/two variables|linear equation|slope|intercept|pair of (linear|equations)|simultaneous/i, 13],
@@ -135,10 +164,12 @@ export function searchBook(query: string, opts?: { limit?: number; chapterNumber
     }
     // the hinted chapter gets a strong boost, neighbours a small one
     if (hintChapter !== null) {
+      const sameBook = sec.book === (hintChapter >= 100 ? "Understanding Society" : "Ganita Manjari");
       const d = Math.abs(sec.chapterNumber - hintChapter);
       if (d === 0) score *= 3.2;
-      else if (d === 1) score *= 1.15;
-      else score *= 0.55;
+      else if (d === 1 && sameBook) score *= 1.15;
+      else if (sameBook && sec.chapterNumber >= 100 === hintChapter >= 100) score *= 0.55;
+      else score *= 0.3;
     }
     return { sec, score };
   });
@@ -152,7 +183,7 @@ export function searchBook(query: string, opts?: { limit?: number; chapterNumber
     if (n >= 2) continue; // max 2 sections per chapter — diversity
     seenChapters.set(sec.chapterNumber, n + 1);
     picked.push({
-      sourceRef: `Ganita Manjari G${sec.grade} · Ch ${sec.chapterNumber} · §${sec.sectionId} ${sec.title}`,
+      sourceRef: `${sec.book} G${sec.grade}${sec.part ? ` P${sec.part}` : ''} · Ch ${sec.chapterNumber >= 100 ? sec.chapterNumber - 100 : sec.chapterNumber} · ${sec.title}`,
       text: sec.content,
     });
     if (picked.length >= limit) break;
@@ -169,7 +200,7 @@ export function bookForConcept(conceptName: string, chapterName?: string): BookC
   for (const ch of KB) {
     if (chapterName && ch.title.toLowerCase().includes(chapterName.toLowerCase().slice(0, 12))) {
       return ch.sections.slice(0, 3).map((s) => ({
-        sourceRef: `Ganita Manjari G${ch.grade} · Ch ${ch.number} · §${s.id} ${s.title}`,
+        sourceRef: `${ch.book} G${ch.grade}${ch.part ? ` P${ch.part}` : ''} · Ch ${ch.number >= 100 ? ch.number - 100 : ch.number} · ${s.title}`,
         text: s.content,
       }));
     }
@@ -180,7 +211,10 @@ export function bookForConcept(conceptName: string, chapterName?: string): BookC
 export function bookGroundingBlock(chunks: BookChunk[]): { text: string; sources: string[] } {
   if (chunks.length === 0) return { text: '', sources: [] };
   const sources = chunks.map((c) => c.sourceRef);
-  const text = `TEXTBOOK GROUNDING (the school's own mathematics textbook — Ganita Manjari).\nRules: teach FROM this material, use its notation, its examples and its spirit. When you use it, cite naturally like "(Ganita Manjari, Ch 3)" at the natural spot, and list the exact section refs in the meta block's "sources". If the excerpts below do not cover what the student asked, teach it well from your own knowledge and honestly mark that part as beyond the book.\n\n${chunks
+  const text = `TEXTBOOK GROUNDING (the school's own textbooks — Ganita Manjari for mathematics, Understanding Society: India and Beyond for social science).
+Rules: teach FROM this material, use its notation, its examples and its spirit. When you use it, cite naturally like "(Understanding Society, Ch 5)" or "(Ganita Manjari, Ch 3)" at the natural spot, and list the exact section refs in the meta block's "sources". If the excerpts below do not cover what the student asked, teach it well from your own knowledge and honestly mark that part as beyond the book.
+
+${chunks
     .map((c) => `--- [${c.sourceRef}]\n${c.text}`)
     .join('\n\n')}`;
   return { text, sources };
@@ -195,7 +229,7 @@ export function bookChaptersForHits(hits: ConceptHit[]): string {
     );
     if (matches.length > 0) {
       for (const m of matches.slice(0, 1)) {
-        lines.push(`- "${h.conceptName}" lives in Ganita Manjari Ch ${m.number} (${m.title}) — sections: ${m.sections.map((s) => s.id).join(', ')}`);
+        lines.push(`- "${h.conceptName}" lives in ${m.book} Ch ${m.number >= 100 ? m.number - 100 : m.number} (${m.title}) — sections: ${m.sections.map((s) => s.id).join(', ')}`);
       }
     }
   }
@@ -205,7 +239,10 @@ export function bookChaptersForHits(hits: ConceptHit[]): string {
 export function bookTree() {
   return KB.map((ch) => ({
     grade: ch.grade,
+    part: ch.part ?? 1,
     number: ch.number,
+    bookChapter: ch.number >= 100 ? ch.number - 100 : ch.number,
+    book: ch.book,
     title: ch.title,
     sections: ch.sections.map((s) => ({ id: s.id, title: s.title })),
   }));

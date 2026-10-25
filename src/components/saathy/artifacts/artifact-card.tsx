@@ -405,7 +405,11 @@ function Dice({ params, prompt }: { params: Record<string, number | string>; pro
     }, 90);
   };
 
-  useEffect(() => () => timer.current && clearInterval(timer.current), []);
+  useEffect(() => {
+    return () => {
+      if (timer.current) clearInterval(timer.current);
+    };
+  }, []);
 
   const maxC = Math.max(...counts, 10);
   const W = 560;
@@ -554,6 +558,46 @@ function LineGraph({ params, prompt }: { params: Record<string, number | string>
   );
 }
 
+// ---------------- Timeline (SST: history, policy, journeys) ----------------
+
+function Timeline({ events, prompt }: { events: Array<{ when: string; what: string }>; prompt?: string }) {
+  const [shown, setShown] = useState(animationsEnabledDefault() ? 0 : events.length);
+  useEffect(() => {
+    if (shown >= events.length) return;
+    const t = setTimeout(() => setShown((s) => s + 1), 260);
+    return () => clearTimeout(t);
+  }, [shown, events.length]);
+
+  return (
+    <div className="px-1 pb-2 pt-1">
+      <ol className="relative ml-3 space-y-0 border-l-2 border-[#cfe3fb] pl-5">
+        {events.map((e, i) => (
+          <li
+            key={`${e.when}-${i}`}
+            className={`relative pb-3.5 last:pb-1 ${i < shown ? 'msg-in' : 'opacity-0'}`}
+            style={i < shown ? { animationDelay: '0ms' } : undefined}
+          >
+            <span className="absolute -left-[27px] top-0.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-[#a9cee8] bg-[#f6d5c6] shadow-[0_0_0_3px_rgba(169,206,232,0.25)]" />
+            <p className="text-[12px] font-extrabold tracking-wide text-[#2a5298]">{e.when}</p>
+            <p className="text-[13px] font-semibold leading-snug text-[#17324f]">{e.what}</p>
+          </li>
+        ))}
+      </ol>
+      <p className="px-1 pb-1 text-[11.5px] font-semibold text-[#8a94a8]">{prompt ?? 'Events appear one by one — read them top to bottom, in order.'}</p>
+    </div>
+  );
+}
+
+// default from the app's animation preference (computed lazily, SSR-safe)
+function animationsEnabledDefault(): boolean {
+  try {
+    if (typeof window === 'undefined') return true;
+    return localStorage.getItem('saathy_animations') !== 'off' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch {
+    return true;
+  }
+}
+
 // ---------------- Card shell ----------------
 
 export function ArtifactCard({ artifact, animationsEnabled }: { artifact: Artifact; animationsEnabled: boolean }) {
@@ -568,6 +612,10 @@ export function ArtifactCard({ artifact, animationsEnabled }: { artifact: Artifa
       if (d.widget === 'dice') return <Dice params={d.params ?? {}} prompt={d.prompt} />;
       if (d.widget === 'pythag') return <Pythag params={d.params ?? {}} prompt={d.prompt} />;
       if (d.widget === 'linegraph') return <LineGraph params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'timeline') {
+        const events = d.events && d.events.length > 0 ? d.events : [{ when: '—', what: 'Timeline events were not provided.' }];
+        return <Timeline events={events} prompt={d.prompt} />;
+      }
     }
     return null;
   }, [artifact]);

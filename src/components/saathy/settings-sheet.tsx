@@ -9,7 +9,7 @@
 //            REAL connection test, knowledge-source status (honest), and
 //            history controls.
 import { useEffect, useState } from 'react';
-import { Cloud, KeyRound, Loader2, Lock, PlugZap, ShieldCheck, Trash2, Database, RefreshCcw } from 'lucide-react';
+import { Cloud, KeyRound, Loader2, Lock, PlugZap, ShieldCheck, Trash2, Database, RefreshCcw, Wand2 } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
@@ -107,6 +107,8 @@ function FounderPanel({
   const [testResult, setTestResult] = useState<{ ok: boolean; msg: string } | null>(null);
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState<string | null>(null);
+  const [autoBusy, setAutoBusy] = useState(false);
+  const [autoMsg, setAutoMsg] = useState<{ ok: boolean; msg: string } | null>(null);
 
   const unlock = async () => {
     setPinError(null);
@@ -131,6 +133,37 @@ function FounderPanel({
     setBaseUrl(c.customBaseUrl ?? '');
     setModelId(c.customModelId ?? '');
     setBuiltinModel(c.builtinModelId || 'glm-4-plus');
+  };
+
+  // Auto-detect: paste ANY provider key -> Saathy figures out provider, base
+  // URL and the best working model. Key stays client-side until Save.
+  const autoDetect = async () => {
+    if (!keyInput.trim() && !baseUrl.trim()) {
+      setAutoMsg({ ok: false, msg: 'Paste your API key first — Groq (gsk_…), OpenAI (sk-…), Gemini (AIza…), Anthropic (sk-ant-…) or any OpenAI-compatible key.' });
+      return;
+    }
+    setAutoBusy(true);
+    setAutoMsg(null);
+    try {
+      const res = await fetch('/api/founder/autodetect', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ apiKey: keyInput.trim(), baseUrl: baseUrl.trim(), pin: sessionStorage.getItem('saathy_founder_pin') ?? pin }),
+      });
+      const j = await res.json();
+      if (j.ok && j.detected?.baseUrl) {
+        setProvider('custom');
+        setBaseUrl(j.detected.baseUrl);
+        setModelId(j.detected.model);
+        setAutoMsg({ ok: true, msg: `Found ${j.detected.provider} — best working model: ${j.detected.model} (${j.detected.latencyMs}ms). Press Save configuration.` });
+      } else {
+        setAutoMsg({ ok: false, msg: j.error ?? 'Could not detect the provider. Check the key or add the base URL.' });
+      }
+    } catch {
+      setAutoMsg({ ok: false, msg: 'Network error while probing the provider. Try again.' });
+    } finally {
+      setAutoBusy(false);
+    }
   };
 
   useEffect(() => {
@@ -357,6 +390,12 @@ function FounderPanel({
         )}
 
         <div className="mt-3 flex flex-wrap items-center gap-2">
+          {provider === 'custom' ? (
+            <Button type="button" size="sm" onClick={autoDetect} disabled={autoBusy} className="h-8 gap-1.5 bg-[#a05c2e] text-[12px] font-extrabold hover:bg-[#8a4e26]">
+              {autoBusy ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <Wand2 className="h-3.5 w-3.5" />}
+              Auto-detect from key
+            </Button>
+          ) : null}
           <Button type="button" variant="outline" size="sm" onClick={testOnly} disabled={testing} className="h-8 gap-1.5 text-[12px] font-extrabold">
             {testing ? <Loader2 className="h-3.5 w-3.5 animate-spin" /> : <PlugZap className="h-3.5 w-3.5" />}
             Test connection
@@ -371,6 +410,12 @@ function FounderPanel({
             <span className="rounded-full bg-[#fff3ea] px-2.5 py-1 text-[11px] font-extrabold text-[#a05c2e]">Not verified yet</span>
           )}
         </div>
+        {autoMsg ? (
+          <p className={`msg-in mt-2 rounded-lg px-3 py-2 text-[12px] font-bold ${autoMsg.ok ? 'bg-[#edf7ee] text-[#227031]' : 'bg-[#fdf0f0] text-[#9c2c30]'}`}>
+            {autoMsg.ok ? '✓ ' : '✕ '}
+            {autoMsg.msg}
+          </p>
+        ) : null}
         {testResult ? (
           <p className={`msg-in mt-2 rounded-lg px-3 py-2 text-[12px] font-bold ${testResult.ok ? 'bg-[#edf7ee] text-[#227031]' : 'bg-[#fdf0f0] text-[#9c2c30]'}`}>
             {testResult.ok ? '✓ ' : '✕ '}

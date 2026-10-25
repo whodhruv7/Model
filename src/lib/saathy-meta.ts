@@ -105,7 +105,7 @@ function sanitizeArtifact(a: unknown): Artifact | null {
   }
   if (obj.type === 'demo' && obj.demo && typeof obj.demo === 'object') {
     const d = obj.demo as Record<string, unknown>;
-    const WIDGETS = ['numberline', 'parabola', 'apline', 'dice', 'pythag', 'linegraph'] as const;
+    const WIDGETS = ['numberline', 'parabola', 'apline', 'dice', 'pythag', 'linegraph', 'timeline'] as const;
     if (typeof d.widget !== 'string' || !WIDGETS.includes(d.widget as (typeof WIDGETS)[number])) return null;
     const params: Record<string, number | string> = {};
     if (d.params && typeof d.params === 'object') {
@@ -114,12 +114,27 @@ function sanitizeArtifact(a: unknown): Artifact | null {
         else if (typeof v === 'string') params[k] = v.slice(0, 12);
       }
     }
+    // timeline events: array of {when, what}
+    const events =
+      Array.isArray(d.events)
+        ? (d.events as unknown[])
+            .map((e) => {
+              const ev = e as Record<string, unknown>;
+              return {
+                when: typeof ev.when === 'string' ? ev.when.slice(0, 40) : '',
+                what: typeof ev.what === 'string' ? ev.what.slice(0, 140) : '',
+              };
+            })
+            .filter((e) => e.when && e.what)
+            .slice(0, 10)
+        : undefined;
     return {
       type: 'demo',
       title,
       demo: {
         widget: d.widget as (typeof WIDGETS)[number],
         params,
+        events,
         prompt: typeof d.prompt === 'string' ? d.prompt.slice(0, 140) : undefined,
       },
     };

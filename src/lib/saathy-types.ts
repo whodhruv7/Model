@@ -190,12 +190,15 @@ export type DemoWidget =
   | 'apline' // AP/GP dot-machine with a,d/r sliders (Ch 8)
   | 'dice' // probability simulator: roll N times, bars converge (Ch 7)
   | 'pythag' // right triangle with squares on the sides (Ch 1 distance / Ch 4)
-  | 'linegraph'; // y = mx + c live line (Ch 2 / Ch 13 slope-intercept)
+  | 'linegraph' // y = mx + c live line (Ch 2 / Ch 13 slope-intercept)
+  | 'timeline'; // animated event timeline (SST: history, policy cycles, journeys)
 
 export interface DemoSpec {
   widget: DemoWidget;
-  // widget params chosen by the model, e.g. {a:1,b:2,c:-3} or {a:2,d:3,type:'AP'}
+  // widget params chosen by the model, e.g. {a:1,b:2,c:-3} or {type:'AP'}
   params?: Record<string, number | string>;
+  // timeline events (when + what), used only by the timeline widget
+  events?: Array<{ when: string; what: string }>;
   // one prompt shown inside the artifact ("Drag the slider, watch the roots")
   prompt?: string;
 }
