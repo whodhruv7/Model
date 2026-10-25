@@ -265,7 +265,9 @@ export function buildSystemPrompt(input: PromptInput): string {
 
   const focusHit = hits.find((h) => h.conceptName === focusName) ?? hits[0] ?? null;
   const focusTier = focusHit?.tier ?? null;
-  const wantsLevelCheck = mode !== 'chat' && mode !== 'summarise' && !!focusName && focusTier === null;
+  // Level-check gate: ANY concept-focused query (explain/practise/solve AND chat)
+  // on an unassessed concept first asks 2-3 basics questions. Summarise stays exempt.
+  const wantsLevelCheck = mode !== 'summarise' && !!focusName && focusTier === null;
 
   const lang = languageRule(profile.language);
   const langReminder = lang.name
