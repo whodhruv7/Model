@@ -105,7 +105,7 @@ function sanitizeArtifact(a: unknown): Artifact | null {
   }
   if (obj.type === 'demo' && obj.demo && typeof obj.demo === 'object') {
     const d = obj.demo as Record<string, unknown>;
-    const WIDGETS = ['numberline', 'parabola', 'apline', 'dice', 'pythag', 'linegraph', 'timeline'] as const;
+    const WIDGETS = ['numberline', 'parabola', 'apline', 'dice', 'pythag', 'linegraph', 'timeline', 'motion', 'wave', 'atom', 'angles', 'fraction', 'market', 'pyramid'] as const;
     if (typeof d.widget !== 'string' || !WIDGETS.includes(d.widget as (typeof WIDGETS)[number])) return null;
     const params: Record<string, number | string> = {};
     if (d.params && typeof d.params === 'object') {

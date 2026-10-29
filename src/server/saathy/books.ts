@@ -1,10 +1,12 @@
 // Book knowledge layer — the school's actual textbooks:
 //   Ganita Manjari (mathematics, 14 chapters) + Understanding Society: India and
-//   Beyond (social science, 9 chapters). Built by scripts/kb/build_kb*.py.
+//   Beyond (social science, 9 chapters) + Exploration (science, 13 chapters).
+//   Built by scripts/kb/build_kb*.py.
 // In the future VidhyaSaathy app this module stays as-is: same JSON shape,
 // same retrieval contract — only the corpus files grow.
 import mathsKb from '@/data/books/ganita-manjari.json';
 import sstKb from '@/data/books/understanding-society.json';
+import sciKb from '@/data/books/science-exploration.json';
 import type { ConceptHit } from './context';
 
 export interface BookSection {
@@ -46,7 +48,19 @@ interface KbChapterMeta extends KbChapter {
 const KB: KbChapterMeta[] = [
   ...(mathsKb as KbChapter[]).map((c) => ({ ...c, book: c.book ?? 'Ganita Manjari' })),
   ...(sstKb as KbChapter[]).map((c) => ({ ...c, book: c.book ?? 'Understanding Society' })),
+  ...(sciKb as KbChapter[]).map((c) => ({ ...c, book: c.book ?? 'Exploration: Science G9', number: c.number + 200 })),
 ];
+
+// Chapter number space: maths 1-14, SST 101-109, science 201-213.
+export function bookForChapterNumber(n: number): string {
+  if (n >= 200) return 'Exploration: Science G9';
+  if (n >= 100) return 'Understanding Society';
+  return 'Ganita Manjari';
+}
+
+export function displayChapterNumber(n: number): number {
+  return n >= 200 ? n - 200 : n >= 100 ? n - 100 : n;
+}
 
 const STOP = new Set([
   'the', 'a', 'an', 'of', 'is', 'are', 'what', 'how', 'why', 'do', 'does', 'in', 'on', 'for',
@@ -103,7 +117,21 @@ function buildIndex() {
 // Chapter names a student might type, mapped to book chapter numbers.
 // Maths chapters are 1-14; Understanding Society chapters are 101-109.
 const CHAPTER_HINTS: Array<[RegExp, number]> = [
-  // --- Understanding Society (SST) — checked first, more specific phrasing ---
+  // --- Exploration (science) — very specific phrasing, checked first ---
+  [/carbon cycle|water cycle|nitrogen cycle|biosphere|hydrosphere|lithosphere|atmosphere as|earth as a system|solar constant|greenhouse effect.*earth|energy flow/i, 213],
+  [/angiosperm|gymnosperm|kingdom plante|kingdom animalia|monera|protista|fungi|classification|diversity|five kingdom|taxonomy|nomenclature|binomial/i, 212],
+  [/reproduction|fertilisation|fertilization|pollination|adolescence|puberty|menstrual|zygote|gamete|reproductive|birth control|ovulation/i, 211],
+  [/\bsound\b|loudness|pitch|amplitude.*sound|frequency.*sound|oscillation|echo|sonar|decibel|ultrasound|infrasonic|audible|hertz/i, 210],
+  [/mole|molar mass|atomic mass unit|formula unit|avogadro|chemical formula|molecular mass|percentage composition|valency.*ion|ionic compound/i, 209],
+  [/\batom\b|atomic structure|electron shell|bohr|rutherford|thomson.*model|isotope|isobar|proton|neutron.*atom|electronic configuration|valence electron/i, 208],
+  [/\bwork\b.*\benergy\b|kinetic energy|potential energy|law of conservation|simple machine|lever|pulley|inclined plane|joule|power.*watt|mechanical advantage/i, 207],
+  [/newton.*law|inertia|momentum|force.*motion|action.*reaction|second law|third law|friction.*force|thrust|buoyant|archimedes/i, 206],
+  [/mixture|separation|distillation|filtration|evaporation|sublimation|solubility|saturated|solution|colloid|suspension|centrifugation|chromatography|fractional/i, 205],
+  [/kinematic|displacement.*time|velocity.*time|acceleration|uniform.*motion|distance.*displacement|speed.*graph|equation.*motion/i, 204],
+  [/\btissue\b|xylem|phloem|parenchyma|epithelial|connective tissue|muscular tissue|nervous tissue|meristem|apical/i, 203],
+  [/\bcell\b|organelle|mitochondri|plasma membrane|nucleus.*cell|osmosis|diffusion.*cell|cell wall|cytoplasm|prokaryote|eukaryote|plasmolysis/i, 202],
+  [/scientific method|scientific attitude|hypothesis|science.*exploration|branch.*science/i, 201],
+  // --- Understanding Society (SST) — more specific phrasing next ---
   [/personal finance|budget|fixed deposit|mutual fund|insurance|income tax|tax slab|compounding|emi|pillar of|invest(ing|ment) option/i, 108],
   [/entrepreneur|startup|business plan|functional area|business venture|lijjat|profit and loss|marketing and sales|human resources/i, 109],
   [/governance|public policy|policy cycle|e-governance|stakeholder|good governance|policy process|civic/i, 107],
@@ -164,11 +192,11 @@ export function searchBook(query: string, opts?: { limit?: number; chapterNumber
     }
     // the hinted chapter gets a strong boost, neighbours a small one
     if (hintChapter !== null) {
-      const sameBook = sec.book === (hintChapter >= 100 ? "Understanding Society" : "Ganita Manjari");
+      const sameBook = sec.book === bookForChapterNumber(hintChapter);
       const d = Math.abs(sec.chapterNumber - hintChapter);
       if (d === 0) score *= 3.2;
       else if (d === 1 && sameBook) score *= 1.15;
-      else if (sameBook && sec.chapterNumber >= 100 === hintChapter >= 100) score *= 0.55;
+      else if (sameBook) score *= 0.55;
       else score *= 0.3;
     }
     return { sec, score };
@@ -183,7 +211,7 @@ export function searchBook(query: string, opts?: { limit?: number; chapterNumber
     if (n >= 2) continue; // max 2 sections per chapter — diversity
     seenChapters.set(sec.chapterNumber, n + 1);
     picked.push({
-      sourceRef: `${sec.book} G${sec.grade}${sec.part ? ` P${sec.part}` : ''} · Ch ${sec.chapterNumber >= 100 ? sec.chapterNumber - 100 : sec.chapterNumber} · ${sec.title}`,
+      sourceRef: `${sec.book} G${sec.grade}${sec.part ? ` P${sec.part}` : ''} · Ch ${displayChapterNumber(sec.chapterNumber)} · ${sec.title}`,
       text: sec.content,
     });
     if (picked.length >= limit) break;
@@ -200,7 +228,7 @@ export function bookForConcept(conceptName: string, chapterName?: string): BookC
   for (const ch of KB) {
     if (chapterName && ch.title.toLowerCase().includes(chapterName.toLowerCase().slice(0, 12))) {
       return ch.sections.slice(0, 3).map((s) => ({
-        sourceRef: `${ch.book} G${ch.grade}${ch.part ? ` P${ch.part}` : ''} · Ch ${ch.number >= 100 ? ch.number - 100 : ch.number} · ${s.title}`,
+        sourceRef: `${ch.book} G${ch.grade}${ch.part ? ` P${ch.part}` : ''} · Ch ${displayChapterNumber(ch.number)} · ${s.title}`,
         text: s.content,
       }));
     }
@@ -211,8 +239,8 @@ export function bookForConcept(conceptName: string, chapterName?: string): BookC
 export function bookGroundingBlock(chunks: BookChunk[]): { text: string; sources: string[] } {
   if (chunks.length === 0) return { text: '', sources: [] };
   const sources = chunks.map((c) => c.sourceRef);
-  const text = `TEXTBOOK GROUNDING (the school's own textbooks — Ganita Manjari for mathematics, Understanding Society: India and Beyond for social science).
-Rules: teach FROM this material, use its notation, its examples and its spirit. When you use it, cite naturally like "(Understanding Society, Ch 5)" or "(Ganita Manjari, Ch 3)" at the natural spot, and list the exact section refs in the meta block's "sources". If the excerpts below do not cover what the student asked, teach it well from your own knowledge and honestly mark that part as beyond the book.
+  const text = `TEXTBOOK GROUNDING (the school's own textbooks — Ganita Manjari for mathematics, Understanding Society: India and Beyond for social science, Exploration for science).
+Rules: teach FROM this material, use its notation, its examples and its spirit. When you use it, cite naturally like "(Understanding Society, Ch 5)", "(Ganita Manjari, Ch 3)" or "(Exploration, Ch 6)" at the natural spot, and list the exact section refs in the meta block's "sources". If the excerpts below do not cover what the student asked, teach it well from your own knowledge and honestly mark that part as beyond the book.
 
 ${chunks
     .map((c) => `--- [${c.sourceRef}]\n${c.text}`)
@@ -229,7 +257,7 @@ export function bookChaptersForHits(hits: ConceptHit[]): string {
     );
     if (matches.length > 0) {
       for (const m of matches.slice(0, 1)) {
-        lines.push(`- "${h.conceptName}" lives in ${m.book} Ch ${m.number >= 100 ? m.number - 100 : m.number} (${m.title}) — sections: ${m.sections.map((s) => s.id).join(', ')}`);
+        lines.push(`- "${h.conceptName}" lives in ${m.book} Ch ${displayChapterNumber(m.number)} (${m.title}) — sections: ${m.sections.map((s) => s.id).join(', ')}`);
       }
     }
   }
@@ -241,7 +269,7 @@ export function bookTree() {
     grade: ch.grade,
     part: ch.part ?? 1,
     number: ch.number,
-    bookChapter: ch.number >= 100 ? ch.number - 100 : ch.number,
+    bookChapter: displayChapterNumber(ch.number),
     book: ch.book,
     title: ch.title,
     sections: ch.sections.map((s) => ({ id: s.id, title: s.title })),

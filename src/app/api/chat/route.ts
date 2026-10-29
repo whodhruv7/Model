@@ -7,6 +7,7 @@ import { db } from '@/lib/db';
 import { detectMode, type ChatMode } from '@/lib/saathy-types';
 import { loadProfile, loadSubjects, matchConcepts, loadNotes, loadRecentMessages } from '@/server/saathy/context';
 import { searchBook, bookGroundingBlock } from '@/server/saathy/books';
+import { searchFounderDocs, docsGroundingBlock } from '@/server/saathy/docs';
 import { buildSystemPrompt, buildHintPrompt, buildWhyPrompt } from '@/server/saathy/prompt';
 import { streamChat, completeOnce } from '@/server/saathy/providers';
 import { parseSaathyMeta, repairJson } from '@/lib/saathy-meta';
@@ -22,7 +23,7 @@ const RESCUE_SYSTEM = `You generate ONLY a JSON object (no markdown fence, no co
 Rules:
 - followups: exactly 3 short chips in the student's voice (<=6 words each), matching the reply's topic.
 - sources: exact section refs used like "Ganita Manjari G9 · Ch 4 · §4.2 Visualising Identities", else [].
-- artifact: null unless the reply teaches a visual idea. Chart: {"type":"chart","title":"...","chart":{"kind":"line|bar","xLabel":"...","yLabel":"...","series":[{"name":"...","points":[{"x":1,"y":2}]}]}}. Demo widget (pick matching one): {"type":"demo","title":"...","demo":{"widget":"parabola|numberline|apline|dice|pythag|linegraph","params":{},"prompt":"one playful instruction"}}.
+- artifact: null unless the reply teaches a visual idea. Chart: {"type":"chart","title":"...","chart":{"kind":"line|bar","xLabel":"...","yLabel":"...","series":[{"name":"...","points":[{"x":1,"y":2}]}]}}. Demo widget (pick matching one): {"type":"demo","title":"...","demo":{"widget":"parabola|numberline|apline|dice|pythag|linegraph|timeline|motion|wave|atom|angles|fraction|market|pyramid","params":{},"prompt":"one playful instruction"}}.
 - quickcheck: one board-style MCQ testing THIS reply's core idea: {"concept":"...","question":"...","options":["A","B","C","D"],"answer":0,"hint":"nudge, not the answer","hint2":"stronger nudge","difficulty":1}. difficulty 1-3 matching how hard the reply was.
 - Output must be valid JSON: double quotes only, no trailing commas, LaTeX backslashes escaped (\\\\frac etc.).`;
 
@@ -131,10 +132,14 @@ export async function POST(req: NextRequest) {
     const notes = await loadNotes(noteIds);
     const history = await loadRecentMessages(conversationId);
 
-    // Book grounding (Ganita Manjari) — the school's own textbook corpus.
+    // Book grounding (all four textbooks) — the school's own corpus.
     const bookQuery = `${content} ${focusConcept?.name ?? hits[0]?.conceptName ?? ''}`;
     const bookChunks = mode === 'chat' && !focusConcept ? [] : searchBook(bookQuery, { limit: 4 });
     const book = bookGroundingBlock(bookChunks);
+
+    // Founder Library grounding — documents the founder uploaded in the Data section.
+    const libChunks = await searchFounderDocs(content, 3);
+    const library = docsGroundingBlock(libChunks);
 
     // System prompt
     let system: string;
@@ -151,6 +156,7 @@ export async function POST(req: NextRequest) {
         mode,
         focusConceptName: focusConcept?.name ?? hits[0]?.conceptName ?? null,
         book,
+        library,
       });
     }
 

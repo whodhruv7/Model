@@ -191,7 +191,14 @@ export type DemoWidget =
   | 'dice' // probability simulator: roll N times, bars converge (Ch 7)
   | 'pythag' // right triangle with squares on the sides (Ch 1 distance / Ch 4)
   | 'linegraph' // y = mx + c live line (Ch 2 / Ch 13 slope-intercept)
-  | 'timeline'; // animated event timeline (SST: history, policy cycles, journeys)
+  | 'timeline' // animated event timeline (SST: history, policy cycles, journeys)
+  | 'motion' // physics: velocity/acceleration dot on a track + live s-t graph
+  | 'wave' // physics: sound wave — amplitude & frequency sliders, λ readout
+  | 'atom' // chemistry: Bohr shells explorer for Z ≤ 20 elements, valency
+  | 'angles' // geometry: triangle angle-sum, type detection (acute/right/…)
+  | 'fraction' // basics: fraction pie → decimal → percent
+  | 'market' // economics: supply & demand curves with shift sliders, equilibrium
+  | 'pyramid'; // geography: population pyramid by growth stage (expanding/…)
 
 export interface DemoSpec {
   widget: DemoWidget;

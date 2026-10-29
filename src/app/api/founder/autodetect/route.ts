@@ -23,7 +23,7 @@ const GUESSES: Record<string, ProviderGuess> = {
   groq: {
     name: 'Groq',
     baseUrl: 'https://api.groq.com/openai/v1',
-    candidates: ['openai/gpt-oss-120b', 'llama-3.3-70b-versatile', 'moonshotai/kimi-k2-instruct', 'llama-3.1-8b-instant'],
+    candidates: ['llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'moonshotai/kimi-k2-instruct', 'meta-llama/llama-4-scout-17b-16e-instruct', 'llama-3.1-8b-instant'],
   },
   gemini: {
     name: 'Google Gemini',
@@ -34,6 +34,11 @@ const GUESSES: Record<string, ProviderGuess> = {
     name: 'Anthropic',
     baseUrl: 'https://api.anthropic.com/v1',
     candidates: ['claude-sonnet-4-5', 'claude-3-5-haiku-latest'],
+  },
+  openrouter: {
+    name: 'OpenRouter',
+    baseUrl: 'https://openrouter.ai/api/v1',
+    candidates: ['deepseek/deepseek-chat-v3-0324', 'meta-llama/llama-3.3-70b-instruct', 'qwen/qwen-2.5-72b-instruct', 'openai/gpt-4o-mini'],
   },
   openai: {
     name: 'OpenAI',
@@ -46,6 +51,7 @@ function guessFromKey(key: string): ProviderGuess | null {
   if (key.startsWith('gsk_')) return GUESSES.groq;
   if (key.startsWith('AIza')) return GUESSES.gemini;
   if (key.startsWith('sk-ant-')) return GUESSES.anthropic;
+  if (key.startsWith('sk-or-')) return GUESSES.openrouter;
   if (key.startsWith('sk-')) return GUESSES.openai;
   return null;
 }

@@ -589,13 +589,25 @@ export function ChatApp() {
               <div className="flex flex-col items-center pt-6 text-center sm:pt-10">
                 <Mascot pose={celebrate ? 'excited' : 'happy'} size={120} float animationsEnabled={animations} interactive alt="Saathy, your learning companion" />
                 <h1 className="mt-3 text-[24px] font-extrabold tracking-tight text-[#16305b] sm:text-[28px]">
-                  Hi {ctx?.profile.name ?? 'there'} — ready when you are ☁️
+                  {(() => {
+                    const h = new Date().getHours();
+                    const part = h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
+                    return `${part}, ${ctx?.profile.name ?? 'there'} — ready when you are ☁️`;
+                  })()}
                 </h1>
                 <p className="mt-1.5 max-w-[46ch] text-[14px] font-semibold leading-relaxed text-[#5c6f8a]">
                   {currentChapterInfo
                     ? `I've read ${currentChapterInfo.chapter.name} properly — every section. Ask me anything from it, or start below. Pehle main check kar lungi tum kitna yaad rakhte ho, phir waise hi samjhaungi.`
-                    : 'Maths, science ya theory — jo poochna hai poochho. I will first see where you stand, then teach it your way.'}
+                    : 'Maths, Science, SST — jo poochna hai poochho. I first see where you stand, then teach it your way.'}
                 </p>
+                <div className="mt-3.5 flex flex-wrap items-center justify-center gap-1.5">
+                  {['Ganita Manjari', 'NCERT Science G9', 'NCERT SST G9', 'Understanding Society'].map((b) => (
+                    <span key={b} className="rounded-full border border-[#d8e6f3] bg-white/70 px-2.5 py-1 text-[10.5px] font-extrabold text-[#4a6a94]">
+                      {b}
+                    </span>
+                  ))}
+                  <span className="rounded-full bg-[#fff3ea] px-2.5 py-1 text-[10.5px] font-extrabold text-[#a05c2e]">trained on your books</span>
+                </div>
 
                 <div className="mt-6 grid w-full max-w-xl grid-cols-1 gap-2 sm:grid-cols-2">
                   {[

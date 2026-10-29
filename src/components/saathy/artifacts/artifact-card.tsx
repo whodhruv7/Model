@@ -7,6 +7,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Expand, Minimize2, MousePointerClick } from 'lucide-react';
 import type { Artifact, ChartSpec } from '@/lib/saathy-types';
+import { MotionWidget, WaveWidget, AtomWidget, AnglesWidget, FractionWidget, MarketWidget, PyramidWidget } from './demo-widgets';
 
 const NAVY = '#16305b';
 const BLUE = '#5E97F0';
@@ -612,6 +613,13 @@ export function ArtifactCard({ artifact, animationsEnabled }: { artifact: Artifa
       if (d.widget === 'dice') return <Dice params={d.params ?? {}} prompt={d.prompt} />;
       if (d.widget === 'pythag') return <Pythag params={d.params ?? {}} prompt={d.prompt} />;
       if (d.widget === 'linegraph') return <LineGraph params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'motion') return <MotionWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'wave') return <WaveWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'atom') return <AtomWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'angles') return <AnglesWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'fraction') return <FractionWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'market') return <MarketWidget params={d.params ?? {}} prompt={d.prompt} />;
+      if (d.widget === 'pyramid') return <PyramidWidget params={d.params ?? {}} prompt={d.prompt} />;
       if (d.widget === 'timeline') {
         const events = d.events && d.events.length > 0 ? d.events : [{ when: '—', what: 'Timeline events were not provided.' }];
         return <Timeline events={events} prompt={d.prompt} />;
