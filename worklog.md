@@ -478,3 +478,23 @@ Stage Summary:
 - Mobile-first: iOS zoom killed (16px inputs on phones via globals.css), thumb-target tap classes on header buttons, app-download button now visible on phones, composer safe-area kept.
 - Standalone v3 (549KB): + app_founder.js (IndexedDB training library: PDF via pdf.js/DOCX zip-reader/MD/TXT -> chunks; trained files re-downloadable; YouTube link library) + libGrounding injected into AI prompts + ytPlanArts watch-plan cards + YouTube/Misconception rules in system prompt. Build verified: 8 inline scripts syntax-clean.
 - QA: browser (390x844) settings/founder/chat verified; youtube plan + quickcheck + motion artifact rendered in one reply; pasted link got real title "Motion in a Straight Line: Crash Course Physics #1".
+- Ingestion FINAL: 30/30 docs ready in Founder library (SST 360p OCR resumed + finished; Science 292p OCR; 23 NCERT maths/science chapters; 4 VidhyaSaathy master docs + master_file.txt). All 30 downloadable via /api/founder/data?id&download=1. Grounding verified in chat (Pakka Meter answered from Product Master File, identity line first).
+- Identity lock verified live: "which model are you" -> "I am Saathy v.1, trained on NCERT modules and books." Standalone served at 549,835 bytes via /api/download/app. Pushed d5c3b05 via temp-clone (PAT destroyed). Pages live: /Model/public/Saathy.html (v3) + /Model/download.html.
+
+---
+Task ID: v3-kwazyy
+Agent: Super Z (main)
+Task: Saathy v.3 — full rebuild per Master File + user asks: personalization, 100-file corpus, parent/teacher reports, plan flow (slide→quiz→game→flashcards), YouTube two-way, 5 games, 12 labs, Gemini plug-and-play, Settings-bug fix, mobile-first.
+
+Work Log:
+- Extracted Product Master File specs: 4 bands, Error DNA (4 families), L1→L3 ladder, 5 games, curated-YouTube trim spec, 11-step AI sequence, concept map, privacy wall
+- Built standalone v3 from 6 parts (scripts/v3/): mobile-first CSS (bottom tabs→desktop sidebar), guarded boot (settings bound FIRST — bug class killed), data layer (100-concept video kit w/ channel deep-links + watch-plan timestamps, 7 agents, 92-Q anchor bank), engine (bands/mastery/ErrorDNA/ladder/weights, Gemini-AIza/Groq/OpenAI auto-detect + real connect test + SSE streaming, 11-step client mirror, identity lock, YouTube link parsing + timeline card, offline NCERT brain)
+- Features: plan runner (6 agent-owned steps), quiz (confidence buttons + bridge repairs), 5 games (MCQ Rush timer, Match-the-Concept, Rapid Revision, Streak Challenge pot, Boss Level 70% gate), flashcards (knew/almost/forgot), video kit UI (filters + 3 links/concept), 12 interactive labs (motion, atom, circuit, states, cell, sound, timeline, monsoon, democracy detector, India features, identity grid, dice), parent daily report + teacher heatmap (printable), founder PIN 2405 (100-file IndexedDB corpus, ≤300MB each, pdf.js lazy + docx ZIP inflate, per-file download/remove, 10-phase panel)
+- Bugs caught in browser QA: missing $ helper; pins.join(elements) PIN bug; dataset.done quiz guard; KB `book` field overwrite; gameMCQ raw-array fallback → all fixed; emojis swapped for SVG/text
+- Verified in browser (mobile 390×844 + desktop 1440×900): zero console errors, settings opens, founder unlocks, diagnostic routes (33%→"Almost there"), MCQ scores, boss gate, teacher report, YouTube card (t=90 → 1:30)
+- App-side: MAX_DOCS 40→100 (server + settings-sheet slice), eslint clean on changed files, curl smoke 200 (/​, /api/books, /api/download/app)
+- public/Saathy_All_Chapters.pdf 69.9MB→68.3MB (gs ebook; screen setting grew file — scans already JPEG)
+
+Stage Summary:
+- DELIVERABLE: public/Saathy.html + download/Saathy.html (757KB, 3 books embedded: 14+13+9 chapters)
+- All 10 phases live; identity locked; mobile-first verified
