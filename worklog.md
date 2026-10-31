@@ -454,3 +454,27 @@ Stage Summary:
 - Saathy now teaches from THREE books: Ganita Manjari (14ch), Understanding Society (9ch), Exploration Science (13ch) = 36 chapters, 240+ sections
 - 14 interactive artifact machines (7 math + 3 science + timeline/market/pyramid for SST) with per-band level playbook + misconception radar
 - One downloadable all-chapters PDF ready for Pages: public/Saathy_All_Chapters.pdf
+
+## Saathy-v2-phone-first (2026-10-29)
+- Rebuilt standalone app from scratch as phone-first single-file HTML (public/Saathy.html, 533 KB): 5-tab bottom nav, safe-area layout, desktop phone-frame presentation.
+- Fixed the dead Settings button complaint: header gear + More tab both open a bottom sheet; PIN 2405 gate -> founder tools. Verified via agent-browser in 390x844 viewport.
+- Paste-to-connect APIs: single box auto-detects AIza (Gemini) / gsk_ (Groq) / sk- (OpenAI) / sk-or- (OpenRouter), lists real models, picks best (flash/mini), streams (SSE) with identity lock. Key stored locally only.
+- Trained on VidhyaSaathy_Product_Master_File.pdf: full product brain (bands table, Error DNA, Pakka Meter, ladder law, radars, safety rules, 11-step sequence) - app BEHAVES per the file and answers product questions from it.
+- 60+ authored concepts (Science 9, Math 9, SST 9 + Class-10 boosters) with band-adaptive teaching, worked-example step-reveal artifacts, timeline artifacts, flashcards, mini-checks with Sure/Unsure/Guess + Error DNA verdicts, Motion graph lab, MCQ Rush (60s, personal best only).
+- Book grounding: 3 book KBs (267 sections) condensed and embedded; offline fallback + AI grounding quotes the actual book text.
+- YouTube: paste any link -> title fetch (noembed) -> honest watch-plan with checkpoints + matched concept teaching; curated channel search cards per class.
+- Diagnostic-first enforced: first concept query offers 3-question level check -> band stored -> tone/depth adapts (friendly words only, never band numbers).
+- Identity lock verified: "which model are you" -> "I am Saathy v.1, trained on NCERT modules and books."
+- QA: node syntax checks, brace-balance scan (caught unclosed CONCEPTS array), renderBadges scope bug fixed, ladder drop L2->L1 verified, YouTube analyzer verified, key detection verified.
+- Pushed acfe681 via temp-clone (PAT destroyed, 0 leftovers). Pages live: /Model/public/Saathy.html (533 KB confirmed) + /Model/download.html auto-download.
+- Source kept editable: scripts/saathy_v2/ (build_saathy.py + 8 part files) - edit parts, re-run build.
+
+## 2026-10-31 — Saathy-v3: settings-fix + mobile + Gemini + YouTube + founder library
+- ROOT-CAUSE FIXED (settings button dead): sandbox recycle wiped DB -> /api/context 500 ("Student profile missing") -> SettingsSheet returned null silently. Fixed 3 ways: loadProfile now self-heals (auto-creates profile), /api/context never 500s (+ensureSubjects reseeds tree from KB JSON), SettingsSheet renders skeleton instead of null. Re-seeded: profile + 100 concepts (Ganita Manjari 14ch + Understanding Society 9ch + Science 13ch). Browser-verified: settings opens, tabs work, PIN 2405 unlocks founder panel.
+- Gemini plug-and-play hardened: autodetect strips "models/" prefix from Google /models list; AIza -> generativelanguage v1beta/openai (OpenAI-compat) with gemini-2.5-flash preference. gsk_/sk-/sk-ant-/sk-or- also auto-detected, one-click connect + real verification.
+- YouTube powers (web app): ChatMeta.youtube {videoId,title,topic,searches[],timeline[]}; prompt rule (honest: real search deep-links only, relative watch-plans, never invented IDs/timestamps); route detects pasted links (yt oEmbed title fetch, 4s cap), injects context, force-merges videoId into meta; new YoutubeCard (inline player + ytimg thumb + channel search chips + numbered watch-plan). Welcome grid gained "Video se dekho" + "Meri position" cards.
+- Founder Library v2: MAX 40 docs / 1GB total / 300MB per file; originals kept in db/library/<id>.<ext> -> downloadable from training section (GET ?id&download=1); PUT raw streaming upload (4MB chunks, big files never in RAM); YouTube links ingest as knowledge docs (kind=youtube, oEmbed title); DataSection got download buttons + youtube teach input.
+- Training files ingested from upload/ (scripts/ingest_library.ts, resumable + upfront rows): SST combined 360p scan + Science 292p scan (OCR capped 400p), iemh101-206 NCERT maths 14 ch, iest NCERT science 9 ch, 4x VidhyaSaathy master PDFs, master_file.txt.
+- Mobile-first: iOS zoom killed (16px inputs on phones via globals.css), thumb-target tap classes on header buttons, app-download button now visible on phones, composer safe-area kept.
+- Standalone v3 (549KB): + app_founder.js (IndexedDB training library: PDF via pdf.js/DOCX zip-reader/MD/TXT -> chunks; trained files re-downloadable; YouTube link library) + libGrounding injected into AI prompts + ytPlanArts watch-plan cards + YouTube/Misconception rules in system prompt. Build verified: 8 inline scripts syntax-clean.
+- QA: browser (390x844) settings/founder/chat verified; youtube plan + quickcheck + motion artifact rendered in one reply; pasted link got real title "Motion in a Straight Line: Crash Course Physics #1".

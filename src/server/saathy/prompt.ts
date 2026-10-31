@@ -205,6 +205,16 @@ const MISCONCEPTIONS = `MISCONCEPTION RADAR (when the topic touches these classi
 - Population: "a growing population always has a pyramid-shaped structure" (stages shift the base).
 When a student's answer shows one of these, celebrate the thinking, then flip the misconception with a 2-line counterexample — never with the word "wrong".`;
 
+// ---------- YOUTUBE (video study plans — real links only) ----------
+
+const YOUTUBE = `YOUTUBE STUDY PLANS (Saathy finds the video power in every concept):
+A) When the student PASTES a YouTube link — the system has already fetched the video title and injected it above. Treat the video as shared material: greet it naturally ("yeh video accha pick kiya"), build the watch plan around ITS topic, and set meta "youtube": {"videoId": "<the id from the link>", ...}. NEVER pretend you watched the video — you guide HOW to watch it.
+B) When the student asks for a video ("video dikha do", "samajh nahi aaya, video se dekhna hai") or the concept is heavily visual — set meta "youtube" with a study plan. HONESTY RULE (critical): you NEVER invent video IDs, channel video titles or timestamps — you have not watched the video. Instead:
+   - "searches": 2-4 REAL YouTube search deep-links, format https://www.youtube.com/results?search_query=<url-encoded topic + class>. Good label variety: "Physics Wallah", "Khan Academy India", "Magnet Brains", "Next Toppers", "Vedantu 9-10" — e.g. {"label":"Physics Wallah","url":"https://www.youtube.com/results?search_query=motion+class+9+physics+wallah"}. These always work.
+   - "timeline": a 4-6 step WATCH PLAN in relative phases ("First 10%", "Next 30%", ...) telling the student exactly what to DO in that phase (pause and note the definition, copy the worked example, replay the derivation, attempt the last example before the teacher does). These are study instructions, not claimed video timestamps.
+   - "topic": the concept name.
+C) Mention the plan in one natural line in the text ("maine neeche watch-plan bana diya — us channel se 'motion class 9' search karke koi bhi ek video utha lo, plan sab pe chalega"). Never dump the raw links as markdown — the card renders them.`;
+
 const HONESTY = `HONESTY LAYER (non-negotiable, VS-32):
 1. CITE THE SOURCE — When you use the textbook excerpts or teacher's notes, mention it inline like "(Ganita Manjari, Ch 3)" or "(from your teacher's notes)" at the natural spot, and list the exact section refs in the meta block's "sources".
 2. ADMIT THE UNKNOWN — If you do not know something, say so plainly. No confidence theatre, no invented facts.
@@ -227,7 +237,7 @@ function metaRule(mode: ChatMode, tierForFocus: number | null, hasLevelCheck: bo
   const artShape = `{"type":"chart|demo","title":"<short title>", "chart":{...}|null, "demo":{...}|null}`;
 
   let template: string;
-  const fields: string[] = [`"followups":["<chip 1>","<chip 2>","<chip 3>"]`, `"sources":[<sourceRefs used>]`];
+  const fields: string[] = [`"followups":["<chip 1>","<chip 2>","<chip 3>"]`, `"sources":[<sourceRefs used>]`, `"youtube":{"topic":"<concept>","searches":[{"label":"Physics Wallah","url":"https://www.youtube.com/results?search_query=..."}],"timeline":[{"t":"First 10%","do":"..."}]} or null`];
 
   if (hasLevelCheck) {
     fields.push(`"levelcheck":${lcShape}`, `"quickcheck":null`, `"artifact":null`);
@@ -239,6 +249,7 @@ ${template}
 \`\`\`
 
 - "levelcheck" is MANDATORY in this reply (see LEVEL CHECK GATE): 2-3 questions, easiest first, each with exactly 4 options and a valid "answer" index.
+- "youtube": null unless the student asked for a video or pasted one (see YOUTUBE STUDY PLANS).
 - "followups": exactly 3 short chips in the STUDENT's voice, current language mode, each ≤ 6 words.
 - "sources": exact section refs used, e.g. ["Ganita Manjari G9 · Ch 2 · §2.2 Linear Polynomials"]. Empty array if none.
 - The block MUST be valid JSON (no trailing commas, no comments, double quotes only; escape LaTeX backslashes properly).`;
@@ -258,6 +269,8 @@ ${template}
 
   const art = `"artifact": attach ONE when the idea is visual (see ARTIFACTS), else null. Chart numbers must be real and consistent with your text.`;
 
+  const ytRule = `"youtube": attach a study plan when the student asks for a video or pastes a link (see YOUTUBE STUDY PLANS — search deep-links + relative watch timeline, NEVER invented video IDs), else null.`;
+
   return `META BLOCK CONTRACT (strict): At the VERY END of every reply, append exactly one fenced block, nothing after it:
 
 \`\`\`saathy
@@ -268,6 +281,7 @@ ${template}
 - "followups": exactly 3 short next-step chips written in the STUDENT's voice, in the current language mode. Each ≤ 6 words.
 - "sources": the exact section refs you used, e.g. ["Ganita Manjari G9 · Ch 8 · §8.4 Arithmetic Progressions"]. Empty array if none.
 - ${art}
+- ${ytRule}
 - ${qcRule}
 - PLACEMENT RULE: any quiz/check question exists ONLY inside this JSON — never also as markdown text in the reply body. The UI renders the interactive card for the student.
 - The block MUST be valid JSON (no trailing commas, no comments, double quotes only; escape LaTeX backslashes properly).`;
@@ -282,6 +296,7 @@ export interface PromptInput {
   focusConceptName: string | null;
   book?: { text: string; sources: string[] };
   library?: { text: string; sources: string[] };
+  youtubeContext?: string | null;
 }
 
 export function buildSystemPrompt(input: PromptInput): string {
@@ -314,11 +329,13 @@ export function buildSystemPrompt(input: PromptInput): string {
     masteryBlock(hits, focusName),
     book?.text || '',
     library?.text || '',
+    input.youtubeContext || '',
     notesBlock(notes, !!book?.text),
     HONESTY,
     modeRule(mode, profile.socratic),
     LEVEL_PLAYBOOK,
     MISCONCEPTIONS,
+    YOUTUBE,
     levelCheckRule(mode, focusName, focusTier),
     artifactRule(mode, focusName),
     lang.rule,

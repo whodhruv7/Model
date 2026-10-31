@@ -75,7 +75,12 @@ async function listModels(base: string, key: string): Promise<string[]> {
       });
       if (!res.ok) return [];
       const j = (await res.json()) as { data?: Array<{ id?: string }> };
-      return (j.data ?? []).map((m) => m.id ?? '').filter(Boolean);
+      return (j.data ?? [])
+        .map((m) => m.id ?? '')
+        .filter(Boolean)
+        // Google's OpenAI-compat /models lists ids like "models/gemini-2.5-flash";
+        // the chat endpoint expects the bare name.
+        .map((m) => (m.startsWith('models/') ? m.slice(7) : m));
     }, 7000);
   } catch {
     return [];

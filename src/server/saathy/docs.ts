@@ -13,11 +13,13 @@ import { tokenize } from './books';
 
 const pexec = promisify(execFile);
 
-export const MAX_DOCS = 10;
-export const MAX_TOTAL_BYTES = 300 * 1024 * 1024; // 300 MB across all docs
-export const MAX_PER_FILE = 150 * 1024 * 1024;
+export const MAX_DOCS = 40;
+export const MAX_TOTAL_BYTES = 1024 * 1024 * 1024; // 1 GB across all docs — the founder trains big
+export const MAX_PER_FILE = 300 * 1024 * 1024; // 300 MB single files, no stress
 const OCR_PAGE_CAP = 400; // safety valve for giant scans
 const CHUNK_CHARS = 1100;
+// Originals live here so the Founder training section can re-download them.
+export const LIBRARY_DIR = path.join(process.cwd(), 'db', 'library');
 
 export interface DocChunk {
   docId: string;
@@ -271,4 +273,48 @@ export async function bufferToFile(file: File): Promise<{ path: string; kind: st
   const p = path.join(dir, `src.${kind === 'md' ? 'md' : kind}`);
   await writeFile(p, Buffer.from(await file.arrayBuffer()));
   return { path: p, kind };
+}
+
+// Keep the ORIGINAL file in db/library/ so the founder can re-download what
+// Saathy was trained on. Returns the stored filename.
+export async function keepOriginal(docId: string, tmpPath: string, ext: string): Promise<string> {
+  const { mkdir, copyFile } = await import('fs/promises');
+  await mkdir(LIBRARY_DIR, { recursive: true }).catch(() => {});
+  const stored = `${docId}.${ext.replace(/[^a-z0-9]/gi, '').slice(0, 8) || 'bin'}`;
+  await copyFile(tmpPath, path.join(LIBRARY_DIR, stored)).catch(() => {});
+  return stored;
+}
+
+// Ingest a YouTube link as a knowledge doc: store the link + the video title,
+// chunk whatever the founder pasted as notes. Honest: no transcript scraping.
+export async function addYoutubeDoc(url: string, title: string, notes: string): Promise<{ id: string }> {
+  const doc = await db.dataDoc.create({
+    data: {
+      title: title.slice(0, 80) || 'YouTube video',
+      fileName: `youtube-${url.slice(-24)}`,
+      kind: 'youtube',
+      sizeBytes: notes.length,
+      status: notes.trim() ? 'parsing' : 'ready',
+      statusMsg: notes.trim() ? 'Reading your notes…' : 'Link saved — Saathy will reference this video.',
+      url: url.slice(0, 500),
+    },
+  });
+  if (notes.trim()) {
+    // Chunk inline (notes arrive as text, not a file) — honest, memory-safe.
+    try {
+      const chunks = chunkText(notes);
+      if (chunks.length > 0) {
+        await db.dataChunk.createMany({
+          data: chunks.map((c, i) => ({ docId: doc.id, idx: i, heading: c.heading, content: c.content })),
+        });
+      }
+      await db.dataDoc.update({
+        where: { id: doc.id },
+        data: { status: 'ready', statusMsg: `Link + your notes saved — ${chunks.length} sections learned` },
+      });
+    } catch {
+      await db.dataDoc.update({ where: { id: doc.id }, data: { status: 'ready', statusMsg: 'Link saved — notes could not be parsed' } }).catch(() => {});
+    }
+  }
+  return { id: doc.id };
 }

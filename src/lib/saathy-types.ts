@@ -217,6 +217,26 @@ export interface Artifact {
   demo?: DemoSpec;
 }
 
+// ---------- YouTube study plan (real deep-links only — never invented video IDs) ----------
+
+export interface YoutubeSearch {
+  label: string; // e.g. "Khan Academy India"
+  url: string; // real search deep-link, always valid
+}
+
+export interface YoutubeStep {
+  t: string; // e.g. "0:00–2:00" or "First 20%"
+  do: string; // what to do in that phase
+}
+
+export interface YoutubePlan {
+  topic?: string; // the concept the plan targets
+  videoId?: string | null; // set when the student pasted a link
+  title?: string; // fetched title of the pasted video
+  searches?: YoutubeSearch[];
+  timeline?: YoutubeStep[];
+}
+
 export interface ChatMeta {
   mode?: ChatMode;
   followups?: string[];
@@ -224,6 +244,7 @@ export interface ChatMeta {
   quickcheck?: QuickCheck | null;
   levelcheck?: LevelCheckPlan | null;
   artifact?: Artifact | null;
+  youtube?: YoutubePlan | null;
   focusConcept?: string | null;
 }
 

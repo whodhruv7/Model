@@ -6,8 +6,22 @@ import { db } from '@/lib/db';
 import { tierFor, TIERS, type ConceptCtx, type NoteCtx, type ProfileCtx, type SubjectCtx, type Tier } from '@/lib/saathy-types';
 
 export async function loadProfile(): Promise<ProfileCtx> {
-  const p = await db.studentProfile.findUnique({ where: { id: 'main' } });
-  if (!p) throw new Error('Student profile missing');
+  // Self-healing: if the profile row is missing (fresh DB / sandbox reset),
+  // create it instead of throwing — the app must never hard-fail on boot.
+  let p = await db.studentProfile.findUnique({ where: { id: 'main' } });
+  if (!p) {
+    p = await db.studentProfile.create({
+      data: {
+        id: 'main',
+        name: 'Aarav',
+        className: 'Class 9',
+        section: 'A',
+        board: 'CBSE',
+        schoolName: 'Demo Public School',
+      },
+    }).catch(() => db.studentProfile.findUnique({ where: { id: 'main' } }));
+  }
+  if (!p) throw new Error('Student profile unavailable');
   return {
     name: p.name,
     className: p.className,

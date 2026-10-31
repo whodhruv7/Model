@@ -1,0 +1,260 @@
+<body>
+<div id="app">
+
+  <!-- ================= HEADER ================= -->
+  <header class="hdr">
+    <img class="hdr-ava" id="hdrAva" alt="Saathy" draggable="false">
+    <div class="hdr-id">
+      <b>Saathy <span style="font-size:10px;font-weight:800;color:var(--warn);background:var(--mist);border-radius:6px;padding:2px 6px;vertical-align:2px">v.1</span></b>
+      <small id="hdrSub"><span class="dot" id="apiDot"></span>offline brain ready · connect API for full power</small>
+    </div>
+    <span class="streak" id="streakChip" title="Daily streak">🔥 <b id="streakN">0</b></span>
+    <button class="icon-btn" id="settingsBtn" aria-label="Settings">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h0a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55h0a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v0a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1z"/></svg>
+    </button>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <div class="main">
+
+    <!-- HOME -->
+    <section class="view" id="view-home">
+      <div class="hero">
+        <img class="hero-mascot mascot-float" id="mascotBig" alt="Sarthi the cloud" draggable="false">
+        <div>
+          <h1 id="greetH">Hi! I'm Saathy.</h1>
+          <p id="greetP">Tell me what to teach, or tap a chapter — I'll first check your level, then teach exactly the way you get it.</p>
+        </div>
+      </div>
+
+      <div class="na" id="naCard">
+        <span class="tag" id="naTag">Your next action</span>
+        <h2 id="naTitle">—</h2>
+        <p id="naSub">—</p>
+        <div class="na-row">
+          <span class="na-meta" id="naMeta"></span>
+          <button class="btn peach sm" id="naGo">Start</button>
+        </div>
+      </div>
+
+      <div class="sec-t">Quick moves</div>
+      <div class="quick" id="quickChips"></div>
+
+      <div class="stat3">
+        <div class="stat"><b id="stTouched">0</b><span>Concepts</span></div>
+        <div class="stat"><b id="stMastery">—</b><span>Avg mastery</span></div>
+        <div class="stat"><b id="stBadges">0</b><span>Badges</span></div>
+      </div>
+
+      <div id="homeBadges" style="margin-top:10px"></div>
+
+      <div class="sec-t">Ask me anything like</div>
+      <div class="card" style="font-size:13.5px;color:var(--sub);line-height:1.7">
+        "Explain acceleration like I'm weak at maths" · "Newton's third law se samjha" ·
+        "Quiz me on Force" · "Exam is in 5 days, make my plan" · "Watch video: Motion" ·
+        "https://youtube.com/watch?v=..." → I'll break it down with a timeline
+      </div>
+    </section>
+
+    <!-- CHAT -->
+    <section class="view view-chat" id="view-chat">
+      <div class="msgs" id="msgs"></div>
+      <div class="chips" id="chipsRow"></div>
+      <div class="composer">
+        <textarea id="chatInput" rows="1" placeholder="Ask any doubt… English / Hindi / Hinglish" autocomplete="off"></textarea>
+        <button class="send" id="sendBtn" aria-label="Send">
+          <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- LEARN -->
+    <section class="view" id="view-learn">
+      <div class="seg" id="learnSeg">
+        <button data-lt="chapters" class="on">Chapters</button>
+        <button data-lt="videos">Videos</button>
+      </div>
+
+      <div id="ltChapters">
+        <div class="subj" id="subjRow"></div>
+        <div id="chapterList"></div>
+        <div id="conceptPane" class="hidden">
+          <div class="backrow">
+            <button id="cpBack">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+              All chapters
+            </button>
+            <span class="depth-tag d2" id="cpDepth">Level check</span>
+          </div>
+          <div id="cpHead" style="margin:4px 2px 8px">
+            <h2 id="cpTitle" style="margin:0;font-size:19px;color:var(--navy);letter-spacing:-.01em"></h2>
+            <small id="cpMeta" style="color:var(--sub);font-size:12.5px"></small>
+          </div>
+          <div id="cpBody"></div>
+        </div>
+      </div>
+
+      <div id="ltVideos" class="hidden">
+        <div class="card" style="padding:13px">
+          <b style="font-size:14px;color:var(--navy)">Video doubt solver</b>
+          <p style="margin:4px 0 10px;font-size:12.5px;color:var(--sub)">Paste any YouTube link — I identify it, pull the title, match the concept and give you a study timeline to watch along.</p>
+          <div style="display:flex;gap:8px">
+            <input id="ytInput" placeholder="https://youtube.com/watch?v=…" style="flex:1;border:1.5px solid var(--line);border-radius:12px;padding:10px 13px;font-size:13.5px;outline:none">
+            <button class="btn sm" id="ytGo">Go</button>
+          </div>
+        </div>
+        <div class="sec-t">Curated for your class — teacher-approved channels</div>
+        <div id="videoList"></div>
+      </div>
+    </section>
+
+    <!-- PRACTICE -->
+    <section class="view" id="view-practice">
+      <div id="practiceHome">
+        <div class="sec-t" style="margin-top:10px">Train here</div>
+        <button class="setrow" id="diagStart">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v5.2L5.2 17A3 3 0 0 0 8 21.5h8a3 3 0 0 0 2.8-4.5L14 8.2V3"/><path d="M7.5 14h9"/></svg></span>
+          <div><b>Level check</b><small>3 tiny questions before a chapter — not a test. This is how I tune every explanation to you.</small></div>
+        </button>
+        <button class="setrow" id="quizStart">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/><circle cx="12" cy="12" r="9.2"/></svg></span>
+          <div><b>Adaptive quiz</b><small>Starts medium. 3 in a row right → harder. 2 wrong → I bridge you back. Confidence buttons on.</small></div>
+        </button>
+        <button class="setrow" id="fcStart">
+          <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="14" height="14" rx="3"/><path d="M7 3h11a3 3 0 0 1 3 3v11"/></svg></span>
+          <div><b>Rapid flashcards</b><small>Flip, self-rate, done in 2 minutes. The strongest memory move there is.</small></div>
+        </button>
+        <button class="setrow" id="rushStart">
+          <span class="ic"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13.5H11L9.5 22 19 9.5h-6.5z"/></svg></span>
+          <div><b>MCQ Rush · 60s</b><small>Beat your own best. No leaderboards here — only you vs you.</small></div>
+        </button>
+        <div class="card" style="margin-top:12px;font-size:12.5px;color:var(--sub);line-height:1.6">
+          <b style="color:var(--navy)">Pakka Meter:</b> on every question tap <b>Sure / Unsure / Guess</b> before revealing. "Sure + wrong" tells me it's a misconception, not carelessness — so I teach the fix, not scold you.
+        </div>
+      </div>
+
+      <div id="runnerPane" class="hidden"></div>
+    </section>
+
+    <!-- MORE -->
+    <section class="view" id="view-more">
+      <div class="sec-t" style="margin-top:12px">Your space</div>
+      <button class="setrow" id="moreSettings">
+        <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h0a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55h0a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v0a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1z"/></svg></span>
+        <div><b>Settings</b><small>API connect, class, language, founder tools</small></div>
+      </button>
+      <button class="setrow" id="exportChatBtn">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></span>
+        <div><b>Export my chat</b><small>Download everything you asked me as one clean file</small></div>
+      </button>
+      <a class="setrow" href="https://whodhruv7.github.io/Model/download.html" style="text-decoration:none;color:inherit" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
+        <div><b>Install Saathy on any phone</b><small>Share this link — the app downloads as one HTML file, works offline</small></div>
+      </a>
+      <div class="sec-t">Who I am</div>
+      <div class="card" id="aboutCard" style="font-size:13.5px;line-height:1.65;color:var(--sub)">
+        <b style="color:var(--navy);font-size:15px">I am Saathy v.1</b>, trained on NCERT modules and books.<br>
+        Your cloud companion from <b style="color:var(--ocean)">VidhyaSaathy</b> — built on one promise: <i>"You don't need to decide what to study tonight. I already know, I know how you learn, and I'll walk with you."</i><br><br>
+        Diagnose first · teach second · adapt always. No fear, no shame, no comparisons — ever.
+        <div style="margin-top:10px"><span class="pill n">NCERT Class 9 + 10</span> <span class="pill w">Hinglish friendly</span> <span class="pill g">Private to you</span></div>
+      </div>
+      <div style="text-align:center;color:var(--sub);font-size:11.5px;margin-top:16px">Saathy v.1 · offline-first · your keys &amp; data never leave this device</div>
+    </section>
+
+    <!-- RUNNER (quiz / diag / flash / game) -->
+    <div class="sheet" id="runnerSheet">
+      <div class="grab"></div>
+      <div class="body" id="runnerBody"></div>
+    </div>
+
+    <!-- SETTINGS SHEET -->
+    <div class="sheet" id="settingsSheet">
+      <div class="grab"></div>
+      <div class="body">
+
+        <div id="pinGate">
+          <h2 style="margin:10px 0 2px;text-align:center;color:var(--navy)">Founder access</h2>
+          <p style="text-align:center;color:var(--sub);font-size:13px;margin:0 0 6px">Enter your PIN to open the control room</p>
+          <div class="pinboxes" id="pinBoxes">
+            <input type="tel" maxlength="1" inputmode="numeric" autocomplete="off">
+            <input type="tel" maxlength="1" inputmode="numeric" autocomplete="off">
+            <input type="tel" maxlength="1" inputmode="numeric" autocomplete="off">
+            <input type="tel" maxlength="1" inputmode="numeric" autocomplete="off">
+          </div>
+          <p id="pinErr" class="hidden" style="text-align:center;color:var(--bad);font-size:12.5px;font-weight:700;margin:4px">Wrong PIN — try again</p>
+          <p style="text-align:center;margin:8px 0 0"><button class="btn ghost sm" id="pinSkip">Just student settings</button></p>
+        </div>
+
+        <div id="setPanes" class="hidden">
+          <h2 style="margin:10px 0 8px;color:var(--navy)">Settings</h2>
+
+          <div class="sec-t" style="margin-top:6px">Connect your API — one paste, done</div>
+          <div class="card" style="padding:14px">
+            <div class="field" style="margin:0 0 10px">
+              <input id="apiPaste" placeholder="Paste any API key (Gemini, Groq, OpenAI…) — I'll detect it" autocomplete="off" spellcheck="false" style="font-size:14px">
+            </div>
+            <div id="detectLine" class="hidden" style="margin:0 0 10px"></div>
+            <div id="modelRow" class="hidden field">
+              <label>Model</label>
+              <select id="modelSel"></select>
+            </div>
+            <button class="btn block" id="connectBtn">Connect</button>
+            <div id="apiStatus" style="margin-top:10px"></div>
+            <p style="font-size:11.5px;color:var(--sub);margin:10px 0 0;line-height:1.5">Your key is stored only on this device and is never sent anywhere except the provider you chose. No key? Saathy's offline brain still teaches — honestly, with no fake answers.</p>
+          </div>
+
+          <div class="sec-t">Student preferences</div>
+          <div class="field">
+            <label>Class</label>
+            <select id="clsSel"><option value="9">Class 9</option><option value="10">Class 10</option></select>
+          </div>
+          <div class="field">
+            <label>How should I talk?</label>
+            <select id="langSel">
+              <option value="hinglish">Hinglish (default vibe)</option>
+              <option value="english">English</option>
+              <option value="hindi">Hindi</option>
+            </select>
+          </div>
+
+          <div class="sec-t" id="founderHead" style="display:none">Founder data &amp; tools</div>
+          <div id="founderTools" style="display:none">
+            <div class="card" style="padding:13px;margin-bottom:10px">
+              <p style="font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--sub);margin:0 0 4px">Training library — what Saathy learns from</p>
+              <p style="font-size:11.5px;color:var(--sub);margin:0 0 9px;line-height:1.5">PDF / DOCX / MD / TXT (300MB tak). Har trained file yahin se wapas download bhi ho sakti hai. YouTube links bhi knowledge ban jaate hain.</p>
+              <input type="file" id="libFile" multiple accept=".pdf,.docx,.md,.markdown,.txt" style="display:none">
+              <button class="btn block" id="libAddBtn" style="margin:0 0 8px">+ Add documents to my brain</button>
+              <div style="display:flex;gap:6px">
+                <input id="libYtUrl" placeholder="Paste a YouTube link to teach from…" inputmode="url" autocomplete="off" style="flex:1;font-size:13px">
+                <button class="btn sm" id="libYtBtn">Teach</button>
+              </div>
+              <div id="libList" style="margin-top:10px"></div>
+            </div>
+            <button class="setrow" id="backupBtn">
+              <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></span>
+              <div><b>Export learning data</b><small>Download mastery, bands and streaks as JSON</small></div>
+            </button>
+            <button class="setrow" id="resetBtn">
+              <span class="ic" style="background:#FBE4E0;color:var(--bad)"><svg viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6.5 7l1 13h9l1-13"/></svg></span>
+              <div><b>Reset everything</b><small>Wipe chats, mastery and API key from this device</small></div>
+            </button>
+          </div>
+          <p style="text-align:center;margin:16px 0 4px"><button class="btn ghost sm" id="closeSet">Close</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrim" id="scrim"></div>
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <!-- ================= TABS ================= -->
+  <nav class="tabbar">
+    <button class="tab on" data-tab="home"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h5v-6h4v6h5V9.5"/></svg>Home</button>
+    <button class="tab" data-tab="chat"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-8 8H4l2.3-2.9A8 8 0 1 1 21 12z"/><path d="M9 11h6M9 14.5h3.5"/></svg>Chat</button>
+    <button class="tab" data-tab="learn"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5V5.5"/><path d="M20 18v3H6.5"/></svg>Learn</button>
+    <button class="tab" data-tab="practice"><svg viewBox="0 0 24 24"><path d="M13 2 4.5 13.5H11L9.5 22 19 9.5h-6.5z"/></svg>Practice</button>
+    <button class="tab" data-tab="more"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>More</button>
+  </nav>
+</div>
+</body>

@@ -10,9 +10,10 @@
 //            to 10 docs — PDF/DOCX/MD/TXT, ~300MB — Saathy OCRs + learns them),
 //            knowledge-source status (honest) and history controls.
 import { useEffect, useRef, useState } from 'react';
+import { ExternalLink as ExternalLinkIcon } from 'lucide-react';
 import {
-  AlertCircle, BookOpen, CheckCircle2, Cloud, Database, FileText, FileType2, KeyRound,
-  Loader2, Lock, PlugZap, RefreshCcw, ShieldCheck, Sparkles, Trash2, Upload,
+  AlertCircle, BookOpen, CheckCircle2, Cloud, Database, Download, FileText, FileType2, KeyRound,
+  Loader2, Lock, PlugZap, RefreshCcw, ShieldCheck, Sparkles, Trash2, Upload, Youtube,
 } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -99,17 +100,21 @@ interface DocRow {
   status: string;
   statusMsg: string;
   chunks: number;
+  url?: string | null;
+  downloadable?: boolean;
 }
 
 const fmtBytes = (n: number): string => (n >= 1024 * 1024 ? `${(n / (1024 * 1024)).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
 
-const KIND_ICON: Record<string, typeof FileText> = { pdf: FileType2, docx: FileText, md: FileText, txt: FileText };
+const KIND_ICON: Record<string, typeof FileText> = { pdf: FileType2, docx: FileText, md: FileText, txt: FileText, youtube: Youtube };
 
 function DataSection({ pin }: { pin: string }) {
   const [docs, setDocs] = useState<DocRow[] | null>(null);
   const [limits, setLimits] = useState<{ maxDocs: number; maxTotalBytes: number; usedBytes: number } | null>(null);
   const [uploading, setUploading] = useState(false);
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
+  const [ytUrl, setYtUrl] = useState('');
+  const [ytBusy, setYtBusy] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const loadDocs = async () => {
@@ -143,18 +148,34 @@ function DataSection({ pin }: { pin: string }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pin]);
 
+  // Streaming upload for BIG files (≥8MB goes raw-body so 300MB never sits in RAM);
+  // normal multipart for the rest.
   const upload = async (files: FileList | null) => {
     if (!files || files.length === 0) return;
     setUploading(true);
     setMsg(null);
     let done = 0;
     let lastErr = '';
-    for (const f of Array.from(files).slice(0, 10)) {
-      const fd = new FormData();
-      fd.append('pin', pin);
-      fd.append('file', f);
+    for (const f of Array.from(files).slice(0, 40)) {
       try {
-        const res = await fetch('/api/founder/data', { method: 'POST', body: fd });
+        let res: Response;
+        if (f.size >= 8 * 1024 * 1024) {
+          res = await fetch('/api/founder/data', {
+            method: 'PUT',
+            headers: {
+              'Content-Type': 'application/octet-stream',
+              'x-pin': pin,
+              'x-filename': encodeURIComponent(f.name),
+              'x-size': String(f.size),
+            },
+            body: f,
+          });
+        } else {
+          const fd = new FormData();
+          fd.append('pin', pin);
+          fd.append('file', f);
+          res = await fetch('/api/founder/data', { method: 'POST', body: fd });
+        }
         const j = await res.json();
         if (j.ok) done++;
         else lastErr = j.error ?? 'Upload failed';
@@ -163,10 +184,36 @@ function DataSection({ pin }: { pin: string }) {
       }
     }
     setUploading(false);
-    if (done > 0) setMsg({ ok: true, text: `${done} document${done > 1 ? 's' : ''} added — Saathy is reading ${done > 1 ? 'them' : 'it'} now.` });
+    if (done > 0) setMsg({ ok: true, text: `${done} document${done > 1 ? 's' : ''} added — Saathy is reading ${done > 1 ? 'them' : 'it'} now. Scanned PDFs take a few minutes (OCR).` });
     else setMsg({ ok: false, text: lastErr || 'Upload failed' });
     if (fileRef.current) fileRef.current.value = '';
     loadDocs();
+  };
+
+  const addYoutube = async () => {
+    const url = ytUrl.trim();
+    if (!url) return;
+    setYtBusy(true);
+    setMsg(null);
+    try {
+      const res = await fetch('/api/founder/data', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'youtube', pin, url }),
+      });
+      const j = await res.json();
+      if (j.ok) {
+        setMsg({ ok: true, text: `Video link saved${j.title && j.title !== 'YouTube video' ? ` — “${j.title}”` : ''}. Saathy references it now.` });
+        setYtUrl('');
+      } else {
+        setMsg({ ok: false, text: j.error ?? 'Could not save the link' });
+      }
+    } catch {
+      setMsg({ ok: false, text: 'Network error — try again' });
+    } finally {
+      setYtBusy(false);
+      loadDocs();
+    }
   };
 
   const remove = async (id: string) => {
@@ -182,10 +229,10 @@ function DataSection({ pin }: { pin: string }) {
   return (
     <div className="rounded-xl border border-[#ece7e0] bg-white p-3.5">
       <p className="mb-1 flex items-center gap-1.5 text-[12px] font-extrabold uppercase tracking-wider text-[#8a94a8]">
-        <Database className="h-3.5 w-3.5" /> Data — what Saathy is trained on
+        <Database className="h-3.5 w-3.5" /> Training library — what Saathy learns from
       </p>
       <p className="mb-2.5 text-[11px] font-semibold leading-relaxed text-[#8a94a8]">
-        Drop any PDF / DOCX / MD / TXT here (max {limits?.maxDocs ?? 10} docs, 300 MB). Scanned PDFs are auto-OCR’d. Everything Saathy learns from these is cited in answers.
+        Drop any PDF / DOCX / MD / TXT (up to 300 MB per file). Scanned PDFs are auto-OCR’d. Every trained file stays downloadable here — and YouTube links can be saved as knowledge too.
       </p>
 
       <input ref={fileRef} type="file" accept=".pdf,.docx,.md,.markdown,.txt" multiple hidden onChange={(e) => upload(e.target.files)} />
@@ -198,6 +245,29 @@ function DataSection({ pin }: { pin: string }) {
         {uploading ? <Loader2 className="h-4.5 w-4.5 animate-spin" /> : <Upload className="h-4.5 w-4.5" />}
         {uploading ? 'Uploading…' : 'Add documents to Saathy’s brain'}
       </button>
+
+      {/* YouTube link — saved as knowledge with a real title */}
+      <div className="mt-2 flex gap-2">
+        <div className="relative flex-1">
+          <Youtube className="pointer-events-none absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#c0392b]" />
+          <input
+            value={ytUrl}
+            onChange={(e) => setYtUrl(e.target.value)}
+            onKeyDown={(e) => e.key === 'Enter' && addYoutube()}
+            placeholder="Paste a YouTube link to teach from…"
+            inputMode="url"
+            className="h-10 w-full rounded-lg border border-[#ece7e0] bg-white pl-8 pr-2 text-[12.5px] font-semibold text-[#16305b] outline-none placeholder:text-[#b3bdcf] focus:border-[#7fb3ff]"
+          />
+        </div>
+        <button
+          type="button"
+          onClick={addYoutube}
+          disabled={ytBusy || !ytUrl.trim()}
+          className="h-10 shrink-0 rounded-lg bg-[#1e3a8a] px-3.5 text-[12px] font-extrabold text-white transition hover:bg-[#16305b] disabled:opacity-50"
+        >
+          {ytBusy ? '…' : 'Teach'}
+        </button>
+      </div>
 
       {msg ? (
         <p className={`msg-in mt-2 rounded-lg px-3 py-2 text-[12px] font-bold ${msg.ok ? 'bg-[#edf7ee] text-[#227031]' : 'bg-[#fdf0f0] text-[#9c2c30]'}`}>
@@ -212,17 +282,39 @@ function DataSection({ pin }: { pin: string }) {
             const Icon = KIND_ICON[d.kind] ?? FileText;
             return (
               <div key={d.id} className="flex items-center gap-2.5 rounded-lg bg-[#f8fafd] px-2.5 py-2">
-                <Icon className="h-4 w-4 shrink-0 text-[#4a6a94]" />
+                {d.kind === 'youtube' ? <Icon className="h-4 w-4 shrink-0 text-[#c0392b]" /> : <Icon className="h-4 w-4 shrink-0 text-[#4a6a94]" />}
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-[12.5px] font-extrabold text-[#1e3a8a]">{d.title}</p>
                   <p className="truncate text-[10.5px] font-semibold text-[#8a94a8]">
-                    {fmtBytes(d.sizeBytes)}
+                    {d.kind === 'youtube' ? 'YouTube video' : fmtBytes(d.sizeBytes)}
                     {d.status === 'ready' ? ` · ${d.chunks} sections learned` : ` · ${d.statusMsg || d.status}`}
                   </p>
                 </div>
                 {d.status === 'parsing' ? <Loader2 className="h-4 w-4 shrink-0 animate-spin text-[#a05c2e]" /> : null}
                 {d.status === 'ready' ? <CheckCircle2 className="h-4 w-4 shrink-0 text-[#227031]" /> : null}
                 {d.status === 'failed' ? <AlertCircle className="h-4 w-4 shrink-0 text-[#9c2c30]" /> : null}
+                {d.downloadable ? (
+                  <a
+                    href={`/api/founder/data?pin=${encodeURIComponent(pin)}&id=${encodeURIComponent(d.id)}&download=1`}
+                    download={d.fileName}
+                    className="shrink-0 rounded-md p-1.5 text-[#4a6a94] transition hover:bg-[#eef4fd] hover:text-[#2a5298]"
+                    aria-label={`Download ${d.title}`}
+                    title="Download this trained file"
+                  >
+                    <Download className="h-3.5 w-3.5" />
+                  </a>
+                ) : d.url ? (
+                  <a
+                    href={d.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 rounded-md p-1.5 text-[#4a6a94] transition hover:bg-[#fdf0f0] hover:text-[#c0392b]"
+                    aria-label={`Open ${d.title} on YouTube`}
+                    title="Open on YouTube"
+                  >
+                    <ExternalLinkIcon />
+                  </a>
+                ) : null}
                 <button
                   type="button"
                   onClick={() => remove(d.id)}
@@ -756,7 +848,33 @@ export function SettingsSheet({
   const subject = subjects.find((s) => s.id === subjectId);
   const chapter = subject?.chapters.find((c) => c.id === chapterId);
 
-  if (!profile) return null;
+  // The sheet must ALWAYS open — even while context is loading or after a
+  // hiccup. Show a skeleton instead of returning null (which made the settings
+  // button feel dead).
+  if (!profile) {
+    return (
+      <Sheet open={open} onOpenChange={onOpenChange}>
+        <SheetContent side="right" className="w-full overflow-y-auto border-[#ece7e0] bg-[#fdf9f4] p-0 sm:max-w-md">
+          <SheetHeader className="border-b border-[#ece7e0] px-5 pb-3 pt-5">
+            <SheetTitle className="flex items-center gap-2 text-[16px] font-extrabold text-[#16305b]">
+              <Mascot pose="wink" size={30} /> Settings
+            </SheetTitle>
+            <SheetDescription className="text-[12px] font-semibold text-[#8a94a8]">
+              Getting your settings ready…
+            </SheetDescription>
+          </SheetHeader>
+          <div className="space-y-2.5 px-5 py-4">
+            {[0, 1, 2, 3, 4, 5].map((i) => (
+              <div key={i} className="h-14 animate-pulse rounded-xl border border-[#ece7e0] bg-white/80" style={{ animationDelay: `${i * 120}ms` }} />
+            ))}
+            <p className="pt-2 text-center text-[11.5px] font-semibold text-[#8a94a8]">
+              Still loading? The connection to the class server may be slow — close and reopen in a moment.
+            </p>
+          </div>
+        </SheetContent>
+      </Sheet>
+    );
+  }
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>

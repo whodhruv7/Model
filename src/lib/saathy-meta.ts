@@ -1,6 +1,6 @@
 // Shared (client + server) parser for Saathy's trailing ```saathy {...}``` meta
 // block, plus a live-streaming stripper so the raw JSON never flashes on screen.
-import type { Artifact, ChatMeta, LevelCheckPlan, QuickCheck } from '@/lib/saathy-types';
+import type { Artifact, ChatMeta, LevelCheckPlan, QuickCheck, YoutubePlan } from '@/lib/saathy-types';
 
 function sanitizeQuickCheck(q: unknown): QuickCheck | null {
   if (!q || typeof q !== 'object') return null;
@@ -142,6 +142,40 @@ function sanitizeArtifact(a: unknown): Artifact | null {
   return null;
 }
 
+function sanitizeYoutube(y: unknown): YoutubePlan | null {
+  if (!y || typeof y !== 'object') return null;
+  const obj = y as Record<string, unknown>;
+  const searches = Array.isArray(obj.searches)
+    ? (obj.searches as unknown[])
+        .map((s) => {
+          if (!s || typeof s !== 'object') return null;
+          const so = s as Record<string, unknown>;
+          const label = typeof so.label === 'string' ? so.label.slice(0, 60) : '';
+          const url = typeof so.url === 'string' && /^https:\/\//.test(so.url) ? so.url.slice(0, 300) : '';
+          return label && url ? { label, url } : null;
+        })
+        .filter((x): x is { label: string; url: string } => x !== null)
+        .slice(0, 5)
+    : [];
+  const timeline = Array.isArray(obj.timeline)
+    ? (obj.timeline as unknown[])
+        .map((t) => {
+          if (!t || typeof t !== 'object') return null;
+          const to = t as Record<string, unknown>;
+          const tt = typeof to.t === 'string' ? to.t.slice(0, 40) : '';
+          const d = typeof to.do === 'string' ? to.do.slice(0, 160) : '';
+          return tt && d ? { t: tt, do: d } : null;
+        })
+        .filter((x): x is { t: string; do: string } => x !== null)
+        .slice(0, 8)
+    : [];
+  const videoId = typeof obj.videoId === 'string' && /^[-_\w]{6,20}$/.test(obj.videoId) ? obj.videoId : null;
+  const title = typeof obj.title === 'string' ? obj.title.slice(0, 140) : undefined;
+  const topic = typeof obj.topic === 'string' ? obj.topic.slice(0, 120) : undefined;
+  if (!videoId && searches.length === 0 && timeline.length === 0) return null;
+  return { videoId, title, topic, searches, timeline };
+}
+
 // ---------- structural rescue: parse each known key independently ----------
 // Models sometimes misnest or truncate the meta JSON (e.g. quickcheck inside
 // artifact, missing closing braces). A root-level JSON.parse then throws and
@@ -183,12 +217,13 @@ function rescueMeta(raw: string): ChatMeta | null {
       else if (key === 'quickcheck') out.quickcheck = sanitizeQuickCheck(v);
       else if (key === 'levelcheck') out.levelcheck = sanitizeLevelCheck(v);
       else if (key === 'artifact') out.artifact = sanitizeArtifact(v);
+      else if (key === 'youtube') out.youtube = sanitizeYoutube(v);
     } catch {
       /* skip bad key */
     }
   };
 
-  for (const key of ['followups', 'sources', 'artifact', 'quickcheck', 'levelcheck'] as const) {
+  for (const key of ['followups', 'sources', 'artifact', 'quickcheck', 'levelcheck', 'youtube'] as const) {
     const m = new RegExp(`"${key}"\\s*:\\s*`).exec(raw);
     if (!m) continue;
     const start = m.index + m[0].length;
@@ -228,6 +263,7 @@ export function parseSaathyMeta(text: string): { clean: string; meta: ChatMeta }
       quickcheck: sanitizeQuickCheck(j.quickcheck),
       levelcheck: sanitizeLevelCheck(j.levelcheck),
       artifact: sanitizeArtifact(j.artifact),
+      youtube: sanitizeYoutube(j.youtube),
     };
     return { clean, meta };
   } catch {

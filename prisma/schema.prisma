@@ -129,3 +129,30 @@ model AppSettings {
   verifiedAt     DateTime?
   updatedAt      DateTime  @updatedAt
 }
+
+// Founder Data section — documents Saathy is trained on (max 10, ~300MB total).
+// Binary files are never stored; only extracted, cleaned text chunks.
+model DataDoc {
+  id        String      @id @default(cuid())
+  title     String
+  fileName  String
+  kind      String      @default("txt") // pdf | md | txt | docx | youtube
+  sizeBytes Int         @default(0)
+  status    String      @default("parsing") // parsing | ready | failed
+  statusMsg String      @default("")
+  url       String?     // source link (YouTube videos added as knowledge)
+  storedName String?    // original file kept in db/library/ so the founder can re-download it
+  chunks    DataChunk[]
+  createdAt DateTime    @default(now())
+}
+
+// Searchable chunk of a DataDoc (keyword-scored retrieval, AI-02 seam).
+model DataChunk {
+  id      String  @id @default(cuid())
+  docId   String
+  doc     DataDoc @relation(fields: [docId], references: [id], onDelete: Cascade)
+  idx     Int
+  heading String  @default("")
+  content String
+  @@index([docId])
+}

@@ -508,7 +508,7 @@ export function ChatApp() {
           <button
             type="button"
             onClick={() => setMobileSidebar(true)}
-            className="rounded-xl p-2 text-[#5c6f8a] hover:bg-[#e6f0ff] md:hidden"
+            className="tap-target rounded-xl p-2.5 text-[#5c6f8a] hover:bg-[#e6f0ff] active:bg-[#dcebff] md:hidden"
             aria-label="Open sidebar"
           >
             <Menu className="h-5 w-5" />
@@ -550,7 +550,7 @@ export function ChatApp() {
           <a
               href="/api/download/app"
               download="Saathy.html"
-              className="hidden rounded-xl p-2 text-[#5c6f8a] transition hover:bg-[#ffe6d7] hover:text-[#a05c2e] sm:block"
+              className="tap-target rounded-xl p-2.5 text-[#5c6f8a] transition hover:bg-[#ffe6d7] hover:text-[#a05c2e]"
               aria-label="Download the standalone Saathy app as an HTML file"
               title="Download app as HTML (works offline)"
             >
@@ -575,7 +575,7 @@ export function ChatApp() {
               setSettingsTab('chat');
               setSettingsOpen(true);
             }}
-            className="rounded-xl p-2 text-[#5c6f8a] hover:bg-[#e6f0ff]"
+            className="tap-target rounded-xl p-2.5 text-[#5c6f8a] hover:bg-[#e6f0ff] active:bg-[#dcebff]"
             aria-label="Settings"
           >
             <SettingsIcon className="h-5 w-5" />
@@ -614,7 +614,9 @@ export function ChatApp() {
                     { label: 'Samjha do', desc: 'step by step, your book, your pace', act: () => chipPrefill(`Explain ${focusConcept?.name ?? currentChapterInfo?.chapter.name ?? 'a concept'} `) },
                     { label: 'Yeh solve karo', desc: 'guided — no copy-paste answers', act: () => chipPrefill('Solve this: ') },
                     { label: 'Test me', desc: 'quick questions at my level', act: () => chipSend(`Start a practice round on ${currentChapterInfo?.chapter.name ?? 'my current chapter'}`, 'practise') },
+                    { label: 'Video se dekho', desc: 'YouTube plan + watch timeline', act: () => chipSend(`Give me a YouTube video plan for ${currentChapterInfo?.chapter.name ?? focusConcept?.name ?? 'my current topic'} with a watch timeline`, 'explain') },
                     { label: 'Notes bhar do', desc: 'teacher material, compressed', act: () => chipSend(`Summarise my teacher's notes for ${currentChapterInfo?.chapter.name ?? 'the current chapter'}`, 'summarise') },
+                    { label: 'Meri position', desc: 'what to revise, what is strong', act: () => chipSend('Give me my honest position across my chapters — what to revise first', 'chat') },
                   ].map((chip, i) => (
                     <button
                       key={chip.label}

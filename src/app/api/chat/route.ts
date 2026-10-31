@@ -60,6 +60,33 @@ function sse(controller: ReadableStreamDefaultController, enc: TextEncoder, obj:
   controller.enqueue(enc.encode(`data: ${JSON.stringify(obj)}\n\n`));
 }
 
+// ---------- YouTube link detection ----------
+
+const YT_RE = /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/|live\/)|youtu\.be\/)([\w-]{6,20})/;
+
+function ytIdFrom(text: string): string | null {
+  const m = YT_RE.exec(text);
+  return m ? m[1] : null;
+}
+
+// Best-effort title fetch via a public oEmbed endpoint — never blocks the reply
+// longer than 4s, never fails the request (offline-safe).
+async function fetchYoutubeTitle(videoId: string): Promise<string> {
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 4000);
+    const res = await fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`, {
+      signal: ctrl.signal,
+    });
+    clearTimeout(timer);
+    if (!res.ok) return '';
+    const j = (await res.json()) as { title?: string };
+    return typeof j.title === 'string' ? j.title.slice(0, 140) : '';
+  } catch {
+    return '';
+  }
+}
+
 export async function POST(req: NextRequest) {
   let body: {
     conversationId?: string;
@@ -141,6 +168,16 @@ export async function POST(req: NextRequest) {
     const libChunks = await searchFounderDocs(content, 3);
     const library = docsGroundingBlock(libChunks);
 
+    // YouTube: if the student pasted a link, resolve the id + title so Saathy can
+    // talk about the actual video (honest: guide HOW to watch, never claim to have watched).
+    const pastedVideoId = ytIdFrom(content);
+    let youtubeContext: string | null = null;
+    let pastedVideoTitle = '';
+    if (pastedVideoId) {
+      pastedVideoTitle = await fetchYoutubeTitle(pastedVideoId);
+      youtubeContext = `YOUTUBE LINK SHARED: the student just pasted https://www.youtube.com/watch?v=${pastedVideoId}${pastedVideoTitle ? ` (title: "${pastedVideoTitle}")` : ' (title could not be fetched — do not invent one)'}. Follow rule A of YOUTUBE STUDY PLANS: greet the pick, set meta "youtube" with videoId "${pastedVideoId}"${pastedVideoTitle ? ` and title "${pastedVideoTitle}"` : ''}, build the relative watch-plan around what the title suggests${pastedVideoTitle ? '' : ' or ask which concept this video covers'}, and teach the matched concept at their level.`;
+    }
+
     // System prompt
     let system: string;
     if (body.hintLevel) {
@@ -157,6 +194,7 @@ export async function POST(req: NextRequest) {
         focusConceptName: focusConcept?.name ?? hits[0]?.conceptName ?? null,
         book,
         library,
+        youtubeContext,
       });
     }
 
@@ -198,12 +236,29 @@ export async function POST(req: NextRequest) {
             if (rescued) finalMeta = rescued as typeof finalMeta;
           }
 
+          // If the student pasted a video and the model's youtube plan lacks the
+          // id (or missed the plan entirely), attach it so the inline player renders.
+          if (pastedVideoId) {
+            const y = (finalMeta as { youtube?: { videoId?: string | null } }).youtube;
+            if (!y) {
+              (finalMeta as Record<string, unknown>).youtube = { videoId: pastedVideoId, title: pastedVideoTitle || undefined, topic: focusConcept?.name ?? hits[0]?.conceptName ?? undefined, searches: [], timeline: [] };
+            } else if (!y.videoId) {
+              y.videoId = pastedVideoId;
+              if (pastedVideoTitle && !y.title) y.title = pastedVideoTitle;
+            }
+          }
+
           const saved = await db.message.create({
             data: {
               conversationId: convId,
               role: 'assistant',
               content: clean || full.trim(),
-              meta: JSON.stringify({ mode, ...finalMeta, focusConcept: focusConcept?.name ?? null }),
+              meta: JSON.stringify({
+                mode,
+                ...finalMeta,
+                focusConcept: focusConcept?.name ?? null,
+                ...(pastedVideoId && !finalMeta.youtube ? { youtube: { videoId: pastedVideoId, title: pastedVideoTitle || undefined, searches: [], timeline: [] } } : {}),
+              }),
             },
           });
           await db.conversation.update({ where: { id: convId }, data: { updatedAt: new Date() } });

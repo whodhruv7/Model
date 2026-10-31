@@ -361,3 +361,22 @@
 .composer-safe {
   padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
 }
+
+/* ===== mobile-first hardening (phone layout first, per founder directive) ===== */
+/* iOS zooms into any input below 16px — kill that behaviour on phones. */
+@media (max-width: 640px) {
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+  /* denser message gutters so more content fits on small screens */
+  .chat-scroll {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+}
+/* give every icon button a comfortable thumb target on touch devices */
+@media (pointer: coarse) {
+  button, a[role="button"], .tap-target {
+    touch-action: manipulation;
+  }
+}
