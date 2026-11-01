@@ -1,0 +1,116 @@
+{
+  "book": "gm",
+  "chapter": 10,
+  "title": "How Quantities Combine: Understanding Data",
+  "grade": 9,
+  "sections": [
+    { "id": "10.1", "title": "Combining Things" },
+    { "id": "10.2", "title": "Visualising and Interpreting Data" }
+  ],
+  "slides": [
+    { "id": "gm-ch10-s1", "sec": "10.1", "title": "From average to weighted", "kicker": "The average gets a powerful upgrade this chapter", "bullets": ["In earlier grades, the average told you the centre of a set of data — one number summarising the middle.", "This chapter extends the average to a more general setting called the weighted average.", "When data comes in groups of different sizes, a plain average of the group averages can mislead — weights fix that."], "visual": { "kind": "flow", "items": ["One group, one average", "Two groups, two averages", "Groups differ in size", "Weighted average wins"] }, "note": "Same average, naya twist!" },
+    { "id": "gm-ch10-s2", "sec": "10.1", "title": "The badminton academy puzzle", "kicker": "Eleven trainees, two groups, one honest average", "bullets": ["A badminton academy has 11 trainees: 8 seniors with average height 165.5 cm and 3 juniors with average height 149.33 cm.", "Seniors' heights: 165, 169, 164, 167, 170, 159, 164, 166. Juniors' heights: 146, 149, 153.", "Goal: find the average height of the whole group of 11 trainees."], "visual": { "kind": "compare", "left": { "title": "Seniors: 8 trainees", "items": ["average 165.5 cm", "heights 165 to 170", "sum 1324"] }, "right": { "title": "Juniors: 3 trainees", "items": ["average 149.33 cm", "heights 146 to 153", "sum 448"] } }, "note": "Do groups, ek sawaal." },
+    { "id": "gm-ch10-s3", "sec": "10.1", "title": "Method 1: the trap", "kicker": "Adding two averages and halving — sounds fair, fails", "bullets": ["Method 1 computes (165.5 + 149.33) / 2 = 314.83 / 2 = 157.415 cm.", "It treats the seniors' average and the juniors' average as equally important.", "But there are 8 seniors and only 3 juniors — Method 1 forgets the sizes, so 157.415 is wrong.", "The correct average is the sum of all eleven heights divided by 11, which is 161.09 cm (Method 2)."], "visual": { "kind": "compare", "left": { "title": "Method 1: wrong", "items": ["(165.5 + 149.33) / 2", "gives 157.415", "ignores group sizes"] }, "right": { "title": "Method 2: right", "items": ["all 11 heights added", "1772 / 11", "gives 161.09"] } }, "note": "Equal weights, unequal groups — trap!" },
+    { "id": "gm-ch10-s4", "sec": "10.1", "title": "Shreyas weights the averages", "kicker": "Multiply each average by its group size", "bullets": ["Shreyas calculated ((165.5 × 8) + (149.33 × 3)) / (8 + 3) and got the correct answer.", "165.5 × 8 = 1324 gives the sum of all senior heights; 149.33 × 3 = 448 gives the sum of all junior heights.", "So (1324 + 448) / 11 = 1772 / 11 = 161.09 cm — exactly Method 2's answer."], "visual": { "kind": "steps", "items": ["Multiply each average by its count", "165.5 × 8 = 1324 and 149.33 × 3 = 448", "Add the sums: 1772", "Divide by 11: 161.09 cm"] }, "note": "Average × count = total. Magic key!" },
+    { "id": "gm-ch10-s5", "sec": "10.1", "title": "The general rule", "kicker": "Two collections combine into one formula", "bullets": ["Collection 1 has n values with average a; its sum is a × n. Collection 2 has m values with average b; its sum is b × m.", "Combined average = (sum of both collections) / (total number of values) = (a n + b m) / (n + m).", "The group sizes n and m act as weights — that is why this is called a weighted average."], "visual": { "kind": "flow", "items": ["Collection 1: n values, average a", "Collection 2: m values, average b", "Sums: a n and b m", "Combined: (a n + b m) / (n + m)"] }, "note": "n + m niche, hamesha." },
+    { "id": "gm-ch10-s6", "sec": "10.1", "title": "Bigger group pulls harder", "kicker": "Watch the combined average lean to the seniors", "bullets": ["The combined average 161.09 sits closer to the seniors' 165.5 than to the juniors' 149.33.", "Reason: 8 of the 11 trainees are seniors, so their average carries the bigger weight.", "If the groups were equal in size, plain averaging would work — weights matter only when sizes differ."], "visual": { "kind": "plot", "type": "bar", "xlabel": "Juniors avg, Wrong Method 1, True combined, Seniors avg", "ylabel": "height in cm", "points": [[1, 149.33], [2, 157.415], [3, 161.09], [4, 165.5]] }, "note": "Bhaari group ki suno!" },
+    { "id": "gm-ch10-s7", "sec": "10.2", "title": "Three families, six categories", "kicker": "Table 10.2: weekly spending in rupees", "bullets": ["Table 10.2 shows the average weekly expenditure, in rupees, of Families A, B and C.", "Six categories: housing, food, education, transportation, healthcare and recreation.", "Family B spends 0 on recreation while Family A spends 1940 on housing — the table is full of such stories."], "visual": { "kind": "labels", "items": ["housing", "food", "education", "transportation", "healthcare", "recreation"] }, "note": "Ek table, poori kahani." },
+    { "id": "gm-ch10-s8", "sec": "10.2", "title": "Two ways to cluster", "kicker": "Same data, two cluster-column charts", "bullets": ["A cluster-column chart stands columns side by side; the clusters can be chosen as categories or as families.", "Choice 1 clusters by category: for each category, the three families' columns stand together.", "Choice 2 clusters by family: for each family, its six category columns stand together."], "visual": { "kind": "compare", "left": { "title": "Choice 1: by category", "items": ["families compared per category", "good for cross-family questions", "categories on the axis"] }, "right": { "title": "Choice 2: by family", "items": ["categories compared per family", "good for within-family questions", "families on the axis"] } }, "note": "Data same, sawaal alag." },
+    { "id": "gm-ch10-s9", "sec": "10.2", "title": "Choice 1: compare families", "kicker": "Least housing? Most healthcare? Easy now", "bullets": ["With categories clustered, comparing families inside one category takes a single glance.", "Least spent on housing: Family C, only 950 rupees against A's 1940 and B's 1750.", "Most spent on healthcare: Family A, 1770 rupees, ahead of C's 1300 and B's 1210."], "visual": { "kind": "plot", "type": "bar", "xlabel": "Family A, Family B, Family C", "ylabel": "housing in rupees", "points": [[1, 1940], [2, 1750], [3, 950]] }, "note": "Ek category, teen columns." },
+    { "id": "gm-ch10-s10", "sec": "10.2", "title": "Choice 2: compare categories", "kicker": "Inside one family, who leads the budget?", "bullets": ["With families clustered, you can read one family's spending pattern across all six categories.", "Family B's biggest expense is housing at 1750 rupees, then food at 1546 and education at 1500.", "For Family A, healthcare at 1770 edges out food at 1700 — a question Choice 2 answers fastest."], "visual": { "kind": "plot", "type": "bar", "xlabel": "Housing, Food, Education, Transport, Healthcare, Recreation", "ylabel": "Family B in rupees", "points": [[1, 1750], [2, 1546], [3, 1500], [4, 1280], [5, 1210], [6, 0]] }, "note": "Family B, category-wise clear." },
+    { "id": "gm-ch10-s11", "sec": "10.2", "title": "Totals hide in clusters", "kicker": "Overall questions need adding up", "bullets": ["Questions like which family spent least overall are not direct in a cluster-column chart — you must add.", "Totals: Family A = 8425 rupees, Family B = 7286 rupees, Family C = 7040 rupees.", "So Family C spent least overall, even though Family B shows a zero in recreation — a close call!", "Family C spent about 13.5 percent on housing: 950 of its 7040 total."], "visual": { "kind": "plot", "type": "bar", "xlabel": "Family A, Family B, Family C", "ylabel": "weekly total in rupees", "points": [[1, 8425], [2, 7286], [3, 7040]] }, "note": "Addition se sach saamne aaya." },
+    { "id": "gm-ch10-s12", "sec": "10.2", "title": "Stacking columns solves it", "kicker": "One column per family, total on top", "bullets": ["A stacked column places one family's category segments on top of one another in a single column.", "The full height of the stack shows the family's total weekly expenditure at a glance.", "Each segment's size shows that category's share, making totals and percentage questions simple."], "visual": { "kind": "steps", "items": ["Pick one family", "Stack its six category segments", "Full height = total spending", "Compare stacks and segment shares"] }, "note": "Ek column mein poora kharcha!" }
+  ],
+  "flashcards": [
+    { "id": "gm-ch10-f1", "sec": "10.1", "front": "What is a weighted average?", "back": "An average where each group's average is multiplied by its size, so larger groups count more: (a n + b m) / (n + m).", "tag": "definition" },
+    { "id": "gm-ch10-f2", "sec": "10.1", "front": "Why does averaging two group averages usually fail?", "back": "It treats both averages as equally important even when group sizes differ, giving the smaller group too much say.", "tag": "concept" },
+    { "id": "gm-ch10-f3", "sec": "10.1", "front": "In the badminton academy, what are the two group averages?", "back": "8 seniors average 165.5 cm and 3 juniors average 149.33 cm; the true group average is 1772 / 11 = 161.09 cm.", "tag": "example" },
+    { "id": "gm-ch10-f4", "sec": "10.1", "front": "What does multiplying an average by its count give you?", "back": "The sum of all values in that group — for example 165.5 × 8 = 1324 cm, the seniors' total height.", "tag": "formula" },
+    { "id": "gm-ch10-f5", "sec": "10.1", "front": "State the combined average formula for two collections.", "back": "If the group averages are a and b with sizes n and m, the combined average is (a n + b m) / (n + m).", "tag": "formula" },
+    { "id": "gm-ch10-f6", "sec": "10.1", "front": "Which group pulls a combined average towards itself?", "back": "The larger group. The badminton average 161.09 lies closer to the seniors' 165.5 because 8 of the 11 trainees are seniors.", "tag": "concept" },
+    { "id": "gm-ch10-f7", "sec": "10.2", "front": "What does Table 10.2 in this chapter show?", "back": "The average weekly expenditure in rupees of Families A, B and C across six categories like housing, food and healthcare.", "tag": "example" },
+    { "id": "gm-ch10-f8", "sec": "10.2", "front": "What is a cluster-column chart?", "back": "A column chart where columns are grouped into clusters, by category or by family, for side-by-side comparison.", "tag": "definition" },
+    { "id": "gm-ch10-f9", "sec": "10.2", "front": "Which chart choice suits comparing families within one category?", "back": "Choice 1, clustering by category — like finding which family spent the least on housing.", "tag": "concept" },
+    { "id": "gm-ch10-f10", "sec": "10.2", "front": "Which chart choice suits comparing categories within one family?", "back": "Choice 2, clustering by family — like checking whether Family A spent more on food or on healthcare.", "tag": "concept" },
+    { "id": "gm-ch10-f11", "sec": "10.2", "front": "Which family spent the least overall, and how much?", "back": "Family C, with 7040 rupees weekly, just below Family B's 7286 and Family A's 8425.", "tag": "example" },
+    { "id": "gm-ch10-f12", "sec": "10.2", "front": "What does a stacked column show?", "back": "One family's categories stacked in a single column: the full height is total spending and each segment is that category's share.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "gm-ch10-q1", "sec": "10.1", "q": "In the badminton academy, how are the 11 trainees split?", "options": ["8 seniors and 3 juniors", "3 seniors and 8 juniors", "11 seniors and no juniors", "5 seniors and 6 juniors"], "answer": 0, "why": "Example 1 lists 8 seniors with average 165.5 cm and 3 juniors with average 149.33 cm.", "difficulty": "easy" },
+    { "id": "gm-ch10-q2", "sec": "10.1", "q": "Method 1 computes (165.5 + 149.33) / 2. What value does it give?", "options": ["157.415", "161.09", "314.83", "165.5"], "answer": 0, "why": "314.83 / 2 = 157.415, which is not the group's average because it ignores the group sizes.", "difficulty": "easy" },
+    { "id": "gm-ch10-q3", "sec": "10.1", "q": "Why does Method 1 fail for the badminton group?", "options": ["It forgets the 8 versus 3 sizes and weighs both averages equally", "It adds the heights in the wrong order", "It uses centimetres instead of metres", "It rounds the averages too early"], "answer": 0, "why": "The book says Method 1 treats the two averages equally, but there are many more seniors than juniors.", "difficulty": "medium" },
+    { "id": "gm-ch10-q4", "sec": "10.1", "q": "In Shreyas' calculation, what does 165.5 × 8 = 1324 represent?", "options": ["The sum of all eight seniors' heights", "The tallest senior's height", "The seniors' average in different units", "The sum of all eleven heights"], "answer": 0, "why": "Average × count gives the group total, so 1324 cm is the sum of the seniors' eight heights.", "difficulty": "medium" },
+    { "id": "gm-ch10-q5", "sec": "10.1", "q": "When two groups of different sizes are combined, the combined average lies", "options": ["closer to the larger group's average", "exactly halfway between the two averages", "closer to the smaller group's average", "always equal to the larger group's average"], "answer": 0, "why": "Weights are the group sizes: 8 seniors pull the badminton average 161.09 towards 165.5.", "difficulty": "medium" },
+    { "id": "gm-ch10-q6", "sec": "10.1", "q": "A class has 20 students averaging 60 marks and 5 students averaging 80 marks. Find the combined average.", "options": ["64", "70", "66", "62.5"], "answer": 0, "why": "(60 × 20 + 80 × 5) / 25 = (1200 + 400) / 25 = 64; the sizes 20 and 5 decide the result.", "difficulty": "hard" },
+    { "id": "gm-ch10-q7", "sec": "10.2", "q": "How many spending categories does Table 10.2 track for each family?", "options": ["6", "4", "5", "8"], "answer": 0, "why": "Housing, food, education, transportation, healthcare and recreation — six categories.", "difficulty": "easy" },
+    { "id": "gm-ch10-q8", "sec": "10.2", "q": "Which family spent the least on housing?", "options": ["Family C", "Family A", "Family B", "All spent equally"], "answer": 0, "why": "Family C spent 950 rupees on housing, far below B's 1750 and A's 1940.", "difficulty": "easy" },
+    { "id": "gm-ch10-q9", "sec": "10.2", "q": "Which category did Family B spend the most on?", "options": ["Housing", "Food", "Education", "Healthcare"], "answer": 0, "why": "Family B's housing is 1750, above food 1546 and education 1500 — the tallest of its six columns.", "difficulty": "medium" },
+    { "id": "gm-ch10-q10", "sec": "10.2", "q": "Did Family A spend more on food or on healthcare?", "options": ["Healthcare, 1770 against 1700", "Food, 1700 against 1770", "Both were exactly equal", "Food, by a wide margin"], "answer": 0, "why": "Family A's healthcare is 1770 rupees and food is 1700, so healthcare edges it.", "difficulty": "easy" },
+    { "id": "gm-ch10-q11", "sec": "10.2", "q": "To answer 'which family spent the most on healthcare' fastest, which chart should you pick?", "options": ["Choice 1, clustered by category", "Choice 2, clustered by family", "Either works equally fast", "A stacked column only"], "answer": 0, "why": "The book found Choice 1 best for questions like comparing families within one category.", "difficulty": "medium" },
+    { "id": "gm-ch10-q12", "sec": "10.2", "q": "Which family spent the least amount overall, according to the totals?", "options": ["Family C, with 7040 rupees", "Family B, because recreation is 0", "Family A, with the largest housing bill", "All three spent the same overall"], "answer": 0, "why": "The totals are A 8425, B 7286 and C 7040; B's zero recreation does not make it the lowest.", "difficulty": "medium" },
+    { "id": "gm-ch10-q13", "sec": "10.2", "q": "About what percentage of Family C's weekly expenses went to housing?", "options": ["About 13.5 percent", "About 25 percent", "About 50 percent", "About 5 percent"], "answer": 0, "why": "Housing 950 of Family C's total 7040 gives 950 / 7040, about 13.5 percent.", "difficulty": "hard" }
+  ],
+  "examples": [
+    { "id": "gm-ch10-e1", "title": "Badminton group average done right", "problem": "In a badminton academy, 8 senior trainees have average height 165.5 cm and 3 junior trainees have average height 149.33 cm. Find the average height of the whole group of 11.", "steps": ["Tempting shortcut: (165.5 + 149.33) / 2 = 314.83 / 2 = 157.415 cm. This is wrong — it weights both groups equally although they have 8 and 3 members.", "Convert each average into a sum: average × count. Seniors: 165.5 × 8 = 1324 cm. Juniors: 149.33 × 3 = 448 cm.", "Add the sums: 1324 + 448 = 1772 cm, the total height of all eleven trainees.", "Divide by the total count: 1772 / 11 = 161.09 cm, matching Method 2's sum of all eleven heights divided by 11."], "answer": "The group's average height is 1772 / 11, about 161.09 cm." },
+    { "id": "gm-ch10-e2", "title": "Two collections, one formula", "problem": "Collection 1 has n = 4 values with average a = 10 and Collection 2 has m = 6 values with average b = 20. Use the combined-average formula to find the average of all 10 values.", "steps": ["Sum of Collection 1 = a × n = 10 × 4 = 40.", "Sum of Collection 2 = b × m = 20 × 6 = 120.", "Combined average = (a n + b m) / (n + m) = (40 + 120) / (4 + 6) = 160 / 10.", "Notice the result leans towards 20 because the second collection has more values, 6 against 4."], "answer": "The combined average is 160 / 10 = 16." },
+    { "id": "gm-ch10-e3", "title": "Weekly totals for the three families", "problem": "Using Table 10.2, add up each family's average weekly expenditure across housing, food, education, transportation, healthcare and recreation, and find which family spent the least overall.", "steps": ["Family A: 1940 + 1700 + 1280 + 1200 + 1770 + 535 = 8425 rupees.", "Family B: 1750 + 1546 + 1500 + 1280 + 1210 + 0 = 7286 rupees.", "Family C: 950 + 1700 + 1540 + 1400 + 1300 + 150 = 7040 rupees.", "Compare the totals: 7040 is less than 7286, which is less than 8425, so Family C spent the least even though Family B shows a zero in recreation."], "answer": "Family A spends 8425, Family B 7286 and Family C 7040 rupees weekly; Family C is the lowest-spending family overall." },
+    { "id": "gm-ch10-e4", "title": "Family C's housing share", "problem": "Family C spends 950 rupees on housing out of a weekly total of 7040 rupees. What percentage of its expenditure goes to housing?", "steps": ["Write the share as a fraction: housing / total = 950 / 7040.", "Divide: 950 / 7040 is about 0.135.", "Convert to a percentage: 0.135 × 100 is about 13.5 percent.", "In a stacked column of Family C, housing appears as a thin bottom segment of roughly one-seventh of the height."], "answer": "About 13.5 percent of Family C's weekly expenses go to housing." }
+  ],
+  "conceptMap": {
+    "center": "How Quantities Combine",
+    "groups": [
+      { "id": "g1", "label": "Averages" },
+      { "id": "g2", "label": "Weighting" },
+      { "id": "g3", "label": "Charts" },
+      { "id": "g4", "label": "Stacked view" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Average as centre", "group": "g1" },
+      { "id": "n2", "label": "Average times count", "group": "g1" },
+      { "id": "n3", "label": "Weighted average", "group": "g2" },
+      { "id": "n4", "label": "Sizes as weights", "group": "g2" },
+      { "id": "n5", "label": "Combined average formula", "group": "g2" },
+      { "id": "n6", "label": "Badminton academy", "group": "g2" },
+      { "id": "n7", "label": "Table 10.2", "group": "g3" },
+      { "id": "n8", "label": "Cluster-column chart", "group": "g3" },
+      { "id": "n9", "label": "Choice 1: by category", "group": "g3" },
+      { "id": "n10", "label": "Choice 2: by family", "group": "g3" },
+      { "id": "n11", "label": "Stacked column", "group": "g4" },
+      { "id": "n12", "label": "Height equals total", "group": "g4" },
+      { "id": "n13", "label": "Weekly totals", "group": "g4" },
+      { "id": "n14", "label": "Category share", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "multiply to recover" },
+      { "from": "n2", "to": "n3", "label": "enables" },
+      { "from": "n4", "to": "n3", "label": "supply" },
+      { "from": "n3", "to": "n5", "label": "generalises to" },
+      { "from": "n6", "to": "n5", "label": "gives 1772 / 11" },
+      { "from": "n6", "to": "n3", "label": "motivates" },
+      { "from": "n1", "to": "n8", "label": "data plotted as" },
+      { "from": "n7", "to": "n8", "label": "feeds" },
+      { "from": "n8", "to": "n9", "label": "cluster choice" },
+      { "from": "n8", "to": "n10", "label": "cluster choice" },
+      { "from": "n10", "to": "n11", "label": "extends into" },
+      { "from": "n11", "to": "n12", "label": "full height shows" },
+      { "from": "n11", "to": "n14", "label": "segments show" },
+      { "from": "n12", "to": "n13", "label": "compare easily" },
+      { "from": "n13", "to": "n14", "label": "divide for" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Recall the average", "detail": "The average conveys the centre of given data." },
+      { "id": "s2", "label": "Meet two groups", "detail": "Badminton academy: 8 seniors average 165.5, 3 juniors average 149.33." },
+      { "id": "s3", "label": "Skip the trap", "detail": "Averaging the two averages gives 157.415 — wrong when sizes differ." },
+      { "id": "s4", "label": "Weight each average", "detail": "Multiply each average by its group size to get each sum." },
+      { "id": "s5", "label": "Combine and divide", "detail": "(a n + b m) / (n + m) gives the true combined average 161.09." },
+      { "id": "s6", "label": "Tabulate the data", "detail": "Table 10.2 lists three families' weekly spending in six categories." },
+      { "id": "s7", "label": "Choose the cluster", "detail": "Cluster by category or by family, depending on the question's focus." },
+      { "id": "s8", "label": "Stack the columns", "detail": "Stack each family's segments so the full height shows the total." },
+      { "id": "s9", "label": "Interpret at a glance", "detail": "Compare totals and category shares, like Family C's 13.5 percent housing." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8]]
+  }
+}

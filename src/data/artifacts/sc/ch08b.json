@@ -1,0 +1,377 @@
+{
+  "book": "sc",
+  "chapter": 8,
+  "part": "b",
+  "title": "Journey Inside the Atom",
+  "grade": 9,
+  "sections": [
+    { "id": "8.7", "title": "How Are Electrons Distributed in Different Energy Levels?" },
+    { "id": "8.7.1", "title": "Building up atoms" },
+    { "id": "8.8", "title": "Combining Capacity of an Atom: Valency" },
+    { "id": "8.9.1", "title": "Isotopes" },
+    { "id": "8.9.2", "title": "Isobars" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch08b-s1",
+      "sec": "8.7",
+      "title": "Bohr and Bury Shell Rules",
+      "kicker": "Electrons live in shells, not in chaos",
+      "bullets": [
+        "Bohr and Bury suggested rules for how many electrons each shell of an atom can hold.",
+        "The maximum number of electrons in a shell is given by the formula 2n^2, where n is the shell number.",
+        "Shells are filled stepwise, starting from the one closest to the nucleus and moving outward."
+      ],
+      "visual": { "kind": "tree", "root": "Shell capacity 2n^2", "children": ["K shell holds 2", "L shell holds 8", "M shell holds 18"] },
+      "note": "2n^2 is the seating plan of every shell — yaad rakhna!"
+    },
+    {
+      "id": "sc-ch08b-s2",
+      "sec": "8.7",
+      "title": "The 2n^2 Formula at Work",
+      "kicker": "One formula, every shell's capacity",
+      "bullets": [
+        "K-shell: n = 1, so 2 x 1^2 = 2 electrons.",
+        "L-shell: n = 2, so 2 x 2^2 = 8 electrons.",
+        "M-shell: n = 3, so 2 x 3^2 = 18 electrons."
+      ],
+      "visual": { "kind": "plot", "type": "bar", "xlabel": "Shell number n", "ylabel": "Maximum electrons", "points": [[1, 2], [2, 8], [3, 18]] },
+      "note": "Watch the bars climb: 2, 8, 18."
+    },
+    {
+      "id": "sc-ch08b-s3",
+      "sec": "8.7",
+      "title": "Outermost Shell Cap: Eight",
+      "kicker": "The outside seat limit is eight",
+      "bullets": [
+        "The maximum number of electrons that can be accommodated in the outermost shell is 8.",
+        "The first shell is the exception: it can accommodate a maximum of 2 electrons.",
+        "So the M-shell, though able to hold 18, stops at 8 when it is the outermost shell."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Capacity by 2n^2", "items": ["K shell holds 2", "L shell holds 8", "M shell holds 18"] },
+        "right": { "title": "As outermost shell", "items": ["Capped at 8 electrons", "First shell capped at 2"] }
+      }
+    },
+    {
+      "id": "sc-ch08b-s4",
+      "sec": "8.7",
+      "title": "Filling Order: K to N",
+      "kicker": "Front benches first, then back rows",
+      "bullets": [
+        "Electrons are filled in the shells in a stepwise manner, starting from the one closest to the nucleus.",
+        "The order of filling is K, L, M, N and onward.",
+        "The L-shell is filled only after the K-shell is complete, and so on."
+      ],
+      "visual": { "kind": "flow", "items": ["K shell fills first", "Then L shell", "Then M shell", "Then N shell"] },
+      "note": "No jumping the queue — shells fill in order!"
+    },
+    {
+      "id": "sc-ch08b-s5",
+      "sec": "8.7",
+      "title": "First Atoms: H and He",
+      "kicker": "Hydrogen one seat, helium two seats",
+      "bullets": [
+        "Hydrogen has atomic number 1, so its only electron has to be in the K-shell.",
+        "Helium contains two protons in its nucleus and two electrons.",
+        "Both helium electrons fit into the K-shell, which holds a maximum of 2."
+      ],
+      "visual": { "kind": "steps", "items": ["Hydrogen: atomic number 1", "Its single electron goes into the K-shell", "Helium: two protons and two electrons", "Both electrons sit in the K-shell"] }
+    },
+    {
+      "id": "sc-ch08b-s6",
+      "sec": "8.7.1",
+      "title": "Building Atoms Step by Step",
+      "kicker": "Add one electron, bump the count",
+      "bullets": [
+        "We can create two-dimensional atomic structures for various elements.",
+        "Add one electron to the appropriate energy level each time the atomic number is increased by 1.",
+        "Repeating this builds up the atomic structures of the elements, one electron at a time."
+      ],
+      "visual": { "kind": "steps", "items": ["Start with hydrogen, atomic number 1", "Increase the atomic number by 1", "Add one electron to the right shell", "Repeat and watch the atom grow"] }
+    },
+    {
+      "id": "sc-ch08b-s7",
+      "sec": "8.7.1",
+      "title": "What Is Electronic Configuration?",
+      "kicker": "The shell-wise address of electrons",
+      "bullets": [
+        "The distribution of electrons among various shells is known as the electronic configuration of the atom.",
+        "Table 8.4 lists symbols, atomic numbers, protons, neutrons, electrons and shell-wise electron distribution for the first eighteen elements.",
+        "Fig. 8.11 shows schematic atomic structures of the first eighteen elements with electrons in the K, L and M shells."
+      ],
+      "visual": { "kind": "labels", "items": ["Symbols", "Atomic number", "Protons", "Neutrons", "Electrons", "Shell distribution"] }
+    },
+    {
+      "id": "sc-ch08b-s8",
+      "sec": "8.7.1",
+      "title": "Riddle: The Soft Metal",
+      "kicker": "Mass 23, protons 11 — who am I?",
+      "bullets": [
+        "A riddle from the book: I am an atom with a mass number of 23 and 11 protons.",
+        "I am a soft metal and I react vigorously with water.",
+        "Neutrons = 23 - 11 = 12, so I have 12 neutrons. I am sodium!"
+      ],
+      "visual": { "kind": "steps", "items": ["Protons given: 11, so atomic number is 11", "Atomic number 11 means the element is sodium", "Neutrons = mass number - protons = 23 - 11", "Sodium has 12 neutrons"] },
+      "note": "The book dares you to build your own riddle — try one!"
+    },
+    {
+      "id": "sc-ch08b-s9",
+      "sec": "8.8",
+      "title": "Combining Capacity Basics",
+      "kicker": "Count the hydrogens an atom joins",
+      "bullets": [
+        "Combining capacity is the number of hydrogen or chlorine atoms with which one atom of an element can combine.",
+        "It is expressed using hydrogen and chlorine because both have a combining capacity of one.",
+        "In H2O (water), oxygen combines with two hydrogen atoms, so the combining capacity of oxygen is two."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "NH3 (ammonia)", "items": ["Nitrogen combines with three hydrogens", "Combining capacity of nitrogen is 3"] },
+        "right": { "title": "MgCl2 (magnesium chloride)", "items": ["Magnesium combines with two chlorines", "Combining capacity of magnesium is 2"] }
+      }
+    },
+    {
+      "id": "sc-ch08b-s10",
+      "sec": "8.8",
+      "title": "Valence Shell and Electrons",
+      "kicker": "The outermost ring does the talking",
+      "bullets": [
+        "The outermost shell containing electrons of an atom is known as its valence shell.",
+        "The electrons present in the valence shell are known as valence electrons.",
+        "The combining capacity of an atom is decided by its electronic configuration, so valence electrons matter most."
+      ],
+      "visual": { "kind": "labels", "items": ["Valence shell", "Valence electrons", "Octet", "Stability", "Reactivity"] }
+    },
+    {
+      "id": "sc-ch08b-s11",
+      "sec": "8.8",
+      "title": "Octet: The Stability Rule",
+      "kicker": "Eight outside means calm and stable",
+      "bullets": [
+        "If the outermost shell of an atom has 8 electrons, it is called an octet.",
+        "Elements with a complete octet, or 2 electrons for helium, are largely unreactive and more stable.",
+        "Atoms with incomplete valence shells are usually more reactive; they lose, gain, or share electrons to complete their octet."
+      ],
+      "visual": { "kind": "flow", "items": ["Incomplete valence shell", "Lose, gain or share electrons", "Octet completed", "Stable and largely unreactive"] }
+    },
+    {
+      "id": "sc-ch08b-s12",
+      "sec": "8.8",
+      "title": "Finding Valency: Three Cases",
+      "kicker": "Lose, gain or share to reach eight",
+      "bullets": [
+        "Valency is the number of electrons gained, lost, or shared to complete the octet.",
+        "Fewer than four valence electrons: the element tends to lose them. Sodium, 2, 8, 1, loses one, so its valency is 1.",
+        "More than four: it tends to gain. Oxygen, 2, 6, gains two, so its valency is 2."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Tends to lose", "items": ["Fewer than 4 valence electrons", "Sodium 2, 8, 1 loses 1: valency 1"] },
+        "right": { "title": "Tends to gain", "items": ["More than 4 valence electrons", "Oxygen 2, 6 gains 2: valency 2"] }
+      },
+      "note": "Carbon, 2, 4, can do neither easily, so it shares all four — valency 4!"
+    },
+    {
+      "id": "sc-ch08b-s13",
+      "sec": "8.9.1",
+      "title": "Twin Atoms: Isotopes",
+      "kicker": "Same protons, different neutrons",
+      "bullets": [
+        "Dalton proposed that all atoms of an element are identical and have the same mass.",
+        "Scientists later found atoms of the same element with the same atomic number Z but different numbers of neutrons.",
+        "These 'twin atoms' with the same atomic number but different mass numbers (A = protons + neutrons) are called isotopes."
+      ],
+      "visual": { "kind": "labels", "items": ["Same atomic number", "Different neutrons", "Different mass number", "Twin atoms"] }
+    },
+    {
+      "id": "sc-ch08b-s14",
+      "sec": "8.9.1",
+      "title": "Hydrogen's Three Isotopes",
+      "kicker": "One proton each, zero to two neutrons",
+      "bullets": [
+        "Naturally occurring hydrogen is a mixture of three isotopes: protium, deuterium and tritium.",
+        "Protium is about 99.98 percent, deuterium about 0.015 percent, and tritium occurs only in traces.",
+        "All three contain one proton each, while deuterium has one neutron and tritium has two."
+      ],
+      "visual": { "kind": "tree", "root": "Hydrogen isotopes", "children": ["Protium: no neutron", "Deuterium: one neutron", "Tritium: two neutrons"] }
+    },
+    {
+      "id": "sc-ch08b-s15",
+      "sec": "8.9.1",
+      "title": "Same Chemistry, Different Physics",
+      "kicker": "Electrons decide chemistry, not neutrons",
+      "bullets": [
+        "The chemical properties of isotopes are similar because they have the same number of electrons and the same electronic configuration.",
+        "Chemical properties depend mainly on the number of valence electrons.",
+        "Isotopes differ in their physical properties, for example boiling and melting points."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Stay the same", "items": ["Number of electrons", "Electronic configuration", "Chemical properties"] },
+        "right": { "title": "Can differ", "items": ["Boiling point", "Melting point", "Physical properties"] }
+      }
+    },
+    {
+      "id": "sc-ch08b-s16",
+      "sec": "8.9.1",
+      "title": "Carbon Isotopes, Tiny Units",
+      "kicker": "Weighing atoms needs a microscale",
+      "bullets": [
+        "Carbon has three isotopes, C-12, C-13 and C-14; each has six protons and six electrons.",
+        "They differ only in the number of neutrons, and C-12 is the most abundant isotope in nature.",
+        "Atomic masses are measured in the unified atomic mass unit (u) because a kilogram is too large for atoms; earlier it was called amu."
+      ],
+      "visual": { "kind": "tree", "root": "Carbon isotopes", "children": ["C-12: most abundant", "C-13: one extra neutron", "C-14: two extra neutrons"] },
+      "note": "Like weighing a grain of wheat in milligrams, not kilograms — the book's own comparison!"
+    },
+    {
+      "id": "sc-ch08b-s17",
+      "sec": "8.9.1",
+      "title": "Isotopes at Work in Life",
+      "kicker": "From power plants to ancient fossils",
+      "bullets": [
+        "U-235, an isotope of uranium, is used as a fuel in nuclear reactors to generate electricity in nuclear power plants.",
+        "Co-60, a radioactive isotope of cobalt, is used in radiation treatment for cancer.",
+        "I-131 treats goitre and thyroid cancer, and C-14 helps archaeology and geology date ancient fossils and artefacts."
+      ],
+      "visual": { "kind": "tree", "root": "Isotope uses", "children": ["U-235: nuclear fuel", "Co-60: cancer treatment", "I-131: thyroid care", "C-14: dating fossils"] }
+    },
+    {
+      "id": "sc-ch08b-s18",
+      "sec": "8.9.2",
+      "title": "Isobars: Same Mass Number",
+      "kicker": "Different elements, equal nucleon total",
+      "bullets": [
+        "Calcium (atomic number 20), potassium (atomic number 19) and argon (atomic number 18) each have a mass number of 40.",
+        "They have different numbers of protons, yet the total number of nucleons in their atoms is the same.",
+        "Atoms of different elements with the same mass number but different atomic numbers are called isobars."
+      ],
+      "visual": { "kind": "tree", "root": "Mass number 40", "children": ["Calcium: Z = 20", "Potassium: Z = 19", "Argon: Z = 18"] }
+    },
+    {
+      "id": "sc-ch08b-s19",
+      "sec": "8.9.2",
+      "title": "Beyond Bohr: Electron Clouds",
+      "kicker": "The atom story is still unfolding",
+      "bullets": [
+        "Even Bohr's model was not entirely correct; electrons do not follow well-defined paths like the fixed Bohr orbits.",
+        "Today we understand that electrons exist as 'electron clouds' around the nucleus.",
+        "We can predict regions where electrons are most likely to be, not exactly where they are."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Bohr's picture", "items": ["Fixed orbits", "Well-defined paths"] },
+        "right": { "title": "Modern picture", "items": ["Electron clouds", "Only likely regions predictable"] }
+      },
+      "note": "You will learn these details in higher grades!"
+    },
+    {
+      "id": "sc-ch08b-s20",
+      "sec": "8.9.2",
+      "title": "Journey of Atomic Models",
+      "kicker": "Dalton to quantum, still going",
+      "bullets": [
+        "Models evolved from Dalton's indivisible particle to Thomson's positive and negative charges to Rutherford's nuclear model.",
+        "Bohr's model added energy levels, and the modern quantum mechanical atomic model followed.",
+        "As Fig. 8.16 shows, the exploration of the atom is far from over; exciting discoveries still lie ahead!"
+      ],
+      "visual": { "kind": "flow", "items": ["Dalton: indivisible atom", "Thomson: positive and negative charges", "Rutherford: nuclear model", "Bohr: energy levels", "Modern: quantum mechanical"] },
+      "note": "Your journey mirrors science's — every model is a step, not the end!"
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch08b-f1", "sec": "8.7", "front": "What is the maximum number of electrons a shell can hold?", "back": "Given by the formula 2n^2, where n is the shell number: K holds 2, L holds 8, M holds 18.", "tag": "formula" },
+    { "id": "sc-ch08b-f2", "sec": "8.7", "front": "How many electrons can the outermost shell of an atom hold?", "back": "At most 8 electrons; the first shell can accommodate a maximum of two.", "tag": "concept" },
+    { "id": "sc-ch08b-f3", "sec": "8.7", "front": "In what order are the shells of an atom filled with electrons?", "back": "Stepwise from the shell closest to the nucleus: K, L, M, N. L fills only after K is complete.", "tag": "concept" },
+    { "id": "sc-ch08b-f4", "sec": "8.7.1", "front": "What is the electronic configuration of an atom?", "back": "The distribution of electrons among the various shells of the atom.", "tag": "definition" },
+    { "id": "sc-ch08b-f5", "sec": "8.7.1", "front": "How do we build up 2-D atomic structures of elements?", "back": "Add one electron to the appropriate energy level each time the atomic number is increased by 1.", "tag": "concept" },
+    { "id": "sc-ch08b-f6", "sec": "8.7.1", "front": "An atom has mass number 23 and 11 protons. Who is it?", "back": "Sodium, the soft metal that reacts vigorously with water, with 23 - 11 = 12 neutrons.", "tag": "example" },
+    { "id": "sc-ch08b-f7", "sec": "8.8", "front": "What is the combining capacity of an element?", "back": "The number of hydrogen or chlorine atoms with which one atom of the element can combine.", "tag": "definition" },
+    { "id": "sc-ch08b-f8", "sec": "8.8", "front": "What are the valence shell and valence electrons?", "back": "The valence shell is the outermost shell containing electrons; the electrons in it are valence electrons.", "tag": "definition" },
+    { "id": "sc-ch08b-f9", "sec": "8.8", "front": "What is an octet, and why does it matter?", "back": "Eight electrons in the outermost shell. A complete octet, or 2 for helium, makes an atom stable and largely unreactive.", "tag": "concept" },
+    { "id": "sc-ch08b-f10", "sec": "8.8", "front": "Why is the valency of carbon 4?", "back": "Carbon, 2, 4, cannot easily gain or lose its four valence electrons, so it shares four electrons to complete its octet.", "tag": "concept" },
+    { "id": "sc-ch08b-f11", "sec": "8.9.1", "front": "What are isotopes?", "back": "Atoms of the same element with the same atomic number but different mass numbers, due to different numbers of neutrons.", "tag": "definition" },
+    { "id": "sc-ch08b-f12", "sec": "8.9.1", "front": "Name the three isotopes of hydrogen.", "back": "Protium (about 99.98 percent), deuterium (about 0.015 percent) and tritium (in traces). Each has one proton.", "tag": "example" },
+    { "id": "sc-ch08b-f13", "sec": "8.9.1", "front": "Why do isotopes have similar chemical properties?", "back": "They have the same number of electrons and electronic configuration; chemical properties depend mainly on valence electrons.", "tag": "concept" },
+    { "id": "sc-ch08b-f14", "sec": "8.9.1", "front": "Which isotope dates ancient fossils and which treats cancer?", "back": "C-14 dates fossils and artefacts in archaeology and geology; Co-60 is used in radiation treatment for cancer.", "tag": "trivia" },
+    { "id": "sc-ch08b-f15", "sec": "8.9.2", "front": "What are isobars?", "back": "Atoms of different elements that have the same mass number but different atomic numbers.", "tag": "definition" },
+    { "id": "sc-ch08b-f16", "sec": "8.9.2", "front": "Which three elements with mass number 40 are isobars?", "back": "Calcium (Z = 20), potassium (Z = 19) and argon (Z = 18) all have mass number 40.", "tag": "example" },
+    { "id": "sc-ch08b-f17", "sec": "8.9.2", "front": "How does the modern model picture electrons?", "back": "As electron clouds around the nucleus; we can predict likely regions, not exact paths.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch08b-q1", "sec": "8.7", "q": "Using the 2n^2 rule, how many electrons can the M-shell (n = 3) hold?", "options": ["18", "8", "2", "32"], "answer": 0, "why": "2n^2 with n = 3 gives 2 x 3^2 = 18 electrons.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q2", "sec": "8.7", "q": "Hydrogen has atomic number 1. Where does its only electron sit?", "options": ["In the K-shell", "In the L-shell", "In the M-shell", "In the N-shell"], "answer": 0, "why": "Filling starts from the shell closest to the nucleus, the K-shell.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q3", "sec": "8.7", "q": "The L-shell starts filling only after which shell is complete?", "options": ["The M-shell", "The K-shell", "The N-shell", "Any outer shell"], "answer": 1, "why": "Electrons fill stepwise K, L, M, N; L comes only after K is complete.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q4", "sec": "8.7", "q": "The M-shell can hold 18 electrons. Why does it stop at 8 in some atoms?", "options": ["Because the outermost shell is capped at 8", "Because the K-shell steals electrons", "Because 2n^2 fails for n = 3", "Because electrons pair only in twos"], "answer": 0, "why": "The outermost shell can accommodate at most 8 electrons, whatever its 2n^2 capacity.", "difficulty": "hard" },
+    { "id": "sc-ch08b-q5", "sec": "8.7.1", "q": "What is the distribution of electrons among the shells of an atom called?", "options": ["mass number", "electronic configuration", "valency", "atomic radius"], "answer": 1, "why": "The book defines electronic configuration as the distribution of electrons among shells.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q6", "sec": "8.7.1", "q": "Table 8.4 gives electron distributions for the first how many elements?", "options": ["10", "18", "20", "8"], "answer": 1, "why": "Table 8.4 and Fig. 8.11 cover the first eighteen elements.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q7", "sec": "8.7.1", "q": "An atom has 11 protons and mass number 23. How many neutrons does it have?", "options": ["12", "11", "23", "34"], "answer": 0, "why": "Neutrons = mass number - protons = 23 - 11 = 12; the atom is sodium.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q8", "sec": "8.8", "q": "In H2O, oxygen combines with two hydrogen atoms. What is oxygen's combining capacity?", "options": ["2", "1", "3", "4"], "answer": 0, "why": "Oxygen combines with two hydrogens in water, so its combining capacity is two.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q9", "sec": "8.8", "q": "What is the combining capacity of nitrogen in NH3 (ammonia)?", "options": ["2", "1", "3", "4"], "answer": 2, "why": "Nitrogen combines with three hydrogen atoms in ammonia.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q10", "sec": "8.8", "q": "Sodium has electronic configuration 2, 8, 1. What is its valency?", "options": ["2", "7", "1", "8"], "answer": 2, "why": "Sodium loses its one valence electron to complete its octet, so its valency is 1.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q11", "sec": "8.8", "q": "How many electrons make an octet in the outermost shell?", "options": ["8", "2", "18", "1"], "answer": 0, "why": "An octet means 8 electrons in the outermost shell; helium is stable with 2.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q12", "sec": "8.8", "q": "Carbon has configuration 2, 4. Why does it share electrons rather than gain or lose them?", "options": ["It cannot easily gain or lose four electrons", "It already has a complete octet", "It has more than four valence electrons", "Its K-shell is incomplete"], "answer": 0, "why": "With four valence electrons, carbon shares all four to complete its octet, so valency 4.", "difficulty": "hard" },
+    { "id": "sc-ch08b-q13", "sec": "8.9.1", "q": "Isotopes of an element have the same ___ but different ___.", "options": ["atomic number; mass number", "mass number; atomic number", "number of shells; valency", "neutrons; electrons"], "answer": 0, "why": "Isotopes share the atomic number but differ in neutrons, so mass numbers differ.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q14", "sec": "8.9.1", "q": "Which hydrogen isotope contains two neutrons?", "options": ["Deuterium", "Tritium", "Protium", "All three do"], "answer": 1, "why": "Tritium has one proton and two neutrons; deuterium has just one neutron.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q15", "sec": "8.9.1", "q": "Which isotope is used as a fuel in nuclear reactors to generate electricity?", "options": ["U-235", "C-14", "I-131", "Co-60"], "answer": 0, "why": "The book lists U-235 as the fuel in nuclear power plant reactors.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q16", "sec": "8.9.1", "q": "Carbon-14 has six protons. How many neutrons does it have?", "options": ["6", "8", "14", "12"], "answer": 1, "why": "Mass number 14 minus 6 protons gives 8 neutrons; carbon isotopes differ in neutrons.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q17", "sec": "8.9.1", "q": "Isotopes boil at different temperatures. Why are their chemical properties still similar?", "options": ["Same electrons and same electronic configuration", "Same number of neutrons", "Same mass number", "Same physical state"], "answer": 0, "why": "Chemical properties depend mainly on valence electrons, which are identical in isotopes.", "difficulty": "hard" },
+    { "id": "sc-ch08b-q18", "sec": "8.9.2", "q": "Isobars are atoms of different elements with the same ___ but different ___.", "options": ["mass number; atomic numbers", "atomic numbers; mass numbers", "shells; protons", "protons; electrons"], "answer": 0, "why": "The book defines isobars as same mass number, different atomic numbers.", "difficulty": "easy" },
+    { "id": "sc-ch08b-q19", "sec": "8.9.2", "q": "Argon has atomic number 18 and mass number 40. How many neutrons does it have?", "options": ["18", "22", "40", "58"], "answer": 1, "why": "Neutrons = mass number - protons = 40 - 18 = 22.", "difficulty": "medium" },
+    { "id": "sc-ch08b-q20", "sec": "8.9.2", "q": "Why did scientists move beyond Bohr's idea of fixed orbits?", "options": ["Electrons have no charge", "The nucleus holds only neutrons", "Electrons exist as clouds, not well-defined paths", "Shells can hold unlimited electrons"], "answer": 2, "why": "Bohr's model was not entirely correct; electrons exist as electron clouds around the nucleus.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch08b-e1",
+      "title": "Riddle of the Soft Metal",
+      "problem": "An atom has a mass number of 23 and 11 protons. It is a soft metal that reacts vigorously with water. Who is it and how many neutrons does it have?",
+      "steps": [
+        "Atomic number equals the number of protons, so Z = 11.",
+        "The element with atomic number 11 is sodium, the soft metal that reacts vigorously with water.",
+        "Mass number = protons + neutrons, so neutrons = 23 - 11.",
+        "Neutrons = 12. Its electronic configuration is 2, 8, 1."
+      ],
+      "answer": "The atom is sodium, with 12 neutrons (23 - 11) and electronic configuration 2, 8, 1."
+    },
+    {
+      "id": "sc-ch08b-e2",
+      "title": "Configuring an Oxygen Atom",
+      "problem": "Oxygen has atomic number 8. Write its electronic configuration and find its valency.",
+      "steps": [
+        "Oxygen has 8 electrons to place, filling shells from the one closest to the nucleus outward.",
+        "The K-shell (n = 1) holds a maximum of 2 electrons, so 2 electrons go into K.",
+        "The remaining 6 electrons go into the L-shell, which can hold up to 8.",
+        "The configuration is 2, 6. Oxygen has 6 valence electrons, more than four, so it tends to gain electrons.",
+        "It gains 2 electrons to complete its octet."
+      ],
+      "answer": "Electronic configuration 2, 6; the valency of oxygen is 2."
+    },
+    {
+      "id": "sc-ch08b-e3",
+      "title": "Combining Capacity from Formulas",
+      "problem": "Using the formulas NH3 (ammonia) and MgCl2 (magnesium chloride), find the combining capacities of nitrogen and magnesium.",
+      "steps": [
+        "In ammonia, one nitrogen atom combines with three hydrogen atoms.",
+        "So the combining capacity of nitrogen is 3.",
+        "In magnesium chloride, one magnesium atom combines with two chlorine atoms.",
+        "So the combining capacity of magnesium is 2."
+      ],
+      "answer": "Nitrogen has combining capacity 3; magnesium has combining capacity 2."
+    },
+    {
+      "id": "sc-ch08b-e4",
+      "title": "Counting Nucleons in Isobars",
+      "problem": "Potassium (Z = 19), argon (Z = 18) and calcium (Z = 20) each have mass number 40. Find the neutrons in each and explain why they are isobars.",
+      "steps": [
+        "Neutrons = mass number - protons.",
+        "Potassium-40: 40 - 19 = 21 neutrons.",
+        "Argon-40: 40 - 18 = 22 neutrons.",
+        "Calcium-40: 40 - 20 = 20 neutrons.",
+        "Each atom has 40 nucleons in total but a different atomic number, so they are isobars."
+      ],
+      "answer": "K-40 has 21 neutrons, Ar-40 has 22, Ca-40 has 20; same mass number 40 with different atomic numbers makes them isobars."
+    }
+  ]
+}

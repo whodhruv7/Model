@@ -1,0 +1,740 @@
+{
+  "book": "gm",
+  "chapter": 13,
+  "title": "Two Variables, One Line: Linear Equations",
+  "grade": 9,
+  "sections": [
+    { "id": "13.1", "title": "Linear Equations in Two Variables" },
+    { "id": "13.2", "title": "Solution of Linear Equation in Two Variables" },
+    { "id": "13.3", "title": "Slope-intercept form of a Linear Equation in Two Variables" },
+    { "id": "13.5", "title": "Finding Solutions to a Pair of Linear Equations" },
+    { "id": "13.6", "title": "Graphical Method for Solving a Pair of Linear Equations in Two Variables" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch13-s1",
+      "sec": "13.1",
+      "title": "Radha's fruit cart equation",
+      "kicker": "Mangoes, bananas, and one neat equation",
+      "bullets": [
+        "Radha buys some kilograms of mangoes at 60 rupees per kg and some kilograms of bananas at 50 rupees per kg, paying 280 rupees in all.",
+        "We do not know either quantity, so let x be the number of kilograms of mangoes and y the number of kilograms of bananas.",
+        "The mangoes cost 60x rupees and the bananas cost 50y rupees, so the total is 60x + 50y = 280.",
+        "The LHS and the RHS both represent the same quantity, the total cost in rupees."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["x = kg of mangoes", "y = kg of bananas", "60x + 50y = 280", "total = 280 rupees"]
+      },
+      "note": "Do unknowns se hi poora equation ban gaya!"
+    },
+    {
+      "id": "gm-ch13-s2",
+      "sec": "13.1",
+      "title": "Standard form of these equations",
+      "kicker": "One costume every linear equation can wear",
+      "bullets": [
+        "Any equation that can be written as ax + by + c = 0, with a and b not both zero, is a linear equation in two variables.",
+        "Here a is the coefficient of x, b is the coefficient of y, and c is a constant.",
+        "For 5x + 2y - 2.7 = 0 we read a = 5, b = 2, c = -2.7; multiplying by -1 gives a = -5, b = -2, c = 2.7, and both are valid."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["a: coefficient of x", "b: coefficient of y", "c: constant term", "a and b not both zero"]
+      }
+    },
+    {
+      "id": "gm-ch13-s3",
+      "sec": "13.1",
+      "title": "Clearing fractions from equations",
+      "kicker": "Fractions allowed, but integers are comfier",
+      "bullets": [
+        "The coefficients and the constant may be rational numbers, so (1/4)x + (3/5)y - 2 = 0 is already a linear equation in two variables.",
+        "For convenience, we multiply the equation by a suitable number to remove the fractions.",
+        "Multiplying by 20 turns (1/4)x + (3/5)y - 2 = 0 into 5x + 12y - 10 = 0, the same equation with integer coefficients."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Spot the fractional coefficients", "Find a common multiple, here 20", "Multiply every term by it", "Enjoy the tidy integer equation"]
+      },
+      "note": "Fractions wale equation ko 20 se multiply karo, sab integer!"
+    },
+    {
+      "id": "gm-ch13-s4",
+      "sec": "13.1",
+      "title": "When y goes missing",
+      "kicker": "One visible variable, still two variables",
+      "bullets": [
+        "Equations like ax + c = 0 are special cases of linear equations in two variables: write them as ax + 0 times y + c = 0.",
+        "For example, 7 + 4x = 0 can be written as 4x + 0 times y + 7 = 0, with a = 4, b = 0 and c = 7.",
+        "The only rule is that a and b are not both zero at the same time, so one of them may happily be zero."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Looks one-variable", "items": ["7 + 4x = 0", "only x appears", "still a two-variable equation"] },
+        "right": { "title": "In standard form", "items": ["4x + 0 times y + 7 = 0", "a = 4, b = 0, c = 7", "b is simply zero"] }
+      }
+    },
+    {
+      "id": "gm-ch13-s5",
+      "sec": "13.2",
+      "title": "What counts as a solution",
+      "kicker": "A pair that makes the equation true",
+      "bullets": [
+        "A solution of a linear equation in two variables is a pair of values of x and y which satisfy the given equation.",
+        "For 3x + 2y = 12, the values x = 2 and y = 3 work because (3 times 2) + (2 times 3) = 12.",
+        "The pair x = 4 and y = 0 also works, since (3 times 4) + (2 times 0) = 12.",
+        "But x = 1 and y = 3 gives 9, which is not 12, so the pair (1, 3) is not a solution."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Solutions of 3x + 2y = 12", "items": ["(2, 3): 6 + 6 = 12", "(4, 0): 12 + 0 = 12"] },
+        "right": { "title": "Not a solution", "items": ["(1, 3): 3 + 6 = 9", "9 is not 12, so it fails"] }
+      }
+    },
+    {
+      "id": "gm-ch13-s6",
+      "sec": "13.2",
+      "title": "Order matters in pairs",
+      "kicker": "(2, 3) and (3, 2) are different",
+      "bullets": [
+        "A solution can be written compactly as a pair of numbers, for example the solution x = 2, y = 3 is written as (2, 3).",
+        "The order of the numbers in this pair matters: the first number is the x-value and the second number is the y-value.",
+        "That is why we call it an ordered pair; swapping the order describes a different pair of values altogether."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["first number = x", "second number = y", "written as (x, y)", "order matters"]
+      }
+    },
+    {
+      "id": "gm-ch13-s7",
+      "sec": "13.2",
+      "title": "Endless solutions, one equation",
+      "kicker": "Pick any x, cook up its y",
+      "bullets": [
+        "For any value u that we assign to x, we can find a value v for y such that the pair (u, v) is a solution.",
+        "Substitute u for x first; the equation becomes a new linear equation in y alone, which we can solve to find v.",
+        "Since u can be chosen freely, this process generates an infinite number of solutions to the original equation."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Choose any value u for x", "Substitute u into the equation", "Solve the resulting equation in y", "Record the ordered pair (u, v)"]
+      }
+    },
+    {
+      "id": "gm-ch13-s8",
+      "sec": "13.2",
+      "title": "Solutions draw a straight line",
+      "kicker": "Plot every solution, get one line",
+      "bullets": [
+        "Rewrite 3x + 2y = 12 as 2y = -3x + 12, which is the same as y = (-3/2)x + 6, the y = mx + d form met in the Linear Polynomials chapter.",
+        "Plotting solution points A (-1, 7.5), B (0, 6), C (1, 4.5) and D (4, 0) shows them joining into one straight line.",
+        "Every solution of the equation is a point on the line, so the line is the geometric picture of all the solutions."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "x",
+        "ylabel": "y",
+        "points": [[-1, 7.5], [0, 6], [1, 4.5], [4, 0]]
+      },
+      "note": "Saare solutions ek seedhi line par khade hain!"
+    },
+    {
+      "id": "gm-ch13-s9",
+      "sec": "13.3",
+      "title": "Steepness has a name",
+      "kicker": "From cycling uphill to slope",
+      "bullets": [
+        "On a flat road you can move without much effort, but as a road becomes steeper you have to work harder to climb it.",
+        "In mathematics, this idea of the steepness of a line is called its slope, or gradient.",
+        "A positive slope means going upward as we move from left to right; a negative slope means going downward."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Positive slope", "items": ["goes upward left to right", "a climbing road"] },
+        "right": { "title": "Negative slope", "items": ["goes downward left to right", "a descending road"] }
+      }
+    },
+    {
+      "id": "gm-ch13-s10",
+      "sec": "13.3",
+      "title": "Rise over run",
+      "kicker": "Two steps: across, then up",
+      "bullets": [
+        "The horizontal distance between two points is x2 - x1, called the Run; moving right gives a positive run, moving left a negative run.",
+        "The vertical distance is y2 - y1, called the Rise; going up makes the rise positive, going down makes it negative.",
+        "The slope of a line is Rise over Run, that is (y2 - y1) / (x2 - x1)."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Run = x2 - x1", "Rise = y2 - y1", "slope = Rise / Run"]
+      }
+    },
+    {
+      "id": "gm-ch13-s11",
+      "sec": "13.3",
+      "title": "Computing a slope",
+      "kicker": "A (2, 0) to B (4, 3), step by step",
+      "bullets": [
+        "Take a line through the points A (2, 0) and B (4, 3).",
+        "Point B is reached from A by moving 2 units along the positive x-direction, the run, and 3 units along the positive y-direction, the rise.",
+        "Hence the slope of the line is Rise over Run = 3/2."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Start at A (2, 0)", "Run 2 units right", "Rise 3 units up to B (4, 3)", "Slope = 3/2"]
+      }
+    },
+    {
+      "id": "gm-ch13-s12",
+      "sec": "13.3",
+      "title": "Same line, same slope",
+      "kicker": "Any two points agree on steepness",
+      "bullets": [
+        "Extend the same line AB further beyond B and pick different pairs of points on it.",
+        "Each pair of points gives the same value of rise over run, because the steepness of one straight line never changes.",
+        "So the slope belongs to the whole line, not to the two points you happened to choose."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "One straight line",
+        "children": ["Points A and B", "Points B and C", "Points A and D"]
+      }
+    },
+    {
+      "id": "gm-ch13-s13",
+      "sec": "13.5",
+      "title": "A puzzle made of shapes",
+      "kicker": "Triangles, rectangles, circles as unknowns",
+      "bullets": [
+        "In the shape puzzle, 2 triangles and 2 rectangles add up to 28, so 2T + 2R = 28, which is the same as T + R = 14.",
+        "The last column gives 2C + T + R = 22, where T, R and C are the values of the triangle, rectangle and circle.",
+        "Since T + R = 14, the second equation becomes 2C + 14 = 22, giving C = 4; then you can find the other shapes too."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Write 2T + 2R = 28", "Simplify to T + R = 14", "Write 2C + T + R = 22", "Use T + R = 14 to get C = 4"]
+      }
+    },
+    {
+      "id": "gm-ch13-s14",
+      "sec": "13.5",
+      "title": "Two equations, one goal",
+      "kicker": "Shrink a pair to one variable",
+      "bullets": [
+        "To solve a pair of linear equations, we look for methods that reduce the pair to a linear equation in one variable.",
+        "The book studies two such algebraic methods: the method of substitution and the method of elimination.",
+        "Both paths end at the same place: one equation, one unknown, one clean value."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Solve a pair",
+        "children": ["Substitution method", "Elimination method"]
+      }
+    },
+    {
+      "id": "gm-ch13-s15",
+      "sec": "13.5",
+      "title": "Substitution in three steps",
+      "kicker": "One equation donates x, the other receives",
+      "bullets": [
+        "Step 1: pick one equation, say x + 2y = 3, and express one variable in terms of the other: x = 3 - 2y.",
+        "Step 2: substitute this into the other equation, 7x - 15y = 2, giving 7(3 - 2y) - 15y = 2.",
+        "The pair has collapsed into one equation in y alone, which is exactly the reduction we wanted."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Express x = 3 - 2y", "Substitute into 7x - 15y = 2", "Solve the y-equation", "Back-substitute to find x"]
+      }
+    },
+    {
+      "id": "gm-ch13-s16",
+      "sec": "13.5",
+      "title": "Finishing and verifying",
+      "kicker": "Fractions in the answer are fine",
+      "bullets": [
+        "The substitution gives 21 - 14y - 15y = 2, so -29y = -19 and therefore y = 19/29.",
+        "Put y = 19/29 back into x = 3 - 2y to get x = 3 - 38/29 = 49/29.",
+        "The solution is x = 49/29 and y = 19/29; verify it by substituting the pair into both original equations."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["y = 19/29", "x = 49/29", "check in both equations"]
+      }
+    },
+    {
+      "id": "gm-ch13-s17",
+      "sec": "13.6",
+      "title": "Solving by drawing lines",
+      "kicker": "Each equation becomes a line",
+      "bullets": [
+        "To solve a pair graphically, prepare a table of values with at least two ordered pairs for each equation.",
+        "Plot the points on the Cartesian plane and draw the straight line through each set of points.",
+        "The solutions of the pair are exactly the points that lie on both lines."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Table of values per equation", "Plot the ordered pairs", "Draw each straight line", "Read the common point"]
+      }
+    },
+    {
+      "id": "gm-ch13-s18",
+      "sec": "13.6",
+      "title": "Three ways lines meet",
+      "kicker": "One point, none, or all of them",
+      "bullets": [
+        "When the two lines intersect in a single point, the pair has a unique solution, that one common point.",
+        "When the two lines are parallel, they share no point at all, so there are no solutions.",
+        "When the two lines are coincident, every point is common, so there are infinitely many solutions."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Unique solution", "items": ["lines intersect once", "exactly one ordered pair"] },
+        "right": { "title": "None or infinite", "items": ["parallel: no solutions", "coincident: infinitely many"] }
+      },
+      "note": "Do lines kabhi cross karte hain, kabhi nahi!"
+    },
+    {
+      "id": "gm-ch13-s19",
+      "sec": "13.6",
+      "title": "Example 11: build the tables",
+      "kicker": "Two equations, four friendly points",
+      "bullets": [
+        "For x + 3y = 6, write y = (6 - x)/3; choosing x = 0 and then 6 gives y = 2 and 0, so (0, 2) and (6, 0) are points on the line.",
+        "For 2x - 3y = 12, write y = (2x - 12)/3; choosing x = 0 and then 3 gives y = -4 and -2, so (0, -4) and (3, -2) are points on the line.",
+        "Plot A (0, 2), B (6, 0), P (0, -4) and Q (3, -2) on graph paper, and join the points to form the lines AB and PQ."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["(0, 2)", "(6, 0)", "(0, -4)", "(3, -2)"]
+      }
+    },
+    {
+      "id": "gm-ch13-s20",
+      "sec": "13.6",
+      "title": "Where the lines cross",
+      "kicker": "The common point is the answer",
+      "bullets": [
+        "We observe that the point B (6, 0) is common to both the lines AB and PQ.",
+        "In fact the lines AB and PQ intersect at B, so the solution of the pair is x = 6 and y = 0.",
+        "Because the lines meet in exactly one point, the given pair of equations has a unique solution."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "x",
+        "ylabel": "y",
+        "points": [[0, 2], [6, 0], [0, -4], [3, -2]]
+      },
+      "note": "Point B hi asli hero, dono lines ka common point!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "gm-ch13-f1",
+      "sec": "13.1",
+      "front": "What is the standard form of a linear equation in two variables?",
+      "back": "ax + by + c = 0, where a, b and c are real numbers and a and b are not both zero.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch13-f2",
+      "sec": "13.1",
+      "front": "In ax + by + c = 0, what do a, b and c represent?",
+      "back": "a is the coefficient of x, b is the coefficient of y, and c is a constant.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f3",
+      "sec": "13.1",
+      "front": "Mangoes cost 60 rupees a kg, bananas 50 rupees a kg, total 280 rupees. What equation fits?",
+      "back": "60x + 50y = 280, with x the kilograms of mangoes and y the kilograms of bananas.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f4",
+      "sec": "13.1",
+      "front": "Multiply (1/4)x + (3/5)y - 2 = 0 by a suitable number to clear fractions. What do you get?",
+      "back": "Multiplying by 20 gives 5x + 12y - 10 = 0, the same equation with integer coefficients.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f5",
+      "sec": "13.2",
+      "front": "What is a solution of a linear equation in two variables?",
+      "back": "A pair of values of x and y which satisfy the given equation.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch13-f6",
+      "sec": "13.2",
+      "front": "Why is (1, 3) not a solution of 3x + 2y = 12?",
+      "back": "Substituting gives 3 times 1 + 2 times 3 = 9, which is not 12, so the equation is not satisfied.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f7",
+      "sec": "13.2",
+      "front": "In the ordered pair (2, 3) for an equation in x and y, which number is which?",
+      "back": "The first number is the x-value and the second is the y-value; the order matters.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f8",
+      "sec": "13.2",
+      "front": "How many solutions does a linear equation in two variables have?",
+      "back": "Infinitely many: for any value u of x you can solve for a matching value v of y.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f9",
+      "sec": "13.2",
+      "front": "What shape do you get when you plot all solutions of a linear equation in two variables?",
+      "back": "A straight line; every solution (x, y) is a point on that line.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f10",
+      "sec": "13.3",
+      "front": "What is the slope of a line?",
+      "back": "A measure of the steepness of the line, also called its gradient.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch13-f11",
+      "sec": "13.3",
+      "front": "State the slope formula for a line through A (x1, y1) and B (x2, y2).",
+      "back": "Slope = Rise over Run = (y2 - y1) / (x2 - x1).",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch13-f12",
+      "sec": "13.3",
+      "front": "What does a positive slope tell you about a line, reading left to right?",
+      "back": "The line goes upward as we move from left to right; a negative slope goes downward.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f13",
+      "sec": "13.3",
+      "front": "A line passes through A (2, 0) and B (4, 3). What is its slope?",
+      "back": "The run is 2 and the rise is 3, so the slope is 3/2.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f14",
+      "sec": "13.5",
+      "front": "In the shape puzzle, 2C + T + R = 22 and T + R = 14. What is C?",
+      "back": "Substitute T + R = 14 to get 2C + 14 = 22, so C = 4.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f15",
+      "sec": "13.5",
+      "front": "What is the goal when solving a pair of linear equations algebraically?",
+      "back": "Reduce the pair to a single linear equation in one variable, using substitution or elimination.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f16",
+      "sec": "13.5",
+      "front": "In Example 7, which expression for x is used to substitute into 7x - 15y = 2?",
+      "back": "x = 3 - 2y, obtained by expressing x in terms of y from x + 2y = 3.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch13-f17",
+      "sec": "13.6",
+      "front": "Two graphed lines intersect at exactly one point. How many solutions does the pair have?",
+      "back": "Exactly one: the unique solution is the single common point of the two lines.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f18",
+      "sec": "13.6",
+      "front": "What happens to the solution count when the two lines are parallel or coincident?",
+      "back": "Parallel lines give no solutions; coincident lines give infinitely many solutions.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch13-f19",
+      "sec": "13.6",
+      "front": "Solve graphically: x + 3y = 6 and 2x - 3y = 12.",
+      "back": "The lines meet at B (6, 0), so x = 6 and y = 0 is the unique solution.",
+      "tag": "example"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gm-ch13-q1",
+      "sec": "13.1",
+      "q": "Radha buys x kg of mangoes at 60 rupees per kg and y kg of bananas at 50 rupees per kg, paying 280 rupees in all. Which equation fits?",
+      "options": ["60x + 50y = 280", "60x - 50y = 280", "50x + 60y = 280", "x + y = 280"],
+      "answer": 0,
+      "why": "Mangoes cost 60x and bananas cost 50y, and both add up to the total 280.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q2",
+      "sec": "13.1",
+      "q": "In the standard form 5x + 2y - 2.7 = 0, what is the value of c?",
+      "options": ["-2.7", "2.7", "5", "2"],
+      "answer": 0,
+      "why": "c is the constant term, and moving 2.7 to the left side makes it -2.7.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q3",
+      "sec": "13.1",
+      "q": "Writing 7 + 4x = 0 in the form ax + by + c = 0 gives which values of a, b and c?",
+      "options": ["a = 4, b = 0, c = 7", "a = 4, b = 7, c = 0", "a = 0, b = 4, c = 7", "a = 7, b = 4, c = 0"],
+      "answer": 0,
+      "why": "It becomes 4x + 0 times y + 7 = 0, so the coefficient b of y is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q4",
+      "sec": "13.1",
+      "q": "Multiplying (1/4)x + (3/5)y - 2 = 0 by a suitable number to remove the fractions gives:",
+      "options": ["5x + 12y - 10 = 0", "4x + 5y - 2 = 0", "20x + 12y - 10 = 0", "5x + 3y - 10 = 0"],
+      "answer": 0,
+      "why": "Multiplying every term by 20 gives 5x + 12y - 10 = 0 with integer coefficients.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch13-q5",
+      "sec": "13.2",
+      "q": "Which ordered pair is a solution of 3x + 2y = 12?",
+      "options": ["(2, 3)", "(1, 3)", "(3, 2)", "(2, 2)"],
+      "answer": 0,
+      "why": "(2, 3) gives 6 + 6 = 12, while the others give 9, 13 and 10.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q6",
+      "sec": "13.2",
+      "q": "How many solutions does a linear equation in two variables have?",
+      "options": ["Infinitely many", "Exactly one", "Exactly two", "None"],
+      "answer": 0,
+      "why": "For any value u of x you can solve for a matching v of y, so solutions never run out.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q7",
+      "sec": "13.2",
+      "q": "When you plot all the solutions of 3x + 2y = 12 on the plane, what picture appears?",
+      "options": ["A straight line", "A single point", "Scattered points with no pattern", "A closed curve"],
+      "answer": 0,
+      "why": "Points like (2, 3), (4, 0) and (0, 6) join into one straight line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q8",
+      "sec": "13.2",
+      "q": "Given 3x + 2y = 12 and a chosen value u for x, how do you find the matching value v of y?",
+      "options": [
+        "Substitute u for x, then solve the resulting linear equation in y",
+        "Substitute u for y, then solve for x",
+        "Divide 12 by u",
+        "Add u to both sides of the equation"
+      ],
+      "answer": 0,
+      "why": "Substituting u for x leaves a linear equation in y alone, which is solved for v.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch13-q9",
+      "sec": "13.3",
+      "q": "In mathematics, the idea of the steepness of a line is called its:",
+      "options": ["Slope or gradient", "Rise", "Run", "Constant term"],
+      "answer": 0,
+      "why": "The book calls the steepness of a line its slope, or gradient.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q10",
+      "sec": "13.3",
+      "q": "Which formula gives the slope of a line through A (x1, y1) and B (x2, y2)?",
+      "options": ["(y2 - y1) / (x2 - x1)", "(x2 - x1) / (y2 - y1)", "(y2 + y1) / (x2 + x1)", "(y1 - y2) / (x2 - x1)"],
+      "answer": 0,
+      "why": "Slope = Rise over Run, with rise = y2 - y1 and run = x2 - x1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q11",
+      "sec": "13.3",
+      "q": "A line passes through A (2, 0) and B (4, 3). Its slope is:",
+      "options": ["3/2", "2/3", "3", "-3/2"],
+      "answer": 0,
+      "why": "From A to B the run is 2 and the rise is 3, so slope = 3/2.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch13-q12",
+      "sec": "13.5",
+      "q": "In the shape puzzle the last column gives 2C + T + R = 22, and you know T + R = 14. What is C?",
+      "options": ["4", "8", "18", "36"],
+      "answer": 0,
+      "why": "Substituting gives 2C + 14 = 22, so 2C = 8 and C = 4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q13",
+      "sec": "13.5",
+      "q": "What is the first step of the substitution method for the pair x + 2y = 3 and 7x - 15y = 2?",
+      "options": [
+        "Write x = 3 - 2y from the first equation",
+        "Add the two equations together",
+        "Write x = 3 + 2y from the first equation",
+        "Set x equal to y and solve"
+      ],
+      "answer": 0,
+      "why": "Pick one equation and express one variable in terms of the other, here x = 3 - 2y.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q14",
+      "sec": "13.5",
+      "q": "In Example 7, substituting x = 3 - 2y into 7x - 15y = 2 leads to which value of y?",
+      "options": ["19/29", "-19/29", "21/29", "29/19"],
+      "answer": 0,
+      "why": "The working gives 21 - 29y = 2, so -29y = -19 and y = 19/29.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch13-q15",
+      "sec": "13.6",
+      "q": "Two graphed lines intersect at exactly one point. The pair of equations has:",
+      "options": ["A unique solution", "No solution", "Infinitely many solutions", "Exactly two solutions"],
+      "answer": 0,
+      "why": "Solutions are points on both lines, and one intersection point means one solution.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch13-q16",
+      "sec": "13.6",
+      "q": "Two graphed lines are parallel. How many solutions does the pair of equations have?",
+      "options": ["None", "One", "Two", "Infinitely many"],
+      "answer": 0,
+      "why": "Parallel lines never meet, so no point lies on both lines.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch13-q17",
+      "sec": "13.6",
+      "q": "Solving x + 3y = 6 and 2x - 3y = 12 graphically, at which point do the lines AB and PQ intersect?",
+      "options": ["B (6, 0)", "A (0, 2)", "P (0, -4)", "Q (3, -2)"],
+      "answer": 0,
+      "why": "B (6, 0) is common to both lines; the other points lie on only one line each.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch13-e1",
+      "title": "Writing equations in standard form",
+      "problem": "Write 5x + 2y = 2.7 and 3y = 5 in the standard form ax + by + c = 0, and state the values of a, b and c in each case.",
+      "steps": [
+        "For 5x + 2y = 2.7, move every term to one side: 5x + 2y - 2.7 = 0.",
+        "Read off a = 5, b = 2 and c = -2.7.",
+        "Multiplying by -1 gives -5x - 2y + 2.7 = 0, equally valid with a = -5, b = -2, c = 2.7.",
+        "For 3y = 5, write 3y - 5 = 0, or 0 times x + 3y - 5 = 0, so a = 0, b = 3 and c = 5."
+      ],
+      "answer": "5x + 2y - 2.7 = 0 with a = 5, b = 2, c = -2.7; and 3y - 5 = 0 with a = 0, b = 3, c = 5."
+    },
+    {
+      "id": "gm-ch13-e2",
+      "title": "Testing ordered pairs",
+      "problem": "Check which of the pairs (2, 3), (4, 0), (1, 3), (0, 6) and (4, 1) are solutions of the equation 3x + 2y = 12.",
+      "steps": [
+        "(2, 3): 3 times 2 + 2 times 3 = 6 + 6 = 12, so it satisfies the equation.",
+        "(4, 0): 3 times 4 + 2 times 0 = 12 + 0 = 12, so it is also a solution.",
+        "(1, 3): 3 times 1 + 2 times 3 = 9, which is not 12, so it is not a solution.",
+        "(0, 6): 3 times 0 + 2 times 6 = 12, a solution; but (4, 1): 3 times 4 + 2 times 1 = 14, not a solution."
+      ],
+      "answer": "Solutions: (2, 3), (4, 0) and (0, 6). Not solutions: (1, 3) and (4, 1)."
+    },
+    {
+      "id": "gm-ch13-e3",
+      "title": "Substitution method, Example 7",
+      "problem": "Solve the pair of equations 7x - 15y = 2 and x + 2y = 3 by the substitution method.",
+      "steps": [
+        "Step 1: from the equation x + 2y = 3, express x in terms of y: x = 3 - 2y.",
+        "Step 2: substitute x = 3 - 2y into the other equation: 7(3 - 2y) - 15y = 2.",
+        "Expand: 21 - 14y - 15y = 2, which simplifies to 21 - 29y = 2.",
+        "So -29y = -19, giving y = 19/29.",
+        "Step 3: put y = 19/29 back into x = 3 - 2y: x = 3 - 38/29 = 49/29.",
+        "Verify by substituting x = 49/29 and y = 19/29 into both original equations; both are satisfied."
+      ],
+      "answer": "x = 49/29 and y = 19/29."
+    },
+    {
+      "id": "gm-ch13-e4",
+      "title": "Graphical method, Example 11",
+      "problem": "Solve the pair of linear equations x + 3y = 6 and 2x - 3y = 12 graphically, and comment on the nature of the solution.",
+      "steps": [
+        "Rewrite the first equation as y = (6 - x)/3; for x = 0 and then 6 we get y = 2 and 0, giving the points (0, 2) and (6, 0).",
+        "Rewrite the second equation as y = (2x - 12)/3; for x = 0 and then 3 we get y = -4 and -2, giving the points (0, -4) and (3, -2).",
+        "Plot A (0, 2), B (6, 0), P (0, -4) and Q (3, -2) on graph paper and draw the lines AB and PQ.",
+        "The lines AB and PQ intersect at B (6, 0), the one point common to both lines."
+      ],
+      "answer": "The solution is x = 6 and y = 0; since the lines meet in a single point, the pair has a unique solution."
+    }
+  ],
+  "conceptMap": {
+    "center": "Linear Equations in Two Variables",
+    "groups": [
+      { "id": "g1", "label": "Building equations" },
+      { "id": "g2", "label": "Understanding solutions" },
+      { "id": "g3", "label": "Slope ideas" },
+      { "id": "g4", "label": "Solving pairs" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Standard form", "group": "g1" },
+      { "id": "n2", "label": "Radha's fruit cart", "group": "g1" },
+      { "id": "n3", "label": "Coefficients a and b", "group": "g1" },
+      { "id": "n4", "label": "Ordered pair", "group": "g2" },
+      { "id": "n5", "label": "Infinitely many", "group": "g2" },
+      { "id": "n6", "label": "Straight line graph", "group": "g2" },
+      { "id": "n7", "label": "Slope", "group": "g3" },
+      { "id": "n8", "label": "Rise", "group": "g3" },
+      { "id": "n9", "label": "Run", "group": "g3" },
+      { "id": "n10", "label": "Substitution", "group": "g4" },
+      { "id": "n11", "label": "Elimination", "group": "g4" },
+      { "id": "n12", "label": "Graphical method", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n2", "to": "n1", "label": "60x + 50y = 280" },
+      { "from": "n1", "to": "n3", "label": "read off a, b, c" },
+      { "from": "n1", "to": "n4", "label": "solutions satisfy it" },
+      { "from": "n4", "to": "n5", "label": "one y for every x" },
+      { "from": "n4", "to": "n6", "label": "plot the pairs" },
+      { "from": "n1", "to": "n7", "label": "rearrange to y = mx + d" },
+      { "from": "n8", "to": "n7", "label": "vertical step" },
+      { "from": "n9", "to": "n7", "label": "horizontal step" },
+      { "from": "n6", "to": "n12", "label": "draw both lines" },
+      { "from": "n1", "to": "n10", "label": "start from the pair" },
+      { "from": "n1", "to": "n11", "label": "start from the pair" },
+      { "from": "n10", "to": "n4", "label": "yields the pair" },
+      { "from": "n11", "to": "n4", "label": "yields the pair" },
+      { "from": "n12", "to": "n4", "label": "meeting point" }
+    ]
+  },
+  "flowchart": {
+    "title": "How to crack a pair of linear equations",
+    "steps": [
+      { "id": "s1", "label": "Spot two unknowns", "detail": "A situation like Radha's cart has two changing quantities." },
+      { "id": "s2", "label": "Name x and y", "detail": "Let x be kilograms of mangoes and y kilograms of bananas." },
+      { "id": "s3", "label": "Form the equations", "detail": "Translate the words into equations like 60x + 50y = 280." },
+      { "id": "s4", "label": "Tidy to standard form", "detail": "Write ax + by + c = 0 and read off a, b and c." },
+      { "id": "s5", "label": "Choose a method", "detail": "Substitution, elimination, or the graphical method." },
+      { "id": "s6", "label": "Reduce to one variable", "detail": "Substitute x = 3 - 2y, or eliminate one variable." },
+      { "id": "s7", "label": "Solve and back-substitute", "detail": "Get y = 19/29, then x = 49/29 as in Example 7." },
+      { "id": "s8", "label": "Verify the pair", "detail": "Check that the ordered pair satisfies both original equations." },
+      { "id": "s9", "label": "Or plot both lines", "detail": "Two tables of values, two lines, and their crossing point is the solution." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [4, 8], [8, 7]]
+  }
+}

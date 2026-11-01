@@ -1,0 +1,398 @@
+{
+  "book": "sc",
+  "chapter": 13,
+  "part": "b",
+  "title": "Earth as a System: Energy, Matter, and Life",
+  "grade": 9,
+  "sections": [
+    { "id": "13.2.2", "title": "Planetary winds" },
+    { "id": "13.2.3", "title": "Ocean currents" },
+    { "id": "13.3", "title": "Biogeochemical Cycles" },
+    { "id": "13.3.1", "title": "Water cycle" },
+    { "id": "13.3.2", "title": "Carbon cycle" },
+    { "id": "13.3.3", "title": "Nitrogen cycle" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch13b-s1",
+      "sec": "13.2.2",
+      "title": "Pressure Belts of Earth",
+      "kicker": "Garma equator, thande poles.",
+      "bullets": [
+        "Uneven heating of the Earth between the equator and the poles creates belts of low and high pressure.",
+        "This large scale pressure difference sets the air in motion over long distances, giving rise to planetary winds.",
+        "Near the equator, intense heating by the Sun causes warm air to rise, forming the equatorial low pressure belt."
+      ],
+      "visual": { "kind": "labels", "items": ["Equatorial low at 0", "Sub-tropical high at 30", "Sub-polar low at 60", "Polar high at 90"] },
+      "note": "Pressure belts are rings wrapped around the whole Earth."
+    },
+    {
+      "id": "sc-ch13b-s2",
+      "sec": "13.2.2",
+      "title": "The Equator to 30 Loop",
+      "kicker": "Rising air cools, sinks, returns.",
+      "bullets": [
+        "As equatorial air rises, it moves poleward at higher altitudes.",
+        "On cooling, the air becomes denser and sinks around 30 degrees North and South latitudes, forming the sub-tropical high pressure belts.",
+        "From these high pressure regions, air flows back towards the equator along the Earth's surface, completing one circulation cycle."
+      ],
+      "visual": { "kind": "flow", "items": ["Warm air rises at the equator", "Moves poleward at high altitude", "Cools and sinks near 30 degrees", "Surface flow returns to the equator"] },
+      "note": "Ek poora chakkar: upar jao, thanda hoke giro, wapas bhaago."
+    },
+    {
+      "id": "sc-ch13b-s3",
+      "sec": "13.2.2",
+      "title": "Sinking Air Splits",
+      "kicker": "Some air takes the polar road.",
+      "bullets": [
+        "Not all the sinking air at the sub-tropical belt returns to the equator; part of it moves towards the poles along the surface.",
+        "This air rises again around 60 degrees North and South latitudes, where it meets the cold air from the polar regions.",
+        "This meeting of rising and cold air creates the sub-polar low pressure belts."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s4",
+      "sec": "13.2.2",
+      "title": "Rotation Bends the Winds",
+      "kicker": "Right in North, left in South.",
+      "bullets": [
+        "In polar regions around 90 degrees North and South, very low temperature makes cold dense air sink, forming polar high pressure belts.",
+        "Air from these polar highs flows towards the sub-polar belts, completing another circulation cycle.",
+        "The Earth's rotation deflects winds from straight paths, so they follow curved paths rather than moving directly from high to low pressure.",
+        "Winds are deflected towards the right in the Northern Hemisphere and towards the left in the Southern Hemisphere."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Northern Hemisphere", "items": ["Winds curve to the right"] }, "right": { "title": "Southern Hemisphere", "items": ["Winds curve to the left"] } },
+      "note": "Turning Earth keeps nudging every moving wind sideways."
+    },
+    {
+      "id": "sc-ch13b-s5",
+      "sec": "13.2.3",
+      "title": "Rivers in the Ocean",
+      "kicker": "Wind pushes, water flows, planet turns.",
+      "bullets": [
+        "Ocean currents are the continuous movement of large masses of ocean water.",
+        "Strong planetary winds drag the surface water of the oceans because of friction, setting surface currents in motion.",
+        "Temperature and salinity differences, the Earth's rotation, and the distribution of land masses also influence the movement of ocean water."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s6",
+      "sec": "13.2.3",
+      "title": "Warm Tops, Cold Depths",
+      "kicker": "Salinity decides who sinks.",
+      "bullets": [
+        "Warm equatorial waters travel over the surface towards the poles, while colder, denser waters flow back to the equator at deeper levels.",
+        "Ocean water has different salinities depending on the location.",
+        "Lower salinity water is less dense and stays near the surface, while higher salinity, denser water sinks and moves at deeper levels."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Lower salinity water", "items": ["Less dense", "Stays near the surface"] }, "right": { "title": "Higher salinity water", "items": ["Denser", "Sinks to deeper levels"] } },
+      "note": "Surface se depth tak, ocean har layer mein chalta hai."
+    },
+    {
+      "id": "sc-ch13b-s7",
+      "sec": "13.2.3",
+      "title": "Gyres: Giant Whirlpools",
+      "kicker": "Clockwise up North, reverse down South.",
+      "bullets": [
+        "The Earth's rotation deflects the moving water masses, forming large circular patterns called gyres.",
+        "Gyres rotate clockwise in the Northern Hemisphere and counter clockwise in the Southern Hemisphere.",
+        "Continents further modify these paths by blocking and redirecting currents."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s8",
+      "sec": "13.2.3",
+      "title": "Currents as Climate Engines",
+      "kicker": "Europe's ports stay ice-free. Kaise?",
+      "bullets": [
+        "Ocean currents transport heat from the equator towards the poles, reducing temperature differences across the planet and supporting life.",
+        "The North Atlantic Drift, a Gulf Stream extension, carries warm water from the North American east coast across the Atlantic Ocean.",
+        "It flows towards the northwestern coast of Europe and keeps many ports ice-free during winter, even at high latitudes.",
+        "Ocean currents also support a massive ecosystem by transporting nutrients, and their moderating influence supports trade and commerce."
+      ],
+      "note": "Scientists at IITM Pune model these energy flows between atmosphere, oceans and land."
+    },
+    {
+      "id": "sc-ch13b-s9",
+      "sec": "13.3",
+      "title": "Nature's Recycling Loops",
+      "kicker": "Nothing is wasted in nature.",
+      "bullets": [
+        "Living organisms constantly exchange matter and energy with the air, water, soil and rocks around them.",
+        "The cyclic movement of matter and energy between the abiotic and biotic components is called the biogeochemical cycle.",
+        "This continuous interaction transfers matter and energy across the various spheres of the Earth."
+      ],
+      "visual": { "kind": "labels", "items": ["Water cycle", "Carbon cycle", "Nitrogen cycle", "Oxygen cycle"] }
+    },
+    {
+      "id": "sc-ch13b-s10",
+      "sec": "13.3",
+      "title": "Why Recycling Matters",
+      "kicker": "Nutrients must never run out.",
+      "bullets": [
+        "Biogeochemical cycles ensure that essential nutrients such as carbon, nitrogen and oxygen are recycled.",
+        "This recycling keeps the nutrients available to support life on the Earth.",
+        "The cycles interconnect across spheres and respond to human impacts."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s11",
+      "sec": "13.3",
+      "title": "Connected Ecosystems Stay Strong",
+      "kicker": "One balance, many ecosystems protected.",
+      "bullets": [
+        "There is a dynamic relationship between different ecosystems.",
+        "This interconnectedness helps ecosystems recover from disturbances or degradation.",
+        "It also helps maintain environmental balance across the Earth."
+      ],
+      "note": "Jungle, pond, ocean: sab ka connection hi unki strength hai."
+    },
+    {
+      "id": "sc-ch13b-s12",
+      "sec": "13.3.1",
+      "title": "The Great Water Loop",
+      "kicker": "Soil se sky tak, phir wapas.",
+      "bullets": [
+        "Water evaporates from water bodies such as rivers, lakes and oceans, and condenses to form clouds.",
+        "It returns as precipitation in the form of rain, hail or snow, and finally flows back to the ocean.",
+        "Some of the water seeps through soil and rocks beneath the Earth's surface as groundwater."
+      ],
+      "visual": { "kind": "flow", "items": ["Evaporation from water bodies", "Condensation into clouds", "Precipitation as rain, hail or snow", "Flow back to the ocean"] }
+    },
+    {
+      "id": "sc-ch13b-s13",
+      "sec": "13.3.1",
+      "title": "Water the Silent Carrier",
+      "kicker": "Paani nutrients bhi le jaata hai.",
+      "bullets": [
+        "As water moves, it dissolves minerals from soil and rocks.",
+        "It supports all terrestrial organisms and transports these nutrients to the oceans.",
+        "This transport of nutrients supports marine life in the oceans."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s14",
+      "sec": "13.3.1",
+      "title": "Climate Change Shakes the Cycle",
+      "kicker": "Garm hawa zyada moisture rakhti hai.",
+      "bullets": [
+        "A warmer atmosphere holds more moisture, causing heavier rains in some areas like intensified monsoons, and droughts elsewhere.",
+        "Melting glaciers add more water to rivers, raising sea levels in the long run and threatening coastal cities such as Mumbai and Chennai.",
+        "Sudden bursts of intense rainfall result in more runoff that erodes soil, while less infiltration reduces the recharge of groundwater."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s15",
+      "sec": "13.3.1",
+      "title": "Five Spheres, One Cycle",
+      "kicker": "Every sphere feels global warming.",
+      "bullets": [
+        "The water cycle links the cryosphere of glaciers and the hydrosphere of rivers and oceans.",
+        "It involves the atmosphere through moisture and the geosphere through soil erosion and decreased infiltration.",
+        "The biosphere of crops and fisheries is affected too, all of them linked by global warming."
+      ],
+      "visual": { "kind": "tree", "root": "Water cycle", "children": ["Cryosphere", "Hydrosphere", "Atmosphere", "Geosphere", "Biosphere"] },
+      "note": "Ek cycle, paanch spheres: nature ka sabse bada group project."
+    },
+    {
+      "id": "sc-ch13b-s16",
+      "sec": "13.3.2",
+      "title": "Carbon: Backbone of Life",
+      "kicker": "Har life molecule mein carbon!",
+      "bullets": [
+        "Carbon forms the backbone of life: every protein, carbohydrate, fat and DNA molecule contains carbon.",
+        "Carbon circulates continuously between the atmosphere as CO2 gas, the biosphere of plants and animals, the geosphere and the hydrosphere.",
+        "In the geosphere it sits in carbonate rocks and fossil fuels like coal and oil; in the hydrosphere it is dissolved CO2 and marine shells."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s17",
+      "sec": "13.3.2",
+      "title": "The Fast Carbon Cycle",
+      "kicker": "Days to years, quick swap.",
+      "bullets": [
+        "In the fast cycle, which happens over days to years, plants convert atmospheric CO2 into glucose using sunlight through photosynthesis.",
+        "CO2 is released back into the atmosphere through respiration.",
+        "Animals eat plants or other animals, and when they die, decomposition returns CO2 to the air."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Fast cycle", "items": ["Days to years", "Photosynthesis and respiration"] }, "right": { "title": "Slow cycle", "items": ["Millions of years", "Burial into fossil fuels"] } }
+    },
+    {
+      "id": "sc-ch13b-s18",
+      "sec": "13.3.2",
+      "title": "The Slow Carbon Cycle",
+      "kicker": "Millions of years in the making.",
+      "bullets": [
+        "In the slow cycle, dead plants and animals get buried over millions of years and are converted to fossil fuels such as coal, oil and gas.",
+        "These fuels are burnt to provide energy for heating, cooking, transportation and industrial purposes.",
+        "When fossil fuels are burnt, carbon is released back as CO2 on a very short time scale."
+      ],
+      "note": "Crores saal ka saving, kuch hi minutes mein spend!"
+    },
+    {
+      "id": "sc-ch13b-s19",
+      "sec": "13.3.2",
+      "title": "The Ocean's Carbon Grip",
+      "kicker": "Phytoplankton bhi photosynthesis karte hain.",
+      "bullets": [
+        "The atmosphere and ocean water continuously exchange CO2, and ocean water absorbs atmospheric CO2 to form carbonate and bicarbonate ions.",
+        "Phytoplankton use these ions for photosynthesis, and some marine organisms use them to form shells.",
+        "When organisms die they sink to the ocean floor, and their organic matter is stored as carbon for a long period."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s20",
+      "sec": "13.3.2",
+      "title": "The 35 Percent Rise",
+      "kicker": "315 se 420 ppm. Bada jump.",
+      "bullets": [
+        "Burning fossil fuels and deforestation have raised atmospheric CO2 by about 35 percent since 1960, from 315 ppm to 420 ppm.",
+        "Some CO2 is necessary to keep the Earth warm enough to sustain life, but the balance is critical.",
+        "Excess CO2 intensifies the greenhouse effect, so glaciers and Arctic sea ice melt, sea level rises and weather becomes more extreme.",
+        "In India this may lead to more intense monsoons, since warmer air holds more moisture, and threats to agriculture."
+      ],
+      "note": "Keeling curve ke sawtooth dips: Northern Hemisphere plants absorb CO2 each year."
+    },
+    {
+      "id": "sc-ch13b-s21",
+      "sec": "13.3.3",
+      "title": "Nitrogen: Plenty Yet Locked",
+      "kicker": "Sabse zyada nitrogen hawa mein hai.",
+      "bullets": [
+        "Nitrogen is an essential element for the synthesis of proteins and nucleic acids in all living organisms.",
+        "The largest reservoir of nitrogen is our atmosphere, but nitrogen gas is rather non-reactive.",
+        "It cannot be directly used by plants and animals; it must first be converted to soluble compounds that living beings can absorb."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s22",
+      "sec": "13.3.3",
+      "title": "Fixers and Nitrifiers",
+      "kicker": "Tiny bacteria, bade kaam.",
+      "bullets": [
+        "Nitrogen-fixing bacteria such as Rhizobium in the root nodules of legumes and Azotobacter in the soil convert atmospheric N2 into ammonia.",
+        "Nitrifying bacteria continue the chain: Nitrosomonas converts ammonia into nitrite, while Nitrobacter converts nitrite into nitrate.",
+        "This conversion of ammonia to nitrite and nitrate is known as nitrification."
+      ],
+      "visual": { "kind": "flow", "items": ["N2 fixed into ammonia", "Ammonia becomes nitrite", "Nitrite becomes nitrate", "Plants absorb the nitrate"] },
+      "note": "Bacteria ka conveyor belt: N2 se nitrate tak."
+    },
+    {
+      "id": "sc-ch13b-s23",
+      "sec": "13.3.3",
+      "title": "Assimilate, Decompose, Return",
+      "kicker": "The cycle closes with Pseudomonas.",
+      "bullets": [
+        "Plants assimilate nitrogen compounds from the soil, while animals obtain nitrogen by consuming plants or other animals.",
+        "On death or waste, decomposers like bacteria and fungi break organic matter, returning ammonia to the soil in ammonification.",
+        "Denitrifying bacteria such as Pseudomonas convert some nitrates back into nitrogen gas, completing the cycle and maintaining balance.",
+        "Lightning also contributes to the fixation of nitrogen oxides."
+      ]
+    },
+    {
+      "id": "sc-ch13b-s24",
+      "sec": "13.3.3",
+      "title": "Bread from Air",
+      "kicker": "Haber-Bosch fed billions.",
+      "bullets": [
+        "Since the early 1900s, most nitrogen is fixed artificially via the Haber-Bosch process of making ammonia from atmospheric nitrogen.",
+        "It produces most fertilisers used today; Bread from Air revolutionised agriculture, enabled India's Green Revolution and feeds billions.",
+        "More than half the nitrogen atoms in the human body come from the Haber-Bosch process.",
+        "But the reaction is energy intensive, using about 1 to 2 percent of global energy, and fertiliser overuse has degraded soil and water."
+      ],
+      "note": "Hawa se roti: science ka sabse tasty revolution."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch13b-f1", "sec": "13.2.2", "front": "What are planetary winds and what causes them?", "back": "Winds set in motion over long distances by the large scale pressure differences created by uneven heating between the equator and the poles.", "tag": "definition" },
+    { "id": "sc-ch13b-f2", "sec": "13.2.2", "front": "Which pressure belt forms at the equator and why?", "back": "The equatorial low pressure belt, because intense heating by the Sun makes warm air rise near the equator.", "tag": "concept" },
+    { "id": "sc-ch13b-f3", "sec": "13.2.2", "front": "Where does rising equatorial air sink in its loop?", "back": "Around 30 degrees North and South, forming the sub-tropical high pressure belts once the cooled air becomes denser.", "tag": "concept" },
+    { "id": "sc-ch13b-f4", "sec": "13.2.2", "front": "How does the Earth's rotation change wind direction?", "back": "It deflects winds from straight paths, towards the right in the Northern Hemisphere and towards the left in the Southern Hemisphere.", "tag": "concept" },
+    { "id": "sc-ch13b-f5", "sec": "13.2.3", "front": "What are ocean currents?", "back": "The continuous movement of large masses of ocean water, influenced by winds, pressure differences, temperature, salinity, rotation and land masses.", "tag": "definition" },
+    { "id": "sc-ch13b-f6", "sec": "13.2.3", "front": "What mainly sets surface currents in motion?", "back": "Strong planetary winds drag the surface water of the oceans because of friction, setting surface currents in motion.", "tag": "concept" },
+    { "id": "sc-ch13b-f7", "sec": "13.2.3", "front": "What is a gyre and which way does it spin?", "back": "A large circular pattern of ocean currents formed by the Earth's rotation; clockwise in the Northern Hemisphere, counter clockwise in the Southern.", "tag": "definition" },
+    { "id": "sc-ch13b-f8", "sec": "13.2.3", "front": "How does the Gulf Stream help northwestern Europe?", "back": "Its extension, the North Atlantic Drift, carries warm water to the northwestern coast of Europe, keeping many ports ice-free during winter.", "tag": "example" },
+    { "id": "sc-ch13b-f9", "sec": "13.3", "front": "Define the biogeochemical cycle.", "back": "The cyclic movement of matter and energy between the abiotic and biotic components of the Earth.", "tag": "definition" },
+    { "id": "sc-ch13b-f10", "sec": "13.3", "front": "Name three nutrients kept available by these cycles.", "back": "Carbon, nitrogen and oxygen are recycled so they remain available to support life on the Earth.", "tag": "example" },
+    { "id": "sc-ch13b-f11", "sec": "13.3", "front": "How does interconnectedness help ecosystems?", "back": "It helps ecosystems recover from disturbances or degradation and maintain environmental balance.", "tag": "concept" },
+    { "id": "sc-ch13b-f12", "sec": "13.3.1", "front": "List the main terms of the water cycle.", "back": "Evaporation, transpiration, condensation, precipitation, infiltration and groundwater.", "tag": "definition" },
+    { "id": "sc-ch13b-f13", "sec": "13.3.1", "front": "In what forms does precipitation reach the surface?", "back": "Precipitation returns water to the surface in the form of rain, hail or snow.", "tag": "trivia" },
+    { "id": "sc-ch13b-f14", "sec": "13.3.1", "front": "How does a warmer atmosphere change rainfall?", "back": "It holds more moisture, causing heavier rains like intensified monsoons in some areas and droughts elsewhere.", "tag": "concept" },
+    { "id": "sc-ch13b-f15", "sec": "13.3.1", "front": "Which coastal cities are threatened by rising seas?", "back": "Mumbai and Chennai, as melting glaciers add water to rivers and raise sea levels in the long run.", "tag": "example" },
+    { "id": "sc-ch13b-f16", "sec": "13.3.2", "front": "Why is carbon called the backbone of life?", "back": "Every protein, carbohydrate, fat and DNA molecule contains carbon.", "tag": "definition" },
+    { "id": "sc-ch13b-f17", "sec": "13.3.2", "front": "Distinguish the fast and slow carbon cycles.", "back": "The fast cycle runs over days to years via photosynthesis and respiration; the slow cycle takes millions of years to form fossil fuels.", "tag": "concept" },
+    { "id": "sc-ch13b-f18", "sec": "13.3.2", "front": "How do oceans take in atmospheric CO2?", "back": "Ocean water absorbs CO2 to form carbonate and bicarbonate ions, used by phytoplankton for photosynthesis and by organisms to form shells.", "tag": "concept" },
+    { "id": "sc-ch13b-f19", "sec": "13.3.2", "front": "How much did atmospheric CO2 rise since 1960?", "back": "By about 35 percent, from 315 ppm to 420 ppm, an unprecedented rise in the history of human civilisation.", "tag": "trivia" },
+    { "id": "sc-ch13b-f20", "sec": "13.3.2", "front": "What causes the sawtooth dips in the Keeling curve?", "back": "Seasonal dips from the yearly plant growth in the Northern Hemisphere absorbing CO2.", "tag": "trivia" },
+    { "id": "sc-ch13b-f21", "sec": "13.3.3", "front": "Why can't plants use atmospheric nitrogen directly?", "back": "Nitrogen gas is rather non-reactive, so it must first be converted to soluble compounds that living beings can absorb.", "tag": "concept" },
+    { "id": "sc-ch13b-f22", "sec": "13.3.3", "front": "Which bacteria fix nitrogen, and where do they live?", "back": "Rhizobium in the root nodules of legumes and Azotobacter in the soil convert atmospheric N2 into ammonia.", "tag": "concept" },
+    { "id": "sc-ch13b-f23", "sec": "13.3.3", "front": "What happens during nitrification?", "back": "Nitrosomonas converts ammonia into nitrite, and then Nitrobacter converts nitrite into nitrate.", "tag": "definition" },
+    { "id": "sc-ch13b-f24", "sec": "13.3.3", "front": "What is denitrification?", "back": "Denitrifying bacteria like Pseudomonas convert some nitrates back into nitrogen gas, completing the nitrogen cycle.", "tag": "definition" },
+    { "id": "sc-ch13b-f25", "sec": "13.3.3", "front": "What is the Haber-Bosch process?", "back": "An early 1900s process that makes ammonia from atmospheric nitrogen, producing most of the fertilisers used today.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "sc-ch13b-q1", "sec": "13.2.2", "q": "Which pressure belt forms near the equator?", "options": ["Equatorial low pressure belt", "Sub-tropical high pressure belt", "Polar high pressure belt", "Sub-polar low pressure belt"], "answer": 0, "why": "Intense heating makes warm air rise at the equator, creating a low pressure belt.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q2", "sec": "13.2.2", "q": "Air that rises at the equator sinks mainly around which latitudes?", "options": ["Around 60 degrees North and South", "Around 30 degrees North and South", "Only exactly at the poles", "It never sinks at all"], "answer": 1, "why": "On cooling the air becomes denser and sinks near 30 degrees, forming sub-tropical high belts.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q3", "sec": "13.2.2", "q": "In the Southern Hemisphere, planetary winds are deflected towards the...", "options": ["Right", "Not at all, paths stay straight", "Left", "Nearest ocean only"], "answer": 2, "why": "Earth's rotation deflects winds left in the Southern Hemisphere and right in the Northern Hemisphere.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q4", "sec": "13.2.2", "q": "What creates the sub-polar low pressure belts?", "options": ["Cold dense air sinking near 90 degrees", "Warm air rising near the equator", "Air rising near 60 degrees where it meets cold polar air", "Friction between wind and the ocean surface"], "answer": 2, "why": "Poleward surface air rises again around 60 degrees and meets cold polar air, forming low belts.", "difficulty": "hard" },
+    { "id": "sc-ch13b-q5", "sec": "13.2.3", "q": "Surface ocean currents are mainly set in motion by...", "options": ["The gravity of the Moon", "Strong planetary winds dragging water by friction", "Melting ice sheets at the poles", "Ships crossing the ocean"], "answer": 1, "why": "Strong planetary winds drag the surface water because of friction, setting surface currents in motion.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q6", "sec": "13.2.3", "q": "Ocean water with higher salinity tends to...", "options": ["Remain near the surface", "Become warmer", "Evaporate quickly", "Sink and move at deeper levels"], "answer": 3, "why": "Higher salinity makes water denser, so it sinks and moves at deeper levels in the ocean.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q7", "sec": "13.2.3", "q": "In the Northern Hemisphere, gyres rotate...", "options": ["Counter clockwise", "In a new direction each season", "Clockwise", "Only westward along the equator"], "answer": 2, "why": "The Earth's rotation deflects moving water, so gyres spin clockwise in the Northern Hemisphere.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q8", "sec": "13.2.3", "q": "Why do many ports on the northwestern coast of Europe stay ice-free in winter?", "options": ["Cold polar currents cool them evenly", "The North Atlantic Drift brings warm water there", "High salinity prevents any ice from forming", "Mountain winds descend and warm the ports"], "answer": 1, "why": "This warm current, an extension of the Gulf Stream, flows to northwestern Europe and keeps ports ice-free.", "difficulty": "hard" },
+    { "id": "sc-ch13b-q9", "sec": "13.3", "q": "The cyclic movement of matter and energy between abiotic and biotic components is called the...", "options": ["Water cycle", "Biogeochemical cycle", "Food web", "Carbon footprint"], "answer": 1, "why": "This cyclic movement between non-living and living components defines the biogeochemical cycle.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q10", "sec": "13.3", "q": "Which of these nutrients is recycled through biogeochemical cycles?", "options": ["Plastic", "Glass", "Carbon", "Nylon"], "answer": 2, "why": "Essential nutrients such as carbon, nitrogen and oxygen are recycled to remain available for life.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q11", "sec": "13.3", "q": "How do interconnected ecosystems respond to disturbances?", "options": ["They collapse permanently", "They remain completely unaffected", "They stop all exchange of matter", "They help each other recover and maintain balance"], "answer": 3, "why": "Interconnectedness helps ecosystems recover from disturbances or degradation and maintain environmental balance.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q12", "sec": "13.3.1", "q": "Clouds form in the water cycle through the process of...", "options": ["Evaporation", "Condensation", "Infiltration", "Transpiration"], "answer": 1, "why": "Water vapour condenses to form clouds before returning as precipitation.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q13", "sec": "13.3.1", "q": "Sudden bursts of intense rainfall most directly lead to...", "options": ["Better groundwater recharge", "Stronger winds along the coast", "More runoff that erodes soil", "Slower glacier melting"], "answer": 2, "why": "Intense rainfall creates more runoff that erodes soil, while infiltration reduces.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q14", "sec": "13.3.1", "q": "Why does reduced infiltration make agriculture harder in dry months?", "options": ["It raises sea levels immediately", "It reduces the recharge of groundwater needed to sustain farming", "It increases transpiration in crops", "It cools the soil surface too much"], "answer": 1, "why": "Less infiltration reduces groundwater recharge, which makes sustaining agriculture difficult in dry months.", "difficulty": "hard" },
+    { "id": "sc-ch13b-q15", "sec": "13.3.1", "q": "Which spheres does the water cycle link, according to the book?", "options": ["Only the atmosphere and hydrosphere", "Only the biosphere and geosphere", "Cryosphere, hydrosphere, atmosphere, geosphere and biosphere", "Only glaciers and oceans"], "answer": 2, "why": "The water cycle links glaciers, rivers and oceans, moisture, soil, and crops and fisheries.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q16", "sec": "13.3.2", "q": "Which process converts atmospheric CO2 into glucose?", "options": ["Respiration", "Decomposition", "Combustion", "Photosynthesis"], "answer": 3, "why": "Plants use sunlight in photosynthesis to convert atmospheric CO2 into glucose.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q17", "sec": "13.3.2", "q": "Fossil fuels such as coal, oil and gas formed over...", "options": ["A few days", "About 100 years", "Millions of years", "A single growing season"], "answer": 2, "why": "In the slow cycle, buried dead plants and animals convert to fossil fuels over millions of years.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q18", "sec": "13.3.2", "q": "Atmospheric CO2 was 315 ppm in 1960. Today it is about...", "options": ["About 205 ppm", "About 630 ppm", "About 315 ppm", "About 420 ppm"], "answer": 3, "why": "CO2 rose by about 35 percent since 1960, reaching about 420 ppm by 2025.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q19", "sec": "13.3.2", "q": "Living organisms return carbon to the air mainly through...", "options": ["Respiration", "Photosynthesis", "Nitrogen fixation", "Precipitation"], "answer": 0, "why": "CO2 is released back into the atmosphere through respiration.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q20", "sec": "13.3.2", "q": "In the Keeling curve, what causes the yearly sawtooth dips in CO2?", "options": ["Seasonal plant growth in the Northern Hemisphere absorbing CO2", "Ocean currents reversing twice a year", "Changing solar output every six months", "Seasonal volcanic eruptions"], "answer": 0, "why": "The sawtooth pattern shows seasonal dips from yearly plant growth in the Northern Hemisphere.", "difficulty": "hard" },
+    { "id": "sc-ch13b-q21", "sec": "13.3.3", "q": "The largest reservoir of nitrogen is the...", "options": ["Soil", "Oceans", "Atmosphere", "Fossil fuels"], "answer": 2, "why": "The book states that the largest reservoir of nitrogen is our atmosphere.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q22", "sec": "13.3.3", "q": "Rhizobium, a nitrogen-fixing bacterium, lives in the...", "options": ["Root nodules of legumes", "Open ocean water", "Human intestines", "Bark of dead trees"], "answer": 0, "why": "Rhizobium lives in the root nodules of legumes and converts N2 into ammonia.", "difficulty": "easy" },
+    { "id": "sc-ch13b-q23", "sec": "13.3.3", "q": "Nitrosomonas converts ammonia into...", "options": ["Nitrate", "Nitrogen gas", "Nitrite", "Protein"], "answer": 2, "why": "Nitrosomonas converts ammonia into nitrite; Nitrobacter then converts nitrite into nitrate.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q24", "sec": "13.3.3", "q": "Which process returns nitrogen gas to the atmosphere?", "options": ["Nitrification", "Denitrification", "Assimilation", "Ammonification"], "answer": 1, "why": "Pseudomonas converts some nitrates back into nitrogen gas through denitrification.", "difficulty": "medium" },
+    { "id": "sc-ch13b-q25", "sec": "13.3.3", "q": "What share of the nitrogen atoms in the human body comes from the Haber-Bosch process?", "options": ["Less than 10 percent", "Exactly one quarter", "About one third", "More than half"], "answer": 3, "why": "The book states more than half the nitrogen atoms in the human body come from Haber-Bosch.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch13b-e1",
+      "title": "A carbon atom's fast cycle journey",
+      "problem": "Trace how one carbon atom travels from the atmosphere through a plant and an animal, and back to the atmosphere in the fast carbon cycle.",
+      "steps": [
+        "The carbon atom exists as CO2 gas in the atmosphere.",
+        "A plant absorbs it, and photosynthesis converts the CO2 into glucose using sunlight.",
+        "An animal eats the plant, so the carbon becomes part of the animal's body.",
+        "The animal releases CO2 through respiration, and after it dies, decomposition returns the remaining carbon to the air as CO2."
+      ],
+      "answer": "The carbon atom returns to the atmosphere as CO2, completing the fast cycle that runs over days to years."
+    },
+    {
+      "id": "sc-ch13b-e2",
+      "title": "A nitrogen molecule's five-stop tour",
+      "problem": "Follow atmospheric N2 through the nitrogen cycle until it returns to the air, naming the bacteria involved at each step.",
+      "steps": [
+        "Rhizobium in the root nodules of legumes, or Azotobacter in the soil, fixes N2 into ammonia.",
+        "Nitrosomonas converts ammonia into nitrite, and Nitrobacter converts nitrite into nitrate; this is nitrification.",
+        "A plant assimilates the nitrogen compounds from the soil, and an animal obtains nitrogen by eating the plant.",
+        "After death or waste production, decomposers like bacteria and fungi return ammonia to the soil in ammonification.",
+        "Pseudomonas converts some nitrates back into nitrogen gas in denitrification."
+      ],
+      "answer": "The nitrogen completes the cycle back to N2 gas, maintaining the balance of nitrogen in the ecosystem."
+    },
+    {
+      "id": "sc-ch13b-e3",
+      "title": "How much did CO2 rise since 1960?",
+      "problem": "Atmospheric CO2 was 315 ppm in 1960 and about 420 ppm in 2025. Calculate the percentage rise that the book reports as about 35 percent.",
+      "steps": [
+        "Find the increase: 420 ppm minus 315 ppm equals 105 ppm.",
+        "Divide the increase by the starting value: 105/315 equals about 0.333.",
+        "Multiply by 100: 0.333 x 100 gives about 33.3 percent, which the book rounds to about 35 percent."
+      ],
+      "answer": "CO2 rose by about one third, from 315 ppm to 420 ppm, an unprecedented rise in the history of human civilisation."
+    }
+  ]
+}

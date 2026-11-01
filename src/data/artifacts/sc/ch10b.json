@@ -1,0 +1,480 @@
+{
+  "book": "sc",
+  "chapter": 10,
+  "part": "b",
+  "title": "Sound Waves: Characteristics and Applications",
+  "grade": 9,
+  "sections": [
+    { "id": "10.6.3", "title": "Speed of Sound" },
+    { "id": "10.6.4", "title": "Human perception of sound" },
+    { "id": "10.7", "title": "Reflection of Sound" },
+    { "id": "10.7.1", "title": "Echo" },
+    { "id": "10.7.2", "title": "Reverberation" },
+    { "id": "10.8", "title": "Ultrasonic and Infrasonic Waves, and their Applications" },
+    { "id": "10.8.1", "title": "Echolocation" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch10b-s1",
+      "sec": "10.6.3",
+      "title": "How fast sound travels",
+      "kicker": "Chasing a crest across the room",
+      "bullets": [
+        "The speed of sound describes how fast sound waves propagate through a medium.",
+        "In terms of compressions and rarefactions, think of speed as how fast these density disturbances travel through the medium.",
+        "Formally, speed is the distance which a point on a wave, such as a crest or a trough, travels in unit time."
+      ],
+      "visual": { "kind": "labels", "items": ["speed of sound", "compressions", "rarefactions", "crest", "trough"] },
+      "note": "Crest ko race mein daalo, speed mil jaayegi!"
+    },
+    {
+      "id": "sc-ch10b-s2",
+      "sec": "10.6.3",
+      "title": "The wave speed formula",
+      "kicker": "One wavelength covered per time period",
+      "bullets": [
+        "A disturbance covers exactly one wavelength, the gap between two consecutive crests, in one time period T.",
+        "So speed = wavelength / time period, which becomes speed = wavelength x frequency.",
+        "The book writes this as Equation 10.2: speed of sound = wavelength x frequency."
+      ],
+      "visual": { "kind": "flow", "items": ["One wavelength of distance", "Covered in one time period T", "Speed = wavelength / T", "Speed = wavelength x frequency"] },
+      "note": "Equation 10.2 yaad rakho!"
+    },
+    {
+      "id": "sc-ch10b-s3",
+      "sec": "10.6.3",
+      "title": "Medium changes the speed",
+      "kicker": "Solids race, gases take it slow",
+      "bullets": [
+        "The speed of sound depends on the medium: it travels fastest in solids, slower in liquids, and slowest in gases.",
+        "Sound travels about 4 to 5 times faster in water than in air.",
+        "In solids it is typically 15 to 20 times faster than in air."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "In air (slowest)", "items": ["Gases are the slowest", "About 331 to 344 m/s in air"] }, "right": { "title": "Denser media (faster)", "items": ["Water: 4 to 5 times faster", "Solids: 15 to 20 times faster"] } },
+      "note": "Particles jitne paas-paas, sound utni tez!"
+    },
+    {
+      "id": "sc-ch10b-s4",
+      "sec": "10.6.3",
+      "title": "Warm and humid means faster",
+      "kicker": "Weather nudges the speed of sound",
+      "bullets": [
+        "The speed of sound in air also depends on the temperature and humidity.",
+        "As we increase the temperature or the humidity, the speed of sound increases.",
+        "In dry air the speed is about 331 m/s at 0 degrees C and nearly 344 m/s at 22 degrees C."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Temperature of dry air (degrees C)", "ylabel": "Speed of sound (m/s)", "points": [[0, 331], [22, 344]] },
+      "note": "Garmi badhi toh sound bhi bhaagega!"
+    },
+    {
+      "id": "sc-ch10b-s5",
+      "sec": "10.6.4",
+      "title": "Measured waves, felt sound",
+      "kicker": "Same wave, different experience",
+      "bullets": [
+        "Time period, wavelength, frequency, amplitude and speed are physical properties that are well-defined and can be measured.",
+        "How we experience sound is subjective, so we describe it using terms like loudness and pitch.",
+        "Loudness and pitch do not have simple relations with the physical properties of the wave."
+      ],
+      "note": "Same speaker, alag feel for everyone!"
+    },
+    {
+      "id": "sc-ch10b-s6",
+      "sec": "10.6.4",
+      "title": "Pitch is heard frequency",
+      "kicker": "Shrill whistle or deep thunder?",
+      "bullets": [
+        "Pitch is how the frequency of a sound is perceived by humans.",
+        "Shrill sounds, such as a whistle or a siren, are said to have high pitch, so they generally have higher frequency.",
+        "Deep sounds like thunder or an aircraft rumble have low pitch and lower frequency.",
+        "The exact mathematical relation between pitch and frequency is complicated."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "High pitch", "items": ["Shrill, like a whistle or siren", "Higher frequency"] }, "right": { "title": "Low pitch", "items": ["Deep, like thunder or an aircraft rumble", "Lower frequency"] } },
+      "note": "Whistle upar, thunder neeche!"
+    },
+    {
+      "id": "sc-ch10b-s7",
+      "sec": "10.6.4",
+      "title": "Why voices sound different",
+      "kicker": "Throat, mouth and nose shape you",
+      "bullets": [
+        "Male, female and children's voices differ not just in frequency but also in how the sound is shaped by the throat, mouth and nasal cavities.",
+        "During adolescence, the vocal cords of boys lengthen and thicken and vibrate less frequently, thus deepening their voice."
+      ],
+      "note": "Teen voice change is pure physics!"
+    },
+    {
+      "id": "sc-ch10b-s8",
+      "sec": "10.6.4",
+      "title": "The audible range",
+      "kicker": "20 Hz to 20 kHz, more or less",
+      "bullets": [
+        "Humans can only hear a limited range of sound frequencies, called the audible range: 20 Hz to 20,000 Hz (20 kHz).",
+        "This range varies from person to person and decreases with age.",
+        "Sound below 20 Hz is called infrasonic; sound above 20 kHz is called ultrasonic.",
+        "Dogs, cats, bats and dolphins can detect ultrasound, while elephants can detect infrasound."
+      ],
+      "visual": { "kind": "tree", "root": "Sound frequencies", "children": ["Infrasonic below 20 Hz", "Audible 20 Hz to 20 kHz", "Ultrasonic above 20 kHz"] },
+      "note": "Hum kuch nahi sunte, elephant sun leta hai!"
+    },
+    {
+      "id": "sc-ch10b-s9",
+      "sec": "10.6.4",
+      "title": "Loudness is felt amplitude",
+      "kicker": "Bigger shake, bigger sound",
+      "bullets": [
+        "Humans perceive the amplitude of a sound wave as loudness.",
+        "Sounds with larger amplitude are heard louder, while those with smaller amplitude sound softer.",
+        "The loudness decreases as we move farther away from the source.",
+        "In everyday language, loudness and intensity are used interchangeably, but intensity is a measurable quantity."
+      ],
+      "note": "Door jaoge toh awaaz dhundhli!"
+    },
+    {
+      "id": "sc-ch10b-s10",
+      "sec": "10.7",
+      "title": "Sound bounces back",
+      "kicker": "Walls can throw sound too",
+      "bullets": [
+        "Sound waves can bounce off obstacles like solids or liquids; this is known as the reflection of sound.",
+        "One of the most common examples of the reflection of sound is an echo."
+      ],
+      "visual": { "kind": "labels", "items": ["reflection", "obstacle", "bounce", "echo"] },
+      "note": "Awaaz ki utpatan, simple bounce!"
+    },
+    {
+      "id": "sc-ch10b-s11",
+      "sec": "10.7",
+      "title": "Sound obeys light's laws",
+      "kicker": "Equal angles, one shared plane",
+      "bullets": [
+        "Sound follows the same laws of reflection as those of light.",
+        "The incident and reflected sound make equal angles with the normal to the reflecting surface at the point of incidence.",
+        "All three directions, incident, normal and reflected, lie in the same plane."
+      ],
+      "visual": { "kind": "steps", "items": ["Incident sound strikes the surface", "Normal is drawn at the point of incidence", "Reflected sound leaves at an equal angle", "All three directions stay in one plane"] },
+      "note": "Angle i equals angle r, sound ke liye bhi!"
+    },
+    {
+      "id": "sc-ch10b-s12",
+      "sec": "10.7",
+      "title": "From bounce to echo",
+      "kicker": "One plain bounce, big consequences",
+      "bullets": [
+        "Any hard obstacle, like a solid wall, can act as a reflecting surface for sound waves.",
+        "When the reflected sound reaches you after a noticeable gap, you hear it as an echo.",
+        "This simple bounce is the seed for echoes, reverberation and even sonar in the coming sections."
+      ],
+      "visual": { "kind": "flow", "items": ["Shout near a cliff", "Sound hits the hard surface", "Reflection returns to you", "You hear an echo"] },
+      "note": "Ek bounce se poora chapter banta hai!"
+    },
+    {
+      "id": "sc-ch10b-s13",
+      "sec": "10.7.1",
+      "title": "Hear your own shout",
+      "kicker": "Mountains answer back with echoes",
+      "bullets": [
+        "If we shout near a mountain, a cliff, or in a long corridor, we may hear our voice again after some time; this is an echo.",
+        "The sound reflects off the hard surface of a distant object and comes back to us."
+      ],
+      "note": "Pahaad tumhari awaaz lautata hai!"
+    },
+    {
+      "id": "sc-ch10b-s14",
+      "sec": "10.7.1",
+      "title": "The 0.1 second rule",
+      "kicker": "Your brain needs a gap",
+      "bullets": [
+        "Echoes are not heard everywhere; in a small room, wall reflections arrive too quickly for the brain to separate them.",
+        "If the time gap between two sounds reaching us is at least 0.1 s, we can hear them as separate sounds.",
+        "If the gap is less than 0.1 s, we cannot clearly distinguish between the two sounds."
+      ],
+      "note": "0.1 second, brain ka secret password!"
+    },
+    {
+      "id": "sc-ch10b-s15",
+      "sec": "10.7.1",
+      "title": "Finding minimum echo distance",
+      "kicker": "0.1 s sets a 17 m limit",
+      "bullets": [
+        "The 0.1 s gap helps us estimate the minimum distance of a reflecting surface from which an echo can be heard.",
+        "Taking the speed of sound as 340 m/s, the distance covered in 0.1 s is 340 x 0.1 = 34.0 m.",
+        "Note that 34 m is the distance from the source to the surface and back.",
+        "Hence the minimum echo distance is half of this, that is 17 m."
+      ],
+      "visual": { "kind": "steps", "items": ["Brain needs a 0.1 s gap", "Sound covers 340 x 0.1 = 34 m", "34 m is the to-and-fro distance", "One-way minimum distance = 17 m"] },
+      "note": "17 m se paas ki deewar echo nahi degi!"
+    },
+    {
+      "id": "sc-ch10b-s16",
+      "sec": "10.7.1",
+      "title": "Surfaces make or break echoes",
+      "kicker": "Hard and smooth reflect best",
+      "bullets": [
+        "Echoes are stronger from hard and smooth surfaces that reflect sound.",
+        "Soft surfaces like curtains tend to absorb sound.",
+        "Rough surfaces scatter sound in different directions, so echoes cannot be heard clearly in such cases."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Strong echoes", "items": ["Hard surfaces", "Smooth surfaces"] }, "right": { "title": "Weak or no echoes", "items": ["Soft surfaces like curtains absorb sound", "Rough surfaces scatter sound"] } },
+      "note": "Deewar sakht ho, echo mazboot!"
+    },
+    {
+      "id": "sc-ch10b-s17",
+      "sec": "10.7.2",
+      "title": "When sound refuses to stop",
+      "kicker": "Many reflections, one lingering hum",
+      "bullets": [
+        "In a large hall or auditorium, the emitted sound can undergo multiple reflections from the walls.",
+        "Multiple reflections make sound persist after the source stops emitting it; this is called reverberation.",
+        "It occurs when sound reflections from surfaces arrive with a time difference less than 0.05 s."
+      ],
+      "note": "Gaana band, awaaz zinda!"
+    },
+    {
+      "id": "sc-ch10b-s18",
+      "sec": "10.7.2",
+      "title": "Designing halls for clear sound",
+      "kicker": "Good reverberation helps, excess garbles",
+      "bullets": [
+        "Modern auditoriums and large concert halls are architecturally designed to have desirable reverberations.",
+        "Desirable reverberations let the audience everywhere hear speech, music and other sounds clearly without any distortions.",
+        "Too many reflections from unwanted sources could lead to garbled sound."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Desirable reverberation", "items": ["Clear speech and music everywhere", "No distortion for the audience"] }, "right": { "title": "Excess reverberation", "items": ["Overlapping reflections", "Garbled sound"] } },
+      "note": "Acoustics bhi ek art hai!"
+    },
+    {
+      "id": "sc-ch10b-s19",
+      "sec": "10.7.2",
+      "title": "Soft materials soak up sound",
+      "kicker": "Absorb, upholster, curtain, done",
+      "bullets": [
+        "Sound absorbing panels, upholstered chairs, curtains and other soft, porous surfaces reduce reverberations.",
+        "These materials stop the unwanted reflections that would otherwise pile up into garbled sound."
+      ],
+      "visual": { "kind": "labels", "items": ["absorbing panels", "upholstered chairs", "curtains", "soft porous surfaces"] },
+      "note": "Naram cheezein awaaz nigal jaati hain!"
+    },
+    {
+      "id": "sc-ch10b-s20",
+      "sec": "10.7.2",
+      "title": "Gol Gumbaz whispers",
+      "kicker": "A dome that repeats your whisper",
+      "bullets": [
+        "Medieval architects across the world, including in India, designed several monuments with deep acoustic insights.",
+        "The Whispering Gallery of the Gol Gumbaz in Bijapur, Karnataka, lets even a faint whisper be heard multiple times across the large dome."
+      ],
+      "note": "Ek whisper, kai dafa sunai de!"
+    },
+    {
+      "id": "sc-ch10b-s21",
+      "sec": "10.8",
+      "title": "Sound we cannot hear",
+      "kicker": "Useful waves beyond human ears",
+      "bullets": [
+        "Sound waves with frequencies outside the human audible range still exist all around us.",
+        "These waves have important applications in science, medicine and technology."
+      ],
+      "visual": { "kind": "tree", "root": "Applications of inaudible sound", "children": ["Detecting earthquakes and storms", "Ultrasonography", "Breaking kidney stones", "Welding and cleaning", "Testing metal blocks"] },
+      "note": "Jo dikhta nahi, kaam aata hai!"
+    },
+    {
+      "id": "sc-ch10b-s22",
+      "sec": "10.8",
+      "title": "Infrasound keeps watch",
+      "kicker": "Nature's own long-distance messenger",
+      "bullets": [
+        "Infrasonic waves are used for detecting natural events, such as earthquakes and volcanic eruptions.",
+        "They are also used for detecting severe storms, as such waves travel long distances through air and the Earth."
+      ],
+      "visual": { "kind": "labels", "items": ["earthquakes", "volcanic eruptions", "severe storms", "long distance travel"] },
+      "note": "Prakriti ka warning system, infra style!"
+    },
+    {
+      "id": "sc-ch10b-s23",
+      "sec": "10.8",
+      "title": "Ultrasound at work",
+      "kicker": "Medicine and industry love ultrasound",
+      "bullets": [
+        "Ultrasonography uses ultrasound to image internal organs without surgery.",
+        "Ultrasound is used for breaking kidney stones into smaller pieces, which can then be passed out of the body.",
+        "Industries use it for ultrasonic welding and for cleaning delicate machine parts."
+      ],
+      "visual": { "kind": "labels", "items": ["ultrasonography", "kidney stones", "ultrasonic welding", "cleaning machine parts"] },
+      "note": "Bina operation, organ ki tasveer!"
+    },
+    {
+      "id": "sc-ch10b-s24",
+      "sec": "10.8",
+      "title": "Ultrasound tests the metal",
+      "kicker": "Finding hidden flaws before failure",
+      "bullets": [
+        "Ultrasonic waves are used for detecting defects inside metal blocks during construction and industrial testing.",
+        "They are also used for locating objects when sound waves get reflected off them."
+      ],
+      "note": "Metal ki chhupi hui kami pakdi jaati hai!"
+    },
+    {
+      "id": "sc-ch10b-s25",
+      "sec": "10.8.1",
+      "title": "Bats see with echoes",
+      "kicker": "Flying blind, hunting perfectly",
+      "bullets": [
+        "Bats are nocturnal creatures that fly and search for their prey in the dark without colliding into objects.",
+        "Most bats emit short bursts of ultrasonic waves which are reflected from nearby objects.",
+        "By sensing the echoes, the bat can determine the position of obstacles and prey."
+      ],
+      "visual": { "kind": "flow", "items": ["Bat emits ultrasonic burst", "Waves strike obstacle or prey", "Echoes return to the bat", "Bat senses position of objects"] },
+      "note": "Andhera? Bats ka jawab hai echo!"
+    },
+    {
+      "id": "sc-ch10b-s26",
+      "sec": "10.8.1",
+      "title": "Echolocation, a shared skill",
+      "kicker": "Not just bats do this",
+      "bullets": [
+        "The ability to locate objects using reflected sound waves is called echolocation.",
+        "Besides bats, animals such as dolphins, whales and some birds also use echolocation for navigation and hunting."
+      ],
+      "visual": { "kind": "tree", "root": "Echolocation users", "children": ["Bats", "Dolphins", "Whales", "Some birds"] },
+      "note": "Sound se dekhna, poori jaanvar gang!"
+    },
+    {
+      "id": "sc-ch10b-s27",
+      "sec": "10.8.1",
+      "title": "Sonar goes underwater",
+      "kicker": "Ping, listen, measure the deep",
+      "bullets": [
+        "Humans have adapted the same principle for underwater exploration through sonar, sound navigation and ranging.",
+        "In sonar, ultrasonic waves are sent into water and the reflected waves are analysed.",
+        "The reflections determine the distance, direction and speed of underwater objects, such as submarines or shipwrecks."
+      ],
+      "visual": { "kind": "flow", "items": ["Sonar sends ultrasonic waves into water", "Waves reflect off submarines or shipwrecks", "Reflected waves are analysed", "Distance, direction and speed found"] },
+      "note": "Ping! Echo se samundar ke raaz khulte hain."
+    },
+    {
+      "id": "sc-ch10b-s28",
+      "sec": "10.8.1",
+      "title": "Sound sensors on guard",
+      "kicker": "Listening for drones and life",
+      "bullets": [
+        "Drones and aircraft produce a characteristic low frequency humming from their motors and engines.",
+        "Even when they are hard to see, sensitive sound sensors detect this hum; the method is called audio surveillance.",
+        "Audio surveillance helps monitor airspace for safety and security.",
+        "Researchers also listen to the tiny crackles produced by microbes in the soil to study soil health and biodiversity."
+      ],
+      "note": "Kaan lagao, drone pakdo!"
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch10b-f1", "sec": "10.6.3", "front": "What is the speed of sound?", "back": "The distance which a point on a wave, such as a crest or trough, travels in unit time; that is, how fast the density disturbances move through the medium.", "tag": "definition" },
+    { "id": "sc-ch10b-f2", "sec": "10.6.3", "front": "Write the relation between speed, wavelength and frequency of a wave.", "back": "Speed = wavelength / time period = wavelength x frequency. The book gives this as Equation 10.2.", "tag": "formula" },
+    { "id": "sc-ch10b-f3", "sec": "10.6.3", "front": "Rank solids, liquids and gases by speed of sound.", "back": "Fastest in solids, slower in liquids, slowest in gases. Sound is about 4-5 times faster in water and 15-20 times faster in solids than in air.", "tag": "concept" },
+    { "id": "sc-ch10b-f4", "sec": "10.6.3", "front": "Speed of sound in dry air at 0 degrees C and at 22 degrees C?", "back": "About 331 m/s at 0 degrees C and nearly 344 m/s at 22 degrees C; the speed increases with temperature and humidity.", "tag": "trivia" },
+    { "id": "sc-ch10b-f5", "sec": "10.6.4", "front": "What is pitch?", "back": "Pitch is how frequency is perceived by humans. Higher frequency sounds are generally shrill with high pitch; lower frequency sounds are deep with low pitch.", "tag": "definition" },
+    { "id": "sc-ch10b-f6", "sec": "10.6.4", "front": "What is the human audible range?", "back": "From 20 Hz to 20,000 Hz (20 kHz). This range varies from person to person and decreases with age.", "tag": "trivia" },
+    { "id": "sc-ch10b-f7", "sec": "10.6.4", "front": "Define infrasonic and ultrasonic waves by frequency.", "back": "Infrasonic waves have frequency below 20 Hz; ultrasonic waves have frequency above 20 kHz. Humans cannot hear either.", "tag": "definition" },
+    { "id": "sc-ch10b-f8", "sec": "10.6.4", "front": "Which animals detect ultrasound and which detect infrasound?", "back": "Dogs, cats, bats and dolphins can detect ultrasound, while elephants can detect infrasound.", "tag": "trivia" },
+    { "id": "sc-ch10b-f9", "sec": "10.6.4", "front": "What physical property does loudness reflect?", "back": "Loudness is the human perception of amplitude: larger amplitude sounds louder, and loudness decreases with distance from the source.", "tag": "concept" },
+    { "id": "sc-ch10b-f10", "sec": "10.7", "front": "What is reflection of sound?", "back": "Sound waves bouncing off obstacles like solids or liquids is known as reflection of sound. An echo is the most common example.", "tag": "definition" },
+    { "id": "sc-ch10b-f11", "sec": "10.7", "front": "State the laws of reflection for sound.", "back": "The incident and reflected sound make equal angles with the normal at the point of incidence, and all three directions lie in the same plane.", "tag": "definition" },
+    { "id": "sc-ch10b-f12", "sec": "10.7", "front": "Which phenomenon's reflection laws does sound follow?", "back": "Sound follows the same laws of reflection as those of light.", "tag": "concept" },
+    { "id": "sc-ch10b-f13", "sec": "10.7.1", "front": "What is an echo?", "back": "If we shout near a mountain, cliff or long corridor, the sound reflects off the hard surface of a distant object and comes back; this repeat is an echo.", "tag": "definition" },
+    { "id": "sc-ch10b-f14", "sec": "10.7.1", "front": "What minimum time gap lets us hear two sounds separately?", "back": "At least 0.1 s. If the gap is less than 0.1 s, the brain cannot clearly distinguish between the sounds.", "tag": "trivia" },
+    { "id": "sc-ch10b-f15", "sec": "10.7.1", "front": "Minimum distance for an echo at 340 m/s?", "back": "17 m. In 0.1 s sound covers 340 x 0.1 = 34 m to the surface and back, so the surface must be at least half of 34 m away.", "tag": "formula" },
+    { "id": "sc-ch10b-f16", "sec": "10.7.1", "front": "Why are echoes weak near curtains?", "back": "Soft surfaces like curtains absorb sound, and rough surfaces scatter it in different directions, so clear echoes are not heard.", "tag": "concept" },
+    { "id": "sc-ch10b-f17", "sec": "10.7.2", "front": "What is reverberation?", "back": "Multiple reflections from the walls of a large hall make sound persist after the source stops emitting it; this is reverberation.", "tag": "definition" },
+    { "id": "sc-ch10b-f18", "sec": "10.7.2", "front": "What time difference between reflections causes reverberation?", "back": "Less than 0.05 s. Reflections arriving this close together make the sound persist after the source stops.", "tag": "trivia" },
+    { "id": "sc-ch10b-f19", "sec": "10.7.2", "front": "How do auditoriums reduce unwanted reverberation?", "back": "Using sound absorbing panels, upholstered chairs, curtains and other soft, porous surfaces so sound stays clear and undistorted.", "tag": "concept" },
+    { "id": "sc-ch10b-f20", "sec": "10.7.2", "front": "What is special about the Whispering Gallery of Gol Gumbaz?", "back": "In Bijapur, Karnataka, its large dome lets even a faint whisper be heard multiple times across the dome.", "tag": "trivia" },
+    { "id": "sc-ch10b-f21", "sec": "10.8", "front": "What are infrasonic and ultrasonic waves?", "back": "Infrasonic waves have frequencies below 20 Hz and ultrasonic waves above 20 kHz; both lie outside the human audible range.", "tag": "definition" },
+    { "id": "sc-ch10b-f22", "sec": "10.8", "front": "What is infrasonic sound used to detect?", "back": "Natural events such as earthquakes and volcanic eruptions, and severe storms, since infrasound travels long distances through air and the Earth.", "tag": "example" },
+    { "id": "sc-ch10b-f23", "sec": "10.8", "front": "What is ultrasonography?", "back": "Using ultrasound to image internal organs without surgery.", "tag": "definition" },
+    { "id": "sc-ch10b-f24", "sec": "10.8", "front": "List industrial uses of ultrasonic waves.", "back": "Ultrasonic welding, cleaning delicate machine parts, and detecting defects inside metal blocks during construction and industrial testing.", "tag": "example" },
+    { "id": "sc-ch10b-f25", "sec": "10.8.1", "front": "What is echolocation?", "back": "The ability to locate objects using reflected sound waves. Bats emit ultrasonic bursts and sense the echoes to find obstacles and prey.", "tag": "definition" },
+    { "id": "sc-ch10b-f26", "sec": "10.8.1", "front": "Which animals use echolocation besides bats?", "back": "Dolphins, whales and some birds also use echolocation for navigation and hunting.", "tag": "trivia" },
+    { "id": "sc-ch10b-f27", "sec": "10.8.1", "front": "What is sonar and what does it measure?", "back": "Sound navigation and ranging: ultrasonic waves sent into water and their reflections reveal the distance, direction and speed of underwater objects.", "tag": "definition" },
+    { "id": "sc-ch10b-f28", "sec": "10.8.1", "front": "What is audio surveillance?", "back": "Detecting the low frequency humming of drones and aircraft using sensitive sound sensors, to monitor airspace for safety and security.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch10b-q1", "sec": "10.6.3", "q": "In which type of medium does sound travel fastest?", "options": ["Solids", "Gases", "Liquids", "It travels equally fast in all media"], "answer": 0, "why": "The book says sound travels fastest in solids, slower in liquids and slowest in gases.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q2", "sec": "10.6.3", "q": "Compared to air, sound in water travels about:", "options": ["50 times slower", "Exactly the same speed", "4 to 5 times faster", "2 times slower"], "answer": 2, "why": "The book gives about 4-5 times faster in water and 15-20 times faster in solids.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q3", "sec": "10.6.3", "q": "The speed of sound in dry air is about 331 m/s at 0 degrees C. What is it nearly at 22 degrees C?", "options": ["344 m/s", "331 m/s", "290 m/s", "400 m/s"], "answer": 0, "why": "Speed increases with temperature: nearly 344 m/s at 22 degrees C in dry air.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q4", "sec": "10.6.3", "q": "A sound of frequency 20 kHz travels in air at 344 m/s. Its wavelength is about:", "options": ["17.2 m", "1.72 cm", "172 m", "1.72 m"], "answer": 1, "why": "Wavelength = speed / frequency = 344 / 20000 = 0.0172 m = 1.72 cm, from Example 10.2.", "difficulty": "hard" },
+    { "id": "sc-ch10b-q5", "sec": "10.6.4", "q": "How do humans perceive the frequency of a sound?", "options": ["As loudness", "As speed", "As pitch", "As echo"], "answer": 2, "why": "Pitch is how frequency is perceived by humans, while amplitude is perceived as loudness.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q6", "sec": "10.6.4", "q": "A thunder rumble sounds deep. Its pitch is:", "options": ["High", "Low", "Ultrasonic", "Zero"], "answer": 1, "why": "Deep sounds like thunder or an aircraft rumble have low pitch and lower frequency.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q7", "sec": "10.6.4", "q": "The human audible range is:", "options": ["20 Hz to 20,000 Hz", "2 Hz to 200 Hz", "200 Hz to 2,000 Hz", "20 Hz to 200,000 Hz"], "answer": 0, "why": "The audible range is 20 Hz to 20 kHz; it varies from person to person and decreases with age.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q8", "sec": "10.6.4", "q": "Why do boys' voices usually deepen during adolescence?", "options": ["Vocal cords lengthen and thicken, vibrating less frequently", "Vocal cords shorten and vibrate more often", "The mouth stops shaping the sound", "They start hearing lower frequencies"], "answer": 0, "why": "During adolescence, boys' vocal cords lengthen and thicken and vibrate less frequently, deepening the voice.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q9", "sec": "10.6.4", "q": "As you walk farther from a street musician, the loudness of the music:", "options": ["Increases", "Decreases", "Stays exactly the same", "Turns into infrasound"], "answer": 1, "why": "The book states loudness decreases as we move farther away from the source.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q10", "sec": "10.6.4", "q": "In Activity 10.8, students lower a tone from 50 Hz until it just becomes inaudible. That happens near:", "options": ["20 Hz", "20 kHz", "1,000 Hz", "0.1 Hz"], "answer": 0, "why": "Hearing stops around 20 Hz, the lower edge of the human audible range.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q11", "sec": "10.7", "q": "Sound follows the same laws of reflection as:", "options": ["Heat", "Light", "Magnetism", "Electric current"], "answer": 1, "why": "The book says sound follows the same laws of reflection as those of light.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q12", "sec": "10.7", "q": "A sound wave strikes a wall at 40 degrees to the normal. The reflected sound leaves at:", "options": ["80 degrees to the normal", "40 degrees to the wall", "20 degrees to the normal", "40 degrees to the normal"], "answer": 3, "why": "Incident and reflected sound make equal angles with the normal at the point of incidence.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q13", "sec": "10.7", "q": "The incident sound, the normal and the reflected sound always:", "options": ["Lie in the same plane", "Leave at right angles to each other", "Rotate around the source", "Cancel each other completely"], "answer": 0, "why": "Like light, all three directions lie in the same plane during reflection of sound.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q14", "sec": "10.7.1", "q": "You shout near a cliff and hear your voice again. This repeated sound is called:", "options": ["Reverberation", "An echo", "Ultrasonography", "Echolocation"], "answer": 1, "why": "The sound reflects off the hard surface of a distant object and comes back as an echo.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q15", "sec": "10.7.1", "q": "Taking the speed of sound as 340 m/s, the minimum distance of a surface for hearing a distinct echo is:", "options": ["34 m", "0.1 m", "170 m", "17 m"], "answer": 3, "why": "In 0.1 s sound covers 34 m to the surface and back, so the surface must be at least 17 m away.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q16", "sec": "10.7.1", "q": "You clap in an empty corridor and hear an echo after 0.5 s (speed 340 m/s). Your distance from the wall is:", "options": ["170 m", "340 m", "85 m", "42.5 m"], "answer": 2, "why": "The sound goes to the wall and back: distance = 340 x 0.5, halved to 85 m, as in Example 10.5.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q17", "sec": "10.7.1", "q": "Why can you not hear an echo of your voice in a small room?", "options": ["Walls completely absorb every sound wave", "Reflections arrive too quickly for the brain to separate them", "Sound cannot reflect off walls", "Echoes need liquid surfaces"], "answer": 1, "why": "Wall reflections arrive with a gap below 0.1 s, so they blend with the original sound.", "difficulty": "hard" },
+    { "id": "sc-ch10b-q18", "sec": "10.7.1", "q": "An experiment needs echoes at least 0.2 s after emission. With sound speed 343 m/s, the surface should be at least:", "options": ["34.3 m away", "68.6 m away", "17.15 m away", "343 m away"], "answer": 0, "why": "Round trip = 343 x 0.2 = 68.6 m, so minimum one-way distance = 34.3 m (Pause and Ponder 12).", "difficulty": "medium" },
+    { "id": "sc-ch10b-q19", "sec": "10.7.2", "q": "In a large hall, sound persisting after the singer stops is called:", "options": ["An echo", "Reverberation", "Pitch", "Sonar"], "answer": 1, "why": "Multiple reflections from the walls make sound persist after the source stops; this is reverberation.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q20", "sec": "10.7.2", "q": "Reverberation occurs when sound reflections arrive with a time difference of:", "options": ["More than 0.1 s", "Exactly 0.5 s", "Less than 0.05 s", "More than 1 s"], "answer": 2, "why": "The book states reverberation occurs when reflections arrive with a time difference less than 0.05 s.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q21", "sec": "10.7.2", "q": "Which materials help reduce unwanted reverberation in an auditorium?", "options": ["Sound absorbing panels, upholstered chairs and curtains", "Polished granite walls and a glass roof", "Steel sheets and metal chairs", "Bare concrete on every surface"], "answer": 0, "why": "Soft, porous surfaces absorb sound; hard, smooth ones would add reflections and garble it.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q22", "sec": "10.8", "q": "Sound waves with frequency below 20 Hz are called:", "options": ["Ultrasonic waves", "Audible waves", "Infrasonic waves", "Supersonic waves"], "answer": 2, "why": "Below 20 Hz is infrasonic; above 20 kHz is ultrasonic; both are outside human hearing.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q23", "sec": "10.8", "q": "Ultrasonography is used by doctors to:", "options": ["Image internal organs without surgery", "Replace dental fillings", "Cure deafness completely", "Measure body temperature"], "answer": 0, "why": "The book lists ultrasonography as imaging internal organs without surgery using ultrasound.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q24", "sec": "10.8", "q": "Infrasonic waves are especially useful for detecting:", "options": ["Colours of flowers", "Earthquakes, volcanic eruptions and severe storms", "Insects inside soil pipes", "Speed of passing cars"], "answer": 1, "why": "Infrasound travels long distances through air and the Earth, so it detects natural events and storms.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q25", "sec": "10.8", "q": "Which of these is a use of ultrasonic, not infrasonic, waves?", "options": ["Detecting severe storms across long distances", "Detecting earthquakes far away", "Detecting defects inside metal blocks in industrial testing", "Detecting volcanic eruptions"], "answer": 2, "why": "Detecting defects inside metal blocks is listed among the ultrasound applications in the book.", "difficulty": "hard" },
+    { "id": "sc-ch10b-q26", "sec": "10.8.1", "q": "Bats fly and hunt in the dark using short bursts of:", "options": ["Ultrasonic waves", "Infrasonic waves", "Visible light beams", "Radio waves"], "answer": 0, "why": "Most bats emit short bursts of ultrasonic waves which are reflected from nearby objects.", "difficulty": "easy" },
+    { "id": "sc-ch10b-q27", "sec": "10.8.1", "q": "Sonar stands for:", "options": ["Signal orientation and radar", "Sound navigation and ranging", "Solar navigation and ranging", "Sound and noise analysis range"], "answer": 1, "why": "Sonar means sound navigation and ranging, adapted from echolocation for underwater exploration.", "difficulty": "medium" },
+    { "id": "sc-ch10b-q28", "sec": "10.8.1", "q": "A naval sonar signal returns after 0.90 s. Speed of sound in seawater is 1530 m/s. How far is the object?", "options": ["1377 m", "1530 m", "688.5 m", "344.25 m"], "answer": 2, "why": "One-way time is 0.90 / 2 = 0.45 s, so distance = 1530 x 0.45 = 688.5 m (Example 10.6).", "difficulty": "hard" },
+    { "id": "sc-ch10b-q29", "sec": "10.8.1", "q": "A sonar signal sent to find ocean depth returns after 4 s. If sound travels at 1500 m/s in seawater, the depth is:", "options": ["6000 m", "1500 m", "3000 m", "750 m"], "answer": 2, "why": "One-way time is 2 s, so depth = 1500 x 2 = 3000 m (Pause and Ponder 13).", "difficulty": "hard" },
+    { "id": "sc-ch10b-q30", "sec": "10.8.1", "q": "Audio surveillance spots hard-to-see drones and aircraft by detecting:", "options": ["The low frequency humming of their motors and engines", "Their shadows on the ground", "The heat of their wings", "Radio calls made by pilots"], "answer": 0, "why": "Sensitive sound sensors pick up the characteristic low frequency humming to monitor airspace.", "difficulty": "medium" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch10b-e1",
+      "title": "Hearing range in wavelengths",
+      "problem": "Human hearing roughly spans 20 Hz to 20 kHz. What are the corresponding wavelengths in air? Use the speed of sound in air as 344 m/s. (Book Example 10.2)",
+      "steps": [
+        "Use the wave relation: speed of the wave = frequency x wavelength, so wavelength = speed / frequency.",
+        "For 20 Hz: wavelength = 344 / 20 = 17.2 m.",
+        "For 20 kHz = 20000 Hz: wavelength = 344 / 20000 = 0.0172 m = 1.72 cm.",
+        "Notice the span: the longest wavelength we hear is about 1000 times longer than the shortest."
+      ],
+      "answer": "The wavelength is 17.2 m for 20 Hz and 1.72 cm for 20000 Hz."
+    },
+    {
+      "id": "sc-ch10b-e2",
+      "title": "How far is that lightning?",
+      "problem": "During a thunderstorm, the flash of lightning is seen and the thunder is heard 5 s later. Light travels at 300000 km/s, reaching you almost instantaneously. Taking the speed of sound in air as 340 m/s, estimate the distance to the lightning strike. (Book Example 10.3)",
+      "steps": [
+        "Light is so fast that the flash reaches you almost instantaneously; the whole 5 s delay is the sound's travel time.",
+        "Use the relation: distance = speed x time.",
+        "Distance = 340 m/s x 5 s = 1700 m.",
+        "This is why sound's slow speed makes thunder always trail the lightning flash."
+      ],
+      "answer": "The lightning strike is about 1700 m away."
+    },
+    {
+      "id": "sc-ch10b-e3",
+      "title": "Echo off a corridor wall",
+      "problem": "You clap in an empty corridor and hear an echo after 0.5 s. If the speed of sound in air is 340 m/s, calculate your distance from the wall. (Book Example 10.5)",
+      "steps": [
+        "The sound travels to the wall and comes back, so the wall is at half the total path length.",
+        "Total distance travelled = speed x time = 340 m/s x 0.5 s = 170 m.",
+        "Distance to the wall = 170 / 2 = 85 m.",
+        "Check: 85 m is well beyond the 17 m minimum echo distance, so a distinct echo is possible."
+      ],
+      "answer": "You are standing 85 m from the wall."
+    },
+    {
+      "id": "sc-ch10b-e4",
+      "title": "Sonar finds a hidden object",
+      "problem": "A naval sonar signal sent into seawater returns after 0.90 s. The speed of sound in seawater is 1530 m/s. How far is the object? (Book Example 10.6)",
+      "steps": [
+        "The 0.90 s is the round-trip time: the signal goes to the object and comes back.",
+        "Time taken to reach the object = 0.90 / 2 = 0.45 s.",
+        "Distance = speed x time = 1530 m/s x 0.45 s = 688.5 m."
+      ],
+      "answer": "The object is 688.5 m away."
+    }
+  ]
+}

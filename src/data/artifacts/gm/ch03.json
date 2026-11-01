@@ -1,0 +1,769 @@
+{
+  "book": "gm",
+  "chapter": 3,
+  "title": "The World of Numbers",
+  "grade": 9,
+  "sections": [
+    { "id": "3.1", "title": "The Dawn of Mathematics: The Human Need to Count" },
+    { "id": "3.2", "title": "The Revolution of Śhūnya: When Nothing Became Something" },
+    { "id": "3.3", "title": "Integers: Expanding the Horizon" },
+    { "id": "3.4", "title": "Filling the Spaces: Fractions and Rational Numbers" },
+    { "id": "3.5", "title": "Irrational Numbers" },
+    { "id": "3.6", "title": "Real Numbers: Decimals and Cyclic Patterns" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch03-s1",
+      "sec": "3.1",
+      "title": "Counting came first",
+      "kicker": "Mathematics was born in the dirt, not classrooms",
+      "bullets": [
+        "Long before cities, laws or the study of stars, humanity had a fundamental practical necessity: the need to keep count.",
+        "Mathematics did not begin in a classroom with equations on a board; it began in the dirt, on the bark of trees, and on bones.",
+        "Counting was survival: early herders and farmers needed to track what they had and what was missing."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["dirt", "bark of trees", "bones", "the need to keep count"]
+      },
+      "note": "Before any book, math lived on bones and dirt!"
+    },
+    {
+      "id": "gm-ch03-s2",
+      "sec": "3.1",
+      "title": "Pebbles counted cows",
+      "kicker": "One pebble, one cow: the first numbers",
+      "bullets": [
+        "Picture a small settlement on the banks of the Saraswati river, its cattle going out to graze each morning.",
+        "The herder placed one pebble in a clay pot for every cow that left, and removed one pebble for every cow that returned.",
+        "An empty pot at dusk meant the herd was safe; pebbles remaining meant cows were missing.",
+        "This matching of one object to another is one-to-one correspondence, the birth of the Natural Numbers N = {1, 2, 3, 4, ...}."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Cow leaves", "One pebble in", "Cow returns", "One pebble out", "Empty pot = safe"]
+      },
+      "note": "Ek pebble, ek cow. Simple and perfect."
+    },
+    {
+      "id": "gm-ch03-s3",
+      "sec": "3.1",
+      "title": "The Lebombo bone",
+      "kicker": "A 35,000-year-old lunar calendar",
+      "bullets": [
+        "The earliest physical evidence of recording natural numbers comes from Africa, as tally marks carved into bone.",
+        "The Lebombo Bone, from the Lebombo Mountains between South Africa and Swaziland, dates back about 35,000 years.",
+        "It carries 29 distinct, deliberately carved, uniformly sized notches.",
+        "Anthropologists believe it was a lunar phase counter or a menstrual calendar: early humans tracking time through natural numbers."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["35,000 years old", "29 uniform notches", "lunar phases", "tracking time"]
+      },
+      "note": "The first mathematicians wrote on bone."
+    },
+    {
+      "id": "gm-ch03-s4",
+      "sec": "3.1",
+      "title": "The Ishango bone",
+      "kicker": "Primes and doubling, 20,000 years ago",
+      "bullets": [
+        "The Ishango bone was found near the headwaters of the Nile in the Democratic Republic of Congo, dating to around 20,000 BCE.",
+        "It holds three columns of asymmetrical notches, grouped with clear mathematical intent.",
+        "One column groups notches into 11, 13, 17 and 19, the prime numbers between 10 and 20.",
+        "Another column seems to demonstrate multiplication by 2, the idea of doubling."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Ishango bone",
+        "children": ["three columns of notches", "primes 11, 13, 17, 19", "doubling by 2"]
+      }
+    },
+    {
+      "id": "gm-ch03-s5",
+      "sec": "3.2",
+      "title": "The line began at one",
+      "kicker": "For millennia, nothing had no number",
+      "bullets": [
+        "For millennia the number line started at 1; give away five apples and no number described your state.",
+        "You simply had a void, a lack of apples, not a number.",
+        "Civilisations like the Babylonians and Mayans used placeholders, symbols marking an empty column in a written number.",
+        "But they never treated nothing as a number you could add, subtract and multiply."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Placeholder users", "items": ["Babylonians", "Mayans", "only an empty-column mark"] },
+        "right": { "title": "Still missing", "items": ["zero as a number", "rules for arithmetic", "nothing made usable"] }
+      }
+    },
+    {
+      "id": "gm-ch03-s6",
+      "sec": "3.2",
+      "title": "Śhūnyatā: philosophy first",
+      "kicker": "Meditation emptied the mind into mathematics",
+      "bullets": [
+        "In the Upanishads and Buddhist literature, well before the 7th century BCE, Śhūnyatā meant emptiness or nothingness.",
+        "Śhūnya means zero; śhūnyatā meant emptying the mind of vṛttis, its fluctuations, to reach perfect stillness.",
+        "Patanjali's Yoga Sutras, around the 3rd century BCE, describe śhūnyatā leading to control over mind, body and senses.",
+        "Because Indian thinkers revered emptiness, they could welcome nothingness first in philosophy, then in mathematics."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Śhūnyatā in meditation", "Zeroness revered", "Architecture and literature", "Āryabhaṭa, then Brahmagupta"]
+      },
+      "note": "Zero was meditated into existence."
+    },
+    {
+      "id": "gm-ch03-s7",
+      "sec": "3.2",
+      "title": "From bindu to number",
+      "kicker": "A dot gains rules and becomes zero",
+      "bullets": [
+        "In the Bakhśhālī Manuscript, dated to the early centuries CE, a bold dot, the bindu, represents zero.",
+        "A symbol is just a mark on a page until it has rules.",
+        "In the Brāhmasphuṭasiddhānta of 628 CE, Brahmagupta explicitly defined zero as a number with rules for its use.",
+        "That turned śhūnya into a fully operational number and transformed mathematics."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Blank space for nothing", "Bindu dot in Bakhśhālī", "Brahmagupta's rules, 628 CE", "Zero, a real number"]
+      },
+      "note": "Ek bindu changed everything."
+    },
+    {
+      "id": "gm-ch03-s8",
+      "sec": "3.2",
+      "title": "Placeholder is not zero",
+      "kicker": "Empty column marker versus a true number",
+      "bullets": [
+        "Babylonian and Mayan placeholder symbols only showed that a column in a written number was empty.",
+        "A placeholder cannot be added, subtracted or multiplied, because it is not a number.",
+        "Brahmagupta's leap was to transform the void itself into a number with arithmetic rules.",
+        "This monumental leap of 628 CE was inspired by Indian philosophical traditions."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Placeholder", "items": ["marks an empty column", "not a number", "no arithmetic possible"] },
+        "right": { "title": "Brahmagupta's zero", "items": ["a number itself", "can be added and multiplied", "defined with rules in 628 CE"] }
+      }
+    },
+    {
+      "id": "gm-ch03-s9",
+      "sec": "3.3",
+      "title": "Dhana and Ṛiṇa",
+      "kicker": "Commerce gave the world negative numbers",
+      "bullets": [
+        "Brahmagupta asked: if 5 – 5 = 0, what happens when we subtract a larger number from a smaller one, like 3 – 5?",
+        "He grounded his answer in the reality of commerce and life.",
+        "Fortunes (Dhana) are positive numbers, representing wealth or assets.",
+        "Debts (Ṛiṇa) are negative numbers, representing what you owe."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Dhana (fortune)", "items": ["positive numbers", "wealth and assets", "right of zero"] },
+        "right": { "title": "Ṛiṇa (debt)", "items": ["negative numbers", "amounts owed", "left of zero"] }
+      },
+      "note": "Money matters made math."
+    },
+    {
+      "id": "gm-ch03-s10",
+      "sec": "3.3",
+      "title": "Left of zero",
+      "kicker": "Negatives complete the set of integers",
+      "bullets": [
+        "By moving to the left of zero on the number line, Brahmagupta formally introduced negative numbers.",
+        "Positive natural numbers, their negative counterparts and zero together create the set of Integers.",
+        "The set is denoted Z, from the German word Zahlen, meaning numbers.",
+        "On the line, debts stretch left from Śhūnya and fortunes stretch right."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Ṛiṇa on the left", "Śhūnya at centre", "Dhana on the right", "Z for Zahlen"]
+      }
+    },
+    {
+      "id": "gm-ch03-s11",
+      "sec": "3.3",
+      "title": "Brahmagupta's addition rules",
+      "kicker": "Written 1,300 years ago, used today",
+      "bullets": [
+        "A fortune plus a fortune is a fortune: 5 + 4 = 9.",
+        "A debt plus a debt is a debt: (–5) + (–4) = –9; if you owe 5 and borrow 4 more, you owe 9.",
+        "A fortune minus zero is a fortune, and a debt minus zero is a debt: 7 – 0 = 7 and –6 – 0 = –6.",
+        "We still use these rules exactly as Brahmagupta wrote them over 1,300 years ago."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Fortune + fortune = fortune", "Debt + debt = debt", "Subtracting zero changes nothing", "Rules of 628 CE still hold"]
+      },
+      "note": "Same rules, thirteen centuries later."
+    },
+    {
+      "id": "gm-ch03-s12",
+      "sec": "3.3",
+      "title": "Minus times minus",
+      "kicker": "Removing debts makes you richer",
+      "bullets": [
+        "The product of a debt and a fortune is a debt: (–3) × 4 = –12, four debts of 3 totalling 12 owed.",
+        "The product of two debts is a fortune: (–3) × (–4) = 12.",
+        "Multiplying by a negative number represents the removal of that debt.",
+        "If someone takes away four of your debts worth 3 each, you are effectively 12 richer, so (–3) × (–4) = +12."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["You hold a debt of 3", "Remove (times –) four such debts", "Your debt drops by 12", "You are 12 richer: +12"]
+      }
+    },
+    {
+      "id": "gm-ch03-s13",
+      "sec": "3.4",
+      "title": "Counting to measuring",
+      "kicker": "Fields divided, ghee measured",
+      "bullets": [
+        "As society grew more complex, measuring became just as important as counting.",
+        "If a farmer divides a field of wheat among his three children, how much does each child get?",
+        "If a recipe calls for half a cup of ghee, we need a number for a part of a whole.",
+        "Numbers that represent parts of a whole are called fractions."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["parts of a whole", "dividing a wheat field", "half a cup of ghee", "fractions"]
+      }
+    },
+    {
+      "id": "gm-ch03-s14",
+      "sec": "3.4",
+      "title": "Negative fractions",
+      "kicker": "Every fraction has an opposite",
+      "bullets": [
+        "Just as 3 has –3 and 19 has –19, every positive fraction has an additive inverse.",
+        "The inverse of 3/4 is –3/4 and the inverse of 19/7 is –19/7; these are negative fractions.",
+        "The minus sign can sit in front, on the numerator, or on the denominator: –1/5 = (–1)/5 = 1/(–5).",
+        "All three forms name exactly the same number."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Positive fraction", "items": ["3/4", "19/7", "1/5"] },
+        "right": { "title": "Its negative", "items": ["–3/4", "–19/7", "(–1)/5 = 1/(–5)"] }
+      }
+    },
+    {
+      "id": "gm-ch03-s15",
+      "sec": "3.4",
+      "title": "Rational numbers Q",
+      "kicker": "Integers and fractions, one family",
+      "bullets": [
+        "Combining all integers with all fractions, positive and negative, gives the Rational Numbers, denoted Q for quotient.",
+        "A rational number is any number that can be expressed as p/q, where p and q are integers and q is not 0.",
+        "Whole numbers qualify too: 5 = 5/1 and –10 = –10/1, so Q includes the naturals, wholes and integers.",
+        "Q is for quotient, the result of one integer divided by another."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Rational numbers Q",
+        "children": ["integers", "positive fractions", "negative fractions"]
+      },
+      "note": "One family, endless members."
+    },
+    {
+      "id": "gm-ch03-s16",
+      "sec": "3.4",
+      "title": "One number, many names",
+      "kicker": "Equivalent fractions, one standard form",
+      "bullets": [
+        "Rational numbers have no unique representation: –3/1 = –6/2 = –9/3 = –30/10 = –6078/2026.",
+        "These are equivalent rational numbers, or equivalent fractions.",
+        "We may divide a common factor out of the numerator and denominator: 12/30 becomes 2/5 by dividing both by 6.",
+        "By agreement, p/q on the number line has q not 0 and p, q co-prime, sharing no factor other than 1."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Start with 12/30", "Top and bottom share factor 6", "Divide both by 6", "Reach 2/5 in lowest terms"]
+      }
+    },
+    {
+      "id": "gm-ch03-s17",
+      "sec": "3.5",
+      "title": "A crisis of lengths",
+      "kicker": "When lengths refused to be fractions",
+      "bullets": [
+        "For centuries, mathematicians believed every measurable length in the universe could be a ratio of two integers.",
+        "Around 800 BCE, Baudhāyana composed the Śhulbasūtra, a manual for constructing complex geometric fire altars.",
+        "In his exact constructions he quickly encountered lengths that defied fractions.",
+        "The ancient Greeks encountered the same crisis a few centuries later."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Śhulbasūtra, c. 800 BCE", "fire altars", "lengths beyond fractions", "Greeks hit it later"]
+      }
+    },
+    {
+      "id": "gm-ch03-s18",
+      "sec": "3.5",
+      "title": "The unit square diagonal",
+      "kicker": "Baudhāyana–Pythagoras reveals sqrt(2)",
+      "bullets": [
+        "Take a square whose each side is exactly 1 unit long.",
+        "By the Baudhāyana–Pythagoras Theorem, the diagonal d satisfies 1^2 + 1^2 = d^2.",
+        "So d^2 = 2, and the length of the diagonal is sqrt(2).",
+        "Numbers on the number line that cannot be expressed as a ratio of integers are called Irrational Numbers."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Square of side 1", "1^2 + 1^2 = d^2", "d^2 = 2", "d = sqrt(2), not any p/q"]
+      }
+    },
+    {
+      "id": "gm-ch03-s19",
+      "sec": "3.5",
+      "title": "Proof by contradiction",
+      "kicker": "Hippasus assumes the opposite, c. 400 BCE",
+      "bullets": [
+        "The first proof of the irrationality of sqrt(2) is due to Hippasus, a member of the Pythagorean school around 400 BCE.",
+        "His technique is Proof by Contradiction: assume the opposite of what you want to prove.",
+        "Then show that this assumption leads to a logical disaster.",
+        "Assume sqrt(2) = p/q in its simplest form, with p and q co-prime integers and q not 0."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Assume sqrt(2) = p/q", "Square both sides", "p and q both turn even", "Contradiction"]
+      }
+    },
+    {
+      "id": "gm-ch03-s20",
+      "sec": "3.5",
+      "title": "The disaster unfolds",
+      "kicker": "Both even contradicts co-prime",
+      "bullets": [
+        "Squaring and multiplying gives 2q^2 = p^2, so p^2 is even, and a number with an even square must itself be even.",
+        "Write p = 2k; then 2q^2 = 4k^2, so q^2 = 2k^2, and q must be even too.",
+        "Now p and q share a common factor 2, though Step 1 declared them co-prime.",
+        "The assumption destroys itself, so no fraction p/q can equal sqrt(2)."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["2q^2 = p^2 makes p even", "p = 2k gives q^2 = 2k^2", "q is even as well", "Factor 2 shared: contradiction"]
+      }
+    },
+    {
+      "id": "gm-ch03-s21",
+      "sec": "3.6",
+      "title": "The unbroken line R",
+      "kicker": "Rationals plus irrationals, no gaps left",
+      "bullets": [
+        "When we unite the dense web of Rational Numbers with the unfillable gaps of Irrational Numbers, we get the Real Numbers R.",
+        "The real line is unbroken and continuous.",
+        "The easiest way to distinguish a rational number from an irrational number is to look at its decimal expansion."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Rational Q", "Irrational", "Real R", "decimal expansion test"]
+      }
+    },
+    {
+      "id": "gm-ch03-s22",
+      "sec": "3.6",
+      "title": "Two fates of a decimal",
+      "kicker": "Terminate or repeat, nothing else",
+      "bullets": [
+        "Divide the numerator of a rational number by its denominator: exactly one of two things will happen.",
+        "It terminates: the division eventually leaves remainder 0 and the decimal stops, like 3/8 = 0.375.",
+        "It repeats: the remainder never becomes 0 and the digits loop infinitely, like 5/11 = 0.454545... = 0.45 with a bar on 45.",
+        "There is no third possibility for a rational number."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Terminating", "items": ["remainder hits 0", "decimal stops", "3/8 = 0.375"] },
+        "right": { "title": "Repeating", "items": ["remainder never 0", "digits loop forever", "5/11 = 0.4545..."] }
+      }
+    },
+    {
+      "id": "gm-ch03-s23",
+      "sec": "3.6",
+      "title": "Why decimals repeat",
+      "kicker": "Six remainders, then the loop",
+      "bullets": [
+        "Imagine calculating 1/7 by long division: dividing by 7, each remainder can only be 1, 2, 3, 4, 5 or 6.",
+        "Remainder 0 would end the division, so it never appears while the decimal keeps going.",
+        "There are only finitely many possible remainders, so some remainder must show up a second time.",
+        "Once a remainder repeats, the entire division process loops, creating a repeating decimal."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Divide by 7", "Remainders 1 to 6 only", "A remainder repeats", "Digits loop forever"]
+      }
+    },
+    {
+      "id": "gm-ch03-s24",
+      "sec": "3.6",
+      "title": "Predict the decimal type",
+      "kicker": "Prime factors of the denominator decide",
+      "bullets": [
+        "We can predict terminating or repeating without doing the long division, using the prime factors of the denominator.",
+        "Take 3/20 in lowest terms: 20 = 2^2 × 5, so only 2s and 5s appear.",
+        "Multiply numerator and denominator by 5 to get 15/100 = 0.15, a terminating decimal.",
+        "The expansion terminates precisely when the prime factors of q are only 2, only 5, or both; then q becomes a power of 10."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Reduce 3/20 to lowest terms", "Factor 20 = 2^2 × 5", "Scale the denominator to 100", "3/20 = 0.15 terminates"]
+      },
+      "note": "2s and 5s mean termination."
+    }
+  ],
+  "flashcards": [
+    { "id": "gm-ch03-f1", "sec": "3.1", "front": "What is one-to-one correspondence?", "back": "Matching one object to exactly one other object, like one pebble per cow in a pot; it was the birth of the Natural Numbers.", "tag": "concept" },
+    { "id": "gm-ch03-f2", "sec": "3.1", "front": "Write the set of Natural Numbers.", "back": "N = {1, 2, 3, 4, ...}, born from the basic human need to keep count.", "tag": "definition" },
+    { "id": "gm-ch03-f3", "sec": "3.1", "front": "How old is the Lebombo bone and what was it for?", "back": "About 35,000 years old, with 29 notches; likely a lunar phase counter or a menstrual calendar for tracking time.", "tag": "trivia" },
+    { "id": "gm-ch03-f4", "sec": "3.1", "front": "What is mathematically special about the Ishango bone?", "back": "One column groups 11, 13, 17 and 19, the primes between 10 and 20; another column shows doubling by 2.", "tag": "trivia" },
+    { "id": "gm-ch03-f5", "sec": "3.2", "front": "How did Babylonians and Mayans use a zero-like symbol?", "back": "Only as a placeholder marking an empty column; they never treated nothing as a number for arithmetic.", "tag": "concept" },
+    { "id": "gm-ch03-f6", "sec": "3.2", "front": "What does Śhūnyatā mean in the Upanishads and Buddhist texts?", "back": "Zeroness or emptiness: emptying the mind of vṛttis, its fluctuations, to reach perfect stillness.", "tag": "concept" },
+    { "id": "gm-ch03-f7", "sec": "3.2", "front": "Which manuscript shows zero as a bold dot?", "back": "The Bakhśhālī Manuscript, early centuries CE, uses a bold dot called the bindu to represent zero.", "tag": "trivia" },
+    { "id": "gm-ch03-f8", "sec": "3.2", "front": "Which work made zero a fully operational number, and when?", "back": "Brahmagupta's Brāhmasphuṭasiddhānta of 628 CE explicitly defined zero as a number with rules.", "tag": "trivia" },
+    { "id": "gm-ch03-f9", "sec": "3.3", "front": "What do Dhana and Ṛiṇa represent?", "back": "Dhana means fortune, the positive numbers of wealth; Ṛiṇa means debt, the negative numbers.", "tag": "definition" },
+    { "id": "gm-ch03-f10", "sec": "3.3", "front": "Why is the set of integers written as Z?", "back": "Z comes from the German word Zahlen, which means numbers.", "tag": "trivia" },
+    { "id": "gm-ch03-f11", "sec": "3.3", "front": "State Brahmagupta's rule for adding two debts.", "back": "A debt plus a debt is a debt: (–5) + (–4) = –9; owing 5 and borrowing 4 more makes 9 owed.", "tag": "formula" },
+    { "id": "gm-ch03-f12", "sec": "3.3", "front": "Why is (–3) × (–4) equal to +12?", "back": "Multiplying by a negative removes debts; taking away four debts of 3 each leaves you 12 richer.", "tag": "concept" },
+    { "id": "gm-ch03-f13", "sec": "3.4", "front": "What are numbers that represent parts of a whole called?", "back": "Fractions, like a child's share of a wheat field or half a cup of ghee in a recipe.", "tag": "definition" },
+    { "id": "gm-ch03-f14", "sec": "3.4", "front": "Give three ways to write the negative of 1/5.", "back": "–1/5, (–1)/5 and 1/(–5); the minus sign may sit out front, on the numerator or on the denominator.", "tag": "formula" },
+    { "id": "gm-ch03-f15", "sec": "3.4", "front": "Define a rational number.", "back": "Any number expressible as p/q with p and q integers and q not 0; the set is Q, for quotient.", "tag": "definition" },
+    { "id": "gm-ch03-f16", "sec": "3.4", "front": "What is assumed when p/q is shown on the number line?", "back": "That q is not 0 and p, q are co-prime, sharing no common factor other than 1, like 12/30 written as 2/5.", "tag": "concept" },
+    { "id": "gm-ch03-f17", "sec": "3.5", "front": "What is an irrational number?", "back": "A number on the number line that cannot be expressed as a ratio of two integers, like sqrt(2).", "tag": "definition" },
+    { "id": "gm-ch03-f18", "sec": "3.5", "front": "What is Proof by Contradiction?", "back": "Assume the opposite of what you want to prove, then show the assumption leads to a logical disaster.", "tag": "concept" },
+    { "id": "gm-ch03-f19", "sec": "3.5", "front": "Who first proved sqrt(2) is irrational, and when?", "back": "Hippasus of the Pythagorean school, around 400 BCE, using Proof by Contradiction.", "tag": "trivia" },
+    { "id": "gm-ch03-f20", "sec": "3.5", "front": "How does a unit square produce sqrt(2)?", "back": "By the Baudhāyana–Pythagoras Theorem, 1^2 + 1^2 = d^2, so d^2 = 2 and the diagonal d = sqrt(2).", "tag": "formula" },
+    { "id": "gm-ch03-f21", "sec": "3.6", "front": "What do the Rational and Irrational numbers form together?", "back": "The Real Numbers R, the unbroken, continuous number line with no gaps.", "tag": "definition" },
+    { "id": "gm-ch03-f22", "sec": "3.6", "front": "Which two decimal fates can a rational number have?", "back": "Its decimal either terminates (3/8 = 0.375) or repeats in an endless loop (5/11 = 0.454545...).", "tag": "concept" },
+    { "id": "gm-ch03-f23", "sec": "3.6", "front": "When does p/q have a terminating decimal?", "back": "When q, in lowest terms, has prime factors only 2, only 5, or both, so q can become a power of 10.", "tag": "formula" },
+    { "id": "gm-ch03-f24", "sec": "3.6", "front": "Why must 1/7 have a repeating decimal?", "back": "Dividing by 7, remainders can only be 1 to 6; some remainder must repeat, so the division loops.", "tag": "concept" }
+  ],
+  "quiz": [
+    {
+      "id": "gm-ch03-q1",
+      "sec": "3.1",
+      "q": "According to the book, where did mathematics begin?",
+      "options": ["In the dirt, on the bark of trees and on bones", "In a classroom with equations on a board", "In ancient Greek temples", "On paper scrolls in royal courts"],
+      "answer": 0,
+      "why": "Before cities and laws, the practical need to keep count started math in the dirt, on bark and on bones.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q2",
+      "sec": "3.1",
+      "q": "In the Saraswati settlement story, what did the herder place in a clay pot for every cow that left?",
+      "options": ["A knot in a rope", "A notch carved on a bone", "One pebble", "A mark in the dirt"],
+      "answer": 2,
+      "why": "One pebble went in per cow leaving; one came out per cow returning, until the pot was empty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q3",
+      "sec": "3.1",
+      "q": "What do anthropologists believe the 29 notches of the Lebombo bone were used for?",
+      "options": ["A lunar phase counter or menstrual calendar", "A record of cattle traded", "A multiplication table", "A map of watering places"],
+      "answer": 0,
+      "why": "The 35,000-year-old bone's 29 uniform notches show early humans tracking time through natural numbers.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q4",
+      "sec": "3.1",
+      "q": "One Ishango bone column groups notches into 11, 13, 17 and 19. Why is this grouping a mathematical marvel?",
+      "options": ["They are the even numbers between 10 and 20", "They are the first four perfect squares", "They are all multiples of 3", "They are the prime numbers between 10 and 20"],
+      "answer": 3,
+      "why": "The book highlights this column as the primes between 10 and 20; another column shows doubling.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch03-q5",
+      "sec": "3.2",
+      "q": "For millennia, where did the number line start?",
+      "options": ["At 0", "At 1", "At –1", "At 10"],
+      "answer": 1,
+      "why": "Nothing had no number yet; the line began at 1 until Brahmagupta transformed the void into zero.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q6",
+      "sec": "3.2",
+      "q": "The bold dot (bindu) representing zero appears in which manuscript?",
+      "options": ["Brāhmasphuṭasiddhānta", "Yoga Sutras", "Bakhśhālī Manuscript", "Śhulbasūtra"],
+      "answer": 2,
+      "why": "The Bakhśhālī Manuscript, early centuries CE, shows the transition from blank space to a bold dot.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q7",
+      "sec": "3.2",
+      "q": "What made Brahmagupta's zero different from the Babylonian and Mayan placeholder?",
+      "options": ["His was a dot, theirs a circle", "His zero was a full number with arithmetic rules, theirs only marked an empty column", "His zero held larger place values", "Theirs could be multiplied but not added"],
+      "answer": 1,
+      "why": "Placeholders only marked an empty column; Brahmagupta made nothing a number you can add, subtract and multiply.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q8",
+      "sec": "3.2",
+      "q": "Which chain describes how zeroness entered mathematics, as the book tells it?",
+      "options": ["Greek philosophy to Babylonian tablets to India", "Upanishads and Buddhist thought, then Āryabhaṭa, finally Brahmagupta", "Patanjali's Yoga Sutras directly into commerce", "Mayan placeholders copied by Indian traders"],
+      "answer": 1,
+      "why": "Śhūnyatā from philosophy flowed through Āryabhaṭa and finally into Brahmagupta's rules of 628 CE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch03-q9",
+      "sec": "3.3",
+      "q": "In Brahmagupta's language of numbers, what does Ṛiṇa stand for?",
+      "options": ["Wealth or assets", "A debt", "Zero", "A fraction"],
+      "answer": 1,
+      "why": "Debts (Ṛiṇa) are negative numbers, while fortunes (Dhana) are positive numbers of wealth.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q10",
+      "sec": "3.3",
+      "q": "Calculate (–5) + (–4) using Brahmagupta's rules.",
+      "options": ["1", "9", "–9", "–1"],
+      "answer": 2,
+      "why": "A debt plus a debt is a debt: owing 5 and borrowing 4 more means 9 owed, so –9.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q11",
+      "sec": "3.3",
+      "q": "In high-altitude Ladakh it is 4 °C at noon; by midnight the temperature drops by 15 °C. What is the midnight temperature?",
+      "options": ["–11 °C", "–19 °C", "11 °C", "–10 °C"],
+      "answer": 0,
+      "why": "4 – 15 = –11; a drop by 15 moves you 15 steps to the left of 4 on the number line.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q12",
+      "sec": "3.3",
+      "q": "Using the book's debt picture, why does (–3) × (–4) give +12?",
+      "options": ["Because –3 and –4 cancel to zero and then regrow", "Because multiplying by a negative removes the four debts of 3, leaving you 12 richer", "Because debts double each time they multiply", "Because a fortune of 4 times a debt of 3 turns positive"],
+      "answer": 1,
+      "why": "A negative multiplier is removal: taking away four debts worth 3 each effectively adds 12.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch03-q13",
+      "sec": "3.4",
+      "q": "Why is the set of rational numbers called Q?",
+      "options": ["For quantity", "For quotient", "For quality", "For Zahlen"],
+      "answer": 1,
+      "why": "Q stands for quotient, since a rational number is one integer divided by another.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q14",
+      "sec": "3.4",
+      "q": "What is the additive inverse of 3/4?",
+      "options": ["4/3", "1/4", "–4/3", "–3/4"],
+      "answer": 3,
+      "why": "Every positive fraction has an additive inverse; just as 3 has –3, the fraction 3/4 has –3/4.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q15",
+      "sec": "3.4",
+      "q": "Reduce 12/30 to its lowest terms as the book does.",
+      "options": ["4/10", "6/15", "2/5", "1/3"],
+      "answer": 2,
+      "why": "Divide both numerator and denominator by their common factor 6 to reach 2/5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q16",
+      "sec": "3.4",
+      "q": "Which chain of equivalent rational numbers matches the book exactly?",
+      "options": ["–3/1 = –6/2 = –9/3 = –30/11", "–3/1 = –9/3 = –15/4 = –30/10", "–3/1 = –6/2 = –9/3 = –30/10", "–3/1 = –6/3 = –9/4 = –30/10"],
+      "answer": 2,
+      "why": "The book lists –3/1 = –6/2 = –9/3 = –30/10 = –6078/2026 as equivalent rational numbers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch03-q17",
+      "sec": "3.5",
+      "q": "What is the Śhulbasūtra, composed by Baudhāyana around 800 BCE?",
+      "options": ["A manual for constructing complex geometric fire altars", "A book of arithmetic tables for traders", "A commentary on the Yoga Sutras", "A calendar of lunar phases"],
+      "answer": 0,
+      "why": "The Śhulbasūtra guided altar construction, where Baudhāyana met lengths that defied fractions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q18",
+      "sec": "3.5",
+      "q": "A number on the number line that cannot be expressed as a ratio of integers is called?",
+      "options": ["Rational", "Whole", "Irrational", "Negative"],
+      "answer": 2,
+      "why": "Irrational numbers are exactly those lengths that no fraction p/q can name.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q19",
+      "sec": "3.5",
+      "q": "In the proof, why does 2q^2 = p^2 force p to be even?",
+      "options": ["Because p is co-prime with q", "Because p^2 is 2 times an integer, so p^2 is even, and a number with an even square is even", "Because squaring always makes numbers even", "Because q must be even"],
+      "answer": 1,
+      "why": "p^2 equals 2 times the integer q^2, so p^2 is even; if a square is even, the number itself is even.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q20",
+      "sec": "3.5",
+      "q": "Where exactly does the contradiction strike in Hippasus' proof of sqrt(2)?",
+      "options": ["p turns out to be odd instead of even", "q turns out to be zero", "Both p and q turn out even, sharing factor 2, though they were assumed co-prime", "Squaring a fraction is not allowed"],
+      "answer": 2,
+      "why": "Deducing p even and q even breaks the simplest-form promise that p and q share no factor but 1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch03-q21",
+      "sec": "3.6",
+      "q": "What is 3/8 written as a decimal?",
+      "options": ["0.375", "0.83", "0.357", "0.378"],
+      "answer": 0,
+      "why": "Dividing 3 by 8 eventually leaves remainder 0, giving the terminating decimal 0.375.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q22",
+      "sec": "3.6",
+      "q": "How does 5/11 behave as a decimal?",
+      "options": ["It stops after two digits", "It repeats 45 forever: 0.454545...", "It repeats 5 forever: 0.555...", "It terminates at 0.45"],
+      "answer": 1,
+      "why": "The remainder never becomes 0, so the digits 4 and 5 loop infinitely: 5/11 = 0.454545...",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch03-q23",
+      "sec": "3.6",
+      "q": "Which of these fractions has a terminating decimal expansion?",
+      "options": ["5/11", "1/7", "2/3", "3/20"],
+      "answer": 3,
+      "why": "20 = 2^2 × 5 has only 2s and 5s as prime factors, so the decimal terminates at 0.15.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch03-q24",
+      "sec": "3.6",
+      "q": "Why do only 2s and 5s in the denominator guarantee a terminating decimal?",
+      "options": ["Because 2 and 5 divide every numerator", "Because they are the smallest primes, so division ends quickly", "Because multiplying by suitable factors turns such a denominator into a power of 10", "Because such fractions are always smaller than 1"],
+      "answer": 2,
+      "why": "10 = 2 × 5, so a denominator of only 2s and 5s scales to 10, 100, 1000; 20 became 100.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch03-e1",
+      "title": "The pebble pot audit",
+      "problem": "A herder on the banks of the Saraswati places one pebble in a clay pot for every cow that leaves in the morning, and removes one pebble for every cow that returns in the evening. He placed 9 pebbles at dawn and has removed 8 by dusk, with 1 pebble still in the pot. How many cows are missing, and how does one-to-one correspondence tell him?",
+      "steps": [
+        "Morning: 9 cows leave, so the pot holds 9 pebbles, one per cow.",
+        "Evening: each returning cow removes exactly one pebble, so 8 pebbles removed means 8 cows returned.",
+        "One pebble remains, so one cow that left has not yet returned.",
+        "The leftover pebble is the unmatched object in the one-to-one match, and it points straight at the missing cow."
+      ],
+      "answer": "1 cow is missing; the single leftover pebble is its unmatched partner."
+    },
+    {
+      "id": "gm-ch03-e2",
+      "title": "The spice trader's ledger",
+      "problem": "A spice trader takes a loan (debt) of Rs 850. The next day he makes a profit (fortune) of Rs 1,200. The following week he incurs a loss of Rs 450. Write this sequence as an equation using integers and calculate his final financial standing.",
+      "steps": [
+        "Represent the loan as a debt (Ṛiṇa): –850.",
+        "Represent the profit as a fortune (Dhana): +1200.",
+        "Represent the loss as a debt: –450.",
+        "Write the equation: –850 + 1200 – 450.",
+        "First combine the fortune and the loan: –850 + 1200 = +350.",
+        "Then apply the loss: +350 – 450 = –100."
+      ],
+      "answer": "–850 + 1200 – 450 = –100, so his final standing is a debt (Ṛiṇa) of Rs 100."
+    },
+    {
+      "id": "gm-ch03-e3",
+      "title": "Why sqrt(2) is irrational",
+      "problem": "Prove that sqrt(2) is irrational, following Hippasus' Proof by Contradiction.",
+      "steps": [
+        "Assume the opposite: sqrt(2) = p/q in its simplest form, where p and q are co-prime integers and q is not 0.",
+        "Square both sides: 2 = p^2/q^2.",
+        "Multiply both sides by q^2: 2q^2 = p^2.",
+        "p^2 equals 2 times the integer q^2, so p^2 is even; if the square is even, the number itself is even, so p = 2k for some integer k.",
+        "Substitute p = 2k: 2q^2 = (2k)^2 = 4k^2, so q^2 = 2k^2 after dividing both sides by 2.",
+        "Now q^2 is also 2 times an integer, so q must be even as well.",
+        "Both p and q are even, so they share a common factor 2, contradicting the co-prime assumption from Step 1.",
+        "The assumption collapses into a logical disaster, so no such fraction exists."
+      ],
+      "answer": "sqrt(2) is irrational, exactly as Hippasus demonstrated around 400 BCE."
+    },
+    {
+      "id": "gm-ch03-e4",
+      "title": "Predicting a decimal without dividing",
+      "problem": "Without doing long division, decide whether 3/20 terminates or repeats, and find its decimal expansion.",
+      "steps": [
+        "3/20 is already in lowest terms, so inspect the denominator 20.",
+        "Prime factorise: 20 = 2^2 × 5; only 2s and 5s appear, so a terminating decimal is guaranteed.",
+        "Turn the denominator into a power of 10 by multiplying top and bottom by 5: 3/20 = 15/100.",
+        "Read off the decimal: 15/100 = 0.15."
+      ],
+      "answer": "3/20 = 0.15, a terminating decimal, because 20 = 2^2 × 5 scales to the power of ten 100."
+    }
+  ],
+  "conceptMap": {
+    "center": "The World of Numbers",
+    "groups": [
+      { "id": "g1", "label": "Origins" },
+      { "id": "g2", "label": "Number sets" },
+      { "id": "g3", "label": "Heritage and proofs" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "One-to-one counting", "group": "g1" },
+      { "id": "n2", "label": "Bone tallies", "group": "g1" },
+      { "id": "n3", "label": "Natural numbers N", "group": "g1" },
+      { "id": "n4", "label": "Śhūnya (zero)", "group": "g2" },
+      { "id": "n5", "label": "Integers Z", "group": "g2" },
+      { "id": "n6", "label": "Fractions", "group": "g2" },
+      { "id": "n7", "label": "Rationals Q", "group": "g2" },
+      { "id": "n8", "label": "Irrationals", "group": "g2" },
+      { "id": "n9", "label": "Reals R", "group": "g2" },
+      { "id": "n14", "label": "Decimal expansions", "group": "g2" },
+      { "id": "n10", "label": "Bakhśhālī bindu", "group": "g3" },
+      { "id": "n11", "label": "Brahmagupta's rules", "group": "g3" },
+      { "id": "n12", "label": "Baudhāyana's Śhulbasūtra", "group": "g3" },
+      { "id": "n13", "label": "Hippasus' proof", "group": "g3" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n3", "label": "births N" },
+      { "from": "n2", "to": "n1", "label": "earliest evidence" },
+      { "from": "n10", "to": "n4", "label": "bindu marks zero" },
+      { "from": "n11", "to": "n4", "label": "defined as a number" },
+      { "from": "n11", "to": "n5", "label": "fortunes and debts" },
+      { "from": "n3", "to": "n5", "label": "plus negatives" },
+      { "from": "n6", "to": "n7", "label": "joins Q" },
+      { "from": "n5", "to": "n7", "label": "inside Q" },
+      { "from": "n12", "to": "n8", "label": "altars met sqrt(2)" },
+      { "from": "n13", "to": "n8", "label": "proved irrational" },
+      { "from": "n7", "to": "n9", "label": "rationals in R" },
+      { "from": "n8", "to": "n9", "label": "fills the gaps" },
+      { "from": "n7", "to": "n14", "label": "terminates or repeats" },
+      { "from": "n8", "to": "n14", "label": "told apart by decimals" }
+    ]
+  },
+  "flowchart": {
+    "title": "How the World of Numbers unfolds",
+    "steps": [
+      { "id": "s1", "label": "Feel the need", "detail": "Keeping count of cattle and days forces humans to count." },
+      { "id": "s2", "label": "Tally and match", "detail": "Pebbles in a pot and notches on bone give the Natural Numbers." },
+      { "id": "s3", "label": "Welcome śhūnya", "detail": "The Bakhśhālī bindu and Brahmagupta's 628 CE rules make zero a number." },
+      { "id": "s4", "label": "Step left of zero", "detail": "Dhana and Ṛiṇa bring negative numbers, completing the Integers Z." },
+      { "id": "s5", "label": "Fill the spaces", "detail": "Fractions and their inverses join the integers as Rationals Q." },
+      { "id": "s6", "label": "Meet sqrt(2)", "detail": "Baudhāyana's fire altars reveal a diagonal no fraction can name." },
+      { "id": "s7", "label": "Prove the gap", "detail": "Hippasus' proof by contradiction shows sqrt(2) is irrational." },
+      { "id": "s8", "label": "Unite the line", "detail": "Rationals plus irrationals form the unbroken Real Numbers R." },
+      { "id": "s9", "label": "Read the decimals", "detail": "Terminate or repeat marks the rationals; decimals tell the sets apart." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8]]
+  }
+}

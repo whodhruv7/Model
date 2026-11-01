@@ -1,0 +1,359 @@
+{
+  "book": "gm",
+  "chapter": 12,
+  "title": "Quadrilaterals",
+  "grade": 9,
+  "sections": [
+    { "id": "12.1", "title": "What Exactly is a Quadrilateral?" },
+    { "id": "12.2", "title": "Parallelograms" },
+    { "id": "12.3", "title": "Applications of Parallelograms" },
+    { "id": "12.4", "title": "Tiling the Plane Using Any 4-gon" }
+  ],
+  "slides": [
+    { "id": "gm-ch12-s1", "sec": "12.1",
+      "title": "Four sides, or more?",
+      "kicker": "Six strange figures question the obvious definition",
+      "bullets": [
+        "Informally, a quadrilateral is a figure with four straight sides, like ABCD.",
+        "The book tests us with six odd figures: NOPE, SILY, DART, CUTS, OPENS and BENT.",
+        "If we say no to any of them, our definition must explain exactly why it is excluded."
+      ],
+      "visual": { "kind": "labels", "items": ["NOPE", "SILY", "DART", "CUTS", "OPENS", "BENT"] },
+      "note": "Simple shabd, strict definition — that is real maths." },
+    { "id": "gm-ch12-s2", "sec": "12.1",
+      "title": "Triangles teach first",
+      "kicker": "Define a triangle before touching quadrilaterals",
+      "bullets": [
+        "Triangle ABC is the set of points on the three segments AB, BC and CA, provided A, B, C are not collinear.",
+        "If the three points sit on one line, the segments collapse into a single line segment, not a triangle.",
+        "When A, B, C are non-collinear, they are the vertices and AB, BC, CA are the sides."
+      ],
+      "visual": { "kind": "compare",
+        "left": { "title": "Non-collinear A, B, C", "items": ["three segments form a triangle", "the points are its vertices"] },
+        "right": { "title": "Collinear A, B, C", "items": ["segments collapse to a line", "not a triangle at all"] } } },
+    { "id": "gm-ch12-s3", "sec": "12.1",
+      "title": "No three in line",
+      "kicker": "Rule one removes NOPE and SILY",
+      "bullets": [
+        "First requirement: no three vertices of a quadrilateral may be collinear.",
+        "If three vertices sit on one line, the two adjacent sides formed by them lie along that same line.",
+        "This creates a triangle-like figure such as NOPE, or a figure with overlapping sides like SILY."
+      ],
+      "visual": { "kind": "flow", "items": ["Take 4 points A, B, C, D", "Check: no three collinear", "Reject NOPE and SILY"] } },
+    { "id": "gm-ch12-s4", "sec": "12.1",
+      "title": "Stay in one plane",
+      "kicker": "Rule two rejects the figure BENT",
+      "bullets": [
+        "Second requirement: all four vertices must lie in the same plane.",
+        "Four-sided figures like BENT are called non-planar quadrilaterals.",
+        "This chapter studies only planar quadrilaterals, except in a few exercises."
+      ],
+      "visual": { "kind": "compare",
+        "left": { "title": "Planar, like ABCD", "items": ["all vertices in one plane", "our main object of study"] },
+        "right": { "title": "Non-planar, like BENT", "items": ["vertices not in one plane", "kept aside, a few exercises only"] } } },
+    { "id": "gm-ch12-s5", "sec": "12.1",
+      "title": "Sides must not cross",
+      "kicker": "Rule three handles CUTS and OPENS",
+      "bullets": [
+        "Ordinarily CUTS is not considered a quadrilateral; if we allow such figures, we call them self-intersecting quadrilaterals.",
+        "The fix: all the points of the quadrilateral, other than the vertices, must lie on exactly one side.",
+        "This single condition rules out crossing figures like CUTS and tricky ones like OPENS."
+      ],
+      "visual": { "kind": "steps", "items": ["Take four points A, B, C, D", "No three collinear", "All in one plane", "Other points on exactly one side"] },
+      "note": "Three checks ho gaye — now ABCD truly earns its name." },
+    { "id": "gm-ch12-s6", "sec": "12.2",
+      "title": "The parallelogram family",
+      "kicker": "Opposite sides parallel: rhombus, rectangle, square",
+      "bullets": [
+        "A parallelogram is a quadrilateral whose opposite sides are parallel, as studied in Grade 8.",
+        "Rhombuses, rectangles and squares are all included in the family.",
+        "Parallelograms form a very important and widely used class of quadrilaterals."
+      ],
+      "visual": { "kind": "tree", "root": "Parallelogram", "children": ["Rhombus", "Rectangle", "Square"] } },
+    { "id": "gm-ch12-s7", "sec": "12.2",
+      "title": "Theorem 1: three gifts",
+      "kicker": "Proved last year, reused all chapter",
+      "bullets": [
+        "In a parallelogram, the opposite sides are equal.",
+        "The opposite angles are equal too.",
+        "And the diagonals bisect each other — three properties in one theorem."
+      ],
+      "visual": { "kind": "labels", "items": ["equal opposite sides", "equal opposite angles", "diagonals bisect each other"] } },
+    { "id": "gm-ch12-s8", "sec": "12.2",
+      "title": "Proving sides equal",
+      "kicker": "One diagonal, one ASA test",
+      "bullets": [
+        "In parallelogram ABCD, the diagonal AC is a transversal for AB parallel DC and also for AD parallel BC.",
+        "So triangle ACD is congruent to triangle CAB by the ASA test.",
+        "Matching parts give AB = DC and AD = BC — the opposite sides are equal."
+      ],
+      "visual": { "kind": "steps", "items": ["Draw diagonal AC", "AC is a transversal of both parallel pairs", "ASA: ACD congruent to CAB", "Opposite sides come out equal"] } },
+    { "id": "gm-ch12-s9", "sec": "12.2",
+      "title": "Angles from parallels",
+      "kicker": "Adjacent angles team up to 180 degrees",
+      "bullets": [
+        "BC is parallel to AD with AB as transversal, so angle A plus angle B is 180 degrees.",
+        "They are interior angles on the same side of the transversal.",
+        "Any two adjacent angles add to 180 degrees, and algebra gives angle A = angle C and angle B = angle D."
+      ],
+      "visual": { "kind": "steps", "items": ["BC parallel AD, AB transversal", "angle A + angle B = 180 degrees", "Same for every adjacent pair", "Algebra: opposite angles equal"] } },
+    { "id": "gm-ch12-s10", "sec": "12.2",
+      "title": "Converses become tests",
+      "kicker": "Flip Theorem 1 to detect parallelograms",
+      "bullets": [
+        "Write each property in if-then form, then flip it: if the opposite sides are equal, is it a parallelogram?",
+        "The book shows that all three converse statements are true.",
+        "So there are alternate tests: equal opposite sides, equal opposite angles, or diagonals that bisect each other."
+      ],
+      "visual": { "kind": "compare",
+        "left": { "title": "Theorem 1 direction", "items": ["given a parallelogram", "the properties follow"] },
+        "right": { "title": "Converse direction", "items": ["given equal sides, angles or bisecting diagonals", "conclude it is a parallelogram"] } },
+      "note": "Ulta karke dekho — each converse is a ready-made test." },
+    { "id": "gm-ch12-s11", "sec": "12.3",
+      "title": "Parallelograms at work",
+      "kicker": "From forces to steam engines",
+      "bullets": [
+        "In physics, a fundamental law uses parallelograms to combine physical quantities like forces, coming in a later year.",
+        "Mechanical linkages use them too, such as the parallel motion linkage discovered by James Watt.",
+        "Watt's linkage formed an important part of his steam engine."
+      ],
+      "visual": { "kind": "labels", "items": ["parallelogram law of forces", "James Watt linkage", "steam engine"] } },
+    { "id": "gm-ch12-s12", "sec": "12.3",
+      "title": "The clever pantograph",
+      "kicker": "A parallelogram that copies drawings",
+      "bullets": [
+        "A pantograph is a parallelogram-based device that can make exact scaled copies of a drawing.",
+        "Watt's parallel motion design used the concept behind the pantograph.",
+        "The book suggests searching the internet for a pantograph video — it is ingenious!"
+      ],
+      "visual": { "kind": "flow", "items": ["Original drawing", "Pantograph linkage", "Exact scaled copy"] } },
+    { "id": "gm-ch12-s13", "sec": "12.3",
+      "title": "Cut a triangle into four",
+      "kicker": "An exploration with scissors and folding",
+      "bullets": [
+        "Draw and cut out two copies of the same triangle; keep one intact for comparison.",
+        "On the other, mark the midpoint of each side — fold the paper to join two vertices at a time.",
+        "Draw the triangle made by the three midpoints and cut along these lines: you get four smaller triangles."
+      ],
+      "visual": { "kind": "steps", "items": ["Draw two copies of a triangle", "Fold to mark side midpoints", "Cut along the midpoint triangle", "Compare the four pieces"] } },
+    { "id": "gm-ch12-s14", "sec": "12.3",
+      "title": "All four are congruent",
+      "kicker": "The pattern the paper pieces reveal",
+      "bullets": [
+        "The four smaller triangles appear to be congruent to each other.",
+        "Each one also seems to be a smaller copy of the original triangle.",
+        "Verify that this pattern holds for triangles of other shapes."
+      ],
+      "visual": { "kind": "labels", "items": ["four pieces", "mutually congruent", "smaller copy of original"] } },
+    { "id": "gm-ch12-s15", "sec": "12.3",
+      "title": "One segment at a time",
+      "kicker": "Breaking a hard proof into steps",
+      "bullets": [
+        "Try to prove the four triangles congruent directly and no congruence test applies, because many quantities are unknown.",
+        "The book's idea: too many new things at once — three new points and three new segments — so break it into steps.",
+        "For one segment joining two midpoints, the cut-outs suggest it is parallel to the unused third side and half as long."
+      ],
+      "visual": { "kind": "compare",
+        "left": { "title": "Direct attack", "items": ["three new points", "three new segments", "no test applies"] },
+        "right": { "title": "Step by step", "items": ["study one segment first", "compare with the third side", "build the proof up"] } },
+      "note": "Bade kaam ko chhote steps mein todo." },
+    { "id": "gm-ch12-s16", "sec": "12.4",
+      "title": "Tilings everywhere",
+      "kicker": "Mosaics, Escher and honeycombs",
+      "bullets": [
+        "Tiling the plane with one shape or many leads to beautiful pictures.",
+        "They occur in mosaics of several ancient civilizations and in artwork like that of M.C. Escher.",
+        "Nature tiles too, for example a honeycomb, and so do decorative patterns of daily life."
+      ],
+      "visual": { "kind": "labels", "items": ["ancient mosaics", "M.C. Escher", "honeycomb", "decorative patterns"] } },
+    { "id": "gm-ch12-s17", "sec": "12.4",
+      "title": "Any 4-gon can tile",
+      "kicker": "Meet the irregular quadrilateral SOME",
+      "bullets": [
+        "The plane can be tiled with any given 4-gon, not just a parallelogram as at the beginning of the chapter.",
+        "Trace SOME on paper with its four angles labelled 1, 2, 3, 4 — remember they add up to 360 degrees.",
+        "Cut out 15 identical copies and start experimenting."
+      ],
+      "visual": { "kind": "steps", "items": ["Trace irregular 4-gon SOME", "Label angles 1, 2, 3, 4", "Use: angles sum to 360 degrees", "Cut 15 identical copies"] } },
+    { "id": "gm-ch12-s18", "sec": "12.4",
+      "title": "The 360 degree secret",
+      "kicker": "Four copies hug one point",
+      "bullets": [
+        "At any vertex of a tiling, the angles made by consecutive lines around it must total 360 degrees.",
+        "Idea: take 4 copies of SOME and fit them around a common point so each angle is used once as you go around.",
+        "There are multiple ways of doing this — continue fitting further copies and the plane gets tiled."
+      ],
+      "visual": { "kind": "flow", "items": ["Angles 1+2+3+4 = 360 degrees", "Place 4 copies around a point", "Each angle used once", "Vertex is complete"] } },
+    { "id": "gm-ch12-s19", "sec": "12.4",
+      "title": "Method 1: half-turn",
+      "kicker": "Rotate a copy about the edge midpoint",
+      "bullets": [
+        "Start with two copies of SOME, one exactly above the other.",
+        "Rotate the top copy by 180 degrees around the midpoint of OM: the rotated copy aligns with the original perfectly along the shared edge OM.",
+        "Repeat this at each edge of every copy you add — the first step adds 4 copies around the starting copy, and the second step adds more."
+      ],
+      "visual": { "kind": "steps", "items": ["Two copies, one above other", "Half-turn about midpoint of OM", "Edges align perfectly", "Repeat: 4 copies, then more"] } },
+    { "id": "gm-ch12-s20", "sec": "12.4",
+      "title": "Describe it, prove it",
+      "kicker": "Experiment first, then justify",
+      "bullets": [
+        "This section focuses on experimental verification of the tiling methods.",
+        "Challenge one: describe the procedure so precisely that someone can draw the tiling on their own.",
+        "Challenge two: justify why your procedure works — you are encouraged to prove it yourself."
+      ],
+      "visual": { "kind": "compare",
+        "left": { "title": "Describe", "items": ["write the exact steps", "another person can redraw it"] },
+        "right": { "title": "Prove", "items": ["explain why it always works", "no gaps, no overlaps"] } },
+      "note": "Pehle haath se try karo, phir proof." }
+  ],
+  "flashcards": [
+    { "id": "gm-ch12-f1", "sec": "12.1", "front": "Informally, what is a quadrilateral?", "back": "A figure with four straight sides, like ABCD — but a precise definition needs extra conditions.", "tag": "definition" },
+    { "id": "gm-ch12-f2", "sec": "12.1", "front": "Why must the three vertices of a triangle be non-collinear?", "back": "If A, B, C lie on one line, the three segments collapse into a single line segment — not a triangle.", "tag": "concept" },
+    { "id": "gm-ch12-f3", "sec": "12.1", "front": "What must be true about any three vertices of a quadrilateral?", "back": "No three vertices may be collinear, or adjacent sides fall along the same line, as in NOPE and SILY.", "tag": "concept" },
+    { "id": "gm-ch12-f4", "sec": "12.1", "front": "What is a non-planar quadrilateral?", "back": "A four-sided figure like BENT whose vertices do not all lie in the same plane; this book studies planar ones.", "tag": "definition" },
+    { "id": "gm-ch12-f5", "sec": "12.1", "front": "What condition rules out self-crossing figures like CUTS?", "back": "All the points of the quadrilateral, other than the vertices, must lie on exactly one side.", "tag": "concept" },
+    { "id": "gm-ch12-f6", "sec": "12.2", "front": "State the three properties in Theorem 1 about a parallelogram.", "back": "Opposite sides are equal, opposite angles are equal, and the diagonals bisect each other.", "tag": "formula" },
+    { "id": "gm-ch12-f7", "sec": "12.2", "front": "In parallelogram ABCD, which congruence proves the opposite sides equal?", "back": "Triangle ACD is congruent to triangle CAB by ASA, with diagonal AC as transversal of the parallel sides.", "tag": "concept" },
+    { "id": "gm-ch12-f8", "sec": "12.2", "front": "What do two adjacent angles of a parallelogram add up to?", "back": "180 degrees — they are interior angles on the same side of a transversal between parallel sides.", "tag": "formula" },
+    { "id": "gm-ch12-f9", "sec": "12.2", "front": "What does the book say about the three converses of Theorem 1?", "back": "All three are true, so equal opposite sides, equal opposite angles or bisecting diagonals each prove a parallelogram.", "tag": "concept" },
+    { "id": "gm-ch12-f10", "sec": "12.2", "front": "Which quadrilaterals belong to the parallelogram family?", "back": "Rhombuses, rectangles and squares — all have opposite sides parallel.", "tag": "example" },
+    { "id": "gm-ch12-f11", "sec": "12.3", "front": "Which invention by James Watt used a parallelogram linkage?", "back": "The parallel motion linkage, which formed an important part of his steam engine.", "tag": "trivia" },
+    { "id": "gm-ch12-f12", "sec": "12.3", "front": "What does a pantograph do?", "back": "It is a parallelogram-based device that makes exact scaled copies of a drawing.", "tag": "definition" },
+    { "id": "gm-ch12-f13", "sec": "12.3", "front": "What do you get by cutting a triangle along its midpoint triangle?", "back": "Four smaller triangles that are all congruent to each other, each a smaller copy of the original.", "tag": "example" },
+    { "id": "gm-ch12-f14", "sec": "12.3", "front": "Why does a direct congruence proof fail for the four small triangles?", "back": "Many quantities are unknown, so no congruence test applies; instead handle one new segment at a time.", "tag": "concept" },
+    { "id": "gm-ch12-f15", "sec": "12.3", "front": "What seems true about the segment joining midpoints of two sides of a triangle?", "back": "It appears parallel to the unused third side and half as long.", "tag": "formula" },
+    { "id": "gm-ch12-f16", "sec": "12.4", "front": "What must the angles around any vertex of a tiling total?", "back": "360 degrees — the angles made by consecutive lines around a vertex fill a full turn.", "tag": "formula" },
+    { "id": "gm-ch12-f17", "sec": "12.4", "front": "How can any 4-gon start a tiling around one point?", "back": "Fit four copies around a common point so each of its four angles is used once; they sum to 360 degrees.", "tag": "concept" },
+    { "id": "gm-ch12-f18", "sec": "12.4", "front": "In Method 1, what is done with two copies of SOME?", "back": "The top copy is rotated 180 degrees around the midpoint of OM, aligning perfectly along the shared edge.", "tag": "concept" },
+    { "id": "gm-ch12-f19", "sec": "12.4", "front": "Where do tilings appear in the world?", "back": "In mosaics of ancient civilizations, M.C. Escher's artwork, honeycombs in nature, and decorative daily patterns.", "tag": "trivia" }
+  ],
+  "quiz": [
+    { "id": "gm-ch12-q1", "sec": "12.1", "q": "Which of the book's six tricky figures is a non-planar quadrilateral?",
+      "options": ["NOPE", "CUTS", "BENT", "DART"], "answer": 2,
+      "why": "BENT's four vertices do not all lie in one plane; NOPE and CUTS fail other checks.", "difficulty": "easy" },
+    { "id": "gm-ch12-q2", "sec": "12.1", "q": "Which requirement rules out SILY, which has overlapping sides?",
+      "options": ["All four vertices must lie in one plane", "No three vertices may be collinear", "All sides must be equal", "Each angle must be 90 degrees"], "answer": 1,
+      "why": "Three collinear vertices force the two adjacent sides onto the same line, as in SILY.", "difficulty": "easy" },
+    { "id": "gm-ch12-q3", "sec": "12.1", "q": "To exclude self-intersecting figures like CUTS, the book requires that",
+      "options": ["all sides have equal length", "each angle is less than 180 degrees", "the diagonals bisect each other", "every point other than the vertices lies on exactly one side"], "answer": 3,
+      "why": "That single condition keeps all non-vertex points on one side, ruling out crossing figures.", "difficulty": "hard" },
+    { "id": "gm-ch12-q4", "sec": "12.2", "q": "The diagonals of a parallelogram always",
+      "options": ["bisect each other", "are equal in length", "are perpendicular", "are equal and perpendicular"], "answer": 0,
+      "why": "Theorem 1(c): the diagonals of a parallelogram bisect each other.", "difficulty": "easy" },
+    { "id": "gm-ch12-q5", "sec": "12.2", "q": "In the proof of Theorem 1(a), triangle ACD is congruent to triangle CAB by which test?",
+      "options": ["SAS", "ASA", "RHS", "SSS"], "answer": 1,
+      "why": "With AC as transversal of the parallel sides, ASA applies, giving AB = DC and AD = BC.", "difficulty": "medium" },
+    { "id": "gm-ch12-q6", "sec": "12.2", "q": "In parallelogram ABCD, angle A is 70 degrees. What is angle C?",
+      "options": ["110 degrees", "20 degrees", "70 degrees", "290 degrees"], "answer": 2,
+      "why": "Adjacent angles add to 180 degrees, and then algebra shows opposite angles are equal.", "difficulty": "medium" },
+    { "id": "gm-ch12-q7", "sec": "12.3", "q": "A pantograph is a parallelogram-based device that makes",
+      "options": ["mirror images of a drawing", "exact scaled copies of a drawing", "3-D models from flat drawings", "freehand enlargements by guesswork"], "answer": 1,
+      "why": "The book describes the pantograph as making exact scaled copies of a drawing.", "difficulty": "easy" },
+    { "id": "gm-ch12-q8", "sec": "12.3", "q": "Cutting a triangle along the triangle of its side midpoints gives",
+      "options": ["four smaller triangles, all congruent to one another", "three smaller triangles, all different", "four smaller triangles, all different shapes", "two triangles and a parallelogram"], "answer": 0,
+      "why": "The paper exploration shows four smaller triangles, each a smaller copy of the original.", "difficulty": "medium" },
+    { "id": "gm-ch12-q9", "sec": "12.3", "q": "Why does a direct congruence proof fail for the four small triangles?",
+      "options": ["The triangles are not really congruent", "Congruence tests work only for right triangles", "Many quantities are unknown, so no congruence test applies", "The midpoints cannot be found exactly"], "answer": 2,
+      "why": "Too many new points and segments at once; the fix is to study one segment at a time.", "difficulty": "hard" },
+    { "id": "gm-ch12-q10", "sec": "12.4", "q": "A honeycomb is the book's example of tiling",
+      "options": ["in nature", "in ancient mosaics", "in Escher's artwork", "in machine linkages"], "answer": 0,
+      "why": "Tilings occur in nature, for example a honeycomb, alongside mosaics and Escher's art.", "difficulty": "easy" },
+    { "id": "gm-ch12-q11", "sec": "12.4", "q": "Why do four copies of SOME fit around one point of a tiling?",
+      "options": ["Each angle of SOME is 90 degrees", "Opposite angles of SOME are equal", "All sides of SOME are equal", "Its four angles add up to 360 degrees"], "answer": 3,
+      "why": "Angles around a tiling vertex total 360 degrees, so each of the four angles is used once.", "difficulty": "medium" },
+    { "id": "gm-ch12-q12", "sec": "12.4", "q": "In Method 1, after rotating the top copy of SOME by 180 degrees about the midpoint of OM,",
+      "options": ["the copies overlap only at vertex O", "the rotated copy aligns perfectly along the shared edge OM", "the copy shrinks to half its size", "the copies no longer touch each other"], "answer": 1,
+      "why": "The half-turn about the edge midpoint makes the two copies align exactly along OM.", "difficulty": "hard" }
+  ],
+  "examples": [
+    { "id": "gm-ch12-e1", "title": "Diagonals decide the parallelogram",
+      "problem": "A quadrilateral has vertices A(1, 1), B(5, 2), C(6, 6) and D(2, 5). Use the diagonal test to decide whether ABCD is a parallelogram.",
+      "steps": [
+        "Use the converse of Theorem 1(c): if the diagonals bisect each other, the quadrilateral is a parallelogram.",
+        "Midpoint of diagonal AC = ((1+6)/2, (1+6)/2) = (3.5, 3.5).",
+        "Midpoint of diagonal BD = ((5+2)/2, (2+5)/2) = (3.5, 3.5).",
+        "The two midpoints coincide, so each diagonal cuts the other into two equal parts."
+      ],
+      "answer": "Both diagonals share the midpoint (3.5, 3.5), so they bisect each other and ABCD is a parallelogram." },
+    { "id": "gm-ch12-e2", "title": "Angle chase in a parallelogram",
+      "problem": "In parallelogram ABCD, angle A is 70 degrees. Find angles B, C and D.",
+      "steps": [
+        "Adjacent angles are interior angles on the same side of a transversal between parallel sides, so they add to 180 degrees.",
+        "Angle B = 180 - 70 = 110 degrees.",
+        "Opposite angles are equal: angle C = angle A = 70 degrees and angle D = angle B = 110 degrees.",
+        "Check the total: 70 + 110 + 70 + 110 = 360 degrees, as the four angles of a quadrilateral must."
+      ],
+      "answer": "Angle B = 110 degrees, angle C = 70 degrees and angle D = 110 degrees." },
+    { "id": "gm-ch12-e3", "title": "The midpoint cut-up, with numbers",
+      "problem": "A triangle has sides 6 cm, 8 cm and 10 cm. Its three midpoints are joined and the paper is cut along these segments. How many pieces appear and what are their side lengths?",
+      "steps": [
+        "Joining the three midpoints and cutting gives four smaller triangles.",
+        "Each midpoint halves its side, so the triangle formed by the midpoints has sides 3 cm, 4 cm and 5 cm.",
+        "Each of the four small triangles is a smaller copy of the original, so every piece has sides 3 cm, 4 cm and 5 cm.",
+        "The four small triangles are congruent to each other, each at half the scale of the original triangle."
+      ],
+      "answer": "Four congruent triangles, each with sides 3 cm, 4 cm and 5 cm — half-size copies of the original." },
+    { "id": "gm-ch12-e4", "title": "Do four copies fit around a point?",
+      "problem": "An irregular 4-gon SOME has angles 95, 85, 105 and 75 degrees. Can four copies of SOME fit around one point the way Section 12.4 suggests?",
+      "steps": [
+        "Around any vertex of a tiling, the angles made by consecutive lines must total 360 degrees.",
+        "Add the four angles of SOME: 95 + 85 + 105 + 75 = 360 degrees.",
+        "Place four copies around a common point, using each angle exactly once as you go around.",
+        "The angles fill the full turn exactly, so the four copies fit with no gap left over."
+      ],
+      "answer": "Yes — the four angles sum to 360 degrees, so four copies fit around one point, each angle used once." }
+  ],
+  "conceptMap": {
+    "center": "Quadrilaterals",
+    "groups": [
+      { "id": "g1", "label": "Defining the shape" },
+      { "id": "g2", "label": "Parallelograms" },
+      { "id": "g3", "label": "Applications" },
+      { "id": "g4", "label": "Tiling" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Four straight sides", "group": "g1" },
+      { "id": "n2", "label": "No three collinear", "group": "g1" },
+      { "id": "n3", "label": "All vertices planar", "group": "g1" },
+      { "id": "n4", "label": "One side only", "group": "g1" },
+      { "id": "n5", "label": "Opposite sides parallel", "group": "g2" },
+      { "id": "n6", "label": "Equal opposite sides", "group": "g2" },
+      { "id": "n7", "label": "Equal opposite angles", "group": "g2" },
+      { "id": "n8", "label": "Diagonals bisect", "group": "g2" },
+      { "id": "n9", "label": "Watt's steam linkage", "group": "g3" },
+      { "id": "n10", "label": "Pantograph copies", "group": "g3" },
+      { "id": "n11", "label": "Midpoint triangles", "group": "g3" },
+      { "id": "n12", "label": "Any 4-gon tiles", "group": "g4" },
+      { "id": "n13", "label": "360 degrees at vertex", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "demands" },
+      { "from": "n1", "to": "n3", "label": "demands" },
+      { "from": "n1", "to": "n4", "label": "demands" },
+      { "from": "n5", "to": "n6", "label": "implies" },
+      { "from": "n5", "to": "n7", "label": "implies" },
+      { "from": "n5", "to": "n8", "label": "implies" },
+      { "from": "n6", "to": "n5", "label": "converse tests for" },
+      { "from": "n8", "to": "n5", "label": "converse tests for" },
+      { "from": "n5", "to": "n9", "label": "used in" },
+      { "from": "n5", "to": "n10", "label": "used in" },
+      { "from": "n5", "to": "n11", "label": "tool to prove" },
+      { "from": "n12", "to": "n13", "label": "needs" },
+      { "from": "n1", "to": "n12", "label": "any 4-gon can" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Spot four sides", "detail": "Many figures have four straight sides, but NOPE, SILY, CUTS, OPENS and BENT show the name needs care." },
+      { "id": "s2", "label": "Fix the definition", "detail": "No three vertices collinear, all vertices in one plane, and other points on exactly one side." },
+      { "id": "s3", "label": "Meet parallelograms", "detail": "Opposite sides parallel; rhombuses, rectangles and squares belong to the family." },
+      { "id": "s4", "label": "List Theorem 1", "detail": "Opposite sides equal, opposite angles equal, diagonals bisect each other." },
+      { "id": "s5", "label": "Flip to converses", "detail": "All three converses are true, giving alternate tests to detect a parallelogram." },
+      { "id": "s6", "label": "Apply everywhere", "detail": "Watt's parallel motion linkage and the pantograph put parallelograms to work." },
+      { "id": "s7", "label": "Cut the triangle", "detail": "Joining the side midpoints splits a triangle into four congruent smaller triangles." },
+      { "id": "s8", "label": "Tile the plane", "detail": "Four copies of any 4-gon sit around a point, each angle used once, and the tiling grows." }
+    ],
+    "edges": [ [0,1], [1,2], [2,3], [3,4], [4,5], [5,6], [6,7] ]
+  }
+}

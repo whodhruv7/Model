@@ -1,0 +1,579 @@
+{
+  "book": "gm",
+  "chapter": 14,
+  "title": "Math of Space: Surface Area and Volume",
+  "grade": 9,
+  "sections": [
+    { "id": "14.1", "title": "Cuboids and Cubes" },
+    { "id": "14.2", "title": "Right Circular Cylinder" },
+    { "id": "14.3", "title": "Cones" },
+    { "id": "14.4", "title": "Pyramidal Shapes" },
+    { "id": "14.5", "title": "Spheres and Hemispheres" },
+    { "id": "14.6", "title": "Areas and Volumes Around Us" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch14-s1",
+      "sec": "14.1",
+      "title": "A Cuboid in 3D",
+      "kicker": "A rectangle that learned to stand up",
+      "bullets": [
+        "A cuboid is the three-dimensional version of a rectangle, like the bricks and the Rubik's Cube pictured in the book.",
+        "It has six faces, and every single face is a rectangle.",
+        "Three numbers pin a cuboid down completely: length l, width w and height h."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["length l", "width w", "height h", "6 rectangular faces"]
+      },
+      "note": "L, W, H yaad rakhoge toh poora chapter aasan hai."
+    },
+    {
+      "id": "gm-ch14-s2",
+      "sec": "14.1",
+      "title": "Surface Area From a Net",
+      "kicker": "Cut, fold, and count the faces",
+      "bullets": [
+        "Cut out the net of a cuboid given at the end of the textbook, fold along the edges and join them to build the solid.",
+        "The faces come in three equal pairs, so each rectangular area gets counted twice.",
+        "Add all six faces and you get the total surface area: TSA = 2(wl + hl + hw)."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Cut out the net", "Fold along the edges", "Spot three pairs of faces", "Add all six areas"]
+      },
+      "note": "The net is just the cuboid lying flat before its folds."
+    },
+    {
+      "id": "gm-ch14-s3",
+      "sec": "14.1",
+      "title": "Volume Counts Unit Cubes",
+      "kicker": "How many little cubes fit inside?",
+      "bullets": [
+        "Volume measures the amount of three-dimensional space an object occupies, in cubic units like cm^3 or m^3.",
+        "A unit cube measures 1 in every direction and its volume is set to one cubic unit.",
+        "The volume of a cuboid is the number of unit cubes that fit into it: V = lwh.",
+        "Picture thin l by w rectangles stacked like a pack of playing cards; each layer adds area of base worth of cubes."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Rectangle (2D)", "items": ["area = length × width", "measured in square units"] },
+        "right": { "title": "Cuboid (3D)", "items": ["volume = length × width × height", "measured in cubic units"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s4",
+      "sec": "14.1",
+      "title": "The Cube: Special Cuboid",
+      "kicker": "When l, w and h all agree",
+      "bullets": [
+        "A cube is a cuboid whose length, width and height are the same; this common length is its side a.",
+        "So its total surface area is 6a^2 and its volume is a^3.",
+        "Both are special cases of 2(wl + hl + hw) and whl when w = h = l.",
+        "Volumes of cubes with sides 1, 2, 3 give the cube numbers 1, 8, 27."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Cuboid", "items": ["TSA = 2(wl + hl + hw)", "V = lwh"] },
+        "right": { "title": "Cube", "items": ["TSA = 6a^2", "V = a^3"] }
+      },
+      "note": "1, 8, 27 — cube numbers wapas mil gaye!"
+    },
+    {
+      "id": "gm-ch14-s5",
+      "sec": "14.2",
+      "title": "Right vs Oblique Cylinders",
+      "kicker": "Which way does the axis lean?",
+      "bullets": [
+        "The word circular means the cross-section of the cylinder is a circle.",
+        "In a right circular cylinder the axis is perpendicular to the circular base; many pipes have this shape.",
+        "In an oblique circular cylinder the axis is inclined to the base; this chapter studies only the right one."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Right circular", "items": ["axis perpendicular to the base", "many pipes look like this"] },
+        "right": { "title": "Oblique circular", "items": ["axis inclined to the base", "the cylinder leans over"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s6",
+      "sec": "14.2",
+      "title": "Cross-Sections: Slicing Solids",
+      "kicker": "MRI scans slice you the same way",
+      "bullets": [
+        "Take an extremely thin slice of a 3D object; the shape you get is called a cross-section.",
+        "Slice a cylinder parallel to its base and you get a circle; parallel to its axis and you get a rectangle.",
+        "When doctors take an MRI scan, they look inside your body in slices, just like cross-sections.",
+        "Cut fruits like a papaya or an apple and you see their cross-sections too."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["thin slice", "parallel to base: circle", "parallel to axis: rectangle", "MRI scan"]
+      }
+    },
+    {
+      "id": "gm-ch14-s7",
+      "sec": "14.2",
+      "title": "Unroll the Curved Surface",
+      "kicker": "A cylinder secretly holds a rectangle",
+      "bullets": [
+        "Cut the curved surface of a cylinder as shown in the book and open it out: you get a rectangle.",
+        "One side of that rectangle is the circumference of the base, 2πr; the other side is the height h.",
+        "So the curved surface area is CSA = circumference × height = 2πrh."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Cut along the side", "Unroll the curved sheet", "Rectangle: width 2πr, height h", "Area = 2πrh"]
+      }
+    },
+    {
+      "id": "gm-ch14-s8",
+      "sec": "14.2",
+      "title": "Tins and Tumblers",
+      "kicker": "Do the flat ends count? Depends!",
+      "bullets": [
+        "A biscuit tin is closed at both ends, so the two flat circular ends add 2πr^2 to the area.",
+        "Total surface area of a closed cylinder = 2πrh + 2πr^2 = 2πr(h + r).",
+        "A tumbler is closed at one end and open at the other: surface area = 2πrh + πr^2 = πr(2h + r)."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Biscuit tin", "items": ["closed at both ends", "TSA = 2πr(h + r)"] },
+        "right": { "title": "Tumbler", "items": ["closed at one end only", "area = πr(2h + r)"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s9",
+      "sec": "14.2",
+      "title": "Volume of a Cylinder",
+      "kicker": "Stack thin circular cards skyward",
+      "bullets": [
+        "Like the cuboid, a cylinder's volume is the area of its base times its height.",
+        "The base is a circle of area πr^2, so V = πr^2h.",
+        "Same pack-of-cards idea as the cuboid, only the cards are round this time."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Find base area πr^2", "Stack up to height h", "V = πr^2h"]
+      },
+      "note": "Lallan ke pani vessel ka volume bhi isi se niklega, dekhna."
+    },
+    {
+      "id": "gm-ch14-s10",
+      "sec": "14.3",
+      "title": "Birth of a Cone",
+      "kicker": "Spin a right triangle, get a cone",
+      "bullets": [
+        "A right circular cone is generated when a right triangle is rotated about one of its legs.",
+        "Three lengths matter: the radius r of the base, the height h and the slant length l.",
+        "They obey l^2 = h^2 + r^2, using the Baudhāyana-Pythagoras theorem."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["slant length l", "height h", "radius r", "l^2 = h^2 + r^2"]
+      }
+    },
+    {
+      "id": "gm-ch14-s11",
+      "sec": "14.3",
+      "title": "Unroll Into a Sector",
+      "kicker": "Cut along a slant and open up",
+      "bullets": [
+        "Cut the cone along a slant edge and open up the surface: it has the shape of a sector of a circle.",
+        "The radius of that sector is the slant length l of the cone.",
+        "Bring the two straight edges together and the cone forms again; try the net cutout at the end of the textbook."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Cut along a slant edge", "Open up the surface", "You get a sector of radius l", "Rejoin the edges to rebuild"]
+      }
+    },
+    {
+      "id": "gm-ch14-s12",
+      "sec": "14.3",
+      "title": "Why CSA = πrl",
+      "kicker": "Thin triangles add up beautifully",
+      "bullets": [
+        "Cut the unrolled surface into a large number of very thin sectors; each one acts like a narrow isosceles triangle of height l.",
+        "Each thin triangle has area half of base times l, so the areas add up as half the sum of the bases times l.",
+        "All the little bases together make the circumference 2πr, so CSA = (1/2)(2πr)l = πrl."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Unroll into a sector", "Cut into very thin sectors", "Each acts like a triangle of height l", "Sum = (1/2)(2πr)l = πrl"]
+      }
+    },
+    {
+      "id": "gm-ch14-s13",
+      "sec": "14.3",
+      "title": "Total Surface Area of a Cone",
+      "kicker": "Curved wrap plus flat base",
+      "bullets": [
+        "The sector route agrees: sector area is πl × l × (θ/360), and matching arc lengths gives θ/360 = r/l, so CSA = πrl again.",
+        "The total surface area is the curved part plus the flat circular base: TSA = πrl + πr^2."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Curved part", "items": ["unrolls into a sector of radius l", "area = πrl"] },
+        "right": { "title": "Flat base", "items": ["a circle of radius r", "area = πr^2"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s14",
+      "sec": "14.3",
+      "title": "One-Third of a Cylinder",
+      "kicker": "The famous factor of 3",
+      "bullets": [
+        "Volume of a cone: V = (1/3)πr^2h, which is (1/3) × area of base × height.",
+        "A cone holds exactly one-third of a cylinder formed on the same circular base with the same height.",
+        "Students often wonder about the factor of 3; the book agrees this why deserves real thought."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Cylinder", "items": ["V = πr^2h", "same base and height"] },
+        "right": { "title": "Cone", "items": ["V = (1/3)πr^2h", "exactly one-third"] }
+      },
+      "note": "Ek base, ek height — phir bhi cone sirf teesra hissa."
+    },
+    {
+      "id": "gm-ch14-s15",
+      "sec": "14.4",
+      "title": "What Makes a Pyramid",
+      "kicker": "Every base point climbs to the apex",
+      "bullets": [
+        "A pyramidal shape has a base that may be a triangle, a square or indeed any closed shape.",
+        "All points in the base are connected to a single point, the apex, which lies in a different plane.",
+        "You can make pyramids using the cutouts of nets given at the end of the textbook."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["base: any closed shape", "apex", "flat polygonal faces", "net cutouts"]
+      }
+    },
+    {
+      "id": "gm-ch14-s16",
+      "sec": "14.4",
+      "title": "Pyramids on Earth",
+      "kicker": "From Egypt to the Himalaya",
+      "bullets": [
+        "The famous pyramids in Egypt have square bases.",
+        "A puzzle made by the Hungarian architect Erno Rubik has a pyramidal shape with a triangular base.",
+        "Some mountains have pyramidal peaks from glacier erosion over millennia: Shivling Peak in Uttarakhand and the Matterhorn in the Alps."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Egypt: square base", "Rubik's puzzle: triangular base", "Shivling Peak", "Matterhorn"]
+      }
+    },
+    {
+      "id": "gm-ch14-s17",
+      "sec": "14.4",
+      "title": "Volume: One-Third Again",
+      "kicker": "Same formula as the cone",
+      "bullets": [
+        "V = (1/3) × area of base × height, whatever the shape of the flat base.",
+        "The same formula applies for a triangular, square or any other shaped base.",
+        "It matches the cone because a cone is just a pyramid with a circular base."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Pyramid", "items": ["any flat base", "V = (1/3) × base area × height"] },
+        "right": { "title": "Cone", "items": ["circular base", "V = (1/3)πr^2h"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s18",
+      "sec": "14.4",
+      "title": "Surface Area: Just Add Faces",
+      "kicker": "No new formula needed",
+      "bullets": [
+        "The surface area of a pyramidal shape is found by adding up the areas of all its polygonal faces.",
+        "That is why the book gives no separate formula for it: face-by-face addition does the job."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["List every polygonal face", "Find each face's area", "Add them all up"]
+      }
+    },
+    {
+      "id": "gm-ch14-s19",
+      "sec": "14.5",
+      "title": "The Sphere: 3D Circle",
+      "kicker": "Every point the same distance from O",
+      "bullets": [
+        "A circle is the collection of all points in a plane at some given distance from some given point.",
+        "A sphere is the collection of all points in 3D space at distance r from a given point O, the centre; it is the 3D equivalent of a circle.",
+        "Rotate a circle about any diameter and you get a hollow sphere; volleyballs and footballs are familiar spheres."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Circle", "items": ["lives flat in a plane", "points at distance r from centre"] },
+        "right": { "title": "Sphere", "items": ["lives in 3D space", "points at distance r from centre O"] }
+      }
+    },
+    {
+      "id": "gm-ch14-s20",
+      "sec": "14.5",
+      "title": "Archimedes' Wrapping Trick",
+      "kicker": "A tight jacket of a cylinder",
+      "bullets": [
+        "Archimedes showed a sphere's surface area equals the CSA of a cylinder of radius r and height 2r that fits tightly over it.",
+        "That cylinder's CSA is 2πrh = 2πr × 2r = 4πr^2.",
+        "So the surface area of a sphere of radius r is exactly A = 4πr^2."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Fit a cylinder over the sphere", "Radius r, height 2r", "Its CSA = 2πrh = 4πr^2", "Sphere area = 4πr^2"]
+      }
+    },
+    {
+      "id": "gm-ch14-s21",
+      "sec": "14.5",
+      "title": "Volume of a Sphere",
+      "kicker": "Four-thirds pi r cubed",
+      "bullets": [
+        "Archimedes also found the volume of a sphere: V = (4/3)πr^3.",
+        "You will study the derivations of these formulas in later grades, using calculus.",
+        "A hint to try yourself: write V = (1/3) × (4πr^2) × r, that is one-third of surface area times radius."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Recall surface area 4πr^2", "Multiply by the radius r", "Take one-third of that", "V = (4/3)πr^3"]
+      }
+    },
+    {
+      "id": "gm-ch14-s22",
+      "sec": "14.5",
+      "title": "Mapping Earth on a Cylinder",
+      "kicker": "Wrap the world, unwrap the map",
+      "bullets": [
+        "In cartography, a cylinder is tightly wrapped around the earth, touching it at the equator.",
+        "Radial lines from the north pole-south pole axis project the surface horizontally onto the cylinder.",
+        "Unwrap the cylinder and you get a rectangular world map, easy and convenient to use.",
+        "Defect: shapes are greatly distorted at high latitudes near the poles; near the equator the distortion is negligible."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Wrap cylinder around the earth", "Touching at the equator", "Project from the pole axis", "Unwrap into a rectangle"]
+      }
+    },
+    {
+      "id": "gm-ch14-s23",
+      "sec": "14.6",
+      "title": "Solids All Around You",
+      "kicker": "Spot the shapes near you",
+      "bullets": [
+        "Identify and list objects around you that are cubical, cuboidal, cylindrical, conical, spherical or pyramidal in shape.",
+        "Activity: find the approximate volumes of a gas cylinder, a bucket, a cupboard or a water tank near you.",
+        "Handy conversion for the activity: 1000 cm^3 = 1 litre."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["bricks: cuboid", "pipes and tins: cylinder", "balls: sphere", "tanks: measure in litres"]
+      }
+    },
+    {
+      "id": "gm-ch14-s24",
+      "sec": "14.6",
+      "title": "Guesstimates: Sensible Guessing",
+      "kicker": "Estimate when data is missing",
+      "bullets": [
+        "Guesstimate questions ask you to make a reasonable estimate when exact data are not available.",
+        "You use assumptions, approximations, logic and everyday knowledge to model the situation.",
+        "The goal is a sensible estimate, not a perfectly accurate answer."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Spot the quantity", "State your assumptions", "Model with formulas", "Arrive at a sensible estimate"]
+      }
+    },
+    {
+      "id": "gm-ch14-s25",
+      "sec": "14.6",
+      "title": "Lallan's Golgappa Vessel",
+      "kicker": "Guess first, calculate next",
+      "bullets": [
+        "Lallan's stall has a cylindrical vessel of radius 10 cm with pani up to a height of 50 cm.",
+        "Pani volume: V = area of base × height = π × 10 × 10 × 50 = 5000π cm^3.",
+        "Number of golgappas served = total pani in the vessel divided by volume of pani in each golgappa.",
+        "Before calculating, make a guess: is the answer in the hundreds, thousands, or more?"
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Vessel of radius 10 cm", "Pani up to 50 cm", "Volume 5000π cm^3", "Divide by pani per golgappa"]
+      }
+    },
+    {
+      "id": "gm-ch14-s26",
+      "sec": "14.6",
+      "title": "Two Students, Two Estimates",
+      "kicker": "Both answers can be right",
+      "bullets": [
+        "Student 1 assumed a golgappa radius of 1.5 cm and 60% pani: pani per golgappa about 8.5 cm^3, so about 1850 golgappas.",
+        "Student 2 assumed radius 1.75 cm and 80% pani: pani per golgappa about 18 cm^3, so about 870 golgappas.",
+        "Different but reasonable assumptions give different estimates; both calculations are sound guesstimates."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Student 1", "items": ["radius 1.5 cm, 60% pani", "about 1850 golgappas"] },
+        "right": { "title": "Student 2", "items": ["radius 1.75 cm, 80% pani", "about 870 golgappas"] }
+      }
+    }
+  ],
+  "flashcards": [
+    { "id": "gm-ch14-f1", "sec": "14.1", "front": "Which three measurements describe a cuboid?", "back": "Length, width and height, denoted l, w and h. All six faces are rectangles.", "tag": "definition" },
+    { "id": "gm-ch14-f2", "sec": "14.1", "front": "Total surface area of a cuboid with length l, width w, height h?", "back": "TSA = 2(wl + hl + hw): three pairs of equal rectangular faces, each counted twice.", "tag": "formula" },
+    { "id": "gm-ch14-f3", "sec": "14.1", "front": "What does the volume of a solid measure?", "back": "The amount of three-dimensional space it occupies, in cubic units like cm^3 or m^3.", "tag": "definition" },
+    { "id": "gm-ch14-f4", "sec": "14.1", "front": "Volume of a cuboid in terms of l, w and h?", "back": "V = lwh, the number of unit cubes that fit inside; the same as area of base times height.", "tag": "formula" },
+    { "id": "gm-ch14-f5", "sec": "14.1", "front": "Surface area and volume of a cube of side a?", "back": "TSA = 6a^2 and V = a^3, special cases of the cuboid formulas when w = h = l.", "tag": "formula" },
+    { "id": "gm-ch14-f6", "sec": "14.2", "front": "What makes a cylinder a right circular cylinder?", "back": "Circular: its cross-section is a circle. Right: its axis is perpendicular to the circular base.", "tag": "definition" },
+    { "id": "gm-ch14-f7", "sec": "14.2", "front": "Curved surface area of a cylinder?", "back": "CSA = circumference × height = 2πrh. Unrolled, the curved surface becomes a rectangle.", "tag": "formula" },
+    { "id": "gm-ch14-f8", "sec": "14.2", "front": "TSA of a cylinder closed at both ends, like a biscuit tin?", "back": "TSA = 2πrh + 2πr^2 = 2πr(h + r). The two circular ends together add 2πr^2.", "tag": "formula" },
+    { "id": "gm-ch14-f9", "sec": "14.2", "front": "Cross-section of a cylinder sliced parallel to its axis?", "back": "A rectangle. A slice parallel to the base gives a circle instead.", "tag": "concept" },
+    { "id": "gm-ch14-f10", "sec": "14.3", "front": "How is a right circular cone generated?", "back": "By rotating a right triangle about one of its legs.", "tag": "concept" },
+    { "id": "gm-ch14-f11", "sec": "14.3", "front": "Relation between slant l, height h and radius r of a cone?", "back": "l^2 = h^2 + r^2, from the Baudhāyana-Pythagoras theorem.", "tag": "formula" },
+    { "id": "gm-ch14-f12", "sec": "14.3", "front": "Curved surface area of a cone?", "back": "CSA = πrl. The unrolled cone is a sector; its thin triangles sum to half the base circumference times l.", "tag": "formula" },
+    { "id": "gm-ch14-f13", "sec": "14.3", "front": "Total surface area of a cone?", "back": "TSA = πrl + πr^2: the curved portion plus the flat circular base.", "tag": "formula" },
+    { "id": "gm-ch14-f14", "sec": "14.3", "front": "Volume of a cone with radius r and height h?", "back": "V = (1/3)πr^2h, exactly one-third of the cylinder with the same base and height.", "tag": "formula" },
+    { "id": "gm-ch14-f15", "sec": "14.4", "front": "Volume of any pyramidal shape?", "back": "V = (1/3) × area of base × height, whether the base is triangular, square or any flat shape.", "tag": "formula" },
+    { "id": "gm-ch14-f16", "sec": "14.4", "front": "How do you find the surface area of a pyramid?", "back": "Add the areas of all the polygonal faces; no separate formula is needed.", "tag": "concept" },
+    { "id": "gm-ch14-f17", "sec": "14.4", "front": "Name two real mountains with pyramidal peaks.", "back": "Shivling Peak in Uttarakhand, India, and the Matterhorn in the Alps, shaped by glacier erosion.", "tag": "trivia" },
+    { "id": "gm-ch14-f18", "sec": "14.5", "front": "Define a sphere.", "back": "All points in 3D space at a given distance r from a centre O; the 3D equivalent of a circle.", "tag": "definition" },
+    { "id": "gm-ch14-f19", "sec": "14.5", "front": "Surface area of a sphere of radius r?", "back": "A = 4πr^2, shown by Archimedes using a tight-fitting cylinder.", "tag": "formula" },
+    { "id": "gm-ch14-f20", "sec": "14.5", "front": "Volume of a sphere of radius r?", "back": "V = (4/3)πr^3. Its full derivation waits for calculus in later grades.", "tag": "formula" },
+    { "id": "gm-ch14-f21", "sec": "14.5", "front": "Which cylinder's curved area equals a sphere's surface area?", "back": "A cylinder of radius r and height 2r that fits tightly over the sphere: 2πrh = 4πr^2.", "tag": "concept" },
+    { "id": "gm-ch14-f22", "sec": "14.6", "front": "What is a guesstimate?", "back": "A reasonable estimate made using assumptions, approximations, logic and everyday knowledge when exact data are unavailable.", "tag": "definition" },
+    { "id": "gm-ch14-f23", "sec": "14.6", "front": "How many cubic centimetres make one litre?", "back": "1000 cm^3 = 1 litre, the conversion used for buckets, tanks and vessels.", "tag": "formula" },
+    { "id": "gm-ch14-f24", "sec": "14.6", "front": "Roughly how many golgappas can Lallan's pani vessel serve?", "back": "About 1850 or about 870, depending on the assumed golgappa radius and pani fill; both are fair guesstimates.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "gm-ch14-q1", "sec": "14.1", "q": "How many faces does a cuboid have?", "options": ["4", "6", "8", "12"], "answer": 1, "why": "All six faces are rectangles; the net shows three equal pairs.", "difficulty": "easy" },
+    { "id": "gm-ch14-q2", "sec": "14.1", "q": "A cube has side 3 cm. What is its volume?", "options": ["9 cm^3", "18 cm^3", "27 cm^3", "54 cm^3"], "answer": 2, "why": "V = a^3 = 3 × 3 × 3 = 27; choosing 9 means you squared instead of cubed.", "difficulty": "medium" },
+    { "id": "gm-ch14-q3", "sec": "14.1", "q": "A cuboid has l = 5 cm, w = 3 cm, h = 2 cm. Its total surface area is:", "options": ["62 cm^2", "31 cm^2", "30 cm^2", "50 cm^2"], "answer": 0, "why": "TSA = 2(wl + hl + hw) = 2(15 + 10 + 6) = 62; 31 forgets to double the pairs.", "difficulty": "medium" },
+    { "id": "gm-ch14-q4", "sec": "14.1", "q": "Why is the volume of a cuboid also written as area of base × height?", "options": ["Because a cuboid is like many thin base rectangles stacked, one per unit height", "Because height always equals width in a cuboid", "Because area and volume measure the same thing", "Because the base of a cuboid is always a square"], "answer": 0, "why": "The book stacks thin l by w pieces like playing cards; each layer adds lw per unit height.", "difficulty": "hard" },
+    { "id": "gm-ch14-q5", "sec": "14.2", "q": "The curved surface area of a right circular cylinder is:", "options": ["πr^2h", "2πr^2", "2πrh", "πrl"], "answer": 2, "why": "Unrolled it is a rectangle: circumference 2πr times height h.", "difficulty": "easy" },
+    { "id": "gm-ch14-q6", "sec": "14.2", "q": "A very thin slice of a cylinder is taken parallel to its base. The cross-section is a:", "options": ["Circle", "Rectangle", "Triangle", "Sector"], "answer": 0, "why": "Parallel to the base gives a circle; parallel to the axis gives a rectangle.", "difficulty": "easy" },
+    { "id": "gm-ch14-q7", "sec": "14.2", "q": "A closed cylindrical tin has r = 7 cm and h = 10 cm. Its TSA is:", "options": ["140π cm^2", "154π cm^2", "70π cm^2", "238π cm^2"], "answer": 3, "why": "TSA = 2πr(h + r) = 2π × 7 × 17 = 238π; 140π forgets the two ends.", "difficulty": "medium" },
+    { "id": "gm-ch14-q8", "sec": "14.2", "q": "A tumbler (closed at one end, open at the other) has r = 5 cm, h = 14 cm. Its surface area is:", "options": ["190π cm^2", "165π cm^2", "140π cm^2", "330π cm^2"], "answer": 1, "why": "One end only: 2πrh + πr^2 = 140π + 25π = 165π; 190π wrongly closes both ends.", "difficulty": "hard" },
+    { "id": "gm-ch14-q9", "sec": "14.3", "q": "Rotating a right triangle about one of its legs generates a:", "options": ["Right circular cone", "Cylinder", "Sphere", "Pyramid"], "answer": 0, "why": "The book generates the right circular cone exactly this way.", "difficulty": "easy" },
+    { "id": "gm-ch14-q10", "sec": "14.3", "q": "A cone has base radius 3 cm and height 4 cm. Its slant length l is:", "options": ["7 cm", "12 cm", "5 cm", "25 cm"], "answer": 2, "why": "l^2 = h^2 + r^2 = 16 + 9 = 25 by Baudhāyana-Pythagoras, so l = 5; 7 adds instead of squaring.", "difficulty": "medium" },
+    { "id": "gm-ch14-q11", "sec": "14.3", "q": "A cone's volume is what fraction of a cylinder with the same base and height?", "options": ["Half", "One-third", "Two-thirds", "Three times"], "answer": 1, "why": "V = (1/3)πr^2h, exactly one-third of the matching cylinder.", "difficulty": "easy" },
+    { "id": "gm-ch14-q12", "sec": "14.3", "q": "Why does the cone's curved surface area come out as πrl?", "options": ["Because it equals the area of the circular base", "Because it unrolls exactly like a cylinder", "Because l always equals r in a cone", "Because thin unrolled triangles sum to half the base circumference times l"], "answer": 3, "why": "Each thin sector acts like an isosceles triangle of height l; the sum is (1/2)(2πr)l = πrl.", "difficulty": "hard" },
+    { "id": "gm-ch14-q13", "sec": "14.4", "q": "A pyramid has a square base of side 6 cm and height 10 cm. Its volume is:", "options": ["120 cm^3", "360 cm^3", "60 cm^3", "600 cm^3"], "answer": 0, "why": "V = (1/3) × base area × height = (1/3) × 36 × 10 = 120; 360 forgets the one-third.", "difficulty": "medium" },
+    { "id": "gm-ch14-q14", "sec": "14.4", "q": "A cone can be thought of as a pyramid with which base?", "options": ["Square base", "Triangular base", "Circular base", "No base"], "answer": 2, "why": "The book says a cone is a pyramid with a circular base; their volume formulas match.", "difficulty": "easy" },
+    { "id": "gm-ch14-q15", "sec": "14.4", "q": "Shivling Peak and the Matterhorn have pyramidal peaks formed by:", "options": ["Volcanic eruptions", "Glacier erosion over many millennia", "Ancient builders", "Earthquakes"], "answer": 1, "why": "The book credits glacier erosion over many millennia for these pyramidal peaks.", "difficulty": "easy" },
+    { "id": "gm-ch14-q16", "sec": "14.5", "q": "The surface area of a sphere of radius r is:", "options": ["4πr^2", "2πr^2", "πr^2", "3πr^2"], "answer": 0, "why": "Archimedes matched it to the CSA 2πrh of a tight cylinder with h = 2r, giving 4πr^2.", "difficulty": "easy" },
+    { "id": "gm-ch14-q17", "sec": "14.5", "q": "The volume of a sphere of radius 3 cm is:", "options": ["27π cm^3", "12π cm^3", "108π cm^3", "36π cm^3"], "answer": 3, "why": "V = (4/3)πr^3 = (4/3) × 27π = 36π; 27π drops the factor 4/3.", "difficulty": "medium" },
+    { "id": "gm-ch14-q18", "sec": "14.5", "q": "In a rectangular map projection of the earth, shape distortion is greatest:", "options": ["Near the equator", "Close to the poles", "Equally everywhere", "Only over the oceans"], "answer": 1, "why": "The book notes great distortion at high latitudes; near the equator it is negligible.", "difficulty": "medium" },
+    { "id": "gm-ch14-q19", "sec": "14.5", "q": "The sphere's volume can be written as one-third of its surface area times:", "options": ["The diameter", "The height 2r", "The radius r", "The circumference"], "answer": 2, "why": "V = (1/3) × (4πr^2) × r, so volume of sphere = one-third × surface area × radius.", "difficulty": "hard" },
+    { "id": "gm-ch14-q20", "sec": "14.6", "q": "How many cubic centimetres make one litre?", "options": ["100 cm^3", "1000 cm^3", "10 cm^3", "10000 cm^3"], "answer": 1, "why": "The book's activity uses 1000 cm^3 = 1 litre for buckets and tanks.", "difficulty": "easy" },
+    { "id": "gm-ch14-q21", "sec": "14.6", "q": "Lallan's vessel has radius 10 cm with pani up to height 50 cm. The pani volume is:", "options": ["5000π cm^3", "500π cm^3", "50000π cm^3", "5000 cm^3"], "answer": 0, "why": "V = area of base × height = π × 10 × 10 × 50 = 5000π cm^3.", "difficulty": "medium" },
+    { "id": "gm-ch14-q22", "sec": "14.6", "q": "Two students got about 1850 and about 870 golgappas from the same vessel. The main reason is:", "options": ["One of them computed the vessel volume wrongly", "Only one of them used the sphere formula", "The vessel shrank between the two calculations", "They assumed different golgappa radii and pani fill levels"], "answer": 3, "why": "Student 1 took radius 1.5 cm and 60% pani, Student 2 took 1.75 cm and 80%, so the estimates differ.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch14-e1",
+      "title": "TSA and volume of a cuboid",
+      "problem": "A cuboid brick has length 10 cm, width 6 cm and height 4 cm. Find its total surface area and its volume.",
+      "steps": [
+        "List the dimensions: l = 10 cm, w = 6 cm, h = 4 cm.",
+        "TSA = 2(wl + hl + hw) = 2(6 × 10 + 4 × 10 + 4 × 6) = 2(60 + 40 + 24).",
+        "Add inside the bracket: 60 + 40 + 24 = 124, then double: TSA = 248 cm^2.",
+        "Volume V = lwh = 10 × 6 × 4 = 240 cm^3, so 240 unit cubes of side 1 cm fit inside."
+      ],
+      "answer": "TSA = 248 cm^2 and V = 240 cm^3."
+    },
+    {
+      "id": "gm-ch14-e2",
+      "title": "A closed biscuit-tin cylinder",
+      "problem": "A biscuit tin is a cylinder closed at both ends, with radius 7 cm and height 10 cm. Find its total surface area and its volume.",
+      "steps": [
+        "Curved surface: CSA = 2πrh = 2π × 7 × 10 = 140π cm^2.",
+        "The two circular ends add 2πr^2 = 2π × 49 = 98π cm^2.",
+        "TSA = 2πr(h + r) = 140π + 98π = 238π cm^2, about 747.7 cm^2.",
+        "Volume V = area of base × height = πr^2h = π × 49 × 10 = 490π cm^3, about 1539.4 cm^3."
+      ],
+      "answer": "TSA = 238π cm^2 (about 747.7 cm^2) and V = 490π cm^3 (about 1539.4 cm^3)."
+    },
+    {
+      "id": "gm-ch14-e3",
+      "title": "A cone from a 3-4-5 triangle",
+      "problem": "A right circular cone has base radius 3 cm and height 4 cm. Find its slant length, CSA, TSA and volume.",
+      "steps": [
+        "Slant length: l^2 = h^2 + r^2 = 4^2 + 3^2 = 25, so l = 5 cm (Baudhāyana-Pythagoras theorem).",
+        "CSA = πrl = π × 3 × 5 = 15π cm^2.",
+        "TSA = πrl + πr^2 = 15π + 9π = 24π cm^2.",
+        "Volume V = (1/3)πr^2h = (1/3) × π × 9 × 4 = 12π cm^3, one-third of the matching cylinder's 36π cm^3."
+      ],
+      "answer": "l = 5 cm, CSA = 15π cm^2, TSA = 24π cm^2 and V = 12π cm^3."
+    },
+    {
+      "id": "gm-ch14-e4",
+      "title": "Lallan's golgappa guesstimate",
+      "problem": "Lallan's stall has a cylindrical vessel of radius 10 cm with pani up to a height of 50 cm. Estimate how many spherical golgappas he can serve, assuming each golgappa has radius 1.5 cm and holds 60% pani on average.",
+      "steps": [
+        "Pani in the vessel: V = area of base × height = π × 10 × 10 × 50 = 5000π cm^3.",
+        "Volume of one golgappa: (4/3) × π × 1.5^3 ≈ 14.14 cm^3, neglecting its thickness.",
+        "Pani inside one golgappa: 14.14 × 0.6 ≈ 8.5 cm^3.",
+        "Number served = total pani ÷ pani per golgappa = 5000π ÷ 8.5 ≈ 1848."
+      ],
+      "answer": "Lallan can serve about 1850 golgappas. Student 2's assumptions (radius 1.75 cm, 80% pani) give about 870; both are reasonable guesstimates."
+    }
+  ],
+  "conceptMap": {
+    "center": "Math of Space",
+    "groups": [
+      { "id": "g1", "label": "Boxy solids" },
+      { "id": "g2", "label": "Round solids" },
+      { "id": "g3", "label": "Pointed solids" },
+      { "id": "g4", "label": "Measuring and estimating" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Cuboid", "group": "g1" },
+      { "id": "n2", "label": "Cube", "group": "g1" },
+      { "id": "n3", "label": "Net", "group": "g1" },
+      { "id": "n4", "label": "Unit cubes", "group": "g1" },
+      { "id": "n5", "label": "Cylinder", "group": "g2" },
+      { "id": "n6", "label": "Cone", "group": "g2" },
+      { "id": "n7", "label": "Sphere", "group": "g2" },
+      { "id": "n8", "label": "Cross-section", "group": "g2" },
+      { "id": "n9", "label": "Pyramid", "group": "g3" },
+      { "id": "n10", "label": "Apex", "group": "g3" },
+      { "id": "n11", "label": "Surface area", "group": "g4" },
+      { "id": "n12", "label": "Volume", "group": "g4" },
+      { "id": "n13", "label": "Guesstimate", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "when w = h = l" },
+      { "from": "n3", "to": "n1", "label": "folds into" },
+      { "from": "n1", "to": "n11", "label": "2(wl + hl + hw)" },
+      { "from": "n1", "to": "n4", "label": "filled with" },
+      { "from": "n4", "to": "n12", "label": "count them" },
+      { "from": "n2", "to": "n12", "label": "a^3" },
+      { "from": "n5", "to": "n8", "label": "slicing shows" },
+      { "from": "n6", "to": "n5", "label": "one-third volume" },
+      { "from": "n9", "to": "n6", "label": "circular base case" },
+      { "from": "n10", "to": "n9", "label": "base points meet here" },
+      { "from": "n6", "to": "n11", "label": "πrl" },
+      { "from": "n7", "to": "n11", "label": "4πr^2" },
+      { "from": "n7", "to": "n12", "label": "(4/3)πr^3" },
+      { "from": "n7", "to": "n5", "label": "Archimedes wrapping trick" },
+      { "from": "n5", "to": "n12", "label": "πr^2h" },
+      { "from": "n13", "to": "n12", "label": "estimates in real life" }
+    ]
+  },
+  "flowchart": {
+    "title": "how this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Start with rectangles", "detail": "A cuboid is a 3D rectangle with length l, width w, height h." },
+      { "id": "s2", "label": "Box it up", "detail": "TSA = 2(wl + hl + hw) from the net; V = lwh by counting unit cubes." },
+      { "id": "s3", "label": "Spin a cylinder", "detail": "Unroll the curved surface into a rectangle: CSA = 2πrh; volume = πr^2h." },
+      { "id": "s4", "label": "Slice cross-sections", "detail": "Parallel to base gives a circle, parallel to axis gives a rectangle." },
+      { "id": "s5", "label": "Unroll cone sectors", "detail": "l^2 = h^2 + r^2, CSA = πrl, volume exactly one-third of the cylinder." },
+      { "id": "s6", "label": "Point the pyramid", "detail": "Any flat base to an apex; V = (1/3) × base area × height." },
+      { "id": "s7", "label": "Wrap the sphere", "detail": "Archimedes: area 4πr^2 via a tight cylinder; volume (4/3)πr^3." },
+      { "id": "s8", "label": "Guesstimate around you", "detail": "Use the formulas with assumptions, like counting Lallan's golgappas." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

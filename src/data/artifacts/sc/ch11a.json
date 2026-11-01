@@ -1,0 +1,602 @@
+{
+  "book": "sc",
+  "chapter": 11,
+  "part": "a",
+  "title": "Reproduction: How Life Continues",
+  "grade": 9,
+  "sections": [
+    { "id": "11.1", "title": "Asexual Reproduction" },
+    { "id": "11.1.1", "title": "How is vegetative propagation in plants helpful in agriculture?" },
+    { "id": "11.2", "title": "Sexual Reproduction" },
+    { "id": "11.2.1", "title": "How does meiosis help create variations in sexual reproduction?" },
+    { "id": "11.2.2", "title": "Sexual reproduction in flowering plants" },
+    { "id": "11.2.3", "title": "How does the process of pollination occur in flowers?" },
+    { "id": "11.2.4", "title": "Pollination strategies and reproductive success" },
+    { "id": "11.2.5", "title": "Fertilisation and seed formation" },
+    { "id": "11.3", "title": "Sexual Reproduction in Animals" },
+    { "id": "11.4", "title": "Variations in Reproduction in Animals" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch11a-s1",
+      "sec": "11.1",
+      "title": "One Parent Is Enough",
+      "kicker": "Copying life without a partner, ekdum simple!",
+      "bullets": [
+        "Asexual reproduction needs only one parent and produces genetically identical individuals.",
+        "It is common in unicellular organisms like bacteria, amoeba and yeast.",
+        "Simple multicellular organisms like hydra and sponge also reproduce asexually.",
+        "Many plants use this mode too, growing new individuals from their existing parts."
+      ],
+      "visual": { "kind": "labels", "items": ["Bacteria", "Amoeba", "Yeast", "Hydra", "Sponge"] },
+      "note": "One parent, zero drama, exact copies."
+    },
+    {
+      "id": "sc-ch11a-s2",
+      "sec": "11.1",
+      "title": "Plants From Plant Parts",
+      "kicker": "No seeds needed, kaise? Read on.",
+      "bullets": [
+        "Potato and ginger have fleshy underground stems that sprout new plants without seeds.",
+        "Money plant and sugarcane stem cuttings grow into complete new plants.",
+        "Bryophyllum leaves sprout tiny plantlets which eventually grow into new plants.",
+        "All of these are examples of vegetative propagation from growing parts of a plant."
+      ],
+      "visual": { "kind": "tree", "root": "Vegetative propagation", "children": ["Potato and ginger underground stems", "Money plant and sugarcane cuttings", "Bryophyllum leaf plantlets"] },
+      "note": "Stems, cuttings, leaves, sab jagah new plants."
+    },
+    {
+      "id": "sc-ch11a-s3",
+      "sec": "11.1",
+      "title": "Why Copies Look Alike",
+      "kicker": "The key point you must remember.",
+      "bullets": [
+        "Asexual reproduction involves only one parent, never two.",
+        "Because there is one parent, the offspring are genetically identical individuals.",
+        "No mixing of genetic material happens, so no new combinations of characters appear.",
+        "This natural process is exactly what farmers and horticulturists later adapt for their use."
+      ],
+      "note": "One parent in, identical copies out."
+    },
+    {
+      "id": "sc-ch11a-s4",
+      "sec": "11.1.1",
+      "title": "Growing Plants From Cuttings",
+      "kicker": "Gardeners do this every season, dekho.",
+      "bullets": [
+        "Gardeners cut overgrown branches of a plant at the end of its growing season and prepare cuttings.",
+        "Collect shoot cuttings in the morning and remove leaves from the lower half of each cutting.",
+        "Insert cuttings up to about half their length in soil mixed with compost, at 45 to 60 degrees.",
+        "Water them regularly and observe the new growth appear."
+      ],
+      "visual": { "kind": "steps", "items": ["Cut shoots in the morning", "Remove lower leaves", "Insert half length in compost soil at 45 to 60 degrees", "Water regularly and watch"] },
+      "note": "45 to 60 degree angle, yaad rakhna!"
+    },
+    {
+      "id": "sc-ch11a-s5",
+      "sec": "11.1.1",
+      "title": "Grafting Joins Two Plants",
+      "kicker": "Two plants, one future, jodi No. 1.",
+      "bullets": [
+        "Take a healthy rooted plant A, for example a wild rose variety.",
+        "Cut a healthy stem piece from plant B of another variety, like a yellow or pink rose plant.",
+        "Make a wound or slit on a twig of plant A and insert and fit the stem of plant B into it.",
+        "Protect the slit with a cotton cloth or wrapping film so pests stay out until the graft heals."
+      ],
+      "visual": { "kind": "steps", "items": ["Choose rooted plant A", "Cut stem piece from plant B", "Fit B into a slit on A", "Cover the wound till it heals"] },
+      "note": "Wild rose roots plus fancy rose stem equals high-yield plant."
+    },
+    {
+      "id": "sc-ch11a-s6",
+      "sec": "11.1.1",
+      "title": "Propagation Feeds Farmers",
+      "kicker": "Science meets the kheti-badi.",
+      "bullets": [
+        "Scientists and horticulturists adapted natural asexual reproduction into cutting, grafting, layering and tissue culture.",
+        "These methods propagate plants efficiently and have greatly improved agricultural and horticultural practices.",
+        "Farmers can cultivate desirable crops on a large scale using these techniques.",
+        "Krishi Vigyan Kendras under ICAR teach farmers modern grafting skills and marketing strategies."
+      ],
+      "visual": { "kind": "labels", "items": ["Cutting", "Grafting", "Layering", "Tissue culture"] },
+      "note": "KVK under ICAR, farmers ka skill upgrade centre."
+    },
+    {
+      "id": "sc-ch11a-s7",
+      "sec": "11.2",
+      "title": "Two Parents, Shared Legacy",
+      "kicker": "Ab dono milke banate hain naya jeev.",
+      "bullets": [
+        "Sexual reproduction involves two parents in the formation of a new individual.",
+        "Both parents contribute to the genetic material of the offspring.",
+        "This mixing of material from two individuals is what sets sexual reproduction apart from asexual.",
+        "Offspring therefore carry characters from both parents, not from a single parent alone."
+      ],
+      "note": "Two parents, shared genetic contribution."
+    },
+    {
+      "id": "sc-ch11a-s8",
+      "sec": "11.2",
+      "title": "The Doubling Danger",
+      "kicker": "A biological problem hiding in plain sight.",
+      "bullets": [
+        "Each parent passes genetic material to the offspring during sexual reproduction.",
+        "If each generation received the full set of chromosomes from both parents, the number would keep growing.",
+        "The chromosome number would double in every single generation, which cannot continue.",
+        "Nature solves this biological problem with a special type of cell division called meiosis."
+      ],
+      "visual": { "kind": "flow", "items": ["Two parents contribute", "Full sets would combine", "Number would double", "Meiosis prevents this"] },
+      "note": "Doubling every generation? Meiosis says no."
+    },
+    {
+      "id": "sc-ch11a-s9",
+      "sec": "11.2",
+      "title": "Meet Meiosis",
+      "kicker": "The special division that saves the day.",
+      "bullets": [
+        "Meiosis is a special type of cell division that forms the cells used for reproduction.",
+        "It reduces the chromosome number of a parent cell so the total stays fixed across generations.",
+        "The cells it produces are called gametes, and they are used only for reproduction.",
+        "The next sections explore how meiosis also quietly creates variations among offspring."
+      ],
+      "note": "Meiosis forms gametes, the reproduction team."
+    },
+    {
+      "id": "sc-ch11a-s10",
+      "sec": "11.2.1",
+      "title": "Chromosomes Carry Information",
+      "kicker": "Nucleus ke andar chhupi hui library.",
+      "bullets": [
+        "Chromosomes are thread-like structures present in the nucleus of a cell.",
+        "They carry the genetic information of an organism.",
+        "Each species has a fixed number of chromosomes in its cells.",
+        "Humans have 23 pairs, one chromosome of each pair coming from each of two different parents."
+      ],
+      "visual": { "kind": "labels", "items": ["Nucleus", "Thread-like", "Genetic information", "Fixed per species"] },
+      "note": "Humans: 23 pairs, 46 total."
+    },
+    {
+      "id": "sc-ch11a-s11",
+      "sec": "11.2.1",
+      "title": "Meiosis Halves the Number",
+      "kicker": "Diploid se haploid, number half ho gaya.",
+      "bullets": [
+        "In meiosis, the chromosome number of a diploid parent cell is reduced to half, making haploid cells.",
+        "The haploid cells are used only for reproduction and are called gametes.",
+        "In animals, male gametes are called sperm and female gametes are called eggs.",
+        "In plants, the pollen grain contains male gametes and the ovule contains the female gametes."
+      ],
+      "visual": { "kind": "flow", "items": ["Diploid parent cell", "Meiosis", "Haploid gametes", "Used only for reproduction"] },
+      "note": "Diploid to haploid, that is the meiosis magic."
+    },
+    {
+      "id": "sc-ch11a-s12",
+      "sec": "11.2.1",
+      "title": "Shuffling Builds Variety",
+      "kicker": "Beads khelo, genetics samjho.",
+      "bullets": [
+        "During meiosis, the chromosomes of each pair separate so every gamete gets one from each pair.",
+        "Each human gamete has 23 chromosomes, each carrying information for many characters.",
+        "In the bead activity, just three pairs of characters give eight possible combinations.",
+        "This random mixing makes children genetically different, which is the heart of variation."
+      ],
+      "visual": { "kind": "steps", "items": ["Take three bead pairs", "Pick one bead from each pair", "Write your combination", "Count: 8 combinations possible"] },
+      "note": "3 pairs give 8 combos. Imagine 23 pairs!"
+    },
+    {
+      "id": "sc-ch11a-s13",
+      "sec": "11.2.2",
+      "title": "Flowers Are Reproductive Organs",
+      "kicker": "Sundar bhi, smart bhi.",
+      "bullets": [
+        "Flowering plants, called angiosperms, are the most diverse group of plants on Earth.",
+        "Flowers serve as the reproductive organs in angiosperms.",
+        "Non-flowering plants like pines also reproduce sexually, which you will study in the next chapter.",
+        "Leaves photosynthesise and roots absorb water, while flowers take charge of reproduction."
+      ],
+      "note": "Angiosperms, the most diverse plant group."
+    },
+    {
+      "id": "sc-ch11a-s14",
+      "sec": "11.2.2",
+      "title": "Four Whorls of a Flower",
+      "kicker": "Sepal se pistil tak, poori team.",
+      "bullets": [
+        "A complete flower has four parts: sepals, petals, stamens and pistil.",
+        "Sepals are the thin, flat green covering that protects the flower in the bud stage.",
+        "Petals are the coloured projections that enhance the beauty and attraction of the flower.",
+        "In some flowers both sepals and petals are fused, which you notice while dissecting buds."
+      ],
+      "visual": { "kind": "tree", "root": "Complete flower", "children": ["Sepals", "Petals", "Stamens", "Pistil"] },
+      "note": "Four whorls: sepal, petal, stamen, pistil."
+    },
+    {
+      "id": "sc-ch11a-s15",
+      "sec": "11.2.2",
+      "title": "Stamen and Pistil",
+      "kicker": "Male part meets female part.",
+      "bullets": [
+        "The stamen is the male part of the flower, made of a filament and an anther.",
+        "The anther produces pollen grains, which contain the male gametes.",
+        "The pistil is the female part with three subparts: stigma, style and the swollen ovary at the base.",
+        "Cutting a longitudinal section of the ovary reveals the parts hidden inside."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Stamen, male", "items": ["Filament", "Anther makes pollen", "Pollen holds male gametes"] }, "right": { "title": "Pistil, female", "items": ["Stigma on top", "Style in the middle", "Ovary, swollen base"] } },
+      "note": "Anther equals pollen factory; stigma is the landing pad."
+    },
+    {
+      "id": "sc-ch11a-s16",
+      "sec": "11.2.3",
+      "title": "What Is Pollination?",
+      "kicker": "Pollen ki safar, stigma tak.",
+      "bullets": [
+        "Pollination is the transfer of pollen to the stigma of a flower.",
+        "It is the first step towards the formation of fruits and seeds.",
+        "Without this transfer, the male gametes can never reach the female gametes.",
+        "Nature has provided plants with various strategies to make pollination happen."
+      ],
+      "note": "Pollination equals pollen reaching the stigma."
+    },
+    {
+      "id": "sc-ch11a-s17",
+      "sec": "11.2.3",
+      "title": "Self Versus Cross",
+      "kicker": "Ghar ke andar ya padosi tak?",
+      "bullets": [
+        "Self-pollination: pollen lands on the stigma of the same flower or another flower of the same plant.",
+        "Cross-pollination: pollen moves from the anther of one plant to the stigma of another plant of the same type.",
+        "Both types end with pollen sitting on a stigma, ready for the next step.",
+        "Think ahead: what would happen to fruits and seeds if pollination never occurred?"
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Self-pollination", "items": ["Same flower", "Or another flower on the same plant"] }, "right": { "title": "Cross-pollination", "items": ["Anther of one plant", "Stigma of another plant of the same type"] } },
+      "note": "Same plant is self, different plant is cross."
+    },
+    {
+      "id": "sc-ch11a-s18",
+      "sec": "11.2.3",
+      "title": "Why Pollination Matters",
+      "kicker": "No pollination, no fruits, phir?",
+      "bullets": [
+        "The transfer of pollen grains to the stigma is important for the formation of fruits and seeds.",
+        "Pollination cannot always happen on its own, so plants depend on outside help.",
+        "External agents called pollinators carry pollen from flower to flower.",
+        "If pollination does not occur, fruits and seeds fail to form, threatening the next generation."
+      ],
+      "note": "No pollination means no fruits and no seeds."
+    },
+    {
+      "id": "sc-ch11a-s19",
+      "sec": "11.2.4",
+      "title": "Wind and Water Couriers",
+      "kicker": "Hawa aur paani bhi kamaal karte hain.",
+      "bullets": [
+        "In wheat, maize and rice, pollen grains are light and small and produced in large numbers.",
+        "Wind-pollinated flowers have a long and feathery stigma to trap drifting pollen.",
+        "In aquatic plants like Vallisneria and Hydrilla, water currents carry pollen from one flower to another.",
+        "These strategies show how different plants match their pollen design to their carrier."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Wind, like wheat", "items": ["Light, small, numerous pollen", "Long feathery stigma"] }, "right": { "title": "Water, like Vallisneria", "items": ["Currents move pollen", "Suited to aquatic life"] } },
+      "note": "Feathery stigma catches pollen like a net."
+    },
+    {
+      "id": "sc-ch11a-s20",
+      "sec": "11.2.4",
+      "title": "Insect Couriers",
+      "kicker": "Bee ko bulao, pollination karao.",
+      "bullets": [
+        "Sunflower, hibiscus and marigold are pollinated by insects such as bees and butterflies.",
+        "Their flowers are brightly coloured, produce nectar and give off fragrance to attract pollinators.",
+        "Their pollen grains are large, sticky or spiny, so they attach to the insect's body.",
+        "The stigma is also sticky, so it can receive the pollen carried by visiting insects."
+      ],
+      "visual": { "kind": "flow", "items": ["Bright petals and nectar", "Insect visits flower", "Sticky pollen hitches a ride", "Sticky stigma receives pollen"] },
+      "note": "Sticky pollen, sticky stigma, perfect handshake."
+    },
+    {
+      "id": "sc-ch11a-s21",
+      "sec": "11.2.4",
+      "title": "Birds as Pollinators",
+      "kicker": "Chidiya bhi madad karti hai.",
+      "bullets": [
+        "Some flowers, like those of the coral tree and the hibiscus plant, are pollinated by birds.",
+        "Bird pollinators named in the book include the Indian white-eye and sunbirds.",
+        "Bird pollination is another strategy that raises the chances of reproductive success.",
+        "Every pollination strategy exists to help the plant form fruits and seeds successfully."
+      ],
+      "visual": { "kind": "labels", "items": ["Coral tree", "Hibiscus", "Indian white-eye", "Sunbirds"] },
+      "note": "Sunbirds sip and spread pollen on the way."
+    },
+    {
+      "id": "sc-ch11a-s22",
+      "sec": "11.2.5",
+      "title": "Pollen Tube's Journey",
+      "kicker": "Stigma se ovule tak, tube express.",
+      "bullets": [
+        "Once pollen reaches a compatible stigma, it produces a pollen tube.",
+        "The tube grows down through the style into the ovary.",
+        "The male gamete moves through this tube and arrives at the ovule.",
+        "There it fuses with the egg cell, and a remarkable new life begins."
+      ],
+      "visual": { "kind": "flow", "items": ["Pollen on stigma", "Tube grows down the style", "Male gamete reaches ovule", "Fuses with egg cell"] },
+      "note": "Pollen tube, gamete ka tunnel train."
+    },
+    {
+      "id": "sc-ch11a-s23",
+      "sec": "11.2.5",
+      "title": "Zygote, Fruit and Seeds",
+      "kicker": "Fusion se fruit tak ka safar.",
+      "bullets": [
+        "The fusion of gametes is called fertilisation, and it marks the beginning of a new life.",
+        "The fertilised egg is called a zygote, which later develops into an embryo.",
+        "The ovary surrounding the ovules enlarges and develops into a fruit.",
+        "The ovules develop into seeds inside the fruit."
+      ],
+      "visual": { "kind": "flow", "items": ["Gametes fuse", "Zygote forms", "Zygote becomes embryo", "Ovary to fruit, ovules to seeds"] },
+      "note": "Ovary becomes fruit, ovule becomes seed."
+    },
+    {
+      "id": "sc-ch11a-s24",
+      "sec": "11.2.5",
+      "title": "Dispersal and Germination",
+      "kicker": "Naye jagah, nayi shuruaat.",
+      "bullets": [
+        "Seed dispersal takes place by wind, by water and by animals.",
+        "When conditions like water, air and temperature are favourable, the seed germinates.",
+        "A germinated seed grows into a new plant, continuing the cycle.",
+        "Sexual reproduction creates variation, helping plant species survive and adapt to their environment."
+      ],
+      "visual": { "kind": "labels", "items": ["Wind dispersal", "Water dispersal", "Animal dispersal", "Germination"] },
+      "note": "Madar and dandelion seeds ride the wind."
+    },
+    {
+      "id": "sc-ch11a-s25",
+      "sec": "11.3",
+      "title": "Animals Reproduce Too",
+      "kicker": "Budding, spores, ya do parents?",
+      "bullets": [
+        "Reproduction in animals takes place through asexual or sexual methods, or both.",
+        "Asexual methods like budding and spore formation were studied earlier in this chapter.",
+        "Animals such as frogs and most fish rely on sexual reproduction.",
+        "Where the fertilisation happens, outside or inside the body, decides their strategy."
+      ],
+      "note": "Animals: asexual, sexual, or dono."
+    },
+    {
+      "id": "sc-ch11a-s26",
+      "sec": "11.3",
+      "title": "External Fertilisation",
+      "kicker": "Paani mein milte hain gametes.",
+      "bullets": [
+        "In frogs and most fish, fertilisation occurs outside the body of the parents.",
+        "The female releases eggs into the water and the male releases sperm over the eggs.",
+        "This method of fertilisation is called external fertilisation.",
+        "Although a large number of eggs are laid, many are destroyed by water currents or eaten by other animals."
+      ],
+      "visual": { "kind": "flow", "items": ["Eggs released into water", "Sperm released over eggs", "Fertilisation in water", "Many eggs are lost"] },
+      "note": "Thousands of eggs, kyunki bahut loss hota hai."
+    },
+    {
+      "id": "sc-ch11a-s27",
+      "sec": "11.3",
+      "title": "Internal Fertilisation",
+      "kicker": "Suraksha andar, survival upar.",
+      "bullets": [
+        "In reptiles, birds and mammals, fertilisation takes place inside the body of the female.",
+        "This method is called internal fertilisation.",
+        "The fertilised egg or embryo is protected more when it develops inside the mother.",
+        "So the chances of survival of the young ones are generally higher with internal fertilisation."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "External", "items": ["Frogs, most fish", "In water, outside bodies", "Many eggs, low survival"] }, "right": { "title": "Internal", "items": ["Reptiles, birds, mammals", "Inside female body", "More protection, higher survival"] } },
+      "note": "Inside the body, embryo ki extra security."
+    },
+    {
+      "id": "sc-ch11a-s28",
+      "sec": "11.4",
+      "title": "The Survival Challenge",
+      "kicker": "Har animal ka bada sawaal.",
+      "bullets": [
+        "Animals show a wide variety of methods of sexual reproduction.",
+        "All animals face one basic challenge: making sure male and female gametes meet.",
+        "The second part of the challenge: young ones must survive long enough to grow and reproduce.",
+        "The book compares four categories of animals in Table 11.4 to see different solutions."
+      ],
+      "note": "Gametes meet karo, young ones bachao."
+    },
+    {
+      "id": "sc-ch11a-s29",
+      "sec": "11.4",
+      "title": "Many Eggs, Feeding Larva",
+      "kicker": "Kam yolk, zyada eggs, smart plan.",
+      "bullets": [
+        "Fish, amphibians and insects produce several hundred to several thousand eggs at a time.",
+        "Each egg carries yolk with nutritive substances, but only enough to produce a larva.",
+        "The larva hatches and gets nutrition by eating organic wastes like rotten food and manures.",
+        "After enough nutrition, a transformation forms the adult body, as in butterflies and frogs."
+      ],
+      "visual": { "kind": "flow", "items": ["Hundreds to thousands of eggs", "Larva hatches with little yolk", "Larva feeds on organic waste", "Transformation forms adult"] },
+      "note": "Larva is the feeding stage of development."
+    },
+    {
+      "id": "sc-ch11a-s30",
+      "sec": "11.4",
+      "title": "Few Eggs, Full Nourishment",
+      "kicker": "Kam eggs, poora pyaar.",
+      "bullets": [
+        "Reptiles and birds lay eggs, and each egg contains enough yolk to nourish the embryo until hatching.",
+        "The young one hatches fully formed from a well-stocked egg.",
+        "In mammals, the zygote grows and develops inside the female body instead.",
+        "Fewer young ones are produced, but each receives far more nourishment and protection."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Egg layers", "items": ["Reptiles and birds", "Yolk feeds embryo till hatching"] }, "right": { "title": "Mammals", "items": ["Zygote inside female body", "Development within the mother"] } },
+      "note": "Yolk-rich eggs or mother's body, dono kaam karte hain."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch11a-f1", "sec": "11.1", "front": "What is asexual reproduction?", "back": "Reproduction involving only one parent, producing genetically identical individuals.", "tag": "definition" },
+    { "id": "sc-ch11a-f2", "sec": "11.1", "front": "Define vegetative propagation.", "back": "New plants arise from the vegetative parts of a plant, like stems, roots or leaves, without seeds.", "tag": "definition" },
+    { "id": "sc-ch11a-f3", "sec": "11.1", "front": "Which plant sprouts plantlets on its leaves?", "back": "Bryophyllum. Its leaves sprout tiny plantlets that eventually grow into new plants.", "tag": "example" },
+    { "id": "sc-ch11a-f4", "sec": "11.1.1", "front": "Name four methods of vegetative propagation used by farmers.", "back": "Cutting, grafting, layering and tissue culture.", "tag": "definition" },
+    { "id": "sc-ch11a-f5", "sec": "11.1.1", "front": "In grafting, what is joined together?", "back": "A stem piece from one plant is fitted into a slit on a healthy rooted plant of another variety.", "tag": "concept" },
+    { "id": "sc-ch11a-f6", "sec": "11.1.1", "front": "How are cuttings planted in soil?", "back": "Up to half their length in soil mixed with compost, at an angle of about 45 to 60 degrees.", "tag": "example" },
+    { "id": "sc-ch11a-f7", "sec": "11.2", "front": "How many parents take part in sexual reproduction?", "back": "Two parents, and both contribute to the genetic material of the offspring.", "tag": "concept" },
+    { "id": "sc-ch11a-f8", "sec": "11.2", "front": "What would happen without meiosis?", "back": "If full chromosome sets came from both parents every generation, the chromosome number would double each time.", "tag": "concept" },
+    { "id": "sc-ch11a-f9", "sec": "11.2", "front": "Which cell division solves the doubling problem?", "back": "Meiosis, a special type of cell division that reduces the chromosome number by half.", "tag": "concept" },
+    { "id": "sc-ch11a-f10", "sec": "11.2.1", "front": "Where are chromosomes found and what do they do?", "back": "They are thread-like structures in the nucleus that carry genetic information.", "tag": "definition" },
+    { "id": "sc-ch11a-f11", "sec": "11.2.1", "front": "How many chromosomes do human cells have?", "back": "23 pairs, 46 in total, with one chromosome of each pair from each of two parents.", "tag": "trivia" },
+    { "id": "sc-ch11a-f12", "sec": "11.2.1", "front": "What are gametes?", "back": "Haploid cells used only for reproduction; sperm in males and eggs in females.", "tag": "definition" },
+    { "id": "sc-ch11a-f13", "sec": "11.2.2", "front": "Which plants are called angiosperms?", "back": "Flowering plants, the most diverse group of plants on the Earth.", "tag": "definition" },
+    { "id": "sc-ch11a-f14", "sec": "11.2.2", "front": "Name the four parts of a complete flower.", "back": "Sepals, petals, stamens and pistil.", "tag": "definition" },
+    { "id": "sc-ch11a-f15", "sec": "11.2.2", "front": "Which part of the stamen makes pollen grains?", "back": "The anther, which sits on the filament and produces pollen containing male gametes.", "tag": "concept" },
+    { "id": "sc-ch11a-f16", "sec": "11.2.3", "front": "What is pollination?", "back": "The transfer of pollen to the stigma of a flower.", "tag": "definition" },
+    { "id": "sc-ch11a-f17", "sec": "11.2.3", "front": "Define self-pollination.", "back": "Pollen is transferred to the stigma of the same flower or another flower of the same plant.", "tag": "definition" },
+    { "id": "sc-ch11a-f18", "sec": "11.2.3", "front": "Define cross-pollination.", "back": "Pollen moves from the anther of a flower of one plant to the stigma of another plant of the same type.", "tag": "definition" },
+    { "id": "sc-ch11a-f19", "sec": "11.2.4", "front": "Name the external agents that help pollination.", "back": "Pollinators such as wind, water, insects like bees and butterflies, and birds.", "tag": "concept" },
+    { "id": "sc-ch11a-f20", "sec": "11.2.4", "front": "How is a wind-pollinated flower built for its job?", "back": "It makes light, small pollen in large numbers, and has a long, feathery stigma to trap them.", "tag": "example" },
+    { "id": "sc-ch11a-f21", "sec": "11.2.4", "front": "Name two aquatic plants pollinated by water.", "back": "Vallisneria and Hydrilla, where currents carry pollen from one flower to another.", "tag": "example" },
+    { "id": "sc-ch11a-f22", "sec": "11.2.5", "front": "What happens after pollen lands on a compatible stigma?", "back": "It grows a pollen tube down through the style into the ovary, and the male gamete moves through it.", "tag": "concept" },
+    { "id": "sc-ch11a-f23", "sec": "11.2.5", "front": "What is fertilisation?", "back": "The fusion of gametes, male gamete with egg cell, forming a zygote and marking the beginning of new life.", "tag": "definition" },
+    { "id": "sc-ch11a-f24", "sec": "11.2.5", "front": "Which flower parts become fruit and seeds?", "back": "The ovary enlarges into the fruit, while the ovules inside it develop into seeds.", "tag": "concept" },
+    { "id": "sc-ch11a-f25", "sec": "11.3", "front": "What is external fertilisation?", "back": "Fertilisation outside the body, as in frogs and most fish, where sperm is released over eggs in water.", "tag": "definition" },
+    { "id": "sc-ch11a-f26", "sec": "11.3", "front": "Which animal groups show internal fertilisation?", "back": "Reptiles, birds and mammals, where fertilisation takes place inside the body of the female.", "tag": "concept" },
+    { "id": "sc-ch11a-f27", "sec": "11.3", "front": "Why do internally fertilised young survive better?", "back": "The fertilised egg or embryo is protected more inside the body, so survival chances are higher.", "tag": "concept" },
+    { "id": "sc-ch11a-f28", "sec": "11.4", "front": "What basic challenge do all animals share in reproduction?", "back": "Ensuring male and female gametes meet, and that young ones survive long enough to grow and reproduce.", "tag": "concept" },
+    { "id": "sc-ch11a-f29", "sec": "11.4", "front": "What is a larva?", "back": "An intermediate feeding stage that hatches from the egg, eats organic waste and grows before becoming an adult.", "tag": "definition" },
+    { "id": "sc-ch11a-f30", "sec": "11.4", "front": "How do reptile and bird eggs nourish embryos?", "back": "Each egg contains enough yolk to nourish the developing embryo until it hatches into a young one.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch11a-q1", "sec": "11.1", "q": "Which pair of organisms shows asexual reproduction?", "options": ["Amoeba and yeast", "Frogs and fish", "Rabbits and cats", "Pines and oaks by seeds"], "answer": 0, "why": "Bacteria, amoeba, yeast, hydra and sponge are listed as asexual reproducers in the book.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q2", "sec": "11.1", "q": "A new money plant grows from a stem cutting placed in water. This process is called:", "options": ["Sexual reproduction needing two parents", "Seed germination", "Vegetative propagation from a stem", "Pollination by an insect"], "answer": 2, "why": "Money plant stem cuttings grow into new plants, which is vegetative propagation.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q3", "sec": "11.1", "q": "Why do all plantlets from one Bryophyllum leaf look identical?", "options": ["They share food from the leaf", "They arise from one parent by asexual reproduction", "They exchange pollen with each other", "Their seeds mix characters from two plants"], "answer": 1, "why": "Asexual reproduction involves one parent and produces genetically identical individuals.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q4", "sec": "11.1.1", "q": "Cutting, grafting, layering and tissue culture are all methods of:", "options": ["Seed dispersal", "Pollination", "Sexual reproduction", "Vegetative propagation"], "answer": 3, "why": "These methods were developed from natural asexual reproduction to grow plants efficiently.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q5", "sec": "11.1.1", "q": "While planting cuttings, the leaves of the lower half are removed and the cutting is inserted:", "options": ["Up to half its length, at 45 to 60 degrees", "Fully deep underground, straight down", "With only its tip touching the soil", "Upside down in standing water"], "answer": 0, "why": "The book says to insert cuttings up to about half their length at about 45 to 60 degrees.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q6", "sec": "11.1.1", "q": "A gardener fits a yellow rose stem piece into a slit on a wild rose plant and wraps the wound with cloth. This technique is:", "options": ["Layering", "Cutting", "Grafting", "Tissue culture"], "answer": 2, "why": "Grafting joins a stem piece from one plant into a slit on a rooted plant of another variety.", "difficulty": "hard" },
+    { "id": "sc-ch11a-q7", "sec": "11.2", "q": "How many parents take part in sexual reproduction?", "options": ["One", "Two", "Three", "Zero"], "answer": 1, "why": "Sexual reproduction involves two parents in the formation of a new individual.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q8", "sec": "11.2", "q": "If gametes carried the full chromosome set from both parents, every generation would:", "options": ["Stay exactly the same", "Lose all chromosomes", "Double its chromosome number", "Halve its chromosome number"], "answer": 2, "why": "The book warns the chromosome number would double in every generation without meiosis.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q9", "sec": "11.2", "q": "Which special type of cell division keeps chromosome numbers steady across generations?", "options": ["Meiosis", "Photosynthesis", "Germination", "Grafting"], "answer": 0, "why": "Meiosis reduces the chromosome number by half, solving the doubling problem.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q10", "sec": "11.2.1", "q": "How many chromosomes are present in one human body cell?", "options": ["23", "44", "46", "48"], "answer": 2, "why": "Humans have 23 pairs of chromosomes, that is 46 in total.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q11", "sec": "11.2.1", "q": "Meiosis changes a diploid parent cell into:", "options": ["Diploid body cells", "Haploid gametes", "Diploid gametes", "Haploid body cells"], "answer": 1, "why": "The chromosome number is reduced to half, and the haploid cells are gametes.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q12", "sec": "11.2.1", "q": "In the bead activity, three pairs of characters gave 8 gamete combinations. What does this shuffling create?", "options": ["Exact copies of both parents", "Zero variation in children", "Weaker chromosomes", "Genetic differences among children"], "answer": 3, "why": "Random mixing during meiosis provides many combinations, making children genetically different.", "difficulty": "hard" },
+    { "id": "sc-ch11a-q13", "sec": "11.2.2", "q": "Flowers serve as which organs in angiosperms?", "options": ["Reproductive organs", "Digestive organs", "Storage organs only", "Absorbing organs"], "answer": 0, "why": "Flowers serve as reproductive organs in angiosperms.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q14", "sec": "11.2.2", "q": "Which list correctly names the four parts of a complete flower?", "options": ["Roots, stem, leaves, buds", "Stigma, seed, style, stem", "Sepals, petals, stamens, pistil", "Anther, ovule, fruit, seed"], "answer": 2, "why": "A complete flower has sepals, petals, stamens and a pistil.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q15", "sec": "11.2.2", "q": "Where are the male gametes of a flower produced?", "options": ["In the stigma", "In the anther's pollen grains", "In the sepal", "In the ovary wall"], "answer": 1, "why": "The anther produces pollen grains which contain the male gametes.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q16", "sec": "11.2.3", "q": "Pollination means the transfer of pollen to the:", "options": ["Stigma of a flower", "Anther of a flower", "Ovule directly", "Sepal of a bud"], "answer": 0, "why": "Pollination is defined as the transfer of pollen to the stigma of a flower.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q17", "sec": "11.2.3", "q": "Pollen from an anther of one hibiscus plant lands on the stigma of another hibiscus plant. This is:", "options": ["Self-pollination", "Germination", "Seed dispersal", "Cross-pollination"], "answer": 3, "why": "Pollen moving between two different plants of the same type is cross-pollination.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q18", "sec": "11.2.3", "q": "Pollen lands on the stigma of the very same flower it came from. This is:", "options": ["Cross-pollination", "Self-pollination", "Fertilisation", "Seed dispersal"], "answer": 1, "why": "Pollen reaching the stigma of the same flower is self-pollination.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q19", "sec": "11.2.4", "q": "Which of these are pollinators?", "options": ["Roots and stems", "Sepals and ovules", "Wind, water, insects and birds", "Only raindrops"], "answer": 2, "why": "Pollination depends on external agents called pollinators like wind, water, insects and birds.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q20", "sec": "11.2.4", "q": "Wheat and maize flowers suit wind pollination because their pollen is:", "options": ["Heavy and sticky", "Light, small and produced in large numbers", "Large and spiny", "Carried inside fruits"], "answer": 1, "why": "Wind-pollinated plants make light, small pollen in large numbers, with feathery stigmas.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q21", "sec": "11.2.4", "q": "Sunflower and marigold attract bees mainly because their flowers:", "options": ["Are coloured, produce nectar and give off fragrance", "Stay green and closed all day", "Grow underground near roots", "Have long feathery stigmas"], "answer": 0, "why": "Insect-pollinated flowers are brightly coloured, produce nectar and give off fragrance.", "difficulty": "hard" },
+    { "id": "sc-ch11a-q22", "sec": "11.2.5", "q": "After landing on a compatible stigma, a pollen grain grows a:", "options": ["New flower", "Fruit directly", "Pollen tube down through the style", "New root into the soil"], "answer": 2, "why": "Pollen grains produce pollen tubes that grow down through the style into the ovary.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q23", "sec": "11.2.5", "q": "The fusion of the male gamete with the egg cell forms a:", "options": ["Seed", "Zygote", "Fruit", "Pollen tube"], "answer": 1, "why": "Fertilisation is the fusion of gametes, and the fertilised egg is called a zygote.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q24", "sec": "11.2.5", "q": "After fertilisation, which change is correct?", "options": ["The ovule becomes the fruit", "The ovary becomes the seed", "The stigma becomes the fruit", "The ovary becomes the fruit and ovules become seeds"], "answer": 3, "why": "The ovary enlarges into a fruit while the ovules develop into seeds inside it.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q25", "sec": "11.3", "q": "In frogs and most fish, fertilisation happens:", "options": ["Outside the body, in water", "Inside the mother's body", "Inside the father's body", "On dry land"], "answer": 0, "why": "The female releases eggs into water and the male releases sperm over them, so fertilisation is external.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q26", "sec": "11.3", "q": "Why do reptiles, birds and mammals show generally higher survival of young ones?", "options": ["They lay more eggs than fish", "Their eggs float away safely", "The embryo is protected more inside the female body", "Their gametes never meet"], "answer": 2, "why": "In internal fertilisation the fertilised egg or embryo is protected more, raising survival chances.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q27", "sec": "11.3", "q": "Internal fertilisation takes place:", "options": ["Outside the female body", "Inside the body of the female", "Inside the male body", "In open water"], "answer": 1, "why": "In reptiles, birds and mammals, fertilisation takes place inside the body of the female.", "difficulty": "easy" },
+    { "id": "sc-ch11a-q28", "sec": "11.4", "q": "Fish, amphibians and insects lay hundreds to thousands of eggs with only a little yolk because:", "options": ["Eggs need no yolk at all", "Parents feed the young like mammals", "The yolk is just enough to produce a larva which then feeds itself", "Water turns into yolk"], "answer": 2, "why": "The yolk is just enough to produce a larva, which then eats organic waste and grows.", "difficulty": "medium" },
+    { "id": "sc-ch11a-q29", "sec": "11.4", "q": "A butterfly caterpillar eats rotten food, grows and then transforms into an adult. This feeding stage is called the:", "options": ["Egg stage", "Larva, an intermediate feeding stage", "Adult stage", "Zygote stage"], "answer": 1, "why": "The larva hatches from the egg, feeds on organic wastes and grows before transforming into the adult.", "difficulty": "hard" },
+    { "id": "sc-ch11a-q30", "sec": "11.4", "q": "Which statement about mammals is correct?", "options": ["They lay thousands of yolk-rich eggs", "Their young hatch as larvae", "Their fertilisation is external in water", "The zygote grows and develops inside the female body"], "answer": 3, "why": "In mammals, the zygote grows and develops inside the female body.", "difficulty": "medium" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch11a-e1",
+      "title": "Halving and restoring the human chromosome number",
+      "problem": "A human body cell has 23 pairs of chromosomes. Trace the chromosome number through meiosis and fertilisation, and explain why it stays fixed every generation.",
+      "steps": [
+        "A diploid human body cell carries 46 chromosomes, arranged as 23 pairs, one chromosome of each pair from each of two parents.",
+        "During meiosis, the chromosomes of each pair separate, reducing the diploid number to haploid.",
+        "Each resulting human gamete, sperm or egg, therefore carries only 23 chromosomes.",
+        "At fertilisation, sperm and egg fuse, so the zygote again has 23 pairs, a total of 46 chromosomes."
+      ],
+      "answer": "Each gamete has 23 chromosomes and the zygote restores 46, so the human chromosome number stays fixed in every generation."
+    },
+    {
+      "id": "sc-ch11a-e2",
+      "title": "Counting gamete combinations like Activity 11.4",
+      "problem": "In the bead activity, three bead pairs represent three contrasting characters, like hair colour, hair type and eye colour. How many combinations can one gamete carry, and what does this suggest for 23 pairs?",
+      "steps": [
+        "Each gamete receives one bead, that is one chromosome, from each of the 3 pairs.",
+        "So the independent choices multiply: 2 x 2 x 2 = 8 combinations, exactly as the book confirms.",
+        "With 23 pairs of chromosomes, the same rule gives 2 multiplied by itself 23 times, written as 2^23.",
+        "2^23 works out to 8388608, and each of those gametes carries information for many characters."
+      ],
+      "answer": "8 combinations with three bead pairs; with 23 pairs, 2^23, that is 8388608 possible gamete combinations, which is why children differ."
+    },
+    {
+      "id": "sc-ch11a-e3",
+      "title": "Matching flowers to their pollination strategy",
+      "problem": "Classify the pollination strategy of wheat, Vallisneria, sunflower and coral tree using the flower features described in the chapter.",
+      "steps": [
+        "Wheat has light and small pollen grains produced in large numbers and a long feathery stigma, so it is wind pollinated, like maize and rice.",
+        "Vallisneria and Hydrilla are aquatic plants whose pollen is carried by water currents, so they are water pollinated.",
+        "Sunflower, like hibiscus and marigold, is brightly coloured, produces nectar and fragrance, and has large sticky or spiny pollen, so insects like bees pollinate it.",
+        "The coral tree is pollinated by birds such as the Indian white-eye and sunbirds."
+      ],
+      "answer": "Wheat uses wind, Vallisneria uses water, sunflower uses insects, and the coral tree uses birds for pollination."
+    },
+    {
+      "id": "sc-ch11a-e4",
+      "title": "From pollen grain to fruit in a china-rose",
+      "problem": "A pollen grain lands on the stigma of a china-rose (hibiscus or gudhal) flower. Describe the complete path from pollination to fruit and seed formation.",
+      "steps": [
+        "The compatible pollen grain germinates and produces a pollen tube that grows down through the style into the ovary.",
+        "The male gamete moves through this tube and arrives at the ovule, where it fuses with the egg cell.",
+        "This fusion is fertilisation; the fertilised egg, called the zygote, later develops into an embryo.",
+        "Meanwhile the ovary surrounding the ovules enlarges and develops into a fruit, and the ovules develop into seeds inside it."
+      ],
+      "answer": "Pollen tube grows down the style, gametes fuse in the ovule, the zygote becomes an embryo, the ovary becomes the fruit and the ovules become seeds."
+    }
+  ],
+  "conceptMap": {
+    "center": "Reproduction: How Life Continues",
+    "groups": [
+      { "id": "g1", "label": "Asexual reproduction" },
+      { "id": "g2", "label": "Meiosis and gametes" },
+      { "id": "g3", "label": "Flowering plants" },
+      { "id": "g4", "label": "Animals" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Vegetative propagation", "group": "g1" },
+      { "id": "n2", "label": "Cutting and grafting", "group": "g1" },
+      { "id": "n3", "label": "Identical offspring", "group": "g1" },
+      { "id": "n4", "label": "Chromosomes", "group": "g2" },
+      { "id": "n5", "label": "Meiosis", "group": "g2" },
+      { "id": "n6", "label": "Gametes", "group": "g2" },
+      { "id": "n7", "label": "Variation", "group": "g2" },
+      { "id": "n8", "label": "Flower parts", "group": "g3" },
+      { "id": "n9", "label": "Pollination", "group": "g3" },
+      { "id": "n10", "label": "Pollinators", "group": "g3" },
+      { "id": "n11", "label": "Fertilisation", "group": "g3" },
+      { "id": "n12", "label": "Fruit and seeds", "group": "g3" },
+      { "id": "n13", "label": "External fertilisation", "group": "g4" },
+      { "id": "n14", "label": "Internal fertilisation", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n3", "label": "one parent" },
+      { "from": "n1", "to": "n2", "label": "farm methods" },
+      { "from": "n4", "to": "n5", "label": "number halved" },
+      { "from": "n5", "to": "n6", "label": "forms" },
+      { "from": "n5", "to": "n7", "label": "shuffling" },
+      { "from": "n6", "to": "n9", "label": "pollen carries male gametes" },
+      { "from": "n8", "to": "n9", "label": "stigma receives" },
+      { "from": "n10", "to": "n9", "label": "transfer pollen" },
+      { "from": "n9", "to": "n11", "label": "pollen tube" },
+      { "from": "n6", "to": "n11", "label": "gametes fuse" },
+      { "from": "n11", "to": "n12", "label": "ovary to fruit" },
+      { "from": "n11", "to": "n7", "label": "creates" },
+      { "from": "n6", "to": "n13", "label": "meet in water" },
+      { "from": "n6", "to": "n14", "label": "meet inside female" }
+    ]
+  },
+  "flowchart": {
+    "title": "How reproduction flows in this chapter",
+    "steps": [
+      { "id": "s1", "label": "One parent copies itself", "detail": "Asexual reproduction in bacteria, amoeba, yeast, hydra and many plants makes identical individuals." },
+      { "id": "s2", "label": "Plants propagate vegetatively", "detail": "Farmers use cutting, grafting, layering and tissue culture to grow desirable crops at scale." },
+      { "id": "s3", "label": "Two parents team up", "detail": "Sexual reproduction combines genetic material from both parents in the offspring." },
+      { "id": "s4", "label": "Meiosis halves chromosomes", "detail": "Diploid cells become haploid gametes, and shuffling creates many combinations." },
+      { "id": "s5", "label": "Pollination delivers pollen", "detail": "Wind, water, insects or birds carry pollen to the stigma of a flower." },
+      { "id": "s6", "label": "Fertilisation forms zygote", "detail": "A pollen tube carries the male gamete to the egg cell in the ovule, and they fuse." },
+      { "id": "s7", "label": "Fruit and seeds form", "detail": "The ovary becomes the fruit, ovules become seeds, then dispersal and germination follow." },
+      { "id": "s8", "label": "Animals ensure survival", "detail": "External or internal fertilisation, larval feeding stages or protected development keep young ones alive." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

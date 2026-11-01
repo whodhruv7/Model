@@ -1,0 +1,507 @@
+{
+  "book": "us",
+  "chapter": 103,
+  "title": "The Price Puzzle: What Drives the Market",
+  "grade": 9,
+  "sections": [
+    { "id": "103.1", "title": "Demand" },
+    { "id": "103.2", "title": "Other Determinants of Demand" },
+    { "id": "103.3", "title": "Supply" },
+    { "id": "103.4", "title": "Supply Curve" },
+    { "id": "103.5", "title": "Market Equilibrium" },
+    { "id": "103.6", "title": "Provision of Public Goods" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch103-s1",
+      "sec": "103.1",
+      "title": "Two Forces Set Prices",
+      "kicker": "Mango prices fall, Srivalli buys more, sab clear!",
+      "bullets": [
+        "Prices of all goods and services are decided by two powerful forces constantly at work in every market: demand and supply.",
+        "In Grade 7 you learnt how prices adjust when a seller sets them too high or too low; this chapter builds on that idea.",
+        "Prices never change randomly; they react to what people want, how much is available, seasons, festivals, trends and sometimes even rumours."
+      ],
+      "visual": { "kind": "labels", "items": ["Demand", "Supply", "Price", "Market"] },
+      "note": "Price kyun badalta hai? Demand aur supply batayenge."
+    },
+    {
+      "id": "us-ch103-s2",
+      "sec": "103.1",
+      "title": "Demand Means Inverse Relation",
+      "kicker": "Higher price, smaller purchase, every bazaar works this way.",
+      "bullets": [
+        "Demand highlights the inverse relationship between the price of a product or service and its quantity demanded.",
+        "When price rises, buyers purchase less; when price falls, they purchase more, keeping other factors constant.",
+        "Purchasing power is a measure of how much one unit of a particular currency can buy at a particular time."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Price rises", "items": ["Buyers cut back purchases", "Srivalli buys only 1 kg at Rs 150"] },
+        "right": { "title": "Price falls", "items": ["Buyers purchase more", "Srivalli buys 3 kg at Rs 50"] }
+      },
+      "note": "Ulta rishta: price up, quantity down."
+    },
+    {
+      "id": "us-ch103-s3",
+      "sec": "103.1",
+      "title": "Srivalli's Mango Table",
+      "kicker": "One consumer, three prices, a neat little schedule.",
+      "bullets": [
+        "At the start of the mango season the price was Rs 150 per kg and Srivalli bought only 1 kg.",
+        "As more mangoes arrived, the price fell to Rs 100 so she bought 2 kg, and at Rs 50 she bought 3 kg.",
+        "The quantity an individual consumer wants to buy at different prices, keeping other factors constant, is individual demand."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Quantity demanded (kg)", "ylabel": "Price of mangoes (Rs per kg)", "points": [[1, 150], [2, 100], [3, 50]] },
+      "note": "Same table drawn as a graph becomes the demand curve."
+    },
+    {
+      "id": "us-ch103-s4",
+      "sec": "103.1",
+      "title": "Schedule Becomes a Curve",
+      "kicker": "Table se graph tak, demand ka safar.",
+      "bullets": [
+        "A demand schedule is the table showing the quantities an individual consumer wants at different prices.",
+        "When this demand schedule is represented graphically, it is called the demand curve.",
+        "The curve slopes downward because quantity demanded rises as price falls, just like Srivalli's mango purchases."
+      ],
+      "visual": { "kind": "steps", "items": ["List prices and quantities in a table", "This table is the demand schedule", "Plot the same points on a graph", "The plotted line is the demand curve"] },
+      "note": "Curve ki shape? Downward slope, always."
+    },
+    {
+      "id": "us-ch103-s5",
+      "sec": "103.2",
+      "title": "Price Is Not Everything",
+      "kicker": "New phone launch: mehnga hai, phir bhi lines lambi!",
+      "bullets": [
+        "When a new model of a popular smartphone is launched, long queues and pre-bookings appear even though it may be more expensive.",
+        "So demand for a product does not change only because of price; many other factors influence how much people want to buy.",
+        "These factors act even when the price of the good or service remains the same."
+      ],
+      "visual": { "kind": "labels", "items": ["Related goods", "Income", "Taste and preference", "Population"] },
+      "note": "Price fixed, demand moving, kaise? Aage dekho."
+    },
+    {
+      "id": "us-ch103-s6",
+      "sec": "103.2",
+      "title": "Substitute Goods Replace",
+      "kicker": "Coffee mehnga? Chai ki demand chadh jaayegi.",
+      "bullets": [
+        "Substitute goods can replace each other, like tea and coffee, so a change in one directly affects the other.",
+        "If tea's price stays the same while coffee becomes more expensive, coffee drinkers may switch to tea, raising its demand.",
+        "If Srivalli cannot afford mangoes at the market price, she may buy bananas instead.",
+        "So when the price of a substitute good increases, demand for the other related good increases."
+      ],
+      "visual": { "kind": "flow", "items": ["Coffee price rises", "Tea price unchanged", "Buyers switch to tea", "Tea demand increases"] },
+      "note": "Mango se banana, sasta substitute kaam aata hai."
+    },
+    {
+      "id": "us-ch103-s7",
+      "sec": "103.2",
+      "title": "Complementary Goods Move Together",
+      "kicker": "Printer bikta hai to cartridge bhi chalega.",
+      "bullets": [
+        "Complementary goods are generally used together to provide utility to the consumer, like smartphones and earphones, or cars and petrol.",
+        "If demand for printers increases, demand for printer cartridges may also rise even though cartridge prices remain unchanged.",
+        "If movie tickets become more expensive, people may refrain from going to the cinema, so demand for popcorn sold in cinema halls may fall."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Printers sell more", "items": ["Cartridges are used together", "Cartridge demand rises too"] },
+        "right": { "title": "Tickets get costlier", "items": ["Fewer cinema visits", "Popcorn demand may fall"] }
+      },
+      "note": "Saath chalte hain, saath girti hain: complements."
+    },
+    {
+      "id": "us-ch103-s8",
+      "sec": "103.2",
+      "title": "Income, Taste, Population",
+      "kicker": "Jeb bhari to bazaar bhi khush.",
+      "bullets": [
+        "When household income rises, consumers can afford to buy more or choose higher-quality products, so quantity demanded rises even if prices remain the same.",
+        "Taste and preference decide demand too; Srivalli likes mangoes and cannot substitute them with oranges, even if oranges are cheaper.",
+        "India, being the most populous nation, sees its domestic consumer demand contribute to economic growth, and population composition shapes demand for products and services."
+      ],
+      "visual": { "kind": "tree", "root": "Demand shifters", "children": ["Income of consumer", "Taste and preference", "Population size", "Population composition"] },
+      "note": "Income, taste, population: teeno demand hilate hain."
+    },
+    {
+      "id": "us-ch103-s9",
+      "sec": "103.3",
+      "title": "What Sellers Offer",
+      "kicker": "Supply is the seller's side of the price puzzle.",
+      "bullets": [
+        "Supply is the quantity of a product that sellers are willing and able to offer at a particular price.",
+        "Individual supply is the quantity a particular seller offers at different prices.",
+        "Together with demand, supply decides the price at which the market finally settles."
+      ],
+      "visual": { "kind": "labels", "items": ["Willing and able", "Particular price", "Individual supply", "Market supply"] },
+      "note": "Willing aur able, dono words yaad rakho."
+    },
+    {
+      "id": "us-ch103-s10",
+      "sec": "103.3",
+      "title": "The Law of Supply",
+      "kicker": "Price badhe to maal bhi badhega.",
+      "bullets": [
+        "The law of supply says as price increases, quantity supplied increases, and as price decreases, quantity supplied falls.",
+        "Higher prices increase profitability, which incentivises producers to increase output.",
+        "Higher prices also attract new firms to the market, adding to total supply."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Price rises", "items": ["Quantity supplied increases", "New firms enter the market"] },
+        "right": { "title": "Price falls", "items": ["Quantity supplied falls", "Production becomes less rewarding"] }
+      },
+      "note": "Supply ka rishta seedha hai, demand wala ulta."
+    },
+    {
+      "id": "us-ch103-s11",
+      "sec": "103.3",
+      "title": "Seller A's Mango Offer",
+      "kicker": "Fifty rupaye mein ek kilo, price badha to aur doonga.",
+      "bullets": [
+        "Seller A offers 1 kg of mangoes at Rs 50 per kg, 2 kg at Rs 100 and 3 kg at Rs 150.",
+        "Each price carries its own quantity, so the schedule climbs upward with price.",
+        "Plotted on a graph, this upward pattern becomes the individual supply curve."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Quantity supplied (kg)", "ylabel": "Price of mangoes (Rs per kg)", "points": [[1, 50], [2, 100], [3, 150]] },
+      "note": "Supply curve upar ki taraf jaati hai."
+    },
+    {
+      "id": "us-ch103-s12",
+      "sec": "103.4",
+      "title": "Adding Up the Sellers",
+      "kicker": "Ek seller ka curve, teen sellers ka market.",
+      "bullets": [
+        "The individual supply curve of Seller A is drawn as the line SS' through his price and quantity points.",
+        "The market supply curve is drawn for all the sellers together, A plus B plus C.",
+        "It combines the quantities offered by every seller at each price, so the market curve sits far to the right of any single seller's curve."
+      ],
+      "visual": { "kind": "steps", "items": ["Draw Seller A's individual supply curve SS'", "Sellers B and C have their own curves", "Combine quantities of A, B and C at each price", "The result is the market supply curve"] },
+      "note": "A + B + C = market supply."
+    },
+    {
+      "id": "us-ch103-s13",
+      "sec": "103.4",
+      "title": "Profit Picks the Crop",
+      "kicker": "Gehoon sasta, chana mehnga? Kisan chana bolega.",
+      "bullets": [
+        "Suppose wheat prices are low but chickpea prices are high; the farmer will grow more chickpeas in the next season.",
+        "Supply of one good depends on the profitability of other alternatives open to the supplier.",
+        "So the price of related goods shapes supply, just as it shapes demand."
+      ],
+      "visual": { "kind": "flow", "items": ["Low wheat price, lower profit", "High chickpea price, higher profit", "Farmer plants chickpeas", "More chickpeas next season"] },
+      "note": "Farmer ka calculator sirf profit hai."
+    },
+    {
+      "id": "us-ch103-s14",
+      "sec": "103.4",
+      "title": "Sellers and Technology",
+      "kicker": "Cold storage ne mango supply badal di.",
+      "bullets": [
+        "If more sellers enter a market due to higher competition and production, market supply exceeds demand and prices fall.",
+        "With fewer sellers, supply is lower than demand and prices rise.",
+        "Improved technology reduces the cost of production, allowing producers to produce and supply more; drip irrigation and weather sensors raise crop production, and cold storage in mango transport increases market supply."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "More sellers enter", "items": ["Market supply exceeds demand", "Prices fall"] },
+        "right": { "title": "Better technology", "items": ["Lower cost of production", "Producers supply more"] }
+      },
+      "note": "Zyada sellers, sasta maal: competition ka asar."
+    },
+    {
+      "id": "us-ch103-s15",
+      "sec": "103.4",
+      "title": "Expectations Move Supply",
+      "kicker": "Aane wala season soch ke aaj ka stock roka.",
+      "bullets": [
+        "If producers expect a boom in demand in the near future, they produce more and supply rises.",
+        "If they expect lower demand, they reduce production, leading to a fall in supply.",
+        "Potato wholesalers who expect prices to rise during the peak season might hold back supply now to sell later at higher prices."
+      ],
+      "visual": { "kind": "labels", "items": ["Expected boom", "Produce more", "Expected slump", "Hold back stock"] },
+      "note": "Future ki khabar aaj ki supply badalti hai."
+    },
+    {
+      "id": "us-ch103-s16",
+      "sec": "103.5",
+      "title": "Buyers Meet Sellers",
+      "kicker": "Dono ki keemat chalti hai, ek hi point par.",
+      "bullets": [
+        "Every market involves negotiation between what buyers are willing to pay and what sellers are willing to accept.",
+        "Prices are therefore determined by the interaction between demand and supply.",
+        "At a lower price there is excess demand, whereas at a higher price there is excess supply."
+      ],
+      "visual": { "kind": "flow", "items": ["Buyers bring demand", "Sellers bring supply", "Both negotiate", "Price is determined"] },
+      "note": "Bargaining ka systematic version: equilibrium."
+    },
+    {
+      "id": "us-ch103-s17",
+      "sec": "103.5",
+      "title": "Reading the Mango Table",
+      "kicker": "Table 9.3 ke teen price, teen kahaniyan.",
+      "bullets": [
+        "At Rs 40, quantity demanded of mangoes is 38 kg but quantity supplied is only 6 kg, giving excess demand.",
+        "At Rs 150, quantity demanded is 8 kg while quantity supplied is 43 kg, giving excess supply.",
+        "At Rs 100, quantity demanded and quantity supplied are both 12 kg."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "At Rs 40", "items": ["Qd 38 kg, Qs 6 kg", "Excess demand"] },
+        "right": { "title": "At Rs 150", "items": ["Qd 8 kg, Qs 43 kg", "Excess supply"] }
+      },
+      "note": "Sasta maal par bheed, mehnga maal par khaali dukaan."
+    },
+    {
+      "id": "us-ch103-s18",
+      "sec": "103.5",
+      "title": "Point E Clears the Market",
+      "kicker": "Rs 100 par demand aur supply ek dusre se milte hain.",
+      "bullets": [
+        "Market equilibrium is the point where supply equals demand, with no excess supply (surplus) or excess demand (shortage), so prices tend to remain stable.",
+        "On the graph, the demand curve DM DM' intersects the supply curve SM SM' at point E.",
+        "There the equilibrium price is Rs 100 and the equilibrium quantity is 12 kg; the market is then called cleared, with neither shortage nor surplus."
+      ],
+      "visual": { "kind": "labels", "items": ["Point E", "Equilibrium price Rs 100", "Equilibrium quantity 12 kg", "Market cleared"] },
+      "note": "Na kami, na extra: perfect balance."
+    },
+    {
+      "id": "us-ch103-s19",
+      "sec": "103.5",
+      "title": "Real Markets Keep Moving",
+      "kicker": "2020 mein mask ki demand aasman chhoo gayi.",
+      "bullets": [
+        "In the real world, changes in technology, wages, interest rates, wars, political events, pandemics, weather and natural disasters alter demand and supply.",
+        "So real world equilibrium is never stable; the market is always adjusting to a new equilibrium, never fully settling at the previous one.",
+        "During the COVID-19 pandemic in 2020, demand for face masks surged rapidly and supply could not keep pace."
+      ],
+      "visual": { "kind": "steps", "items": ["A shock changes demand or supply", "The old equilibrium no longer holds", "The market adjusts toward a new equilibrium", "New shocks arrive and the process repeats"] },
+      "note": "Equilibrium ek moving target hai."
+    },
+    {
+      "id": "us-ch103-s20",
+      "sec": "103.6",
+      "title": "Goods for All of Us",
+      "kicker": "Sadak, park, streetlight: sabke liye, sabki taraf se.",
+      "bullets": [
+        "Public goods are goods and services provided by the government for the benefit of all citizens.",
+        "Examples include roads, bridges, public parks and streetlighting for public use, national defence against external threats, and sanitation and drainage systems that improve living conditions.",
+        "Private companies usually do not provide these goods because they do not generate direct profit."
+      ],
+      "visual": { "kind": "tree", "root": "Public goods", "children": ["Roads and bridges", "Parks and streetlighting", "National defence", "Sanitation and drainage"] },
+      "note": "Sab ka faayda, sarkar ki zimmedari."
+    },
+    {
+      "id": "us-ch103-s21",
+      "sec": "103.6",
+      "title": "The Park Nobody Built",
+      "kicker": "Free ki soch? Tab park kabhi nahi banta.",
+      "bullets": [
+        "A neighbourhood park could be built if each family contributed Rs 5,000, since many families would benefit from it.",
+        "Many families think that if others pay, the park will be built anyway and they can use it without paying.",
+        "Because of this thinking not enough money is collected, and the park is never built even though everyone needs it.",
+        "This is why goods that benefit everyone often require government provision or funding to ensure social welfare, economic development and equal access to essential services."
+      ],
+      "visual": { "kind": "steps", "items": ["Neighbourhood needs a park", "Each family is asked for Rs 5,000", "Many families wait for others to pay", "Collection falls short, park is never built", "Government must step in"] },
+      "note": "Sab ka kaam, sarkar hi karvati hai."
+    },
+    {
+      "id": "us-ch103-s22",
+      "sec": "103.6",
+      "title": "Hoarding and Black Marketing",
+      "kicker": "Stock rokna aur kaala dhanda, dono galat.",
+      "bullets": [
+        "Hoarding is the accumulation of goods, commodities or money by individuals or firms beyond what is immediately necessary.",
+        "It is typically driven by fear of future shortages, anticipated price increases or speculative motives.",
+        "Black marketing is the illegal trade of goods and services that are banned or regulated."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Hoarding", "items": ["Stock beyond immediate need", "Driven by fear of shortage or price rise"] },
+        "right": { "title": "Black marketing", "items": ["Illegal trade", "In banned or regulated goods and services"] }
+      },
+      "note": "Dono bazaar ko bigaadte hain."
+    },
+    {
+      "id": "us-ch103-s23",
+      "sec": "103.6",
+      "title": "When Intervention Backfires",
+      "kicker": "Sasta bhi nuksaan de sakta hai.",
+      "bullets": [
+        "Government regulations are required when markets are inefficient, but excessive intervention can have adverse effects.",
+        "If the government sets a maximum price for wheat at Rs 20 per kg while market forces set it at Rs 30, farmers receive less than in a free market.",
+        "Such price distortions reduce producer incentives, which may lead to reduced production and shortages."
+      ],
+      "visual": { "kind": "flow", "items": ["Government caps wheat at Rs 20", "Market price stands at Rs 30", "Farmers earn less per kg", "Production falls, shortages appear"] },
+      "note": "Control bhi soch samajh kar, warna shortage."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch103-f1", "sec": "103.1", "front": "What relationship does demand highlight?", "back": "The inverse relationship between the price of a product or service and its quantity demanded.", "tag": "definition" },
+    { "id": "us-ch103-f2", "sec": "103.1", "front": "What is individual demand?", "back": "The quantity of a good or service an individual consumer wants to buy at different prices, keeping other factors constant.", "tag": "definition" },
+    { "id": "us-ch103-f3", "sec": "103.1", "front": "In Srivalli's story, how many kg of mangoes did she buy at Rs 100 per kg?", "back": "2 kg. She bought 1 kg at Rs 150 and 3 kg when the price dropped to Rs 50.", "tag": "example" },
+    { "id": "us-ch103-f4", "sec": "103.1", "front": "Distinguish a demand schedule from a demand curve.", "back": "The demand schedule is the table of prices and quantities demanded; drawn as a graph it becomes the demand curve.", "tag": "definition" },
+    { "id": "us-ch103-f5", "sec": "103.1", "front": "What does purchasing power measure?", "back": "How much one unit of a particular currency can buy at a particular time.", "tag": "definition" },
+    { "id": "us-ch103-f6", "sec": "103.2", "front": "What are related goods?", "back": "Products whose demand is interconnected, meaning a change in the price or availability of one directly affects the demand for the other.", "tag": "definition" },
+    { "id": "us-ch103-f7", "sec": "103.2", "front": "Give one pair of substitute goods from the chapter.", "back": "Tea and coffee. Srivalli also switches from mangoes to bananas when mangoes turn too costly.", "tag": "example" },
+    { "id": "us-ch103-f8", "sec": "103.2", "front": "Coffee becomes costlier while tea's price is unchanged. What happens to tea demand?", "back": "It increases, because people replace the dearer good with the relatively cheaper substitute.", "tag": "concept" },
+    { "id": "us-ch103-f9", "sec": "103.2", "front": "Give one pair of complementary goods from the chapter.", "back": "Smartphones and earphones, or cars and petrol. Printers and printer cartridges are another pair used together.", "tag": "example" },
+    { "id": "us-ch103-f10", "sec": "103.2", "front": "How does a rise in household income affect demand?", "back": "Consumers can buy more or choose higher-quality products, so quantity demanded rises even if prices remain the same.", "tag": "concept" },
+    { "id": "us-ch103-f11", "sec": "103.2", "front": "Why will Srivalli not buy oranges even when they are cheaper?", "back": "Her taste and preference lies with mangoes, so cheaper oranges cannot substitute them for her.", "tag": "concept" },
+    { "id": "us-ch103-f12", "sec": "103.3", "front": "Define supply.", "back": "The quantity of a product that sellers are willing and able to offer at a particular price.", "tag": "definition" },
+    { "id": "us-ch103-f13", "sec": "103.3", "front": "State the law of supply.", "back": "As price increases, quantity supplied increases; as price decreases, quantity supplied falls.", "tag": "definition" },
+    { "id": "us-ch103-f14", "sec": "103.3", "front": "Why do producers supply more at higher prices?", "back": "Higher prices increase profitability, incentivising producers to raise output and attracting new firms to the market.", "tag": "concept" },
+    { "id": "us-ch103-f15", "sec": "103.3", "front": "What is individual supply?", "back": "The quantity a particular seller offers at different prices, like Seller A's mango quantities of 1, 2 and 3 kg.", "tag": "definition" },
+    { "id": "us-ch103-f16", "sec": "103.4", "front": "How is the market supply curve obtained from individual sellers?", "back": "It is drawn for all sellers together, A plus B plus C, combining the quantities offered at each price.", "tag": "concept" },
+    { "id": "us-ch103-f17", "sec": "103.4", "front": "Wheat prices are low and chickpea prices are high. What will the farmer do?", "back": "Grow more chickpeas next season, because supply of one good depends on the profitability of alternatives.", "tag": "example" },
+    { "id": "us-ch103-f18", "sec": "103.4", "front": "How does technology increase supply?", "back": "Better techniques like drip irrigation, weather sensors and cold storage reduce production costs, so producers supply more.", "tag": "concept" },
+    { "id": "us-ch103-f19", "sec": "103.4", "front": "What do potato wholesalers do when they expect peak season prices to rise?", "back": "They might hold back supply now, planning to sell later at the higher expected prices.", "tag": "example" },
+    { "id": "us-ch103-f20", "sec": "103.4", "front": "What happens to prices when more sellers enter a market?", "back": "Market supply exceeds demand, so prices fall; with fewer sellers, supply falls short of demand and prices rise.", "tag": "concept" },
+    { "id": "us-ch103-f21", "sec": "103.5", "front": "Define market equilibrium.", "back": "The point where supply of goods and services equals demand, with no surplus or shortage, so prices tend to remain stable.", "tag": "definition" },
+    { "id": "us-ch103-f22", "sec": "103.5", "front": "State the equilibrium price and quantity for mangoes in Table 9.3.", "back": "Equilibrium price is Rs 100 and equilibrium quantity is 12 kg, where quantity demanded equals quantity supplied.", "tag": "example" },
+    { "id": "us-ch103-f23", "sec": "103.5", "front": "What is the market outcome at a price of Rs 40?", "back": "Excess demand, because quantity demanded of 38 kg far exceeds quantity supplied of 6 kg.", "tag": "concept" },
+    { "id": "us-ch103-f24", "sec": "103.5", "front": "What is the market outcome at a price of Rs 150?", "back": "Excess supply, because quantity supplied of 43 kg far exceeds quantity demanded of 8 kg.", "tag": "concept" },
+    { "id": "us-ch103-f25", "sec": "103.5", "front": "Why is real world equilibrium never stable?", "back": "Changing technology, wages, interest rates, wars, political events, pandemics, weather and disasters keep shifting demand and supply, so markets always adjust.", "tag": "concept" },
+    { "id": "us-ch103-f26", "sec": "103.6", "front": "What are public goods?", "back": "Goods and services provided by the government for the benefit of all citizens, like roads, bridges, parks, streetlighting and national defence.", "tag": "definition" },
+    { "id": "us-ch103-f27", "sec": "103.6", "front": "Why do private companies usually not provide public goods?", "back": "Because such goods and services do not generate direct profit for private companies.", "tag": "concept" },
+    { "id": "us-ch103-f28", "sec": "103.6", "front": "Define hoarding.", "back": "Accumulation of goods, commodities or money beyond what is immediately necessary, driven by fear of shortages, expected price rises or speculative motives.", "tag": "definition" },
+    { "id": "us-ch103-f29", "sec": "103.6", "front": "Define black marketing.", "back": "The illegal trade of goods and services that are banned or regulated.", "tag": "definition" },
+    { "id": "us-ch103-f30", "sec": "103.6", "front": "What happens when government fixes wheat below the market price?", "back": "Farmers receive less than in a free market, lose motivation, and production may fall, leading to shortages.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "us-ch103-q1", "sec": "103.1", "q": "As mango prices fell from Rs 150 to Rs 50 over the season, Srivalli's quantity demanded...", "options": ["Rose from 1 kg to 3 kg", "Fell from 3 kg to 1 kg", "Stayed fixed at 2 kg", "Changed without any pattern"], "answer": 0, "why": "Her demand schedule shows 1 kg at Rs 150, 2 kg at Rs 100 and 3 kg at Rs 50.", "difficulty": "easy" },
+    { "id": "us-ch103-q2", "sec": "103.1", "q": "A table showing the quantities one consumer wants to buy at different prices is called a...", "options": ["Demand schedule", "Demand curve", "Supply schedule", "Market equilibrium"], "answer": 0, "why": "The tabulated list of prices and quantities for an individual is the demand schedule.", "difficulty": "easy" },
+    { "id": "us-ch103-q3", "sec": "103.1", "q": "Demand is called an inverse relationship because...", "options": ["Quantity demanded falls as price rises", "Price and quantity rise together", "Quantity never responds to price", "Only income changes quantity"], "answer": 0, "why": "Higher prices mean smaller purchases and lower prices mean larger purchases.", "difficulty": "medium" },
+    { "id": "us-ch103-q4", "sec": "103.1", "q": "Which everyday puzzle from the chapter matches the demand idea?", "options": ["Vegetables costlier in the morning but cheaper in the evening", "A cinema ticket price never changes", "Sellers offer more mangoes when prices rise", "The government builds a neighbourhood park"], "answer": 0, "why": "The chapter opens with morning versus evening vegetable prices, matching the inverse pattern.", "difficulty": "medium" },
+    { "id": "us-ch103-q5", "sec": "103.2", "q": "Tea and coffee are examples of...", "options": ["Substitute goods", "Complementary goods", "Public goods", "Hoarded goods"], "answer": 0, "why": "Substitute goods can replace each other, like tea and coffee.", "difficulty": "easy" },
+    { "id": "us-ch103-q6", "sec": "103.2", "q": "Cars and petrol are complementary goods because they...", "options": ["Are generally used together", "Can replace each other", "Are always equally priced", "Are provided by the government"], "answer": 0, "why": "Complementary goods are used together to provide utility to the consumer.", "difficulty": "easy" },
+    { "id": "us-ch103-q7", "sec": "103.2", "q": "Movie tickets get costlier. What does the chapter predict for popcorn sold in cinema halls?", "options": ["Its demand may fall", "Its demand must rise", "Its price is legally fixed", "Its supply becomes unlimited"], "answer": 0, "why": "Costlier tickets keep people from cinemas, so popcorn demand may also fall.", "difficulty": "medium" },
+    { "id": "us-ch103-q8", "sec": "103.2", "q": "Printer demand rises while cartridge prices are unchanged. Cartridge demand will...", "options": ["Rise because they are used together", "Fall because printers replace them", "Stay at zero", "Depend only on paper prices"], "answer": 0, "why": "Complements move together, so printer demand pulls cartridge demand up.", "difficulty": "medium" },
+    { "id": "us-ch103-q9", "sec": "103.2", "q": "A new smartphone model is dearer than the old one, yet long queues form. This shows demand also depends on...", "options": ["Factors beyond price, like taste and preference", "Only the equilibrium price", "The number of sellers alone", "Government price floors"], "answer": 0, "why": "Queues and pre-bookings at higher prices show non-price factors driving demand.", "difficulty": "hard" },
+    { "id": "us-ch103-q10", "sec": "103.3", "q": "According to the law of supply, when the price of a good falls, quantity supplied...", "options": ["Falls", "Rises", "Stays constant", "Becomes zero"], "answer": 0, "why": "Quantity supplied moves in the same direction as price.", "difficulty": "easy" },
+    { "id": "us-ch103-q11", "sec": "103.3", "q": "At Rs 150 per kg, how many kg of mangoes does Seller A supply?", "options": ["3 kg", "1 kg", "2 kg", "0 kg"], "answer": 0, "why": "Seller A's schedule shows 3 kg at Rs 150, up from 1 kg at Rs 50.", "difficulty": "easy" },
+    { "id": "us-ch103-q12", "sec": "103.3", "q": "Higher mango prices raise supply mainly because they...", "options": ["Increase profitability and attract new firms", "Directly reduce the cost of inputs", "Force buyers to pay more tax", "Are fixed by the government"], "answer": 0, "why": "Profitability incentivises producers to increase output and pulls new firms in.", "difficulty": "medium" },
+    { "id": "us-ch103-q13", "sec": "103.3", "q": "Individual supply differs from market supply because it...", "options": ["Covers one particular seller's offer at different prices", "Always equals quantity demanded", "Includes government provided goods", "Ignores the price of the product"], "answer": 0, "why": "Individual supply is one seller's quantities; market supply covers all sellers together.", "difficulty": "hard" },
+    { "id": "us-ch103-q14", "sec": "103.4", "q": "Drip irrigation and weather sensors mainly raise crop supply by...", "options": ["Reducing the cost of production", "Increasing government taxes", "Reducing the number of sellers", "Fixing prices at Rs 100"], "answer": 0, "why": "Improved technology reduces production costs, so producers produce and supply more.", "difficulty": "easy" },
+    { "id": "us-ch103-q15", "sec": "103.4", "q": "If wheat prices are low but chickpea prices are high, the farmer will...", "options": ["Grow more chickpeas next season", "Grow more wheat next season", "Stop farming completely", "Sell both at the same price"], "answer": 0, "why": "He picks the more profitable alternative, so chickpea supply rises.", "difficulty": "easy" },
+    { "id": "us-ch103-q16", "sec": "103.4", "q": "Many new sellers enter the mango market. The chapter says prices will...", "options": ["Fall as supply exceeds demand", "Rise as demand exceeds supply", "Stay exactly the same", "Be fixed by Seller A"], "answer": 0, "why": "More sellers mean market supply exceeds demand, so prices fall.", "difficulty": "medium" },
+    { "id": "us-ch103-q17", "sec": "103.4", "q": "Producers who expect a boom in demand in the near future will...", "options": ["Produce more, so supply rises", "Produce less, so supply rises", "Close their shops at once", "Change only the packaging"], "answer": 0, "why": "Expected boom leads producers to increase production and supply.", "difficulty": "medium" },
+    { "id": "us-ch103-q18", "sec": "103.4", "q": "Cold storage in mango transport raises market supply chiefly because mangoes can now...", "options": ["Reach distant markets in good condition", "Be sold only in the local village", "Be grown without farmers", "Replace chickpeas in the field"], "answer": 0, "why": "The chapter cites cold storage in transporting mangoes to distant markets as increasing market supply.", "difficulty": "hard" },
+    { "id": "us-ch103-q19", "sec": "103.5", "q": "At the equilibrium price of Rs 100, the mango market shows...", "options": ["Quantity demanded equals quantity supplied at 12 kg", "Qd 38 kg and Qs 6 kg", "Qd 8 kg and Qs 43 kg", "Zero trade"], "answer": 0, "why": "Equilibrium is where quantity demanded equals quantity supplied.", "difficulty": "easy" },
+    { "id": "us-ch103-q20", "sec": "103.5", "q": "A price of Rs 40 in the mango market creates...", "options": ["Excess demand", "Excess supply", "Market equilibrium", "A public good"], "answer": 0, "why": "At Rs 40, Qd is 38 kg while Qs is only 6 kg.", "difficulty": "easy" },
+    { "id": "us-ch103-q21", "sec": "103.5", "q": "At Rs 150, the size of the excess supply in the mango market is...", "options": ["35 kg", "51 kg", "8 kg", "43 kg"], "answer": 0, "why": "Qs of 43 kg minus Qd of 8 kg leaves 35 kg of unsold surplus.", "difficulty": "medium" },
+    { "id": "us-ch103-q22", "sec": "103.5", "q": "Prices tend to remain stable at equilibrium because...", "options": ["Neither shortage nor surplus pressures them", "Government fixes them by law", "Sellers refuse to change price tags", "Demand always equals zero"], "answer": 0, "why": "With Qs equal to Qd there is no pressure for prices to change.", "difficulty": "medium" },
+    { "id": "us-ch103-q23", "sec": "103.5", "q": "The chapter says real world markets are always adjusting to a new equilibrium because...", "options": ["External events constantly shift demand and supply", "Buyers and sellers never negotiate", "Equilibrium price stays Rs 100 forever", "Supply curves are always flat"], "answer": 0, "why": "Wars, pandemics, weather and other shocks move the equilibrium again and again.", "difficulty": "hard" },
+    { "id": "us-ch103-q24", "sec": "103.6", "q": "Which of these is a public good listed in the chapter?", "options": ["Streetlighting", "A packet of popcorn", "A pair of earphones", "A mango harvest"], "answer": 0, "why": "Streetlighting is among goods the government provides for public use.", "difficulty": "easy" },
+    { "id": "us-ch103-q25", "sec": "103.6", "q": "Private companies rarely provide public parks because...", "options": ["Such goods generate no direct profit", "Building parks is illegal", "Parks need no maintenance", "Families refuse to enter parks"], "answer": 0, "why": "Public goods usually do not generate direct profit, so private firms avoid them.", "difficulty": "easy" },
+    { "id": "us-ch103-q26", "sec": "103.6", "q": "Many families refuse to contribute Rs 5,000 for the neighbourhood park because they...", "options": ["Expect to use it free once others pay", "Dislike parks completely", "Have already built a private park", "Must pay taxes instead"], "answer": 0, "why": "Each family hopes others will pay so it can use the park without paying.", "difficulty": "medium" },
+    { "id": "us-ch103-q27", "sec": "103.6", "q": "A trader stores huge rice stocks fearing a future shortage and higher prices. This is...", "options": ["Hoarding", "Black marketing", "Market equilibrium", "Excess demand"], "answer": 0, "why": "Hoarding is accumulation beyond immediate need, driven by fear of shortages or price rises.", "difficulty": "medium" },
+    { "id": "us-ch103-q28", "sec": "103.6", "q": "A maximum wheat price of Rs 20 when the market sets Rs 30 may cause...", "options": ["Reduced production and shortages", "Instant market equilibrium", "Higher farmer profits", "Unlimited wheat supply"], "answer": 0, "why": "Farmers receive less than in a free market, cutting their incentive to produce.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch103-e1",
+      "title": "Finding the market equilibrium",
+      "problem": "Using Table 9.3 of the chapter: at Rs 40, quantity demanded of mangoes is 38 kg and quantity supplied is 6 kg; at Rs 100, quantity demanded is 12 kg and quantity supplied is 12 kg; at Rs 150, quantity demanded is 8 kg and quantity supplied is 43 kg. Find the equilibrium price and equilibrium quantity.",
+      "steps": [
+        "At Rs 40, compare Qd and Qs: 38 kg demanded against 6 kg supplied, so Qs is less than Qd and there is excess demand.",
+        "At Rs 150, compare again: 8 kg demanded against 43 kg supplied, so Qs is greater than Qd and there is excess supply.",
+        "At Rs 100, both quantities are equal at 12 kg, so Qs equals Qd.",
+        "The point where quantity demanded equals quantity supplied is the market equilibrium, marked as point E where the demand and supply curves intersect."
+      ],
+      "answer": "Equilibrium price is Rs 100 and equilibrium quantity is 12 kg; there is neither shortage nor surplus."
+    },
+    {
+      "id": "us-ch103-e2",
+      "title": "Tracing Srivalli's demand schedule",
+      "problem": "At the beginning of the mango season the price was Rs 150 per kg and Srivalli bought 1 kg. Over time the price fell to Rs 100 and later to Rs 50 per kg. State her purchases at each price and show that her behaviour follows the inverse relationship of demand.",
+      "steps": [
+        "At Rs 150 per kg, Srivalli buys 1 kg of mangoes.",
+        "When more mangoes arrive and the price falls to Rs 100, she buys 2 kg.",
+        "When the price drops further to Rs 50, she buys 3 kg.",
+        "Each fall in price is matched by a rise in quantity bought: price falls from Rs 150 to Rs 50 while her quantity rises from 1 kg to 3 kg."
+      ],
+      "answer": "Srivalli buys 1 kg at Rs 150, 2 kg at Rs 100 and 3 kg at Rs 50, showing the inverse relationship between price and quantity demanded."
+    },
+    {
+      "id": "us-ch103-e3",
+      "title": "Building market supply from sellers",
+      "problem": "Seller A offers 1 kg of mangoes at Rs 50, 2 kg at Rs 100 and 3 kg at Rs 150. Sellers B and C offer the same quantities at these prices. Using the chapter's market supply curve of all the sellers A plus B plus C, find the market supply at Rs 100 and at Rs 150.",
+      "steps": [
+        "At Rs 100, combine the quantities of all three sellers: 2 kg plus 2 kg plus 2 kg equals 6 kg.",
+        "At Rs 150, combine again: 3 kg plus 3 kg plus 3 kg equals 9 kg.",
+        "Plotting such combined quantities for every price gives the market supply curve, which lies far to the right of any single seller's individual curve."
+      ],
+      "answer": "Market supply is 6 kg at Rs 100 and 9 kg at Rs 150 when A, B and C each offer Seller A's quantities."
+    },
+    {
+      "id": "us-ch103-e4",
+      "title": "Checking a government price cap",
+      "problem": "The government sets a maximum price for wheat at Rs 20 per kg while market forces would set it at Rs 30 per kg. Using the chapter's idea of price distortions and reduced producer incentives, work out the effect on wheat farmers and supply.",
+      "steps": [
+        "Market forces set the wheat price at Rs 30 per kg, but the government cap allows only Rs 20 per kg.",
+        "For every kilogram sold, the farmer receives Rs 10 less than in a free market.",
+        "Receiving less than the market level reduces the producer's motivation to supply goods and services.",
+        "The chapter warns that this price distortion may lead to reduced production and shortages."
+      ],
+      "answer": "A Rs 20 cap against a Rs 30 market price is a price distortion that can reduce production and cause shortages."
+    }
+  ],
+  "conceptMap": {
+    "center": "The Price Puzzle",
+    "groups": [
+      { "id": "g1", "label": "Demand side" },
+      { "id": "g2", "label": "Supply side" },
+      { "id": "g3", "label": "Market outcome" },
+      { "id": "g4", "label": "Government role" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Demand", "group": "g1" },
+      { "id": "n2", "label": "Demand schedule", "group": "g1" },
+      { "id": "n3", "label": "Substitute goods", "group": "g1" },
+      { "id": "n4", "label": "Complementary goods", "group": "g1" },
+      { "id": "n5", "label": "Income and taste", "group": "g1" },
+      { "id": "n6", "label": "Supply", "group": "g2" },
+      { "id": "n7", "label": "Law of supply", "group": "g2" },
+      { "id": "n8", "label": "Technology", "group": "g2" },
+      { "id": "n9", "label": "Future expectations", "group": "g2" },
+      { "id": "n10", "label": "Market equilibrium", "group": "g3" },
+      { "id": "n11", "label": "Excess demand", "group": "g3" },
+      { "id": "n12", "label": "Excess supply", "group": "g3" },
+      { "id": "n13", "label": "Public goods", "group": "g4" },
+      { "id": "n14", "label": "Price controls", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "recorded as" },
+      { "from": "n3", "to": "n1", "label": "shifts" },
+      { "from": "n4", "to": "n1", "label": "shifts" },
+      { "from": "n5", "to": "n1", "label": "shifts" },
+      { "from": "n7", "to": "n6", "label": "drives" },
+      { "from": "n8", "to": "n6", "label": "raises" },
+      { "from": "n9", "to": "n6", "label": "swings" },
+      { "from": "n1", "to": "n10", "label": "meets supply" },
+      { "from": "n6", "to": "n10", "label": "meets demand" },
+      { "from": "n10", "to": "n11", "label": "price below E" },
+      { "from": "n10", "to": "n12", "label": "price above E" },
+      { "from": "n14", "to": "n6", "label": "cuts incentive" },
+      { "from": "n14", "to": "n10", "label": "distorts price" },
+      { "from": "n13", "to": "n10", "label": "sits outside profit market" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Market opens", "detail": "Buyers bring demand and sellers bring supply to the same market." },
+      { "id": "s2", "label": "Compare Qd and Qs", "detail": "At the going price, check quantity demanded against quantity supplied." },
+      { "id": "s3", "label": "Excess demand", "detail": "Qd above Qs means shortage, like 38 kg demanded versus 6 kg supplied at Rs 40." },
+      { "id": "s4", "label": "Excess supply", "detail": "Qs above Qd means surplus, like 43 kg supplied versus 8 kg demanded at Rs 150." },
+      { "id": "s5", "label": "Price rises", "detail": "Shortage pulls the price upward as buyers compete for scarce goods." },
+      { "id": "s6", "label": "Price falls", "detail": "Surplus pushes sellers to cut the price to clear their stock." },
+      { "id": "s7", "label": "Equilibrium reached", "detail": "At Rs 100, Qd equals Qs at 12 kg and the market is cleared." },
+      { "id": "s8", "label": "Shock hits", "detail": "Pandemics, weather or wars shift demand or supply and the dance begins again." }
+    ],
+    "edges": [[0, 1], [1, 2], [1, 3], [2, 4], [3, 5], [4, 6], [5, 6], [6, 7], [7, 0]]
+  }
+}

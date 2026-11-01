@@ -1,0 +1,673 @@
+{
+  "book": "sc",
+  "chapter": 9,
+  "part": "b",
+  "title": "Atomic Foundations of Matter",
+  "grade": 9,
+  "sections": [
+    { "id": "9.5.1", "title": "Writing chemical formulae of covalent compounds" },
+    { "id": "9.5.2", "title": "Writing chemical formulae of ionic compounds" },
+    { "id": "9.6", "title": "Properties of the Ionic and the Covalent" },
+    { "id": "9.7", "title": "Molecular Mass of Covalent Compounds" },
+    { "id": "9.8", "title": "Formula Unit Mass of Ionic Compounds" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch09b-s1",
+      "sec": "9.5.1",
+      "title": "Three Steps to a Formula",
+      "kicker": "Valencies criss-cross and your formula is ready!",
+      "bullets": [
+        "Writing a covalent formula starts by writing the symbols of the constituent elements of the compound.",
+        "Next, write the valency of each element, referring to Table 9.1 of the book.",
+        "Finally, crossover the valencies of the combining atoms and write them as subscripts after the symbols."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Write the element symbols",
+          "Write the valencies of both elements",
+          "Crossover the valencies as subscripts"
+        ]
+      },
+      "note": "Simple teen-step recipe, works every time!"
+    },
+    {
+      "id": "sc-ch09b-s2",
+      "sec": "9.5.1",
+      "title": "HCl and H2S by Crossover",
+      "kicker": "Same method, two compounds, zero confusion!",
+      "bullets": [
+        "Hydrogen chloride: hydrogen has valency 1 and chlorine has valency 1, so crossover gives the formula HCl.",
+        "Hydrogen sulfide: hydrogen has valency 1 and sulfur has valency 2, so the formula becomes H2S.",
+        "A valency of 1 is never written as a subscript; only numbers above 1 appear in the formula."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Hydrogen chloride",
+          "items": ["H valency 1, Cl valency 1", "Crossover gives HCl"]
+        },
+        "right": {
+          "title": "Hydrogen sulfide",
+          "items": ["H valency 1, S valency 2", "Crossover gives H2S"]
+        }
+      },
+      "note": "Sulfur ka 2 hydrogen ke upar chala gaya!"
+    },
+    {
+      "id": "sc-ch09b-s3",
+      "sec": "9.5.1",
+      "title": "CCl4: Carbon Checks In",
+      "kicker": "Valency 4 meets valency 1 four times!",
+      "bullets": [
+        "Carbon has valency 4 and chlorine has valency 1, so crossover places 4 under Cl and 1 under C.",
+        "The formula that comes out is CCl4, which is carbon tetrachloride.",
+        "One crossover table can handle any covalent compound once the valencies are known."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["HCl", "H2S", "CCl4", "Valency crossover"]
+      },
+      "note": "Ek method, teen compounds ready!"
+    },
+    {
+      "id": "sc-ch09b-s4",
+      "sec": "9.5.2",
+      "title": "Criss-Cross the Charges",
+      "kicker": "Cation pehle, anion baad mein!",
+      "bullets": [
+        "Write the symbol of the cation first, followed by the symbol of the anion.",
+        "Write the charges under the symbols rather than as superscripts, then crossover only the numbers.",
+        "The chemical formula must give the simplest ratio of elements, so divide subscripts by a common factor if any.",
+        "If you get subscripts 2 and 4, divide both by 2 to get 1 and 2 for the final formula."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Write cation then anion",
+          "Write charges under symbols",
+          "Crossover the numbers",
+          "Divide by any common factor"
+        ]
+      },
+      "note": "Charges balance, formula neutral!"
+    },
+    {
+      "id": "sc-ch09b-s5",
+      "sec": "9.5.2",
+      "title": "CaCl2, Al2O3 and MgO",
+      "kicker": "Two chlorides per calcium, charges balanced!",
+      "bullets": [
+        "Calcium chloride: Ca is 2+ and Cl is 1-, so criss-crossing gives CaCl2, two chloride ions per calcium ion.",
+        "Aluminium oxide: Al is 3+ and O is 2-, so the criss-crossed formula is Al2O3.",
+        "Magnesium oxide: the two valencies are the same, giving Mg2O2, which is simply written as MgO.",
+        "Positive and negative charges must balance each other, and the overall structure must be neutral."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Aluminium oxide",
+          "items": ["Al 3+ and O 2-", "Criss-cross gives Al2O3"]
+        },
+        "right": {
+          "title": "Magnesium oxide",
+          "items": ["Mg 2+ and O 2-", "Same valencies, so MgO"]
+        }
+      },
+      "note": "Mg2O2 ko simplify karke MgO likha!"
+    },
+    {
+      "id": "sc-ch09b-s6",
+      "sec": "9.5.2",
+      "title": "Brackets for Polyatomic Ions",
+      "kicker": "Bracket ka magic: Al(OH)3, not AlOH3!",
+      "bullets": [
+        "Magnesium hydroxide has two hydroxide ions, OH-, for each magnesium ion, Mg2+, giving Mg(OH)2.",
+        "Use brackets when two or more polyatomic ions of the same type appear in a formula.",
+        "In aluminium hydroxide, the bracket around OH with subscript 3 shows three hydroxide ions on one aluminium ion.",
+        "Calcium carbonate CaCO3 and aluminium sulfate Al2(SO4)3 show that brackets follow the polyatomic ion, never a single atom."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Mg(OH)2", "CaCO3", "Al(OH)3", "Al2(SO4)3"]
+      },
+      "note": "Bracket lagao, confusion bhagao!"
+    },
+    {
+      "id": "sc-ch09b-s7",
+      "sec": "9.6",
+      "title": "Activity 9.4: Test Time",
+      "kicker": "Paani, kerosene, petrol: kaun ghulta hai?",
+      "bullets": [
+        "Collect samples of camphor, sodium chloride, copper sulfate, sugar and naphthalene for testing.",
+        "Try dissolving each sample separately in water, kerosene and petrol, and record observations in Table 9.2.",
+        "For conductivity, fix two carbon or metal electrodes through cardboard and connect them to a 9 V battery and a light bulb.",
+        "Safety first: never touch connected electrodes, and remember petrol and kerosene are flammable."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Collect the samples",
+          "Test solubility in three liquids",
+          "Test conductivity of solid and solution",
+          "Record in Table 9.2"
+        ]
+      },
+      "note": "Low-voltage battery use karo, safe raho!"
+    },
+    {
+      "id": "sc-ch09b-s8",
+      "sec": "9.6",
+      "title": "Solubility Splits Families",
+      "kicker": "Water loves ions, kerosene loves camphor!",
+      "bullets": [
+        "Ionic compounds like sodium chloride and copper sulfate are generally soluble in water but insoluble in kerosene and petrol.",
+        "Most covalent compounds, such as camphor and naphthalene, are insoluble in water but dissolve in kerosene and petrol.",
+        "Testing where a compound dissolves is a quick way to guess which family it belongs to."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Ionic compounds",
+          "items": [
+            "Sodium chloride, copper sulfate",
+            "Soluble in water",
+            "Insoluble in kerosene and petrol"
+          ]
+        },
+        "right": {
+          "title": "Covalent compounds",
+          "items": [
+            "Camphor, naphthalene",
+            "Insoluble in water",
+            "Dissolve in kerosene and petrol"
+          ]
+        }
+      },
+      "note": "Solvent hi family bata deta hai!"
+    },
+    {
+      "id": "sc-ch09b-s9",
+      "sec": "9.6",
+      "title": "Why Solid Salt Is Silent",
+      "kicker": "Fixed ions: no current. Free ions: glow!",
+      "bullets": [
+        "Ionic compounds do not conduct electricity in the solid state because their ions are held in fixed positions by strong forces.",
+        "To conduct electricity, ions must be free to move, which happens when sodium chloride or copper sulfate dissolves in water.",
+        "Sugar is soluble in water but does not provide ions in solution, so it does not conduct electricity; camphor and naphthalene also do not.",
+        "Strong inter-ionic forces give ionic compounds generally high melting and boiling points."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "Fixed ions: no current",
+          "Dissolved ions: current flows",
+          "Sugar: no free ions",
+          "High melting point"
+        ]
+      },
+      "note": "Molten state mein kya hoga? Socho!"
+    },
+    {
+      "id": "sc-ch09b-s10",
+      "sec": "9.7",
+      "title": "Adding Up Molecular Mass",
+      "kicker": "Formula mila? Masses add karo, done!",
+      "bullets": [
+        "Once you know the formula of a covalent compound, you can find the mass of its molecules.",
+        "Molecular mass is found by simply adding up the masses of the atoms present in the molecule.",
+        "Take the atomic mass of each element and multiply it by the number of atoms of that element in the formula."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Write the chemical formula",
+          "Note each atomic mass",
+          "Multiply by the number of atoms",
+          "Add all the values"
+        ]
+      },
+      "note": "Jitne atoms, utni baar add!"
+    },
+    {
+      "id": "sc-ch09b-s11",
+      "sec": "9.7",
+      "title": "Water 18 u, CO2 44 u",
+      "kicker": "Do worked examples from the book!",
+      "bullets": [
+        "Water H2O: atomic masses H = 1 u and O = 16 u, so molecular mass = (1 u x 2) + (16 u x 1) = 18 u.",
+        "Carbon dioxide CO2: atomic masses C = 12 u and O = 16 u, so molecular mass = (12 u x 1) + (16 u x 2) = 44 u.",
+        "The unit u is used for both atomic mass and molecular mass in these calculations."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Water H2O",
+          "items": ["H = 1 u, O = 16 u", "(1 x 2) + (16 x 1) = 18 u"]
+        },
+        "right": {
+          "title": "Carbon dioxide CO2",
+          "items": ["C = 12 u, O = 16 u", "(12 x 1) + (16 x 2) = 44 u"]
+        }
+      },
+      "note": "18 u aur 44 u, yaad kar lo!"
+    },
+    {
+      "id": "sc-ch09b-s12",
+      "sec": "9.7",
+      "title": "Ionic Compounds: No Molecules",
+      "kicker": "Crystals yes, molecules no!",
+      "bullets": [
+        "In ionic compounds, the ions form 3-D crystals, so ionic compounds do not form molecules.",
+        "That is why we do not calculate a molecular mass for sodium chloride or copper sulfate.",
+        "For ionic compounds we use the formula unit mass instead, which the next section explains."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "bar",
+        "xlabel": "1 water, 2 carbon dioxide",
+        "ylabel": "Molecular mass in u",
+        "points": [[1, 18], [2, 44]]
+      },
+      "note": "Solid salt ek crystal hai, molecule nahi!"
+    },
+    {
+      "id": "sc-ch09b-s13",
+      "sec": "9.8",
+      "title": "What Is a Formula Unit",
+      "kicker": "Simplest ratio of ions = formula unit!",
+      "bullets": [
+        "In ionic compounds, the collection of the simplest whole number ratio of ions is termed a formula unit.",
+        "The mass of a formula unit is called the formula unit mass.",
+        "It is calculated by adding the atomic masses of all the atoms present in a formula unit."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Ionic compound",
+        "children": ["Formula unit", "Simplest whole number ratio", "Formula unit mass"]
+      },
+      "note": "Sodium oxide ka formula unit: Na2O!"
+    },
+    {
+      "id": "sc-ch09b-s14",
+      "sec": "9.8",
+      "title": "Na2O Weighs 62 u",
+      "kicker": "Book ka Example 9.6, step by step!",
+      "bullets": [
+        "Sodium oxide Na2O: atomic masses Na = 23 u and O = 16 u.",
+        "Formula unit mass of Na2O = (23 u x 2) + (16 u x 1) = 62 u.",
+        "Calcium nitrate Ca(NO3)2: with Ca = 40 u, N = 14 u, O = 16 u, it is 40 + 2 x (14 + 48) = 164 u."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Write the formula unit",
+          "List the atomic masses",
+          "Multiply each by its atom count",
+          "Add everything for the total"
+        ]
+      },
+      "note": "62 u aur 164 u, dono yaad!"
+    },
+    {
+      "id": "sc-ch09b-s15",
+      "sec": "9.8",
+      "title": "Which Mass for Which?",
+      "kicker": "Covalent? Molecular mass. Ionic? Formula unit!",
+      "bullets": [
+        "Covalent compounds form molecules, so we calculate their molecular mass, like 18 u for water.",
+        "Ionic compounds form 3-D crystals of ions, so we calculate their formula unit mass, like 62 u for sodium oxide.",
+        "Understanding atoms, molecules and bonding reveals the hidden science behind everything we use each day."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Molecular mass",
+          "items": ["For covalent compounds", "Water H2O = 18 u", "Carbon dioxide CO2 = 44 u"]
+        },
+        "right": {
+          "title": "Formula unit mass",
+          "items": ["For ionic compounds", "Sodium oxide Na2O = 62 u", "Calcium nitrate Ca(NO3)2 = 164 u"]
+        }
+      },
+      "note": "Tiny atoms build the whole universe!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sc-ch09b-f1",
+      "sec": "9.5.1",
+      "front": "What three steps give the formula of a covalent compound?",
+      "back": "Write the element symbols, write their valencies, then crossover the valencies as subscripts after the symbols.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f2",
+      "sec": "9.5.1",
+      "front": "Why is the formula of hydrogen sulfide H2S?",
+      "back": "Sulfur has valency 2, so crossover puts 2 under hydrogen, while the valency 1 of hydrogen is not written.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch09b-f3",
+      "sec": "9.5.1",
+      "front": "Carbon valency 4 and chlorine valency 1 give which formula?",
+      "back": "Crossover gives CCl4, carbon tetrachloride, with four chlorine atoms around one carbon atom.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch09b-f4",
+      "sec": "9.5.2",
+      "front": "Whose symbol is written first in an ionic compound formula?",
+      "back": "The cation first, followed by the anion; then the charges, only the numbers, are criss-crossed.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f5",
+      "sec": "9.5.2",
+      "front": "Why does calcium chloride have the formula CaCl2?",
+      "back": "Ca is 2+ and Cl is 1-, so two chloride ions balance one calcium ion and the structure stays neutral.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f6",
+      "sec": "9.5.2",
+      "front": "When are brackets used in an ionic formula?",
+      "back": "When two or more polyatomic ions of the same type appear, as in Mg(OH)2 or Al(OH)3.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f7",
+      "sec": "9.6",
+      "front": "Are ionic compounds soluble in kerosene or petrol?",
+      "back": "No. Sodium chloride and copper sulfate dissolve in water but stay insoluble in kerosene and petrol.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f8",
+      "sec": "9.6",
+      "front": "Why does solid sodium chloride not conduct electricity?",
+      "back": "Its ions are held in fixed positions by strong forces; ions must be free to move to conduct.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09b-f9",
+      "sec": "9.6",
+      "front": "Sugar dissolves in water, yet its solution does not conduct. Why?",
+      "back": "Sugar provides no ions in solution, and freely moving ions are needed to carry electric current.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch09b-f10",
+      "sec": "9.7",
+      "front": "Define molecular mass.",
+      "back": "The mass of a molecule, found by adding up the masses of all the atoms present in it.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09b-f11",
+      "sec": "9.7",
+      "front": "Molecular mass of CO2 with C = 12 u and O = 16 u?",
+      "back": "(12 u x 1) + (16 u x 2) = 44 u.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch09b-f12",
+      "sec": "9.7",
+      "front": "Molecular mass of water with H = 1 u and O = 16 u?",
+      "back": "(1 u x 2) + (16 u x 1) = 18 u.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch09b-f13",
+      "sec": "9.8",
+      "front": "What is a formula unit in an ionic compound?",
+      "back": "The collection of the simplest whole number ratio of ions in the compound.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09b-f14",
+      "sec": "9.8",
+      "front": "Formula unit mass of Na2O with Na = 23 u, O = 16 u?",
+      "back": "(23 u x 2) + (16 u x 1) = 62 u.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch09b-f15",
+      "sec": "9.8",
+      "front": "Formula unit mass of Ca(NO3)2 with Ca 40 u, N 14 u, O 16 u?",
+      "back": "40 + 2 x (14 + 48) = 164 u.",
+      "tag": "formula"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch09b-q1",
+      "sec": "9.5.1",
+      "q": "What is the first step when writing the chemical formula of a covalent compound?",
+      "options": [
+        "Write the symbols of the constituent elements",
+        "Write the molecular mass of the compound",
+        "Crossover the charges of the ions",
+        "Count the ions present in a crystal"
+      ],
+      "answer": 0,
+      "why": "Step one of the crossover method is writing the symbols of the constituent elements.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09b-q2",
+      "sec": "9.5.1",
+      "q": "Hydrogen has valency 1 and sulfur has valency 2. Using crossover, the formula of hydrogen sulfide is:",
+      "options": ["HS2", "SH", "H2S", "S2H"],
+      "answer": 2,
+      "why": "Sulfur's valency 2 crosses under H and hydrogen's 1 is not written, giving H2S.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09b-q3",
+      "sec": "9.5.1",
+      "q": "Carbon has valency 4 and chlorine has valency 1. Crossover of the valencies gives which formula?",
+      "options": ["C4Cl", "CCl4", "CCl", "Cl4C"],
+      "answer": 1,
+      "why": "Crossover places 4 under Cl and 1 under C, so the formula is CCl4.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09b-q4",
+      "sec": "9.5.2",
+      "q": "While writing the formula of an ionic compound, which ion is written first?",
+      "options": ["The cation", "The anion", "The heavier ion", "Either one, by choice"],
+      "answer": 0,
+      "why": "Step one says write the symbol of the cation first, followed by the anion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09b-q5",
+      "sec": "9.5.2",
+      "q": "Magnesium is 2+ and oxygen is 2-. Criss-crossing and simplifying gives which formula?",
+      "options": ["Mg2O", "MgO2", "Mg2O2 written as it is", "MgO"],
+      "answer": 3,
+      "why": "Criss-cross gives Mg2O2, and dividing by the common factor 2 gives MgO.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09b-q6",
+      "sec": "9.5.2",
+      "q": "Why is the formula of aluminium hydroxide written Al(OH)3 and not AlOH3?",
+      "options": [
+        "Because brackets make compounds heavier",
+        "Because OH is a diatomic gas",
+        "The bracket with subscript 3 shows three hydroxide ions bound to one aluminium ion",
+        "Because aluminium can bond only three times in total"
+      ],
+      "answer": 2,
+      "why": "Brackets are used when two or more polyatomic ions of the same type appear in a formula.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09b-q7",
+      "sec": "9.6",
+      "q": "In Activity 9.4, which compounds were found to be soluble in water?",
+      "options": [
+        "Camphor and naphthalene",
+        "Sodium chloride and copper sulfate",
+        "Sugar and camphor only",
+        "None of the samples"
+      ],
+      "answer": 1,
+      "why": "Ionic compounds like sodium chloride and copper sulfate are generally soluble in water.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09b-q8",
+      "sec": "9.6",
+      "q": "Solid sodium chloride does not conduct electricity because:",
+      "options": [
+        "Its ions are held in fixed positions by strong forces",
+        "It contains no charged particles at all",
+        "Solids can never carry electric current",
+        "Its electrons move too slowly"
+      ],
+      "answer": 0,
+      "why": "To conduct, ions must be free to move; in the solid they are held in fixed positions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09b-q9",
+      "sec": "9.6",
+      "q": "Predict: which type of compound would conduct electricity in the molten state?",
+      "options": [
+        "Covalent compounds like naphthalene",
+        "Neither type can ever conduct when melted",
+        "Only sugar solutions conduct",
+        "Ionic compounds, since their ions become free to move"
+      ],
+      "answer": 3,
+      "why": "Conduction needs freely moving ions; melting frees the ions locked in the solid.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09b-q10",
+      "sec": "9.7",
+      "q": "The molecular mass of a covalent compound is found by:",
+      "options": [
+        "Counting the molecules in a sample",
+        "Adding the masses of the atoms present in the molecule",
+        "Multiplying the valencies of the elements",
+        "Dividing mass by volume"
+      ],
+      "answer": 1,
+      "why": "The book defines it as simply adding up the masses of the atoms present in the molecule.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09b-q11",
+      "sec": "9.7",
+      "q": "Using C = 12 u and O = 16 u, the molecular mass of carbon dioxide is:",
+      "options": ["28 u", "88 u", "44 u", "12 u"],
+      "answer": 2,
+      "why": "(12 u x 1) + (16 u x 2) = 44 u, as worked in Example 9.5.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09b-q12",
+      "sec": "9.7",
+      "q": "Why do we not calculate a molecular mass for sodium chloride?",
+      "options": [
+        "Ionic compounds form 3-D crystals of ions, not molecules",
+        "Its atoms are too heavy to add up",
+        "Chlorine is a gas, so mass is undefined",
+        "Sodium chloride has no chemical formula"
+      ],
+      "answer": 0,
+      "why": "In ionic compounds the ions form 3-D crystals, so they do not form molecules.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09b-q13",
+      "sec": "9.8",
+      "q": "In an ionic compound, a formula unit is:",
+      "options": [
+        "Any charged group of atoms",
+        "A single free molecule",
+        "The simplest whole number ratio of ions",
+        "One full crystal of the compound"
+      ],
+      "answer": 2,
+      "why": "The book defines the formula unit as the simplest whole number ratio of ions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09b-q14",
+      "sec": "9.8",
+      "q": "Using Na = 23 u and O = 16 u, the formula unit mass of sodium oxide is:",
+      "options": ["39 u", "62 u", "46 u", "78 u"],
+      "answer": 1,
+      "why": "(23 u x 2) + (16 u x 1) = 62 u, as worked in Example 9.6.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09b-q15",
+      "sec": "9.8",
+      "q": "Using Ca = 40 u, N = 14 u, O = 16 u, the formula unit mass of Ca(NO3)2 is:",
+      "options": ["82 u", "138 u", "204 u", "164 u"],
+      "answer": 3,
+      "why": "40 + 2 x (14 + 48) = 164 u, as worked in Example 9.7.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch09b-e1",
+      "title": "Crossover Builds Hydrogen Sulfide",
+      "problem": "Write the chemical formula of hydrogen sulfide. The valency of hydrogen is 1 and the valency of sulfur is 2.",
+      "steps": [
+        "Write the symbols of the two elements: H and S.",
+        "Write the valencies under the symbols: hydrogen 1, sulfur 2.",
+        "Crossover the valencies: sulfur's 2 becomes the subscript of H, and hydrogen's 1 becomes the subscript of S.",
+        "A subscript of 1 is not written, so only the 2 on H remains."
+      ],
+      "answer": "The formula of hydrogen sulfide is H2S."
+    },
+    {
+      "id": "sc-ch09b-e2",
+      "title": "Aluminium Sulfate with Brackets",
+      "problem": "The aluminium ion is Al with charge 3+ and the sulfate ion is SO4 with charge 2-. Write the chemical formula of aluminium sulfate.",
+      "steps": [
+        "Write the cation first, then the anion: Al and SO4.",
+        "Write the charges under the symbols: 3+ and 2-.",
+        "Criss-cross only the numbers: 2 becomes the subscript of Al, and 3 becomes the subscript of SO4.",
+        "SO4 is a polyatomic ion, so enclose it in brackets before writing the subscript 3."
+      ],
+      "answer": "The formula of aluminium sulfate is Al2(SO4)3."
+    },
+    {
+      "id": "sc-ch09b-e3",
+      "title": "Molecular Mass of Nitric Acid",
+      "problem": "Find the molecular mass of nitric acid, HNO3, given atomic masses H = 1 u, N = 14 u and O = 16 u.",
+      "steps": [
+        "Count the atoms in HNO3: 1 hydrogen, 1 nitrogen and 3 oxygen atoms.",
+        "Hydrogen contributes 1 u x 1 = 1 u.",
+        "Nitrogen contributes 14 u x 1 = 14 u.",
+        "Oxygen contributes 16 u x 3 = 48 u.",
+        "Add all the masses: 1 + 14 + 48 = 63."
+      ],
+      "answer": "The molecular mass of nitric acid is 63 u."
+    },
+    {
+      "id": "sc-ch09b-e4",
+      "title": "Formula Unit Mass of Mg(OH)2",
+      "problem": "Find the formula unit mass of magnesium hydroxide, Mg(OH)2, given atomic masses Mg = 24 u, O = 16 u and H = 1 u.",
+      "steps": [
+        "Mg(OH)2 contains 1 magnesium ion, 2 oxygen atoms and 2 hydrogen atoms.",
+        "Magnesium contributes 24 u x 1 = 24 u.",
+        "Oxygen contributes 16 u x 2 = 32 u.",
+        "Hydrogen contributes 1 u x 2 = 2 u.",
+        "Add them: 24 + 32 + 2 = 58."
+      ],
+      "answer": "The formula unit mass of magnesium hydroxide is 58 u."
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import { LevelCheckCard } from './level-check';
 import { ArtifactCard } from './artifacts/artifact-card';
 import { YoutubeCard } from './youtube-card';
 import { VideoKitCard } from './video-kit-card';
+import { LearnModuleCard } from './learn-module-card';
 import type { ChatMeta, MasterySnapshot } from '@/lib/saathy-types';
 
 export interface UiMessage {
@@ -158,6 +159,9 @@ export function MessageBubble({
 
           {/* Curated video kit — verified direct links, concept-matched */}
           {meta?.videos && !message.streaming ? <VideoKitCard kit={meta.videos} /> : null}
+
+          {/* Learn module — deep link into the full-screen chapter flow */}
+          {meta?.learn && !message.streaming ? <LearnModuleCard learn={meta.learn} /> : null}
         </div>
 
         {/* Follow-up chips */}

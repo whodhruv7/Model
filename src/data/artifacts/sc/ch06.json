@@ -1,0 +1,870 @@
+{
+  "book": "sc",
+  "chapter": 6,
+  "title": "How Forces Affect Motion",
+  "grade": 9,
+  "sections": [
+    { "id": "6.1.1", "title": "Measuring the magnitude of a force" },
+    { "id": "6.2", "title": "Balanced and Unbalanced Forces" },
+    { "id": "6.3", "title": "The Force of Friction: Often Overlooked but Always Present" },
+    { "id": "6.4", "title": "Newton's First Law of Motion" },
+    { "id": "6.5", "title": "Newton's Second Law of Motion" },
+    { "id": "6.6", "title": "Newton's Third Law of Motion" },
+    { "id": "6.7", "title": "Forces Acting on a System of Objects" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch06-s1",
+      "sec": "6.1.1",
+      "title": "Measuring Force with a Spring Balance",
+      "kicker": "How big is your push, really?",
+      "bullets": [
+        "A spring balance measures the weight of objects and the magnitude of any force in general.",
+        "Pull the free end of the balance and it reads the force with which you pull on the spring inside.",
+        "Weight itself is the gravitational force with which the Earth pulls the object."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Spring balance", "Pull on free end", "Spring stretches", "Force reading"]
+      },
+      "note": "One instrument, many forces. Handy na?"
+    },
+    {
+      "id": "sc-ch06-s2",
+      "sec": "6.1.1",
+      "title": "The Everyday Force Scale",
+      "kicker": "The smallest push you can feel",
+      "bullets": [
+        "In everyday life, the smallest forces we can directly feel are of the order of millinewtons (10^-3 N).",
+        "A light touch on your skin is a good example of such a small, directly felt force."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Light touch", "Millinewton", "10^-3 N", "Everyday forces"]
+      }
+    },
+    {
+      "id": "sc-ch06-s3",
+      "sec": "6.1.1",
+      "title": "Scientists Measure the Invisible",
+      "kicker": "Down, down to yoctonewtons",
+      "bullets": [
+        "Scientists can measure forces far smaller than anything we feel, down to yoctonewtons (10^-24 N) in specialised experiments (as of 2026).",
+        "That is 10^21 times smaller than the millinewton forces of a light touch."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "What you feel daily", "items": ["A light touch", "Order of millinewtons", "10^-3 N and above"] },
+        "right": { "title": "What labs can measure", "items": ["Far smaller forces", "Yoctonewtons", "10^-24 N (as of 2026)"] }
+      }
+    },
+    {
+      "id": "sc-ch06-s4",
+      "sec": "6.2",
+      "title": "Forces Rarely Act Alone",
+      "kicker": "Look closer, there is always company",
+      "bullets": [
+        "Push a box placed on a surface and two forces act: your push forward and the force of friction backward.",
+        "A ball floating on water feels the gravitational force pulling it down and the buoyant force of the liquid pushing it up."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Pushing a box", "items": ["Your push, forward", "Friction, backward"] },
+        "right": { "title": "A floating ball", "items": ["Gravitational force, down", "Buoyant force, up"] }
+      }
+    },
+    {
+      "id": "sc-ch06-s5",
+      "sec": "6.2",
+      "title": "Balanced Forces Hold Still",
+      "kicker": "Tug of war, equal pull",
+      "bullets": [
+        "In tug of war, if both teams pull the rope with equal force, the rope does not move.",
+        "Forces that are equal in magnitude but opposite in direction are called balanced forces.",
+        "The rope moves only when one team pulls harder, making the forces unbalanced."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Team A pulls", "Team B pulls equally", "Forces balance", "Rope stays still"]
+      },
+      "note": "Equal and opposite, so kuch nahi hota!"
+    },
+    {
+      "id": "sc-ch06-s6",
+      "sec": "6.2",
+      "title": "Net Force Decides Motion",
+      "kicker": "Subtract or add, then move",
+      "bullets": [
+        "When opposite forces are unequal, the net force equals the difference of their magnitudes and points along the larger force.",
+        "When two forces act in the same direction, the net force is their sum, pointing that same way.",
+        "Example 6.1: forces of 10 N and 6 N give a net force of 16 N together or 4 N against each other."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Same direction: add the forces", "Opposite directions: subtract", "Net points along the larger force", "Object moves with the net force"]
+      }
+    },
+    {
+      "id": "sc-ch06-s7",
+      "sec": "6.3",
+      "title": "Friction, the Silent Blocker",
+      "kicker": "You push, it pushes back",
+      "bullets": [
+        "A box on the floor does not move until your push beats the friction between its bottom surface and the floor.",
+        "Friction acts in a direction opposite to the force you apply.",
+        "The box starts moving only when your force is larger than friction, so a net force acts in the direction of motion."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["You push forward", "Friction acts backward", "Push exceeds friction", "Box starts moving"]
+      },
+      "note": "Friction is the strict teacher of motion!"
+    },
+    {
+      "id": "sc-ch06-s8",
+      "sec": "6.3",
+      "title": "Every Force on a Box",
+      "kicker": "Four forces, one quiet box",
+      "bullets": [
+        "Besides your push and friction, the box feels its weight downward and the normal force from the surface upward.",
+        "The normal force acts upward, perpendicular to the surface, and the two vertical forces are balanced.",
+        "Air also exerts friction on a moving box, but in many cases it is so small that we neglect it."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Applied force", "Friction", "Weight", "Normal force"]
+      }
+    },
+    {
+      "id": "sc-ch06-s9",
+      "sec": "6.3",
+      "title": "Why You Must Keep Pushing",
+      "kicker": "Stop pedalling, the cycle knows",
+      "bullets": [
+        "Stop pedalling a bicycle and it slows down and comes to rest after travelling some distance.",
+        "Friction acts against the direction of motion, so a continuous force is needed to keep an object moving.",
+        "The force of friction also depends on the nature of the surfaces in contact."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["You stop pedalling", "Friction keeps acting", "Cycle slows down", "Cycle comes to rest"]
+      }
+    },
+    {
+      "id": "sc-ch06-s10",
+      "sec": "6.4",
+      "title": "Newton's First Law",
+      "kicker": "No net force, no change",
+      "bullets": [
+        "An object at rest remains at rest, and an object in motion continues with constant velocity, unless a net force acts upon it.",
+        "If the net force is zero, the body cannot begin to move or change its velocity, so its acceleration is zero.",
+        "Constant velocity means no change in magnitude or direction, so non-zero constant velocity is straight-line motion."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "First law",
+        "children": ["Rest stays rest", "Motion stays constant", "Net force changes things"]
+      },
+      "note": "Objects bhi aaram pasand karte hain!"
+    },
+    {
+      "id": "sc-ch06-s11",
+      "sec": "6.4",
+      "title": "Equal Push, Steady Motion",
+      "kicker": "Friction versus you, tied score",
+      "bullets": [
+        "A person pushes a moving box forward with a force exactly equal to the friction between the box and the floor.",
+        "The two forces are equal and opposite, so they balance and the net force is zero.",
+        "By the first law, the box continues moving with constant velocity instead of coming to rest."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Box already moving", "Your push forward", "Equal friction backward", "Constant velocity continues"]
+      }
+    },
+    {
+      "id": "sc-ch06-s12",
+      "sec": "6.4",
+      "title": "Graphs with No Net Force",
+      "kicker": "Two calm stories, two graphs",
+      "bullets": [
+        "An object at rest keeps the same position with time, and its velocity stays zero.",
+        "An object moving with constant velocity gives a straight position-time graph and a flat velocity-time graph."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Object at rest", "items": ["Position-time: flat line", "Velocity stays zero"] },
+        "right": { "title": "Constant velocity", "items": ["Position-time: straight rising line", "Velocity-time: flat non-zero line"] }
+      }
+    },
+    {
+      "id": "sc-ch06-s13",
+      "sec": "6.5",
+      "title": "Force Makes Things Accelerate",
+      "kicker": "Push gently or push hard?",
+      "bullets": [
+        "A ball pushed gently starts moving slowly from rest, so the acceleration due to your force is small.",
+        "A strong push makes it start moving fast, so a larger force gives a larger acceleration.",
+        "Hypothesis for the same object: a larger force results in a larger acceleration."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Gentle push", "items": ["Small force", "Small acceleration"] },
+        "right": { "title": "Strong push", "items": ["Large force", "Large acceleration"] }
+      }
+    },
+    {
+      "id": "sc-ch06-s14",
+      "sec": "6.5",
+      "title": "The Cart and Pulley Test",
+      "kicker": "Classroom cart, falling cup power",
+      "bullets": [
+        "A cardboard cart on ball-bearing wheels is pulled by a thread running over a small pipe used as a pulley.",
+        "The falling cup pulls the thread, and the thread pulls the cart with a constant force.",
+        "Weights of different magnitudes in the cup apply forces of different magnitudes to the same cart."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Cup falls by gravity", "Thread pulls the cart", "Cart accelerates forward", "Change weights, compare motion"]
+      }
+    },
+    {
+      "id": "sc-ch06-s15",
+      "sec": "6.5",
+      "title": "Second Law, Clearly Stated",
+      "kicker": "Net force in, acceleration out",
+      "bullets": [
+        "Newton's second law: when a net force acts on an object, the object accelerates in the direction of the net force.",
+        "The acceleration is found from the net force divided by the mass: a = F/m.",
+        "So the same force on a larger mass gives a smaller acceleration."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Net force F", "Mass m", "Acceleration a", "a = F/m"]
+      },
+      "note": "Bhaari cheez ko hilana mushkil hai!"
+    },
+    {
+      "id": "sc-ch06-s16",
+      "sec": "6.6",
+      "title": "Forces Always Come Paired",
+      "kicker": "Two objects, two opposite pushes",
+      "bullets": [
+        "Kick a ball with your foot and you feel a force applied by the ball back on your foot.",
+        "Push a table away while sitting on a wheeled chair and your chair rolls in the opposite direction.",
+        "Each time you apply a force on the table, the table applies a force on you in the opposite direction."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["You push the table", "Table pushes you back", "Chair rolls backward", "Pull instead, chair rolls forward"]
+      }
+    },
+    {
+      "id": "sc-ch06-s17",
+      "sec": "6.6",
+      "title": "Push Ground, Move Forward",
+      "kicker": "Walking is a pushing deal",
+      "bullets": [
+        "On a bicycle, push the ground backward with your feet and both you and the bicycle move forward.",
+        "The ground applies a force on your feet in the opposite direction, pushing you ahead.",
+        "Walking and running work the same way: your feet push the ground backward."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Foot pushes ground backward", "Ground pushes foot forward", "You and cycle move ahead"]
+      }
+    },
+    {
+      "id": "sc-ch06-s18",
+      "sec": "6.6",
+      "title": "When Friction Becomes a Friend",
+      "kicker": "Grip is friction working for you",
+      "bullets": [
+        "The forward force from the ground while walking is friction, so here friction helps you move rather than oppose you.",
+        "Grooves on the soles of footwear and treads on tyres increase the force of friction with the floor and the road.",
+        "Without enough friction your foot slips backward, which is why wet polished floors are difficult to walk on."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Grooved soles", "Tyre treads", "Better grip", "Wet floor risk"]
+      }
+    },
+    {
+      "id": "sc-ch06-s19",
+      "sec": "6.7",
+      "title": "Two Boxes, One String",
+      "kicker": "Newton's laws go team mode",
+      "bullets": [
+        "Two boxes of masses m1 and m2 rest on a frictionless horizontal surface, connected by a string.",
+        "A force F pulls Box 1 to the right, and Box 1 applies a force on Box 2 through the string.",
+        "By Newton's third law, Box 2 applies an equal and opposite force on Box 1; this string force is called tension T."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Box 1", "Box 2", "String", "Tension T"]
+      }
+    },
+    {
+      "id": "sc-ch06-s20",
+      "sec": "6.7",
+      "title": "Internal versus External Forces",
+      "kicker": "Count only the outside pushes",
+      "bullets": [
+        "Tension acts between the boxes inside the system, so it is an internal force.",
+        "The pull F acts from outside the system, so it is an external force.",
+        "Only forces that act from the outside matter for how the whole system accelerates."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Internal forces", "items": ["Tension between the boxes", "Cancel within the system"] },
+        "right": { "title": "External forces", "items": ["The pull F", "Set the system's acceleration"] }
+      }
+    },
+    {
+      "id": "sc-ch06-s21",
+      "sec": "6.7",
+      "title": "One System, One Acceleration",
+      "kicker": "Add masses, divide the force",
+      "bullets": [
+        "Treat the two boxes and the string as a single system, like one object of mass m1 + m2.",
+        "Newton's second law then gives the acceleration of the system: a = F/(m1 + m2).",
+        "Vertically, the gravitational force (m1g + m2g) is balanced by the normal force (N1 + N2) from the ground."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Combine the masses", "Keep external force F only", "Divide: a = F/(m1+m2)", "System moves as one"]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sc-ch06-f1",
+      "sec": "6.1.1",
+      "front": "Which instrument can measure the magnitude of any force, not just weight?",
+      "back": "A spring balance. Pulling its free end shows the force with which you pull on the spring inside.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch06-f2",
+      "sec": "6.1.1",
+      "front": "What is the weight of an object?",
+      "back": "The gravitational force with which the Earth pulls the object.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch06-f3",
+      "sec": "6.1.1",
+      "front": "What is the size of the smallest forces we directly feel in daily life?",
+      "back": "Forces of the order of millinewtons (10^-3 N), like a light touch.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch06-f4",
+      "sec": "6.1.1",
+      "front": "How tiny a force can scientists measure, as of 2026?",
+      "back": "Down to yoctonewtons (10^-24 N) in specialised experiments.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch06-f5",
+      "sec": "6.2",
+      "front": "When are two forces said to be balanced?",
+      "back": "When they are equal in magnitude and opposite in direction, so the object does not move.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f6",
+      "sec": "6.2",
+      "front": "How do you find the net force of two opposite, unequal forces?",
+      "back": "Subtract the magnitudes; the net force points along the force of larger magnitude.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch06-f7",
+      "sec": "6.2",
+      "front": "Two people push a stalled car in the same direction. What is the net force?",
+      "back": "The sum of the magnitudes of both forces, acting in that same direction.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f8",
+      "sec": "6.2",
+      "front": "A ball floats still on water. Which two forces balance it?",
+      "back": "The gravitational force pulling down and the buoyant force of the liquid pushing up.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch06-f9",
+      "sec": "6.3",
+      "front": "In which direction does friction act on a pushed box?",
+      "back": "Opposite to the direction of the applied force and of the motion.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f10",
+      "sec": "6.3",
+      "front": "When will a pushed box finally start moving?",
+      "back": "When your applied force is larger than the force of friction, so a net force acts forward.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f11",
+      "sec": "6.3",
+      "front": "What is the normal force?",
+      "back": "The force a surface exerts on an object placed on it, upward and perpendicular to the surface.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch06-f12",
+      "sec": "6.4",
+      "front": "State Newton's first law of motion.",
+      "back": "An object at rest remains at rest, and an object in motion continues with constant velocity, unless a net force acts upon it.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch06-f13",
+      "sec": "6.4",
+      "front": "If the net force on an object is zero, what is its acceleration?",
+      "back": "Zero. The body cannot begin to move or change its velocity in magnitude or direction.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f14",
+      "sec": "6.4",
+      "front": "You push a moving box forward exactly as hard as friction pulls back. What happens?",
+      "back": "The forces balance, the net force is zero, so the box keeps moving with constant velocity.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch06-f15",
+      "sec": "6.5",
+      "front": "What does a net force do to an object's velocity?",
+      "back": "It produces acceleration, which changes the velocity of the object.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f16",
+      "sec": "6.5",
+      "front": "In the cart activity, what pulls the cart with a constant force?",
+      "back": "The thread, pulled by the falling cup and the weights inside it.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch06-f17",
+      "sec": "6.5",
+      "front": "How are net force, mass and acceleration linked in Newton's second law?",
+      "back": "a = F/m. Acceleration grows with the net force and shrinks with the mass.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch06-f18",
+      "sec": "6.6",
+      "front": "When you push a table while sitting on a wheeled chair, what do you feel?",
+      "back": "The table applies a force on you in the opposite direction, so your chair rolls away.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch06-f19",
+      "sec": "6.6",
+      "front": "While walking, which force actually pushes you forward?",
+      "back": "Friction from the ground, acting forward when your foot pushes the ground backward.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f20",
+      "sec": "6.6",
+      "front": "Why do soles have grooves and tyres have treads?",
+      "back": "To increase the force of friction between soles or tyres and the ground for a better grip.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f21",
+      "sec": "6.7",
+      "front": "In the two-box system, why is tension called an internal force?",
+      "back": "It acts between parts of the system itself, so it need not be considered for the system as a whole.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch06-f22",
+      "sec": "6.7",
+      "front": "Acceleration of two boxes (m1, m2) pulled by force F on a frictionless surface?",
+      "back": "a = F/(m1 + m2); the system accelerates like a single object of mass m1 + m2.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch06-f23",
+      "sec": "6.7",
+      "front": "Which outside forces act on the two-box system besides the pull F?",
+      "back": "The gravitational force (m1g + m2g) downward, balanced by the normal force (N1 + N2) upward.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch06-q1",
+      "sec": "6.1.1",
+      "q": "Which instrument measures the magnitude of a force in general, not just the weight of an object?",
+      "options": ["Thermometer", "Spring balance", "Measuring tape", "Stopwatch"],
+      "answer": 1,
+      "why": "A spring balance reads weight and, when you pull its free end, the magnitude of any force.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q2",
+      "sec": "6.1.1",
+      "q": "The weight of an object is which force?",
+      "options": [
+        "The gravitational force with which the Earth pulls the object",
+        "The push of air on the object",
+        "The friction from the ground below",
+        "The buoyant force of water around it"
+      ],
+      "answer": 0,
+      "why": "The book defines weight as the gravitational force with which the Earth pulls the object.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q3",
+      "sec": "6.1.1",
+      "q": "As of 2026, the smallest forces measured in specialised experiments are of the order of",
+      "options": [
+        "Millinewtons (10^-3 N)",
+        "Micronewtons (10^-6 N)",
+        "Yoctonewtons (10^-24 N)",
+        "Nanonewtons (10^-9 N)"
+      ],
+      "answer": 2,
+      "why": "Scientists can measure forces down to yoctonewtons (10^-24 N) in specialised experiments.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch06-q4",
+      "sec": "6.2",
+      "q": "In tug of war, both teams pull the rope with equal force in opposite directions. The rope",
+      "options": ["Stays still", "Moves toward the stronger team", "Moves in both directions at once", "Starts spinning"],
+      "answer": 0,
+      "why": "Equal and opposite forces are balanced, so the rope does not move.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q5",
+      "sec": "6.2",
+      "q": "Forces of 10 N and 6 N act on a block in opposite directions. The net force is",
+      "options": [
+        "4 N along the 6 N force",
+        "16 N in any direction",
+        "4 N along the 10 N force",
+        "Zero"
+      ],
+      "answer": 2,
+      "why": "Opposite unequal forces subtract; the net force points along the larger 10 N force.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q6",
+      "sec": "6.2",
+      "q": "Two forces of 10 N and 6 N act on a block in the same direction. The net force is",
+      "options": ["4 N", "16 N", "10 N", "6 N"],
+      "answer": 1,
+      "why": "Forces in the same direction add up: 10 N + 6 N = 16 N.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q7",
+      "sec": "6.3",
+      "q": "A box rests on the floor. You push it forward but it does not move. Why?",
+      "options": [
+        "Friction from the floor balances your push",
+        "Gravity pulls it sideways",
+        "The box has no weight",
+        "Air pushes it forward"
+      ],
+      "answer": 0,
+      "why": "Friction acts opposite your push; the box moves only when your force exceeds friction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q8",
+      "sec": "6.3",
+      "q": "For a box resting on a table, which force acts upward, perpendicular to the surface?",
+      "options": ["Friction", "Buoyant force", "Tension", "Normal force"],
+      "answer": 3,
+      "why": "The normal force is exerted by the surface, upward and perpendicular to it, balancing the weight.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q9",
+      "sec": "6.3",
+      "q": "You stop pedalling a bicycle. Why does it finally come to rest?",
+      "options": [
+        "No force ever acted on it",
+        "Friction acted against its motion all along",
+        "Its weight pulled it backward",
+        "The pedals pushed it backward"
+      ],
+      "answer": 1,
+      "why": "Friction acts against the direction of motion, so without a continuous push the cycle stops.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch06-q10",
+      "sec": "6.4",
+      "q": "By Newton's first law, an object in motion continues moving with",
+      "options": [
+        "Constant velocity unless a net force acts on it",
+        "Increasing speed unless pulled back",
+        "Constant acceleration always",
+        "Rest after some time always"
+      ],
+      "answer": 0,
+      "why": "The first law says a moving object continues with constant velocity unless a net force acts.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q11",
+      "sec": "6.4",
+      "q": "A person pushes a moving box forward with a force exactly equal to the friction on it. The box will",
+      "options": [
+        "Come to rest at once",
+        "Speed up gradually",
+        "Keep moving with constant velocity",
+        "Reverse its direction"
+      ],
+      "answer": 2,
+      "why": "Equal and opposite forces balance, net force is zero, so by the first law velocity stays constant.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q12",
+      "sec": "6.4",
+      "q": "An object moves with a constant velocity. The net force on it is",
+      "options": [
+        "Equal to its weight",
+        "In the direction of motion",
+        "Opposite to the motion",
+        "Zero"
+      ],
+      "answer": 3,
+      "why": "Constant velocity means no acceleration, so the net force acting on it is zero.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch06-q13",
+      "sec": "6.5",
+      "q": "A net force changes an object's velocity. This change in velocity is called",
+      "options": ["Acceleration", "Tension", "Buoyancy", "Normal force"],
+      "answer": 0,
+      "why": "A change in velocity means the object is accelerating, so a force produces acceleration.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q14",
+      "sec": "6.5",
+      "q": "In Activity 6.3, what makes the thread pull the cart with a constant force?",
+      "options": [
+        "A spring inside the cart",
+        "The spinning wheels",
+        "The falling cup pulled by gravity",
+        "Wind from the window"
+      ],
+      "answer": 2,
+      "why": "The cup moves down due to gravity, and the thread pulls the cart with a constant force.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q15",
+      "sec": "6.5",
+      "q": "The same net force acts on an empty cart and on a cart loaded to double the mass. The loaded cart's acceleration is",
+      "options": [
+        "Half of the empty cart's",
+        "Double the empty cart's",
+        "Equal to the empty cart's",
+        "Four times the empty cart's"
+      ],
+      "answer": 0,
+      "why": "From a = F/m, doubling the mass while keeping the force same halves the acceleration.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch06-q16",
+      "sec": "6.6",
+      "q": "You sit on a wheeled chair and push a heavy table away from you. Your chair will",
+      "options": [
+        "Roll forward with the table",
+        "Roll backward, away from the table",
+        "Stay exactly where it is",
+        "Spin on the spot"
+      ],
+      "answer": 1,
+      "why": "The table applies a force on you in the opposite direction, so the chair rolls backward.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q17",
+      "sec": "6.6",
+      "q": "To move forward on a bicycle without pedalling, you push the ground",
+      "options": [
+        "Forward with your feet",
+        "Backward with your feet",
+        "Upward with your heels",
+        "Sideways with your toes"
+      ],
+      "answer": 1,
+      "why": "Your feet push the ground backward, and the ground pushes your feet forward.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q18",
+      "sec": "6.6",
+      "q": "It is difficult to walk on a wet polished floor because",
+      "options": [
+        "The floor pushes you forward too strongly",
+        "Friction between your foot and the floor becomes very small",
+        "Your feet become lighter on water",
+        "The wet floor attracts your feet"
+      ],
+      "answer": 1,
+      "why": "With little friction, your foot slips backward instead of the ground pushing you forward.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q19",
+      "sec": "6.7",
+      "q": "In the two-box system, the force transmitted through the connecting string is called",
+      "options": ["Buoyancy", "Weight", "Tension", "Thrust"],
+      "answer": 2,
+      "why": "The equal and opposite string forces between the boxes are called tension T.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch06-q20",
+      "sec": "6.7",
+      "q": "Two boxes joined by a string are pulled by force F. Which force is internal to the system of both boxes?",
+      "options": [
+        "The pulling force F",
+        "The tension in the string",
+        "Gravity on box 1",
+        "The normal force on box 2"
+      ],
+      "answer": 1,
+      "why": "Tension acts between the two boxes inside the system, so it is an internal force.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch06-q21",
+      "sec": "6.7",
+      "q": "Two boxes of masses m1 and m2 are pulled by force F on a frictionless surface. The acceleration of the system is",
+      "options": [
+        "F divided by m1 only",
+        "F divided by m2 only",
+        "F divided by (m1 + m2)",
+        "F multiplied by (m1 + m2)"
+      ],
+      "answer": 2,
+      "why": "The system behaves like one object of mass m1 + m2, so a = F/(m1 + m2).",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch06-e1",
+      "title": "Net force from two pushes",
+      "problem": "Two forces of 10 N and 6 N act on a block lying on a table (Example 6.1). Find the magnitude and direction of the net force when the forces act (a) in the same direction and (b) in opposite directions.",
+      "steps": [
+        "Same direction: the net force is the sum of the magnitudes, 10 N + 6 N = 16 N, acting toward the right side.",
+        "Opposite directions: the net force is the difference of the magnitudes, 10 N - 6 N = 4 N.",
+        "For opposite forces, the net force points along the force of larger magnitude, here the 10 N force."
+      ],
+      "answer": "16 N to the right when the forces act together; 4 N along the 10 N force when they oppose each other."
+    },
+    {
+      "id": "sc-ch06-e2",
+      "title": "Pushing a moving box, first law style",
+      "problem": "A person exerts a forward force on a moving box that is exactly equal to the force of friction between the box's bottom surface and the floor (Example 6.2). Will the box continue moving or come to rest after some time?",
+      "steps": [
+        "Friction acts on the box in the backward direction.",
+        "The forward push and the backward friction are equal and opposite, so they balance each other.",
+        "The net force is zero, so by Newton's first law the box's velocity cannot change."
+      ],
+      "answer": "The box continues moving with constant velocity."
+    },
+    {
+      "id": "sc-ch06-e3",
+      "title": "Graphs when no net force acts",
+      "problem": "Draw the position-time and velocity-time graphs for an object on which no net force is acting (Example 6.3).",
+      "steps": [
+        "With no net force there are two possibilities: the object is at rest, or it moves with constant velocity.",
+        "At rest: the position does not change with time, so the position-time graph is flat, and the velocity stays zero.",
+        "Constant velocity: the position-time graph is a straight line, and the velocity-time graph is a flat horizontal line at the constant value."
+      ],
+      "answer": "Rest gives a flat position-time line and a zero velocity line; constant velocity gives a straight rising position-time line and a flat non-zero velocity-time line."
+    },
+    {
+      "id": "sc-ch06-e4",
+      "title": "Acceleration of a two-box system",
+      "problem": "Two boxes of masses m1 and m2 rest on a frictionless horizontal surface, connected by a string. A force F pulls Box 1 to the right. Find the acceleration of the system.",
+      "steps": [
+        "Box 1 pulls Box 2 through the string, and by Newton's third law Box 2 pulls back equally; this tension T is an internal force.",
+        "Internal forces need not be considered; only external forces matter, and here the only horizontal external force is F.",
+        "Treat both boxes and the string as a single object of mass m1 + m2 and apply Newton's second law: a = F/(m1 + m2)."
+      ],
+      "answer": "a = F/(m1 + m2), directed along the pull F; the system accelerates like one object of mass m1 + m2."
+    }
+  ],
+  "conceptMap": {
+    "center": "Forces and Motion",
+    "groups": [
+      { "id": "g1", "label": "Measuring Forces" },
+      { "id": "g2", "label": "Combining Forces" },
+      { "id": "g3", "label": "Friction and Surfaces" },
+      { "id": "g4", "label": "Newton's Laws" },
+      { "id": "g5", "label": "Systems of Objects" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Spring balance", "group": "g1" },
+      { "id": "n2", "label": "Weight", "group": "g1" },
+      { "id": "n3", "label": "Balanced forces", "group": "g2" },
+      { "id": "n4", "label": "Net force", "group": "g2" },
+      { "id": "n5", "label": "Friction", "group": "g3" },
+      { "id": "n6", "label": "Normal force", "group": "g3" },
+      { "id": "n7", "label": "Air friction", "group": "g3" },
+      { "id": "n8", "label": "First law", "group": "g4" },
+      { "id": "n9", "label": "Second law", "group": "g4" },
+      { "id": "n10", "label": "Third law", "group": "g4" },
+      { "id": "n11", "label": "Acceleration", "group": "g4" },
+      { "id": "n12", "label": "Tension", "group": "g5" },
+      { "id": "n13", "label": "Two-box system", "group": "g5" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "measures" },
+      { "from": "n1", "to": "n4", "label": "reads force size" },
+      { "from": "n2", "to": "n6", "label": "balanced by" },
+      { "from": "n6", "to": "n3", "label": "pairs with weight" },
+      { "from": "n3", "to": "n4", "label": "gives zero net force" },
+      { "from": "n4", "to": "n8", "label": "zero means no change" },
+      { "from": "n4", "to": "n9", "label": "causes acceleration" },
+      { "from": "n9", "to": "n11", "label": "produces" },
+      { "from": "n5", "to": "n4", "label": "opposes the push" },
+      { "from": "n5", "to": "n8", "label": "stops unpushed objects" },
+      { "from": "n10", "to": "n5", "label": "friction moves you forward" },
+      { "from": "n10", "to": "n12", "label": "creates force pairs" },
+      { "from": "n12", "to": "n13", "label": "connects the boxes" },
+      { "from": "n9", "to": "n13", "label": "a = F/(m1+m2)" },
+      { "from": "n7", "to": "n5", "label": "usually negligible" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Measure the force", "detail": "A spring balance reads the magnitude of any force, from weight to a pull." },
+      { "id": "s2", "label": "Add up the forces", "detail": "Forces in the same direction add; opposite forces subtract to give the net force." },
+      { "id": "s3", "label": "Check the balance", "detail": "Balanced forces give zero net force, so nothing changes." },
+      { "id": "s4", "label": "Meet friction", "detail": "Friction opposes motion and must be countered to keep things moving." },
+      { "id": "s5", "label": "Apply the first law", "detail": "Zero net force keeps rest or constant velocity." },
+      { "id": "s6", "label": "Apply the second law", "detail": "A net force gives acceleration in its direction: a = F/m." },
+      { "id": "s7", "label": "Apply the third law", "detail": "Forces come in equal and opposite pairs between two interacting objects." },
+      { "id": "s8", "label": "Handle whole systems", "detail": "Treat connected objects as one mass m1 + m2 driven by external forces only." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

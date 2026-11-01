@@ -1,0 +1,394 @@
+{
+  "book": "us",
+  "chapter": 104,
+  "part": "b",
+  "title": "Oceans and Life",
+  "grade": 9,
+  "sections": [
+    { "id": "104.6", "title": "Marine Resources and Their Significance" },
+    { "id": "104.7", "title": "Blue Economy" },
+    { "id": "104.8", "title": "Maritime Zones" },
+    { "id": "104.9", "title": "International Maritime Rules and Regulations" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch104b-s1",
+      "sec": "104.6",
+      "title": "Ocean: A Vast Storehouse",
+      "kicker": "The sea holds food, fuel and minerals",
+      "bullets": [
+        "Oceans are vast storehouses; materials and features of the ocean with intrinsic or economic value are called marine resources.",
+        "Marine resources fall into two broad categories: Marine Living Resources and Marine Non-living Resources.",
+        "They range from fish, seafood and coral reefs to oil, natural gas, minerals, sand and gravel, and tidal and wave energy."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Living Resources", "items": ["Fish and seafood", "Marine bioorganisms", "Submerged aquatic vegetation"] },
+        "right": { "title": "Non-living Resources", "items": ["Oil and natural gas", "Minerals, sand and gravel", "Tidal and wave energy"] }
+      },
+      "note": "Grade 8 me natural resources padha tha? Ab ocean wala chapter!"
+    },
+    {
+      "id": "us-ch104b-s2",
+      "sec": "104.6",
+      "title": "Living Resources of the Sea",
+      "kicker": "From shelf fish to deep ocean fish",
+      "bullets": [
+        "Coastal or neritic fish live within the continental shelf at depths of 0 to 200 metres.",
+        "Oceanic fish live beyond the continental shelf, at depths greater than 200 metres.",
+        "Fish groups include epipelagic, pelagic, demersal, benthopelagic and benthic fish.",
+        "The sea also gives bioactive natural products from marine bioorganisms and submerged aquatic vegetation."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Coastal or Neritic Fish", "items": ["Live within the continental shelf", "Depths of 0 to 200 m"] },
+        "right": { "title": "Oceanic Fish", "items": ["Live beyond the continental shelf", "Depths greater than 200 m"] }
+      },
+      "note": "200 m is the magic line between shelf and open ocean."
+    },
+    {
+      "id": "us-ch104b-s3",
+      "sec": "104.6",
+      "title": "Minerals and Ocean Energy",
+      "kicker": "Oil today, tides and wind tomorrow",
+      "bullets": [
+        "Non-living resources include minerals, sand and gravel, and deep-sea minerals.",
+        "Conventional energy sources include oil, natural gas and gas hydrates.",
+        "Non-conventional energy includes biofuels, offshore wind and ocean energy.",
+        "Ocean mechanical energy covers tidal, wave and current energy, while OTEC uses ocean thermal energy conversion."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Oil", "Natural gas", "Gas hydrates", "Offshore wind", "Tidal energy", "Wave energy", "OTEC", "Biofuels"]
+      },
+      "note": "Blue energy means renewable power from the sea."
+    },
+    {
+      "id": "us-ch104b-s4",
+      "sec": "104.6",
+      "title": "Why Marine Resources Matter",
+      "kicker": "Food, jobs, trade and tourism",
+      "bullets": [
+        "Marine resources are vital for food security, economic activities and maintaining a healthy environment.",
+        "Fish are a major source of protein, while fishing and aquaculture support important industries and livelihoods.",
+        "About 90 per cent of global trade by volume is carried by sea, and coastal tourism is a multi-billion dollar industry.",
+        "Countries with long coastlines, like India, gain fishing, trade and tourism livelihoods for millions of people."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Ocean Value",
+        "children": ["Food and protein", "Livelihoods", "Trade and tourism", "Energy and minerals"]
+      },
+      "note": "One sea, many salaries."
+    },
+    {
+      "id": "us-ch104b-s5",
+      "sec": "104.6",
+      "title": "Use Resources Responsibly",
+      "kicker": "Take from the sea, but wisely",
+      "bullets": [
+        "Marine resources must be used responsibly without disturbing marine ecosystems.",
+        "Unique ecosystems such as coral reefs are part of the ocean's biodiversity wealth.",
+        "Oceans support biodiversity and sustain numerous plant and animal species along with human needs.",
+        "Offshore oil and gas serve today, while tides and waves hold immense potential for renewable blue energy."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Value ocean resources", "Use them responsibly", "Protect marine ecosystems"]
+      },
+      "note": "Reefs are like underwater treasure vaults, handle with care."
+    },
+    {
+      "id": "us-ch104b-s6",
+      "sec": "104.7",
+      "title": "What Is the Blue Economy",
+      "kicker": "Growth with a healthy ocean",
+      "bullets": [
+        "The World Bank defines Blue Economy as the sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs.",
+        "It insists on preserving the health of the marine ecosystem while economies grow.",
+        "Blue Economy links three goals at once: economic growth, ecosystem health, and improved livelihoods and jobs."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Blue Economy",
+        "children": ["Economic Growth", "Ecosystem Health", "Improved Livelihoods and Jobs"]
+      },
+      "note": "Kamana bhi, surakshit bhi, that is the Blue Economy way."
+    },
+    {
+      "id": "us-ch104b-s7",
+      "sec": "104.7",
+      "title": "SDG 14: Life Below Water",
+      "kicker": "A global promise for the seas",
+      "bullets": [
+        "The Blue Economy concept is enshrined in the UN Sustainable Development Goal 14, called Life Below Water.",
+        "SDG 14 aims to reduce marine pollution and address ocean acidification.",
+        "It also asks countries to regulate fishing and protect marine ecosystems."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Reduce pollution", "End acidification", "Regulate fishing", "Protect ecosystems", "Conserve marine areas", "Cut harmful subsidies", "More economic benefits"]
+      },
+      "note": "SDG 14 is the ocean's very own goal."
+    },
+    {
+      "id": "us-ch104b-s8",
+      "sec": "104.7",
+      "title": "Aims of SDG 14",
+      "kicker": "Seven promises to the ocean",
+      "bullets": [
+        "Key aims of SDG 14 include protecting marine ecosystems and conserving marine areas.",
+        "Countries are urged to eliminate harmful subsidies that damage ocean life.",
+        "The goal also wants countries to increase economic benefits from sustainable use of marine resources."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Protect marine ecosystems", "Conserve marine areas", "Eliminate harmful subsidies", "Increase economic benefits"]
+      },
+      "note": "Harmful subsidies badalte hi ocean ki saans aaram se aati hai."
+    },
+    {
+      "id": "us-ch104b-s9",
+      "sec": "104.7",
+      "title": "The Nautical Mile",
+      "kicker": "Sea distances need a sea ruler",
+      "bullets": [
+        "A nautical mile is a unit of measurement used in maritime and air navigation.",
+        "It is defined as exactly 1,852 metres, which is about 6,076 feet.",
+        "Based on the Earth's circumference, one nautical mile corresponds to one minute of latitude.",
+        "This makes it a convenient unit for charting and navigation across the world's seas."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["1,852 metres", "6,076 feet", "One minute of latitude", "Navigation unit"]
+      },
+      "note": "Flight tracking apps bhi nautical miles hi dikhate hain!"
+    },
+    {
+      "id": "us-ch104b-s10",
+      "sec": "104.8",
+      "title": "Zones Drawn by Law",
+      "kicker": "Who owns the ocean, and where?",
+      "bullets": [
+        "Maritime zones are different areas of the ocean defined by international law.",
+        "Moving out from the coast, the zones are internal waters, territorial sea, contiguous zone, EEZ and then the high seas.",
+        "Distances of each zone are measured in nautical miles from a country's baseline."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Internal waters", "Territorial sea 12 NM", "Contiguous zone 24 NM", "Exclusive Economic Zone 200 NM", "High seas"]
+      },
+      "note": "Farther from shore, less national control."
+    },
+    {
+      "id": "us-ch104b-s11",
+      "sec": "104.8",
+      "title": "Territorial and Contiguous Waters",
+      "kicker": "The first 24 miles are watched closely",
+      "bullets": [
+        "Territorial waters extend up to 12 nautical miles, where the country has near-complete control.",
+        "Here the government can make laws relating to customs, immigration and pollution control.",
+        "The contiguous zone extends from the baseline up to 24 nautical miles.",
+        "In the contiguous zone the country has limited control over customs, fiscal matters and illegal immigration."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Territorial Sea, 12 NM", "items": ["Near-complete control", "Customs, immigration, pollution laws"] },
+        "right": { "title": "Contiguous Zone, 24 NM", "items": ["Limited control", "Customs, fiscal matters, illegal immigration"] }
+      },
+      "note": "12 and 24, remember the double twelve."
+    },
+    {
+      "id": "us-ch104b-s12",
+      "sec": "104.8",
+      "title": "The Right of Innocent Passage",
+      "kicker": "Ships may pass, but peacefully",
+      "bullets": [
+        "Innocent passage lets foreign ships pass through territorial waters as long as they do not threaten peace, good order or security.",
+        "Ships must move continuously without stopping, except in emergencies or cases of breakdowns.",
+        "This right does not permit fishing, military operations or other non-peaceful actions."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Enter territorial waters", "Move continuously, no stopping", "No fishing or military acts", "Only emergencies allow a halt"]
+      },
+      "note": "Passing yes, mischief no."
+    },
+    {
+      "id": "us-ch104b-s13",
+      "sec": "104.8",
+      "title": "The Exclusive Economic Zone",
+      "kicker": "200 miles of special rights",
+      "bullets": [
+        "EEZs extend from the baseline up to 200 nautical miles from the coast.",
+        "They are defined under the United Nations Convention on the Law of the Sea, UNCLOS, by global agreement.",
+        "The coastal country has special rights to use ocean resources such as fish, oil and gas.",
+        "Ships of other countries may still pass through peacefully, but the country does not fully own or control the EEZ waters."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["200 NM", "UNCLOS", "Fish, oil, gas", "Peaceful passage"]
+      },
+      "note": "Special rights, not full ownership."
+    },
+    {
+      "id": "us-ch104b-s14",
+      "sec": "104.8",
+      "title": "High Seas: Global Commons",
+      "kicker": "64 per cent belongs to everyone",
+      "bullets": [
+        "Beyond the EEZs of all countries lie the high seas, also called international waters, covering about 64 per cent of the world's oceans.",
+        "These waters do not belong to any single country and are considered part of the global commons.",
+        "All countries enjoy equal rights there: navigation, fishing, flying over, laying undersea cables, and exploring for minerals.",
+        "Countries may also build lawful structures such as artificial lands, though overfishing and illegal fishing remain challenges."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Global commons", "64 per cent", "Equal rights", "Undersea cables", "Mineral exploration"]
+      },
+      "note": "Sabka saagar, to sabka dhyan bhi."
+    },
+    {
+      "id": "us-ch104b-s15",
+      "sec": "104.9",
+      "title": "Law That Rules the Waves",
+      "kicker": "Safe, fair and peaceful seas",
+      "bullets": [
+        "Countries follow a set of international rules and agreements known as maritime law or maritime regulations.",
+        "These laws regulate how ships operate and move, and protect the marine environment.",
+        "They address piracy, terrorism, natural disasters and accidents, and safeguard trade routes.",
+        "Maritime disputes are conflicts between countries over territory, resources or rights in oceans, seas or coastal regions."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Ships operate safely", "Environment protected", "Trade routes safeguarded", "Disputes settled"]
+      },
+      "note": "No rules, no routes."
+    },
+    {
+      "id": "us-ch104b-s16",
+      "sec": "104.9",
+      "title": "COLREGs: Rules of the Road",
+      "kicker": "Traffic rules, but at sea",
+      "bullets": [
+        "COLREGs, the Convention on the International Regulations for Preventing Collisions at Sea, are the rules of the road at sea.",
+        "They require a proper lookout, a safe speed, and deciding which side to pass on.",
+        "Ships identify the give-way and stand-on vessels so both know who should act to avoid a collision.",
+        "Lights, sound signals, shapes and radio communication help share information in crowded or hazardous waters."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Keep a proper lookout", "Proceed at a safe speed", "Know give-way and stand-on vessels", "Use lights, sound signals and radio"]
+      },
+      "note": "Even ships follow traffic sense."
+    },
+    {
+      "id": "us-ch104b-s17",
+      "sec": "104.9",
+      "title": "MARPOL Keeps Seas Clean",
+      "kicker": "Ships must not pollute",
+      "bullets": [
+        "Ships must meet safety standards and are prohibited from polluting the seas.",
+        "MARPOL is the International Convention for the Prevention of Pollution from Ships.",
+        "It is an important international agreement aimed at reducing pollution from ships.",
+        "Together with COLREGs, it keeps both the voyage and the water safe."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["MARPOL", "Safety standards", "No pollution", "Cleaner seas"]
+      },
+      "note": "Safar bhi surakshit, samudra bhi swachh."
+    },
+    {
+      "id": "us-ch104b-s18",
+      "sec": "104.9",
+      "title": "Why Maritime Rules Matter",
+      "kicker": "Common standards for all ships",
+      "bullets": [
+        "International maritime rules keep the oceans safe and ensure the fair and sustainable use of ocean resources.",
+        "They enable countries to cooperate on marine resources while protecting marine life, ships, sailors and coastal communities.",
+        "Without such regulations, oceans could become dangerous and chaotic, with increased pollution, accidents, collisions and disputes.",
+        "By setting common standards for all ships regardless of their country, maritime rules keep oceans safe, clean and open for trade and travel."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Common standards for all ships", "Cooperation without conflict", "Marine life and sailors protected", "Oceans open for trade and travel"]
+      },
+      "note": "Chapter done: oceans power trade, travel, communication and climate."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch104b-f1", "sec": "104.6", "front": "What are marine resources?", "back": "Materials and features found in oceans that have intrinsic or economic value, such as fish, oil, minerals and blue energy.", "tag": "definition" },
+    { "id": "us-ch104b-f2", "sec": "104.6", "front": "Name the two broad categories of marine resources.", "back": "Marine Living Resources and Marine Non-living Resources.", "tag": "concept" },
+    { "id": "us-ch104b-f3", "sec": "104.6", "front": "Where do coastal or neritic fish live?", "back": "Within the continental shelf, at depths of 0 to 200 metres.", "tag": "concept" },
+    { "id": "us-ch104b-f4", "sec": "104.6", "front": "What share of global trade by volume is carried by sea?", "back": "About 90 per cent of global trade by volume moves by sea.", "tag": "trivia" },
+    { "id": "us-ch104b-f5", "sec": "104.7", "front": "Define Blue Economy as per the World Bank.", "back": "The sustainable use of ocean resources to promote economic growth, improved livelihoods and jobs, while preserving the health of the marine ecosystem.", "tag": "definition" },
+    { "id": "us-ch104b-f6", "sec": "104.7", "front": "Which UN goal is the Blue Economy enshrined in?", "back": "SDG 14, Life Below Water.", "tag": "concept" },
+    { "id": "us-ch104b-f7", "sec": "104.7", "front": "How long is a nautical mile?", "back": "Exactly 1,852 metres, about 6,076 feet, equal to one minute of latitude.", "tag": "formula" },
+    { "id": "us-ch104b-f8", "sec": "104.7", "front": "Name any two aims of SDG 14.", "back": "Reduce marine pollution and regulate fishing; it also protects ecosystems, conserves marine areas and eliminates harmful subsidies.", "tag": "concept" },
+    { "id": "us-ch104b-f9", "sec": "104.8", "front": "Up to how many nautical miles does the territorial sea extend?", "back": "Up to 12 nautical miles from the baseline, with near-complete national control.", "tag": "concept" },
+    { "id": "us-ch104b-f10", "sec": "104.8", "front": "What is innocent passage?", "back": "Foreign ships may pass through territorial waters if they do not threaten peace, good order or security, moving continuously without stopping.", "tag": "definition" },
+    { "id": "us-ch104b-f11", "sec": "104.8", "front": "What can a country control in the contiguous zone?", "back": "Limited control over customs, fiscal matters and illegal immigration, up to 24 nautical miles from the baseline.", "tag": "concept" },
+    { "id": "us-ch104b-f12", "sec": "104.8", "front": "What share of the world's oceans are high seas?", "back": "About 64 per cent; they belong to no single country and form part of the global commons.", "tag": "trivia" },
+    { "id": "us-ch104b-f13", "sec": "104.9", "front": "What are COLREGs in simple words?", "back": "The rules of the road at sea, made to prevent collisions through lookout, safe speed, passing sides and signals.", "tag": "definition" },
+    { "id": "us-ch104b-f14", "sec": "104.9", "front": "What does MARPOL aim to prevent?", "back": "Pollution from ships; MARPOL is the International Convention for the Prevention of Pollution from Ships.", "tag": "definition" },
+    { "id": "us-ch104b-f15", "sec": "104.9", "front": "What is a maritime dispute?", "back": "A conflict or disagreement between countries over territory, resources or rights in oceans, seas or coastal regions.", "tag": "definition" },
+    { "id": "us-ch104b-f16", "sec": "104.9", "front": "List two duties of ships under COLREGs.", "back": "Maintain a proper lookout and proceed at a safe speed; ships also use lights, sound signals and shapes.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "us-ch104b-q1", "sec": "104.6", "q": "Which of these is a marine living resource?", "options": ["Fish and seafood", "Natural gas", "Sand and gravel", "Offshore oil"], "answer": 0, "why": "Fish and seafood are living; oil, gas, sand and gravel are non-living resources.", "difficulty": "easy" },
+    { "id": "us-ch104b-q2", "sec": "104.6", "q": "Coastal or neritic fish live where?", "options": ["Within the continental shelf at depths of 0 to 200 m", "Only below 2,000 m in trenches", "Beyond the continental shelf at 500 m", "Only in coral reef lagoons"], "answer": 0, "why": "The book says coastal or neritic fish live within the continental shelf at depths of 0 to 200 m.", "difficulty": "easy" },
+    { "id": "us-ch104b-q3", "sec": "104.6", "q": "A fish is caught beyond the continental shelf at 300 m depth. It is a...", "options": ["Coastal or neritic fish", "Oceanic fish", "Submerged aquatic vegetation", "Bioactive natural product"], "answer": 1, "why": "Oceanic fish live beyond the continental shelf at depths greater than 200 m.", "difficulty": "medium" },
+    { "id": "us-ch104b-q4", "sec": "104.6", "q": "Which list contains only non-conventional energy sources?", "options": ["Biofuels, offshore wind, tidal energy", "Oil, natural gas, gas hydrates", "Sand, gravel, deep-sea minerals", "Fish, seafood, coral reefs"], "answer": 0, "why": "The book's classification puts biofuels, offshore wind and ocean energy under non-conventional sources.", "difficulty": "hard" },
+    { "id": "us-ch104b-q5", "sec": "104.7", "q": "The Blue Economy concept is enshrined in which UN goal?", "options": ["SDG 14: Life Below Water", "SDG 7: Clean Energy", "SDG 2: Zero Hunger", "SDG 11: Sustainable Cities"], "answer": 0, "why": "The book directly links Blue Economy to SDG 14, Life Below Water.", "difficulty": "easy" },
+    { "id": "us-ch104b-q6", "sec": "104.7", "q": "One nautical mile equals about...", "options": ["1,852 metres", "1,609 metres", "2,000 metres", "852 metres"], "answer": 0, "why": "A nautical mile is exactly 1,852 metres, about 6,076 feet.", "difficulty": "easy" },
+    { "id": "us-ch104b-q7", "sec": "104.7", "q": "Which aim of SDG 14 deals directly with fisheries?", "options": ["Regulate fishing", "Lay undersea cables", "Build artificial lands", "Fix ship navigation lights"], "answer": 0, "why": "Regulating fishing is a key aim of SDG 14, along with protecting ecosystems and conserving marine areas.", "difficulty": "medium" },
+    { "id": "us-ch104b-q8", "sec": "104.7", "q": "Which trio does Blue Economy balance, per the book's diagram?", "options": ["Economic growth, ecosystem health, livelihoods and jobs", "Speed, safety, sound signals", "Oil, gas, gas hydrates", "Territorial sea, contiguous zone, EEZ"], "answer": 0, "why": "The Blue Economy diagram balances economic growth, ecosystem health, and improved livelihoods and jobs.", "difficulty": "hard" },
+    { "id": "us-ch104b-q9", "sec": "104.8", "q": "The sea area closest to a country with near-complete control is its...", "options": ["Territorial waters", "High seas", "Contiguous zone", "Exclusive economic zone"], "answer": 0, "why": "Territorial waters are closest to the coast, where the country has near-complete control.", "difficulty": "easy" },
+    { "id": "us-ch104b-q10", "sec": "104.8", "q": "The contiguous zone extends from the baseline up to how many nautical miles?", "options": ["24", "12", "200", "64"], "answer": 0, "why": "The contiguous zone extends from the baseline up to 24 nautical miles.", "difficulty": "easy" },
+    { "id": "us-ch104b-q11", "sec": "104.8", "q": "In its Exclusive Economic Zone, a country...", "options": ["Has special rights to use resources such as fish, oil and gas", "Fully owns and controls the waters", "Has no rights at all", "Must share all resources with every neighbour"], "answer": 0, "why": "The EEZ gives special rights to use resources, but the country does not fully own or control the waters.", "difficulty": "medium" },
+    { "id": "us-ch104b-q12", "sec": "104.8", "q": "A foreign ship stops mid-channel in territorial waters to fish. Under innocent passage this is...", "options": ["Not permitted, as fishing is a non-peaceful activity", "Allowed if the fishing is quick", "Allowed anywhere inside the EEZ", "Required by UNCLOS"], "answer": 0, "why": "Innocent passage does not permit fishing, military operations or other non-peaceful actions.", "difficulty": "hard" },
+    { "id": "us-ch104b-q13", "sec": "104.9", "q": "MARPOL is the international convention for...", "options": ["Preventing pollution from ships", "Preventing collisions at sea", "Defining maritime zones", "Naming the high seas"], "answer": 0, "why": "MARPOL is the International Convention for the Prevention of Pollution from Ships.", "difficulty": "easy" },
+    { "id": "us-ch104b-q14", "sec": "104.9", "q": "COLREGs are often described as...", "options": ["Rules of the road at sea", "Rules of the monsoon", "The sailor's dictionary", "The ocean census"], "answer": 0, "why": "The book calls COLREGs the rules of the road at sea, just like traffic rules on land.", "difficulty": "easy" },
+    { "id": "us-ch104b-q15", "sec": "104.9", "q": "Which pair of vessels decides who must yield to avoid a crash?", "options": ["Give-way and stand-on vessels", "Skipper and cabin crew", "Fishing and cargo ships only", "High tide and low tide vessels"], "answer": 0, "why": "COLREGs include identifying the give-way and stand-on vessels to prevent collisions.", "difficulty": "medium" },
+    { "id": "us-ch104b-q16", "sec": "104.9", "q": "Without maritime rules, the book warns oceans would face all of these EXCEPT...", "options": ["Guaranteed fair sharing of fish", "More pollution and accidents", "More collisions", "More disputes over resources"], "answer": 0, "why": "The book warns of increased pollution, accidents, collisions and disputes; fair sharing comes from rules.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch104b-e1",
+      "title": "Classify the Catch",
+      "problem": "A fishing crew lands two species: one caught 90 m deep within the continental shelf, and one caught 320 m deep beyond the shelf. Classify both catches using the book's fish zones and name the category of marine resource they belong to.",
+      "steps": [
+        "Marine resources are classified into Marine Living Resources and Marine Non-living Resources; fish belong to the living category.",
+        "Coastal or neritic fish live within the continental shelf at depths of 0 to 200 m, so the catch from 90 m is a coastal or neritic fish.",
+        "Oceanic fish live beyond the continental shelf at depths greater than 200 m, so the catch from 320 m is an oceanic fish.",
+        "Both are fish, so both fall under Marine Living Resources, and fish are a major source of protein for food security."
+      ],
+      "answer": "The 90 m catch is a coastal or neritic fish; the 320 m catch is an oceanic fish; both are Marine Living Resources."
+    },
+    {
+      "id": "us-ch104b-e2",
+      "title": "Convert Sea Miles to Metres",
+      "problem": "Using 1 nautical mile = 1,852 m, convert the outer edge of the territorial sea (12 NM), the contiguous zone (24 NM) and the EEZ (200 NM) into metres and kilometres.",
+      "steps": [
+        "Territorial sea: 12 x 1,852 = 22,224 m, which is 22.224 km.",
+        "Contiguous zone: 24 x 1,852 = 44,448 m, which is 44.448 km.",
+        "Exclusive Economic Zone: 200 x 1,852 = 370,400 m, which is 370.4 km.",
+        "Each distance is measured outward from the baseline along the coast."
+      ],
+      "answer": "12 NM = 22,224 m (22.224 km); 24 NM = 44,448 m (44.448 km); 200 NM = 370,400 m (370.4 km)."
+    },
+    {
+      "id": "us-ch104b-e3",
+      "title": "Which Zone, Which Rights?",
+      "problem": "Scenario A: a foreign cargo ship sails straight through a country's territorial waters without stopping. Scenario B: a coast guard checks a foreign vessel 18 nautical miles from the baseline for smuggling. Identify each maritime zone and the rights that apply.",
+      "steps": [
+        "Scenario A: within 12 NM is the territorial sea, where foreign ships enjoy the right of innocent passage.",
+        "The cargo ship moves continuously, stops nowhere, and does no fishing or military activity, so its passage is innocent and lawful.",
+        "Scenario B: 18 NM lies beyond 12 NM but within 24 NM, which places the vessel in the contiguous zone.",
+        "In the contiguous zone the country has limited control over customs, fiscal matters and illegal immigration, so a smuggling check is valid there."
+      ],
+      "answer": "Scenario A is the territorial sea where innocent passage applies; Scenario B is the contiguous zone where limited customs and immigration control applies."
+    }
+  ]
+}

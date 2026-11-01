@@ -1,0 +1,502 @@
+{
+  "book": "sc",
+  "chapter": 3,
+  "part": "b",
+  "title": "Tissues in Action",
+  "grade": 9,
+  "sections": [
+    { "id": "3.3.2", "title": "How are various parts connected in our body?" },
+    { "id": "3.3.3", "title": "Can we control movement in our body?" },
+    { "id": "3.3.4", "title": "How does the body sense, communicate and respond?" },
+    { "id": "3.4", "title": "The Musculoskeletal System" },
+    { "id": "3.4.1", "title": "The musculoskeletal system in action" },
+    { "id": "3.5.1", "title": "Ball and socket joint" },
+    { "id": "3.5.4", "title": "Fixed joints" },
+    { "id": "3.6", "title": "Skeletal System" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch03b-s1",
+      "sec": "3.3.2",
+      "title": "Connective Tissue Connects",
+      "kicker": "Blood aur bone, dono body ke connectors!",
+      "bullets": [
+        "A tissue that connects and supports other tissues is called a connective tissue.",
+        "Blood and bone are both connective tissues, yet blood is fluid while bone is hard.",
+        "The difference lies in the matrix: watery and jelly-like in blood, hard and rigid in bone."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Blood", "items": ["Fluid connective tissue", "Matrix is watery, soft and jelly-like", "Carries nutrients, gases and hormones"] },
+        "right": { "title": "Bone", "items": ["Hard connective tissue", "Matrix is hard, solid and rigid", "Gives strength, support and protection"] }
+      },
+      "note": "Same family, alag texture!"
+    },
+    {
+      "id": "sc-ch03b-s2",
+      "sec": "3.3.2",
+      "title": "Inside Your Blood",
+      "kicker": "Laal rang ka raaz yahin hai!",
+      "bullets": [
+        "The red colour of blood comes from haemoglobin, an iron-rich protein in the Red Blood Cells.",
+        "RBCs live for about 4 months and are replaced regularly.",
+        "Plasma makes up 55 per cent of blood volume; formed elements make up the other 45 per cent.",
+        "Platelets help in blood clotting at the site of an injury."
+      ],
+      "visual": { "kind": "labels", "items": ["Plasma 55%", "Formed elements 45%", "RBC", "WBC", "Platelets"] },
+      "note": "RBC ki expiry: chaar mahine, phir naye!"
+    },
+    {
+      "id": "sc-ch03b-s3",
+      "sec": "3.3.2",
+      "title": "Blood Stories Daily",
+      "kicker": "Daud ke baad chehra laal kyun?",
+      "bullets": [
+        "When you get a small cut, red blood oozes out and a clot forms after some time.",
+        "A skin injury turns the area red and slightly swollen, sometimes with fever.",
+        "While running, muscles need more oxygen, so breathing becomes faster and blood flow increases.",
+        "White Blood Cells collect at infected areas, causing pus, redness and swelling."
+      ],
+      "visual": { "kind": "flow", "items": ["Cut on the skin", "Platelets reach the spot", "A clot forms"] },
+      "note": "WBC = body ke chhote sipahi!"
+    },
+    {
+      "id": "sc-ch03b-s4",
+      "sec": "3.3.2",
+      "title": "Bone, Cartilage, Ligament",
+      "kicker": "Elbow dabao, feel karo!",
+      "bullets": [
+        "Bone has a rigid matrix containing calcium and phosphorus, giving strength, support and protection.",
+        "Touch your elbow gently: you feel a hard and rigid structure at work.",
+        "Cartilage cushions the ends of bones, absorbing shocks.",
+        "Table 3.4 and Fig. 3.12 list bone, cartilage and ligament among the connective tissues of the body."
+      ],
+      "note": "Calcium + phosphorus = haddi ki taakat!"
+    },
+    {
+      "id": "sc-ch03b-s5",
+      "sec": "3.3.3",
+      "title": "Voluntary or Involuntary",
+      "kicker": "Kab control aapka, kab automatic!",
+      "bullets": [
+        "Movements like lifting objects are voluntary: you decide them on purpose.",
+        "Voluntary movements are carried out by skeletal muscles, which are attached to the skeleton.",
+        "Involuntary movements happen automatically, like food moving in the intestine and the beating of the heart."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Voluntary", "items": ["Lifting objects", "Skeletal muscles at work"] },
+        "right": { "title": "Involuntary", "items": ["Food moving in the intestine", "Beating of the heart"] }
+      },
+      "note": "Digestion rukti nahi, aap bina bole!"
+    },
+    {
+      "id": "sc-ch03b-s6",
+      "sec": "3.3.3",
+      "title": "Skeletal Muscle Story",
+      "kicker": "Lambe fibres, zor ki pull!",
+      "bullets": [
+        "Skeletal muscles are made of bundles of long, cylindrical cells called muscle fibres.",
+        "The fibres are unbranched and multinucleate, meaning they have many nuclei.",
+        "They are striated, showing light and dark bands."
+      ],
+      "visual": { "kind": "labels", "items": ["Cylindrical cells", "Unbranched", "Multinucleate", "Striated"] },
+      "note": "Stripes dikhe? Striated muscle hai!"
+    },
+    {
+      "id": "sc-ch03b-s7",
+      "sec": "3.3.3",
+      "title": "Smooth Muscle Steady",
+      "kicker": "Bina ruke, bina bole!",
+      "bullets": [
+        "Smooth muscles are found in organs like the stomach and intestines.",
+        "Their cells are spindle shaped, with a single nucleus, and they lack striations.",
+        "They help in slow, continuous movements like digestion, without any conscious control."
+      ],
+      "visual": { "kind": "labels", "items": ["Spindle shaped", "Single nucleus", "No striations", "Involuntary"] }
+    },
+    {
+      "id": "sc-ch03b-s8",
+      "sec": "3.3.3",
+      "title": "Cardiac Muscle Never Tires",
+      "kicker": "Dil ki machine, 24x7!",
+      "bullets": [
+        "Cardiac muscles are found only in the heart.",
+        "Their fibres are cylindrical and branched, with a single nucleus and faint striations.",
+        "They work tirelessly and rhythmically, so the heart beats throughout life without fatigue."
+      ],
+      "visual": { "kind": "tree", "root": "Three muscle types", "children": ["Skeletal muscle", "Smooth muscle", "Cardiac muscle"] },
+      "note": "Ek hi kaam, poori zindagi, bina thake!"
+    },
+    {
+      "id": "sc-ch03b-s9",
+      "sec": "3.3.4",
+      "title": "The Control Network",
+      "kicker": "Garam cup? Haath turant door!",
+      "bullets": [
+        "Nervous tissue forms the body's control and coordination network.",
+        "The brain acts as the control centre, coordinating activities, memory and responses.",
+        "Muscles, voluntary or involuntary, cannot function independently; they receive instructions from nervous tissue.",
+        "During exercise, the brain signals the heart to beat faster to meet the body's increased need for oxygen."
+      ],
+      "visual": { "kind": "flow", "items": ["Hand touches something hot", "Message rushes through nerves", "Muscles pull the hand away"] },
+      "note": "Brain = CEO of body!"
+    },
+    {
+      "id": "sc-ch03b-s10",
+      "sec": "3.3.4",
+      "title": "Meet the Neuron",
+      "kicker": "Message carrier, single name!",
+      "bullets": [
+        "The cells of nervous tissue are called neurons, or nerve cells.",
+        "Neurons are specialised to receive, process and transmit messages."
+      ],
+      "visual": { "kind": "labels", "items": ["Cell body", "Dendrites", "Axon", "Axon terminals"] }
+    },
+    {
+      "id": "sc-ch03b-s11",
+      "sec": "3.3.4",
+      "title": "Three Parts, One Message",
+      "kicker": "Signal ka safar dekho!",
+      "bullets": [
+        "The cell body contains the nucleus and controls the cell's activities.",
+        "Dendrites receive signals coming from other neurons.",
+        "The axon is a long fibre that carries messages away and ends at axon terminals.",
+        "Axon terminals transmit the messages on to other cells."
+      ],
+      "visual": { "kind": "flow", "items": ["Dendrites receive", "Cell body processes", "Axon carries", "Terminals pass on"] },
+      "note": "Dendrite sunta hai, axon bhejta hai!"
+    },
+    {
+      "id": "sc-ch03b-s12",
+      "sec": "3.4",
+      "title": "Framework That Moves",
+      "kicker": "Stand tall, move free!",
+      "bullets": [
+        "The musculoskeletal system is made up of bones, muscles, joints, cartilage, tendons and ligaments.",
+        "It helps us stand upright, move, and protects delicate organs.",
+        "The whole system functions under the control of the nervous system."
+      ],
+      "visual": { "kind": "labels", "items": ["Bones", "Muscles", "Joints", "Cartilage", "Tendons", "Ligaments"] }
+    },
+    {
+      "id": "sc-ch03b-s13",
+      "sec": "3.4",
+      "title": "How Muscles Move Bones",
+      "kicker": "Contract, pull, move!",
+      "bullets": [
+        "Muscles pull on bones to produce movement.",
+        "Tendons are strong, flexible bands that attach muscles to bones.",
+        "When a muscle contracts, the tendon transmits this force to the bone.",
+        "The result is movement at a joint."
+      ],
+      "visual": { "kind": "flow", "items": ["Muscle contracts", "Tendon pulls the bone", "Bone moves at the joint"] },
+      "note": "Tendon = muscle ka rope!"
+    },
+    {
+      "id": "sc-ch03b-s14",
+      "sec": "3.4",
+      "title": "How Heavy Is Your Skeleton",
+      "kicker": "12 se 15 per cent, sach mein!",
+      "bullets": [
+        "On average, the adult human skeleton makes up about 12 to 15 per cent of body weight.",
+        "This can vary with age, gender and body composition.",
+        "Activity 3.4: multiply your weight by the bone and muscle percentages to estimate each one.",
+        "Book averages: adult males about 40 to 50 per cent muscle, adult females about 30 to 40 per cent."
+      ],
+      "note": "Apna weight lo, calculator chalao!"
+    },
+    {
+      "id": "sc-ch03b-s15",
+      "sec": "3.4.1",
+      "title": "Move and Observe",
+      "kicker": "Activity 3.5: khud try karo!",
+      "bullets": [
+        "Activity 3.5 asks you to move different parts of your body and watch what each can do.",
+        "Some parts move easily in many directions, while others move only in a single direction.",
+        "The difference is due to the types of joints present in each place."
+      ],
+      "visual": { "kind": "labels", "items": ["Many directions", "Single direction", "Joint type decides"] }
+    },
+    {
+      "id": "sc-ch03b-s16",
+      "sec": "3.4.1",
+      "title": "What Is a Joint",
+      "kicker": "Jahan do haddiyan milti hain!",
+      "bullets": [
+        "A joint is a junction between two or more bones.",
+        "Joints allow movement, but they cannot move the bones on their own.",
+        "Bones actually move when muscles pull on them."
+      ],
+      "visual": { "kind": "flow", "items": ["Two or more bones meet", "The joint allows movement", "Muscles give the pull"] }
+    },
+    {
+      "id": "sc-ch03b-s17",
+      "sec": "3.4.1",
+      "title": "Stem Cells, Fresh Starts",
+      "kicker": "Marrow se nayi zindagi!",
+      "bullets": [
+        "Bone marrow contains special cells that can divide and make new cells.",
+        "In a bone marrow transplant, stem cells from a healthy person are given to a patient.",
+        "This helps patients with blood cancers like Leukemia and disorders such as Thalassemia."
+      ],
+      "visual": { "kind": "flow", "items": ["Healthy person donates", "Stem cells are given", "Patient makes new cells"] },
+      "note": "Ek healthy insaan, ek nayi shuruaat!"
+    },
+    {
+      "id": "sc-ch03b-s18",
+      "sec": "3.5.1",
+      "title": "Shoulder, Movement Champion",
+      "kicker": "Apna haath har disha mein!",
+      "bullets": [
+        "The shoulder joint allows free movement of the arm.",
+        "The rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone.",
+        "This arrangement is called the ball and socket joint."
+      ],
+      "visual": { "kind": "labels", "items": ["Ball: upper arm top", "Socket: shoulder hollow", "Free arm movement"] }
+    },
+    {
+      "id": "sc-ch03b-s19",
+      "sec": "3.5.1",
+      "title": "The Shoulder Girdle",
+      "kicker": "Arm ko jodta hai skeleton se!",
+      "bullets": [
+        "Together with the collarbone, the shoulder forms the shoulder girdle.",
+        "The shoulder girdle connects the arm to the skeleton.",
+        "The book shows this joint in Fig. 3.16."
+      ]
+    },
+    {
+      "id": "sc-ch03b-s20",
+      "sec": "3.5.1",
+      "title": "Four Ways to Swing",
+      "kicker": "Aage, peeche, side, gol!",
+      "bullets": [
+        "The ball and socket joint allows forward, backwards, sideways and circular movements.",
+        "That is why the arm can swing freely in every direction.",
+        "Try it now: move your arm forward, backward, sideways and in a full circle."
+      ],
+      "note": "Shoulder hi asli multitalented!"
+    },
+    {
+      "id": "sc-ch03b-s21",
+      "sec": "3.5.4",
+      "title": "Skull, A Hard Case",
+      "kicker": "Dimaag ka bodyguard!",
+      "bullets": [
+        "The skull is a hard case of flat bones joined together.",
+        "It protects the brain, eyes and ears.",
+        "Guarding the brain is the skull's most important work."
+      ]
+    },
+    {
+      "id": "sc-ch03b-s22",
+      "sec": "3.5.4",
+      "title": "Fixed Means Fixed",
+      "kicker": "Skull ki haddiyan nahi hilti!",
+      "bullets": [
+        "The bones of the skull are connected by fixed joints.",
+        "Fixed joints mean the skull bones cannot move.",
+        "This keeps the brain safe even when the body moves."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Fixed joint: skull", "items": ["Bones cannot move", "Brain stays protected"] },
+        "right": { "title": "Ball and socket: shoulder", "items": ["Free movement", "Forward, sideways, circular"] }
+      },
+      "note": "Kabhi socha, skull kyun naache na?"
+    },
+    {
+      "id": "sc-ch03b-s23",
+      "sec": "3.5.4",
+      "title": "Dance Poses Detective",
+      "kicker": "Classical aur folk, joint hunt!",
+      "bullets": [
+        "Fig. 3.17 shows poses of classical and folk dances of India.",
+        "Look carefully at each pose and identify which joints are involved.",
+        "For every joint you spot, work out what type of movement it allows.",
+        "Fixed joints like those of the skull stay still, while other joints create the poses."
+      ],
+      "note": "Dance dekho, joints pehchano!"
+    },
+    {
+      "id": "sc-ch03b-s24",
+      "sec": "3.6",
+      "title": "Bones That Guard",
+      "kicker": "Strength plus protection, dono!",
+      "bullets": [
+        "The skeletal system is a framework of bones that provides strength and protects delicate internal organs.",
+        "It includes the skull, the vertebral column and the rib cage."
+      ],
+      "visual": { "kind": "labels", "items": ["Skull", "Vertebral column", "Rib cage", "Sternum"] }
+    },
+    {
+      "id": "sc-ch03b-s25",
+      "sec": "3.6",
+      "title": "The Amazing Spine",
+      "kicker": "Bend karo, twist karo, safe raho!",
+      "bullets": [
+        "From the base of the skull extends a flexible column called the backbone, or vertebral column.",
+        "It is made of a series of small bones called vertebrae and helps us stand upright.",
+        "Between each vertebra sits a cartilage disc, which acts as a cushion.",
+        "These discs allow flexibility, so we can bend and twist without injuring the spinal cord."
+      ],
+      "visual": { "kind": "flow", "items": ["Base of the skull", "Vertebrae stack up", "Cartilage discs cushion", "Bend and twist safely"] }
+    },
+    {
+      "id": "sc-ch03b-s26",
+      "sec": "3.6",
+      "title": "A Cage That Breathes",
+      "kicker": "12 jodi pasliyan, hawa ka khel!",
+      "bullets": [
+        "You have 12 pairs of ribs; together they form a protective cage around the heart and lungs.",
+        "Ribs attach to the spine at the back and to the breast bone, the sternum, in front.",
+        "Flexible cartilage joins them, so the cage expands and contracts during breathing.",
+        "This movement moves air in and out of the lungs; rib injuries can make breathing painful."
+      ],
+      "visual": { "kind": "flow", "items": ["Cage expands", "Air moves in", "Cage contracts", "Air moves out"] },
+      "note": "Saans = rib cage ka pump!"
+    },
+    {
+      "id": "sc-ch03b-s27",
+      "sec": "3.6",
+      "title": "Yoga, A Gift",
+      "kicker": "21 June, International Yoga Day!",
+      "bullets": [
+        "Yoga, described in ancient Indian texts, includes physical postures and breathing practices.",
+        "It reduces stress and helps prevent lifestyle diseases.",
+        "The book also underlines correct posture, proper nutrition, regular exercise and yoga.",
+        "Every year, 21st June is observed as International Yoga Day; Fig. 3.18 shows poses of Surya Namaskar."
+      ],
+      "note": "Surya Namaskar try kiya aaj?"
+    },
+    {
+      "id": "sc-ch03b-s28",
+      "sec": "3.6",
+      "title": "One Cell, Whole Plant",
+      "kicker": "Gajar ka chamatkar, 1958!",
+      "bullets": [
+        "In 1958, F. C. Steward showed that single cells from the phloem of a carrot can regrow whole plants.",
+        "He grew the cells in a nutrient medium containing simple sugars and hormones.",
+        "The cells first dedifferentiated, regaining the ability to divide into an unspecialised mass.",
+        "With nutrients and growth chemicals, the mass divided and differentiated into a complete plant."
+      ],
+      "visual": { "kind": "flow", "items": ["Carrot phloem cells", "Dedifferentiation", "Mass of new cells", "Complete plant"] },
+      "note": "Totipotency: ek cell se poora paudha!"
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch03b-f1", "sec": "3.3.2", "front": "What is a connective tissue?", "back": "A tissue that connects and supports other tissues. Blood and bone are both connective tissues.", "tag": "definition" },
+    { "id": "sc-ch03b-f2", "sec": "3.3.2", "front": "Blood is fluid but bone is rigid. What makes the difference?", "back": "The matrix: it is watery, soft and jelly-like in blood, and hard, solid and rigid in bone.", "tag": "concept" },
+    { "id": "sc-ch03b-f3", "sec": "3.3.2", "front": "Which blood components clot a cut and fight infection?", "back": "Platelets help clot blood at the injury site; White Blood Cells gather at infected areas, causing pus, redness and swelling.", "tag": "concept" },
+    { "id": "sc-ch03b-f4", "sec": "3.3.2", "front": "What makes blood red, and how long do RBCs live?", "back": "Haemoglobin, an iron-rich protein in Red Blood Cells. RBCs live about 4 months and are replaced regularly.", "tag": "trivia" },
+    { "id": "sc-ch03b-f5", "sec": "3.3.3", "front": "What are voluntary movements? Name the muscles.", "back": "Movements done by conscious choice, like lifting objects. Skeletal muscles attached to the skeleton carry them out.", "tag": "definition" },
+    { "id": "sc-ch03b-f6", "sec": "3.3.3", "front": "Describe skeletal muscle fibres.", "back": "Long, cylindrical cells in bundles; unbranched, multinucleate and striated with light and dark bands.", "tag": "concept" },
+    { "id": "sc-ch03b-f7", "sec": "3.3.3", "front": "Where are smooth muscles found and what is their job?", "back": "In organs like the stomach and intestines; they make slow, continuous movements like digestion, involuntarily.", "tag": "concept" },
+    { "id": "sc-ch03b-f8", "sec": "3.3.3", "front": "What is special about cardiac muscle?", "back": "It is found only in the heart. Its branched fibres beat tirelessly and rhythmically all through life, without fatigue.", "tag": "concept" },
+    { "id": "sc-ch03b-f9", "sec": "3.3.4", "front": "What does nervous tissue do in the body?", "back": "It forms the body's control and coordination network; the brain coordinates activities, memory and responses.", "tag": "concept" },
+    { "id": "sc-ch03b-f10", "sec": "3.3.4", "front": "What is a neuron?", "back": "A nerve cell, specialised to receive, process and transmit messages. Neurons are the cells of nervous tissue.", "tag": "definition" },
+    { "id": "sc-ch03b-f11", "sec": "3.3.4", "front": "Name the three main parts of a neuron.", "back": "The cell body with its nucleus, dendrites that receive signals, and an axon ending in axon terminals.", "tag": "concept" },
+    { "id": "sc-ch03b-f12", "sec": "3.3.4", "front": "Why does the heart beat faster during exercise?", "back": "The brain signals the heart to beat faster to meet the body's increased demand for oxygen.", "tag": "concept" },
+    { "id": "sc-ch03b-f13", "sec": "3.4", "front": "Which parts make up the musculoskeletal system?", "back": "Bones, muscles, joints, cartilage, tendons and ligaments.", "tag": "concept" },
+    { "id": "sc-ch03b-f14", "sec": "3.4", "front": "What is a tendon?", "back": "A strong, flexible band that attaches a muscle to bone and transmits the muscle's pull when it contracts.", "tag": "definition" },
+    { "id": "sc-ch03b-f15", "sec": "3.4", "front": "What fraction of adult body weight is the skeleton?", "back": "About 12 to 15 per cent, though it varies with age, gender and body composition.", "tag": "trivia" },
+    { "id": "sc-ch03b-f16", "sec": "3.4", "front": "Who controls the musculoskeletal system?", "back": "The nervous system controls it. Muscles pull on bones to produce movement.", "tag": "concept" },
+    { "id": "sc-ch03b-f17", "sec": "3.4.1", "front": "Define joint.", "back": "A junction between two or more bones. Joints allow movement but cannot move the bones on their own.", "tag": "definition" },
+    { "id": "sc-ch03b-f18", "sec": "3.4.1", "front": "Why does the shoulder move many ways but other parts less freely?", "back": "Because the range of movement depends on the type of joint present at that place.", "tag": "concept" },
+    { "id": "sc-ch03b-f19", "sec": "3.4.1", "front": "What are stem cells?", "back": "Special cells that can divide and make new cells. Bone marrow contains them.", "tag": "definition" },
+    { "id": "sc-ch03b-f20", "sec": "3.4.1", "front": "Which diseases can bone marrow transplants help treat?", "back": "Blood cancers like Leukemia and disorders such as Thalassemia, using stem cells from a healthy person.", "tag": "trivia" },
+    { "id": "sc-ch03b-f21", "sec": "3.5.1", "front": "What fits into what in a ball and socket joint?", "back": "The rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone.", "tag": "concept" },
+    { "id": "sc-ch03b-f22", "sec": "3.5.1", "front": "Which movements does the shoulder joint allow?", "back": "Forward, backwards, sideways and circular movements.", "tag": "concept" },
+    { "id": "sc-ch03b-f23", "sec": "3.5.1", "front": "What is the shoulder girdle?", "back": "The shoulder together with the collarbone; it connects the arm to the skeleton.", "tag": "definition" },
+    { "id": "sc-ch03b-f24", "sec": "3.5.4", "front": "Which joints join the skull bones?", "back": "Fixed joints, so the skull bones cannot move at all.", "tag": "definition" },
+    { "id": "sc-ch03b-f25", "sec": "3.5.4", "front": "Why is it good that skull bones cannot move?", "back": "The fixed joints keep the brain safe and protected, even when the body moves.", "tag": "concept" },
+    { "id": "sc-ch03b-f26", "sec": "3.5.4", "front": "Which organs does the skull protect?", "back": "The brain, eyes and ears, inside a hard case of flat bones.", "tag": "trivia" },
+    { "id": "sc-ch03b-f27", "sec": "3.6", "front": "Name the three main parts of the skeletal system.", "back": "The skull, the vertebral column (backbone or spine) and the rib cage.", "tag": "concept" },
+    { "id": "sc-ch03b-f28", "sec": "3.6", "front": "What sits between two vertebrae and what does it do?", "back": "A cartilage disc, which acts as a cushion and allows flexibility, protecting the spinal cord as we bend and twist.", "tag": "concept" },
+    { "id": "sc-ch03b-f29", "sec": "3.6", "front": "How many pairs of ribs do we have?", "back": "12 pairs. They form the rib cage, a protective cage for the heart and lungs.", "tag": "trivia" },
+    { "id": "sc-ch03b-f30", "sec": "3.6", "front": "Who showed that one carrot cell can regrow a whole plant?", "back": "F. C. Steward in 1958, using single phloem cells grown in a nutrient medium with sugars and hormones.", "tag": "trivia" },
+    { "id": "sc-ch03b-f31", "sec": "3.6", "front": "How does the rib cage help you breathe?", "back": "Ribs joined by flexible cartilage let the cage expand and contract, moving air in and out of the lungs.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch03b-q1", "sec": "3.3.2", "q": "A tissue that connects and supports other tissues in the body is called a", "options": ["epithelial tissue", "connective tissue", "muscular tissue", "nervous tissue"], "answer": 1, "why": "The book defines connective tissue as a tissue that connects and supports other tissues; blood and bone are examples.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q2", "sec": "3.3.2", "q": "Blood and bone are both connective tissues, yet blood flows and bone is rigid. What makes them different?", "options": ["Their matrix", "Their colour", "The size of their cells", "Their position in the body"], "answer": 0, "why": "Blood has a watery, soft, jelly-like matrix while bone has a hard, solid, rigid matrix.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q3", "sec": "3.3.2", "q": "What percentage of total blood volume is plasma?", "options": ["45 per cent", "35 per cent", "55 per cent", "75 per cent"], "answer": 2, "why": "Fig. 3.12a shows plasma is 55 per cent of total volume and formed elements are 45 per cent.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q4", "sec": "3.3.2", "q": "A blood sample measures 200 mL. Using the book's percentages, how much of it is formed elements?", "options": ["90 mL", "110 mL", "55 mL", "145 mL"], "answer": 0, "why": "Formed elements are 45 per cent of volume, and 45 per cent of 200 mL is 90 mL.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q5", "sec": "3.3.3", "q": "Voluntary movements like lifting objects are carried out by", "options": ["smooth muscles", "cardiac muscles", "skeletal muscles", "spindle muscles"], "answer": 2, "why": "Skeletal muscles attached to the skeleton carry out voluntary movements.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q6", "sec": "3.3.3", "q": "A muscle cell is spindle shaped with a single nucleus and no striations. Where is it from?", "options": ["The biceps", "The wall of the stomach", "The heart", "The skull"], "answer": 1, "why": "Smooth muscle in organs like the stomach has spindle-shaped cells, one nucleus and no striations.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q7", "sec": "3.3.3", "q": "Cardiac muscles are found only in the", "options": ["intestine", "stomach", "heart", "limbs"], "answer": 2, "why": "The book states cardiac muscles are found only in the heart and beat without fatigue.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q8", "sec": "3.3.3", "q": "Which set of features describes cardiac muscle?", "options": ["Unbranched, many nuclei, strong bands", "Spindle shaped, no nucleus", "Cylindrical, branched, single nucleus, faint striations", "Flat cells, no nuclei, no striations"], "answer": 2, "why": "Cardiac fibres are cylindrical and branched with a single nucleus and faint striations.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q9", "sec": "3.3.4", "q": "Which tissue forms the body's control and coordination network?", "options": ["muscular tissue", "nervous tissue", "connective tissue", "epithelial tissue"], "answer": 1, "why": "Nervous tissue controls actions like pulling your hand away from something hot, with the brain as control centre.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q10", "sec": "3.3.4", "q": "Which part of a neuron receives signals from other neurons?", "options": ["Dendrites", "Axon", "Cell body", "Axon terminals"], "answer": 0, "why": "Dendrites receive signals; the axon carries messages away to the axon terminals.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q11", "sec": "3.3.4", "q": "Which sequence correctly traces a message through a neuron?", "options": ["Axon, dendrites, cell body, axon terminals", "Cell body, axon, dendrites, terminals", "Dendrites, cell body, axon, axon terminals", "Axon terminals, axon, cell body, dendrites"], "answer": 2, "why": "Dendrites receive, the cell body controls activities, the axon carries the message to the axon terminals.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q12", "sec": "3.4", "q": "The musculoskeletal system functions under the control of the", "options": ["digestive system", "circulatory system", "respiratory system", "nervous system"], "answer": 3, "why": "The book says the musculoskeletal system functions under the control of the nervous system.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q13", "sec": "3.4", "q": "Tendons attach", "options": ["muscles to bones", "bone to bone", "muscles to skin", "bones to organs"], "answer": 0, "why": "Muscles are attached to bones by strong, flexible bands called tendons.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q14", "sec": "3.4", "q": "A 40 kg adult's skeleton weighs closest to", "options": ["12 to 15 kg", "4.8 to 6 kg", "20 kg", "1 kg"], "answer": 1, "why": "The skeleton is about 12 to 15 per cent of body weight; 12 to 15 per cent of 40 kg is 4.8 to 6 kg.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q15", "sec": "3.4.1", "q": "A joint is a junction between", "options": ["a bone and a muscle", "two muscles", "two or more bones", "two tendons"], "answer": 2, "why": "The book defines a joint as a junction between two or more bones.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q16", "sec": "3.4.1", "q": "Joints allow movement, but what actually moves the bones?", "options": ["The joints themselves", "Blood pushing", "Cartilage squeezing", "Muscles pulling on them"], "answer": 3, "why": "Joints cannot move the bones on their own; muscles pull on bones to produce movement.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q17", "sec": "3.4.1", "q": "Which statement about joints is true?", "options": ["All joints allow circular movement", "They allow movement but cannot move bones on their own", "They are made of striated fibres", "Every joint moves in one direction only"], "answer": 1, "why": "Joints allow movement but cannot move the bones on their own; the joint type decides the range.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q18", "sec": "3.5.1", "q": "Which joint lets the arm move forward, backward, sideways and in circles?", "options": ["Fixed joint", "Cartilage joint", "Ball and socket joint", "Bone disc joint"], "answer": 2, "why": "The ball and socket joint of the shoulder allows forward, backwards, sideways and circular movements.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q19", "sec": "3.5.1", "q": "In a ball and socket joint, the rounded top of the upper arm bone fits into", "options": ["a shallow hollow of the shoulder bone", "a deep socket of the hip bone", "the collarbone", "the sternum"], "answer": 0, "why": "The rounded top of the upper arm bone fits into a shallow hollow of the shoulder bone.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q20", "sec": "3.5.1", "q": "The shoulder girdle, which connects the arm to the skeleton, is formed by", "options": ["the upper arm bone and ribs", "the shoulder and the collarbone", "the skull and the spine", "the sternum and hips"], "answer": 1, "why": "Together with the collarbone, the shoulder forms the shoulder girdle.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q21", "sec": "3.5.4", "q": "The bones of the skull are connected by", "options": ["ball and socket joints", "hinge-like movable joints", "cartilage discs", "fixed joints"], "answer": 3, "why": "Skull bones are connected by fixed joints, so they cannot move.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q22", "sec": "3.5.4", "q": "Why do skull bones not move?", "options": ["They are joined by fixed joints", "Muscles press them tightly", "Cartilage fills all the gaps", "They are the heaviest bones"], "answer": 0, "why": "Fixed joints connect the skull bones, keeping them still so the brain stays safe.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q23", "sec": "3.5.4", "q": "A dancer swings her arm and bends her neck, yet her skull stays rigid. Why?", "options": ["Dance freezes every joint", "The skull has no bones", "Skull bones meet at fixed joints", "Only children's skulls move"], "answer": 2, "why": "Fixed joints keep the skull bones still, protecting the brain even when the body moves.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q24", "sec": "3.6", "q": "How many pairs of ribs form the human rib cage?", "options": ["10 pairs", "12 pairs", "14 pairs", "16 pairs"], "answer": 1, "why": "The book states we have 12 pairs of ribs, joined to the spine and sternum, forming the rib cage.", "difficulty": "easy" },
+    { "id": "sc-ch03b-q25", "sec": "3.6", "q": "What lies between each vertebra and lets the spine bend safely?", "options": ["A tendon band", "Bone marrow", "A cartilage disc", "A fixed joint"], "answer": 2, "why": "A cartilage disc acts as a cushion between vertebrae and allows flexibility.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q26", "sec": "3.6", "q": "In front, the ribs are attached to the", "options": ["shoulder bone", "collarbone", "breast bone, or sternum", "hip bone"], "answer": 2, "why": "Ribs attach to the spine at the back and to the breast bone, the sternum, in front.", "difficulty": "medium" },
+    { "id": "sc-ch03b-q27", "sec": "3.6", "q": "In Steward's 1958 experiment, what did the carrot phloem cells do first?", "options": ["Dedifferentiated and regained the power to divide", "Grew leaves immediately", "Turned into bone cells", "Stopped dividing forever"], "answer": 0, "why": "Phloem cells first dedifferentiated into an undifferentiated mass, then grew into a complete plant.", "difficulty": "hard" },
+    { "id": "sc-ch03b-q28", "sec": "3.6", "q": "Every year, International Yoga Day is observed on", "options": ["21 March", "21 June", "21 January", "21 September"], "answer": 1, "why": "The book states 21st June is observed as International Yoga Day to promote yoga in health.", "difficulty": "easy" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch03b-e1",
+      "title": "Fractions of Blood in a Bag",
+      "problem": "A blood donation bag holds 400 mL of blood. Using the components of blood from Fig. 3.12a, find how much of it is plasma and how much is formed elements.",
+      "steps": [
+        "Plasma makes up 55 per cent of total blood volume, and formed elements make up 45 per cent.",
+        "Plasma: 55 per cent of 400 mL = 400 x 55/100 = 220 mL.",
+        "Formed elements: 45 per cent of 400 mL = 400 x 45/100 = 180 mL.",
+        "Check: 220 + 180 = 400 mL, the full bag."
+      ],
+      "answer": "The bag holds 220 mL of plasma and 180 mL of formed elements."
+    },
+    {
+      "id": "sc-ch03b-e2",
+      "title": "Weighing Your Skeleton",
+      "problem": "Activity 3.4: Aditi records her total body weight as 40 kg. Estimate the weight of her bones and her muscles using the book's averages.",
+      "steps": [
+        "The adult skeleton is about 12 to 15 per cent of body weight.",
+        "Bone weight: 12 per cent of 40 = 4.8 kg, and 15 per cent of 40 = 6 kg. So her bones weigh about 4.8 to 6 kg.",
+        "For muscle, the book gives adult males about 40 to 50 per cent and adult females about 30 to 40 per cent.",
+        "Taking 30 to 40 per cent for her: 12 to 16 kg of muscle.",
+        "Compare these values with classmates and calculate the class average, as the activity suggests."
+      ],
+      "answer": "Her bones weigh about 4.8 to 6 kg and her muscles about 12 to 16 kg of her 40 kg body weight."
+    },
+    {
+      "id": "sc-ch03b-e3",
+      "title": "Name That Muscle",
+      "problem": "A microscope slide shows three muscle samples. A has long, unbranched, multinucleate striated fibres. B has spindle-shaped cells with one nucleus and no striations. C has branched, cylindrical fibres with one nucleus and faint striations. Identify each sample and say whether it works voluntarily.",
+      "steps": [
+        "Sample A: unbranched, multinucleate, striated fibres match skeletal muscle, which is attached to the skeleton.",
+        "Skeletal muscle carries out voluntary movements like lifting objects, so A works under conscious control.",
+        "Sample B: spindle-shaped cells with a single nucleus and no striations match smooth muscle of organs like the stomach and intestines; it moves food during digestion involuntarily.",
+        "Sample C: branched cylindrical fibres with faint striations match cardiac muscle, found only in the heart, beating rhythmically without fatigue."
+      ],
+      "answer": "A is skeletal muscle (voluntary), B is smooth muscle (involuntary) and C is cardiac muscle (involuntary)."
+    },
+    {
+      "id": "sc-ch03b-e4",
+      "title": "From One Carrot Cell to a Plant",
+      "problem": "Describe, step by step, how F. C. Steward's 1958 experiment turned single carrot phloem cells into complete plants, and state what the experiment proves.",
+      "steps": [
+        "Steward took single cells from the vascular phloem of a carrot and cultured them in a nutrient medium containing simple sugars and hormones.",
+        "The phloem cells first dedifferentiated: they regained the ability to divide and formed an undifferentiated mass of unspecialised cells.",
+        "Grown with nutrients and growth chemicals under appropriate conditions, the cells of the mass divided and differentiated further.",
+        "The mass gradually developed into a complete plant."
+      ],
+      "answer": "Single carrot phloem cells are totipotent: they can regenerate a whole plant, which Steward first demonstrated in 1958."
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "book": "sc",
+  "chapter": 1,
+  "title": "Exploration: Entering the World of Secondary Science",
+  "grade": 9,
+  "sections": [
+    { "id": "1.1", "title": "Part 1" },
+    { "id": "1.2", "title": "Part 2" },
+    { "id": "1.3", "title": "Part 3" },
+    { "id": "1.4", "title": "Part 4" },
+    { "id": "1.5", "title": "Part 5" },
+    { "id": "1.6", "title": "Part 6" },
+    { "id": "1.7", "title": "Part 7" },
+    { "id": "1.8", "title": "Part 8" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch01-s1",
+      "sec": "1.1",
+      "title": "From Wonder to Exploration",
+      "kicker": "Welcome to secondary science, ab aur gehri exploration!",
+      "bullets": [
+        "In the middle stage you observed the world closely and asked how things work; science began with wonder and grew through experiments.",
+        "Now the journey continues with deep exploration: science is not only what we know, but how we know it.",
+        "Observations lead to measurements, patterns are expressed with symbols and equations, and models represent complex systems.",
+        "Ideas are tested, often revised, and sometimes even discarded. That is how scientific understanding grows."
+      ],
+      "visual": { "kind": "flow", "items": ["Wonder about the world", "Observe and measure", "Find patterns with symbols", "Test, revise, discard"] },
+      "note": "Look closer, think harder. That is the Exploration way."
+    },
+    {
+      "id": "sc-ch01-s2",
+      "sec": "1.1",
+      "title": "Magnifying Glass and Compass",
+      "kicker": "Two tiny symbols, one big scientific attitude.",
+      "bullets": [
+        "The page numbers of this book are framed by a magnifying glass and a compass, chosen thoughtfully.",
+        "The magnifying glass symbolises careful observation: noticing patterns and what might otherwise be missed.",
+        "The compass means exploration needs direction: choosing suitable models, asking the right questions, knowing the limits of ideas.",
+        "Together they say exploration is not wandering aimlessly, but making sense of the world with care and purpose."
+      ],
+      "visual": { "kind": "labels", "items": ["notice patterns", "pay attention", "choose models", "ask right questions", "know the limits"] },
+      "note": "Observation plus direction equals purposeful exploration."
+    },
+    {
+      "id": "sc-ch01-s3",
+      "sec": "1.1",
+      "title": "Models Simplify Reality",
+      "kicker": "Nature is complex; models keep only essentials.",
+      "bullets": [
+        "A model is a simplified way of looking at a real system, focusing only on what matters most for the question at hand.",
+        "Physics may show a moving car as a single point; chemistry draws atoms and molecules as spheres and bonds.",
+        "Biology shows cells as diagrams of key parts; earth science may treat the Earth as a smooth sphere layered into regions.",
+        "Assumptions are made on purpose, not by mistake: neglect air resistance for a falling object, or cells for a heart model."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Keep the essentials", "items": ["Mass, speed and direction of a hit ball", "The heart as a working system"] },
+        "right": { "title": "Deliberately ignore", "items": ["Bat brand, ball colour, field grass", "Individual cells in the heart model"] }
+      },
+      "note": "Simple on purpose, so answers stay within reach."
+    },
+    {
+      "id": "sc-ch01-s4",
+      "sec": "1.2",
+      "title": "A Cricket Six Model",
+      "kicker": "Example 1.1: kya ball boundary paar jayegi?",
+      "bullets": [
+        "Example 1.1 asks one sharp question: will the ball cross the boundary without hitting the ground first?",
+        "Very important for this: the mass of the ball, and the speed and direction in which it has been hit.",
+        "No difference at all: brand of the bat, colour of the ball, amount of grass on the field.",
+        "Smaller effects that a simple model ignores: air resistance, spin of the ball, and the stitching of threads at the seam."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Very important", "items": ["Mass of the ball", "Speed and direction of the hit"] },
+        "right": { "title": "Ignored in a simple model", "items": ["Bat brand, ball colour, field grass", "Air resistance, spin, seam stitching"] }
+      },
+      "note": "More complex models add extra details for greater accuracy."
+    },
+    {
+      "id": "sc-ch01-s5",
+      "sec": "1.2",
+      "title": "What Would You Ignore?",
+      "kicker": "Model your ride home, school to ghar.",
+      "bullets": [
+        "Suppose you ride a bicycle from school to home and want to model the time the trip takes.",
+        "Which details would you keep, and which details could you ignore?",
+        "Ignoring some details may actually be useful: it keeps the model simple enough to still find the answers we are looking for."
+      ],
+      "note": "Dropping clutter is not cheating, it is modelling."
+    },
+    {
+      "id": "sc-ch01-s6",
+      "sec": "1.2",
+      "title": "The Shared Language of Science",
+      "kicker": "One force, one meaning, everywhere on Earth.",
+      "bullets": [
+        "Everyday words like force, work, cell and reaction carry specific meanings in science, so ideas stay clear and unambiguous.",
+        "A shared language of precise terms, symbols and units lets scientists across the world describe observations and compare results.",
+        "Mass is m, velocity is v, force is F and electric current is I; each quantity is associated with a defined unit."
+      ],
+      "visual": { "kind": "labels", "items": ["m is mass", "v is velocity", "F is force", "I is current"] },
+      "note": "Symbols are science ki shorthand for the whole world."
+    },
+    {
+      "id": "sc-ch01-s7",
+      "sec": "1.3",
+      "title": "Mathematics Is a Language",
+      "kicker": "Equations speak relationships, not just numbers.",
+      "bullets": [
+        "Mathematics in science is not meant to be a hurdle; it is a language that helps us think more clearly about the world.",
+        "An equation is not just a calculation tool; it is a compact statement about how certain things are related.",
+        "Motion links distance, time and velocity to predict where an object will be; expressions also cover reaction rates and population growth."
+      ],
+      "note": "Samajh pehle, solve baad mein."
+    },
+    {
+      "id": "sc-ch01-s8",
+      "sec": "1.3",
+      "title": "Understand First, Then Solve",
+      "kicker": "Equations as guides, not as obstacles.",
+      "bullets": [
+        "Learning to use mathematics in science does not mean memorising equations.",
+        "It means understanding the situation first, identifying the relevant quantities, and then using relationships to reason carefully.",
+        "Focus on the situation and the quantities involved, and equations begin to feel like helpful guides in your exploration."
+      ],
+      "note": "Understanding aayi, toh equations friend ban gaye."
+    },
+    {
+      "id": "sc-ch01-s9",
+      "sec": "1.3",
+      "title": "One Kilogram Everywhere",
+      "kicker": "A fuel mix-up mid-flight shows why units matter.",
+      "bullets": [
+        "A passenger aircraft once ran out of fuel mid-flight due to a mix-up in units; the flight needed 22,300 kg of fuel in total.",
+        "When we buy rice or vegetables we expect a kilogram to mean the same amount everywhere.",
+        "Measurements are based on agreed international standards, not local objects or opinions.",
+        "Standard units let scientific results be compared, and keep daily life and trade fair."
+      ],
+      "note": "Units ki galti can be dangerous. Respect the unit!"
+    },
+    {
+      "id": "sc-ch01-s10",
+      "sec": "1.4",
+      "title": "Law, Theory, Principle",
+      "kicker": "Three special words, three different jobs.",
+      "bullets": [
+        "A law describes a regular pattern observed in nature, often expressed in words or mathematical relationships.",
+        "A theory explains why patterns occur, based on evidence gathered over time; atomic theory explains how molecules are formed.",
+        "A principle is a broad idea that helps make sense of a situation, like conservation of energy applied when climbing stairs.",
+        "Newton's laws of motion explain the jerk you feel when a bus stops suddenly."
+      ],
+      "visual": { "kind": "tree", "root": "Scientific ideas", "children": ["Laws describe patterns", "Theories explain why", "Principles guide thinking"] },
+      "note": "Law batata hai kya hota hai, theory batati hai kyun."
+    },
+    {
+      "id": "sc-ch01-s11",
+      "sec": "1.4",
+      "title": "A Theory Is Not a Guess",
+      "kicker": "In science, theory means tested, not tentative.",
+      "bullets": [
+        "In science, a theory does not mean a guess or an untested idea.",
+        "It is an explanation based on careful testing and critical examination.",
+        "These ideas are always open to improvement and often change as new evidence becomes available.",
+        "This openness to being corrected is a key feature of science that makes it reliable."
+      ],
+      "note": "Theory strong hai kyunki wo badal sakti hai."
+    },
+    {
+      "id": "sc-ch01-s12",
+      "sec": "1.4",
+      "title": "The Power of Prediction",
+      "kicker": "Good science pehle batata hai, phir dikhata hai.",
+      "bullets": [
+        "Well-established laws, theories and models let us anticipate what happens in new conditions, even when we cannot perform an experiment.",
+        "Motion predicts how far a kicked football travels; chemistry estimates carbon dioxide from a reaction or how soft baked bread would be.",
+        "Biological principles predict how breathing changes while running. Predictions are reasoned expectations based on evidence, not guesses.",
+        "When predictions fail, scientists re-examine assumptions, models or measurements, and that drives deeper exploration."
+      ],
+      "visual": { "kind": "steps", "items": ["Use well-established ideas", "Predict under new conditions", "Compare with observations", "Re-examine if mismatch"] },
+      "note": "Match hua to confidence, miss hua to nayi khoj."
+    },
+    {
+      "id": "sc-ch01-s13",
+      "sec": "1.5",
+      "title": "Make Predictions Testable",
+      "kicker": "Example 1.2: Meghna cross-questions Varsha's clouds.",
+      "bullets": [
+        "Varsha says it will rain this afternoon because the clouds look dark. Meghna's job is to ask scientific questions.",
+        "Good scientific questions look for measurable evidence and past patterns; simple yes or no questions are usually not useful.",
+        "She can ask: what was the sky like when it rained last time, what is the humidity today, was it above 80 per cent then?",
+        "She can also ask today's wind speed and direction, and whether the temperature is dropping like it did before the recent rains."
+      ],
+      "visual": { "kind": "steps", "items": ["Notice dark clouds", "Ask for measurable data", "Compare with past patterns", "Judge the prediction"] },
+      "note": "Clouds se numbers poochho, feelings se nahi."
+    },
+    {
+      "id": "sc-ch01-s14",
+      "sec": "1.5",
+      "title": "Why Forecasts Can Miss",
+      "kicker": "Tiny changes, big differences in weather.",
+      "bullets": [
+        "Weather depends on many changing factors, such as temperature, pressure, humidity and wind.",
+        "Forecasts use measurements and models, but very tiny differences in conditions can change the outcome.",
+        "Such failures are not a weakness but the greatest strength of science, since ideas are judged only on evidence, never on belief.",
+        "No scientific theory is ever final and none is beyond question, and this openness is what helps science understand the world."
+      ],
+      "note": "Galti evidence se janchi jaati hai, opinion se nahi."
+    },
+    {
+      "id": "sc-ch01-s15",
+      "sec": "1.5",
+      "title": "Testing the Eclipse Claim",
+      "kicker": "A shadow cannot spoil your food.",
+      "bullets": [
+        "A commonly circulated claim says food should not be eaten during an eclipse because it becomes harmful.",
+        "Disproof begins with simple questions: an eclipse is just a play of shadows, so what physical change occurs during one?",
+        "Does temperature change significantly? Does food go bad if left in a shadow?",
+        "Conclusion: no physical, chemical or biological mechanism supports such a claim."
+      ],
+      "note": "Claim test karo, aage mat phailao."
+    },
+    {
+      "id": "sc-ch01-s16",
+      "sec": "1.6",
+      "title": "Estimate Before You Compute",
+      "kicker": "Rough answer first, exact answer later.",
+      "bullets": [
+        "A helpful habit: first understand the situation, then identify the quantities that matter, then make a rough estimate.",
+        "Exact values are not always necessary early on; an approximate estimate tells whether a result is reasonable or impossible.",
+        "Estimating builds intuition, detects errors and develops confidence.",
+        "Science values careful reasoning perhaps much more than accurate calculations."
+      ],
+      "visual": { "kind": "flow", "items": ["Understand the situation", "Identify the quantities", "Make a rough estimate", "Check if it makes sense"] },
+      "note": "Pehle andaza, phir calculator."
+    },
+    {
+      "id": "sc-ch01-s17",
+      "sec": "1.6",
+      "title": "Rice for a Family",
+      "kicker": "Kitna chawal chahiye ek mahine ke liye?",
+      "bullets": [
+        "To estimate rice for a family of four for a month, assume all their calorie needs come from rice alone.",
+        "An average adult needs about 2000 to 2500 kilocalories per day; find how many calories 100 g of uncooked rice provides when cooked.",
+        "The aim is not an exact number but a sensible check: 100 g for a month is clearly too little, while a few tonnes is far too much.",
+        "Such estimation connects science to everyday questions about food and resources."
+      ],
+      "visual": { "kind": "steps", "items": ["Assume only rice", "Use 2000 to 2500 kcal per adult a day", "Find kcal in 100 g of rice", "Check the answer makes sense"] },
+      "note": "Na bahut kam, na bahut zyada, just right."
+    },
+    {
+      "id": "sc-ch01-s18",
+      "sec": "1.6",
+      "title": "Air You Breathe Daily",
+      "kicker": "Example 1.3: about 10,000 litres a day!",
+      "bullets": [
+        "At rest we take about 12 to 15 breaths a minute, and a day has 60 x 24 = 1440 minutes.",
+        "That gives roughly 18 to 22 thousand breaths a day, about 20 thousand.",
+        "About 4 to 5 breaths fill a typical rubber party balloon of about 2 litres, so one breath is perhaps about 0.5 litre.",
+        "Multiplying these, we breathe in about 10,000 litres of air in one day."
+      ],
+      "visual": { "kind": "steps", "items": ["Count 12 to 15 breaths per minute", "Multiply by 1440 minutes a day", "Estimate 0.5 litre per breath", "Get about 10,000 litres a day"] },
+      "note": "Ek din, das hazaar litre. Wow!"
+    },
+    {
+      "id": "sc-ch01-s19",
+      "sec": "1.7",
+      "title": "Check With a Second Route",
+      "kicker": "Two roads, one answer, estimate solid.",
+      "bullets": [
+        "Is 10,000 litres reasonable? Check it another way using the balloon idea.",
+        "Blowing up a balloon takes about 20 seconds, so you could fill about 3 balloons a minute.",
+        "Multiply 3 balloons a minute, 2 litres a balloon, and 1440 minutes a day to get about 8640 litres.",
+        "8640 litres is reasonably close to 10,000, so the estimate is sensible, though blowing balloons nonstop would tire you quickly."
+      ],
+      "note": "Do tarike, ek jaisa jawab, confidence double."
+    },
+    {
+      "id": "sc-ch01-s20",
+      "sec": "1.7",
+      "title": "Branches of Science",
+      "kicker": "Physics se biology tak, ek parivaar.",
+      "bullets": [
+        "After Grade 10, science divides into branches like physics, chemistry, biology and earth science.",
+        "Even in Grades 9 and 10, chapters focus on some of these areas, and the Next Level Up boxes highlight exciting things ahead.",
+        "The natural world does not have such boundaries; these divisions are made by us only to organise knowledge."
+      ],
+      "visual": { "kind": "labels", "items": ["Physics", "Chemistry", "Biology", "Earth science"] },
+      "note": "Branches hamari suvidha hain, nature ki zidd nahi."
+    },
+    {
+      "id": "sc-ch01-s21",
+      "sec": "1.7",
+      "title": "Real Problems Need Many Sciences",
+      "kicker": "Masks, climate, medicines, sab milkar.",
+      "bullets": [
+        "Real problems like climate change, developing medicines or sustainable technologies need ideas from several disciplines together.",
+        "Science connects naturally with mathematics, technology, arts and social sciences; each way of knowing enriches the other.",
+        "During the COVID-19 pandemic, even a simple mask for safety needed knowledge from several branches of science.",
+        "Try it: pick a problem like a traffic jam near your school and sketch how physics, chemistry, biology, earth science or maths connect to it."
+      ],
+      "visual": { "kind": "tree", "root": "Real-world problems", "children": ["Climate change", "New medicines", "Sustainable technologies", "Traffic near your school"] },
+      "note": "Ek problem, kai sciences, team work."
+    },
+    {
+      "id": "sc-ch01-s22",
+      "sec": "1.8",
+      "title": "Science Is a Human Activity",
+      "kicker": "Curiosity, creativity, collaboration, questioning.",
+      "bullets": [
+        "Science is not just a collection of facts, equations or experiments; it is a human activity.",
+        "It is shaped by curiosity, creativity, collaboration and careful questioning.",
+        "It grows as people ask questions, test ideas, share results and learn from mistakes.",
+        "It develops over time through the work of many individuals across different cultures and generations."
+      ],
+      "note": "Har sawaal ek kadam aage."
+    },
+    {
+      "id": "sc-ch01-s23",
+      "sec": "1.8",
+      "title": "Thinking Beyond the Classroom",
+      "kicker": "Science invites you to learn how we know.",
+      "bullets": [
+        "Even if you do not choose to study science beyond Grade 10, scientific thinking will be important in whatever you do.",
+        "It helps you understand the technology that surrounds you and evaluate information critically.",
+        "Science invites you not only to learn about the world, but also to learn how we are trying to understand it."
+      ],
+      "note": "Ye skills classroom ke bahar bhi kaam aayengi."
+    },
+    {
+      "id": "sc-ch01-s24",
+      "sec": "1.8",
+      "title": "Hot Springs of Puga Valley",
+      "kicker": "Ladakh ki garam jhils, early Earth ka lab.",
+      "bullets": [
+        "Life is widely accepted to have begun in water; some researchers think small pools with changing conditions, not oceans, were the cradle.",
+        "The hot springs of Puga Valley in Ladakh maintain very high temperatures, nearly the boiling point of water, even in a cold climate.",
+        "These conditions seem similar to those on the early Earth, about 3.5 billion years ago.",
+        "The organisms living in these springs are mostly heat-loving bacteria called thermophiles, which are unicellular."
+      ],
+      "visual": { "kind": "labels", "items": ["Puga Valley", "Nearly boiling water", "3.5 billion years ago", "Thermophiles"] },
+      "note": "Garam paani mein bhi zindagi machalti hai."
+    },
+    {
+      "id": "sc-ch01-s25",
+      "sec": "1.8",
+      "title": "A Calcium Carbonate Shield",
+      "kicker": "Ancient deposits may have guarded first cells.",
+      "bullets": [
+        "Scientists from the Birbal Sahni Institute of Palaeosciences, Lucknow, studied the Puga Valley hot springs.",
+        "They found that calcium carbonate formed rapidly around these springs.",
+        "These deposits may have protected early organic molecules from harmful radiation and extreme conditions.",
+        "They may also have helped in forming the first protective membrane, the barrier that defines a cell."
+      ],
+      "note": "Patthar ki dhaal, pehle cell ke liye."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch01-f1", "sec": "1.1", "front": "What do the magnifying glass and compass on the page numbers stand for?", "back": "The magnifying glass is careful observation; the compass is direction: right models, right questions, and knowing where ideas apply.", "tag": "concept" },
+    { "id": "sc-ch01-f2", "sec": "1.1", "front": "What is a model in science?", "back": "A simplified way of looking at a real system that focuses only on what is most important for the given question.", "tag": "definition" },
+    { "id": "sc-ch01-f3", "sec": "1.1", "front": "Why is air resistance often neglected for a falling object?", "back": "To understand the basic effect of gravity first. Assumptions like this are made on purpose to keep the model simple.", "tag": "concept" },
+    { "id": "sc-ch01-f4", "sec": "1.2", "front": "Which details matter most for a model of a cricket six?", "back": "The mass of the ball and the speed and direction of the hit; bat brand, ball colour and grass make no difference.", "tag": "example" },
+    { "id": "sc-ch01-f5", "sec": "1.2", "front": "Why do words like force and cell have special meanings in science?", "back": "Scientific ideas must be shared clearly and unambiguously, so everyday words are given precise scientific definitions.", "tag": "concept" },
+    { "id": "sc-ch01-f6", "sec": "1.2", "front": "Which symbols stand for mass, velocity, force and electric current?", "back": "m, v, F and I; each quantity has one agreed symbol and a defined unit.", "tag": "definition" },
+    { "id": "sc-ch01-f7", "sec": "1.3", "front": "What is an equation, beyond a calculation tool?", "back": "A compact statement about how certain quantities are related to each other.", "tag": "concept" },
+    { "id": "sc-ch01-f8", "sec": "1.3", "front": "What real accident happened because of a units mix-up?", "back": "A passenger aircraft ran out of fuel mid-flight when the ground crew miscalculated the fuel needed, 22,300 kg in total.", "tag": "trivia" },
+    { "id": "sc-ch01-f9", "sec": "1.3", "front": "Why must a kilogram mean the same everywhere?", "back": "Agreed international standards keep trade fair in daily life and let scientific results be compared across the world.", "tag": "concept" },
+    { "id": "sc-ch01-f10", "sec": "1.4", "front": "What does a scientific law usually describe?", "back": "A regular pattern observed in nature, often expressed in words or as a mathematical relationship.", "tag": "definition" },
+    { "id": "sc-ch01-f11", "sec": "1.4", "front": "How is a scientific theory different from a guess?", "back": "A theory explains why patterns occur and rests on careful testing and critical examination; it is never a mere guess.", "tag": "concept" },
+    { "id": "sc-ch01-f12", "sec": "1.4", "front": "Where does the book apply the principle of conservation of energy?", "back": "When climbing up the stairs; principles are broad ideas that help us make sense of a given situation.", "tag": "example" },
+    { "id": "sc-ch01-f13", "sec": "1.5", "front": "What makes a prediction scientifically testable?", "back": "It invites questions about measurable evidence and past patterns, instead of simple yes or no answers.", "tag": "concept" },
+    { "id": "sc-ch01-f14", "sec": "1.5", "front": "Name the changing factors that make weather hard to predict.", "back": "Temperature, pressure, humidity and wind keep changing, and tiny differences can change the outcome.", "tag": "trivia" },
+    { "id": "sc-ch01-f15", "sec": "1.5", "front": "How does science defeat the claim that eclipse food is harmful?", "back": "An eclipse is only a play of shadows; no physical, chemical or biological mechanism makes food harmful.", "tag": "concept" },
+    { "id": "sc-ch01-f16", "sec": "1.6", "front": "What is the three-step estimation strategy?", "back": "Understand the situation, identify the quantities that matter, then make a rough estimate to check it makes sense.", "tag": "concept" },
+    { "id": "sc-ch01-f17", "sec": "1.6", "front": "About how many breaths do we take in a day at rest?", "back": "About 20 thousand: 12 to 15 breaths a minute times 1440 minutes gives roughly 18 to 22 thousand.", "tag": "trivia" },
+    { "id": "sc-ch01-f18", "sec": "1.6", "front": "How can a party balloon estimate the volume of one breath?", "back": "About 4 to 5 breaths fill a typical 2 litre balloon, so one breath is roughly 0.5 litre.", "tag": "example" },
+    { "id": "sc-ch01-f19", "sec": "1.7", "front": "How do we sanity-check a rough estimate?", "back": "Estimate the same thing a second way. Three balloons a minute gives 8640 litres a day, close to 10,000 litres.", "tag": "concept" },
+    { "id": "sc-ch01-f20", "sec": "1.7", "front": "Which branches does the book name for science after Grade 10?", "back": "Physics, chemistry, biology and earth science are examples; the divisions are ours because nature has no such boundaries.", "tag": "trivia" },
+    { "id": "sc-ch01-f21", "sec": "1.7", "front": "Why do real problems like climate change need many disciplines?", "back": "No single branch holds all answers; several sciences plus maths, technology, arts and social sciences must work together.", "tag": "concept" },
+    { "id": "sc-ch01-f22", "sec": "1.8", "front": "Which four qualities shape science as a human activity?", "back": "Curiosity, creativity, collaboration and careful questioning; it grows as people test ideas, share results and learn from mistakes.", "tag": "concept" },
+    { "id": "sc-ch01-f23", "sec": "1.8", "front": "What are thermophiles?", "back": "Heat-loving unicellular bacteria that live in hot springs such as those of Puga Valley in Ladakh.", "tag": "definition" },
+    { "id": "sc-ch01-f24", "sec": "1.8", "front": "What may calcium carbonate deposits have done for early life?", "back": "Shielded early organic molecules from radiation and helped form the first protective membrane, the barrier that defines a cell.", "tag": "trivia" }
+  ],
+  "quiz": [
+    { "id": "sc-ch01-q1", "sec": "1.1", "q": "The magnifying glass framing the page numbers of this book stands for", "options": ["a new experiment kit", "careful observation of patterns", "fast page turning", "decoration only"], "answer": 1, "why": "The book says it symbolises careful observation, noticing what might otherwise be missed.", "difficulty": "easy" },
+    { "id": "sc-ch01-q2", "sec": "1.1", "q": "A model in science is best described as", "options": ["an exact copy of nature", "a machine built in a laboratory", "a simplified view focusing on what matters for the question", "a random guess"], "answer": 2, "why": "Models simplify real systems, keeping only what is most important, with assumptions made on purpose.", "difficulty": "medium" },
+    { "id": "sc-ch01-q3", "sec": "1.1", "q": "In a simple model of a falling object, what may be neglected?", "options": ["gravity", "air resistance", "the mass of the object", "the direction of fall"], "answer": 1, "why": "Air resistance may be neglected to understand the basic effect of gravity first.", "difficulty": "easy" },
+    { "id": "sc-ch01-q4", "sec": "1.2", "q": "For the cricket six model of Example 1.1, which detail makes no difference?", "options": ["mass of the ball", "speed of the hit", "direction of the hit", "brand of the bat"], "answer": 3, "why": "Bat brand, ball colour and field grass cannot decide whether the ball crosses the boundary.", "difficulty": "easy" },
+    { "id": "sc-ch01-q5", "sec": "1.2", "q": "In the shared language of science, the symbol I stands for", "options": ["electric current", "force", "mass", "velocity"], "answer": 0, "why": "Mass is m, velocity v, force F and electric current I, each with a defined unit.", "difficulty": "easy" },
+    { "id": "sc-ch01-q6", "sec": "1.2", "q": "A simple model of cycling home from school should focus on details that", "options": ["look impressive in a diagram", "actually decide the travel time", "are hardest to measure", "fill the page fastest"], "answer": 1, "why": "A model keeps what matters for the question and ignores clutter to stay simple enough.", "difficulty": "medium" },
+    { "id": "sc-ch01-q7", "sec": "1.3", "q": "Mathematics in science is best seen as", "options": ["a language that helps us think clearly", "a hurdle for weak students", "only a calculation tool", "optional decoration"], "answer": 0, "why": "The book says maths is not a hurdle; an equation is a compact statement of how things are related.", "difficulty": "easy" },
+    { "id": "sc-ch01-q8", "sec": "1.3", "q": "The aircraft incident, where the 22,300 kg fuel need was miscalculated, teaches that", "options": ["planes need bigger tanks", "pilots should carry spare fuel", "units must be used consistently or danger follows", "science cannot help aviation"], "answer": 2, "why": "A mix-up in units caused the fuel shortage; standard units prevent such errors.", "difficulty": "hard" },
+    { "id": "sc-ch01-q9", "sec": "1.3", "q": "Measurements in science and in daily trade rest on", "options": ["local opinions", "whatever each shop decides", "the biggest measuring cup available", "agreed international standards"], "answer": 3, "why": "Standard units keep results comparable and make daily life and trade fair everywhere.", "difficulty": "easy" },
+    { "id": "sc-ch01-q10", "sec": "1.4", "q": "Which term names a regular pattern observed in nature?", "options": ["hypothesis", "law", "principle", "diagram"], "answer": 1, "why": "A law describes a regular pattern, often in words or mathematical relationships.", "difficulty": "easy" },
+    { "id": "sc-ch01-q11", "sec": "1.4", "q": "The jerk felt when a bus stops suddenly is explained by", "options": ["atomic theory", "the principle of conservation of energy", "Newton's laws of motion", "the compass idea"], "answer": 2, "why": "The book cites Newton's laws of motion as its example of laws.", "difficulty": "medium" },
+    { "id": "sc-ch01-q12", "sec": "1.4", "q": "In science, a theory is", "options": ["a guess made before testing", "an explanation based on careful testing, open to improvement", "a final unchangeable fact", "the opinion of a senior scientist"], "answer": 1, "why": "Theories rest on testing and critical examination and change with new evidence; that makes science reliable.", "difficulty": "medium" },
+    { "id": "sc-ch01-q13", "sec": "1.5", "q": "Which question best makes Varsha's rain prediction testable?", "options": ["Do you like rain?", "Will it rain, yes or no?", "Are dark clouds beautiful?", "What is today's humidity, and was it above 80 per cent last time it rained?"], "answer": 3, "why": "Good scientific questions seek measurable evidence and past patterns, not simple yes or no answers.", "difficulty": "medium" },
+    { "id": "sc-ch01-q14", "sec": "1.5", "q": "Weather forecasts sometimes fail because", "options": ["scientists do not care about weather", "instruments are never used", "weather has fixed rules forever", "tiny differences in changing conditions grow into different outcomes"], "answer": 3, "why": "Weather depends on temperature, pressure, humidity and wind, and tiny differences change results.", "difficulty": "hard" },
+    { "id": "sc-ch01-q15", "sec": "1.5", "q": "To test the eclipse food claim, the book asks whether", "options": ["the eclipse is long enough", "food tastes better afterwards", "any physical change occurs and food spoils in a shadow", "everyone believes the claim"], "answer": 2, "why": "An eclipse is a play of shadows; no physical, chemical or biological mechanism supports the claim.", "difficulty": "easy" },
+    { "id": "sc-ch01-q16", "sec": "1.6", "q": "The first step of the estimation strategy is to", "options": ["buy precise instruments", "understand the situation being studied", "calculate to five decimals", "memorise more equations"], "answer": 1, "why": "First understand the situation, then identify the quantities, then make a rough estimate.", "difficulty": "easy" },
+    { "id": "sc-ch01-q17", "sec": "1.6", "q": "For the rice estimate, the book assumes an average adult needs about", "options": ["2000 to 2500 kcal per day", "200 to 250 kcal per day", "2000 to 2500 kcal per week", "20,000 kcal per day"], "answer": 0, "why": "An average adult needs about 2000 to 2500 kilocalories a day in this estimation.", "difficulty": "medium" },
+    { "id": "sc-ch01-q18", "sec": "1.6", "q": "With about 20 thousand breaths a day and about 0.5 litre per breath, the daily air estimate is", "options": ["about 500 litres", "about 1000 litres", "about 10,000 litres", "about 100,000 litres"], "answer": 2, "why": "20 thousand breaths times 0.5 litre gives about 10,000 litres of air a day.", "difficulty": "medium" },
+    { "id": "sc-ch01-q19", "sec": "1.7", "q": "Filling 3 balloons a minute, each holding about 2 litres, for 1440 minutes gives about", "options": ["864 litres", "4320 litres", "17,280 litres", "8640 litres"], "answer": 3, "why": "3 x 2 x 1440 gives 8640 litres, reasonably close to the earlier estimate of 10,000 litres.", "difficulty": "hard" },
+    { "id": "sc-ch01-q20", "sec": "1.7", "q": "Which branches does the book name for science after Grade 10?", "options": ["only physics and chemistry", "physics, chemistry, biology and earth science", "history, geography and civics", "sports science and music"], "answer": 1, "why": "Science divides into branches like physics, chemistry, biology and earth science.", "difficulty": "easy" },
+    { "id": "sc-ch01-q21", "sec": "1.7", "q": "The traffic jam activity shows that a real problem is solved best by", "options": ["one branch working alone", "ignoring mathematics", "connecting ideas from several branches of science", "waiting for the road to clear"], "answer": 2, "why": "Real-world problems need ideas from several disciplines together, plus other ways of knowing.", "difficulty": "medium" },
+    { "id": "sc-ch01-q22", "sec": "1.8", "q": "Science grows when people", "options": ["hide their results", "avoid all mistakes", "ask questions, test ideas, share results and learn from mistakes", "follow authority without question"], "answer": 2, "why": "It is a human activity shaped by curiosity, creativity, collaboration and careful questioning.", "difficulty": "easy" },
+    { "id": "sc-ch01-q23", "sec": "1.8", "q": "Thermophiles living in the Puga Valley hot springs are", "options": ["heat-loving unicellular bacteria", "cold-loving viruses", "multicellular fungi", "tiny fish"], "answer": 0, "why": "The book describes them as mostly heat-loving bacteria called thermophiles, which are unicellular.", "difficulty": "medium" },
+    { "id": "sc-ch01-q24", "sec": "1.8", "q": "Scientists from the Birbal Sahni Institute of Palaeosciences found that around the hot springs", "options": ["ice formed rapidly", "calcium carbonate formed rapidly and may have helped form the first protective membrane", "thermophiles vanished", "the oceans evaporated"], "answer": 1, "why": "The deposits may have protected early organic molecules and helped form the first cell-defining membrane.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch01-e1",
+      "title": "Modelling a Cricket Six",
+      "problem": "A cricket ball is hit for a six. You want a simple model that answers one question: will the ball cross the boundary without hitting the ground first? Which details would you include, and which would you ignore?",
+      "steps": [
+        "Ask what the model must answer: will the ball cross the boundary without hitting the ground first?",
+        "Keep what strongly affects the flight: the mass of the ball, and the speed and direction in which it has been hit.",
+        "Ignore details that make no difference: the brand of the bat, the colour of the ball, and the amount of grass on the field.",
+        "Leave out the smaller effects in a first model: air resistance, the spin of the ball, and the stitching of the threads at the seam.",
+        "Add these smaller effects back only when building more complex models for greater accuracy."
+      ],
+      "answer": "Keep the mass of the ball and the speed and direction of the hit; ignore bat brand, ball colour, field grass, and the smaller effects of air resistance, spin and seam stitching."
+    },
+    {
+      "id": "sc-ch01-e2",
+      "title": "Making a Rain Prediction Testable",
+      "problem": "Varsha told Meghna that it will rain this afternoon because the clouds look dark. What questions could Meghna ask to make this prediction scientifically testable?",
+      "steps": [
+        "Look for measurable evidence and past patterns, since simple yes or no questions are usually not useful.",
+        "Ask about the past: what was the condition of the sky when it rained the last time?",
+        "Ask about today's data: what is the humidity today, and was it above 80 per cent the last time it rained?",
+        "Ask about wind and temperature: what is today's wind speed and direction, and is the temperature dropping like it did before the recent rains?"
+      ],
+      "answer": "Questions about humidity, wind speed and direction, temperature and past sky conditions turn a vague feeling about dark clouds into a testable prediction based on measurable data and past patterns."
+    },
+    {
+      "id": "sc-ch01-e3",
+      "title": "Estimating the Air You Breathe Daily",
+      "problem": "Estimate how many litres of air you breathe in one day. Start by estimating how many breaths you take per minute and the volume of one breath. The aim is a reasonable estimate, not an exact answer.",
+      "steps": [
+        "At rest we take about 12 to 15 breaths a minute, and a day has 60 x 24 = 1440 minutes.",
+        "Multiplying, we take roughly 18 to 22 thousand breaths a day, about 20 thousand breaths.",
+        "Estimate one breath: about 4 to 5 breaths fill a typical rubber party balloon of about 2 litres, so one breath is perhaps about 0.5 litre.",
+        "Multiply the counts: 20,000 breaths x 0.5 litre per breath gives about 10,000 litres."
+      ],
+      "answer": "About 10,000 litres of air breathed in one day."
+    },
+    {
+      "id": "sc-ch01-e4",
+      "title": "Cross-Checking the Breathing Estimate",
+      "problem": "The estimate of 10,000 litres a day is hard to judge on its own. Use the balloon idea a second way to check whether the estimate is reasonable.",
+      "steps": [
+        "Blowing up a balloon takes about 20 seconds, so you could fill about 3 balloons in a minute.",
+        "Each inflated balloon holds about 2 litres, so that is about 6 litres a minute.",
+        "A day has 1440 minutes, so 3 balloons a minute x 2 litres a balloon x 1440 minutes gives about 8640 litres a day.",
+        "Compare: 8640 litres is reasonably close to the earlier estimate of 10,000 litres, so the estimate passes the check. Blowing balloons nonstop would exhaust you far sooner than restful breathing."
+      ],
+      "answer": "About 8640 litres a day by the balloon route, reasonably close to 10,000 litres, so the breathing estimate is sensible."
+    }
+  ],
+  "conceptMap": {
+    "center": "Entering Secondary Science",
+    "groups": [
+      { "id": "g1", "label": "Ways of Knowing" },
+      { "id": "g2", "label": "Language of Science" },
+      { "id": "g3", "label": "Ideas That Grow" },
+      { "id": "g4", "label": "Science Around Us" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Careful observation", "group": "g1" },
+      { "id": "n2", "label": "Models", "group": "g1" },
+      { "id": "n3", "label": "Estimation", "group": "g1" },
+      { "id": "n4", "label": "Symbols and units", "group": "g2" },
+      { "id": "n5", "label": "Mathematics", "group": "g2" },
+      { "id": "n6", "label": "Precise terms", "group": "g2" },
+      { "id": "n7", "label": "Laws", "group": "g3" },
+      { "id": "n8", "label": "Theories", "group": "g3" },
+      { "id": "n9", "label": "Predictions", "group": "g3" },
+      { "id": "n10", "label": "Evidence", "group": "g3" },
+      { "id": "n11", "label": "Human activity", "group": "g4" },
+      { "id": "n12", "label": "Branches connect", "group": "g4" },
+      { "id": "n13", "label": "Hot springs origin", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "feed models" },
+      { "from": "n1", "to": "n3", "label": "measure first" },
+      { "from": "n6", "to": "n4", "label": "words to symbols" },
+      { "from": "n4", "to": "n5", "label": "units attached" },
+      { "from": "n2", "to": "n5", "label": "become equations" },
+      { "from": "n5", "to": "n7", "label": "laws in maths" },
+      { "from": "n7", "to": "n9", "label": "enable prediction" },
+      { "from": "n8", "to": "n9", "label": "enable prediction" },
+      { "from": "n9", "to": "n10", "label": "meet observations" },
+      { "from": "n10", "to": "n8", "label": "revise or discard" },
+      { "from": "n3", "to": "n10", "label": "sanity check" },
+      { "from": "n11", "to": "n6", "label": "agree on terms" },
+      { "from": "n11", "to": "n12", "label": "many cultures, branches" },
+      { "from": "n12", "to": "n2", "label": "each branch models" },
+      { "from": "n12", "to": "n13", "label": "origins of life" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Wonder and observe", "detail": "Science begins with curiosity, looking closely and asking how things work." },
+      { "id": "s2", "label": "Build a simple model", "detail": "Choose what matters for the question and ignore the rest on purpose." },
+      { "id": "s3", "label": "Use shared language", "detail": "Express ideas with precise terms, symbols like m, v, F, I and defined units." },
+      { "id": "s4", "label": "Translate to maths", "detail": "Write relationships between quantities as equations, guides not hurdles." },
+      { "id": "s5", "label": "Measure with standards", "detail": "Use agreed international units so results compare and trade stays fair." },
+      { "id": "s6", "label": "Predict outcomes", "detail": "Use laws, theories and models to expect what happens in new conditions." },
+      { "id": "s7", "label": "Test and estimate", "detail": "Check predictions against observations and sanity-check with rough estimates." },
+      { "id": "s8", "label": "Revise or discard", "detail": "When evidence disagrees, re-examine assumptions; no theory is ever final." },
+      { "id": "s9", "label": "Connect and share", "detail": "Join branches and disciplines, growing science as a human activity." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [7, 1]]
+  }
+}

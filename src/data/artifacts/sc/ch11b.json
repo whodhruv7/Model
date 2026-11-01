@@ -1,0 +1,540 @@
+{
+  "book": "sc",
+  "chapter": 11,
+  "part": "b",
+  "title": "Reproduction: How Life Continues",
+  "grade": 9,
+  "sections": [
+    { "id": "11.5", "title": "Reproduction in Human Beings" },
+    { "id": "11.5.2", "title": "What are the parts of the male reproductive system?" },
+    { "id": "11.5.3", "title": "What are the parts of the female reproductive system?" },
+    { "id": "11.5.5", "title": "What happens when a sperm meets an egg?" },
+    { "id": "11.5.6", "title": "What happens when an egg is not fertilised?" },
+    { "id": "11.5.7", "title": "Pregnancy and childbirth" },
+    { "id": "11.5.8", "title": "Mother's health during pregnancy" },
+    { "id": "11.5.9", "title": "What does it mean to be sexually mature?" },
+    { "id": "11.5.10", "title": "How can unwanted pregnancies and infections be prevented?" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch11b-s1",
+      "sec": "11.5",
+      "title": "Becoming reproductively mature",
+      "kicker": "Your body has a plan for growing up",
+      "bullets": [
+        "As a child grows into an adult, physical and emotional changes take place in the body.",
+        "During this time, the reproductive organs mature and begin producing gametes: sperm in males and eggs in females.",
+        "The human reproductive system consists of special organs, shown in the book as Fig. 11.18 and Fig. 11.19."
+      ],
+      "visual": { "kind": "labels", "items": ["puberty changes", "sperm", "egg", "mature organs"] },
+      "note": "Puberty ke saath reproductive system bhi ready hota hai."
+    },
+    {
+      "id": "sc-ch11b-s2",
+      "sec": "11.5",
+      "title": "From zygote to foetus",
+      "kicker": "One cell becomes a baby in the uterus",
+      "bullets": [
+        "When a sperm meets an egg inside the female body, they form a zygote.",
+        "The zygote develops into an embryo and eventually into a foetus in the uterus.",
+        "In this part of the chapter we study how gametes form, how they meet, and how new life develops in human beings."
+      ],
+      "visual": { "kind": "flow", "items": ["Sperm meets egg", "Zygote", "Embryo", "Foetus in uterus"] }
+    },
+    {
+      "id": "sc-ch11b-s3",
+      "sec": "11.5",
+      "title": "Two parents, one new life",
+      "kicker": "Humans reproduce sexually, like the flowers did",
+      "bullets": [
+        "Sexual reproduction in humans begins with two special cells, one sperm and one egg.",
+        "Male organs make sperm and transfer them, while female organs make eggs and hold the growing baby.",
+        "Coming up: the male and female systems, fertilisation, the monthly cycle, pregnancy, childbirth and responsible choices."
+      ],
+      "note": "Jaise flowers me gametes milte hain, waise hi humans me bhi."
+    },
+    {
+      "id": "sc-ch11b-s4",
+      "sec": "11.5.2",
+      "title": "Testes: the sperm factories",
+      "kicker": "Two oval organs, one big job",
+      "bullets": [
+        "The male reproductive system has organs that produce male germ cells called sperm and help transfer them to the female body.",
+        "Sperm are produced in two oval-shaped organs called testes; testis is the singular form.",
+        "The testes are present in a pouch of skin called the scrotum."
+      ],
+      "visual": { "kind": "labels", "items": ["testes", "scrotum", "sperm", "hormone"] }
+    },
+    {
+      "id": "sc-ch11b-s5",
+      "sec": "11.5.2",
+      "title": "Why the scrotum is cooler",
+      "kicker": "Sperm formation likes it slightly chilly",
+      "bullets": [
+        "The scrotum keeps the testes slightly cooler than normal body temperature.",
+        "This lower temperature is necessary for sperm formation.",
+        "The testes also make a hormone, a chemical regulating body functions, that controls sperm production and causes boys' puberty changes."
+      ],
+      "note": "Garmi zyada ho to sperm formation mushkil, isliye scrotum testes ko bahar rakhta hai."
+    },
+    {
+      "id": "sc-ch11b-s6",
+      "sec": "11.5.2",
+      "title": "The sperm highway",
+      "kicker": "Vas deferens, then the urethra",
+      "bullets": [
+        "From the testes, sperm travel through a long tube called the vas deferens.",
+        "The vas deferens ultimately opens into the urethra, a common passage for both urine and sperm.",
+        "Glands called the seminal vesicles and the prostate add fluids that nourish the sperm and help them remain active and move."
+      ],
+      "visual": { "kind": "flow", "items": ["Testes", "Vas deferens", "Urethra", "Out of the body"] }
+    },
+    {
+      "id": "sc-ch11b-s7",
+      "sec": "11.5.2",
+      "title": "Inside one sperm",
+      "kicker": "A head full of instructions, a tail to swim",
+      "bullets": [
+        "Each sperm has a head that contains the genetic material.",
+        "A long tail helps the sperm swim towards the egg.",
+        "The fluids added by the seminal vesicles and prostate keep the sperm active on this long swim."
+      ],
+      "visual": { "kind": "labels", "items": ["head: genetic material", "long tail: swimming", "nourishing fluids"] }
+    },
+    {
+      "id": "sc-ch11b-s8",
+      "sec": "11.5.3",
+      "title": "Organs of the female system",
+      "kicker": "Ovaries, oviducts, uterus and vagina",
+      "bullets": [
+        "The female reproductive system has a pair of ovaries, oviducts, a uterus and a vagina.",
+        "The oviducts are also called fallopian tubes, and each connects an ovary to the uterus.",
+        "The ovaries produce the female germ cells, the eggs, and also release hormones."
+      ],
+      "visual": { "kind": "flow", "items": ["Ovary", "Oviduct (fallopian tube)", "Uterus", "Vagina"] }
+    },
+    {
+      "id": "sc-ch11b-s9",
+      "sec": "11.5.3",
+      "title": "Uterus, cervix and hormones",
+      "kicker": "A bag-like home for the foetus",
+      "bullets": [
+        "The uterus is a bag-like structure where the foetus develops.",
+        "The uterus opens into the vagina through a narrow passage called the cervix.",
+        "The hormones released by the ovaries bring about the changes during puberty."
+      ],
+      "note": "Uterus hi wo jagah hai jahan baby aage badhta hai."
+    },
+    {
+      "id": "sc-ch11b-s10",
+      "sec": "11.5.3",
+      "title": "How gametes are made",
+      "kicker": "Meiosis halves the chromosome set",
+      "bullets": [
+        "The formation of gametes is called gametogenesis, and it takes place in the testes and the ovaries.",
+        "Gametes are formed by meiosis, in which the chromosome number is reduced to half.",
+        "Human body cells have 46 chromosomes, so sperm and eggs have only 23 each; this lets the zygote get the same number as the parents."
+      ],
+      "visual": { "kind": "steps", "items": ["Body cell: 46 chromosomes", "Meiosis halves the number", "Sperm or egg: 23 chromosomes", "Fertilisation restores 46"] }
+    },
+    {
+      "id": "sc-ch11b-s11",
+      "sec": "11.5.3",
+      "title": "Two very different gametes",
+      "kicker": "Small and many versus big and single",
+      "bullets": [
+        "In males, gametogenesis results in numerous tiny, motile (moving), active sperm.",
+        "In females, gametogenesis results in the formation of a single large egg.",
+        "Male and female gametes differ greatly in size, number and structure, and this asymmetry is seen across most animals."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Sperm", "items": ["very small", "millions produced", "actively motile"] },
+        "right": { "title": "Egg", "items": ["large", "single egg", "carries stored nutrients"] }
+      }
+    },
+    {
+      "id": "sc-ch11b-s12",
+      "sec": "11.5.3",
+      "title": "IVF: a helping hand",
+      "kicker": "Meet a Scientist: babies beyond the body",
+      "bullets": [
+        "In in-vitro fertilisation (IVF), an egg and a sperm are combined outside the female body, usually in a laboratory dish.",
+        "The fertilised egg begins dividing, which can lead to a pregnancy; such babies are commonly called test tube babies.",
+        "The process actually occurs in a culture dish, not in a test tube.",
+        "India holds a significant place in IVF history: in 1978, Subhash Mukhopadhyay carried out experimental IVF work."
+      ],
+      "note": "Test tube baby test tube me nahi, culture dish me banta hai!"
+    },
+    {
+      "id": "sc-ch11b-s13",
+      "sec": "11.5.5",
+      "title": "Ovulation: the monthly egg",
+      "kicker": "One egg, once a month",
+      "bullets": [
+        "At birth, a girl's ovaries already have millions of immature eggs.",
+        "From puberty onwards, usually one mature egg is released every month from one of the ovaries; this is ovulation.",
+        "Before ovulation, the uterus starts to prepare itself, and its inner lining becomes thick."
+      ],
+      "visual": { "kind": "steps", "items": ["Egg matures in the ovary", "Uterus lining becomes thick", "Egg released: ovulation", "Egg travels to the oviduct"] }
+    },
+    {
+      "id": "sc-ch11b-s14",
+      "sec": "11.5.5",
+      "title": "The race to the oviduct",
+      "kicker": "Millions of sperm, one destination",
+      "bullets": [
+        "During sexual intercourse, millions of sperm enter through the vagina.",
+        "They swim through the reproductive tract and may reach the egg in the oviduct.",
+        "Meanwhile the egg travels from the ovary to the oviduct, where the meeting can happen."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s15",
+      "sec": "11.5.5",
+      "title": "Fertilisation: one zygote forms",
+      "kicker": "When sperm and egg fuse",
+      "bullets": [
+        "If a sperm encounters the egg and succeeds in fusing with it, a zygote is formed.",
+        "The inner lining of the uterus then becomes thicker and richer in blood vessels.",
+        "The zygote undergoes a series of mitotic divisions while it travels towards the uterus."
+      ],
+      "visual": { "kind": "flow", "items": ["Sperm fuses with egg", "Zygote forms", "Mitotic divisions", "Travels to uterus"] }
+    },
+    {
+      "id": "sc-ch11b-s16",
+      "sec": "11.5.5",
+      "title": "Implantation: pregnancy begins",
+      "kicker": "Nestling into the uterine lining",
+      "bullets": [
+        "The dividing zygote implants into the inner lining of the uterus.",
+        "There it receives nourishment for its development.",
+        "This implantation marks the beginning of pregnancy."
+      ],
+      "note": "Implantation hua? Pregnancy officially shuru."
+    },
+    {
+      "id": "sc-ch11b-s17",
+      "sec": "11.5.6",
+      "title": "When the egg is not fertilised",
+      "kicker": "The lining has no job left",
+      "bullets": [
+        "An unfertilised egg remains viable for about a day and then it degenerates.",
+        "The thick inner lining of the uterus, made rich with blood vessels to nourish a zygote, is no longer needed.",
+        "The lining sheds, and along with some blood it leaves the body through the vagina; this is menstruation, or a period."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s18",
+      "sec": "11.5.6",
+      "title": "The cycle's rhythm",
+      "kicker": "Every 21 to 35 days, repeat",
+      "bullets": [
+        "Ovulation, preparation of the uterus and menstruation repeat typically every 21 to 35 days, often around 28 days.",
+        "A period usually lasts 3 to 7 days.",
+        "The cycle usually begins at puberty, between the ages of 10 and 14 in girls, and continues till menopause, around age 50."
+      ],
+      "visual": { "kind": "labels", "items": ["ovulation", "lining thickens", "period 3 to 7 days", "cycle about 28 days", "menopause near 50"] },
+      "note": "Period is your pride."
+    },
+    {
+      "id": "sc-ch11b-s19",
+      "sec": "11.5.6",
+      "title": "Care during your period",
+      "kicker": "Clean habits, zero shame",
+      "bullets": [
+        "Hand washing is the key: always wash your hands with soap and water before and after changing your products.",
+        "Wrap used pads in newspaper or the wrapper they came in before disposal, and change them as often as required.",
+        "Reusable pads must be cleaned as per the manufacturer's instructions and be completely dry before their next use."
+      ],
+      "note": "Using clean menstrual products is nothing to be ashamed of."
+    },
+    {
+      "id": "sc-ch11b-s20",
+      "sec": "11.5.6",
+      "title": "Who decides: X or Y?",
+      "kicker": "The father's chromosome tips the balance",
+      "bullets": [
+        "Every person has two sex chromosomes: females have XX and males have XY.",
+        "The mother always contributes an X chromosome to a baby.",
+        "The father contributes either an X, giving XX (a girl), or a Y, giving XY (a boy); that is how the book poses the sex-determination puzzle."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "X from father", "items": ["mother gives X", "baby is XX", "girl"] },
+        "right": { "title": "Y from father", "items": ["mother gives X", "baby is XY", "boy"] }
+      }
+    },
+    {
+      "id": "sc-ch11b-s21",
+      "sec": "11.5.7",
+      "title": "Nine months, three trimesters",
+      "kicker": "A timed journey inside the uterus",
+      "bullets": [
+        "Pregnancy in humans lasts about nine months and is divided into three stages called trimesters.",
+        "In the first trimester, the fertilised egg develops into an embryo during the first two months, and major organs start forming.",
+        "From about the ninth week, the developing embryo is called a foetus, which continues to grow and develop."
+      ],
+      "visual": { "kind": "flow", "items": ["First trimester", "Second trimester", "Third trimester", "Childbirth"] }
+    },
+    {
+      "id": "sc-ch11b-s22",
+      "sec": "11.5.7",
+      "title": "Growing through the trimesters",
+      "kicker": "Bigger, stronger, ready to meet the world",
+      "bullets": [
+        "In the second trimester, the foetus grows bigger and stronger, and the mother can usually feel its movements.",
+        "In the third trimester, the baby grows rapidly and gets ready for life outside the womb.",
+        "The uterus protects and nourishes the baby throughout this time."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s23",
+      "sec": "11.5.7",
+      "title": "Childbirth",
+      "kicker": "Contractions do the pushing",
+      "bullets": [
+        "During childbirth, strong contractions of the muscles of the uterus help push the foetus out through the birth canal.",
+        "If a normal vaginal birth is not possible or safe, doctors may use medical or surgical procedures to deliver the baby safely."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s24",
+      "sec": "11.5.7",
+      "title": "Caring for a newborn",
+      "kicker": "Warm, vaccinated, gently held",
+      "bullets": [
+        "After birth, breastfeeding is essential: a mother's milk gives complete nutrition and protects the infant from many diseases.",
+        "Newborns must be kept warm, vaccinated on time and handled gently.",
+        "The mother needs nutritious food and rest, and should avoid smoking, alcohol or medicines without medical advice."
+      ],
+      "note": "Maa aur bachche ki sehat judi hui hai, dono ka dhyan zaroori."
+    },
+    {
+      "id": "sc-ch11b-s25",
+      "sec": "11.5.8",
+      "title": "A healthy mother, healthy baby",
+      "kicker": "What she eats, baby builds",
+      "bullets": [
+        "A woman's health during pregnancy plays a vital role in the baby's growth and safety.",
+        "She should eat a balanced diet rich in proteins, vitamins and minerals.",
+        "Regular medical check-ups, plus her doctor's advice on light exercise and rest, keep mother and baby well."
+      ],
+      "visual": { "kind": "labels", "items": ["balanced diet", "check-ups", "light exercise", "rest"] }
+    },
+    {
+      "id": "sc-ch11b-s26",
+      "sec": "11.5.8",
+      "title": "Feelings matter too",
+      "kicker": "Support after delivery is real medicine",
+      "bullets": [
+        "A mother's emotional well-being is important, and support from family members helps her remain healthy and stress-free.",
+        "Some mothers experience anxiety and fatigue after delivery; this is postpartum depression, a condition that can be treated.",
+        "Mothers should be encouraged to talk to a healthcare worker, such as a doctor, nurse or ASHA worker, if they feel low."
+      ],
+      "note": "Baat karna kamzori nahi, ilaaj ka pehla kadam hai."
+    },
+    {
+      "id": "sc-ch11b-s27",
+      "sec": "11.5.8",
+      "title": "ASHA: health heroes of India",
+      "kicker": "Ten lakh women walking village lanes",
+      "bullets": [
+        "More than 10 lakh Accredited Social Health Activist (ASHA) workers serve as health heroes across India.",
+        "These community health workers are women trained to promote hygiene, immunisation and family planning under the National Health Mission.",
+        "They work especially in rural areas, offering advice on maternal care, safe deliveries and contraceptive methods."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s28",
+      "sec": "11.5.9",
+      "title": "What sexual maturity means",
+      "kicker": "Gradual, not overnight",
+      "bullets": [
+        "As we grow through adolescence, our bodies undergo many changes.",
+        "Sexual maturation means our bodies are becoming capable of reproduction.",
+        "It is gradual and happens alongside the body's overall growth; sperm production in boys and menstrual cycles in girls are part of it."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s29",
+      "sec": "11.5.9",
+      "title": "Mature body, not ready adult",
+      "kicker": "Capable is not the same as ready",
+      "bullets": [
+        "Sexual maturity does not mean a person is fully ready for adult responsibilities.",
+        "The body may be maturing, but emotional and social maturity take longer to develop.",
+        "Rushing adult decisions before the mind is ready causes harm; the book asks us to wait and think."
+      ],
+      "note": "Body fast, mind slow, dono ko time do."
+    },
+    {
+      "id": "sc-ch11b-s30",
+      "sec": "11.5.9",
+      "title": "Emotional maturity",
+      "kicker": "Feelings handled, words chosen, decisions thought",
+      "bullets": [
+        "Being emotionally mature means handling feelings, communicating clearly and making thoughtful decisions.",
+        "Emotional maturity develops more slowly than the physical changes of adolescence."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Sexual maturity", "items": ["gradual body changes", "sperm and menstrual cycles", "arrives in adolescence"] },
+        "right": { "title": "Emotional maturity", "items": ["handling feelings", "clear communication", "takes longer"] }
+      }
+    },
+    {
+      "id": "sc-ch11b-s31",
+      "sec": "11.5.10",
+      "title": "Responsible choices",
+      "kicker": "Thoughtful decisions protect your future",
+      "bullets": [
+        "During adolescence the body becomes capable of reproduction, but emotional and social maturity take longer to develop.",
+        "Being ready for sexual activity is not only about physical changes; it needs thoughtful and responsible decisions.",
+        "Responsible choices help prevent unplanned pregnancies and sexually transmitted infections, and support healthy relationships."
+      ]
+    },
+    {
+      "id": "sc-ch11b-s32",
+      "sec": "11.5.10",
+      "title": "STIs: know the risks",
+      "kicker": "Some infections travel only this way",
+      "bullets": [
+        "Infections passed through close sexual contact from an infected to an uninfected person are called STIs.",
+        "They include gonorrhoea, herpes, syphilis, genital warts and HIV, which can eventually lead to AIDS.",
+        "Some STIs are not curable yet, but using condoms can prevent their transmission and also help prevent pregnancy."
+      ],
+      "visual": { "kind": "labels", "items": ["gonorrhoea", "herpes", "syphilis", "genital warts", "HIV leading to AIDS"] }
+    },
+    {
+      "id": "sc-ch11b-s33",
+      "sec": "11.5.10",
+      "title": "Contraceptive methods",
+      "kicker": "Barriers, pills and the copper-T",
+      "bullets": [
+        "Barrier methods like condoms or vaginal covers stop sperm from reaching the egg.",
+        "Oral pills are medicines that change the release of eggs by altering hormones, though they may have some side effects.",
+        "Intra-Uterine Devices like the copper-T are placed in the uterus to avoid pregnancy, though they may sometimes irritate it."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Barrier methods", "items": ["condoms", "vaginal covers", "stop sperm reaching the egg"] },
+        "right": { "title": "Pills and IUDs", "items": ["oral pills alter hormones", "copper-T placed in uterus", "possible side effects"] }
+      }
+    },
+    {
+      "id": "sc-ch11b-s34",
+      "sec": "11.5.10",
+      "title": "Surgery, abortion and the law",
+      "kicker": "Blocking tubes, and a law that protects",
+      "bullets": [
+        "Surgical methods block the vas deferens in males or the fallopian tubes in females, so the sperm and the egg cannot meet.",
+        "An unwanted pregnancy can be removed by surgery, generally only within the first trimester when the embryo is very small; this is abortion.",
+        "Self-selective abortion, often driven by preference for a specific gender, can cause a marked imbalance in the societal sex ratio.",
+        "Prenatal sex determination is strictly prohibited by law in India, to maintain the sex ratio for a healthy, forward-looking society."
+      ],
+      "note": "Beti aur beta barabar; sex determination kanoon se mana hai."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch11b-f1", "sec": "11.5", "front": "Which gametes do mature human reproductive organs produce?", "back": "Sperm in males and eggs in females, once the organs mature during the changes of growing up.", "tag": "definition" },
+    { "id": "sc-ch11b-f2", "sec": "11.5", "front": "What forms when a sperm meets an egg inside the female body?", "back": "A zygote, which develops into an embryo and eventually into a foetus in the uterus.", "tag": "concept" },
+    { "id": "sc-ch11b-f3", "sec": "11.5", "front": "Where does the zygote develop into a foetus?", "back": "In the uterus, the special organ of the female reproductive system where new life grows.", "tag": "concept" },
+    { "id": "sc-ch11b-f4", "sec": "11.5.2", "front": "Where are sperm produced?", "back": "In two oval-shaped organs called testes (testis singular), present in a pouch of skin called the scrotum.", "tag": "definition" },
+    { "id": "sc-ch11b-f5", "sec": "11.5.2", "front": "Why must the scrotum keep the testes cooler than the body?", "back": "Because a temperature slightly cooler than normal body temperature is necessary for sperm formation.", "tag": "concept" },
+    { "id": "sc-ch11b-f6", "sec": "11.5.2", "front": "What is the urethra in the male system?", "back": "A common passage for both urine and sperm; the vas deferens ultimately opens into it.", "tag": "definition" },
+    { "id": "sc-ch11b-f7", "sec": "11.5.2", "front": "What does a sperm use to swim, and where is its genetic material?", "back": "A long tail helps it swim towards the egg; the head contains the genetic material.", "tag": "concept" },
+    { "id": "sc-ch11b-f8", "sec": "11.5.3", "front": "Name the parts of the female reproductive system.", "back": "A pair of ovaries, oviducts (fallopian tubes), a uterus and a vagina.", "tag": "definition" },
+    { "id": "sc-ch11b-f9", "sec": "11.5.3", "front": "What is gametogenesis and where does it take place?", "back": "The formation of gametes by meiosis; it takes place in the testes and the ovaries.", "tag": "definition" },
+    { "id": "sc-ch11b-f10", "sec": "11.5.3", "front": "How many chromosomes are in a human sperm or egg?", "back": "23 each. Body cells have 46, and meiosis halves the number so the zygote gets 46 again.", "tag": "formula" },
+    { "id": "sc-ch11b-f11", "sec": "11.5.3", "front": "What is IVF?", "back": "In-vitro fertilisation: an egg and sperm are combined outside the body, usually in a lab dish; the baby is called a test tube baby.", "tag": "example" },
+    { "id": "sc-ch11b-f12", "sec": "11.5.5", "front": "What is ovulation?", "back": "From puberty onwards, usually one mature egg is released every month from one of the ovaries; this release is ovulation.", "tag": "definition" },
+    { "id": "sc-ch11b-f13", "sec": "11.5.5", "front": "Where does fertilisation usually happen in humans?", "back": "In the oviduct, where the egg arrives and sperm swimming through the reproductive tract may fuse with it.", "tag": "concept" },
+    { "id": "sc-ch11b-f14", "sec": "11.5.5", "front": "What is implantation?", "back": "The dividing zygote embeds into the thick inner lining of the uterus; this marks the beginning of pregnancy.", "tag": "definition" },
+    { "id": "sc-ch11b-f15", "sec": "11.5.6", "front": "What is menstruation?", "back": "If the egg is not fertilised, the uterus lining sheds along with some blood through the vagina; it usually lasts 3 to 7 days.", "tag": "definition" },
+    { "id": "sc-ch11b-f16", "sec": "11.5.6", "front": "How often does the menstrual cycle repeat?", "back": "Typically every 21 to 35 days (often around 28 days), from puberty (about ages 10 to 14) till menopause (around age 50).", "tag": "concept" },
+    { "id": "sc-ch11b-f17", "sec": "11.5.6", "front": "Who determines a baby's biological sex and how?", "back": "The father: the mother always gives an X; an X from the father gives XX (girl), a Y gives XY (boy).", "tag": "concept" },
+    { "id": "sc-ch11b-f18", "sec": "11.5.7", "front": "What are trimesters?", "back": "The three stages into which the about nine months of human pregnancy is divided.", "tag": "definition" },
+    { "id": "sc-ch11b-f19", "sec": "11.5.7", "front": "When does an embryo become a foetus?", "back": "From about the ninth week of pregnancy, after the embryo's major organs start forming in the first two months.", "tag": "concept" },
+    { "id": "sc-ch11b-f20", "sec": "11.5.7", "front": "Why is breastfeeding essential for a newborn?", "back": "A mother's milk gives complete nutrition and protects the infant from many diseases.", "tag": "concept" },
+    { "id": "sc-ch11b-f21", "sec": "11.5.8", "front": "What diet is advised for a pregnant woman?", "back": "A balanced diet rich in proteins, vitamins and minerals, along with regular check-ups, light exercise and rest.", "tag": "example" },
+    { "id": "sc-ch11b-f22", "sec": "11.5.8", "front": "What is postpartum depression?", "back": "Anxiety and fatigue some mothers feel after delivery; it is a real condition that can be treated with a healthcare worker's help.", "tag": "definition" },
+    { "id": "sc-ch11b-f23", "sec": "11.5.8", "front": "Who are ASHA workers?", "back": "Accredited Social Health Activists: over 10 lakh women promoting hygiene, immunisation and family planning under the National Health Mission.", "tag": "trivia" },
+    { "id": "sc-ch11b-f24", "sec": "11.5.9", "front": "What is sexual maturation?", "back": "The gradual process in adolescence by which our bodies become capable of reproduction.", "tag": "definition" },
+    { "id": "sc-ch11b-f25", "sec": "11.5.9", "front": "Does sexual maturity mean readiness for adult responsibilities?", "back": "No. Emotional and social maturity take longer to develop than the body's physical changes.", "tag": "concept" },
+    { "id": "sc-ch11b-f26", "sec": "11.5.9", "front": "What does being emotionally mature involve?", "back": "Handling feelings, communicating clearly and making thoughtful decisions.", "tag": "definition" },
+    { "id": "sc-ch11b-f27", "sec": "11.5.10", "front": "Name some sexually transmitted infections (STIs).", "back": "Gonorrhoea, herpes, syphilis, genital warts and HIV, which can eventually lead to AIDS.", "tag": "definition" },
+    { "id": "sc-ch11b-f28", "sec": "11.5.10", "front": "How does a condom protect?", "back": "It is a barrier that stops sperm from reaching the egg and can prevent the transmission of STIs.", "tag": "concept" },
+    { "id": "sc-ch11b-f29", "sec": "11.5.10", "front": "What is a copper-T?", "back": "An Intra-Uterine Device (IUD) placed in the uterus to avoid pregnancy; it may sometimes irritate the uterus.", "tag": "definition" },
+    { "id": "sc-ch11b-f30", "sec": "11.5.10", "front": "What does Indian law say about prenatal sex determination?", "back": "It is strictly prohibited by law in India, to maintain the sex ratio for a healthy, forward-looking society.", "tag": "trivia" }
+  ],
+  "quiz": [
+    { "id": "sc-ch11b-q1", "sec": "11.5", "q": "When a child grows into an adult, what do the mature reproductive organs begin to produce?", "options": ["Gametes: sperm in males and eggs in females", "Red blood cells in both parents", "Hormones only, never any cells", "New chromosomes from outside"], "answer": 0, "why": "Reproductive organs mature and begin producing gametes, sperm in males and eggs in females.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q2", "sec": "11.5", "q": "Which sequence correctly traces early human development?", "options": ["Embryo, then zygote, then foetus", "Zygote, then embryo, then foetus", "Foetus, then embryo, then zygote", "Zygote, then foetus, then embryo"], "answer": 1, "why": "Sperm and egg form a zygote, which develops into an embryo and eventually a foetus in the uterus.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q3", "sec": "11.5", "q": "Inside which organ does the human zygote grow into a foetus?", "options": ["Ovary", "Oviduct", "Uterus", "Scrotum"], "answer": 2, "why": "The zygote develops into an embryo and eventually into a foetus in the uterus.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q4", "sec": "11.5.2", "q": "Sperm are produced in which structures?", "options": ["The seminal vesicles", "The urethra", "Two oval-shaped testes inside the scrotum", "The prostate gland"], "answer": 2, "why": "Sperm are produced in two oval-shaped testes, which lie in a pouch of skin called the scrotum.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q5", "sec": "11.5.2", "q": "Why does the scrotum hold the testes slightly below the body?", "options": ["To keep them warmer than the rest of the body", "To store urine close to them", "To let sperm exit the body directly", "To keep them slightly cooler than normal body temperature"], "answer": 3, "why": "A temperature slightly cooler than normal body temperature is necessary for sperm formation.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q6", "sec": "11.5.2", "q": "Which path do sperm take to leave the male body?", "options": ["Testes to vas deferens to urethra", "Testes to urethra to vas deferens", "Testes to oviduct to urethra", "Testes to prostate to vas deferens"], "answer": 0, "why": "Sperm travel from the testes through the vas deferens, which opens into the urethra.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q7", "sec": "11.5.2", "q": "A boy's voice cracks and his body changes during puberty because the testes release something. What?", "options": ["A hormone that controls sperm production and body changes", "Fluids from the seminal vesicles", "Extra urine through the urethra", "New chromosomes through the vas deferens"], "answer": 0, "why": "The testes produce a hormone that controls sperm production and causes the physical changes of puberty.", "difficulty": "hard" },
+    { "id": "sc-ch11b-q8", "sec": "11.5.3", "q": "Which organs produce eggs and also release hormones?", "options": ["The oviducts", "The ovaries", "The ureters", "The testes"], "answer": 1, "why": "The ovaries produce the female germ cells, the eggs, and also release hormones.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q9", "sec": "11.5.3", "q": "A human body cell has 46 chromosomes. How many does a sperm have, and why?", "options": ["46, like every body cell", "23, because meiosis halves the number", "92, because meiosis doubles the number", "0, because sperm carry no chromosomes"], "answer": 1, "why": "Gametes are formed by meiosis, which reduces the chromosome number to half, so sperm and eggs have 23.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q10", "sec": "11.5.3", "q": "What is true about India and the history of IVF?", "options": ["Test tube babies form inside a glass test tube", "In 1978, Subhash Mukhopadhyay carried out experimental IVF work in India", "IVF combines two eggs and no sperm", "IVF was invented only outside India"], "answer": 1, "why": "The Meet a Scientist box notes IVF occurs in a culture dish and recalls Subhash Mukhopadhyay's 1978 experimental work.", "difficulty": "hard" },
+    { "id": "sc-ch11b-q11", "sec": "11.5.5", "q": "What is ovulation?", "options": ["The release of one mature egg from an ovary each month", "The shedding of the uterus lining", "The fusion of a sperm and an egg", "The implantation of the zygote"], "answer": 0, "why": "From puberty onwards, usually one mature egg is released every month from one ovary; this is ovulation.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q12", "sec": "11.5.5", "q": "Where does a sperm usually meet and fuse with the egg?", "options": ["In the vagina", "In the oviduct", "In the uterus lining", "In the ovary"], "answer": 1, "why": "Sperm swim through the reproductive tract and may reach the egg in the oviduct, where fertilisation occurs.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q13", "sec": "11.5.5", "q": "Which event marks the beginning of pregnancy?", "options": ["Ovulation", "Menstruation", "Implantation of the zygote in the uterus lining", "The egg entering the vagina"], "answer": 2, "why": "The zygote implants into the inner lining of the uterus; this implantation marks the beginning of pregnancy.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q14", "sec": "11.5.6", "q": "How long does a period (menstruation) usually last?", "options": ["1 to 2 days", "3 to 7 days", "15 to 20 days", "A full month"], "answer": 1, "why": "The shed lining and blood leave through the vagina over about 3 to 7 days.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q15", "sec": "11.5.6", "q": "The menstrual cycle typically repeats every:", "options": ["2 to 3 days", "10 to 15 days", "21 to 35 days, often around 28 days", "90 to 100 days"], "answer": 2, "why": "Ovulation, preparation of the uterus and menstruation repeat typically every 21 to 35 days.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q16", "sec": "11.5.6", "q": "A couple has a baby girl. Whose gamete decided this, and how?", "options": ["The mother, by contributing a Y chromosome", "The father, by contributing an X chromosome, giving XX", "The father, by contributing a Y chromosome, giving XY", "The mother, by choosing which genes the egg carries"], "answer": 1, "why": "The mother always gives an X; an X from the father makes XX, a girl, so the father's gamete decides.", "difficulty": "hard" },
+    { "id": "sc-ch11b-q17", "sec": "11.5.7", "q": "About how long does human pregnancy last, and how is it divided?", "options": ["Six months, divided into two halves", "Nine months, divided into three trimesters", "One year, divided into four seasons", "Five months, divided into five stages"], "answer": 1, "why": "Pregnancy lasts about nine months and is divided into three stages called trimesters.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q18", "sec": "11.5.7", "q": "From about which week is the developing baby called a foetus?", "options": ["The second week", "The thirtieth week", "The ninth week", "Only after birth"], "answer": 2, "why": "The embryo forms in the first two months, and from about the ninth week it is called a foetus.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q19", "sec": "11.5.7", "q": "During childbirth, what helps push the foetus out through the birth canal?", "options": ["Strong contractions of the muscles of the uterus", "Movement of the oviducts", "The baby moving on its own", "Contractions of the scrotum"], "answer": 0, "why": "Strong contractions of the uterus muscles help push the foetus out through the birth canal.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q20", "sec": "11.5.8", "q": "Which diet is advised for a pregnant woman?", "options": ["Only fruits and water", "A balanced diet rich in proteins, vitamins and minerals", "Only fried and spicy food", "Nothing in particular"], "answer": 1, "why": "A balanced diet rich in proteins, vitamins and minerals supports the baby's growth and safety.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q21", "sec": "11.5.8", "q": "A mother feels deep anxiety and fatigue after her delivery. What is this called, and can it be treated?", "options": ["Postpartum depression, and yes, it can be treated", "Ordinary laziness that needs no care", "Postpartum depression, and it is never curable", "Menopause that passes on its own"], "answer": 0, "why": "The book calls it postpartum depression, a condition that can be treated; she should talk to a healthcare worker.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q22", "sec": "11.5.8", "q": "What do ASHA workers do under the National Health Mission?", "options": ["Perform surgeries in large city hospitals", "Promote hygiene, immunisation and family planning, especially in rural areas", "Sell medicines for profit", "Teach only in urban private schools"], "answer": 1, "why": "Over 10 lakh ASHA workers are trained community health workers promoting hygiene, immunisation and family planning.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q23", "sec": "11.5.9", "q": "What does sexual maturation mean?", "options": ["The body is becoming capable of reproduction", "The body stops growing permanently", "The mind stops changing", "The body becomes older than its real age"], "answer": 0, "why": "During adolescence, sexual maturation means the body is gradually becoming capable of reproduction.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q24", "sec": "11.5.9", "q": "A teenager's body has matured sexually. Why is he or she still not fully ready for adult responsibilities?", "options": ["Because emotional maturity takes longer to develop than physical maturity", "Because the body is not really changing at all", "Because adults never mature fully", "Because school blocks emotional growth"], "answer": 0, "why": "Sexual maturity happens gradually, but emotional maturity takes longer; readiness needs both.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q25", "sec": "11.5.9", "q": "Which of these is a sign of emotional maturity?", "options": ["Shouting whenever angry", "Handling feelings, communicating clearly and making thoughtful decisions", "Avoiding every conversation", "Copying friends blindly"], "answer": 1, "why": "Being emotionally mature means handling feelings, communicating clearly and making thoughtful decisions.", "difficulty": "easy" },
+    { "id": "sc-ch11b-q26", "sec": "11.5.10", "q": "Which contraceptive is a barrier that also reduces the spread of STIs?", "options": ["Oral pills", "Copper-T", "Condoms", "Blocking the vas deferens"], "answer": 2, "why": "Condoms are a barrier that stops sperm reaching the egg and can prevent STI transmission.", "difficulty": "medium" },
+    { "id": "sc-ch11b-q27", "sec": "11.5.10", "q": "Which statement about surgical contraceptive methods is correct?", "options": ["Blocking the vas deferens in males or fallopian tubes in females stops sperm and egg from meeting", "Oral pills are the main surgical method", "The copper-T is inserted into the scrotum", "Surgery makes the eggs larger"], "answer": 0, "why": "Surgical methods block the vas deferens or the fallopian tubes so that the sperm and the egg cannot meet.", "difficulty": "hard" },
+    { "id": "sc-ch11b-q28", "sec": "11.5.10", "q": "Why is prenatal sex determination strictly prohibited by law in India?", "options": ["Because the scans are too costly", "Because self-selective abortion driven by gender preference can unbalance the societal sex ratio", "Because doctors dislike doing scans", "Because a baby's sex is decided only after birth"], "answer": 1, "why": "Self-selective abortion for a preferred gender can imbalance the sex ratio, so the law strictly prohibits it.", "difficulty": "medium" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch11b-e1",
+      "title": "Counting chromosomes from parents to baby",
+      "problem": "A human body cell has 46 chromosomes. A sperm from the father is about to fuse with an egg from the mother. How many chromosomes does each gamete carry, and how many will the zygote have? Show the working through meiosis and fertilisation.",
+      "steps": [
+        "Human body cells have 46 chromosomes, arranged as 23 pairs, one chromosome of each pair from each parent.",
+        "Gametes are formed by gametogenesis through meiosis, which reduces the chromosome number to half. So each sperm and each egg carries 46 divided by 2, which is 23 chromosomes.",
+        "During fertilisation in the oviduct, the sperm (23) fuses with the egg (23): 23 + 23 = 46 chromosomes in the zygote.",
+        "The zygote therefore has the same number of chromosomes as the parents' body cells, and it divides by mitosis while travelling to the uterus."
+      ],
+      "answer": "Each gamete has 23 chromosomes, and the zygote formed at fertilisation has 46 chromosomes, the same as a body cell."
+    },
+    {
+      "id": "sc-ch11b-e2",
+      "title": "Predicting Rina's next period",
+      "problem": "Rina's period occurs every 28 days. Her last period was on the 5th of March. On which day is she most likely to get her next period?",
+      "steps": [
+        "The cycle of ovulation, uterus preparation and menstruation repeats typically every 21 to 35 days; Rina's cycle is 28 days.",
+        "Count 28 days from 5 March. March has 31 days, so the days remaining in March after the 5th are 31 - 5 = 26 days.",
+        "The cycle still needs 28 - 26 = 2 more days, which fall at the start of April.",
+        "So the next period is expected on the 2nd of April."
+      ],
+      "answer": "On or around 2 April, because 5 March plus a 28-day cycle lands on 2 April."
+    },
+    {
+      "id": "sc-ch11b-e3",
+      "title": "Placing the milestones of pregnancy",
+      "problem": "A woman is in her 10th week of pregnancy. Her friend says the baby is still called an embryo. Is the friend right? Also arrange the trimester milestones in order, up to childbirth.",
+      "steps": [
+        "In the first trimester, the fertilised egg develops into an embryo during the first two months, and major organs start forming.",
+        "From about the ninth week, the developing embryo is called a foetus. The 10th week is past the ninth, so the baby is now a foetus, not an embryo.",
+        "In the second trimester, the foetus grows bigger and stronger, and the mother can usually feel its movements.",
+        "In the third trimester, the baby grows rapidly and gets ready for life outside the womb.",
+        "At childbirth, strong contractions of the muscles of the uterus push the foetus out through the birth canal."
+      ],
+      "answer": "The friend is wrong: from about the ninth week the baby is a foetus. Order: embryo (first two months), foetus from about week 9, growth and movements in the second trimester, rapid growth in the third, then childbirth."
+    }
+  ]
+}

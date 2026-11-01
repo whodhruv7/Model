@@ -1,0 +1,825 @@
+{
+  "book": "us",
+  "chapter": 101,
+  "title": "Atmosphere and Climate",
+  "grade": 9,
+  "sections": [
+    { "id": "101.1", "title": "Composition of the Atmosphere" },
+    { "id": "101.2", "title": "Weather and Climate" },
+    { "id": "101.3", "title": "Elements of Weather and Climate" },
+    { "id": "101.4", "title": "Seasons in India" },
+    { "id": "101.5", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch101-s1",
+      "sec": "101.1",
+      "title": "Earth's Blanket of Air",
+      "kicker": "Look up: the sky is a life-saving blanket",
+      "bullets": [
+        "The atmosphere is a blanket of air surrounding the Earth, pulled down around it by gravity.",
+        "It is a mixture of gases in various proportions, vital for the survival of all living beings.",
+        "It shields us from the Sun's harmful radiation, including ultraviolet radiation."
+      ],
+      "visual": { "kind": "labels", "items": ["blanket of air", "held by gravity", "mixture of gases", "blocks UV rays"] },
+      "note": "No air, no us. Imagine that for a second!"
+    },
+    {
+      "id": "us-ch101-s2",
+      "sec": "101.1",
+      "title": "Two Gases Rule the Air",
+      "kicker": "Nitrogen and oxygen make 99 per cent of air",
+      "bullets": [
+        "Nitrogen and oxygen are the two primary and most abundant gases, essential to life on the Earth.",
+        "Nitrogen makes up 78 per cent and oxygen 21 per cent of the atmosphere.",
+        "Carbon dioxide, argon, helium, neon, krypton, xenon, ozone and hydrogen appear in lesser quantities."
+      ],
+      "visual": { "kind": "plot", "type": "bar", "xlabel": "Gas", "ylabel": "Share in per cent", "points": [[1, 78], [2, 21], [3, 0.93], [4, 0.04], [5, 0.03]] },
+      "note": "78 plus 21 is 99. Air is basically nitrogen and oxygen."
+    },
+    {
+      "id": "us-ch101-s3",
+      "sec": "101.1",
+      "title": "Vapour, Dust and Height",
+      "kicker": "The tiny parts of air do big jobs",
+      "bullets": [
+        "Water vapour generally ranges from 0.1 to 0.4 per cent of the atmosphere, and the amount varies.",
+        "It plays a significant role in cloud formation and precipitation.",
+        "The atmosphere also carries tiny dust particles, and its composition varies with altitude."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Water vapour", "items": ["0.1 to 0.4 per cent of air", "drives cloud formation and precipitation"] },
+        "right": { "title": "Dust and altitude", "items": ["tiny dust particles float along", "composition changes as you go higher"] }
+      },
+      "note": "Chhoti cheezein, bada kaam."
+    },
+    {
+      "id": "us-ch101-s4",
+      "sec": "101.1",
+      "title": "Why We Need This Blanket",
+      "kicker": "One shield, many superpowers",
+      "bullets": [
+        "The atmosphere regulates the Earth's temperature by trapping some of the Sun's energy.",
+        "It prevents that energy from escaping back into space, keeping the planet comfortable for life.",
+        "It is a key component of weather and climate, influencing temperature, humidity and air pressure."
+      ],
+      "visual": { "kind": "tree", "root": "Jobs of the atmosphere", "children": ["Shields harmful radiation", "Regulates temperature", "Drives weather and climate"] },
+      "note": "LET'S RECALL asks how nitrogen helps plants. Revisit your Grade 8 chapter."
+    },
+    {
+      "id": "us-ch101-s5",
+      "sec": "101.2",
+      "title": "Weather Is Today's Mood",
+      "kicker": "Will it rain today? That is weather",
+      "bullets": [
+        "Weather refers to the hour-to-hour and day-to-day conditions of the atmosphere.",
+        "It can vary significantly from one day to the next.",
+        "Hot or humid weather may make one irritable, while pleasant or breezy weather makes one cheerful or even plans an outing."
+      ],
+      "visual": { "kind": "labels", "items": ["rain today", "sunny noon", "breezy evening", "changes daily"] },
+      "note": "Plan the outing only after checking the sky, dost."
+    },
+    {
+      "id": "us-ch101-s6",
+      "sec": "101.2",
+      "title": "Climate Is the Long Average",
+      "kicker": "Thirty years of weather, summed up",
+      "bullets": [
+        "Climate refers to the average weather conditions of a place over a longer period of time.",
+        "It is the sum total of weather conditions and variations over a large area.",
+        "This extended period is usually thirty years or more."
+      ],
+      "visual": { "kind": "steps", "items": ["Watch the weather every day", "Add up years of records", "Average over thirty years or more", "That long-term pattern is climate"] },
+      "note": "Weather is a mood, climate is a personality."
+    },
+    {
+      "id": "us-ch101-s7",
+      "sec": "101.2",
+      "title": "Weather vs Climate",
+      "kicker": "Same sky, two time scales",
+      "bullets": [
+        "Weather is about right now: today's rain, sunshine or breeze where you live.",
+        "Climate describes a large area over an extended period, so it changes slowly.",
+        "Use weather for today's plans and climate to describe a region's long-term pattern."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Weather", "items": ["hour-to-hour, day-to-day", "changes significantly", "decides today's playtime"] },
+        "right": { "title": "Climate", "items": ["average over 30 years or more", "covers a large area", "changes slowly"] }
+      },
+      "note": "Exam favourite. Keep both definitions ready."
+    },
+    {
+      "id": "us-ch101-s8",
+      "sec": "101.3",
+      "title": "Five Elements in Action",
+      "kicker": "What actually shapes weather and climate",
+      "bullets": [
+        "The major elements are temperature, precipitation, humidity, wind and atmospheric pressure.",
+        "These elements of the atmosphere impact human life on the Earth.",
+        "Each element can change under varying conditions."
+      ],
+      "visual": { "kind": "labels", "items": ["temperature", "precipitation", "humidity", "wind", "air pressure"] },
+      "note": "Memorise this list of five first."
+    },
+    {
+      "id": "us-ch101-s9",
+      "sec": "101.3",
+      "title": "Insolation Sets Temperature",
+      "kicker": "The Sun writes the temperature map",
+      "bullets": [
+        "Insolation is the incoming solar energy from the Sun that is intercepted by the Earth.",
+        "The amount of insolation decreases from the equator towards the poles, where sunlight arrives at a low angle.",
+        "Hence the temperature decreases from the equator towards the poles.",
+        "Temperature also varies between day and night and across seasons, since summers are hotter than winters."
+      ],
+      "visual": { "kind": "flow", "items": ["Sun's rays strike the equator directly", "Rays slant at low angles near the poles", "Insolation falls poleward", "Temperature falls poleward"] },
+      "note": "Insolation means INcoming SOLar energy, intercepted by Earth."
+    },
+    {
+      "id": "us-ch101-s10",
+      "sec": "101.3",
+      "title": "Three Temperature Zones",
+      "kicker": "Torrid, Temperate and Frigid belts",
+      "bullets": [
+        "Sunlight strikes most directly at the equator, so the Torrid Zone around it is the hottest belt.",
+        "The Temperate Zones lie between the Tropics at 23.5 degrees and the Circles at 66.5 degrees.",
+        "The Frigid Zones lie beyond the Arctic and Antarctic Circles, where sunlight comes in at a low angle."
+      ],
+      "visual": { "kind": "tree", "root": "Temperature zones", "children": ["Torrid Zone", "Temperate Zones", "Frigid Zones"] },
+      "note": "23.5 degrees means 23 and a half degrees north or south."
+    },
+    {
+      "id": "us-ch101-s11",
+      "sec": "101.3",
+      "title": "Humidity: Air Holding Water",
+      "kicker": "Gheelesh weather? Thank humidity",
+      "bullets": [
+        "Water evaporating from land and different water bodies becomes water vapour in the air.",
+        "Humidity is the presence of water vapour in the air, creating moisture.",
+        "As air gets warmer, its capacity to hold water vapour increases, so humidity levels rise.",
+        "On such days clothes take longer to dry and sweat evaporates slowly, leaving us uncomfortable."
+      ],
+      "visual": { "kind": "flow", "items": ["Water evaporates from land and seas", "Air carries the water vapour", "Warmer air holds more vapour", "Humid day feels sticky"] },
+      "note": "Sweat refuses to dry on a muggy day."
+    },
+    {
+      "id": "us-ch101-s12",
+      "sec": "101.3",
+      "title": "Precipitation: Air Lets Go",
+      "kicker": "Drizzle to hail, water falls home",
+      "bullets": [
+        "Precipitation occurs when part of the atmosphere becomes saturated with water vapour.",
+        "The vapour condenses and falls on the Earth due to gravity as drizzle, rain, snow, sleet or hail.",
+        "Rain is the most common form of precipitation and lowers the temperature of a place.",
+        "Prevailing winds, mountains and seasons affect precipitation, and most groundwater comes from rainwater."
+      ],
+      "visual": { "kind": "steps", "items": ["Air saturates with water vapour", "Vapour condenses", "Water falls due to gravity", "Rain recharges groundwater"] },
+      "note": "A long absence of rainfall results in a dry climate."
+    },
+    {
+      "id": "us-ch101-s13",
+      "sec": "101.3",
+      "title": "Air Has Weight: Pressure",
+      "kicker": "An invisible ocean pushes on you",
+      "bullets": [
+        "The pressure exerted by the weight of air on the Earth's surface is called air pressure.",
+        "Air pressure is one of the five major elements, and the book explores what happens as we go higher in the atmosphere.",
+        "The chapter asks you to think: why do you not feel the pressure of the atmosphere?"
+      ],
+      "visual": { "kind": "labels", "items": ["weight of air", "Earth's surface", "air pressure", "changes with height"] },
+      "note": "Question 4 of the chapter wants your answer here."
+    },
+    {
+      "id": "us-ch101-s14",
+      "sec": "101.4",
+      "title": "India: Tropical Monsoon Land",
+      "kicker": "One word explains our skies: monsoon",
+      "bullets": [
+        "The climate of India can be broadly classified as tropical monsoon.",
+        "The Indian Meteorological Department, the IMD, has recognised four distinct seasons in India.",
+        "The Himalayan states, being more temperate, also experience two additional seasons, autumn and spring."
+      ],
+      "visual": { "kind": "tree", "root": "IMD's four seasons", "children": ["Winter", "Summer", "Monsoon", "Post-monsoon"] },
+      "note": "IMD means Indian Meteorological Department."
+    },
+    {
+      "id": "us-ch101-s15",
+      "sec": "101.4",
+      "title": "Winter and Summer Compared",
+      "kicker": "From 10 degrees to 40 degrees",
+      "bullets": [
+        "Winter generally lasts from December to early April, and December and January are the coldest months.",
+        "The north-west averages around 10 to 15 degrees Celsius, rising towards the equator to 20 to 25 in the south-east.",
+        "Summer or pre-monsoon spans April to June, up to July in north-western India, with most inland areas at 32 to 40 degrees.",
+        "April is the hottest month in western and southern regions, while May is hottest in northern regions."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Winter", "items": ["December to early April", "Coldest: December and January", "North-west around 10 to 15 degrees"] },
+        "right": { "title": "Summer", "items": ["April to June, or July in the north-west", "Hottest: April in south and west", "Inland averages 32 to 40 degrees"] }
+      },
+      "note": "All temperatures here are in degrees Celsius."
+    },
+    {
+      "id": "us-ch101-s16",
+      "sec": "101.4",
+      "title": "The Advancing Monsoon",
+      "kicker": "June se September: rain takes over",
+      "bullets": [
+        "The monsoon or rainy season, called the advancing monsoon, generally spans June to September.",
+        "It is dominated by the humid south-west summer monsoon, which sweeps across the country in late May or early June.",
+        "Monsoon rain begins to recede from north India at the beginning of October.",
+        "South India typically receives more rainfall during this time."
+      ],
+      "visual": { "kind": "steps", "items": ["Late May or early June: monsoon arrives", "June to September: rains sweep the country", "Early October: rain recedes from north India", "South India receives more rainfall"] },
+      "note": "The four main seasons is a guaranteed exam question."
+    },
+    {
+      "id": "us-ch101-s17",
+      "sec": "101.4",
+      "title": "Retreating Monsoon Months",
+      "kicker": "Clear October skies in the north-west",
+      "bullets": [
+        "The post-monsoon or retreating monsoon season lasts from October to December.",
+        "In north-western India, October and November are usually cloudless.",
+        "The chapter also asks you to distinguish the south-west monsoon from the north-east monsoon."
+      ],
+      "visual": { "kind": "labels", "items": ["October", "November", "December", "cloudless north-west"] },
+      "note": "Practise comparing the two monsoons in your answer."
+    },
+    {
+      "id": "us-ch101-s18",
+      "sec": "101.4",
+      "title": "Six Ritus of Bhaarata",
+      "kicker": "The traditional calendar sings six seasons",
+      "bullets": [
+        "Traditionally, India experiences six seasons, each about two months long.",
+        "They are based on the astronomical division of the 12 months into six parts.",
+        "Vasanta, Grishma, Varsha, Sharad, Hemanta and Shishira map onto the months of the Indian calendar.",
+        "For example, Varsha is Shravana-Bhadrapada, roughly July and August, and durations vary across the country."
+      ],
+      "visual": { "kind": "labels", "items": ["Vasanta", "Grishma", "Varsha", "Sharad", "Hemanta", "Shishira"] },
+      "note": "Hindustani ragas are linked to seasons. Ask your elders."
+    },
+    {
+      "id": "us-ch101-s19",
+      "sec": "101.5",
+      "title": "The Chapter's Question Bank",
+      "kicker": "Time to test your atmosphere knowledge",
+      "bullets": [
+        "The book asks for a pie diagram of the atmosphere's composition and a labelled diagram of its structure.",
+        "You must name the four main seasons of India and distinguish the troposphere from the stratosphere.",
+        "Other questions ask why we do not feel atmospheric pressure, which layer aeroplanes fly in, and why."
+      ],
+      "visual": { "kind": "steps", "items": ["Draw the composition pie", "Sketch the labelled structure", "List the four seasons", "Explain pressure and flying layers"] },
+      "note": "Attempt each one before peeking at any answer."
+    },
+    {
+      "id": "us-ch101-s20",
+      "sec": "101.5",
+      "title": "Graphing Ten Stations",
+      "kicker": "Turn a data table into climate pictures",
+      "bullets": [
+        "Table 3.3 shows average monthly temperatures and rainfall amounts for 10 representative stations.",
+        "The do-it-yourself activity converts these figures into temperature and rainfall graphs.",
+        "The graphs help you grasp similarities and differences in our diverse climatic conditions at a glance."
+      ],
+      "visual": { "kind": "labels", "items": ["10 stations", "monthly temperature", "rainfall in cm", "annual rainfall"] },
+      "note": "One sample graph is already prepared in the book."
+    },
+    {
+      "id": "us-ch101-s21",
+      "sec": "101.5",
+      "title": "Ten Stations, Many Climates",
+      "kicker": "From Leh to Thiruvananthapuram",
+      "bullets": [
+        "The stations range from Thiruvananthapuram at 8 degrees 29 minutes N to Leh at 34 degrees N.",
+        "Altitudes vary too, from Kolkata at 6 metres to Shillong high at 1461 metres, with Bengaluru at 909 metres.",
+        "Activity 7.1 asks you to re-arrange the 10 stations according to their distance from the equator."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Near the equator", "items": ["Thiruvananthapuram 8 degrees 29 minutes N", "Chennai 13 degrees 4 minutes N"] },
+        "right": { "title": "Far from the equator", "items": ["Delhi 29 degrees N", "Leh 34 degrees N"] }
+      },
+      "note": "Same latitude, different altitude, different climate."
+    },
+    {
+      "id": "us-ch101-s22",
+      "sec": "101.5",
+      "title": "Climate Detective Questions",
+      "kicker": "Why more rain here and less there?",
+      "bullets": [
+        "The book asks why Shillong experiences more rainfall than Kolkata, and why Delhi receives more rainfall than Jodhpur.",
+        "You must find two stations with the most extreme climate and two influenced by retreating monsoons.",
+        "Another task is to spot the two hottest stations in February and again in June, then draw broad generalisations."
+      ],
+      "visual": { "kind": "flow", "items": ["Read the station table", "Compare latitudes and altitudes", "Track rainfall patterns", "State your generalisation"] },
+      "note": "Our diverse climatic conditions are the real answer."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch101-f1",
+      "sec": "101.1",
+      "front": "What is the atmosphere?",
+      "back": "A blanket of air surrounding the Earth, held by gravity, made of a mixture of gases vital for all living beings.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f2",
+      "sec": "101.1",
+      "front": "Which two gases are most abundant in air?",
+      "back": "Nitrogen (78 per cent) and oxygen (21 per cent), the two primary gases essential to life on the Earth.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f3",
+      "sec": "101.1",
+      "front": "What per cent of air is water vapour?",
+      "back": "Generally 0.1 to 0.4 per cent, though it varies; it plays a significant role in cloud formation and precipitation.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch101-f4",
+      "sec": "101.1",
+      "front": "Name four gases found in lesser quantities in air.",
+      "back": "Carbon dioxide, argon, helium, neon, krypton, xenon, ozone and hydrogen, in smaller quantities.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f5",
+      "sec": "101.1",
+      "front": "What keeps the atmosphere wrapped around Earth?",
+      "back": "Gravity. Earth's gravity pulls the blanket of air down around the planet.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch101-f6",
+      "sec": "101.2",
+      "front": "Define weather.",
+      "back": "The hour-to-hour and day-to-day conditions of the atmosphere, which can vary significantly day to day.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f7",
+      "sec": "101.2",
+      "front": "Define climate.",
+      "back": "The average weather conditions of a place over a long period, usually thirty years or more.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f8",
+      "sec": "101.2",
+      "front": "How can weather change your mood?",
+      "back": "Hot or humid weather may make one irritable, while pleasant or breezy weather makes one cheerful or plan an outing.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch101-f9",
+      "sec": "101.3",
+      "front": "Name the five major elements of weather and climate.",
+      "back": "Temperature, precipitation, humidity, wind and atmospheric pressure.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f10",
+      "sec": "101.3",
+      "front": "What is insolation?",
+      "back": "The incoming solar energy from the Sun that is intercepted by the Earth.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f11",
+      "sec": "101.3",
+      "front": "Why is it cooler near the poles than at the equator?",
+      "back": "Insolation decreases from the equator towards the poles, so temperature decreases the same way.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch101-f12",
+      "sec": "101.3",
+      "front": "Name the three temperature zones of the Earth.",
+      "back": "The Torrid Zone, the Temperate Zones and the Frigid Zones, shown between 23.5 and 66.5 degree markers.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch101-f13",
+      "sec": "101.3",
+      "front": "Define humidity.",
+      "back": "The presence of water vapour in the air, creating moisture; warmer air can hold more water vapour.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f14",
+      "sec": "101.3",
+      "front": "List the forms of precipitation named in the book.",
+      "back": "Drizzle, rain, snow, sleet and hail. Rain is the most common form.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f15",
+      "sec": "101.3",
+      "front": "Which three main factors affect precipitation?",
+      "back": "Prevailing winds, mountains and seasons.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f16",
+      "sec": "101.3",
+      "front": "What is air pressure?",
+      "back": "The pressure exerted by the weight of air on the Earth's surface.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f17",
+      "sec": "101.4",
+      "front": "Which four seasons does the IMD recognise in India?",
+      "back": "Winter, summer or pre-monsoon, monsoon or advancing monsoon, and post-monsoon or retreating monsoon.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch101-f18",
+      "sec": "101.4",
+      "front": "When are the coldest months in India?",
+      "back": "December and January, with north-west averages around 10 to 15 degrees Celsius.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f19",
+      "sec": "101.4",
+      "front": "Name the six traditional Indian seasons (Rtu).",
+      "back": "Vasanta, Grishma, Varsha, Sharad, Hemanta and Shishira, each about two months long.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f20",
+      "sec": "101.4",
+      "front": "Which extra seasons do the Himalayan states enjoy?",
+      "back": "Autumn and spring, because these states are more temperate.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f21",
+      "sec": "101.4",
+      "front": "Who recorded rainfall measurements long ago in India?",
+      "back": "Kautilya's Arthashastra records scientific rainfall measurements used practically to manage the country.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f22",
+      "sec": "101.5",
+      "front": "What data does Table 3.3 provide?",
+      "back": "Average monthly temperatures and rainfall for 10 representative stations, with annual rainfall totals.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f23",
+      "sec": "101.5",
+      "front": "Which two rain comparisons does the book ask about?",
+      "back": "Why Shillong gets more rainfall than Kolkata, and why Delhi receives more rainfall than Jodhpur.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch101-f24",
+      "sec": "101.5",
+      "front": "What should the station graphs help you see?",
+      "back": "Broad similarities and differences in our diverse climatic conditions, at a glance.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch101-q1",
+      "sec": "101.1",
+      "q": "Which gas makes up about 78 per cent of the atmosphere?",
+      "options": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"],
+      "answer": 0,
+      "why": "The composition pie diagram shows nitrogen at 78 per cent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q2",
+      "sec": "101.1",
+      "q": "Which pair names the two primary and most abundant gases in air?",
+      "options": ["Oxygen and carbon dioxide", "Nitrogen and oxygen", "Nitrogen and argon", "Oxygen and hydrogen"],
+      "answer": 1,
+      "why": "The book calls nitrogen and oxygen the two primary gases essential to life.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q3",
+      "sec": "101.1",
+      "q": "What is the share of argon in the atmosphere?",
+      "options": ["0.04 per cent", "0.03 per cent", "0.93 per cent", "1.93 per cent"],
+      "answer": 2,
+      "why": "The pie diagram lists argon at 0.93 per cent, far more than carbon dioxide's 0.04.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q4",
+      "sec": "101.1",
+      "q": "Which statement about water vapour in the atmosphere is correct?",
+      "options": ["It stays fixed at 5 per cent", "It ranges from 0.1 to 0.4 per cent", "It is present only in summer", "It never varies from place to place"],
+      "answer": 1,
+      "why": "Water vapour generally ranges from 0.1 to 0.4 per cent and its amount varies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q5",
+      "sec": "101.1",
+      "q": "Besides gases, what else does the atmosphere consist of?",
+      "options": ["Water vapour and tiny dust particles", "Tiny dust and sea salt", "Water vapour and soil grains", "Dust and raindrops only"],
+      "answer": 0,
+      "why": "The atmosphere also consists of water vapour and tiny dust particles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q6",
+      "sec": "101.2",
+      "q": "Weather refers to which conditions of the atmosphere?",
+      "options": ["Average over thirty years", "Hour-to-hour and day-to-day", "Only winter conditions", "Yearly rainfall totals"],
+      "answer": 1,
+      "why": "Weather is defined as the hour-to-hour and day-to-day conditions of the atmosphere.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q7",
+      "sec": "101.2",
+      "q": "Climate is usually measured over about how long a period?",
+      "options": ["Three years", "Thirty days", "Thirty years or more", "Thirteen months"],
+      "answer": 2,
+      "why": "Climate averages weather over an extended period, usually thirty years or more.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q8",
+      "sec": "101.2",
+      "q": "Which sentence describes climate, not weather?",
+      "options": ["It may drizzle this evening", "Last week was hotter than this week", "This place gets heavy rain in most years", "The wind feels breezy right now"],
+      "answer": 2,
+      "why": "Climate is the sum total of weather conditions over a large area for an extended period.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q9",
+      "sec": "101.3",
+      "q": "Which of these is NOT a major element of weather and climate?",
+      "options": ["Temperature", "Atmospheric pressure", "Humidity", "Soil texture"],
+      "answer": 3,
+      "why": "The major elements are temperature, precipitation, humidity, wind and atmospheric pressure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q10",
+      "sec": "101.3",
+      "q": "Insolation is best defined as the incoming solar energy that is —",
+      "options": ["radiated by the Earth at night", "intercepted by the Earth", "stored inside mountains", "reflected by the Moon"],
+      "answer": 1,
+      "why": "The book defines insolation as incoming solar energy from the Sun intercepted by the Earth.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q11",
+      "sec": "101.3",
+      "q": "Why does temperature decrease from the equator towards the poles?",
+      "options": ["Wind speeds increase poleward", "Insolation decreases poleward", "Clouds thicken poleward", "Air pressure rises poleward"],
+      "answer": 1,
+      "why": "Insolation decreases from the equator towards the poles, hence temperature falls.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q12",
+      "sec": "101.3",
+      "q": "The most common form of precipitation is —",
+      "options": ["hail", "snow", "sleet", "rain"],
+      "answer": 3,
+      "why": "Rain is the most common form and it lowers the temperature of a place.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q13",
+      "sec": "101.3",
+      "q": "On a very humid day you feel uncomfortable because —",
+      "options": ["sweat evaporates more slowly", "air pressure becomes zero", "temperature drops sharply", "wind stops completely"],
+      "answer": 0,
+      "why": "With high humidity, sweat evaporates slowly and clothes take longer to dry.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q14",
+      "sec": "101.3",
+      "q": "Which sequence correctly describes how precipitation occurs?",
+      "options": ["Air saturates, vapour condenses, gravity pulls it down", "Vapour freezes, wind lifts, clouds dissolve", "Rain falls first, then air saturates", "Gravity condenses air, wind saturates water"],
+      "answer": 0,
+      "why": "Saturated water vapour condenses and precipitates, falling on the Earth due to gravity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch101-q15",
+      "sec": "101.4",
+      "q": "How many distinct seasons does the IMD recognise in India?",
+      "options": ["Two", "Four", "Six", "Eight"],
+      "answer": 1,
+      "why": "The Indian Meteorological Department has recognised four distinct seasons.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q16",
+      "sec": "101.4",
+      "q": "The coldest months of the year in India are —",
+      "options": ["June and July", "April and May", "December and January", "October and November"],
+      "answer": 2,
+      "why": "December and January are coldest, with the north-west averaging 10 to 15 degrees Celsius.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q17",
+      "sec": "101.4",
+      "q": "The advancing monsoon generally spans which months?",
+      "options": ["December to April", "April to June", "October to December", "June to September"],
+      "answer": 3,
+      "why": "The monsoon or rainy season generally spans June to September.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q18",
+      "sec": "101.4",
+      "q": "In which regions is April the hottest month of summer?",
+      "options": ["Northern regions", "Western and southern regions", "Himalayan states", "North-eastern hills"],
+      "answer": 1,
+      "why": "April is hottest in the west and south, while May is hottest in northern regions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q19",
+      "sec": "101.4",
+      "q": "In post-monsoon October and November, north-western India is usually —",
+      "options": ["cloudless", "snowbound", "stormiest", "flooded"],
+      "answer": 0,
+      "why": "The book says north-western India is usually cloudless in October and November.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q20",
+      "sec": "101.4",
+      "q": "Which Rtu pairs with the Indian calendar months Shravana-Bhadrapada?",
+      "options": ["Vasanta", "Varsha", "Sharad", "Shishira"],
+      "answer": 1,
+      "why": "Varsha spans Shravana-Bhadrapada, roughly July and August in the Gregorian calendar.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch101-q21",
+      "sec": "101.4",
+      "q": "Hindustani classical music associates seasons with —",
+      "options": ["certain ragas", "certain instruments", "certain foods", "certain colours"],
+      "answer": 0,
+      "why": "The book says certain ragas are connected to specific seasons.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q22",
+      "sec": "101.5",
+      "q": "Table 3.3 gives temperature and rainfall data for how many stations?",
+      "options": ["5", "8", "10", "12"],
+      "answer": 2,
+      "why": "Table 3.3 lists 10 representative stations across India.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch101-q23",
+      "sec": "101.5",
+      "q": "Which station in Table 3.3 lies farthest from the equator?",
+      "options": ["Delhi at 29 degrees N", "Jodhpur at 26 degrees 18 minutes N", "Leh at 34 degrees N", "Shillong at 24 degrees 34 minutes N"],
+      "answer": 2,
+      "why": "Leh at 34 degrees N has the highest latitude, so it is farthest from the equator.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q24",
+      "sec": "101.5",
+      "q": "Which of these stations is closest to the equator?",
+      "options": ["Chennai at 13 degrees 4 minutes N", "Thiruvananthapuram at 8 degrees 29 minutes N", "Bengaluru at 12 degrees 58 minutes N", "Mumbai at 19 degrees N"],
+      "answer": 1,
+      "why": "Thiruvananthapuram's latitude of 8 degrees 29 minutes N is the lowest in the table.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch101-q25",
+      "sec": "101.5",
+      "q": "Activity 7.1 asks you to re-arrange the ten stations by —",
+      "options": ["their distance from the equator", "their alphabetical order", "their annual rainfall only", "their altitude only"],
+      "answer": 0,
+      "why": "Activity 7.1 says to arrange the stations according to their distance from the equator.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch101-e1",
+      "title": "Check the Air's Pie Chart",
+      "problem": "Use the composition diagram of the atmosphere to verify that the listed gases add up to 100 per cent, and find how much of the air is nitrogen and oxygen together.",
+      "steps": [
+        "List the shares from the diagram: nitrogen 78, oxygen 21, argon 0.93, carbon dioxide 0.04, others 0.03.",
+        "Add them in order: 78 plus 21 gives 99, then 99 plus 0.93 gives 99.93, then 99.93 plus 0.04 gives 99.97, and 99.97 plus 0.03 gives 100.",
+        "So the listed gases account for the entire atmosphere.",
+        "The trace gases beyond nitrogen and oxygen together make only about 1 per cent of the air."
+      ],
+      "answer": "Nitrogen plus oxygen make 99 per cent of the atmosphere, and all listed shares add up to exactly 100 per cent."
+    },
+    {
+      "id": "us-ch101-e2",
+      "title": "Weather or Climate? Decide",
+      "problem": "Classify each observation as weather or climate: a) the sky is cloudy this morning, b) this region receives most of its rain in the monsoon months over the decades, c) yesterday was humid and everyone felt irritable, d) the average conditions of a place over thirty years.",
+      "steps": [
+        "Ask two questions: is it right now or day-to-day, and does it cover a large area over an extended period?",
+        "a) This morning's clouds are hour-to-hour conditions, so it is weather.",
+        "b) A rainfall pattern over decades for a large area is climate.",
+        "c) Yesterday's humidity is a day-to-day condition, so it is weather.",
+        "d) A thirty-year average is exactly the book's definition of climate."
+      ],
+      "answer": "a is weather, b is climate, c is weather, d is climate. The time scale and area size decide the label."
+    },
+    {
+      "id": "us-ch101-e3",
+      "title": "Order the Stations by Latitude",
+      "problem": "Using Table 3.3, arrange Thiruvananthapuram (8 degrees 29 minutes N), Chennai (13 degrees 4 minutes N), Shillong (24 degrees 34 minutes N) and Delhi (29 degrees N) from closest to farthest from the equator.",
+      "steps": [
+        "Convert each latitude to plain degrees: 8 degrees 29 minutes is about 8.5, 13 degrees 4 minutes is about 13.1, 24 degrees 34 minutes is about 24.6, and Delhi is 29.",
+        "Remember the rule: the smaller the latitude, the closer the station sits to the equator.",
+        "Order the values from smallest to largest: 8.5, then 13.1, then 24.6, then 29.",
+        "Match each value back to its station from Table 3.3."
+      ],
+      "answer": "Closest to farthest from the equator: Thiruvananthapuram, Chennai, Shillong, Delhi."
+    },
+    {
+      "id": "us-ch101-e4",
+      "title": "Who Has the Hotter Month?",
+      "problem": "Aditi in northern India says May is the hottest month, while her cousin in southern India says April is. Who is right, and what summer temperatures do most inland places record?",
+      "steps": [
+        "Check the book's facts for the summer or pre-monsoon season, which spans April to June.",
+        "In western and southern regions, the hottest month is April.",
+        "In northern regions, the hottest month is May.",
+        "The average temperature across most of inland India in this season ranges from 32 to 40 degrees Celsius."
+      ],
+      "answer": "Both are right in their own regions: April in the south and west, May in the north, with inland summer averages of 32 to 40 degrees Celsius."
+    }
+  ],
+  "conceptMap": {
+    "center": "Atmosphere and Climate",
+    "groups": [
+      { "id": "g1", "label": "Air Mix" },
+      { "id": "g2", "label": "Weather Elements" },
+      { "id": "g3", "label": "Heat and Zones" },
+      { "id": "g4", "label": "Indian Seasons" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Nitrogen 78%", "group": "g1" },
+      { "id": "n2", "label": "Oxygen 21%", "group": "g1" },
+      { "id": "n3", "label": "Water vapour", "group": "g1" },
+      { "id": "n4", "label": "Weather", "group": "g2" },
+      { "id": "n5", "label": "Climate", "group": "g2" },
+      { "id": "n6", "label": "Temperature", "group": "g2" },
+      { "id": "n7", "label": "Humidity", "group": "g2" },
+      { "id": "n8", "label": "Precipitation", "group": "g2" },
+      { "id": "n9", "label": "Air pressure", "group": "g2" },
+      { "id": "n10", "label": "Insolation", "group": "g3" },
+      { "id": "n11", "label": "Temperature zones", "group": "g3" },
+      { "id": "n12", "label": "IMD four seasons", "group": "g4" },
+      { "id": "n13", "label": "Six ritus", "group": "g4" },
+      { "id": "n14", "label": "Monsoon rains", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n10", "to": "n6", "label": "incoming solar energy" },
+      { "from": "n6", "to": "n11", "label": "three zones form" },
+      { "from": "n6", "to": "n7", "label": "warm air holds more" },
+      { "from": "n3", "to": "n7", "label": "creates moisture" },
+      { "from": "n7", "to": "n8", "label": "saturated air condenses" },
+      { "from": "n8", "to": "n5", "label": "no rain, dry climate" },
+      { "from": "n6", "to": "n4", "label": "daily element" },
+      { "from": "n9", "to": "n4", "label": "daily element" },
+      { "from": "n4", "to": "n5", "label": "averaged over decades" },
+      { "from": "n8", "to": "n14", "label": "monsoon delivers rain" },
+      { "from": "n14", "to": "n12", "label": "June to September" },
+      { "from": "n12", "to": "n13", "label": "four versus six" },
+      { "from": "n1", "to": "n2", "label": "make 99% of air" },
+      { "from": "n2", "to": "n4", "label": "essential to life" }
+    ]
+  },
+  "flowchart": {
+    "title": "how this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Air held by gravity", "detail": "A blanket of mixed gases surrounds the Earth and shields it from harmful radiation." },
+      { "id": "s2", "label": "Mix of gases", "detail": "Nitrogen 78 per cent and oxygen 21 per cent, plus water vapour, dust and trace gases." },
+      { "id": "s3", "label": "Daily weather", "detail": "Hour-to-hour and day-to-day conditions like rain, sunshine or breeze." },
+      { "id": "s4", "label": "Long-term climate", "detail": "Weather averaged over a large area for thirty years or more." },
+      { "id": "s5", "label": "Elements interact", "detail": "Insolation, temperature, humidity, precipitation and air pressure change together." },
+      { "id": "s6", "label": "Seasons cycle", "detail": "India's tropical monsoon climate cycles through the IMD's four seasons." },
+      { "id": "s7", "label": "Read climate data", "detail": "Station tables turned into temperature-rainfall graphs reveal our diverse climates." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
+  }
+}

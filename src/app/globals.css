@@ -380,3 +380,91 @@
     touch-action: manipulation;
   }
 }
+
+/* ===== Notebook / school-paper design system (Learn modules) ===== */
+:root {
+  --paper: #fffdf6;
+  --paper-rule: #cfe0ee;
+  --paper-margin: #f3b8a5;
+  --ink: #2b3a67;
+  --ink-soft: #5a6b8c;
+  --pencil: #3f4d6b;
+  --tape: #ffe9a8;
+  --table-green: #bfe3c6;
+  --desk: #102b4c;
+}
+.font-hand { font-family: var(--font-hand), cursive; }
+.font-note { font-family: var(--font-note), cursive; }
+
+/* a real sheet of school paper: cream, ruled lines, red margin, punch holes */
+.paper-sheet {
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 14px 26px, #dbe4f0 6px, transparent 7px),
+    linear-gradient(to bottom, transparent 31px, var(--paper-rule) 31px, var(--paper-rule) 32px, transparent 32px);
+  background-size: 100% 52px, 100% 32px;
+  background-position: 0 0, 0 0;
+  position: relative;
+  color: var(--ink);
+}
+.paper-sheet::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: 44px;
+  width: 1.5px;
+  background: var(--paper-margin);
+  opacity: 0.75;
+  pointer-events: none;
+}
+.paper-body { padding-left: 60px; } /* text clears the margin line */
+
+/* torn-top sheet edge for flashcards */
+.torn-top {
+  -webkit-mask-image: linear-gradient(to right, black 0 2%, black 96% 100%);
+  mask-image: linear-gradient(to right, black 0 2%, black 96% 100%);
+}
+
+/* washi tape strip */
+.tape {
+  position: absolute;
+  width: 92px; height: 26px;
+  background: var(--tape);
+  opacity: 0.85;
+  transform: rotate(-4deg);
+  border-left: 1px dashed rgba(0,0,0,0.08);
+  border-right: 1px dashed rgba(0,0,0,0.08);
+  box-shadow: 0 1px 3px rgba(43,58,103,0.12);
+}
+
+/* flashcard 3D flip */
+.flip-scene { perspective: 1200px; }
+.flip-inner { position: relative; transform-style: preserve-3d; transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.25, 1); }
+.flip-inner.flipped { transform: rotateY(180deg); }
+.flip-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateY(180deg); }
+
+/* hand-drawn dashed connector (flow maps, concept maps) */
+.sketch-line { stroke-dasharray: 6 5; stroke-linecap: round; animation: dash-march 1.2s linear infinite; }
+@keyframes dash-march { to { stroke-dashoffset: -11; } }
+
+/* island node on the flow map */
+.island {
+  background: linear-gradient(160deg, #ffffff 0%, #eaf4ff 55%, #d7e9f5 100%);
+  border: 2px solid #b9d4ea;
+  box-shadow: 0 10px 22px rgba(16, 43, 76, 0.16), 0 2px 0 #ffffff inset;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.island:hover { transform: translateY(-4px) rotate(-0.6deg); box-shadow: 0 16px 30px rgba(16, 43, 76, 0.22); }
+.island.done { border-color: #9fd8a8; background: linear-gradient(160deg, #ffffff 0%, #ecf8ee 55%, #d9f2dd 100%); }
+.island.active { border-color: #f0b490; background: linear-gradient(160deg, #ffffff 0%, #fff1e7 55%, #ffe4d3 100%); }
+
+/* full-screen slide stage */
+.slide-stage {
+  background:
+    radial-gradient(1200px 500px at 85% -10%, rgba(214, 233, 245, 0.5), transparent 60%),
+    linear-gradient(180deg, #fbfdff 0%, #f3f8fd 100%);
+}
+.slide-dot { transition: all 0.25s ease; }
+
+/* notebook margin scribble */
+.scribble { font-family: var(--font-hand), cursive; color: #b0552f; transform: rotate(-1.2deg); }

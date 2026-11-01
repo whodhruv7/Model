@@ -1,0 +1,1186 @@
+{
+  "book": "us",
+  "chapter": 109,
+  "title": "From Ideas to Startups",
+  "grade": 9,
+  "sections": [
+    {
+      "id": "109.1",
+      "title": "Business Plan"
+    },
+    {
+      "id": "109.2",
+      "title": "Functional Areas of a Business"
+    },
+    {
+      "id": "109.3",
+      "title": "Human Resources"
+    },
+    {
+      "id": "109.4",
+      "title": "Marketing and Sales"
+    },
+    {
+      "id": "109.5",
+      "title": "Startups and Their Contribution to the Nation"
+    }
+  ],
+  "slides": [
+    {
+      "id": "us-ch109-s1",
+      "sec": "109.1",
+      "title": "What Is a Business Plan",
+      "kicker": "Every great business starts with an idea to innovate",
+      "bullets": [
+        "A business plan is a written document, a blueprint explaining the goals of the business and the steps to achieve them.",
+        "It guides the entrepreneur from the initial idea stage to successfully starting and running the business.",
+        "It is a roadmap for decision making: stay organised, set priorities, and work systematically to grow."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Spot the idea",
+          "Write the plan",
+          "Start the bakery",
+          "Grow step by step"
+        ]
+      },
+      "note": "Pehle plan, phir party!"
+    },
+    {
+      "id": "us-ch109-s2",
+      "sec": "109.1",
+      "title": "Eight Key Questions",
+      "kicker": "The bakery plan starts with eight careful questions",
+      "bullets": [
+        "Needs and idea: what do people need, can it be produced, and what problem does it solve?",
+        "Also think about customers, money and costs, location, human resources, pricing, promotion, and risks.",
+        "Funding can come from friends, family, or investors, and selling can happen at a store or online."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Business Plan",
+        "children": [
+          "Needs and Idea",
+          "Potential Customers",
+          "Money and Costs",
+          "Location",
+          "Pricing and Profits",
+          "Challenges and Risks"
+        ]
+      },
+      "note": "Eight questions before the first cupcake is baked."
+    },
+    {
+      "id": "us-ch109-s3",
+      "sec": "109.1",
+      "title": "Know Your Bakery Customers",
+      "kicker": "Right product for the right people wins",
+      "bullets": [
+        "Do customers prefer fresh bread, cakes, pastries, or healthier options like whole wheat products?",
+        "Specialise: cupcakes for children, savoury snacks for young adults, or everyday breads for families.",
+        "Fresh, affordable, or unique baked goods can offer what was not available in the area before."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Children and Families",
+          "items": [
+            "Cupcakes for children",
+            "Everyday breads and confectionery"
+          ]
+        },
+        "right": {
+          "title": "Young Adults",
+          "items": [
+            "Savoury snacks",
+            "Unique new bakes"
+          ]
+        }
+      },
+      "note": "Customer pehchano, business badhao!"
+    },
+    {
+      "id": "us-ch109-s4",
+      "sec": "109.1",
+      "title": "Money, Risks and Planning",
+      "kicker": "A robust financial start needs planning",
+      "bullets": [
+        "Money and costs: how much money is needed, what are the costs, and who will fund it?",
+        "Pricing and profits: decide the price and work out how much profit can be made.",
+        "Challenges and risks: identify threats to operations and causes of loss before they strike."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "Funding",
+          "Pricing",
+          "Profit",
+          "Risks",
+          "Location",
+          "Marketing"
+        ]
+      },
+      "note": "Risk soch lo abhi, loss baad mein nahi jheena."
+    },
+    {
+      "id": "us-ch109-s5",
+      "sec": "109.2",
+      "title": "Four Pillars of Business",
+      "kicker": "Every successful business runs on four key pillars",
+      "bullets": [
+        "The main functional areas are management and operations, finance and accounting, human resources, and marketing and sales.",
+        "Each area has a specific function and helps the business run smoothly.",
+        "Together, the four pillars turn goals into growth."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Functional Areas",
+        "children": [
+          "Management and Operations",
+          "Finance and Accounting",
+          "Human Resources",
+          "Marketing and Sales"
+        ]
+      },
+      "note": "Chaar stambh, ek business!"
+    },
+    {
+      "id": "us-ch109-s6",
+      "sec": "109.2",
+      "title": "Meet the Four Areas",
+      "kicker": "Each pillar has its own speciality",
+      "bullets": [
+        "Human resources manages people; marketing and sales spreads awareness and drives sales.",
+        "Management and operations run the daily work; finance and accounting guard the money.",
+        "Knowing each area helps you decide who does what in your bakery."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Human Resources",
+          "items": [
+            "Managing people",
+            "Right people and skills"
+          ]
+        },
+        "right": {
+          "title": "Marketing and Sales",
+          "items": [
+            "Spreading awareness",
+            "Driving sales and growth"
+          ]
+        }
+      },
+      "note": "Har pillar ki apni duty hai."
+    },
+    {
+      "id": "us-ch109-s7",
+      "sec": "109.2",
+      "title": "Why Areas Matter",
+      "kicker": "Structure and coordination help a business grow",
+      "bullets": [
+        "Functional areas improve decision making and ensure resources are used properly.",
+        "They provide structure and better coordination across the whole business.",
+        "When each area does its job well, the business grows successfully."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Set goals",
+          "Divide the work",
+          "Coordinate resources",
+          "Grow the business"
+        ]
+      },
+      "note": "Teamwork makes the dream work."
+    },
+    {
+      "id": "us-ch109-s8",
+      "sec": "109.3",
+      "title": "Human Resources at Work",
+      "kicker": "Right people, right skills, right attitude",
+      "bullets": [
+        "Human resources manages people; the key focus is the right people and skills.",
+        "Examples: hiring new staff, managing employee benefits, and handling workplace conflict resolution.",
+        "Good HR keeps the team happy so the bakery runs without trouble."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "Hiring",
+          "Benefits",
+          "Conflict Resolution",
+          "Skills"
+        ]
+      },
+      "note": "Sahi log, sahi kaam."
+    },
+    {
+      "id": "us-ch109-s9",
+      "sec": "109.3",
+      "title": "Management and Operations",
+      "kicker": "Plan well, deliver fresh, waste nothing",
+      "bullets": [
+        "Management plans, organises, and guides the use of resources to achieve goals like market share through customer satisfaction.",
+        "Operations focuses on producing and delivering goods or services efficiently and on time.",
+        "Bakery work: choose the right equipment, arrange ingredients, monitor quality, and plan daily production."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Plan",
+          "Organise",
+          "Produce",
+          "Deliver on time"
+        ]
+      },
+      "note": "Fresh bakes, no delay, no wastage."
+    },
+    {
+      "id": "us-ch109-s10",
+      "sec": "109.3",
+      "title": "Finance Pays the Bills",
+      "kicker": "Money planning keeps the ovens running",
+      "bullets": [
+        "Finance is the management of money: planning, obtaining, and using funds to operate and grow.",
+        "Fixed costs stay constant: rent and equipment like ovens, mixers, and refrigerators.",
+        "Variable costs change with output: ingredients and packaging. Also plan investment and cash flow."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Fixed Costs",
+          "items": [
+            "Rent",
+            "Ovens, mixers, refrigerators",
+            "Insurance"
+          ]
+        },
+        "right": {
+          "title": "Variable Costs",
+          "items": [
+            "Ingredients",
+            "Packaging",
+            "Rise and fall with output"
+          ]
+        }
+      },
+      "note": "Rent to dena hi hai, chahe ek cake bike."
+    },
+    {
+      "id": "us-ch109-s11",
+      "sec": "109.3",
+      "title": "Accounting Tells the Truth",
+      "kicker": "Revenue minus expenses, written clearly",
+      "bullets": [
+        "Accounting records, organises, and reports the business financial transactions.",
+        "Track money coming in (revenue) and money going out (expenses), and keep records correct.",
+        "The profit and loss account, or income statement, shows whether the business made a profit or a loss.",
+        "Investment means putting money into a venture expecting future income, profit, or value appreciation."
+      ],
+      "note": "Numbers jhooth nahi bolte!"
+    },
+    {
+      "id": "us-ch109-s12",
+      "sec": "109.4",
+      "title": "Marketing and Sales",
+      "kicker": "Attract customers, then convince them to buy",
+      "bullets": [
+        "The marketing and sales team helps attract customers and convinces them to buy the products.",
+        "Bakery moves: choose a catchy name, promote the business on social media, and offer discounts."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "Catchy Name",
+          "Social Media",
+          "Discounts",
+          "Online Ordering"
+        ]
+      },
+      "note": "Naam catchy, cake tastier."
+    },
+    {
+      "id": "us-ch109-s13",
+      "sec": "109.4",
+      "title": "Simple Winning Strategies",
+      "kicker": "Mango cake season, orders online",
+      "bullets": [
+        "Create unique or seasonal items and customised desserts like a mango-flavoured cake.",
+        "Use social media to share photos and videos for awareness; offer discounts, deals, or special offers.",
+        "Provide easy online ordering and delivery; promote eco-friendly practices like recyclable packaging."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Create seasonal items",
+          "Post on social media",
+          "Offer deals",
+          "Deliver online"
+        ]
+      },
+      "note": "Mango cake + Instagram = customers."
+    },
+    {
+      "id": "us-ch109-s14",
+      "sec": "109.4",
+      "title": "India's Trading Communities",
+      "kicker": "Entrepreneurship runs deep in our roots",
+      "bullets": [
+        "Skills, occupations, and occupational knowledge have been passed down through generations.",
+        "Long before modern startups, traditional communities practised self-employment, innovation, and trade.",
+        "These communities formed the backbone of India's local economy."
+      ],
+      "note": "Startup se pehle, seva aur vyapar."
+    },
+    {
+      "id": "us-ch109-s15",
+      "sec": "109.4",
+      "title": "The Chettiar Story",
+      "kicker": "Trust, discipline, and long-term vision",
+      "bullets": [
+        "The Nattukottai Chettiar community of Tamil Nadu were traders, bankers, and moneylenders.",
+        "They operated across India, Sri Lanka, Burma (now Myanmar), Malaysia, and Southeast Asia.",
+        "Known for trust-based lending, excellent record-keeping, and reinvesting profits into trade, temples, education, and welfare.",
+        "They built wealth through trade in salt, rice, textiles, and finance, often without formal banks."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "Trade",
+          "Banking",
+          "Record-keeping",
+          "Reinvestment"
+        ]
+      },
+      "note": "Ledger strong, legacy stronger."
+    },
+    {
+      "id": "us-ch109-s16",
+      "sec": "109.5",
+      "title": "Failure Is a Teacher",
+      "kicker": "Honest effort makes failure okay",
+      "bullets": [
+        "Some startups grow rapidly while others struggle or even close down.",
+        "There is nothing wrong with failure if an honest effort has been made; every attempt teaches lessons.",
+        "Swami Vivekananda said: Arise, awake and stop not till the goal is reached."
+      ],
+      "note": "Girna buri baat nahi, rukna buri baat hai!"
+    },
+    {
+      "id": "us-ch109-s17",
+      "sec": "109.5",
+      "title": "India's Startup Power",
+      "kicker": "Third-largest startup ecosystem in the world",
+      "bullets": [
+        "Powered by its young and talented population, India is the third-largest startup ecosystem in the world.",
+        "Around 120 unicorns (startups valued at over 1 billion dollars) in 2025 work in e-commerce, fin-tech, health-tech, and agri-tech.",
+        "Major hubs: Bengaluru, Hyderabad, Mumbai, and Delhi NCR."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": [
+          "E-commerce",
+          "Fin-tech",
+          "Health-tech",
+          "Agri-tech",
+          "Unicorns"
+        ]
+      },
+      "note": "120 unicorns and counting!"
+    },
+    {
+      "id": "us-ch109-s18",
+      "sec": "109.5",
+      "title": "Government Schemes",
+      "kicker": "Startup India backs a self-reliant India",
+      "bullets": [
+        "Startup India supports the vision of Atmanirbhar Bharat: self-reliance through innovation and local solutions.",
+        "Atmanirbhar Bharat, launched in 2020, aims to make the country self-sustaining, boost domestic manufacturing, and reduce import dependency.",
+        "Viksit Bharat 2047 envisions a fully developed India by 2047, marking 100 years of independence."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Startup India",
+          "Atmanirbhar Bharat",
+          "Viksit Bharat 2047",
+          "Developed Nation"
+        ]
+      },
+      "note": "Sarkar saath hai, startup badho."
+    },
+    {
+      "id": "us-ch109-s19",
+      "sec": "109.5",
+      "title": "Startups Serve the Nation",
+      "kicker": "Jobs, taxes, and a better life",
+      "bullets": [
+        "Startups create jobs and income for households and pay taxes to the government.",
+        "They improve quality of life through medicines, transportation, technology, and innovations.",
+        "They support sustainability and drive economic growth towards Viksit Bharat 2047."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Startup Contribution",
+        "children": [
+          "Jobs and Income",
+          "Taxes to Government",
+          "Quality of Life",
+          "Economic Growth"
+        ]
+      },
+      "note": "Agle founder shayad aap hi ho!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch109-f1",
+      "sec": "109.1",
+      "front": "What is entrepreneurship?",
+      "back": "A process through which individuals, or a group of individuals, convert a potential idea into a business venture.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f2",
+      "sec": "109.1",
+      "front": "What is a business plan?",
+      "back": "A written document, a blueprint explaining the goals of the business and the steps to achieve them.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f3",
+      "sec": "109.1",
+      "front": "Name four considerations while making a business plan.",
+      "back": "Needs and idea, potential customers, money and costs, location, human resources, pricing, promotion, and risks.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch109-f4",
+      "sec": "109.1",
+      "front": "Who can fund a new business, per the book?",
+      "back": "Funding sources can include friends, family, and investors.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch109-f5",
+      "sec": "109.1",
+      "front": "Give a bakery example of understanding customer needs.",
+      "back": "Check whether customers prefer fresh bread, cakes, pastries, or healthier options like whole wheat products.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch109-f6",
+      "sec": "109.2",
+      "front": "What are the four functional areas of a business?",
+      "back": "Management and operations, finance and accounting, human resources, and marketing and sales.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f7",
+      "sec": "109.2",
+      "front": "How do functional areas help a business?",
+      "back": "They improve decision making, ensure resources are used properly, and give structure and coordination for growth.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch109-f8",
+      "sec": "109.2",
+      "front": "Complete the line: every successful business runs on four key pillars. Together, they turn what into what?",
+      "back": "They turn goals into growth.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch109-f9",
+      "sec": "109.3",
+      "front": "What is the key focus of human resources?",
+      "back": "The right people and skills: hiring staff, managing employee benefits, and handling workplace conflict resolution.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f10",
+      "sec": "109.3",
+      "front": "Define fixed cost.",
+      "back": "Expenses that remain constant regardless of production or sales levels, like rent, salaries, or insurance.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f11",
+      "sec": "109.3",
+      "front": "Define variable cost.",
+      "back": "Expenses that change in direct proportion to the volume of goods produced or sold, like raw materials and packaging.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f12",
+      "sec": "109.3",
+      "front": "What does operations handle in a bakery?",
+      "back": "Choosing equipment, arranging ingredients, monitoring quality, and planning daily production without delay or wastage.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch109-f13",
+      "sec": "109.3",
+      "front": "What is the profit and loss account?",
+      "back": "An important accounting record, also called the income statement, showing whether the business made a profit or a loss.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f14",
+      "sec": "109.3",
+      "front": "Define investment.",
+      "back": "Allocating money or resources into an asset, venture, or project expecting future income, profit, or value appreciation.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f15",
+      "sec": "109.4",
+      "front": "What is the job of the marketing and sales team?",
+      "back": "To attract customers and convince them to buy, using a catchy name, social media, and discounts.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch109-f16",
+      "sec": "109.4",
+      "front": "Name three marketing strategies from the book.",
+      "back": "Seasonal desserts like mango-flavoured cake, social media photos and videos, and easy online ordering with delivery.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch109-f17",
+      "sec": "109.4",
+      "front": "Which Tamil Nadu community is famous for trade and banking?",
+      "back": "The Chettiar (Nattukottai Chettiar) community, known as traders, bankers, and moneylenders.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch109-f18",
+      "sec": "109.4",
+      "front": "What were the Chettiars known for?",
+      "back": "Trust-based lending, excellent accounting and record-keeping, and reinvesting profits into trade, temples, education, and welfare.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch109-f19",
+      "sec": "109.5",
+      "front": "What is a unicorn?",
+      "back": "A startup valued at over 1 billion dollars; India had around 120 unicorns in 2025.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f20",
+      "sec": "109.5",
+      "front": "What is Atmanirbhar Bharat?",
+      "back": "A national policy framework launched in 2020 to make India self-sustaining, boost domestic manufacturing, and reduce import dependency.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f21",
+      "sec": "109.5",
+      "front": "What is Viksit Bharat 2047?",
+      "back": "The government's vision to transform India into a fully developed nation by 2047, marking 100 years of independence.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch109-f22",
+      "sec": "109.5",
+      "front": "How should entrepreneurs treat failure?",
+      "back": "There is nothing wrong with failure if the effort is honest; each unsuccessful attempt teaches lessons for better businesses.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch109-q1",
+      "sec": "109.1",
+      "q": "A business plan is best described as a:",
+      "options": [
+        "Written document explaining business goals and the steps to achieve them",
+        "Secret recipe list of the bakery",
+        "Government tax form filed every year",
+        "School timetable for the owner"
+      ],
+      "answer": 0,
+      "why": "The book calls it a written document, a blueprint of goals and the steps to achieve them.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q2",
+      "sec": "109.1",
+      "q": "Which question belongs under the 'Needs and Idea' part of a plan?",
+      "options": [
+        "What problem does our product solve?",
+        "How much rent will the shop pay?",
+        "Which TV channel will show our advertisement?",
+        "How many workers should we hire?"
+      ],
+      "answer": 0,
+      "why": "Needs and Idea asks what people need, whether it can be produced, and what problem it solves.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q3",
+      "sec": "109.1",
+      "q": "While identifying potential customers for a bakery, whom might you target?",
+      "options": [
+        "Children, young adults, and families",
+        "Only other bakery owners",
+        "Only the shop landlord",
+        "Only tourists from abroad"
+      ],
+      "answer": 0,
+      "why": "The book suggests cupcakes for children, savoury snacks for young adults, and breads for families.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q4",
+      "sec": "109.1",
+      "q": "Why does an entrepreneur keep using the business plan even after opening?",
+      "options": [
+        "As a roadmap for decisions, priorities, and systematic growth",
+        "To guarantee that no competitor will ever open nearby",
+        "To fix the market price of lemons",
+        "To avoid keeping any financial records"
+      ],
+      "answer": 0,
+      "why": "The plan serves as a guide and roadmap for decision making, helping the business grow.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch109-q5",
+      "sec": "109.2",
+      "q": "Which set correctly lists the four functional areas of a business?",
+      "options": [
+        "Management and operations, finance and accounting, human resources, marketing and sales",
+        "Production, transport, insurance and storage",
+        "Buying, selling, renting and lending",
+        "Design, baking, packing and delivering"
+      ],
+      "answer": 0,
+      "why": "The book groups business questions into these four main functional areas.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q6",
+      "sec": "109.2",
+      "q": "Functional areas mainly help a business by:",
+      "options": [
+        "Improving decision making and using resources properly",
+        "Making the shop look colourful",
+        "Reducing the number of customers",
+        "Removing the need for a business plan"
+      ],
+      "answer": 0,
+      "why": "Each area has a specific function and improves decision making and resource use.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q7",
+      "sec": "109.2",
+      "q": "According to the book, the four pillars together:",
+      "options": [
+        "Turn goals into growth with structure and coordination",
+        "Work separately and never share information",
+        "Only matter for online businesses",
+        "Replace the need for planning"
+      ],
+      "answer": 0,
+      "why": "Together they provide structure, better coordination, and help the business grow successfully.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q8",
+      "sec": "109.3",
+      "q": "The key focus of the human resources area is:",
+      "options": [
+        "Getting the right people and skills",
+        "Choosing the shop's catchy name",
+        "Buying ovens and mixers",
+        "Setting the price of pastries"
+      ],
+      "answer": 0,
+      "why": "Human resources manages people, with the key focus on right people and skills.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q9",
+      "sec": "109.3",
+      "q": "Which of these is a fixed cost for the bakery?",
+      "options": [
+        "Rent of the shop",
+        "Flour for daily baking",
+        "Packaging boxes",
+        "Sugar bought every week"
+      ],
+      "answer": 0,
+      "why": "Fixed costs stay constant regardless of output; the book lists rent as an example.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q10",
+      "sec": "109.3",
+      "q": "Variable costs are best defined as expenses that:",
+      "options": [
+        "Change in direct proportion to the volume produced or sold",
+        "Never change no matter what happens",
+        "Are kept aside only for paying taxes",
+        "Are paid only during festivals"
+      ],
+      "answer": 0,
+      "why": "Variable costs rise as production rises and fall as production falls, like raw materials.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q11",
+      "sec": "109.3",
+      "q": "In accounting, the money coming into a business is called:",
+      "options": [
+        "Revenue",
+        "Expense",
+        "Investment",
+        "Overhead"
+      ],
+      "answer": 0,
+      "why": "Accounting tracks money coming in (revenue) and money going out (expenses).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q12",
+      "sec": "109.3",
+      "q": "Which of the following correctly describes investment?",
+      "options": [
+        "Putting money into a venture expecting future income or value growth",
+        "Paying the monthly rent on time",
+        "Keeping all cash locked in a drawer",
+        "Spending the entire profit on a party"
+      ],
+      "answer": 0,
+      "why": "Investment allocates money into an asset or project expecting future income, profit, or appreciation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch109-q13",
+      "sec": "109.4",
+      "q": "The main job of the marketing and sales team is to:",
+      "options": [
+        "Attract customers and convince them to buy",
+        "Bake the bread fresh each morning",
+        "Repair the refrigerators",
+        "Record the daily expenses"
+      ],
+      "answer": 0,
+      "why": "Marketing and sales attracts customers and convinces them to buy the products.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q14",
+      "sec": "109.4",
+      "q": "Which dessert does the book give as an example of a customised, seasonal item?",
+      "options": [
+        "Mango-flavoured cake",
+        "Chocolate doughnut",
+        "Strawberry smoothie",
+        "Vanilla biscuit"
+      ],
+      "answer": 0,
+      "why": "The book suggests creating unique or seasonal items like a mango-flavoured cake.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q15",
+      "sec": "109.4",
+      "q": "Historically, the Chettiar community worked as:",
+      "options": [
+        "Traders, bankers, and moneylenders",
+        "Only spice exporters",
+        "Only diamond merchants",
+        "Only railway contractors"
+      ],
+      "answer": 0,
+      "why": "Chettiars were traders, bankers, and moneylenders across India and Southeast Asia.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q16",
+      "sec": "109.4",
+      "q": "Why do the Chettiars still inspire modern India?",
+      "options": [
+        "Risk-taking, discipline, and long-term vision built sustainable businesses",
+        "They never faced any business risk",
+        "They avoided keeping any records",
+        "They spent all profits immediately"
+      ],
+      "answer": 0,
+      "why": "The book says Chettiar entrepreneurship shows how risk-taking, discipline, and vision build sustainable businesses.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch109-q17",
+      "sec": "109.5",
+      "q": "Atmanirbhar Bharat was launched by the government in:",
+      "options": [
+        "2020",
+        "1947",
+        "2015",
+        "2047"
+      ],
+      "answer": 0,
+      "why": "Atmanirbhar Bharat is a national policy framework launched in 2020.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q18",
+      "sec": "109.5",
+      "q": "A unicorn is:",
+      "options": [
+        "A startup valued at over 1 billion dollars",
+        "A startup valued at over 1 crore rupees",
+        "A company more than 100 years old",
+        "A startup that has no employees"
+      ],
+      "answer": 0,
+      "why": "The book defines unicorns as startups valued at over 1 billion dollars.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch109-q19",
+      "sec": "109.5",
+      "q": "Which cities does the book name as major startup hubs?",
+      "options": [
+        "Bengaluru, Hyderabad, Mumbai, Delhi NCR",
+        "Chennai, Pune, Jaipur, Kochi",
+        "London, Singapore, Dubai, Tokyo",
+        "Only villages across India"
+      ],
+      "answer": 0,
+      "why": "Bengaluru, Hyderabad, Mumbai, and Delhi NCR have become major startup hubs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch109-q20",
+      "sec": "109.5",
+      "q": "The Startup India scheme supports the vision of:",
+      "options": [
+        "Atmanirbhar Bharat",
+        "Viksit Bharat 2047",
+        "Swachh Bharat Mission",
+        "Khelo India"
+      ],
+      "answer": 0,
+      "why": "Startup India supports Atmanirbhar Bharat, making India self-reliant through innovation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch109-q21",
+      "sec": "109.5",
+      "q": "According to the book, startup ventures are creating:",
+      "options": [
+        "Jobs, sustainability, and economic growth",
+        "Only short-term fashion trends",
+        "Higher import dependency",
+        "Fewer opportunities for the youth"
+      ],
+      "answer": 0,
+      "why": "These ventures create jobs, support sustainability, and drive economic growth.",
+      "difficulty": "medium"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch109-e1",
+      "title": "Nimbu Pani Stall Profit Report",
+      "problem": "For the school festival's Young Entrepreneurs Challenge, you and your classmates run a nimbu pani stall. You spend Rs 300 on lemons and sugar and Rs 100 on glasses for the day. You sell 120 glasses at Rs 5 each. Prepare the expense and profit report for your class teacher.",
+      "steps": [
+        "List the costs: lemons and sugar Rs 300 (they change with how much you make, a variable cost) and glasses Rs 100 (fixed for the day).",
+        "Add total costs: 300 + 100 = Rs 400.",
+        "Compute revenue: 120 glasses x Rs 5 = Rs 600 (money coming in).",
+        "Profit is money earned after paying costs: 600 - 400 = Rs 200.",
+        "Also note feedback: most visitors liked the drink, so the idea works."
+      ],
+      "answer": "The stall made a profit of Rs 200, reported to the class teacher with the expense list."
+    },
+    {
+      "id": "us-ch109-e2",
+      "title": "Business Plan for the Bakery",
+      "problem": "You and your friends want to open a bakery offering snacks and desserts. Use the eight key considerations from the chapter to prepare the business plan.",
+      "steps": [
+        "Needs and idea: people want fresh, affordable baked goods not available in the area; it solves the problem of no fresh bakery nearby.",
+        "Potential customers: cupcakes for children, savoury snacks for young adults, everyday breads for families.",
+        "Money and costs: funding from friends, family, and investors; plan fixed costs like rent and ovens, variable costs like ingredients and packaging.",
+        "Location: decide where it will be made and whether to sell at a store or online.",
+        "Human resources: list how many people are needed and the skills required, like a baker.",
+        "Pricing and profits: set the price so that profit can be made after paying costs.",
+        "Promotion: advertise through social media with photos and videos, and offer discounts.",
+        "Challenges and risks: note threats to operations, like rising ingredient costs, and plan for them."
+      ],
+      "answer": "A complete business plan: a written blueprint of goals and steps that guides the bakery from idea to running business."
+    },
+    {
+      "id": "us-ch109-e3",
+      "title": "Sort Tasks into Functional Areas",
+      "problem": "A bakery owner does these four tasks this week. Identify which functional area each task belongs to: (a) hiring a new assistant baker, (b) recording revenue and expenses in the profit and loss account, (c) planning daily production and checking ingredient quality, (d) promoting a mango-flavoured cake on social media.",
+      "steps": [
+        "Task (a) is about people and skills, so it belongs to Human Resources.",
+        "Task (b) is recording, organising, and reporting financial transactions, so it belongs to Finance and Accounting.",
+        "Task (c) is producing and delivering efficiently and on time, so it belongs to Management and Operations.",
+        "Task (d) is spreading awareness to attract customers, so it belongs to Marketing and Sales."
+      ],
+      "answer": "(a) Human Resources, (b) Finance and Accounting, (c) Management and Operations, (d) Marketing and Sales."
+    }
+  ],
+  "conceptMap": {
+    "center": "From Ideas to Startups",
+    "groups": [
+      {
+        "id": "g1",
+        "label": "Idea and Plan"
+      },
+      {
+        "id": "g2",
+        "label": "Business Pillars"
+      },
+      {
+        "id": "g3",
+        "label": "Reaching Customers"
+      },
+      {
+        "id": "g4",
+        "label": "Nation Building"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "n1",
+        "label": "Idea",
+        "group": "g1"
+      },
+      {
+        "id": "n2",
+        "label": "Business Plan",
+        "group": "g1"
+      },
+      {
+        "id": "n3",
+        "label": "Potential Customers",
+        "group": "g1"
+      },
+      {
+        "id": "n4",
+        "label": "Funding",
+        "group": "g1"
+      },
+      {
+        "id": "n5",
+        "label": "Risks",
+        "group": "g1"
+      },
+      {
+        "id": "n6",
+        "label": "Operations",
+        "group": "g2"
+      },
+      {
+        "id": "n7",
+        "label": "Finance",
+        "group": "g2"
+      },
+      {
+        "id": "n8",
+        "label": "Accounting",
+        "group": "g2"
+      },
+      {
+        "id": "n9",
+        "label": "Human Resources",
+        "group": "g2"
+      },
+      {
+        "id": "n10",
+        "label": "Marketing and Sales",
+        "group": "g3"
+      },
+      {
+        "id": "n11",
+        "label": "Startups",
+        "group": "g4"
+      },
+      {
+        "id": "n12",
+        "label": "Unicorns",
+        "group": "g4"
+      },
+      {
+        "id": "n13",
+        "label": "Atmanirbhar Bharat",
+        "group": "g4"
+      },
+      {
+        "id": "n14",
+        "label": "Viksit Bharat 2047",
+        "group": "g4"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n1",
+        "to": "n2",
+        "label": "shapes"
+      },
+      {
+        "from": "n2",
+        "to": "n3",
+        "label": "identifies"
+      },
+      {
+        "from": "n2",
+        "to": "n4",
+        "label": "plans"
+      },
+      {
+        "from": "n2",
+        "to": "n5",
+        "label": "lists"
+      },
+      {
+        "from": "n2",
+        "to": "n6",
+        "label": "guides"
+      },
+      {
+        "from": "n2",
+        "to": "n7",
+        "label": "guides"
+      },
+      {
+        "from": "n2",
+        "to": "n9",
+        "label": "staffing"
+      },
+      {
+        "from": "n2",
+        "to": "n10",
+        "label": "promotion"
+      },
+      {
+        "from": "n9",
+        "to": "n6",
+        "label": "provides people"
+      },
+      {
+        "from": "n7",
+        "to": "n8",
+        "label": "records with"
+      },
+      {
+        "from": "n7",
+        "to": "n4",
+        "label": "obtains"
+      },
+      {
+        "from": "n1",
+        "to": "n11",
+        "label": "can grow into"
+      },
+      {
+        "from": "n11",
+        "to": "n12",
+        "label": "some become"
+      },
+      {
+        "from": "n11",
+        "to": "n13",
+        "label": "supports"
+      },
+      {
+        "from": "n11",
+        "to": "n14",
+        "label": "builds towards"
+      },
+      {
+        "from": "n3",
+        "to": "n10",
+        "label": "reached through"
+      }
+    ]
+  },
+  "flowchart": {
+    "title": "From Idea to Nation-Builder",
+    "steps": [
+      {
+        "id": "s1",
+        "label": "Spot a Need",
+        "detail": "Notice what people need and what problem your idea can solve."
+      },
+      {
+        "id": "s2",
+        "label": "Write the Plan",
+        "detail": "Blueprint the goals, customers, costs, location, and risks."
+      },
+      {
+        "id": "s3",
+        "label": "Arrange the Funds",
+        "detail": "Raise money from friends, family, or investors."
+      },
+      {
+        "id": "s4",
+        "label": "Build the Team",
+        "detail": "Human resources hires the right people and skills."
+      },
+      {
+        "id": "s5",
+        "label": "Run Operations",
+        "detail": "Produce and deliver efficiently, on time, without wastage."
+      },
+      {
+        "id": "s6",
+        "label": "Market and Sell",
+        "detail": "Catchy name, social media, discounts, easy online ordering."
+      },
+      {
+        "id": "s7",
+        "label": "Learn from Results",
+        "detail": "Check the profit and loss account; failure teaches lessons."
+      },
+      {
+        "id": "s8",
+        "label": "Grow and Serve",
+        "detail": "Create jobs, pay taxes, and build towards Viksit Bharat 2047."
+      }
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        1
+      ]
+    ]
+  }
+}

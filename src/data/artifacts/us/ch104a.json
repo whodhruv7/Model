@@ -1,0 +1,461 @@
+{
+  "book": "us",
+  "chapter": 104,
+  "part": "a",
+  "title": "Oceans and Life",
+  "grade": 9,
+  "sections": [
+    { "id": "104.1", "title": "Ocean Relief" },
+    { "id": "104.2", "title": "Waves" },
+    { "id": "104.3", "title": "Tides" },
+    { "id": "104.4", "title": "Ocean Currents" },
+    { "id": "104.5", "title": "Cyclones and Tsunamis" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch104a-s1",
+      "sec": "104.1",
+      "title": "A Hidden World Below",
+      "kicker": "Mountains and valleys hide right below the waves!",
+      "bullets": [
+        "Just as land has mountains, valleys and plains, the ocean floor also has many landforms.",
+        "These underwater landforms are together called submarine relief or ocean relief.",
+        "They include underwater mountains, valleys, plateaus and trenches.",
+        "Ocean water is always in motion; its movements shape the surface, support marine life, aid fishing and influence climate."
+      ],
+      "visual": { "kind": "labels", "items": ["Underwater mountains", "Valleys", "Plateaus", "Trenches"] },
+      "note": "Samundar ke neeche poori duniya basi hai!"
+    },
+    {
+      "id": "us-ch104a-s2",
+      "sec": "104.1",
+      "title": "Record Holders of Deep",
+      "kicker": "Deeper than Everest is tall, meet the champions",
+      "bullets": [
+        "The Mariana Trench in the Pacific Ocean is the deepest place on Earth.",
+        "The Mid-Ocean Ridge is the world's longest mountain range, hidden beneath the ocean.",
+        "Some underwater mountains, like Mauna Kea in Hawai'i, are even taller than Mount Everest."
+      ],
+      "visual": { "kind": "steps", "items": ["Mariana Trench: deepest spot on Earth", "Mid-Ocean Ridge: longest mountain range", "Mauna Kea: taller than Everest"] },
+      "note": "Everest ko bhi peechhe chhod diya!"
+    },
+    {
+      "id": "us-ch104a-s3",
+      "sec": "104.1",
+      "title": "From Coast to Deep",
+      "kicker": "Follow the seafloor as it slopes into darkness",
+      "bullets": [
+        "The continental shelf is the submerged, shallow edge of a continent, rich in marine life and resources like oil and gas.",
+        "The continental slope is the steep slope marking the true edge of a continent.",
+        "The abyssal plain is the vast, flat and deep ocean floor."
+      ],
+      "visual": { "kind": "flow", "items": ["Continental Shelf", "Continental Slope", "Continental Rise", "Abyssal Plain"] },
+      "note": "Shelf shallow, plain gehra — yaad rakho."
+    },
+    {
+      "id": "us-ch104a-s4",
+      "sec": "104.1",
+      "title": "Trenches, Seamounts, Guyots",
+      "kicker": "Flat-topped secrets sculpted by waves over millennia",
+      "bullets": [
+        "Ocean trenches are the deepest parts of the ocean.",
+        "Seamounts are underwater mountains, usually of volcanic origin, that rise from the ocean floor but do not reach the sea surface.",
+        "Guyots are flat-topped underwater mountains: former seamounts eroded by wave action and later submerged."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Seamount", "items": ["Underwater mountain", "Usually volcanic", "Rises but never surfaces"] },
+        "right": { "title": "Guyot", "items": ["Flat-topped summit", "Was once a seamount", "Flattened by wave action"] }
+      },
+      "note": "Same mountain, two avatars!"
+    },
+    {
+      "id": "us-ch104a-s5",
+      "sec": "104.2",
+      "title": "What Makes a Wave",
+      "kicker": "Wind writes, water dances, energy travels far",
+      "bullets": [
+        "When the surface of the ocean rises and falls alternately, the movement is called a wave.",
+        "Waves are primarily caused by winds blowing across the water.",
+        "Waves carry energy across the oceans over long distances."
+      ],
+      "visual": { "kind": "steps", "items": ["Wind blows across the water", "The surface rises and falls", "Energy moves across the ocean"] },
+      "note": "Crest upar, trough neeche."
+    },
+    {
+      "id": "us-ch104a-s6",
+      "sec": "104.2",
+      "title": "Measuring a Wave",
+      "kicker": "Crests, troughs and the simple math of rhythm",
+      "bullets": [
+        "A crest is the high peak of a wave and a trough is the lower valley between crests.",
+        "Wavelength is the horizontal distance between two consecutive wave crests or troughs.",
+        "Wave frequency is the number of wave crests passing point A each second.",
+        "Wave period is the time required for the wave crest at point A to reach point B."
+      ],
+      "visual": { "kind": "labels", "items": ["Crest", "Trough", "Wavelength", "Wave height", "Frequency", "Period"] },
+      "note": "Naap lo, samajh aayega."
+    },
+    {
+      "id": "us-ch104a-s7",
+      "sec": "104.2",
+      "title": "Waves, Coastal Architects",
+      "kicker": "One headland, five amazing landforms to explore",
+      "bullets": [
+        "Waves are often called coastal architects as they shape the shoreline through erosion and sediment transport.",
+        "Wave action creates erosional features such as sea cracks, caves, arches, sea stacks and stumps.",
+        "Waves also form depositional features such as beaches."
+      ],
+      "visual": { "kind": "flow", "items": ["Crack", "Sea Cave", "Arch", "Sea Stack", "Stump"] },
+      "note": "Beach bhi inka gift hai."
+    },
+    {
+      "id": "us-ch104a-s8",
+      "sec": "104.2",
+      "title": "Storms and Giant Tsunamis",
+      "kicker": "When the sea turns angry, know its heights",
+      "bullets": [
+        "During storms, strong winds can generate huge waves that may cause significant damage along coastlines.",
+        "Giant waves caused majorly by underwater earthquakes are called tsunamis, and they can be extremely destructive.",
+        "The maximum vertical height a tsunami reaches above sea level on the shore is called the run-up height.",
+        "Run-up heights can reach up to 30 metres, or even more in extreme cases."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Storm waves", "items": ["Made by strong winds", "Damage coastlines in storms"] },
+        "right": { "title": "Tsunamis", "items": ["Made by underwater earthquakes", "Run-up height up to 30 metres or more"] }
+      },
+      "note": "10 manzilon jitni oonchai socho!"
+    },
+    {
+      "id": "us-ch104a-s9",
+      "sec": "104.3",
+      "title": "The Sea Breathes Twice",
+      "kicker": "High tide, low tide, twice every single day",
+      "bullets": [
+        "Tides are the rhythmic rise and fall of ocean water that occur twice a day in most parts of the world.",
+        "At high tide (flood tide), the water rises to its highest level and covers much of the shore.",
+        "At low tide (ebb tide), the water falls to its lowest level and moves away from the shore."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "High tide (flood tide)", "items": ["Water rises to highest level", "Covers much of the shore"] },
+        "right": { "title": "Low tide (ebb tide)", "items": ["Water falls to lowest level", "Moves away from the shore"] }
+      },
+      "note": "Samundar ki saans, din mein do baar."
+    },
+    {
+      "id": "us-ch104a-s10",
+      "sec": "104.3",
+      "title": "Spring Tides Explained",
+      "kicker": "Sun, Moon and Earth standing in one line",
+      "bullets": [
+        "Spring tides occur when the Sun, the Earth and the Moon are aligned in a straight line, on full moon and new moon days.",
+        "The combined gravitational pull of the Sun and the Moon causes high tides of unusual heights and low tides that are unusually lower.",
+        "Water bulges on opposite sides of the Earth due to this strong gravitational pull."
+      ],
+      "visual": { "kind": "steps", "items": ["Sun, Earth and Moon line up", "Gravitational pulls combine", "Water bulges on opposite sides", "Very high highs and very low lows"] },
+      "note": "Yahan spring ka matlab mausam nahi hai."
+    },
+    {
+      "id": "us-ch104a-s11",
+      "sec": "104.3",
+      "title": "Neap Tides Explained",
+      "kicker": "Moon at quarter phase, two pulls tug apart",
+      "bullets": [
+        "Neap tides occur when the Moon is in its first-quarter and third-quarter phases.",
+        "The gravitational pull of the Sun and the Moon acts in different directions.",
+        "As a result, the difference between high tide and low tide becomes smaller, producing neap tides."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Spring tide", "items": ["Full and new moon days", "Pulls act together", "Very large tidal range"] },
+        "right": { "title": "Neap tide", "items": ["First and third quarter moons", "Pulls act differently", "Small tidal range"] }
+      },
+      "note": "Do raste, kam dum."
+    },
+    {
+      "id": "us-ch104a-s12",
+      "sec": "104.3",
+      "title": "Tides Help Ships Sail",
+      "kicker": "Gulf of Khambhat and its twelve-metre tidal drama",
+      "bullets": [
+        "High tides are important for navigation because they raise the water level near the shore, allowing ships to enter harbours more easily.",
+        "Tidal information is essential in ports and coastal areas, as tidal ranges in some ports can reach 4-5 metres.",
+        "The Gulf of Khambhat has one of the highest tidal ranges, at about 12 metres."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Typical ports", "items": ["Tidal range of 4-5 metres", "Ships time their entry"] },
+        "right": { "title": "Gulf of Khambhat", "items": ["Tidal range about 12 metres", "One of the highest anywhere"] }
+      },
+      "note": "Ship aane se pehle tide check karna zaroori."
+    },
+    {
+      "id": "us-ch104a-s13",
+      "sec": "104.4",
+      "title": "Rivers in the Ocean",
+      "kicker": "Rivers in the ocean flowing in definite directions",
+      "bullets": [
+        "Ocean currents are continuous streams of water that flow across the ocean surface in definite directions.",
+        "They arise from winds, the Earth's rotation (Coriolis force), temperature and salinity differences, and basin shapes.",
+        "Currents flowing from warmer regions are called warm currents, while those flowing from colder regions are called cold currents."
+      ],
+      "visual": { "kind": "steps", "items": ["Winds push the surface water", "Earth's rotation bends the flow", "Temperature and salinity differ", "Continents and basins guide paths"] },
+      "note": "Coriolis force is Earth's twist."
+    },
+    {
+      "id": "us-ch104a-s14",
+      "sec": "104.4",
+      "title": "Warm in Red, Cold Blue",
+      "kicker": "Read any currents map like a true pro",
+      "bullets": [
+        "On maps, warm currents are usually shown in red and cold currents in blue.",
+        "Warm currents flow from warmer regions towards cooler areas.",
+        "Cold currents flow from colder regions towards warmer areas.",
+        "Think about it: these currents affect the temperature of nearby coastal regions."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Warm currents", "items": ["Flow from warmer regions", "Shown in red on maps"] },
+        "right": { "title": "Cold currents", "items": ["Flow from colder regions", "Shown in blue on maps"] }
+      },
+      "note": "Laal garam, neela thanda."
+    },
+    {
+      "id": "us-ch104a-s15",
+      "sec": "104.4",
+      "title": "Gulf Stream vs Labrador",
+      "kicker": "One current warms Norway, another freezes Canada",
+      "bullets": [
+        "The Gulf Stream is a warm current from the Gulf of Mexico; it flows towards Norway and keeps waters relatively warm.",
+        "Because of the Gulf Stream, sea ice does not form easily in the Norwegian region despite its high latitude of 60-70 degrees.",
+        "The Labrador Current is a cold current flowing along the east coast of Canada, carrying freezing water.",
+        "It supports the formation of sea ice and icebergs even at lower latitudes."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Gulf Stream", "items": ["Warm current", "Gulf of Mexico to Norway", "Keeps sea ice away"] },
+        "right": { "title": "Labrador Current", "items": ["Cold current", "Along east coast of Canada", "Brings sea ice and icebergs"] }
+      },
+      "note": "Ek garam, ek barfi — dono Atlantic mein."
+    },
+    {
+      "id": "us-ch104a-s16",
+      "sec": "104.4",
+      "title": "Where Currents Meet",
+      "kicker": "Where two currents meet, fish gather in crowds",
+      "bullets": [
+        "The regions where warm and cold currents meet are known as fishing grounds.",
+        "These waters are rich in nutrients.",
+        "The nutrients support a large variety of fish, making these regions important fishing grounds."
+      ],
+      "visual": { "kind": "labels", "items": ["Warm current", "Cold current", "Nutrients", "Fishing grounds"] },
+      "note": "Do currents ki mulaqaat, machhliyon ka mela."
+    },
+    {
+      "id": "us-ch104a-s17",
+      "sec": "104.5",
+      "title": "Cyclones and Tsunamis",
+      "kicker": "Two sudden guests arrive from an angry ocean",
+      "bullets": [
+        "Oceans and seas can give rise to sudden natural hazards such as cyclones and tsunamis.",
+        "A cyclone is a large rotating storm.",
+        "A tsunami is a giant wave caused by earthquakes."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Cyclone", "items": ["Large rotating storm", "Born over oceans and seas"] },
+        "right": { "title": "Tsunami", "items": ["Giant wave", "Caused by earthquakes"] }
+      },
+      "note": "Hazards aate hain, par hum taiyaar hain."
+    },
+    {
+      "id": "us-ch104a-s18",
+      "sec": "104.5",
+      "title": "Early Warning Systems",
+      "kicker": "A giant alarm system guarding the coastline",
+      "bullets": [
+        "Early Warning Systems work like giant alarm systems for coastal areas.",
+        "They help detect cyclones and tsunamis, predict disasters, and issue timely warnings.",
+        "Warnings let people evacuate and stay safe; people, communities and governments must act in advance to reduce risks."
+      ],
+      "visual": { "kind": "flow", "items": ["Detect", "Predict", "Warn", "Evacuate"] },
+      "note": "Alert aaya? Turant safe jagah pahuncho."
+    },
+    {
+      "id": "us-ch104a-s19",
+      "sec": "104.5",
+      "title": "India's Safety Shield",
+      "kicker": "NCRMP, DSS, SSEWS: names that protect the coast",
+      "bullets": [
+        "India has Cyclone Warning Services and Marine Weather Services that monitor storms along both the eastern and western coasts.",
+        "The NCRMP builds cyclone shelters, strengthens warnings and improves emergency response in cyclone-prone areas.",
+        "NCRMP includes a Decision Support System (DSS) for disaster management authorities.",
+        "INCOIS, with the IMD, set up the Storm Surge Early Warning System (SSEWS) to forecast cyclone-induced storm surges and coastal inundation."
+      ],
+      "visual": { "kind": "tree", "root": "Early warning in India", "children": ["NCRMP shelters", "DSS", "SSEWS", "INCOIS with IMD"] },
+      "note": "Tayyari pehle, suraksha hamesha."
+    },
+    {
+      "id": "us-ch104a-s20",
+      "sec": "104.5",
+      "title": "Folklore and GEMINI",
+      "kicker": "Grandmother's tales plus satellites equal saved lives",
+      "bullets": [
+        "Most deaths during the 2004 Indian Ocean tsunami occurred in Indonesia, yet the island of Simeulue was largely spared.",
+        "Local folklore passed down through generations helped Simeulue residents recognise the warning signs of a tsunami and respond quickly.",
+        "GEMINI is a handheld device for fishermen; it receives satellite information and transmits it to mobile phones through Bluetooth."
+      ],
+      "visual": { "kind": "labels", "items": ["Folklore", "Simeulue", "GEMINI", "Satellite", "Bluetooth"] },
+      "note": "Kahaaniyan bhi jaan bacha sakti hain."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch104a-f1", "sec": "104.1", "front": "What is submarine relief?", "back": "The landforms of the ocean floor, such as underwater mountains, valleys, plateaus and trenches; also called ocean relief.", "tag": "definition" },
+    { "id": "us-ch104a-f2", "sec": "104.1", "front": "Which is the deepest place on Earth?", "back": "The Mariana Trench in the Pacific Ocean is the deepest place on Earth.", "tag": "trivia" },
+    { "id": "us-ch104a-f3", "sec": "104.1", "front": "What is the continental shelf?", "back": "The submerged, shallow edge of a continent, rich in marine life and resources like oil and gas.", "tag": "definition" },
+    { "id": "us-ch104a-f4", "sec": "104.1", "front": "How does a seamount become a guyot?", "back": "Wave action erodes the seamount's summit over millennia, leaving a flat-topped underwater mountain that is later submerged.", "tag": "concept" },
+    { "id": "us-ch104a-f5", "sec": "104.2", "front": "What is a wave and what mainly causes it?", "back": "The alternate rise and fall of the ocean surface, caused primarily by winds blowing across the water.", "tag": "definition" },
+    { "id": "us-ch104a-f6", "sec": "104.2", "front": "Define wavelength.", "back": "The horizontal distance between two consecutive wave crests or troughs.", "tag": "definition" },
+    { "id": "us-ch104a-f7", "sec": "104.2", "front": "Distinguish wave frequency from wave period.", "back": "Frequency is the number of crests passing point A each second; period is the time a crest takes to travel from A to B.", "tag": "concept" },
+    { "id": "us-ch104a-f8", "sec": "104.2", "front": "Name the erosional landforms made by waves.", "back": "Sea cracks, sea caves, arches, sea stacks and stumps; waves also deposit material to form beaches.", "tag": "example" },
+    { "id": "us-ch104a-f9", "sec": "104.3", "front": "What are tides?", "back": "The rhythmic rise and fall of ocean water, occurring twice a day in most parts of the world.", "tag": "definition" },
+    { "id": "us-ch104a-f10", "sec": "104.3", "front": "When do spring tides occur and why?", "back": "On full moon and new moon days, when Sun, Earth and Moon align; their combined pull makes highs unusually high and lows unusually low.", "tag": "concept" },
+    { "id": "us-ch104a-f11", "sec": "104.3", "front": "Why are neap tides weaker?", "back": "During first- and third-quarter moons, the Sun and Moon pull in different directions, so the high-low difference becomes smaller.", "tag": "concept" },
+    { "id": "us-ch104a-f12", "sec": "104.3", "front": "Which Indian water body has one of the highest tidal ranges?", "back": "The Gulf of Khambhat, with a tidal range of about 12 metres; some ports have ranges of 4-5 metres.", "tag": "trivia" },
+    { "id": "us-ch104a-f13", "sec": "104.4", "front": "What is an ocean current?", "back": "A continuous stream of water that flows across the ocean surface in a definite direction.", "tag": "definition" },
+    { "id": "us-ch104a-f14", "sec": "104.4", "front": "List the causes of ocean currents.", "back": "Winds, the Earth's rotation (Coriolis force), differences in temperature and salinity, and the shape of continents and ocean basins.", "tag": "concept" },
+    { "id": "us-ch104a-f15", "sec": "104.4", "front": "How does the Gulf Stream affect Norway?", "back": "This warm current from the Gulf of Mexico keeps Norwegian waters relatively warm, so sea ice does not form easily at 60-70 degrees latitude.", "tag": "example" },
+    { "id": "us-ch104a-f16", "sec": "104.4", "front": "Where do fishing grounds form and why?", "back": "Where warm and cold currents meet; the waters are rich in nutrients and support a large variety of fish.", "tag": "concept" },
+    { "id": "us-ch104a-f17", "sec": "104.5", "front": "How is a tsunami different from a cyclone?", "back": "A tsunami is a giant wave caused by earthquakes; a cyclone is a large rotating storm.", "tag": "concept" },
+    { "id": "us-ch104a-f18", "sec": "104.5", "front": "What does NCRMP do?", "back": "The National Cyclone Risk Mitigation Project builds cyclone shelters, strengthens warning systems and improves emergency response in cyclone-prone areas.", "tag": "trivia" },
+    { "id": "us-ch104a-f19", "sec": "104.5", "front": "What is GEMINI and who uses it?", "back": "A handheld device for fishermen that receives satellite information and transmits it to mobile phones through Bluetooth.", "tag": "trivia" },
+    { "id": "us-ch104a-f20", "sec": "104.5", "front": "What is the run-up height of a tsunami?", "back": "The maximum vertical height a tsunami reaches above sea level on the shore; it can be up to 30 metres or more.", "tag": "definition" }
+  ],
+  "quiz": [
+    { "id": "us-ch104a-q1", "sec": "104.1", "q": "Which is the deepest place on Earth?", "options": ["The Mariana Trench", "The Mid-Ocean Ridge", "The Gulf of Khambhat", "An abyssal plain"], "answer": 0, "why": "The book states the Mariana Trench in the Pacific Ocean is the deepest place on Earth.", "difficulty": "easy" },
+    { "id": "us-ch104a-q2", "sec": "104.1", "q": "The world's longest mountain range lies hidden beneath the ocean. What is it?", "options": ["The Himalayas", "The Mid-Ocean Ridge", "The Andes", "The Western Ghats"], "answer": 1, "why": "The Mid-Ocean Ridge is the world's longest mountain range, hidden beneath the ocean.", "difficulty": "easy" },
+    { "id": "us-ch104a-q3", "sec": "104.1", "q": "A flat-topped underwater mountain is called a...", "options": ["Seamount", "Guyot", "Trench", "Continental rise"], "answer": 1, "why": "Guyots are former seamounts flattened by wave action over millennia and later submerged.", "difficulty": "medium" },
+    { "id": "us-ch104a-q4", "sec": "104.1", "q": "Which order of features is correct as you move from a continent's coast to the deep ocean floor?", "options": ["Shelf, slope, rise, abyssal plain", "Slope, shelf, plain, rise", "Rise, plain, shelf, slope", "Plain, rise, slope, shelf"], "answer": 0, "why": "The shallow shelf gives way to the steep slope, then the rise, and finally the vast abyssal plain.", "difficulty": "hard" },
+    { "id": "us-ch104a-q5", "sec": "104.2", "q": "In a wave, the high peak is called the...", "options": ["Trough", "Crest", "Rift", "Stack"], "answer": 1, "why": "Crests are the high peaks and troughs are the lower valleys of a wave.", "difficulty": "easy" },
+    { "id": "us-ch104a-q6", "sec": "104.2", "q": "The horizontal distance between two consecutive wave crests is the...", "options": ["Wave period", "Wave height", "Wavelength", "Wave frequency"], "answer": 2, "why": "Wavelength is the horizontal distance between two consecutive crests or troughs.", "difficulty": "easy" },
+    { "id": "us-ch104a-q7", "sec": "104.2", "q": "Which sequence shows how waves erode a headland over time?", "options": ["Cave, crack, arch, stump, stack", "Crack, cave, arch, stack, stump", "Arch, cave, crack, stack, stump", "Stack, arch, cave, crack, stump"], "answer": 1, "why": "Hydraulic action opens a crack, widens it into a cave, then an arch, whose collapse leaves a stack.", "difficulty": "hard" },
+    { "id": "us-ch104a-q8", "sec": "104.2", "q": "A tsunami's run-up height can reach how high in extreme cases?", "options": ["Up to 3 metres", "Up to 10 metres", "Up to 30 metres", "Up to 100 metres"], "answer": 2, "why": "Run-up heights can reach up to 30 metres, or even more in extreme cases.", "difficulty": "medium" },
+    { "id": "us-ch104a-q9", "sec": "104.3", "q": "In most parts of the world, how often do tides rise and fall each day?", "options": ["Once a day", "Twice a day", "Four times a day", "Only at night"], "answer": 1, "why": "Tides are the rhythmic rise and fall of ocean water occurring twice a day in most places.", "difficulty": "easy" },
+    { "id": "us-ch104a-q10", "sec": "104.3", "q": "Spring tides occur on which days?", "options": ["Full moon and new moon days", "First and third quarter days", "Only during storms", "Only during daytime"], "answer": 0, "why": "The Sun, Earth and Moon align in a straight line on full moon and new moon days.", "difficulty": "easy" },
+    { "id": "us-ch104a-q11", "sec": "104.3", "q": "Why is the difference between high and low tide small during neap tides?", "options": ["The Moon stops pulling the water", "The Sun and Moon pull in different directions", "Strong winds flatten the sea", "The Earth stops rotating"], "answer": 1, "why": "In first- and third-quarter moons, the Sun's and Moon's pulls act in different directions.", "difficulty": "medium" },
+    { "id": "us-ch104a-q12", "sec": "104.3", "q": "A port records a tidal range of about 12 metres. Which place does this match?", "options": ["The Gulf of Khambhat", "A typical port with 4-5 metre range", "The Mariana Trench", "The Gulf of Mexico"], "answer": 0, "why": "The Gulf of Khambhat has one of the highest tidal ranges, at about 12 metres.", "difficulty": "hard" },
+    { "id": "us-ch104a-q13", "sec": "104.4", "q": "On a currents map, warm currents are usually shown in...", "options": ["Blue", "Red", "Green", "Black"], "answer": 1, "why": "Warm currents are usually shown in red and cold currents in blue.", "difficulty": "easy" },
+    { "id": "us-ch104a-q14", "sec": "104.4", "q": "Which cause of ocean currents comes from the Earth's rotation?", "options": ["The Coriolis force", "The ozone layer", "Magnetic attraction of the seabed", "Cloud formation"], "answer": 0, "why": "The Earth's rotation produces the Coriolis force, one of the causes of currents.", "difficulty": "medium" },
+    { "id": "us-ch104a-q15", "sec": "104.4", "q": "Why does sea ice not form easily near Norway despite its 60-70 degree latitude?", "options": ["The cold Labrador Current flows there", "The warm Gulf Stream keeps its waters relatively warm", "Norway is close to the equator", "Strong winds melt all the ice"], "answer": 1, "why": "The Gulf Stream, a warm current from the Gulf of Mexico, flows towards Norway and keeps its waters warm.", "difficulty": "hard" },
+    { "id": "us-ch104a-q16", "sec": "104.4", "q": "Fishing grounds form where...", "options": ["Two warm currents meet", "Warm and cold currents meet", "A current meets the equator", "Two cold currents meet"], "answer": 1, "why": "Where warm and cold currents meet, nutrient-rich waters support a large variety of fish.", "difficulty": "easy" },
+    { "id": "us-ch104a-q17", "sec": "104.5", "q": "Giant waves caused majorly by underwater earthquakes are called...", "options": ["Cyclones", "Storm surges", "Tsunamis", "Guyots"], "answer": 2, "why": "Tsunamis are giant waves caused by earthquakes and can be extremely destructive.", "difficulty": "easy" },
+    { "id": "us-ch104a-q18", "sec": "104.5", "q": "Which project builds cyclone shelters and strengthens warning systems in India?", "options": ["NCRMP", "SSEWS", "GEMINI", "DSS"], "answer": 0, "why": "The National Cyclone Risk Mitigation Project builds shelters and improves emergency response.", "difficulty": "medium" },
+    { "id": "us-ch104a-q19", "sec": "104.5", "q": "How does GEMINI help fishermen at sea?", "options": ["It filters drinking water on board", "It sends satellite information to mobile phones via Bluetooth", "It pulls the boat back to shore", "It predicts daily fish prices"], "answer": 1, "why": "GEMINI receives satellite information and transmits it to mobile phones through Bluetooth.", "difficulty": "easy" },
+    { "id": "us-ch104a-q20", "sec": "104.5", "q": "Why was the island of Simeulue largely spared in the 2004 tsunami?", "options": ["It was too far away to feel the waves", "Folklore helped people recognise warning signs and respond quickly", "The government evacuated everyone early", "Mountains blocked the giant waves"], "answer": 1, "why": "Local folklore passed down generations helped residents recognise the warning signs of a tsunami.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch104a-e1",
+      "title": "Ordering the ocean floor",
+      "problem": "A ship leaves the coast of a continent and sails towards the deep ocean. Which submarine relief features will it cross, in order, and which of them is rich in marine life and resources like oil and gas?",
+      "steps": [
+        "Recall the main features from coast to deep: continental shelf, continental slope, continental rise and abyssal plain.",
+        "The shelf is the submerged, shallow edge of the continent, so it comes first.",
+        "Next the floor drops steeply along the continental slope, the true edge of the continent.",
+        "The gentle continental rise then leads to the vast, flat and deep abyssal plain."
+      ],
+      "answer": "The ship crosses the continental shelf, then the continental slope, then the continental rise, and finally the abyssal plain. The continental shelf is rich in marine life and resources like oil and gas."
+    },
+    {
+      "id": "us-ch104a-e2",
+      "title": "Reading tides from the Moon",
+      "problem": "It is a full moon day and a fishing boat wants to enter a harbour. What kind of tides can be expected, why, and how would they differ on a first-quarter moon day?",
+      "steps": [
+        "On a full moon day, the Sun, the Earth and the Moon are aligned in a straight line.",
+        "Their combined gravitational pull causes high tides of unusual heights and unusually lower low tides: spring tides.",
+        "High tide raises the water level near the shore, so ships can enter harbours more easily.",
+        "On a first-quarter moon day, the Sun and Moon pull in different directions, so the high-low difference shrinks, producing neap tides."
+      ],
+      "answer": "Expect spring tides with unusually high highs and unusually low lows on the full moon day; a first-quarter moon brings neap tides with a smaller difference between high and low tide."
+    },
+    {
+      "id": "us-ch104a-e3",
+      "title": "One coast freezes, one does not",
+      "problem": "Norway lies at 60-70 degrees latitude, yet sea ice does not form easily there, while the east coast of Canada sees sea ice and icebergs even at lower latitudes. Explain this using ocean currents.",
+      "steps": [
+        "The Gulf Stream is a warm current originating in the Gulf of Mexico in the Atlantic Ocean.",
+        "It flows towards Norway and keeps its waters relatively warm, so sea ice does not form easily despite the high latitude.",
+        "The Labrador Current is a cold current flowing along the east coast of Canada, carrying freezing water.",
+        "It supports the formation of sea ice and icebergs even at lower latitudes."
+      ],
+      "answer": "Warm currents like the Gulf Stream keep coasts relatively warm, while cold currents like the Labrador Current carry freezing water, so sea ice and icebergs form along Canada's east coast."
+    },
+    {
+      "id": "us-ch104a-e4",
+      "title": "From headland to stump",
+      "problem": "Waves constantly attack a headland. Describe, step by step, how erosion finally turns it into a stump.",
+      "steps": [
+        "Hydraulic action opens up a large crack in the headland.",
+        "Hydraulic action and abrasion turn the crack into a sea cave, which gets larger.",
+        "The back of the cave is eroded through to form a sea arch.",
+        "The top of the arch collapses due to gravity, leaving a tall stack of rock.",
+        "Over time the stack gets eroded and weathered, forming a stump."
+      ],
+      "answer": "Crack, then sea cave, then arch, then sea stack, and finally a stump."
+    }
+  ],
+  "conceptMap": {
+    "center": "Oceans and Life",
+    "groups": [
+      { "id": "g1", "label": "Ocean Floor" },
+      { "id": "g2", "label": "Water in Motion" },
+      { "id": "g3", "label": "Hazards and Warnings" },
+      { "id": "g4", "label": "Ocean and People" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Continental Shelf", "group": "g1" },
+      { "id": "n2", "label": "Abyssal Plain", "group": "g1" },
+      { "id": "n3", "label": "Mariana Trench", "group": "g1" },
+      { "id": "n4", "label": "Mid-Ocean Ridge", "group": "g1" },
+      { "id": "n5", "label": "Waves", "group": "g2" },
+      { "id": "n6", "label": "Tides", "group": "g2" },
+      { "id": "n7", "label": "Ocean Currents", "group": "g2" },
+      { "id": "n8", "label": "Cyclones", "group": "g3" },
+      { "id": "n9", "label": "Tsunamis", "group": "g3" },
+      { "id": "n10", "label": "Early Warning Systems", "group": "g3" },
+      { "id": "n11", "label": "Navigation", "group": "g4" },
+      { "id": "n12", "label": "Fishing Grounds", "group": "g4" },
+      { "id": "n13", "label": "Coastal Safety", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "slopes into" },
+      { "from": "n4", "to": "n2", "label": "rises from" },
+      { "from": "n3", "to": "n2", "label": "deepest point" },
+      { "from": "n1", "to": "n12", "label": "rich in life" },
+      { "from": "n5", "to": "n13", "label": "shapes coasts" },
+      { "from": "n6", "to": "n11", "label": "lifts ships in" },
+      { "from": "n7", "to": "n11", "label": "steers ships" },
+      { "from": "n7", "to": "n12", "label": "meets and feeds" },
+      { "from": "n7", "to": "n13", "label": "warms or cools" },
+      { "from": "n8", "to": "n10", "label": "detected by" },
+      { "from": "n9", "to": "n10", "label": "detected by" },
+      { "from": "n9", "to": "n5", "label": "giant wave" },
+      { "from": "n10", "to": "n13", "label": "keeps people safe" }
+    ]
+  },
+  "flowchart": {
+    "title": "How Oceans and Life flows",
+    "steps": [
+      { "id": "s1", "label": "Meet the ocean floor", "detail": "Shelf, slope, plain, ridges and trenches form the submarine relief" },
+      { "id": "s2", "label": "Waves sculpt coasts", "detail": "Wind-made waves erode headlands and deposit beaches" },
+      { "id": "s3", "label": "Tides rise and fall", "detail": "Sun and Moon pulls create spring and neap tides twice a day" },
+      { "id": "s4", "label": "Currents move waters", "detail": "Winds, Coriolis force, heat and salt drive warm and cold streams" },
+      { "id": "s5", "label": "Currents meet, life blooms", "detail": "Nutrient-rich meeting points become important fishing grounds" },
+      { "id": "s6", "label": "Hazards approach", "detail": "Cyclones spin up and tsunamis race in after earthquakes" },
+      { "id": "s7", "label": "Warnings protect people", "detail": "Early Warning Systems, NCRMP, SSEWS and GEMINI detect, predict and alert" }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
+  }
+}

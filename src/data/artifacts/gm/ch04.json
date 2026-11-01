@@ -1,0 +1,366 @@
+{
+  "book": "gm",
+  "chapter": 4,
+  "title": "Exploring Algebraic Identities",
+  "grade": 9,
+  "sections": [
+    { "id": "4.1", "title": "Introduction" },
+    { "id": "4.2", "title": "Visualising Identities" },
+    { "id": "4.3", "title": "Factorisation of Algebraic Expressions Using Identities" },
+    { "id": "4.5", "title": "Factorisation Using Algebra Tiles" },
+    { "id": "4.8", "title": "Simplifying Rational Expressions" }
+  ],
+  "slides": [
+    { "id": "gm-ch04-s1", "sec": "4.1", "title": "A Curious Square Pattern", "kicker": "Numbers that keep a secret promise",
+      "bullets": [
+        "Pick any three consecutive square numbers, like 1, 4 and 9.",
+        "Add the smallest and the largest: 1 + 9 = 10.",
+        "Subtract twice the middle square: 10 - (2 × 4) = 10 - 8 = 2."
+      ],
+      "visual": { "kind": "steps", "items": ["Pick three consecutive square numbers", "Add the smallest and the largest", "Subtract twice the middle square", "The answer is always 2"] },
+      "note": "Pattern number one. Yeh toh hamesha 2 hi deta hai!" },
+
+    { "id": "gm-ch04-s2", "sec": "4.1", "title": "Try It Again, Get 2", "kicker": "Two more tries, same stubborn answer",
+      "bullets": [
+        "For 9, 16, 25: (9 + 25) - (2 × 16) = 34 - 32 = 2.",
+        "For 25, 36, 49: (25 + 49) - (2 × 36) = 74 - 72 = 2.",
+        "The book repeats the game with many sets of three consecutive squares, and the result always seems to be 2."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Squares 9, 16, 25", "items": ["9 + 25 = 34", "2 × 16 = 32", "34 - 32 = 2"] }, "right": { "title": "Squares 25, 36, 49", "items": ["25 + 49 = 74", "2 × 36 = 72", "74 - 72 = 2"] } },
+      "note": "Same answer every single time. Suspicious, right?" },
+
+    { "id": "gm-ch04-s3", "sec": "4.1", "title": "Why Always 2?", "kicker": "A mystery this chapter will solve",
+      "bullets": [
+        "The pattern may look surprising, but the book promises to uncover the reason behind it using algebra.",
+        "Algebraic identities are special mathematical rules that make it easier to simplify complicated calculations.",
+        "They also help us work efficiently with algebraic expressions."
+      ],
+      "note": "Hold that question in your head. Section 4.3 cracks it open." },
+
+    { "id": "gm-ch04-s4", "sec": "4.1", "title": "Your Next Step Up", "kicker": "From linear equations to identities",
+      "bullets": [
+        "In earlier chapters you learnt about linear polynomials and linear equations, and how they describe relationships between quantities.",
+        "This chapter takes the next step: exploring algebraic identities.",
+        "Think and Reflect invites you to test 4 consecutive squares and hunt for your own pattern."
+      ],
+      "note": "Explorers first, provers later. That is the chapter's way." },
+
+    { "id": "gm-ch04-s5", "sec": "4.2", "title": "One Square, Four Pieces", "kicker": "Draw the identity instead of memorising it",
+      "bullets": [
+        "Join segments of length a and b to make a segment of length (a + b) units, then build a square of that side.",
+        "The outer square has area (a + b)^2.",
+        "Inside it sit a larger square of area a^2, a smaller square of area b^2, and two rectangles of area ab each.",
+        "Together the four pieces fill the big square, so (a + b)^2 = a^2 + 2ab + b^2."
+      ],
+      "visual": { "kind": "labels", "items": ["outer square (a+b)^2", "square a^2", "square b^2", "rectangle ab", "rectangle ab"] },
+      "note": "The picture is the proof, at least when a and b are lengths." },
+
+    { "id": "gm-ch04-s6", "sec": "4.2", "title": "Does It Survive Negatives?", "kicker": "Example 2 tries a = -2, b = -3",
+      "bullets": [
+        "Line segments cannot have negative length, so the book checks numbers that are not lengths.",
+        "Let a = -2 and b = -3. Then (a + b) = -5, so (a + b)^2 = 25.",
+        "Also a^2 = 4, b^2 = 9 and 2ab = 12, giving a^2 + 2ab + b^2 = 4 + 12 + 9 = 25.",
+        "Both sides agree, so the identity works again."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Left side", "items": ["a + b = -5", "(a + b)^2 = 25"] }, "right": { "title": "Right side", "items": ["a^2 = 4", "2ab = 12", "b^2 = 9", "4 + 12 + 9 = 25"] } },
+      "note": "Minus signs behave perfectly here. Good." },
+
+    { "id": "gm-ch04-s7", "sec": "4.2", "title": "Rationals Join the Test", "kicker": "a = -2/3 and b = 3/4 still agree",
+      "bullets": [
+        "Take a = -2/3 and b = 3/4. Then (a + b) = -2/3 + 3/4 = 1/12, so (a + b)^2 = 1/144.",
+        "Now a^2 + 2ab + b^2 = 4/9 - 1 + 9/16 = (64 - 144 + 81)/144 = 1/144.",
+        "Both sides match, so the identity seems true for rational numbers too."
+      ],
+      "note": "Still not every number though. One more push needed." },
+
+    { "id": "gm-ch04-s8", "sec": "4.2", "title": "The Distributive Proof", "kicker": "One line of algebra settles it",
+      "bullets": [
+        "Checking samples is never enough, so the book investigates using the distributive property of numbers.",
+        "(a + b)^2 = (a + b)(a + b) = a(a + b) + b(a + b).",
+        "Expanding gives a^2 + ab + ba + b^2 = a^2 + 2ab + b^2, since ab = ba.",
+        "Now the identity is certain for all numbers, not just the ones we tried."
+      ],
+      "visual": { "kind": "flow", "items": ["(a + b)(a + b)", "a(a + b) + b(a + b)", "a^2 + ab + ba + b^2", "a^2 + 2ab + b^2"] },
+      "note": "Testing is guessing. Distributing is proving." },
+
+    { "id": "gm-ch04-s9", "sec": "4.2", "title": "Equation or Identity?", "kicker": "The difference every algebraist needs",
+      "bullets": [
+        "In Grade 8 you were introduced to (a + b)^2 = a^2 + 2ab + b^2 as an identity.",
+        "An algebraic identity is an equation that is true for all values of the variables occurring in it.",
+        "An ordinary equation need not be true for all values.",
+        "That is exactly why the book tested negatives and rationals before proving."
+      ],
+      "note": "Identity: always true. Equation: only sometimes true." },
+
+    { "id": "gm-ch04-s10", "sec": "4.3", "title": "Factoring By Matching", "kicker": "Identity in reverse finds factors",
+      "bullets": [
+        "The identity (a + b)^2 = a^2 + 2ab + b^2 can also be used to find factors of some algebraic expressions.",
+        "Check that the first and last terms are perfect squares.",
+        "Check that the middle term is twice the product of their square roots.",
+        "Then read off a and b, and the whole expression collapses into (a + b)^2."
+      ],
+      "visual": { "kind": "steps", "items": ["Spot perfect squares at the ends", "Write the middle term as 2(a)(b)", "Match with a^2 + 2ab + b^2", "Answer: (a + b)^2"] },
+      "note": "Reading the identity backwards, piece by piece." },
+
+    { "id": "gm-ch04-s11", "sec": "4.3", "title": "Factoring x^2 + 4x + 4", "kicker": "Example 5: a perfect square in disguise",
+      "bullets": [
+        "We observe that x^2 = (x)^2 and 4 = 2^2, while the middle term 4x = 2(x)(2).",
+        "So x^2 + 4x + 4 can be compared with a^2 + 2ab + b^2, where a = x and b = 2.",
+        "We conclude that x^2 + 4x + 4 = (x + 2)^2.",
+        "Therefore (x + 2) is a factor of x^2 + 4x + 4."
+      ],
+      "note": "Three terms, one square. Sweet and quick." },
+
+    { "id": "gm-ch04-s12", "sec": "4.3", "title": "Factoring 36x^2 + 12x + 1", "kicker": "Example 6: bigger coefficients, same trick",
+      "bullets": [
+        "Write the ends as squares: 36x^2 = (6x)^2 and 1 = 1^2.",
+        "The middle term fits too: 12x = 2(6x)(1).",
+        "So a = 6x and b = 1, and 36x^2 + 12x + 1 = (6x + 1)^2.",
+        "Thus (6x + 1) is a factor of 36x^2 + 12x + 1."
+      ],
+      "note": "That little 1 was a perfect square all along." },
+
+    { "id": "gm-ch04-s13", "sec": "4.3", "title": "Common Factor First", "kicker": "Example 7: when the ends misbehave",
+      "bullets": [
+        "In 50p^2 + 60pq + 18q^2, a term whose square is 50p^2 would be 50p, needing a square root symbol.",
+        "To avoid that, notice 2 is a common factor of 50p^2, 60pq and 18q^2.",
+        "Take it out: 50p^2 + 60pq + 18q^2 = 2(25p^2 + 30pq + 9q^2).",
+        "Now (5p)^2 = 25p^2 and (3q)^2 = 9q^2, so the bracket is (5p + 3q)^2 and the answer is 2(5p + 3q)^2."
+      ],
+      "visual": { "kind": "flow", "items": ["50p^2 + 60pq + 18q^2", "take out common factor 2", "(5p)^2 + 2(5p)(3q) + (3q)^2", "2(5p + 3q)^2"] },
+      "note": "No square root symbol needed. Clean move." },
+
+    { "id": "gm-ch04-s14", "sec": "4.3", "title": "The Minus Twin", "kicker": "Replace b by -b in the identity",
+      "bullets": [
+        "Think and Reflect asks: what if we replace b by -b in (a + b)^2 = a^2 + 2ab + b^2?",
+        "We get (a - b)^2 = a^2 - 2ab + b^2.",
+        "This is also an identity and can be used in ways similar to the plus version."
+      ],
+      "note": "One sign flip, a whole new tool in the kit." },
+
+    { "id": "gm-ch04-s15", "sec": "4.3", "title": "Case Closed: It Is 2", "kicker": "The opening pattern finally explained",
+      "bullets": [
+        "Any three consecutive numbers can be taken as (n - 1), n and (n + 1); their squares are (n - 1)^2, n^2 and (n + 1)^2.",
+        "Using the identities, (n - 1)^2 + (n + 1)^2 = n^2 - 2n + 1 + n^2 + 2n + 1 = 2n^2 + 2.",
+        "Subtracting twice the middle square, 2n^2, leaves exactly 2.",
+        "This is a proof that you always arrive at 2, for every n."
+      ],
+      "visual": { "kind": "steps", "items": ["Middle number is n", "Outer squares sum to 2n^2 + 2", "Subtract the middle square twice", "Always 2"] },
+      "note": "The 4.1 mystery, solved with two identities." },
+
+    { "id": "gm-ch04-s16", "sec": "4.5", "title": "A Rectangle of Factors", "kicker": "Multiply x + 3 by x + 4 with tiles",
+      "bullets": [
+        "A rectangle with sides x + 3 and x + 4 units has area (x + 3)(x + 4) sq units.",
+        "Using distributivity: (x + 3)(x + 4) = x^2 + 3x + 4x + 12.",
+        "Combining the middle terms gives x^2 + 7x + 12.",
+        "Algebra tiles now let us see this whole product with our eyes."
+      ],
+      "note": "Area is just a friendlier word for multiply." },
+
+    { "id": "gm-ch04-s17", "sec": "4.5", "title": "Reading The Tile Picture", "kicker": "Every tile has a job",
+      "bullets": [
+        "The expression x + 3 is one x-tile plus three unit tiles; x + 4 is one x-tile plus four unit tiles.",
+        "Their product fills an inner rectangle holding the x^2-tile, 7 x-tiles and 12 unit tiles.",
+        "The 7x has been split as 3x + 4x: three x-tiles sit on the right of the x^2-tile and four below it.",
+        "The 12 unit tiles form a 3 by 4 array, so the rectangle's dimensions are x + 3 and x + 4."
+      ],
+      "visual": { "kind": "labels", "items": ["x^2-tile", "3 x-tiles on the right", "4 x-tiles below", "12 units in a 3 by 4 array"] },
+      "note": "The picture literally shows the factors." },
+
+    { "id": "gm-ch04-s18", "sec": "4.5", "title": "One Picture, Two Powers", "kicker": "Multiply and factor with the same tiles",
+      "bullets": [
+        "Multiplication view: the linear expressions x + 3 and x + 4 multiply to give (x + 3)(x + 4) = x^2 + 7x + 12.",
+        "Factorisation view: x^2 + 7x + 12 factors into the linear factors (x + 3) and (x + 4).",
+        "Same rectangular arrangement, read in two directions.",
+        "Think and Reflect: if 7x is split as 2x + 5x instead, can a similar rectangle form? Check other possibilities too."
+      ],
+      "note": "Ek picture, do kaam. That is the beauty of tiles." },
+
+    { "id": "gm-ch04-s19", "sec": "4.5", "title": "The General Pattern", "kicker": "Generalise (x + a)(x + b)",
+      "bullets": [
+        "The book shows (x + 3)(x + 4) = x^2 + 7x + 12 and (x + 6)(x + 7) = x^2 + 13x + 42.",
+        "Spot the pattern: 7 = 3 + 4 and 12 = 3 × 4; then 13 = 6 + 7 and 42 = 6 × 7.",
+        "Generalising: (x + a)(x + b) = x^2 + (a + b)x + ab.",
+        "Think and Reflect: lay out tiles for x^2 + 11x + 30 so that you can see its factors."
+      ],
+      "note": "a + b in the middle, ab at the end." },
+
+    { "id": "gm-ch04-s20", "sec": "4.5", "title": "When x Gets Company", "kicker": "Sides like 2x + 3 and 3x + 1",
+      "bullets": [
+        "For a rectangle with sidelengths 2x + 3 and 3x + 1, the area is (2x + 3)(3x + 1).",
+        "Distributivity gives 6x^2 + 2x + 9x + 3 = 6x^2 + 11x + 3.",
+        "The book's fill-in-the-blank generalises it: (px + a)(qx + b) = (pq)x^2 + (pb + aq)x + ab.",
+        "Verify your answer using the distributive property, exactly as the book asks."
+      ],
+      "note": "Bigger tiles, same rectangle logic." },
+
+    { "id": "gm-ch04-s21", "sec": "4.8", "title": "Fractions With Algebra", "kicker": "Factor first, then cancel",
+      "bullets": [
+        "A rational algebraic expression is a fraction whose numerator and denominator are algebraic expressions.",
+        "To simplify it, we cancel the common factors between the expressions in the numerator and denominator.",
+        "That means factorising both parts first, and our identities do that job.",
+        "Example 16 simplifies (x^2 - 7x + 12) / (5x^2 + 5x - 100), assuming 5x^2 + 5x - 100 is not 0."
+      ],
+      "note": "Identities doing the heavy lifting again." },
+
+    { "id": "gm-ch04-s22", "sec": "4.8", "title": "Splitting The Numerator", "kicker": "Find a and b: sum -7, product 12",
+      "bullets": [
+        "For the numerator x^2 - 7x + 12, we need a and b such that a + b = -7 and ab = 12.",
+        "Can you think of two such numbers? They are -3 and -4.",
+        "So factorising gives x^2 - 7x + 12 = (x - 3)(x - 4)."
+      ],
+      "note": "Sum and product are the two clues. Always." },
+
+    { "id": "gm-ch04-s23", "sec": "4.8", "title": "Tidying The Denominator", "kicker": "Common factor 5, then split",
+      "bullets": [
+        "In 5x^2 + 5x - 100, all three terms are multiples of 5.",
+        "Take 5 as a common factor: 5x^2 + 5x - 100 = 5(x^2 + x - 20).",
+        "Now find a and b with a + b = 1 and ab = -20. They are 5 and -4.",
+        "So 5x^2 + 5x - 100 = 5(x - 4)(x + 5)."
+      ],
+      "note": "Tidy first, split second. Order matters." },
+
+    { "id": "gm-ch04-s24", "sec": "4.8", "title": "Cancel With Care", "kicker": "The payoff, plus one safety rule",
+      "bullets": [
+        "Substituting the factored forms, the fraction becomes (x - 4)(x - 3) / 5(x - 4)(x + 5).",
+        "The common factor x - 4 can be cancelled because it is not equal to 0.",
+        "We know that because 5x^2 + 5x - 100 is not 0, as Example 16 assumes.",
+        "The simplified result is (x - 3) / 5(x + 5)."
+      ],
+      "visual": { "kind": "flow", "items": ["(x - 4)(x - 3) over 5(x - 4)(x + 5)", "Cancel the common (x - 4)", "(x - 3) over 5(x + 5)"] },
+      "note": "Cancelling is legal only when the factor is not zero." }
+  ],
+  "flashcards": [
+    { "id": "gm-ch04-f1", "sec": "4.1", "front": "For the squares 1, 4, 9, what is (1 + 9) - (2 × 4)?", "back": "2. Add the outer squares and subtract twice the middle square.", "tag": "example" },
+    { "id": "gm-ch04-f2", "sec": "4.1", "front": "Apply the book's pattern to 25, 36, 49. What do you get?", "back": "(25 + 49) - (2 × 36) = 74 - 72 = 2, the same stubborn 2.", "tag": "example" },
+    { "id": "gm-ch04-f3", "sec": "4.1", "front": "What do algebraic identities do for us, per the chapter opening?", "back": "They make it easier to simplify complicated calculations and help us work efficiently with algebraic expressions.", "tag": "concept" },
+    { "id": "gm-ch04-f4", "sec": "4.2", "front": "State the identity the split square of side (a + b) shows.", "back": "(a + b)^2 = a^2 + 2ab + b^2: one a^2 square, one b^2 square and two ab rectangles.", "tag": "formula" },
+    { "id": "gm-ch04-f5", "sec": "4.2", "front": "With a = -2 and b = -3, what is a^2 + 2ab + b^2?", "back": "4 + 12 + 9 = 25, which matches (a + b)^2 = (-5)^2 = 25.", "tag": "example" },
+    { "id": "gm-ch04-f6", "sec": "4.2", "front": "How is an identity different from an equation?", "back": "An identity is an equation true for all values of its variables; an equation need not be true for all values.", "tag": "definition" },
+    { "id": "gm-ch04-f7", "sec": "4.2", "front": "Which property proves (a + b)^2 = a^2 + 2ab + b^2 for all numbers?", "back": "The distributive property: (a + b)(a + b) = a(a + b) + b(a + b) = a^2 + 2ab + b^2.", "tag": "concept" },
+    { "id": "gm-ch04-f8", "sec": "4.3", "front": "Factor x^2 + 4x + 4 using an identity.", "back": "x^2 + 4x + 4 = x^2 + 2(x)(2) + 2^2 = (x + 2)^2, so (x + 2) is a factor.", "tag": "example" },
+    { "id": "gm-ch04-f9", "sec": "4.3", "front": "Factor 36x^2 + 12x + 1.", "back": "(6x + 1)^2, since (6x)^2 = 36x^2, 2(6x)(1) = 12x and 1^2 = 1.", "tag": "example" },
+    { "id": "gm-ch04-f10", "sec": "4.3", "front": "What identity comes from replacing b by -b?", "back": "(a - b)^2 = a^2 - 2ab + b^2, and it works in ways similar to the plus version.", "tag": "formula" },
+    { "id": "gm-ch04-f11", "sec": "4.3", "front": "Factor 50p^2 + 60pq + 18q^2 completely.", "back": "Take the common factor 2 out first, then match the identity: 2(5p + 3q)^2.", "tag": "example" },
+    { "id": "gm-ch04-f12", "sec": "4.3", "front": "Why is (n - 1)^2 + (n + 1)^2 - 2n^2 always 2?", "back": "The outer squares expand to 2n^2 + 2, and subtracting 2n^2 leaves 2.", "tag": "concept" },
+    { "id": "gm-ch04-f13", "sec": "4.5", "front": "How is the middle term 7x split in the tile picture for x^2 + 7x + 12?", "back": "As 3x + 4x, since 3 + 4 = 7 and 3 × 4 = 12.", "tag": "concept" },
+    { "id": "gm-ch04-f14", "sec": "4.5", "front": "Use distributivity on (x + 3)(x + 4).", "back": "x^2 + 3x + 4x + 12, which combines to x^2 + 7x + 12.", "tag": "formula" },
+    { "id": "gm-ch04-f15", "sec": "4.5", "front": "Complete the pattern: (x + a)(x + b) = ?", "back": "x^2 + (a + b)x + ab. Example: (x + 6)(x + 7) = x^2 + 13x + 42.", "tag": "formula" },
+    { "id": "gm-ch04-f16", "sec": "4.8", "front": "Factor x^2 - 7x + 12.", "back": "(x - 3)(x - 4), because (-3) + (-4) = -7 and (-3)(-4) = 12.", "tag": "example" },
+    { "id": "gm-ch04-f17", "sec": "4.8", "front": "What is the first step on 5x^2 + 5x - 100 in Example 16?", "back": "Take out the common factor 5 to get 5(x^2 + x - 20).", "tag": "concept" },
+    { "id": "gm-ch04-f18", "sec": "4.8", "front": "Why is cancelling the factor (x - 4) in Example 16 allowed?", "back": "Because 5x^2 + 5x - 100 is assumed not 0, the factor (x - 4) is not 0, so cancelling is safe.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "gm-ch04-q1", "sec": "4.1", "q": "For the squares 1, 4, 9, the book computes (1 + 9) - (2 × 4). What is the result?", "options": ["2", "4", "8", "10"], "answer": 0, "why": "1 + 9 = 10, and 10 - 8 = 2, exactly as Example 1 shows.", "difficulty": "easy" },
+    { "id": "gm-ch04-q2", "sec": "4.1", "q": "Using the same pattern on 9, 16, 25, what is (9 + 25) - (2 × 16)?", "options": ["0", "2", "4", "32"], "answer": 1, "why": "34 - 32 = 2; the book finds this same result for every set of three consecutive squares.", "difficulty": "medium" },
+    { "id": "gm-ch04-q3", "sec": "4.1", "q": "The book asks you to hunt patterns with 4 consecutive squares. What is the smartest first move?", "options": ["Assume the answer is 2 again", "Test several sets of four squares and look for a pattern", "Prove it instantly with (a + b)^2", "Add only the two middle squares"], "answer": 1, "why": "Think and Reflect says to explore; the chapter itself began by trying examples.", "difficulty": "hard" },
+    { "id": "gm-ch04-q4", "sec": "4.2", "q": "In the big square of side (a + b), what is the area of each of the two rectangles inside?", "options": ["ab", "2ab", "a^2", "b^2"], "answer": 0, "why": "The figure shows two rectangles of area ab each; together they make 2ab.", "difficulty": "easy" },
+    { "id": "gm-ch04-q5", "sec": "4.2", "q": "For a = -2 and b = -3, what does (a + b)^2 equal?", "options": ["-25", "13", "25", "4"], "answer": 2, "why": "(a + b) = -5 and (-5)^2 = 25, matching 4 + 12 + 9.", "difficulty": "medium" },
+    { "id": "gm-ch04-q6", "sec": "4.2", "q": "With a = -2/3 and b = 3/4, both sides of the identity equal which value?", "options": ["1/12", "1/16", "1/144", "-1/144"], "answer": 2, "why": "(a + b) = 1/12 so its square is 1/144, and 4/9 - 1 + 9/16 also gives 1/144.", "difficulty": "medium" },
+    { "id": "gm-ch04-q7", "sec": "4.2", "q": "Why did the book still prove the identity after checking negatives and rationals?", "options": ["Squares are always positive", "Checking samples cannot cover every number", "Distributivity fails for fractions", "Identities need no proof"], "answer": 1, "why": "After testing, the book says we are still not sure for all numbers, so it proves it by distributivity.", "difficulty": "hard" },
+    { "id": "gm-ch04-q8", "sec": "4.3", "q": "Which identity turns x^2 + 4x + 4 into a perfect square?", "options": ["(a + b)^2 = a^2 + 2ab + b^2", "(a - b)^2 = a^2 - 2ab + b^2", "2ab = a^2 + b^2", "a^2 + b^2 = (a + b)^2"], "answer": 0, "why": "x^2 + 4x + 4 = x^2 + 2(x)(2) + 2^2 fits the plus form with a = x and b = 2.", "difficulty": "easy" },
+    { "id": "gm-ch04-q9", "sec": "4.3", "q": "After taking 2 common from 50p^2 + 60pq + 18q^2, the bracket 25p^2 + 30pq + 9q^2 becomes...", "options": ["(25p + 9q)^2", "(5p - 3q)^2", "(5p + 3q)^2", "2(5p + 3q)^2"], "answer": 2, "why": "25p^2 = (5p)^2, 30pq = 2(5p)(3q) and 9q^2 = (3q)^2, so the bracket is (5p + 3q)^2.", "difficulty": "medium" },
+    { "id": "gm-ch04-q10", "sec": "4.3", "q": "In 36x^2 + 12x + 1 = a^2 + 2ab + b^2, which a and b fit?", "options": ["a = 6x, b = 1", "a = 36x, b = 1", "a = 6, b = x", "a = 6x, b = 12"], "answer": 0, "why": "The book writes 36x^2 = (6x)^2 and 12x = 2(6x)(1), so a = 6x and b = 1.", "difficulty": "hard" },
+    { "id": "gm-ch04-q11", "sec": "4.5", "q": "In the tile rectangle for x^2 + 7x + 12, how are the 12 unit tiles arranged?", "options": ["A 2 by 6 array", "A 3 by 4 array", "A 1 by 12 strip", "A 3 by 3 array"], "answer": 1, "why": "The book places the 12 unit tiles in a 3 by 4 array, matching sides x + 3 and x + 4.", "difficulty": "easy" },
+    { "id": "gm-ch04-q12", "sec": "4.5", "q": "From the Think and Reflect, (x + 2)(x + 3) equals...", "options": ["x^2 + 6x + 5", "x^2 + 5x + 6", "x^2 + 5x + 5", "x^2 + 6x + 6"], "answer": 1, "why": "2 + 3 = 5 gives the middle term and 2 × 3 = 6 the constant.", "difficulty": "medium" },
+    { "id": "gm-ch04-q13", "sec": "4.5", "q": "The area of the rectangle with sides 2x + 3 and 3x + 1 is...", "options": ["6x^2 + 9x + 3", "6x^2 + 5x + 3", "5x^2 + 11x + 3", "6x^2 + 11x + 3"], "answer": 3, "why": "Distributivity gives 6x^2 + 2x + 9x + 3, and 2x + 9x = 11x.", "difficulty": "hard" },
+    { "id": "gm-ch04-q14", "sec": "4.8", "q": "Which two numbers have product 12 and sum -7, as needed for x^2 - 7x + 12?", "options": ["3 and -4", "-3 and 4", "-2 and -6", "-3 and -4"], "answer": 3, "why": "(-3)(-4) = 12 and (-3) + (-4) = -7, exactly as Example 16 finds.", "difficulty": "easy" },
+    { "id": "gm-ch04-q15", "sec": "4.8", "q": "What is the first move on the denominator 5x^2 + 5x - 100?", "options": ["Write it as (5x - 10)^2", "Take 5 as a common factor", "Split -100 as (-20)(-5)", "Cancel 5 with the numerator"], "answer": 1, "why": "All three terms are multiples of 5, so the book takes out 5 to get 5(x^2 + x - 20).", "difficulty": "medium" },
+    { "id": "gm-ch04-q16", "sec": "4.8", "q": "After factorising and cancelling, Example 16 leaves which simplified expression?", "options": ["(x - 4) / 5(x + 3)", "(x + 3) / 5(x - 5)", "(x - 3) / 5(x + 5)", "(x - 3) / (5x + 5)"], "answer": 2, "why": "Cancelling the common factor (x - 4) leaves (x - 3) over 5(x + 5).", "difficulty": "medium" },
+    { "id": "gm-ch04-q17", "sec": "4.8", "q": "From the Think and Reflect, 36s^2 - 12st + t^2 equals...", "options": ["(6s + t)^2", "(36s - t)^2", "(6s - t)(6s + t)", "(6s - t)^2"], "answer": 3, "why": "It matches a^2 - 2ab + b^2 with a = 6s and b = t, using the minus twin identity.", "difficulty": "hard" },
+    { "id": "gm-ch04-q18", "sec": "4.8", "q": "Saira's picture: a square of side x, 8 strips of x by 1, and 15 unit squares. Which expression is the total area?", "options": ["x^2 + 8x + 15", "x^2 + 15x + 8", "8x^2 + 15", "x^2 + 23"], "answer": 0, "why": "One x^2 square plus 8 strips of area x plus 15 unit squares adds to x^2 + 8x + 15.", "difficulty": "easy" }
+  ],
+  "examples": [
+    { "id": "gm-ch04-e1", "title": "The Always-2 Mystery, Proven",
+      "problem": "Show that for any three consecutive square numbers, adding the smallest and largest and subtracting twice the middle square always gives 2.",
+      "steps": [
+        "Let the three consecutive numbers be (n - 1), n and (n + 1), so their squares are (n - 1)^2, n^2 and (n + 1)^2.",
+        "Expand the outer squares with the identities: (n - 1)^2 = n^2 - 2n + 1 and (n + 1)^2 = n^2 + 2n + 1.",
+        "Add the smallest and largest squares: n^2 - 2n + 1 + n^2 + 2n + 1 = 2n^2 + 2.",
+        "Subtract twice the middle square: (2n^2 + 2) - 2n^2 = 2."
+      ],
+      "answer": "The result is 2 for every n, which proves the pattern from Example 1." },
+    { "id": "gm-ch04-e2", "title": "Factoring With a Common Factor First",
+      "problem": "Find the factors of 50p^2 + 60pq + 18q^2.",
+      "steps": [
+        "A term whose square is 50p^2 would be 50p, which drags in a square root symbol, so look for a common factor first.",
+        "The number 2 is a common factor of 50p^2, 60pq and 18q^2, so write the expression as 2(25p^2 + 30pq + 9q^2).",
+        "Match the bracket with a^2 + 2ab + b^2: 25p^2 = (5p)^2, 30pq = 2(5p)(3q) and 9q^2 = (3q)^2, so a = 5p and b = 3q.",
+        "Apply the identity: 25p^2 + 30pq + 9q^2 = (5p + 3q)^2."
+      ],
+      "answer": "50p^2 + 60pq + 18q^2 = 2(5p + 3q)^2, so 2 and (5p + 3q) are factors." },
+    { "id": "gm-ch04-e3", "title": "A Tile Rectangle With Bigger Sides",
+      "problem": "Find the area of a rectangle with sides 2x + 3 and 3x + 1, and state the general rule for (px + a)(qx + b) that the book's fill-in-the-blank builds.",
+      "steps": [
+        "Area = (2x + 3)(3x + 1). Apply the distributive property: 2x(3x + 1) + 3(3x + 1).",
+        "This gives 6x^2 + 2x + 9x + 3.",
+        "Combine the middle terms: 2x + 9x = 11x, so the area is 6x^2 + 11x + 3 sq units.",
+        "In general, (px + a)(qx + b) = (pq)x^2 + (pb + aq)x + ab, which the book asks you to verify using distributivity."
+      ],
+      "answer": "The area is 6x^2 + 11x + 3, and (px + a)(qx + b) = (pq)x^2 + (pb + aq)x + ab." },
+    { "id": "gm-ch04-e4", "title": "Taming a Rational Expression",
+      "problem": "Simplify (x^2 - 7x + 12) / (5x^2 + 5x - 100), assuming 5x^2 + 5x - 100 is not equal to 0.",
+      "steps": [
+        "Numerator: find a and b with a + b = -7 and ab = 12. They are -3 and -4, so x^2 - 7x + 12 = (x - 3)(x - 4).",
+        "Denominator: all three terms are multiples of 5, so 5x^2 + 5x - 100 = 5(x^2 + x - 20).",
+        "In the bracket, find a and b with a + b = 1 and ab = -20. They are 5 and -4, so the denominator is 5(x - 4)(x + 5).",
+        "Write the fraction as (x - 4)(x - 3) / 5(x - 4)(x + 5) and cancel the common factor (x - 4); it is not 0 because the denominator is assumed not 0."
+      ],
+      "answer": "(x^2 - 7x + 12) / (5x^2 + 5x - 100) = (x - 3) / 5(x + 5)." }
+  ],
+  "conceptMap": {
+    "center": "Algebraic Identities",
+    "groups": [
+      { "id": "g1", "label": "Core Identities" },
+      { "id": "g2", "label": "Visual Models" },
+      { "id": "g3", "label": "Factorisation Moves" },
+      { "id": "g4", "label": "Applications" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Distributive property", "group": "g1" },
+      { "id": "n2", "label": "(a + b)^2 identity", "group": "g1" },
+      { "id": "n3", "label": "(a - b)^2 identity", "group": "g1" },
+      { "id": "n4", "label": "Identity vs equation", "group": "g1" },
+      { "id": "n5", "label": "Square area model", "group": "g2" },
+      { "id": "n6", "label": "Algebra tiles", "group": "g2" },
+      { "id": "n7", "label": "Consecutive squares puzzle", "group": "g2" },
+      { "id": "n8", "label": "Perfect square spotting", "group": "g3" },
+      { "id": "n9", "label": "Common factor first", "group": "g3" },
+      { "id": "n10", "label": "Middle term split", "group": "g3" },
+      { "id": "n11", "label": "Factorising quadratics", "group": "g3" },
+      { "id": "n12", "label": "Rational expressions", "group": "g4" },
+      { "id": "n13", "label": "Cancelling safely", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "proves for all values" },
+      { "from": "n5", "to": "n2", "label": "areas match" },
+      { "from": "n5", "to": "n6", "label": "tiles extend the model" },
+      { "from": "n2", "to": "n3", "label": "b becomes -b" },
+      { "from": "n2", "to": "n4", "label": "true for all values" },
+      { "from": "n2", "to": "n8", "label": "spot a^2, 2ab, b^2" },
+      { "from": "n7", "to": "n2", "label": "explains the 2" },
+      { "from": "n8", "to": "n11", "label": "feeds" },
+      { "from": "n9", "to": "n11", "label": "prepares" },
+      { "from": "n10", "to": "n11", "label": "completes" },
+      { "from": "n6", "to": "n11", "label": "rectangles show factors" },
+      { "from": "n11", "to": "n12", "label": "factor top and bottom" },
+      { "from": "n12", "to": "n13", "label": "then cancel" },
+      { "from": "n1", "to": "n10", "label": "justifies splitting" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Spot a pattern", "detail": "Three consecutive squares always leave 2 in Example 1's game." },
+      { "id": "s2", "label": "See it as areas", "detail": "Cut a square of side (a + b) into a^2, b^2 and two ab rectangles." },
+      { "id": "s3", "label": "Test tricky values", "detail": "Negatives and rationals like -2/3 and 3/4 still satisfy the identity." },
+      { "id": "s4", "label": "Prove it once", "detail": "The distributive property expands (a + b)(a + b) for all numbers." },
+      { "id": "s5", "label": "Name it an identity", "detail": "True for all values of the variables, unlike an ordinary equation." },
+      { "id": "s6", "label": "Match and factorise", "detail": "Fit expressions to a^2 + 2ab + b^2 or a^2 - 2ab + b^2 and read the factors." },
+      { "id": "s7", "label": "Clear common factors", "detail": "Pull out shared factors first, like the 2 in 50p^2 + 60pq + 18q^2." },
+      { "id": "s8", "label": "Build tile rectangles", "detail": "Split the middle term so tiles form a rectangle; its sides are the factors." },
+      { "id": "s9", "label": "Simplify rational expressions", "detail": "Factor numerator and denominator, then cancel the common factor when it is not 0." }
+    ],
+    "edges": [ [0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [5, 7], [6, 8], [7, 8] ]
+  }
+}

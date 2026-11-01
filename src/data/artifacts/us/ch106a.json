@@ -1,0 +1,855 @@
+{
+  "book": "us",
+  "chapter": 106,
+  "part": "a",
+  "title": "Resistance and Resilience (1000-1700 CE)",
+  "grade": 9,
+  "sections": [
+    { "id": "106.1", "title": "Safeguarding Sovereignty" },
+    { "id": "106.2", "title": "Mewar's Resistance against Mughals" },
+    { "id": "106.3", "title": "Vijayanagara Empire" },
+    { "id": "106.4", "title": "Marathas" },
+    { "id": "106.5", "title": "The Sikhs" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch106a-s1",
+      "sec": "106.1",
+      "title": "Why Invasions Came",
+      "kicker": "Wealth of the plains invited trouble",
+      "bullets": [
+        "From the 7th century onwards, successive phases of invasions hit the subcontinent, driven by territorial expansion and religious motives.",
+        "The surplus agrarian produce of fertile plains, fed by perennial river systems, gave people economic well-being.",
+        "That very prosperity became a major reason for the invasions.",
+        "Against this backdrop, strategic alliances and confederacies emerged at regional and pan-Indian levels."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Territorial expansion", "Religious motives", "Surplus produce", "Perennial rivers"]
+      },
+      "note": "Fertile plains full of grain, sabki nazar wahan!"
+    },
+    {
+      "id": "us-ch106a-s2",
+      "sec": "106.1",
+      "title": "Arabs Turned Back",
+      "kicker": "Mid-7th century: attacks by sea and land",
+      "bullets": [
+        "From the mid-7th century, Arab forces launched invasions by sea and land.",
+        "Indian rulers across the Deccan, Malwa, Kashmir and Rajasthan confronted and repulsed these early invaders.",
+        "This early wall of resistance stopped the first wave of attackers."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Arab invasions by sea and land", "Rulers of Deccan, Malwa, Kashmir, Rajasthan", "Early invaders confronted and repulsed"]
+      },
+      "note": "Pehli line of defence held strong."
+    },
+    {
+      "id": "us-ch106a-s3",
+      "sec": "106.1",
+      "title": "Ghazni Strikes First",
+      "kicker": "1001: the first Turkish blow",
+      "bullets": [
+        "Mahmud, Sultan of Ghazni in present-day Afghanistan and northeastern Iran, launched his first invasion in 1001.",
+        "His target was Jayapala of the Hindu Shahi dynasty.",
+        "Through the 11th and 12th centuries, the Hindu Shahis, Chandellas, Solankis and Chauhans opposed and fought the Turkish invaders."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Opponents of the Turkish invaders",
+        "children": ["Hindu Shahi kingdom", "Chandellas", "Solankis", "Chauhans"]
+      },
+      "note": "Ghazni was in today's Afghanistan-Iran region."
+    },
+    {
+      "id": "us-ch106a-s4",
+      "sec": "106.1",
+      "title": "Who Held, Who Fell",
+      "kicker": "1178: a queen wins at Kasahrada",
+      "bullets": [
+        "In 1178, Queen Naiki Devi of the Chaulukya kingdom defeated Muhammad Ghuri at Kasahrada, near Mount Abu.",
+        "The Chauhans, Gahadavalas and Senas came under Turkic control towards the end of the 12th century.",
+        "Gujarat, Malwa and Bundelkhand under the Chandellas put up stiff resistance for about a hundred years thereafter.",
+        "The Turks failed to conquer present-day Odisha and parts of Assam; Rajputana states stayed centres of sustained resistance."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Held the line",
+          "items": ["Naiki Devi at Kasahrada, 1178", "Chandellas: about 100 years of resistance", "Odisha and parts of Assam never taken", "Rajputana states: sustained resistance"]
+        },
+        "right": {
+          "title": "Came under Turkic control",
+          "items": ["Chauhans", "Gahadavalas", "Senas"]
+        }
+      },
+      "note": "North and west bore the brunt; the south stayed free."
+    },
+    {
+      "id": "us-ch106a-s5",
+      "sec": "106.2",
+      "title": "Kumbha Builds the Shield",
+      "kicker": "1433-1468: forts of resistance",
+      "bullets": [
+        "Maharana Kumbha of Mewar consolidated a resistance framework between 1433 and 1468.",
+        "A key part of this framework was the construction of forts.",
+        "These strong foundations readied Mewar for the storms that followed."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Consolidate a resistance framework", "Build forts across Mewar", "Stand ready for future sieges"]
+      },
+      "note": "Pehle deewar, phir ladai!"
+    },
+    {
+      "id": "us-ch106a-s6",
+      "sec": "106.2",
+      "title": "Siege of Chittor",
+      "kicker": "1567-1568: five months of defiance",
+      "bullets": [
+        "Akbar, whose empire was then at the peak of its power, attacked Mewar and laid siege to the fort at Chittor in 1567-1568.",
+        "Under Rana Udai Singh, the Rajputs resisted for more than five months before the fort was captured.",
+        "The Mughal army paid a heavy price in the campaign.",
+        "In a strategic move, Udai Singh retreated to the Aravalli Hills with a large number of his subjects."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["1567: Akbar besieges Chittor", "Rajputs resist for over five months", "Fort captured; Udai Singh moves to the Aravalli Hills"]
+      },
+      "note": "Retreat bhi ek strategy hoti hai."
+    },
+    {
+      "id": "us-ch106a-s7",
+      "sec": "106.2",
+      "title": "Haldighati to Guerrilla War",
+      "kicker": "1576: Pratap takes on Akbar",
+      "bullets": [
+        "In 1576 Akbar attacked Mewar again; Maharana Pratap, son and successor of Udai Singh, fought the Mughals at Haldighati.",
+        "Pratap modified his military strategy and adopted guerrilla warfare.",
+        "He used the rugged Aravalli terrain for surprise attacks, raids and ambushes on the Mughal forces and their networks.",
+        "He continued to resist and eventually reclaimed most of his ancestral territories in the 1580s."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Open battle",
+          "items": ["Haldighati, 1576", "Fought the Mughal forces directly"]
+        },
+        "right": {
+          "title": "Guerrilla warfare",
+          "items": ["Surprise attacks, raids, ambushes", "Rugged Aravalli terrain as an ally", "Strikes on Mughal forces and their networks"]
+        }
+      },
+      "note": "Pahad hi saathi ban gaye."
+    },
+    {
+      "id": "us-ch106a-s8",
+      "sec": "106.2",
+      "title": "Victory at Dewair",
+      "kicker": "1582: outposts crumble",
+      "bullets": [
+        "The Battle of Dewair, fought near Udaipur in 1582, was a turning point for Mewar.",
+        "It caused the collapse of key Mughal military outposts in Mewar.",
+        "It helped Maharana Pratap reclaim control over Mewar.",
+        "A victory memorial still stands at Dewair in Rajasthan."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["1582", "Near Udaipur", "Mughal outposts collapse", "Mewar reclaimed"]
+      },
+      "note": "Victory memorial wahan aaj bhi khada hai."
+    },
+    {
+      "id": "us-ch106a-s9",
+      "sec": "106.2",
+      "title": "Amar Singh Holds the Line",
+      "kicker": "1605-1609: Jahangir fails thrice",
+      "bullets": [
+        "Maharana Amar Singh, son and successor of Pratap, continued Mewar's tradition of military resistance against the Mughals.",
+        "Jahangir made military advances towards Mewar in 1605, 1608 and 1609.",
+        "Each attempt was countered by strong and organised resistance from the Rajputs.",
+        "Eventually the Mughals were compelled to acknowledge Mewar's distinct political position."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Jahangir advances in 1605, 1608, 1609", "Organised Rajput resistance each time", "Mewar's distinct position acknowledged"]
+      },
+      "note": "Teen koshish, teen baar failure."
+    },
+    {
+      "id": "us-ch106a-s10",
+      "sec": "106.3",
+      "title": "Pressure on the South",
+      "kicker": "Sultanate campaigns roll southward",
+      "bullets": [
+        "Resistance to foreign invasions was not confined to northern India.",
+        "The expanding campaigns of the Delhi Sultanate steadily weakened the older kingdoms of the south.",
+        "Malik Kafur, Alauddin Khilji's general, attacked major cities and temples including Warangal, Belur and Madurai.",
+        "Muhammad bin Tughlaq's rise pushed the Sultanate farther south, contributing to the decline of the Pandya Kingdom."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Malik Kafur raids Warangal, Belur, Madurai", "Tughlaq era extends Sultanate south", "Pandya Kingdom declines", "Madurai Sultanate emerges"]
+      },
+      "note": "The south was fighting its own fires."
+    },
+    {
+      "id": "us-ch106a-s11",
+      "sec": "106.3",
+      "title": "City of Victory, 1336",
+      "kicker": "Harihara and Bukka respond",
+      "bullets": [
+        "In 1336 the Vijayanagara Empire rose to check the expansion of the Sultanate into peninsular India.",
+        "Harihara and Bukka established the independent kingdom of Vijayanagara, meaning City of Victory.",
+        "It was located near present-day Hampi in Karnataka.",
+        "A formidable river and rugged, rocky terrain gave it strong natural defence and a secure base for military operations."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["1336", "Harihara and Bukka", "City of Victory", "Near Hampi"]
+      },
+      "note": "The name says it all: Vijayanagara!"
+    },
+    {
+      "id": "us-ch106a-s12",
+      "sec": "106.3",
+      "title": "Wealth in Four Languages",
+      "kicker": "Trade, culture, power by the rivers",
+      "bullets": [
+        "The empire expanded by annexing territory south of the Krishna and Tungabhadra rivers.",
+        "It became one of the richest and most influential states of its time.",
+        "Literature flourished in Kannada, Telugu, Tamil and Sanskrit.",
+        "Its capital city became a centre of trade, culture and political power in southern India."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Vijayanagara's greatness",
+        "children": ["Trade", "Culture", "Political power", "Literature in four languages"]
+      },
+      "note": "Two rivers, one golden city."
+    },
+    {
+      "id": "us-ch106a-s13",
+      "sec": "106.3",
+      "title": "Tragedy at Kannanur",
+      "kicker": "1342: an ageing king falls",
+      "bullets": [
+        "During Bukka's reign, Vijayanagara made major gains, subjugating the Madurai Sultanate and annexing Arcot.",
+        "In 1342 the ageing Hoysala king Vira Ballala III fought the Madurai Sultanate in the Battle of Kannanur.",
+        "The Sultan launched a surprise counter-attack and executed the Hoysala ruler.",
+        "For almost four decades, Vijayanagara wrestled with the Sultans of Madurai."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["1342: Battle of Kannanur", "Vira Ballala III fights the Madurai Sultanate", "Surprise counter-attack; the king is executed", "Almost four decades of struggle follow"]
+      },
+      "note": "One loss, but the fight was not over."
+    },
+    {
+      "id": "us-ch106a-s14",
+      "sec": "106.3",
+      "title": "Kampana Finishes the Fight",
+      "kicker": "Bukka's son ends the Sultanate",
+      "bullets": [
+        "Kumara Kampana, the son of Bukka, led the campaign against the Madurai Sultanate.",
+        "He killed the Sultan and brought the Sultanate of Madurai to an end.",
+        "He reinstated the divine images in the Rajasimheshwara Temple at Kanchipuram and the Sri Ranganathaswamy Temple at Srirangam.",
+        "Later, in the 16th century, Krishnadevaraya took the empire to its peak, expanding and securing its dominance over the Deccan."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Kumara Kampana leads the campaign", "Sultan killed; Madurai Sultanate ends", "Divine images restored at Kanchipuram and Srirangam"]
+      },
+      "note": "Temples of victory shone again."
+    },
+    {
+      "id": "us-ch106a-s15",
+      "sec": "106.4",
+      "title": "Rise of the Marathas",
+      "kicker": "1674: a state of their own",
+      "bullets": [
+        "The Marathas were a formidable force in the Deccan, particularly during the 17th and 18th centuries.",
+        "The establishment of an independent Maratha state in 1674 is closely associated with the rise of Chhatrapati Shivaji.",
+        "Centuries of involvement in the region's politics gave them deep knowledge of the Deccan's complex geography and landscape.",
+        "Their bravery and martial abilities made them formidable in both administrative and military affairs."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["1674", "Chhatrapati Shivaji", "Knowledge of the Deccan", "Bravery and martial skill"]
+      },
+      "note": "The Deccan's soil ran in their veins."
+    },
+    {
+      "id": "us-ch106a-s16",
+      "sec": "106.4",
+      "title": "The Spirit of Swarajya",
+      "kicker": "Self-rule as an idea",
+      "bullets": [
+        "In the Maratha state, territorial control and sovereignty were closely linked to the idea of swarajya, or self-rule.",
+        "Chhatrapati Shivaji is regarded as one of the earliest proponents of the spirit of Swarajya.",
+        "Swarajya meant an independent, self-governing territory free from external control."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Swarajya", "Self-rule", "Independent", "Self-governing", "Free from external control"]
+      },
+      "note": "Apni zameen, apna raaj."
+    },
+    {
+      "id": "us-ch106a-s17",
+      "sec": "106.4",
+      "title": "Forts on the Hills",
+      "kicker": "Raigad and Sinhagad at work",
+      "bullets": [
+        "The Marathas strategically built forts such as Raigad and Sinhagad, which played a crucial role in resistance against the Mughals.",
+        "Their territory of hills and deep valleys made forts strategic nuclei for guerrilla warfare.",
+        "This network of forts enabled swift attacks from different directions and provided safe retreats.",
+        "Different types of forts were constructed to serve distinct purposes."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Forts built on hills like Raigad and Sinhagad", "Swift attacks from different directions", "Safe retreat into the valleys"]
+      },
+      "note": "Every hill hid a fort, every fort hid a plan."
+    },
+    {
+      "id": "us-ch106a-s18",
+      "sec": "106.4",
+      "title": "An Empire Run Ragged",
+      "kicker": "Aurangzeb: two decades in the Deccan",
+      "bullets": [
+        "Prolonged warfare exhausted the Mughal Empire economically and politically.",
+        "Aurangzeb spent more than two decades in the Deccan trying to control the region and subdue Maratha resistance.",
+        "As political boundaries shifted, the Marathas relied on strategic alliances and built a vast network of tributary relationships.",
+        "This extended their influence far beyond areas under direct rule; bravery and military skills were the key to their success."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Mughal Empire",
+          "items": ["Economically and politically exhausted", "Aurangzeb: over two decades in the Deccan"]
+        },
+        "right": {
+          "title": "Marathas",
+          "items": ["Strategic alliances", "Vast tributary network", "Bravery and military skills"]
+        }
+      },
+      "note": "Mughals grew tired; Marathas grew stronger."
+    },
+    {
+      "id": "us-ch106a-s19",
+      "sec": "106.5",
+      "title": "Guru Nanak's Light",
+      "kicker": "Late 15th century: a movement begins",
+      "bullets": [
+        "Guru Nanak founded a major spiritual movement in the late 15th century, which later came to be known as Sikhism.",
+        "It emphasised devotion to one God, social equality and the rejection of rituals.",
+        "Under Guru Nanak and his successors, the Sikh community expanded across the Punjab, Sindh and the Gangetic plains.",
+        "Punjab, then largely under the Lodi Sultans and later the Mughals, was fertile and densely populated."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Early Sikhism emphasised",
+        "children": ["Devotion to one God", "Social equality", "Rejection of rituals"]
+      },
+      "note": "A small panth with a big heart."
+    },
+    {
+      "id": "us-ch106a-s20",
+      "sec": "106.5",
+      "title": "A Martyrdom Changes Everything",
+      "kicker": "Guru Arjan Dev, the fifth Guru",
+      "bullets": [
+        "From the beginning of the 17th century, the Mughal state increasingly intervened in the affairs of the Sikh Gurus.",
+        "Jahangir ordered the execution of Guru Arjan Dev on the pretext of the Guru's alleged support to his rebellious son, Khusrau Mirza.",
+        "The martyrdom marked a significant turning point in the history of the Sikhs.",
+        "It contributed to a gradual shift in their organisational and political orientation."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Mughal intervention grows", "Guru Arjan Dev is executed", "A turning point for the Sikhs", "Political orientation begins to shift"]
+      },
+      "note": "One martyrdom, a whole community awakened."
+    },
+    {
+      "id": "us-ch106a-s21",
+      "sec": "106.5",
+      "title": "Akal Takht Rises",
+      "kicker": "Guru Hargobind's answer",
+      "bullets": [
+        "Guru Hargobind, the sixth Sikh Guru, was detained by Jahangir in Gwalior Fort.",
+        "Sikhs visited Gwalior in large numbers and paid their respects to the Guru from outside the fortress.",
+        "Guru Hargobind established the Akal Takht, a seat of temporal authority, to administer justice and address matters of governance.",
+        "Many armed conflicts took place between the Sikhs and the Mughals."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Guru Hargobind detained in Gwalior Fort", "Sikhs gather outside the fortress", "Akal Takht established for justice and governance"]
+      },
+      "note": "Spiritual strength now had a temporal seat."
+    },
+    {
+      "id": "us-ch106a-s22",
+      "sec": "106.5",
+      "title": "1675: Faith Unbroken",
+      "kicker": "Guru Tegh Bahadur's sacrifice",
+      "bullets": [
+        "In 1675, Aurangzeb ordered the execution of Guru Tegh Bahadur, the ninth Sikh Guru; the martyrdom proved a turning point in Indian history.",
+        "The brutality against Guru Arjan Dev, Guru Tegh Bahadur and the tenth Guru, Guru Gobind Singh, has few comparisons in history.",
+        "The valour and sacrifice of the Gurus became defining features of Sikhism.",
+        "Sikhs held that persecution had to be met with collective organisation and, as and when required, armed resistance."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Persecution by the Mughal state", "Collective organisation of the Sikhs", "Armed resistance as and when required", "Resilience of faith"]
+      },
+      "note": "Sacrifice made the conviction stronger."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch106a-f1",
+      "sec": "106.1",
+      "front": "From which century onwards did successive invasions strike the subcontinent?",
+      "back": "From the 7th century onwards, driven by territorial expansion and religious motives.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f2",
+      "sec": "106.1",
+      "front": "What made India a target for invaders, besides expansion and religion?",
+      "back": "The surplus agrarian produce of fertile plains fed by perennial river systems gave prosperity and became a major reason for the invasions.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f3",
+      "sec": "106.1",
+      "front": "Whom did Mahmud of Ghazni defeat in his first invasion of 1001?",
+      "back": "Jayapala, the ruler of the Hindu Shahi dynasty.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f4",
+      "sec": "106.1",
+      "front": "Which queen defeated Muhammad Ghuri at Kasahrada in 1178?",
+      "back": "Queen Naiki Devi of the Chaulukya kingdom, at Kasahrada near Mount Abu.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f5",
+      "sec": "106.2",
+      "front": "Which Mewar ruler consolidated a resistance framework between 1433 and 1468?",
+      "back": "Maharana Kumbha of Mewar; his framework included the construction of forts.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f6",
+      "sec": "106.2",
+      "front": "How long did the Rajputs resist Akbar's siege of Chittor in 1567-1568?",
+      "back": "More than five months, under Rana Udai Singh, before the fort was captured by the Mughals.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f7",
+      "sec": "106.2",
+      "front": "What warfare style did Maharana Pratap adopt after Haldighati?",
+      "back": "Guerrilla warfare: surprise attacks, raids and ambushes using the rugged Aravalli terrain against Mughal forces and their networks.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f8",
+      "sec": "106.2",
+      "front": "Why was the Battle of Dewair of 1582 significant?",
+      "back": "Fought near Udaipur, it caused the collapse of key Mughal military outposts in Mewar and helped Pratap reclaim control over Mewar.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f9",
+      "sec": "106.2",
+      "front": "Which coastal ruler of Ullal defeated Portuguese naval forces?",
+      "back": "Rani Abbakka Chowta of Ullal, in present-day Karnataka; her reign ran from 1525 to 1570.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f10",
+      "sec": "106.3",
+      "front": "Which general of Alauddin Khilji attacked Warangal, Belur and Madurai?",
+      "back": "Malik Kafur attacked major cities and temples, including those at Warangal, Belur and Madurai.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f11",
+      "sec": "106.3",
+      "front": "Who founded Vijayanagara, when, and what does the name mean?",
+      "back": "Harihara and Bukka founded it in 1336 near present-day Hampi; Vijayanagara means City of Victory.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch106a-f12",
+      "sec": "106.3",
+      "front": "What natural advantages protected Vijayanagara?",
+      "back": "A formidable river and rugged, rocky terrain provided strong natural defence and a secure base for military operations.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f13",
+      "sec": "106.3",
+      "front": "Who ended the Madurai Sultanate, and what did he restore?",
+      "back": "Kumara Kampana, son of Bukka, killed the Sultan and ended the Sultanate; he reinstated divine images at Kanchipuram and Srirangam temples.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f14",
+      "sec": "106.4",
+      "front": "When was the independent Maratha state established, and with whom is it linked?",
+      "back": "In 1674, closely associated with the rise of Chhatrapati Shivaji.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f15",
+      "sec": "106.4",
+      "front": "What does swarajya mean?",
+      "back": "Self-rule: an independent, self-governing territory free from external control; Maratha sovereignty was tied to this idea.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch106a-f16",
+      "sec": "106.4",
+      "front": "Why were Maratha forts like Raigad and Sinhagad so crucial?",
+      "back": "In hills and deep valleys, forts served as strategic nuclei for guerrilla warfare, enabling swift attacks from different directions and safe retreats.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f17",
+      "sec": "106.4",
+      "front": "What effect did prolonged Maratha warfare have on the Mughal Empire?",
+      "back": "It exhausted the empire economically and politically; Aurangzeb spent more than two decades in the Deccan trying to subdue Maratha resistance.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch106a-f18",
+      "sec": "106.5",
+      "front": "What three ideas did the movement founded by Guru Nanak emphasise?",
+      "back": "Devotion to one God, social equality, and the rejection of rituals.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch106a-f19",
+      "sec": "106.5",
+      "front": "On what pretext did Jahangir order the execution of Guru Arjan Dev?",
+      "back": "The Guru's alleged support to Jahangir's rebellious son, Khusrau Mirza; the fifth Guru's martyrdom was a turning point for the Sikhs.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch106a-f20",
+      "sec": "106.5",
+      "front": "What did Guru Hargobind establish, and for what purpose?",
+      "back": "The Akal Takht, a seat of temporal authority, to administer justice and address matters of governance.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch106a-f21",
+      "sec": "106.5",
+      "front": "Which Guru's execution did Aurangzeb order in 1675?",
+      "back": "Guru Tegh Bahadur, the ninth Sikh Guru; the martyrdom proved a turning point in Indian history.",
+      "tag": "trivia"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch106a-q1",
+      "sec": "106.1",
+      "q": "From which century onwards did successive phases of invasions strike the Indian subcontinent?",
+      "options": ["From the 10th century onwards", "From the 7th century onwards", "From the 12th century onwards", "From the 15th century onwards"],
+      "answer": 1,
+      "why": "The book traces successive invasions from the 7th century, driven by territorial expansion and religious motives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q2",
+      "sec": "106.1",
+      "q": "Mahmud, who launched his first invasion in 1001, was the Sultan of which place?",
+      "options": ["Delhi, in present-day India", "Multan, in present-day Pakistan", "Ghazni, in present-day Afghanistan and northeastern Iran", "Kabul, in present-day Afghanistan"],
+      "answer": 2,
+      "why": "The book names Mahmud as Sultan of Ghazni, in present-day Afghanistan and northeastern Iran.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q3",
+      "sec": "106.1",
+      "q": "Jayapala, who faced Mahmud of Ghazni's first invasion in 1001, belonged to which dynasty?",
+      "options": ["Chaulukya dynasty", "Hindu Shahi dynasty", "Gahadavala dynasty", "Chandella dynasty"],
+      "answer": 1,
+      "why": "Mahmud's first invasion in 1001 was against Jayapala of the Hindu Shahi dynasty.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q4",
+      "sec": "106.1",
+      "q": "Which queen defeated Muhammad Ghuri at Kasahrada, near Mount Abu, in 1178?",
+      "options": ["Queen Naiki Devi of the Chaulukya kingdom", "Rani Abbakka Chowta of Ullal", "Queen Didda of Kashmir", "Rani Padmini of Mewar"],
+      "answer": 0,
+      "why": "In 1178 the Chaulukya queen Naiki Devi defeated Muhammad Ghuri at Kasahrada near Mount Abu.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q5",
+      "sec": "106.1",
+      "q": "During the 11th and 12th centuries, which region remained free from Turkic control?",
+      "options": ["Northern and western India", "Gujarat, Malwa and Bundelkhand", "The whole of Rajputana", "Peninsular India"],
+      "answer": 3,
+      "why": "Northern and western India bore the brunt of the invasions, while peninsular India remained free from Turkic control.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch106a-q6",
+      "sec": "106.2",
+      "q": "Which fort did Akbar besiege in 1567-1568?",
+      "options": ["Chittor", "Raigad", "Sinhagad", "Gwalior"],
+      "answer": 0,
+      "why": "Akbar attacked Mewar and laid siege to the fort at Chittor in 1567-1568.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q7",
+      "sec": "106.2",
+      "q": "After the fall of Chittor, where did Rana Udai Singh retreat with a large number of his subjects?",
+      "options": ["The Thar desert", "The Vindhya ranges", "The Aravalli Hills", "The Gangetic plains"],
+      "answer": 2,
+      "why": "In a strategic move, Udai Singh retreated to the Aravalli Hills along with many of his subjects.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q8",
+      "sec": "106.2",
+      "q": "Why was the Battle of Dewair of 1582 significant?",
+      "options": ["It ended Mughal rule in Delhi", "It collapsed key Mughal outposts and helped Pratap reclaim Mewar", "It was Babur's first victory in India", "It forced Jahangir to retreat from Punjab"],
+      "answer": 1,
+      "why": "Dewair, fought near Udaipur, caused the collapse of key Mughal military outposts in Mewar.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q9",
+      "sec": "106.2",
+      "q": "In which years did Jahangir make military advances towards Mewar?",
+      "options": ["1605, 1608 and 1609", "1567, 1576 and 1582", "1601, 1603 and 1607", "1595, 1600 and 1605"],
+      "answer": 0,
+      "why": "Jahangir advanced in 1605, 1608 and 1609; each attempt was countered by organised Rajput resistance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch106a-q10",
+      "sec": "106.3",
+      "q": "In which year was the independent kingdom of Vijayanagara established?",
+      "options": ["1206", "1336", "1565", "1674"],
+      "answer": 1,
+      "why": "The Vijayanagara Empire rose in 1336 to check the Sultanate's expansion into peninsular India.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q11",
+      "sec": "106.3",
+      "q": "Vijayanagara, the City of Victory, was located near which present-day place?",
+      "options": ["Madurai in Tamil Nadu", "Warangal in Telangana", "Hampi in Karnataka", "Kanchipuram in Tamil Nadu"],
+      "answer": 2,
+      "why": "Harihara and Bukka established the kingdom near present-day Hampi in Karnataka.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q12",
+      "sec": "106.3",
+      "q": "Who fought the Madurai Sultanate at the Battle of Kannanur in 1342?",
+      "options": ["Krishnadevaraya of Vijayanagara", "Vira Ballala III of the Hoysalas", "Bhoja Paramara of Dhara", "Jayapala of the Hindu Shahis"],
+      "answer": 1,
+      "why": "The ageing Hoysala king Vira Ballala III fought at Kannanur; a surprise counter-attack cost him his life.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q13",
+      "sec": "106.3",
+      "q": "Vijayanagara expanded by annexing territory south of which two rivers?",
+      "options": ["The Krishna and the Tungabhadra", "The Ganga and the Yamuna", "The Narmada and the Tapi", "The Godavari and the Manjra"],
+      "answer": 0,
+      "why": "The empire gradually annexed territory south of the Krishna and Tungabhadra rivers.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch106a-q14",
+      "sec": "106.4",
+      "q": "In which year was the independent Maratha state established?",
+      "options": ["1659", "1576", "1674", "1707"],
+      "answer": 2,
+      "why": "The Maratha state was founded in 1674, closely associated with the rise of Chhatrapati Shivaji.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q15",
+      "sec": "106.4",
+      "q": "What does swarajya mean in the Maratha context?",
+      "options": ["An independent, self-governing territory free from external control", "A tributary arrangement with the Mughals", "Rule by a council of hill chiefs", "A tax collected from fortified towns"],
+      "answer": 0,
+      "why": "Swarajya means self-rule; territorial control and sovereignty in the Maratha state were tied to this idea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q16",
+      "sec": "106.4",
+      "q": "Why were Maratha forts like Raigad and Sinhagad so effective against the Mughals?",
+      "options": ["They were too large for any army to surround", "They worked as strategic nuclei for guerrilla warfare, enabling swift attacks and safe retreats", "They housed the Mughal treasury", "They were built on flat, open plains"],
+      "answer": 1,
+      "why": "Amid hills and deep valleys, the fort network allowed swift attacks from different directions and safe retreats.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q17",
+      "sec": "106.4",
+      "q": "What happened at the Battle of Pratapgarh in 1659?",
+      "options": ["Akbar laid siege to Chittor", "Kumara Kampana ended the Madurai Sultanate", "Chhatrapati Shivaji killed Afzal Khan", "Naiki Devi defeated Muhammad Ghuri"],
+      "answer": 2,
+      "why": "The book's timeline records the Battle of Pratapgarh, where Shivaji killed Afzal Khan, in 1659.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch106a-q18",
+      "sec": "106.5",
+      "q": "Who founded the spiritual movement that later came to be known as Sikhism?",
+      "options": ["Guru Arjan Dev", "Guru Hargobind", "Guru Nanak", "Guru Tegh Bahadur"],
+      "answer": 2,
+      "why": "Guru Nanak founded the movement in the late 15th century; it later came to be known as Sikhism.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q19",
+      "sec": "106.5",
+      "q": "Which three ideas did early Sikhism emphasise?",
+      "options": ["Rituals, pilgrimages and fasting", "Devotion to one God, social equality and rejection of rituals", "Caste pride, taxes and trade", "Armies, forts and alliances"],
+      "answer": 1,
+      "why": "The movement emphasised devotion to one God, social equality and the rejection of rituals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch106a-q20",
+      "sec": "106.5",
+      "q": "Why did Guru Hargobind establish the Akal Takht?",
+      "options": ["As a seat of temporal authority to administer justice and address governance", "As a hunting lodge for Mughal officers", "As a market for the Gangetic plains", "As a school for Persian literature"],
+      "answer": 0,
+      "why": "The Akal Takht was a seat of temporal authority for justice and matters of governance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch106a-q21",
+      "sec": "106.5",
+      "q": "How did the martyrdoms of the Sikh Gurus shape the community's response to persecution?",
+      "options": ["They convinced the Sikhs to migrate out of Punjab", "They led the Sikhs to accept Mughal religious policies", "They ended all armed conflict with the Mughals", "They firmed the conviction that persecution must be met with collective organisation and armed resistance when required"],
+      "answer": 3,
+      "why": "The book says persecution could only be countered through collective organisation and armed resistance as and when required.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch106a-e1",
+      "title": "Mewar's timeline of defiance",
+      "problem": "Arrange Mewar's key acts of resistance between 1567 and 1609 in the correct order, naming the ruler and the event for each.",
+      "steps": [
+        "Start with Akbar's siege of the Chittor fort in 1567-1568: Rajputs under Rana Udai Singh resisted for more than five months before the fort fell.",
+        "Next, in 1576 Akbar attacked Mewar again and Maharana Pratap fought the Mughal forces at the Battle of Haldighati.",
+        "Then comes the Battle of Dewair near Udaipur in 1582, which caused the collapse of key Mughal military outposts and helped Pratap reclaim control over Mewar.",
+        "Finally, Maharana Amar Singh countered Jahangir's military advances towards Mewar in 1605, 1608 and 1609."
+      ],
+      "answer": "1567-1568 siege of Chittor under Udai Singh; 1576 Battle of Haldighati under Maharana Pratap; 1582 Battle of Dewair; 1605, 1608 and 1609 advances by Jahangir repelled by Amar Singh, after which the Mughals acknowledged Mewar's distinct political position."
+    },
+    {
+      "id": "us-ch106a-e2",
+      "title": "Who faced whom",
+      "problem": "Match each defender to the attacker they faced, using the chapter: Naiki Devi, Jayapala, Maharana Pratap, Kumara Kampana.",
+      "steps": [
+        "Jayapala of the Hindu Shahi dynasty faced Mahmud of Ghazni's first invasion in 1001.",
+        "Naiki Devi of the Chaulukya kingdom defeated Muhammad Ghuri at Kasahrada near Mount Abu in 1178.",
+        "Maharana Pratap fought Akbar's Mughal forces at Haldighati in 1576, then used guerrilla warfare from the Aravalli Hills.",
+        "Kumara Kampana, son of Bukka, fought the Sultan of the Madurai Sultanate and killed him, ending that Sultanate."
+      ],
+      "answer": "Jayapala versus Mahmud of Ghazni (1001); Naiki Devi versus Muhammad Ghuri (1178); Maharana Pratap versus Akbar's Mughal forces (1576); Kumara Kampana versus the Madurai Sultan."
+    },
+    {
+      "id": "us-ch106a-e3",
+      "title": "Cause chain: why Vijayanagara rose",
+      "problem": "Build the cause chain that led to the founding of the Vijayanagara Empire in 1336.",
+      "steps": [
+        "Malik Kafur, Alauddin Khilji's general, attacked major cities and temples including Warangal, Belur and Madurai.",
+        "Muhammad bin Tughlaq's rise to power extended the Delhi Sultanate's influence even farther south.",
+        "This contributed to the decline of the Pandya Kingdom and the emergence of the Madurai Sultanate.",
+        "Against this backdrop, Harihara and Bukka established Vijayanagara, the City of Victory, near present-day Hampi in 1336 to check the Sultanate's expansion into peninsular India."
+      ],
+      "answer": "Khilji-era raids, then Tughlaq-era expansion, then Pandya decline and the rise of the Madurai Sultanate, and finally the founding of Vijayanagara in 1336 as a check on the Sultanate."
+    },
+    {
+      "id": "us-ch106a-e4",
+      "title": "From martyrdom to organised resistance",
+      "problem": "Trace how Mughal pressure reshaped the Sikh community's organisation and outlook from the early 17th century to 1675.",
+      "steps": [
+        "From the beginning of the 17th century, the Mughal state increasingly intervened in the affairs of the Sikh Gurus.",
+        "Jahangir ordered the execution of Guru Arjan Dev, the fifth Guru, on the pretext of his alleged support to Khusrau Mirza; this martyrdom marked a significant turning point.",
+        "Guru Hargobind, the sixth Guru, was detained in Gwalior Fort and later established the Akal Takht, a seat of temporal authority for justice and governance.",
+        "In 1675 Aurangzeb ordered the execution of Guru Tegh Bahadur, the ninth Guru, firming the conviction that persecution had to be met with firm resistance and resilience."
+      ],
+      "answer": "The martyrdoms of Guru Arjan Dev under Jahangir and Guru Tegh Bahadur under Aurangzeb in 1675 shifted the Sikhs towards collective organisation and armed resistance as and when required, with the Akal Takht anchoring temporal authority."
+    }
+  ],
+  "conceptMap": {
+    "center": "Resistance and Resilience (1000-1700 CE)",
+    "groups": [
+      { "id": "g1", "label": "Invasion waves" },
+      { "id": "g2", "label": "Early defiance" },
+      { "id": "g3", "label": "Mewar's stand" },
+      { "id": "g4", "label": "Deccan story" },
+      { "id": "g5", "label": "Self-rule movements" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Mahmud of Ghazni", "group": "g1" },
+      { "id": "n2", "label": "Muhammad Ghuri", "group": "g1" },
+      { "id": "n3", "label": "Delhi Sultanate", "group": "g1" },
+      { "id": "n4", "label": "Mughal expansion", "group": "g1" },
+      { "id": "n5", "label": "Hindu Shahi kingdom", "group": "g2" },
+      { "id": "n6", "label": "Naiki Devi", "group": "g2" },
+      { "id": "n7", "label": "Rajputana states", "group": "g2" },
+      { "id": "n8", "label": "Mewar", "group": "g3" },
+      { "id": "n9", "label": "Maharana Pratap", "group": "g3" },
+      { "id": "n10", "label": "Vijayanagara", "group": "g4" },
+      { "id": "n11", "label": "Madurai Sultanate", "group": "g4" },
+      { "id": "n12", "label": "Kumara Kampana", "group": "g4" },
+      { "id": "n13", "label": "Marathas", "group": "g5" },
+      { "id": "n14", "label": "Sikh Gurus", "group": "g5" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n5", "label": "1001: Jayapala defeated" },
+      { "from": "n2", "to": "n6", "label": "Kasahrada, 1178" },
+      { "from": "n2", "to": "n7", "label": "sustained resistance" },
+      { "from": "n3", "to": "n10", "label": "checked in 1336" },
+      { "from": "n3", "to": "n11", "label": "rose as Pandyas declined" },
+      { "from": "n11", "to": "n10", "label": "four decades of struggle" },
+      { "from": "n12", "to": "n11", "label": "Sultanate ended" },
+      { "from": "n10", "to": "n12", "label": "son of Bukka" },
+      { "from": "n4", "to": "n8", "label": "siege of Chittor" },
+      { "from": "n8", "to": "n9", "label": "father to son" },
+      { "from": "n9", "to": "n4", "label": "guerrilla war" },
+      { "from": "n4", "to": "n13", "label": "exhausted the empire" },
+      { "from": "n4", "to": "n14", "label": "persecution and martyrdoms" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Invasions begin", "detail": "From the 7th century, invasions driven by territorial expansion and religious motives; the plains' surplus attracted attackers." },
+      { "id": "s2", "label": "Early defiance", "detail": "Arab raids by sea and land are repulsed; Mahmud of Ghazni defeats Jayapala in 1001; Naiki Devi wins at Kasahrada in 1178." },
+      { "id": "s3", "label": "Sultanate rises", "detail": "The Delhi Sultanate is established in 1206; its campaigns weaken the older kingdoms of the south." },
+      { "id": "s4", "label": "South fights back", "detail": "Harihara and Bukka found Vijayanagara in 1336; Kumara Kampana ends the Madurai Sultanate." },
+      { "id": "s5", "label": "Mughals push in", "detail": "Akbar besieges Chittor in 1567-1568; Mewar's Rajputs resist for more than five months." },
+      { "id": "s6", "label": "Mewar never bends", "detail": "Pratap fights at Haldighati in 1576 and wins at Dewair in 1582; Amar Singh repels Jahangir's advances." },
+      { "id": "s7", "label": "Swarajya and the panth", "detail": "The Maratha state rises in 1674 on the idea of swarajya; the Sikh Gurus answer persecution with organised resistance." },
+      { "id": "s8", "label": "Resilience endures", "detail": "From Rajputana's hills to Deccan forts and the Akal Takht, resistance and resilience run through 1000-1700 CE." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

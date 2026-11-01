@@ -1,0 +1,644 @@
+{
+  "book": "sc",
+  "chapter": 2,
+  "title": "Cell: The Building Block of Life",
+  "grade": 9,
+  "sections": [
+    { "id": "2.2.2", "title": "Cell wall - The outer covering of cells" },
+    { "id": "2.3", "title": "The Cell Interior - A Coordinated Working System" },
+    { "id": "2.3.1", "title": "Why do eukaryotic cells need these organelles?" },
+    { "id": "2.4", "title": "How do Normal Cells Grow and Divide?" },
+    { "id": "2.4.1", "title": "Cell division" },
+    { "id": "2.5", "title": "Cell Theory - The Unifying Principle of Biology" },
+    { "id": "2.5.1", "title": "Do cells grow and reproduce forever?" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch02-s1",
+      "sec": "2.2.2",
+      "title": "Why Plants Need a Wall",
+      "kicker": "Stationary life demands a strong outer armour.",
+      "bullets": [
+        "Plants cannot move from place to place, so they need a rigid structure to withstand environmental stresses like wind and rain.",
+        "The cell wall is an additional covering outside the cell membrane, found in plant cells.",
+        "It helps leaves and flowers remain firm, maintains their shapes and helps plants stay upright."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["rigid support", "withstands wind and rain", "firm leaves and flowers", "plant stays upright"]
+      },
+      "note": "Wall hai toh plant khada rahta hai."
+    },
+    {
+      "id": "sc-ch02-s2",
+      "sec": "2.2.2",
+      "title": "Rigid, Yet Permeable",
+      "kicker": "The wall is strong but not stubborn.",
+      "bullets": [
+        "Although rigid, the cell wall is permeable: water and some dissolved minerals can pass through it.",
+        "Along with the selective permeability of the cell membrane, the wall's permeability helps plant roots absorb water and nutrients from the soil.",
+        "Some microorganisms like fungi and bacteria also have a cell wall for protection and structural support."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Water in soil", "Passes through wall", "Membrane selects", "Root absorbs"]
+      },
+      "note": "Wall lets things pass, the membrane decides what enters."
+    },
+    {
+      "id": "sc-ch02-s3",
+      "sec": "2.2.2",
+      "title": "The Sugar Solution Test",
+      "kicker": "Rhoeo peel in sugar: shape stays, content shrinks.",
+      "bullets": [
+        "Activity 2.3 places a Rhoeo leaf peel or onion peel in 20 per cent sugar solution: the plant cells lose water due to osmosis.",
+        "The cells do not shrink in size because their rigid cell wall maintains their shape.",
+        "The inner content shrinks as the cell membrane pulls away from the cell wall."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Plant cell in sugar", "items": ["loses water by osmosis", "rigid wall keeps box shape", "membrane pulls away inward"] },
+        "right": { "title": "Cheek cell in sugar", "items": ["no cell wall", "loses water", "shrinks in size"] }
+      },
+      "note": "Same sugar solution, two very different endings."
+    },
+    {
+      "id": "sc-ch02-s4",
+      "sec": "2.2.2",
+      "title": "Cellulose Builds the Wall",
+      "kicker": "Glucose units chained into nature's brick.",
+      "bullets": [
+        "The plant cell wall is primarily made of cellulose, a type of carbohydrate formed by many glucose units linked together.",
+        "Cellulose in our diet acts as roughage, helping in digestion.",
+        "Animal cells have no rigid wall, so they can change shape easily; this flexibility supports the movement and functioning of animal tissues."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Cellulose wall",
+        "children": ["glucose units", "rigid support", "roughage in diet"]
+      },
+      "note": "Roughage keeps your digestion happy."
+    },
+    {
+      "id": "sc-ch02-s5",
+      "sec": "2.3",
+      "title": "Three Basic Parts",
+      "kicker": "Membrane, cytoplasm, nucleus: the core trio.",
+      "bullets": [
+        "Most cells have three basic parts: a selectively permeable plasma membrane, a semi-fluid jelly-like cytoplasm, and a prominent nucleus.",
+        "The cytoplasm also contains several sub-cellular components called organelles, along with other substances.",
+        "Most organelles are visible only with an electron microscope."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["plasma membrane", "cytoplasm", "nucleus", "organelles"]
+      },
+      "note": "Trio milke poora cell chalate hain."
+    },
+    {
+      "id": "sc-ch02-s6",
+      "sec": "2.3",
+      "title": "Prokaryotic vs Eukaryotic",
+      "kicker": "Primitive nucleus or true nucleus?",
+      "bullets": [
+        "A bacterial cell lacks a well-defined nucleus and membrane-bound organelles; such cells are called prokaryotic cells.",
+        "Pro means primitive and karyon means nucleus; in prokaryotic cells most cellular activities take place directly in the cytoplasm.",
+        "Plant and animal cells have a well-defined nucleus and several membrane-bound organelles, so they are eukaryotic; eu means true."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Prokaryotic", "items": ["primitive nucleus region", "no membrane-bound organelles", "activities in cytoplasm"] },
+        "right": { "title": "Eukaryotic", "items": ["well-defined nucleus", "several membrane-bound organelles", "plant and animal cells"] }
+      },
+      "note": "Bacteria are pro, you are eu. Simple!"
+    },
+    {
+      "id": "sc-ch02-s7",
+      "sec": "2.3",
+      "title": "Cytoskeleton: Hidden Scaffold",
+      "kicker": "Fine fibres that hold the cell together.",
+      "bullets": [
+        "In eukaryotic cells, a network of fine fibres forms the cytoskeleton.",
+        "It provides structural support, maintains cell shape, and enables cell movement and internal transport.",
+        "The cytoskeleton is visible only under an electron microscope as a separate entity."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["fine fibres", "structural support", "cell shape", "internal transport"]
+      },
+      "note": "The cell's invisible scaffolding."
+    },
+    {
+      "id": "sc-ch02-s8",
+      "sec": "2.3",
+      "title": "Cell Inclusions: Stored Stuff",
+      "kicker": "Starch and crystals parked in cytoplasm.",
+      "bullets": [
+        "The cytoplasm may store starch in plant cells, or crystals of calcium oxalate or silica in some plant cells.",
+        "These stored materials are known as cell inclusions.",
+        "Activity 2.4 studies diagrams of bacterial, plant and animal cells and records their structures in a comparison table."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["stored starch", "calcium oxalate crystals", "silica crystals", "cell inclusions"]
+      },
+      "note": "Cells keep a small storeroom too."
+    },
+    {
+      "id": "sc-ch02-s9",
+      "sec": "2.3.1",
+      "title": "A Tiny Living Factory",
+      "kicker": "Every organelle has a job on the line.",
+      "bullets": [
+        "Eukaryotic cells carry out various life processes in different cell organelles independently, all at the same time.",
+        "Organelles help in building new materials, removing waste, and providing energy; they work together to perform all functions of a cell.",
+        "In other words, a cell is like a tiny living factory, with each of its parts doing a specific job."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Build new materials", "Remove waste", "Provide energy", "Cell runs smoothly"]
+      },
+      "note": "Factory teamwork hi asli superpower hai."
+    },
+    {
+      "id": "sc-ch02-s10",
+      "sec": "2.3.1",
+      "title": "Nucleus: Control Room",
+      "kicker": "House of coded instructions, guarded by pores.",
+      "bullets": [
+        "The nucleus has a double-layered nuclear membrane with pores that allow transfer of material between the nucleus and the cytoplasm.",
+        "The nucleolus is the dense round body in the nucleus where synthesis of ribosomal subunits takes place.",
+        "These subunits exit to the cytoplasm, where one large and one small subunit assemble to form a ribosome."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Nucleolus makes subunits", "Exit through pores", "Large plus small assemble", "Ribosome formed"]
+      },
+      "note": "Nucleolus is the ribosome workshop."
+    },
+    {
+      "id": "sc-ch02-s11",
+      "sec": "2.3.1",
+      "title": "DNA, Genes, Chromosomes",
+      "kicker": "How inheritance is packed and unpacked.",
+      "bullets": [
+        "Chromosomes are rod-shaped structures, visible only when the cell is about to divide; they carry inheritance information in DNA molecules.",
+        "Chromosomes are composed of DNA and specific proteins, and the functional segments of DNA are called genes.",
+        "In a non-dividing cell the DNA is part of chromatin, an entangled mass of thread-like structures that organises into chromosomes before division."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Chromatin threads", "Cell prepares to divide", "Organises into chromosomes", "Inheritance passes on"]
+      },
+      "note": "Chromatin is a wool ball, chromosome is the rod."
+    },
+    {
+      "id": "sc-ch02-s12",
+      "sec": "2.3.1",
+      "title": "Life Without a Nucleus",
+      "kicker": "RBCs trade the nucleus for oxygen power.",
+      "bullets": [
+        "Mature Red Blood Cells in humans do not have a nucleus; they are called enucleate.",
+        "The absence of a nucleus provides more space for haemoglobin, allowing RBCs to transport a larger amount of oxygen to all cells of the body.",
+        "Without a nucleus they cannot repair or divide, so their lifespan is short and they survive approximately 120 days."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["enucleate", "more haemoglobin", "more oxygen carried", "about 120 days"]
+      },
+      "note": "No nucleus, short but heroic life."
+    },
+    {
+      "id": "sc-ch02-s13",
+      "sec": "2.3.1",
+      "title": "Nucleoid and Ribosomes",
+      "kicker": "Primitive DNA zone and the protein factories.",
+      "bullets": [
+        "Prokaryotic cells have no well-defined nucleus; their DNA is a single circular molecule with specific proteins, in a region called the nucleoid.",
+        "Ribosomes are tiny structures, present either freely in the cytoplasm or attached to the endoplasmic reticulum.",
+        "Ribosomes are called the protein factories of the cell."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Nucleoid", "items": ["single circular DNA", "no nuclear membrane", "region in prokaryotes"] },
+        "right": { "title": "Ribosomes", "items": ["tiny structures", "free or attached to ER", "protein factories"] }
+      },
+      "note": "Nucleoid jaisa nucleus, par bina membrane."
+    },
+    {
+      "id": "sc-ch02-s14",
+      "sec": "2.4",
+      "title": "Healing Is Cell Division",
+      "kicker": "A cut heals because cells divide.",
+      "bullets": [
+        "A small cut heals after a few days and lost hair grows back because body cells grow and divide to replace old, dead or damaged cells.",
+        "Cells grow only up to a certain size; body growth happens because cells divide to form new cells.",
+        "Skin cells divide continuously to replace cells that are lost regularly."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Cut or wear out", "Nearby cells divide", "New cells fill in", "Tissue repaired"]
+      },
+      "note": "Your body runs a silent repair crew."
+    },
+    {
+      "id": "sc-ch02-s15",
+      "sec": "2.4",
+      "title": "Onion Root Tip Lab",
+      "kicker": "Activity 2.5: catch cells mid-division.",
+      "bullets": [
+        "Grow onion roots in a jar of water for 5-6 days, cut 2-3 cm tips and keep them in aceto-alcohol (glacial acetic acid to ethanol, 1:3) for 24 hours, then preserve in 70 per cent ethanol.",
+        "Soften the tips with dilute hydrochloric acid, rinse after 10-15 minutes, stain with aceto-carmine and gently warm the slide over a spirit lamp.",
+        "Cut the tip, place a coverslip and gently squash it with your thumb to spread the cells, then observe under a microscope."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Roots grow in water jar", "Fix in aceto-alcohol 1:3", "HCl softens the tissue", "Aceto-carmine stain", "Squash and observe"]
+      },
+      "note": "Paanch din ka patience, science ka reward."
+    },
+    {
+      "id": "sc-ch02-s16",
+      "sec": "2.4",
+      "title": "Cells Frozen Mid-Stage",
+      "kicker": "A growing tip shows every stage at once.",
+      "bullets": [
+        "The cells of a growing onion root tip divide continuously; this process is called cell division.",
+        "The cells show different structures because each one corresponds to a different stage of cell division.",
+        "Every day, an estimated hundreds of billions of cells in our body are replaced, almost 1 per cent of the total number of cells."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["continuous division", "different stages", "hundreds of billions daily", "the cell cycle"]
+      },
+      "note": "One percent of you is brand new daily!"
+    },
+    {
+      "id": "sc-ch02-s17",
+      "sec": "2.4.1",
+      "title": "Why Cells Divide",
+      "kicker": "Grow, repair, reproduce: the division story.",
+      "bullets": [
+        "Cell division is the process by which new cells are formed from pre-existing cells.",
+        "It allows living organisms to grow, repair damaged tissues and reproduce.",
+        "Every human begins life as a single fertilised egg, which divides repeatedly to form trillions of cells in the body."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["One fertilised egg", "Repeated division", "Trillions of cells", "A whole human"]
+      },
+      "note": "Ek cell se poora tum."
+    },
+    {
+      "id": "sc-ch02-s18",
+      "sec": "2.4.1",
+      "title": "Mitosis: Identical Twins",
+      "kicker": "One parent cell, two copy-paste daughters.",
+      "bullets": [
+        "Mitosis is the most common type of cell division, producing two genetically identical daughter cells from one parent cell.",
+        "Each new cell gets the same DNA and the same number of chromosomes as the parent cell, so genetic information is largely maintained across body cells.",
+        "Mitosis is important for normal growth, repair, maintenance and asexual reproduction."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Parent cell", "Divides once", "Two identical daughters", "Same chromosome number"]
+      },
+      "note": "Exact copy, same number, no surprises."
+    },
+    {
+      "id": "sc-ch02-s19",
+      "sec": "2.4.1",
+      "title": "Meiosis: Halving for Life",
+      "kicker": "Two divisions, four gametes, endless variety.",
+      "bullets": [
+        "Meiosis is a type of cell division that produces gametes and occurs only in the cells of reproductive organs.",
+        "The parent cell divides twice, one after the other: the first division reduces the chromosome number to half, and the second division is similar to mitosis.",
+        "The result is four daughter cells, each gamete having half the number of DNA compared to the parent cell."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Parent cell", "First division halves number", "Second division like mitosis", "Four gamete cells"]
+      },
+      "note": "Aadha number, poora surprise."
+    },
+    {
+      "id": "sc-ch02-s20",
+      "sec": "2.4.1",
+      "title": "Gametes Across Species",
+      "kicker": "Where meiosis works in humans and plants.",
+      "bullets": [
+        "In animals including humans, meiosis occurs only in the cells of testes of males to produce sperm and ovaries of females to produce eggs.",
+        "In plants, meiosis occurs in the anthers (male parts) to form pollen grains and in the ovaries (female parts) to produce egg cells.",
+        "Gametes produced for sexual reproduction create variations and diversity, so children resemble their parents but are not exactly the same."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Humans", "items": ["testes make sperm", "ovaries make eggs"] },
+        "right": { "title": "Plants", "items": ["anthers make pollen grains", "ovaries make egg cells"] }
+      },
+      "note": "Children resemble parents, but are never photocopies."
+    },
+    {
+      "id": "sc-ch02-s21",
+      "sec": "2.5",
+      "title": "Three Scientists, One Idea",
+      "kicker": "Botanist, zoologist, doctor: the theory trio.",
+      "bullets": [
+        "In 1838, German botanist Matthias Schleiden reported that all plants are made up of cells.",
+        "In 1839, German zoologist Theodor Schwann found that all animals are also made up of cells.",
+        "In 1855, German scientist Rudolf Virchow expanded the theory by stating that new cells are formed only from pre-existing cells."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["1838 Schleiden: plants", "1839 Schwann: animals", "1855 Virchow: cells from cells"]
+      },
+      "note": "Teen scientists, ek unified theory."
+    },
+    {
+      "id": "sc-ch02-s22",
+      "sec": "2.5",
+      "title": "The Cell Theory Tenets",
+      "kicker": "Three statements that unify all biology.",
+      "bullets": [
+        "All living organisms are made up of one or more cells.",
+        "The cell is the basic unit of structure and function in living beings.",
+        "All cells arise from pre-existing cells; this theory unifies all biology, from bacteria to humans, and explains life's continuity through cell division."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Cell Theory",
+        "children": ["one or more cells", "basic unit of life", "cells from pre-existing cells"]
+      },
+      "note": "Bacteria se human tak, same rule."
+    },
+    {
+      "id": "sc-ch02-s23",
+      "sec": "2.5",
+      "title": "Haberlandt's Bold Proposal",
+      "kicker": "One plant cell, one whole plant.",
+      "bullets": [
+        "In 1902, Austrian botanist Gottlieb Haberlandt proposed that any plant cell can develop in remarkable ways.",
+        "He suggested that cells have the ability to form different types of cells and also change them.",
+        "This idea laid the foundation for a new branch of biology known as plant tissue culture."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["One plant cell", "Forms different cell types", "Grows into a plant", "Plant tissue culture"]
+      },
+      "note": "Ek cell se poora paudha!"
+    },
+    {
+      "id": "sc-ch02-s24",
+      "sec": "2.5.1",
+      "title": "Every Cell Has a Lifespan",
+      "kicker": "Cells grow, work, die on schedule.",
+      "bullets": [
+        "Cells grow and divide in a controlled way, stay in the right place, carry out their functions, and eventually die when they are no longer needed.",
+        "Dead cells are replaced by new cells that carry out the same function; thus every cell has a definite life span.",
+        "If cells do not die when they should, or if they die too early, problems can arise in the body."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Grow and divide", "Work in place", "Die on time", "Replaced by new cells"]
+      },
+      "note": "Timing is everything, even for cells."
+    },
+    {
+      "id": "sc-ch02-s25",
+      "sec": "2.5.1",
+      "title": "Contact Inhibition",
+      "kicker": "Neighbours touch, division stops.",
+      "bullets": [
+        "In many animal cells, cell division usually stops when cells come in contact with neighbouring cells; this is called contact inhibition.",
+        "Cancer cells lose this control and keep dividing uncontrollably, leading to the formation of tumours.",
+        "Due to their rigid cell walls, plant cells do not show contact inhibition and follow a different pattern of growth."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Normal cells", "items": ["stop at contact", "controlled division"] },
+        "right": { "title": "Cancer cells", "items": ["lose control", "divide uncontrollably", "form tumours"] }
+      },
+      "note": "Good neighbours stop at the fence."
+    },
+    {
+      "id": "sc-ch02-s26",
+      "sec": "2.5.1",
+      "title": "Programmed Cell Death",
+      "kicker": "Cells die on purpose, for balance.",
+      "bullets": [
+        "Programmed Cell Death (PCD) is a genetically regulated and organised process of selective cell destruction.",
+        "It is essential for normal development, cellular quality control and immune function.",
+        "When an embryo develops, PCD helps form fingers by eliminating cells between digits; without it we would have webbed hands."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Genetic signal", "Selected cells destroyed", "Digits separate", "Healthy body"]
+      },
+      "note": "Fingers banne ke liye kuch cells kurbaan."
+    },
+    {
+      "id": "sc-ch02-s27",
+      "sec": "2.5.1",
+      "title": "When Tumours Turn Bad",
+      "kicker": "Benign stays put, malignant spreads.",
+      "bullets": [
+        "Normal cells grow, age and die in a controlled manner, but sometimes this system breaks down.",
+        "Abnormal cells start growing and dividing uncontrollably, forming tumours, which may be benign or malignant.",
+        "Cancerous tumours can invade nearby tissues and even spread to other parts of the body to form new tumours."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Benign", "items": ["stays in place"] },
+        "right": { "title": "Malignant", "items": ["invades nearby tissues", "spreads to form new tumours"] }
+      },
+      "note": "Spread hone laga toh malignant."
+    },
+    {
+      "id": "sc-ch02-s28",
+      "sec": "2.5.1",
+      "title": "The Tiny Hardworking Team",
+      "kicker": "From bacterium to banyan, cells run life.",
+      "bullets": [
+        "Even though cells are extremely tiny, they produce energy, synthesise and secrete substances, and divide to form new cells.",
+        "They work together to maintain the proper functioning of the body.",
+        "Every living being, from a tiny bacterium to a giant tree, is made up of cells; you are one of the products of these tiny hardworking cells."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "All life",
+        "children": ["bacteria", "plants", "animals", "you"]
+      },
+      "note": "You are a team project of trillions of cells."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch02-f1", "sec": "2.2.2", "front": "Why do plant cells have an extra cell wall?", "back": "Plants cannot move, so the rigid wall withstands stresses like wind and rain and keeps leaves, flowers and the plant firm and upright.", "tag": "concept" },
+    { "id": "sc-ch02-f2", "sec": "2.2.2", "front": "Is the cell wall permeable or selective?", "back": "It is rigid but permeable: water and some dissolved minerals can pass through it, while the membrane is selectively permeable.", "tag": "definition" },
+    { "id": "sc-ch02-f3", "sec": "2.2.2", "front": "What is the plant cell wall made of?", "back": "Primarily cellulose, a carbohydrate formed by many glucose units linked together; in our diet cellulose acts as roughage.", "tag": "definition" },
+    { "id": "sc-ch02-f4", "sec": "2.2.2", "front": "What happens to a Rhoeo peel cell in 20 per cent sugar solution?", "back": "It loses water by osmosis; the inner content shrinks as the membrane pulls away from the wall, but the rigid wall keeps the cell's shape.", "tag": "example" },
+    { "id": "sc-ch02-f5", "sec": "2.3", "front": "Name the three basic parts of most cells.", "back": "A selectively permeable plasma membrane, a semi-fluid jelly-like cytoplasm, and a prominent nucleus.", "tag": "concept" },
+    { "id": "sc-ch02-f6", "sec": "2.3", "front": "What does the word prokaryotic mean?", "back": "Pro means primitive and karyon means nucleus: cells with a primitive nucleus region and no membrane-bound organelles.", "tag": "definition" },
+    { "id": "sc-ch02-f7", "sec": "2.3", "front": "What does the word eukaryotic mean?", "back": "Eu means true and karyon means nucleus: cells with a well-defined nucleus and several membrane-bound organelles.", "tag": "definition" },
+    { "id": "sc-ch02-f8", "sec": "2.3", "front": "What is the cytoskeleton and what does it do?", "back": "A network of fine fibres in eukaryotic cells that gives structural support, maintains shape and enables movement and internal transport.", "tag": "concept" },
+    { "id": "sc-ch02-f9", "sec": "2.3.1", "front": "What happens in the nucleolus?", "back": "It is the dense round body in the nucleus where synthesis of ribosomal subunits takes place before they exit to the cytoplasm.", "tag": "concept" },
+    { "id": "sc-ch02-f10", "sec": "2.3.1", "front": "What are genes?", "back": "The functional segments of DNA molecules, carrying the information for inheritance of characters from parents to the next generation.", "tag": "definition" },
+    { "id": "sc-ch02-f11", "sec": "2.3.1", "front": "Why do mature RBCs live only about 120 days?", "back": "They lack a nucleus, so they cannot repair or divide; the missing nucleus gives more space for haemoglobin to carry oxygen.", "tag": "example" },
+    { "id": "sc-ch02-f12", "sec": "2.3.1", "front": "Where are ribosomes found in a cell?", "back": "Either freely in the cytoplasm or attached to the endoplasmic reticulum; they are the cell's protein factories.", "tag": "concept" },
+    { "id": "sc-ch02-f13", "sec": "2.4", "front": "Why does a small cut on your skin heal?", "back": "Cells in our body grow and divide to replace old, dead or damaged cells, so new skin cells fill the wound.", "tag": "concept" },
+    { "id": "sc-ch02-f14", "sec": "2.4", "front": "Why is body growth not just cells getting bigger?", "back": "Cells grow only up to a certain size; growth happens because cells divide to form new cells.", "tag": "concept" },
+    { "id": "sc-ch02-f15", "sec": "2.4", "front": "Which acid and stain are used in the onion root tip activity?", "back": "Dilute hydrochloric acid softens the tissue, and aceto-carmine stain colours the dividing cells.", "tag": "trivia" },
+    { "id": "sc-ch02-f16", "sec": "2.4", "front": "How many body cells are replaced every day?", "back": "An estimated hundreds of billions, which is almost 1 per cent of the total number of cells in our body.", "tag": "trivia" },
+    { "id": "sc-ch02-f17", "sec": "2.4.1", "front": "Define cell division.", "back": "The process by which new cells are formed from pre-existing cells, allowing organisms to grow, repair damaged tissues and reproduce.", "tag": "definition" },
+    { "id": "sc-ch02-f18", "sec": "2.4.1", "front": "What does mitosis produce?", "back": "Two genetically identical daughter cells, each with the same DNA and the same number of chromosomes as the parent cell.", "tag": "definition" },
+    { "id": "sc-ch02-f19", "sec": "2.4.1", "front": "What does meiosis produce?", "back": "Four daughter cells with half the chromosome number of the parent; these are the gametes used in sexual reproduction.", "tag": "definition" },
+    { "id": "sc-ch02-f20", "sec": "2.4.1", "front": "Where does meiosis happen in plants?", "back": "In the anthers to form pollen grains, and in the ovaries to produce egg cells.", "tag": "example" },
+    { "id": "sc-ch02-f21", "sec": "2.5", "front": "Who reported that all plants are made up of cells, and when?", "back": "The German botanist Matthias Schleiden, in 1838.", "tag": "trivia" },
+    { "id": "sc-ch02-f22", "sec": "2.5", "front": "State the three points of the classical Cell Theory.", "back": "All organisms are made of one or more cells; the cell is the basic unit of structure and function; all cells arise from pre-existing cells.", "tag": "definition" },
+    { "id": "sc-ch02-f23", "sec": "2.5", "front": "What did Rudolf Virchow add in 1855?", "back": "He stated that new cells are formed only from pre-existing cells, expanding the Cell Theory.", "tag": "trivia" },
+    { "id": "sc-ch02-f24", "sec": "2.5", "front": "What idea is Gottlieb Haberlandt remembered for?", "back": "In 1902 the Austrian botanist suggested that cells can form different types of cells, laying the foundation for plant tissue culture.", "tag": "trivia" },
+    { "id": "sc-ch02-f25", "sec": "2.5.1", "front": "What is contact inhibition?", "back": "In many animal cells, cell division usually stops when cells come in contact with neighbouring cells.", "tag": "definition" },
+    { "id": "sc-ch02-f26", "sec": "2.5.1", "front": "What is Programmed Cell Death?", "back": "A genetically regulated and organised process of selective cell destruction, essential for development, quality control and immune function.", "tag": "definition" },
+    { "id": "sc-ch02-f27", "sec": "2.5.1", "front": "How does PCD shape our fingers?", "back": "In the developing embryo it eliminates cells between digits; without it we would have webbed hands.", "tag": "example" },
+    { "id": "sc-ch02-f28", "sec": "2.5.1", "front": "Why do plant cells not show contact inhibition?", "back": "Their rigid cell walls mean they follow a different pattern of growth from animal cells.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch02-q1", "sec": "2.2.2", "q": "The plant cell wall is primarily made of which substance?", "options": ["Cellulose", "Starch", "Haemoglobin", "Silica"], "answer": 0, "why": "The book states the wall is primarily cellulose, a carbohydrate of many linked glucose units.", "difficulty": "easy" },
+    { "id": "sc-ch02-q2", "sec": "2.2.2", "q": "An onion peel is placed in 20 per cent sugar solution for half an hour. What is observed?", "options": ["The cells swell and burst", "The cells lose water but keep their box shape", "The cells gain sugar and grow larger", "The cells divide rapidly"], "answer": 1, "why": "Osmosis removes water, but the rigid cell wall maintains the shape while the membrane pulls away inside.", "difficulty": "easy" },
+    { "id": "sc-ch02-q3", "sec": "2.2.2", "q": "Why can plant roots absorb water and nutrients from soil so effectively?", "options": ["The wall pushes water upward", "The nucleus pulls water in", "Wall permeability and membrane selectivity work together", "Cellulose absorbs and stores soil"], "answer": 2, "why": "The permeable wall plus the selectively permeable membrane together let roots absorb water and nutrients.", "difficulty": "medium" },
+    { "id": "sc-ch02-q4", "sec": "2.2.2", "q": "Predict the consequence if a plant cell wall became as flexible as the cell membrane.", "options": ["The cell would grow faster", "The cell would make more cellulose", "The cell would stop losing water", "The cell would lose its fixed shape and shrink like a cheek cell"], "answer": 3, "why": "Without a rigid wall the cell could not stay firm; animal cells without walls shrink in sugar solution.", "difficulty": "hard" },
+    { "id": "sc-ch02-q5", "sec": "2.3", "q": "Which structure surrounds every cell and is selectively permeable?", "options": ["Nucleolus", "Cytoskeleton", "Cell wall", "Plasma membrane"], "answer": 3, "why": "The plasma membrane is the selectively permeable covering of all cells; the wall is only an extra plant layer.", "difficulty": "easy" },
+    { "id": "sc-ch02-q6", "sec": "2.3", "q": "A bacterial cell lacks a well-defined nucleus and membrane-bound organelles. Such a cell is called:", "options": ["Eukaryotic", "Prokaryotic", "Enucleate", "Acellular"], "answer": 1, "why": "Pro means primitive and karyon means nucleus, so primitive-nucleus cells are prokaryotic.", "difficulty": "easy" },
+    { "id": "sc-ch02-q7", "sec": "2.3", "q": "In prokaryotic cells, where do most cellular activities take place?", "options": ["Directly in the cytoplasm", "Inside membrane-bound organelles", "In the nucleolus", "Through nuclear pores"], "answer": 0, "why": "Without membrane-bound organelles, prokaryotic activities happen directly in the cytoplasm.", "difficulty": "medium" },
+    { "id": "sc-ch02-q8", "sec": "2.3", "q": "What are cell inclusions?", "options": ["Pores in the nuclear membrane", "Fibres of the cytoskeleton", "Stored starch or crystals of calcium oxalate or silica in cytoplasm", "Small organelles that make proteins"], "answer": 2, "why": "Cytoplasm may store starch or crystals of calcium oxalate or silica; these are cell inclusions.", "difficulty": "hard" },
+    { "id": "sc-ch02-q9", "sec": "2.3.1", "q": "The dense round body inside the nucleus where ribosomal subunits are made is the:", "options": ["Nucleoid", "Nucleolus", "Gene", "Chromatin"], "answer": 1, "why": "The nucleolus is the dense round body where synthesis of ribosomal subunits takes place.", "difficulty": "easy" },
+    { "id": "sc-ch02-q10", "sec": "2.3.1", "q": "The functional segments of DNA are called:", "options": ["Genes", "Ribosomes", "Nuclear pores", "Nucleoids"], "answer": 0, "why": "Functional segments of DNA are genes, and they carry inheritance information.", "difficulty": "easy" },
+    { "id": "sc-ch02-q11", "sec": "2.3.1", "q": "In the cytoplasm, a ribosome is assembled when:", "options": ["Two identical chromosomes meet", "DNA wraps around cellulose", "The nuclear membrane opens fully", "One large and one small ribosomal subunit join"], "answer": 3, "why": "Subunits made in the nucleolus exit to cytoplasm, where one large and one small subunit assemble.", "difficulty": "medium" },
+    { "id": "sc-ch02-q12", "sec": "2.3.1", "q": "Mature RBCs cannot repair or divide themselves because:", "options": ["They have too many ribosomes", "They lack a nucleus", "Their DNA is circular", "Their membrane is rigid"], "answer": 1, "why": "Enucleate RBCs have no nucleus, so they cannot repair or divide and live about 120 days.", "difficulty": "hard" },
+    { "id": "sc-ch02-q13", "sec": "2.4", "q": "Cells grow only up to a certain size. So the growth of our body mainly happens because:", "options": ["Cells keep getting bigger forever", "Cells join together into clumps", "Cells divide to form new cells", "Cells absorb food directly"], "answer": 2, "why": "The book says growth happens because cells divide to form new cells, not just by getting bigger.", "difficulty": "easy" },
+    { "id": "sc-ch02-q14", "sec": "2.4", "q": "In Activity 2.5, which chemical is used to soften the onion root tip tissue?", "options": ["Dilute hydrochloric acid", "Sugar solution", "Methylene blue", "Aceto-carmine"], "answer": 0, "why": "Dilute HCl softens the tissue; aceto-carmine is the stain used afterwards.", "difficulty": "easy" },
+    { "id": "sc-ch02-q15", "sec": "2.4", "q": "Why do onion root tip cells under the microscope show different structures from each other?", "options": ["They are at different stages of cell division", "They belong to different organs", "The stain colours each cell differently", "They are actually prokaryotic cells"], "answer": 0, "why": "Tip cells divide continuously, so each is at a different stage of cell division.", "difficulty": "medium" },
+    { "id": "sc-ch02-q16", "sec": "2.4", "q": "Both prokaryotic and eukaryotic cells divide, but eukaryotic division is special because:", "options": ["It happens without copying DNA", "It is more controlled and orderly, by the cell cycle", "It always produces four cells at once", "It never stops until death"], "answer": 1, "why": "Eukaryotic cells divide in a more controlled and orderly manner by a process called the cell cycle.", "difficulty": "hard" },
+    { "id": "sc-ch02-q17", "sec": "2.4.1", "q": "According to cell division and the Cell Theory, new cells are formed from:", "options": ["Pre-existing cells", "Dead cells", "Food particles", "Empty space in tissue"], "answer": 0, "why": "Cell division forms new cells from pre-existing cells, as Virchow stated in 1855.", "difficulty": "easy" },
+    { "id": "sc-ch02-q18", "sec": "2.4.1", "q": "Which type of cell division produces two genetically identical daughter cells?", "options": ["Meiosis", "Fertilisation", "Programmed cell death", "Mitosis"], "answer": 3, "why": "Mitosis, the most common type, gives two identical daughters with the same chromosome number.", "difficulty": "easy" },
+    { "id": "sc-ch02-q19", "sec": "2.4.1", "q": "In meiosis, the chromosome number of each daughter cell is reduced to half:", "options": ["During the second division", "During fertilisation", "During the first division", "After the four cells separate"], "answer": 2, "why": "The first division halves the chromosomes; the second division is similar to mitosis.", "difficulty": "medium" },
+    { "id": "sc-ch02-q20", "sec": "2.4.1", "q": "After meiosis, what restores the original chromosome number in the next generation?", "options": ["Mitosis in skin cells", "Contact inhibition", "The cytoskeleton pulling cells", "Fertilisation, when two gametes combine"], "answer": 3, "why": "During fertilisation, gametes from two individuals combine and the original chromosome number is restored.", "difficulty": "hard" },
+    { "id": "sc-ch02-q21", "sec": "2.5", "q": "In 1839, the German zoologist Theodor Schwann found that:", "options": ["All animals are also made up of cells", "All plants are made up of cells", "New cells arise only from pre-existing cells", "Cells have a definite life span"], "answer": 0, "why": "Schwann showed all animals are made of cells; Schleiden had shown it for plants in 1838.", "difficulty": "easy" },
+    { "id": "sc-ch02-q22", "sec": "2.5", "q": "Who stated in 1855 that new cells are formed only from pre-existing cells?", "options": ["Matthias Schleiden", "Rudolf Virchow", "Theodor Schwann", "Gottlieb Haberlandt"], "answer": 1, "why": "Rudolf Virchow expanded the Cell Theory with this statement in 1855.", "difficulty": "easy" },
+    { "id": "sc-ch02-q23", "sec": "2.5", "q": "According to the Cell Theory, the cell is the basic unit of:", "options": ["Energy production only", "Reproduction only", "Structure and function in living beings", "DNA storage only"], "answer": 2, "why": "The second tenet says the cell is the basic unit of structure and function in living beings.", "difficulty": "medium" },
+    { "id": "sc-ch02-q24", "sec": "2.5", "q": "Why is the Cell Theory called the unifying principle of biology?", "options": ["It applies only to plants and animals with backbones", "It unifies all biology from bacteria to humans and explains life's continuity through cell division", "It proves only microscopes can study life", "It removes the need to study cell division"], "answer": 1, "why": "The theory unifies all biology, from bacteria to humans, and explains life's continuity through cell division.", "difficulty": "hard" },
+    { "id": "sc-ch02-q25", "sec": "2.5.1", "q": "In many animal cells, division stops when cells touch their neighbours. This process is:", "options": ["Programmed cell death", "Contact inhibition", "Cell inclusions", "Fertilisation"], "answer": 1, "why": "Contact inhibition is the stopping of cell division when cells come in contact with neighbours.", "difficulty": "easy" },
+    { "id": "sc-ch02-q26", "sec": "2.5.1", "q": "Programmed Cell Death is important for the body because it:", "options": ["Makes cells immortal", "Stops all cell division forever", "Dissolves the cell wall", "Maintains balance and helps shape the embryo"], "answer": 3, "why": "PCD is essential for normal development, quality control and immune function, like forming fingers.", "difficulty": "easy" },
+    { "id": "sc-ch02-q27", "sec": "2.5.1", "q": "Tumours that invade nearby tissues and spread to other body parts are called:", "options": ["Benign", "Enucleate", "Malignant", "Inclusion bodies"], "answer": 2, "why": "Cancerous tumours may be benign or malignant; malignant ones invade tissues and spread.", "difficulty": "medium" },
+    { "id": "sc-ch02-q28", "sec": "2.5.1", "q": "An animal cell stops dividing on touching neighbours, but a touching plant cell does not. Why?", "options": ["It has no DNA to sense contact", "Its nucleus is missing", "It divides only at night", "Its rigid cell wall means it never shows contact inhibition and grows differently"], "answer": 3, "why": "Due to rigid cell walls, plant cells do not show contact inhibition and follow a different growth pattern.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch02-e1",
+      "title": "Predicting the Sugar Solution Result",
+      "problem": "Two temporary slides are prepared: one of Rhoeo leaf peel cells and one of human cheek cells. 20 per cent sugar solution is added to both and they are observed after half an hour. Predict what happens to each cell type and explain why.",
+      "steps": [
+        "The 20 per cent sugar solution is more concentrated than the cell contents, so both cell types lose water due to osmosis.",
+        "The Rhoeo leaf cells have a rigid cell wall made of cellulose, so even after losing water their box-shaped boundaries remain firm and regularly arranged.",
+        "Inside each plant cell, the inner content shrinks as the cell membrane pulls away from the cell wall.",
+        "The cheek cells have no cell wall, so when they lose water they simply shrink in size, becoming irregularly arranged."
+      ],
+      "answer": "Plant cells keep their original shape with the inner content shrunk away from the wall; cheek cells, having no wall, lose water and shrink."
+    },
+    {
+      "id": "sc-ch02-e2",
+      "title": "Classify the Two Mystery Cells",
+      "problem": "Cell A has a well-defined nucleus and several membrane-bound organelles. Cell B has its genetic material as a single circular DNA molecule in a region without any membrane, and no membrane-bound organelles. Classify both cells.",
+      "steps": [
+        "Check the nucleus of Cell A: it has a well-defined nucleus, and eu means true, karyon means nucleus.",
+        "Cell A also has membrane-bound organelles, so it is a eukaryotic cell, like plant and animal cells.",
+        "Check Cell B: its DNA sits in a region without a membrane, which is called the nucleoid, and pro means primitive.",
+        "Cell B lacks membrane-bound organelles, so most of its cellular activities take place directly in the cytoplasm, like a bacterial cell."
+      ],
+      "answer": "Cell A is eukaryotic; Cell B is prokaryotic, such as a typical bacterial cell."
+    },
+    {
+      "id": "sc-ch02-e3",
+      "title": "Counting Cells in Mitosis and Meiosis",
+      "problem": "A parent cell contains 8 chromosomes (example number). Compare what mitosis and meiosis each produce from this one cell, in number of cells and chromosome count per cell.",
+      "steps": [
+        "Mitosis: the parent divides once, producing two genetically identical daughter cells, and each new cell gets the same number of chromosomes as the parent.",
+        "So mitosis gives 2 cells, each with 8 chromosomes, keeping genetic information maintained across body cells.",
+        "Meiosis: the parent cell divides twice, one after the other; the first division reduces the chromosome number to half, giving 2 cells with 4 chromosomes each.",
+        "The second division is similar to mitosis, so each divides again, forming 4 gamete cells with 4 chromosomes each.",
+        "During fertilisation, two gametes combine, so the original number of 8 is restored in the next generation."
+      ],
+      "answer": "Mitosis: 2 daughter cells with 8 chromosomes each. Meiosis: 4 gametes with 4 chromosomes each; fertilisation restores 8."
+    },
+    {
+      "id": "sc-ch02-e4",
+      "title": "Building the Cell Theory Timeline",
+      "problem": "Arrange the three Cell Theory milestones in order with the correct scientist, year and contribution, and then state the full classical Cell Theory that their work produced.",
+      "steps": [
+        "First, 1838: German botanist Matthias Schleiden reported that all plants are made up of cells.",
+        "Second, 1839: German zoologist Theodor Schwann found that all animals are also made up of cells.",
+        "Third, 1855: German scientist Rudolf Virchow expanded the theory, stating that new cells are formed only from pre-existing cells.",
+        "Together these give the classical Cell Theory: all living organisms are made up of one or more cells; the cell is the basic unit of structure and function; all cells arise from pre-existing cells."
+      ],
+      "answer": "Order: Schleiden 1838, Schwann 1839, Virchow 1855; the theory unifies all biology from bacteria to humans."
+    }
+  ],
+  "conceptMap": {
+    "center": "Cell: Building Block of Life",
+    "groups": [
+      { "id": "g1", "label": "Boundaries" },
+      { "id": "g2", "label": "Genetic Control" },
+      { "id": "g3", "label": "Cell Types" },
+      { "id": "g4", "label": "Cell Division" },
+      { "id": "g5", "label": "Growth Balance" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Cell Wall", "group": "g1" },
+      { "id": "n2", "label": "Cell Membrane", "group": "g1" },
+      { "id": "n3", "label": "Cytoplasm", "group": "g1" },
+      { "id": "n4", "label": "Nucleus", "group": "g2" },
+      { "id": "n5", "label": "DNA and Genes", "group": "g2" },
+      { "id": "n6", "label": "Chromosomes", "group": "g2" },
+      { "id": "n7", "label": "Nucleoid", "group": "g2" },
+      { "id": "n8", "label": "Prokaryotic Cell", "group": "g3" },
+      { "id": "n9", "label": "Eukaryotic Cell", "group": "g3" },
+      { "id": "n10", "label": "Organelles", "group": "g3" },
+      { "id": "n11", "label": "Mitosis", "group": "g4" },
+      { "id": "n12", "label": "Meiosis", "group": "g4" },
+      { "id": "n13", "label": "Contact Inhibition", "group": "g5" },
+      { "id": "n14", "label": "Cancer Cells", "group": "g5" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "rigid outer layer" },
+      { "from": "n2", "to": "n3", "label": "encloses the jelly" },
+      { "from": "n4", "to": "n5", "label": "stores instructions" },
+      { "from": "n5", "to": "n6", "label": "organised for division" },
+      { "from": "n7", "to": "n8", "label": "DNA region" },
+      { "from": "n9", "to": "n4", "label": "true nucleus" },
+      { "from": "n9", "to": "n10", "label": "membrane-bound" },
+      { "from": "n8", "to": "n3", "label": "activities here" },
+      { "from": "n10", "to": "n3", "label": "work within" },
+      { "from": "n9", "to": "n11", "label": "divides by cell cycle" },
+      { "from": "n11", "to": "n6", "label": "keeps number same" },
+      { "from": "n12", "to": "n6", "label": "halves the number" },
+      { "from": "n12", "to": "n5", "label": "creates variation" },
+      { "from": "n13", "to": "n11", "label": "puts on brakes" },
+      { "from": "n14", "to": "n13", "label": "loses control" },
+      { "from": "n1", "to": "n8", "label": "bacteria have walls" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Membrane selects entry", "detail": "The selectively permeable plasma membrane decides what enters and leaves every cell." },
+      { "id": "s2", "label": "Wall adds support", "detail": "In plants, fungi and bacteria a rigid, permeable cell wall keeps the cell firm." },
+      { "id": "s3", "label": "Cytoplasm hosts work", "detail": "The semi-fluid jelly holds organelles, inclusions and the cell's daily activity." },
+      { "id": "s4", "label": "Nucleus instructs", "detail": "DNA in chromatin and chromosomes carries coded instructions for inheritance." },
+      { "id": "s5", "label": "Organelles run jobs", "detail": "Like a tiny living factory, parts build materials, remove waste and provide energy." },
+      { "id": "s6", "label": "Cell hits size limit", "detail": "Cells grow only up to a certain size, so further growth needs division." },
+      { "id": "s7", "label": "Mitosis copies cell", "detail": "Two identical daughter cells handle growth, repair and maintenance." },
+      { "id": "s8", "label": "Meiosis makes gametes", "detail": "Four cells with half the chromosomes create variation for reproduction." },
+      { "id": "s9", "label": "Controls keep balance", "detail": "Contact inhibition and programmed cell death keep cell numbers healthy." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [5, 7], [6, 8], [7, 8]]
+  }
+}

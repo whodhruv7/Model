@@ -1,0 +1,638 @@
+{
+  "book": "gm",
+  "chapter": 5,
+  "title": "Circles: Chords, Arcs and Angles",
+  "grade": 9,
+  "sections": [
+    { "id": "5.1", "title": "Definitions" },
+    { "id": "5.2", "title": "Symmetries of a Circle" },
+    { "id": "5.3", "title": "How Many Circles?" },
+    { "id": "5.5", "title": "Midpoints and Perpendicular Bisectors of Chords" },
+    { "id": "5.6", "title": "Distance of Chords from the Centre" },
+    { "id": "5.7", "title": "Angles Subtended by an Arc" },
+    { "id": "5.8", "title": "Concyclicity of Points" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch05-s1",
+      "sec": "5.1",
+      "title": "What Exactly Is a Circle",
+      "kicker": "One rule, endless points, perfect roundness.",
+      "bullets": [
+        "A circle is the set of all points on a plane that are equidistant from one given point on that plane.",
+        "That given point is the centre, and the distance from the centre to any point on the circle is the radius.",
+        "In the book's figure, every point at distance AB from the centre A forms the circle with centre A and radius AB."
+      ],
+      "visual": { "kind": "labels", "items": ["centre", "radius", "equidistant", "plane"] },
+      "note": "Same distance from one point, that is the whole secret."
+    },
+    {
+      "id": "gm-ch05-s2",
+      "sec": "5.1",
+      "title": "Locus, a Useful Word",
+      "kicker": "Math has a neat word for rule-following points.",
+      "bullets": [
+        "The set of all points that satisfy a given condition is called the locus of points satisfying that condition.",
+        "So a circle can be described as the locus of points that are equidistant from a given point.",
+        "Think of it as a membership rule: every point that obeys the rule joins the locus, and no other point gets in."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["State the condition", "Find every point obeying it", "Call the collection a locus", "Equidistance gives a circle"]
+      },
+      "note": "Locus is a fancy address book for points."
+    },
+    {
+      "id": "gm-ch05-s3",
+      "sec": "5.1",
+      "title": "Chords and Diameters",
+      "kicker": "Join two circle points and watch what happens.",
+      "bullets": [
+        "Let B and C be two points on a circle; the line segment BC joining them is called a chord of the circle.",
+        "A chord that passes through the centre of the circle gets a special name, the diameter.",
+        "In a circle of radius 5 units, the chord through the centre, the diameter, has length 10 units."
+      ],
+      "visual": { "kind": "labels", "items": ["chord BC", "diameter", "through the centre", "ends on the circle"] },
+      "note": "A diameter is a chord with a VIP pass through the centre."
+    },
+    {
+      "id": "gm-ch05-s4",
+      "sec": "5.1",
+      "title": "Angle a Chord Subtends",
+      "kicker": "The chord opens an angle at the centre.",
+      "bullets": [
+        "Join the ends of chord BC to the centre A and the angle BAC appears.",
+        "The book calls angle BAC the angle subtended by the chord BC at the centre.",
+        "Subtended simply names the angle that the chord opens up when you look at it from that point."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Take a chord BC on the circle", "Join B and C to the centre A", "Angle BAC is the angle subtended at the centre"]
+      },
+      "note": "Subtended = the angle the chord throws open at a point."
+    },
+    {
+      "id": "gm-ch05-s5",
+      "sec": "5.2",
+      "title": "The Wheel That Hides Its Turn",
+      "kicker": "Spin it how you like, it looks the same.",
+      "bullets": [
+        "Watch a wheel of a vehicle touch the ground, then look again later; you can never tell if the touching point is the same point.",
+        "A rotating wheel looks the same at all times, so we say the circle has complete rotational symmetry.",
+        "Rotate a circle by any angle at all and it looks exactly the same as before the turn."
+      ],
+      "visual": { "kind": "labels", "items": ["rotational symmetry", "any angle", "rotating wheel", "same look"] },
+      "note": "Wheels are the masters of disguise."
+    },
+    {
+      "id": "gm-ch05-s6",
+      "sec": "5.2",
+      "title": "Fold Paper, Find a Diameter",
+      "kicker": "One fold and symmetry becomes visible.",
+      "bullets": [
+        "Cut a paper circle and fold it so that the two boundaries overlap; the crease is a line of reflection symmetry.",
+        "Ask whether the crease passes through the centre: it does, so the crease is a diameter of the circle.",
+        "Every diameter you can draw is a line of reflection symmetry of the circle."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Cut a circular paper", "Fold so boundaries overlap", "Open and see the crease", "The crease is a diameter"]
+      },
+      "note": "Folding is honest work; the crease never lies."
+    },
+    {
+      "id": "gm-ch05-s7",
+      "sec": "5.2",
+      "title": "Two Kinds of Symmetry",
+      "kicker": "Rotating and folding, both leave it unchanged.",
+      "bullets": [
+        "In rotational symmetry you turn the figure about its centre and it matches itself again.",
+        "In reflection symmetry you fold along a line and the two halves cover each other exactly.",
+        "For the circle the rotation angle can be anything, and every diameter works as the folding line."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Rotational", "items": ["rotate about the centre", "any angle works"] },
+        "right": { "title": "Reflection", "items": ["fold along a diameter", "halves overlap exactly"] }
+      },
+      "note": "The circle wins both symmetry contests."
+    },
+    {
+      "id": "gm-ch05-s8",
+      "sec": "5.2",
+      "title": "Think and Reflect Corner",
+      "kicker": "The book leaves juicy puzzles here.",
+      "bullets": [
+        "Puzzle one: a circle has radius 5 units; the book asks for the length of the longest chord, and whether a smallest chord exists.",
+        "Puzzle two: points at a given distance from a given point form a circle; what is the locus equidistant from two given points?",
+        "The hint: equidistant points lie on the perpendicular bisector of AB, and we must also show all points on it are equidistant."
+      ],
+      "visual": { "kind": "labels", "items": ["longest chord", "smallest chord?", "locus of two points", "perpendicular bisector"] },
+      "note": "Longest chord here is the diameter: 10 units."
+    },
+    {
+      "id": "gm-ch05-s9",
+      "sec": "5.3",
+      "title": "Circles Through Two Points",
+      "kicker": "How many circles can pass through A and B?",
+      "bullets": [
+        "The chapter asks: given two points A and B on a plane, how many circles pass through both of them?",
+        "If a circle passes through A and B with centre O, then the lengths OA and OB must be equal.",
+        "Every point equidistant from A and B can serve as the centre of a circle passing through A and B."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Pick a point equidistant from A and B", "Make it the centre", "Draw the circle through A and B", "Repeat with another centre"]
+      },
+      "note": "Pick a new centre, get a brand new circle."
+    },
+    {
+      "id": "gm-ch05-s10",
+      "sec": "5.3",
+      "title": "Centre Lives on the Bisector",
+      "kicker": "The perpendicular bisector collects every centre.",
+      "bullets": [
+        "The perpendicular bisector of segment AB is the locus of points equidistant from A and B.",
+        "Every point on it is equidistant from A and B, and every point equidistant from A and B lies on it.",
+        "So the centres of all circles through A and B lie on the perpendicular bisector of AB."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["A circle through A and B needs OA = OB", "Equidistant points form the perpendicular bisector", "So all such centres sit on that line"]
+      },
+      "note": "One line holds the whole family of centres."
+    },
+    {
+      "id": "gm-ch05-s11",
+      "sec": "5.3",
+      "title": "The Smallest Circle Through Two",
+      "kicker": "Meet the circle where AB is the diameter.",
+      "bullets": [
+        "Take the midpoint of segment AB as centre; a circle passing through A and B can be drawn with it.",
+        "Its radius is half the length of AB, and AB is a diameter of this circle.",
+        "The book's figure shows circles with centres K, J and L, all passing through the same two points C and D."
+      ],
+      "visual": { "kind": "labels", "items": ["midpoint as centre", "radius half of AB", "AB is the diameter", "centres K, J and L"] },
+      "note": "Hug the segment tightly and you get the tiniest one."
+    },
+    {
+      "id": "gm-ch05-s12",
+      "sec": "5.3",
+      "title": "Now Try Three Points",
+      "kicker": "The book's natural next question.",
+      "bullets": [
+        "It is natural to ask: how many circles can you draw through three distinct points A, B and C on a plane?",
+        "Is there always at least one such circle? The chapter builds towards answering exactly this.",
+        "Later the book uses Theorem 1: when A, B, C are noncollinear points, there is a circle passing through all three."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Three distinct points",
+        "children": ["always a circle?", "noncollinear case", "Theorem 1 says yes"]
+      },
+      "note": "Hold that thought till the concyclicity section."
+    },
+    {
+      "id": "gm-ch05-s13",
+      "sec": "5.5",
+      "title": "Centre to Chord Midpoint",
+      "kicker": "Draw one line and something special happens.",
+      "bullets": [
+        "The book asks: what do we get when we draw a segment from the centre of a circle to the midpoint of a chord?",
+        "Theorem 4 answers: the line joining the centre of a circle and the midpoint of a chord is perpendicular to the chord.",
+        "So centre plus midpoint always gives a perfect right angle at the chord."
+      ],
+      "visual": { "kind": "labels", "items": ["centre", "midpoint of chord", "perpendicular", "Theorem 4"] },
+      "note": "Centre to midpoint always lands at 90 degrees."
+    },
+    {
+      "id": "gm-ch05-s14",
+      "sec": "5.5",
+      "title": "Why Theorem 4 Is True",
+      "kicker": "Isosceles triangle plus congruence does the job.",
+      "bullets": [
+        "Triangle CAB is isosceles because CA and CB are both radii, so CA equals CB and angle A equals angle B.",
+        "M is the midpoint of AB, so AM equals BM; by the SAS congruence, triangle CMA is congruent to triangle CMB.",
+        "Then angle CMB equals angle CMA; together they make 180 degrees on the line AB, so each of them is 90 degrees."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["CA = CB, both radii", "AM = BM, M is the midpoint", "SAS gives congruent triangles", "Angles at M are 90 degrees each"]
+      },
+      "note": "Two radii quietly built an isosceles triangle for us."
+    },
+    {
+      "id": "gm-ch05-s15",
+      "sec": "5.5",
+      "title": "The Converse: Theorem 5",
+      "kicker": "Flip the theorem, it still works.",
+      "bullets": [
+        "Exercise Set 5.3 asks you to explain why the converse of Theorem 4 is true.",
+        "You are told that angle CMA and angle CMB are both 90 degrees, and you need to show that AM equals BM.",
+        "The result is Theorem 5: the perpendicular from the centre of a circle to a chord bisects the chord."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Theorem 4", "items": ["start at the midpoint", "line from centre is perpendicular"] },
+        "right": { "title": "Theorem 5", "items": ["start with the perpendicular", "it bisects the chord"] }
+      },
+      "note": "Same picture, read backwards."
+    },
+    {
+      "id": "gm-ch05-s16",
+      "sec": "5.5",
+      "title": "Isosceles Triangle on a Circle",
+      "kicker": "An exercise that surprises many students.",
+      "bullets": [
+        "Exercise Set 5.3 inscribes an isosceles triangle ABC in a circle, with AB equal to AC.",
+        "The task: show that the altitude drawn from A down to BC passes straight through the centre of the circle.",
+        "Reasoning path: with AB equal to AC the altitude is the perpendicular bisector of chord BC, and by Theorem 5 the centre lies on it."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["AB = AC, isosceles on the circle", "Altitude from A bisects chord BC", "Centre lies on that perpendicular line"]
+      },
+      "note": "The altitude is a secret centre detector."
+    },
+    {
+      "id": "gm-ch05-s17",
+      "sec": "5.6",
+      "title": "Paper Folding With Chords",
+      "kicker": "Crease a chord, then crease its bisector.",
+      "bullets": [
+        "Fold a paper circle from the boundary inwards and open it: the crease is a chord of the circle.",
+        "Fold again so the two end points of the chord meet; the new crease runs along the perpendicular from the centre to the chord.",
+        "The chord gets bisected exactly where the two folds intersect."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Fold boundary inwards: a chord appears", "Fold so the chord endpoints meet", "Creases cross at the midpoint", "Second crease is the perpendicular"]
+      },
+      "note": "Your thumbs just demonstrated half of Theorem 5."
+    },
+    {
+      "id": "gm-ch05-s18",
+      "sec": "5.6",
+      "title": "Distance From Centre to Chord",
+      "kicker": "One measurement, clearly defined.",
+      "bullets": [
+        "The distance from the centre to a chord means the distance from the centre to the midpoint of the chord.",
+        "That length is the length of the perpendicular from the centre to the chord, as the folding activity shows.",
+        "Draw another chord of the same length, join the centre to its midpoint, and compare the two measurements."
+      ],
+      "visual": { "kind": "labels", "items": ["centre", "midpoint", "perpendicular length", "distance to chord"] },
+      "note": "Distance to a chord always means this perpendicular."
+    },
+    {
+      "id": "gm-ch05-s19",
+      "sec": "5.6",
+      "title": "The Tracing Paper Trick",
+      "kicker": "Rotate and equal chords swap places.",
+      "bullets": [
+        "Draw the same circle on tracing paper, copy the chord and its perpendicular, then rotate the top paper.",
+        "The chord glides to a different position but keeps the same length, because rotating the circle about its centre does not change the circle.",
+        "After rotating, the perpendicular matches too, so equal chords appear to be equidistant from the centre."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Trace circle, chord, perpendicular", "Rotate the tracing paper", "Chord lands on a new equal chord", "Distances from centre look equal"]
+      },
+      "note": "Rotation is the circle's favourite magic trick."
+    },
+    {
+      "id": "gm-ch05-s20",
+      "sec": "5.6",
+      "title": "A Guess Is Not a Proof",
+      "kicker": "Many examples still need one reason.",
+      "bullets": [
+        "The book warns: a statement may be true on a large number of examples and still not be true in general.",
+        "So the guess becomes Theorem 6, proved properly: chords of a circle having the same length are all at the same distance from the centre.",
+        "Setup: chords AB and FG have AB equal to FG, with midpoints E and H; the goal is to show CE equals CH.",
+        "From Theorem 5, CE and CH are the perpendiculars, so they are exactly the distances from the centre C to the chords."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Experiment", "items": ["rotations suggest equal distances", "works every time you try"] },
+        "right": { "title": "Proof", "items": ["Theorem 6 with reasons", "true for all equal chords"] }
+      },
+      "note": "Examples suggest, proofs settle."
+    },
+    {
+      "id": "gm-ch05-s21",
+      "sec": "5.7",
+      "title": "What Is an Arc?",
+      "kicker": "Two points, one curved road.",
+      "bullets": [
+        "An arc of a circle is a connected portion of the circle.",
+        "It is defined by two points on the circle, called the end points, and the curve connecting them along the circle's edge.",
+        "From A to B there are two ways to travel along the circle: one goes via point X and one goes via point Y."
+      ],
+      "visual": { "kind": "labels", "items": ["end points", "connected portion", "route via X", "route via Y"] },
+      "note": "Two arcs share the same end points."
+    },
+    {
+      "id": "gm-ch05-s22",
+      "sec": "5.7",
+      "title": "Minor and Major Arcs",
+      "kicker": "Small road, big road, both from A to B.",
+      "bullets": [
+        "The bigger of the two arcs between A and B is called the major arc, and the smaller one is the minor arc.",
+        "The minor arc AXB subtends the angle AOB at the centre, moving from OA to OB via X.",
+        "The major arc subtends the angle we get moving from OA to OB via Y, the bigger sweep.",
+        "If the angle at the centre is less than 180 degrees the arc is minor; if it is greater than 180 degrees it is major."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Minor arc AXB", "items": ["smaller piece of the circle", "central angle under 180 degrees"] },
+        "right": { "title": "Major arc AYB", "items": ["bigger piece of the circle", "central angle over 180 degrees"] }
+      },
+      "note": "Under 180 degrees at the centre means minor."
+    },
+    {
+      "id": "gm-ch05-s23",
+      "sec": "5.7",
+      "title": "Angle at Another Point C",
+      "kicker": "Move C around; the angle refuses to change.",
+      "bullets": [
+        "The angle subtended by arc AXB at a point C on the circle outside the arc means the angle ACB.",
+        "Remarkably, this measure does not depend on which specific point C we pick, so long as C is on the circle and outside the arc.",
+        "Slide C along the circle and angle ACB stays the same, which feels almost like magic."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Fix an arc AXB", "Pick any C on the circle outside it", "Measure angle ACB", "Move C: the angle stays the same"]
+      },
+      "note": "The arc sets the angle; the point hardly matters."
+    },
+    {
+      "id": "gm-ch05-s24",
+      "sec": "5.7",
+      "title": "Measure at P, Q and R",
+      "kicker": "An activity before the theorem.",
+      "bullets": [
+        "Draw a circle with a chord AB and fix the arc AKB, with K a point between A and B on the circle.",
+        "Measure the angle the arc subtends at the centre, then at three points P, Q and R on the circle outside the arc.",
+        "The three angles at P, Q and R come out equal every time, for this arc and for any other arc you repeat with."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Fix chord AB and arc AKB", "Measure the angle at centre O", "Measure angles at P, Q, R", "Compare: the three match"]
+      },
+      "note": "Do it twice; the pattern will not blink."
+    },
+    {
+      "id": "gm-ch05-s25",
+      "sec": "5.7",
+      "title": "Theorem 9: Centre Doubles",
+      "kicker": "The headline result of this section.",
+      "bullets": [
+        "Theorem 9: the angle subtended by an arc at the centre is double the angle it subtends at a point on the circle outside the arc.",
+        "So if an arc makes 60 degrees at a point on the circle outside it, it makes 120 degrees at the centre.",
+        "This single rule powers the next section on concyclic points and cyclic quadrilaterals."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Arc AKB on the circle", "Angle at centre O", "Angle at point P outside the arc", "Centre angle is double"]
+      },
+      "note": "Central angle is the double of the rim angle."
+    },
+    {
+      "id": "gm-ch05-s26",
+      "sec": "5.8",
+      "title": "Concyclic Points",
+      "kicker": "One circle, many members.",
+      "bullets": [
+        "Points that lie on the same circle are called concyclic.",
+        "The book answers the question of when four points lie on one circle, and lets you explore five points, six points and beyond.",
+        "The whole question turns on the angles that one segment subtends at the other points."
+      ],
+      "visual": { "kind": "labels", "items": ["same circle", "concyclic", "four points", "explore five, six"] },
+      "note": "Concyclic is the guest list of one circle."
+    },
+    {
+      "id": "gm-ch05-s27",
+      "sec": "5.8",
+      "title": "Theorem 10: Equal Angles, One Circle",
+      "kicker": "Equal looks from C and D force a circle.",
+      "bullets": [
+        "Theorem 10: if a segment AB subtends equal angles at points C and D on the same side of AB, the four points lie on a circle.",
+        "Both C and D must be off the line AB, and angle ACB equals angle ADB.",
+        "First move of the proof: A, B, C are noncollinear, so using Theorem 1 there is a circle passing through A, B, C."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["AB with C and D on the same side", "angle ACB equals angle ADB", "Draw the circle through A, B, C", "Question: is D on it too?"]
+      },
+      "note": "Equal viewing angles hint at a shared circle."
+    },
+    {
+      "id": "gm-ch05-s28",
+      "sec": "5.8",
+      "title": "Proof by Impossible Angle",
+      "kicker": "Push the wrong case until it contradicts.",
+      "bullets": [
+        "Suppose D is not on the circle; then D is either inside or outside, and the line AD meets the circle at a point E.",
+        "C and E lie on the same segment of the arc formed by chord AB, so angle ACB equals angle AEB.",
+        "If D is outside, angle AEB is an exterior angle of triangle BED, so angle AEB is greater than angle ADB.",
+        "Chaining the equalities gives angle ACB greater than itself, impossible; the inside case fails the same way, so D is on the circle."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Assume D is off the circle", "AD meets the circle at E", "angle ACB equals angle AEB", "Exterior angle breaks the equality", "So D must be on the circle"]
+      },
+      "note": "Contradiction is the bouncer at this door."
+    },
+    {
+      "id": "gm-ch05-s29",
+      "sec": "5.8",
+      "title": "Cyclic Quadrilaterals",
+      "kicker": "A 4-gon that lives on a circle.",
+      "bullets": [
+        "When the vertices of a quadrilateral, which we also call a 4-gon, are concyclic, the quadrilateral is called a cyclic quadrilateral.",
+        "All four corners sit on one circle, which is a very special and useful situation.",
+        "The circle has a centre O, and the arcs between the vertices subtend angles at the opposite corners."
+      ],
+      "visual": { "kind": "labels", "items": ["quadrilateral", "4-gon", "vertices concyclic", "one circle"] },
+      "note": "Four corners, one circle, zero leftovers."
+    },
+    {
+      "id": "gm-ch05-s30",
+      "sec": "5.8",
+      "title": "Theorem 11: Opposites Make 180",
+      "kicker": "The classic cyclic quadrilateral result.",
+      "bullets": [
+        "Theorem 11: the sum of two opposite angles of a cyclic quadrilateral is 180 degrees.",
+        "For a cyclic 4-gon ABCD on a circle with centre O, the claim is that angle BAD plus angle BCD equals 180 degrees.",
+        "Idea: arc BCD subtends angle BAD at A and arc BAD subtends angle BCD at C; the two arcs together make the whole circle.",
+        "The two central angles add to 360 degrees; by Theorem 9 each inscribed angle is half of its central angle, so the pair sums to 180 degrees."
+      ],
+      "visual": { "kind": "labels", "items": ["opposite angles", "sum 180 degrees", "arc BCD", "arc BAD"] },
+      "note": "Opposite corners of a cyclic 4-gon always share 180."
+    }
+  ],
+  "flashcards": [
+    { "id": "gm-ch05-f1", "sec": "5.1", "front": "What is a circle, in one line?", "back": "The set of all points on a plane that are equidistant from a given point on that plane; that point is the centre.", "tag": "definition" },
+    { "id": "gm-ch05-f2", "sec": "5.1", "front": "What does the word locus mean?", "back": "The set of all points that satisfy a given condition; a circle is the locus of points equidistant from a given point.", "tag": "definition" },
+    { "id": "gm-ch05-f3", "sec": "5.1", "front": "What are a chord and a diameter?", "back": "A chord is a segment joining two points of the circle; a diameter is a chord that passes through the centre.", "tag": "definition" },
+    { "id": "gm-ch05-f4", "sec": "5.1", "front": "What is the radius of a circle?", "back": "The distance from the centre to any point on the circle; every point at that distance from the centre lies on it.", "tag": "definition" },
+    { "id": "gm-ch05-f5", "sec": "5.2", "front": "What is complete rotational symmetry?", "back": "The figure looks exactly the same after a rotation by any angle; the spinning wheel of a vehicle is the book's example.", "tag": "concept" },
+    { "id": "gm-ch05-f6", "sec": "5.2", "front": "How do you find a reflection line of a paper circle?", "back": "Fold it so the two boundaries overlap; the crease is the line, it passes through the centre, so it is a diameter.", "tag": "concept" },
+    { "id": "gm-ch05-f7", "sec": "5.2", "front": "Which lines are lines of reflection symmetry of a circle?", "back": "All diameters of the circle; every one of them is a fold line that makes the halves overlap.", "tag": "definition" },
+    { "id": "gm-ch05-f8", "sec": "5.2", "front": "What is the locus of points equidistant from two given points?", "back": "The perpendicular bisector of the segment joining them; every point on it is equidistant, and every equidistant point is on it.", "tag": "concept" },
+    { "id": "gm-ch05-f9", "sec": "5.3", "front": "How many circles pass through two given points?", "back": "Infinitely many; every point equidistant from the two points can be the centre of one such circle.", "tag": "concept" },
+    { "id": "gm-ch05-f10", "sec": "5.3", "front": "Where do the centres of all circles through A and B lie?", "back": "On the perpendicular bisector of AB, because each centre must be equidistant from A and B.", "tag": "concept" },
+    { "id": "gm-ch05-f11", "sec": "5.3", "front": "Describe the smallest circle through two points A and B.", "back": "Its centre is the midpoint of AB, its radius is half the length of AB, and AB is a diameter.", "tag": "concept" },
+    { "id": "gm-ch05-f12", "sec": "5.3", "front": "What question does the book raise about three points?", "back": "How many circles pass through three distinct points A, B, C; later, noncollinear triples always get a circle by Theorem 1.", "tag": "concept" },
+    { "id": "gm-ch05-f13", "sec": "5.5", "front": "State Theorem 4 about chords.", "back": "The line joining the centre of a circle and the midpoint of a chord is perpendicular to the chord.", "tag": "concept" },
+    { "id": "gm-ch05-f14", "sec": "5.5", "front": "State Theorem 5, the converse of Theorem 4.", "back": "The perpendicular from the centre of a circle to a chord bisects the chord.", "tag": "concept" },
+    { "id": "gm-ch05-f15", "sec": "5.5", "front": "Why is triangle CAB isosceles in the proof of Theorem 4?", "back": "C is the centre and A, B are points on the circle, so CA and CB are both radii and hence equal.", "tag": "concept" },
+    { "id": "gm-ch05-f16", "sec": "5.5", "front": "Which congruence proves triangles CMA and CMB congruent?", "back": "SAS, using CA equals CB, equal base angles at A and B, and AM equals BM because M is the midpoint of AB.", "tag": "concept" },
+    { "id": "gm-ch05-f17", "sec": "5.6", "front": "What does the second fold in the chord activity give?", "back": "A crease along the perpendicular from the centre to the chord; the chord is bisected where the two creases meet.", "tag": "concept" },
+    { "id": "gm-ch05-f18", "sec": "5.6", "front": "How is the distance from the centre to a chord measured?", "back": "As the length of the perpendicular from the centre to the chord, that is, the centre to midpoint distance.", "tag": "definition" },
+    { "id": "gm-ch05-f19", "sec": "5.6", "front": "State Theorem 6.", "back": "Chords of a circle having the same length are all at the same distance from the centre of the circle.", "tag": "concept" },
+    { "id": "gm-ch05-f20", "sec": "5.6", "front": "Why did the book prove Theorem 6 after the tracing paper test?", "back": "Many examples suggest a rule but do not prove it; a statement true in many cases can still fail in general.", "tag": "concept" },
+    { "id": "gm-ch05-f21", "sec": "5.7", "front": "What is an arc of a circle?", "back": "A connected portion of the circle, fixed by two end points and the curve joining them along the circle's edge.", "tag": "definition" },
+    { "id": "gm-ch05-f22", "sec": "5.7", "front": "When is an arc minor and when is it major?", "back": "The smaller of the two arcs between two points is minor, the bigger is major; central angle under 180 degrees means minor.", "tag": "definition" },
+    { "id": "gm-ch05-f23", "sec": "5.7", "front": "What is the angle subtended by arc AXB at a point C outside it?", "back": "The angle ACB; its measure is the same no matter which point C on the circle outside the arc you choose.", "tag": "definition" },
+    { "id": "gm-ch05-f24", "sec": "5.7", "front": "State Theorem 9.", "back": "The angle subtended by an arc at the centre is double the angle it subtends at a point on the circle outside the arc.", "tag": "formula" },
+    { "id": "gm-ch05-f25", "sec": "5.8", "front": "What does concyclic mean?", "back": "Points are concyclic when they all lie on the same circle.", "tag": "definition" },
+    { "id": "gm-ch05-f26", "sec": "5.8", "front": "State Theorem 10.", "back": "If a segment AB subtends equal angles at two points C, D on the same side of AB, then A, B, C, D lie on one circle.", "tag": "concept" },
+    { "id": "gm-ch05-f27", "sec": "5.8", "front": "What is a cyclic quadrilateral?", "back": "A quadrilateral, also called a 4-gon, whose vertices are concyclic, meaning all four lie on one circle.", "tag": "definition" },
+    { "id": "gm-ch05-f28", "sec": "5.8", "front": "State Theorem 11.", "back": "The sum of two opposite angles of a cyclic quadrilateral is 180 degrees.", "tag": "formula" }
+  ],
+  "quiz": [
+    { "id": "gm-ch05-q1", "sec": "5.1", "q": "A circle is the set of all points on a plane that are ____ from a given point.", "options": ["equidistant", "at least 1 unit away", "on the boundary of a square", "collinear with each other"], "answer": 0, "why": "The book defines the circle by equal distance from the centre point.", "difficulty": "easy" },
+    { "id": "gm-ch05-q2", "sec": "5.1", "q": "In the book's figure, the angle subtended by chord BC at the centre A is:", "options": ["angle ABC", "angle BAC", "angle ACB", "always a right angle"], "answer": 1, "why": "Joining B and C to the centre A opens angle BAC at the centre.", "difficulty": "easy" },
+    { "id": "gm-ch05-q3", "sec": "5.1", "q": "A chord that passes through the centre of a circle is called a:", "options": ["diameter", "radius", "locus", "minor arc"], "answer": 0, "why": "The book names the chord through the centre the diameter.", "difficulty": "medium" },
+    { "id": "gm-ch05-q4", "sec": "5.1", "q": "A circle has radius 5 units. The chord through its centre has length:", "options": ["5 units", "20 units", "10 units", "25 units"], "answer": 2, "why": "That chord is the diameter, made of two radii, so 2 times 5 equals 10.", "difficulty": "medium" },
+    { "id": "gm-ch05-q5", "sec": "5.2", "q": "Rotate a circle by any angle and it looks exactly the same. This property is called:", "options": ["reflection symmetry", "complete rotational symmetry", "locus property", "concyclicity"], "answer": 1, "why": "The wheel example shows the circle looks the same at all times while rotating.", "difficulty": "easy" },
+    { "id": "gm-ch05-q6", "sec": "5.2", "q": "Fold a paper circle so the boundaries overlap. The crease you see is:", "options": ["an arc of the circle", "a diameter through the centre", "a chord off the centre", "the radius"], "answer": 1, "why": "The fold line passes through the centre, so it is a diameter.", "difficulty": "easy" },
+    { "id": "gm-ch05-q7", "sec": "5.2", "q": "How many lines of reflection symmetry does a circle have?", "options": ["exactly one", "exactly two", "infinitely many, one per diameter", "none"], "answer": 2, "why": "All diameters are lines of reflection symmetry of the circle.", "difficulty": "medium" },
+    { "id": "gm-ch05-q8", "sec": "5.2", "q": "The locus of points equidistant from two given points A and B is:", "options": ["a circle through A and B", "the perpendicular bisector of AB", "the segment AB itself", "the midpoint of AB only"], "answer": 1, "why": "The Think and Reflect hint: equidistant points lie on the perpendicular bisector of AB.", "difficulty": "medium" },
+    { "id": "gm-ch05-q9", "sec": "5.3", "q": "How many circles pass through two given distinct points?", "options": ["exactly one", "exactly two", "none", "infinitely many"], "answer": 3, "why": "Every point on the perpendicular bisector can be the centre of one more circle.", "difficulty": "easy" },
+    { "id": "gm-ch05-q10", "sec": "5.3", "q": "AB is 8 cm. The circle with centre at the midpoint of AB that passes through A and B has radius:", "options": ["8 cm", "4 cm", "16 cm", "2 cm"], "answer": 1, "why": "Its radius is half the length of AB and AB is the diameter.", "difficulty": "easy" },
+    { "id": "gm-ch05-q11", "sec": "5.3", "q": "The centres of all circles passing through A and B must lie on:", "options": ["the perpendicular bisector of AB", "the line AB itself", "a circle centred at A", "the midpoint of AB"], "answer": 0, "why": "A centre must satisfy OA equals OB, the defining property of the bisector.", "difficulty": "medium" },
+    { "id": "gm-ch05-q12", "sec": "5.3", "q": "As the centre moves farther from AB along the perpendicular bisector, the circle through A and B:", "options": ["grows, and looks less curved", "shrinks, and looks more curved", "stays exactly the same", "first shrinks, then grows"], "answer": 0, "why": "A farther centre gives a larger radius, so the arc through A and B flattens.", "difficulty": "hard" },
+    { "id": "gm-ch05-q13", "sec": "5.5", "q": "Theorem 4: the line joining the centre of a circle to the midpoint of a chord is ____ the chord.", "options": ["perpendicular to", "parallel to", "equal in length to", "an arc of"], "answer": 0, "why": "Centre to midpoint always meets the chord at 90 degrees.", "difficulty": "easy" },
+    { "id": "gm-ch05-q14", "sec": "5.5", "q": "Theorem 5: the perpendicular from the centre of a circle to a chord ____ the chord.", "options": ["doubles", "bisects", "rotates", "extends"], "answer": 1, "why": "The converse result says the perpendicular cuts the chord into two equal parts.", "difficulty": "easy" },
+    { "id": "gm-ch05-q15", "sec": "5.5", "q": "In the proof of Theorem 4, why does angle CMB plus angle CMA equal 180 degrees?", "options": ["Because triangle CAB is isosceles", "Because they are angles on a line at M", "Because CA and CB are radii", "Because M is the centre"], "answer": 1, "why": "M sits on the line AB, so the two angles at M fill a straight angle.", "difficulty": "medium" },
+    { "id": "gm-ch05-q16", "sec": "5.5", "q": "An isosceles triangle ABC with AB equal to AC is inscribed in a circle. The altitude from A to BC:", "options": ["passes through the centre of the circle", "is parallel to BC", "always misses the centre", "is a diameter of the circle"], "answer": 0, "why": "It is the perpendicular bisector of chord BC, and the centre lies on it by Theorem 5.", "difficulty": "hard" },
+    { "id": "gm-ch05-q17", "sec": "5.6", "q": "Theorem 6 says chords of a circle with the same length are:", "options": ["all diameters", "all parallel", "all at the same distance from the centre", "all perpendicular to each other"], "answer": 2, "why": "Equal length chords stand equally far from the centre.", "difficulty": "easy" },
+    { "id": "gm-ch05-q18", "sec": "5.6", "q": "In the paper folding activity, the chord gets bisected:", "options": ["at the centre of the circle", "where the two creases intersect", "at one end point", "halfway up the second crease"], "answer": 1, "why": "The folds cross exactly at the midpoint of the chord.", "difficulty": "easy" },
+    { "id": "gm-ch05-q19", "sec": "5.6", "q": "For equal chords AB and FG with midpoints E and H, the book first notes that CE and CH are:", "options": ["equal radii", "the perpendicular distances from centre C", "diameters of the circle", "parallel chords"], "answer": 1, "why": "By Theorem 5 they are the perpendiculars, hence the distances, from C to the chords.", "difficulty": "medium" },
+    { "id": "gm-ch05-q20", "sec": "5.6", "q": "Before proving Theorem 6, the book cautions that its rotation experiment:", "options": ["is only an example, not a proof", "works only for diameters", "proves the theorem fully", "fails for small chords"], "answer": 0, "why": "True on a large number of examples does not mean true in general.", "difficulty": "hard" },
+    { "id": "gm-ch05-q21", "sec": "5.7", "q": "The smaller of the two arcs between two points on a circle is the:", "options": ["major arc", "diameter", "chord", "minor arc"], "answer": 3, "why": "Minor means smaller; the bigger one is the major arc.", "difficulty": "easy" },
+    { "id": "gm-ch05-q22", "sec": "5.7", "q": "An arc subtends 200 degrees at the centre of the circle. The arc is:", "options": ["a minor arc", "a major arc", "a semicircle", "not possible"], "answer": 1, "why": "An angle at the centre greater than 180 degrees means a major arc.", "difficulty": "medium" },
+    { "id": "gm-ch05-q23", "sec": "5.7", "q": "Points P, Q, R lie on the circle outside arc AKB. The angles the arc subtends at them are:", "options": ["all equal", "all different", "all zero", "all right angles"], "answer": 0, "why": "The measure does not depend on which outside point you pick.", "difficulty": "easy" },
+    { "id": "gm-ch05-q24", "sec": "5.7", "q": "An arc subtends 60 degrees at a point on the circle outside it. At the centre it subtends:", "options": ["30 degrees", "60 degrees", "120 degrees", "180 degrees"], "answer": 2, "why": "Theorem 9: the angle at the centre is double the angle at the circle.", "difficulty": "hard" },
+    { "id": "gm-ch05-q25", "sec": "5.8", "q": "Points that lie on the same circle are called:", "options": ["collinear", "concyclic", "concentric", "congruent"], "answer": 1, "why": "Concyclic literally means sitting on one common circle.", "difficulty": "easy" },
+    { "id": "gm-ch05-q26", "sec": "5.8", "q": "Theorem 10 concludes that A, B, C, D are concyclic when:", "options": ["angle ACB equals angle ADB with C, D on the same side of AB", "C and D are on opposite sides of AB", "C and D lie on the line AB", "AB is a diameter"], "answer": 0, "why": "Equal subtended angles from the same side force one circle.", "difficulty": "medium" },
+    { "id": "gm-ch05-q27", "sec": "5.8", "q": "In the proof of Theorem 10, if D were outside the circle, angle AEB is an exterior angle of triangle BED, so:", "options": ["angle AEB equals angle ADB", "angle AEB is greater than angle ADB", "angle AEB is smaller than angle ADB", "angle AEB is 90 degrees"], "answer": 1, "why": "The exterior angle exceeds the interior angle at D, which breaks the given equality.", "difficulty": "medium" },
+    { "id": "gm-ch05-q28", "sec": "5.8", "q": "ABCD is a cyclic quadrilateral and angle BAD is 110 degrees. Then angle BCD equals:", "options": ["110 degrees", "90 degrees", "70 degrees", "220 degrees"], "answer": 2, "why": "Opposite angles of a cyclic quadrilateral sum to 180 degrees, so 180 minus 110 is 70.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch05-e1",
+      "title": "The Longest Chord",
+      "problem": "A circle has radius 5 units. What is the length of its longest chord, and what is that chord called?",
+      "steps": [
+        "Recall from the definitions: a chord joins two points of the circle, and a chord passing through the centre is called a diameter.",
+        "The diameter runs from one side of the circle to the other through the centre, so its length is two radii: 2 x 5 = 10 units.",
+        "This is exactly the Think and Reflect question from the symmetries section, and the chord through the centre is the answer."
+      ],
+      "answer": "10 units; the longest chord is the diameter."
+    },
+    {
+      "id": "gm-ch05-e2",
+      "title": "Distance Between Chord Midpoints",
+      "problem": "Two parallel chords of lengths 6 cm and 8 cm are on opposite sides of the centre of a circle. If the radius of the circle is 5 cm, find the distance between the midpoints of the chords.",
+      "steps": [
+        "By Theorem 5, the perpendicular from the centre to a chord bisects it, so the halves of the chords are 3 cm and 4 cm.",
+        "Join the centre to one end of each chord; each joining segment is a radius of 5 cm, giving two right triangles at the midpoints.",
+        "Distance to the 6 cm chord: sqrt(5^2 - 3^2) = sqrt(25 - 9) = sqrt(16) = 4 cm.",
+        "Distance to the 8 cm chord: sqrt(5^2 - 4^2) = sqrt(25 - 16) = sqrt(9) = 3 cm.",
+        "The chords are on opposite sides of the centre, so the two distances add: 4 + 3 = 7 cm."
+      ],
+      "answer": "7 cm between the midpoints of the two chords."
+    },
+    {
+      "id": "gm-ch05-e3",
+      "title": "Centre Angle From a Rim Angle",
+      "problem": "An arc of a circle subtends an angle of 60 degrees at a point on the circle outside the arc. What angle does the same arc subtend at the centre?",
+      "steps": [
+        "Theorem 9 says the angle subtended by an arc at the centre is double the angle it subtends at a point on the circle outside the arc.",
+        "So the central angle is 2 x 60 = 120 degrees.",
+        "Check by reading backwards: the angle at the circle is half the central angle, and half of 120 is 60 degrees."
+      ],
+      "answer": "120 degrees at the centre."
+    },
+    {
+      "id": "gm-ch05-e4",
+      "title": "Opposite Angles of a Cyclic 4-gon",
+      "problem": "ABCD is a cyclic quadrilateral with angle BAD = 100 degrees and angle ABC = 75 degrees. Find angle BCD and angle ADC.",
+      "steps": [
+        "Theorem 11: the sum of two opposite angles of a cyclic quadrilateral is 180 degrees.",
+        "Angle BCD is opposite to angle BAD, so angle BCD = 180 - 100 = 80 degrees.",
+        "Angle ADC is opposite to angle ABC, so angle ADC = 180 - 75 = 105 degrees.",
+        "Check: 100 + 80 = 180 and 75 + 105 = 180, so both opposite pairs sum correctly."
+      ],
+      "answer": "Angle BCD = 80 degrees and angle ADC = 105 degrees."
+    }
+  ],
+  "conceptMap": {
+    "center": "Circles: Chords, Arcs and Angles",
+    "groups": [
+      { "id": "g1", "label": "Building blocks" },
+      { "id": "g2", "label": "Symmetry" },
+      { "id": "g3", "label": "Chord results" },
+      { "id": "g4", "label": "Angles and 4-gons" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "centre", "group": "g1" },
+      { "id": "n2", "label": "radius", "group": "g1" },
+      { "id": "n3", "label": "chord", "group": "g1" },
+      { "id": "n4", "label": "diameter", "group": "g1" },
+      { "id": "n5", "label": "arc", "group": "g1" },
+      { "id": "n6", "label": "rotational symmetry", "group": "g2" },
+      { "id": "n7", "label": "reflection symmetry", "group": "g2" },
+      { "id": "n8", "label": "Theorem 4", "group": "g3" },
+      { "id": "n9", "label": "Theorem 5", "group": "g3" },
+      { "id": "n10", "label": "Theorem 6", "group": "g3" },
+      { "id": "n11", "label": "minor and major arcs", "group": "g4" },
+      { "id": "n12", "label": "Theorem 9", "group": "g4" },
+      { "id": "n13", "label": "Theorem 11", "group": "g4" },
+      { "id": "n14", "label": "cyclic quadrilateral", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "sets the distance" },
+      { "from": "n2", "to": "n8", "label": "equal radii make isosceles" },
+      { "from": "n1", "to": "n8", "label": "centre to midpoint" },
+      { "from": "n8", "to": "n9", "label": "converse" },
+      { "from": "n9", "to": "n10", "label": "gives the distances" },
+      { "from": "n3", "to": "n4", "label": "through the centre" },
+      { "from": "n4", "to": "n7", "label": "is a fold line" },
+      { "from": "n1", "to": "n6", "label": "rotate about centre" },
+      { "from": "n3", "to": "n5", "label": "cuts off two arcs" },
+      { "from": "n5", "to": "n11", "label": "minor or major" },
+      { "from": "n11", "to": "n12", "label": "subtends angles" },
+      { "from": "n12", "to": "n13", "label": "halves sum to 180" },
+      { "from": "n14", "to": "n13", "label": "opposite angles" },
+      { "from": "n3", "to": "n10", "label": "equal length chords" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Define the circle", "detail": "Set of points equidistant from a centre; radius, chord, diameter." },
+      { "id": "s2", "label": "Spot the symmetry", "detail": "Complete rotational symmetry; every diameter is a reflection line." },
+      { "id": "s3", "label": "Count the circles", "detail": "Through two points: infinitely many, centres on the perpendicular bisector." },
+      { "id": "s4", "label": "Meet chord theorems", "detail": "Theorem 4: centre to midpoint is perpendicular; Theorem 5: perpendicular bisects." },
+      { "id": "s5", "label": "Compare chord distances", "detail": "Theorem 6: equal chords stand at equal distances from the centre." },
+      { "id": "s6", "label": "Ride the arcs", "detail": "Minor and major arcs; the angles they subtend at the centre." },
+      { "id": "s7", "label": "Apply Theorem 9", "detail": "Angle at the centre is double the angle at the circle." },
+      { "id": "s8", "label": "Test concyclicity", "detail": "Theorem 10: equal angles on the same side put four points on one circle." },
+      { "id": "s9", "label": "Finish the 4-gon", "detail": "Theorem 11: opposite angles of a cyclic quadrilateral sum to 180 degrees." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8]]
+  }
+}

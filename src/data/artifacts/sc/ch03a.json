@@ -1,0 +1,590 @@
+{
+  "book": "sc",
+  "chapter": 3,
+  "part": "a",
+  "title": "Tissues in Action",
+  "grade": 9,
+  "sections": [
+    { "id": "3.1", "title": "Why are Plant and Animal Tissues Different?" },
+    { "id": "3.2", "title": "Tissues for Growth in Plants" },
+    { "id": "3.2.1", "title": "Apical meristem: How do plants grow in length?" },
+    { "id": "3.2.2", "title": "Lateral meristem: How do plants grow in girth?" },
+    { "id": "3.2.3", "title": "Intercalary meristem: How do plants grow after being cut?" },
+    { "id": "3.2.4", "title": "Permanent tissues" },
+    { "id": "3.3", "title": "Animal Tissues" },
+    { "id": "3.3.1", "title": "Epithelial tissues: Structure and functions" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch03a-s1",
+      "sec": "3.1",
+      "title": "Fixed Roots, Moving Feet",
+      "kicker": "Why plants stand still and animals roam",
+      "bullets": [
+        "Most plants are fixed in one place and do not move about, so they need support to stay firm and upright.",
+        "Plant cells have a cell wall that provides rigidity and strength.",
+        "Animals can generally move; without a rigid cell wall their cells can change shape easily.",
+        "This cellular flexibility helps make animal bodies suitable for locomotion, though some animals like sponges are immobile."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Plants", "items": ["Fixed in one place", "Cell wall gives rigidity", "Need support to stay upright"] },
+        "right": { "title": "Animals", "items": ["Mostly move from place to place", "No rigid wall, flexible cells", "Sponges are the exception"] }
+      },
+      "note": "Cell wall ki wajah plant pakka khada, animal full flexible!"
+    },
+    {
+      "id": "sc-ch03a-s2",
+      "sec": "3.1",
+      "title": "Two Ways of Feeding",
+      "kicker": "Sunlight kitchen versus food hunting",
+      "bullets": [
+        "Plants have tissues that utilise solar energy for synthesising food components through photosynthesis.",
+        "Animals have tissues that help them digest food obtained from different food sources.",
+        "Plants and animals also have distinct tissues for transporting food and water to different parts of the body."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Photosynthesis", "Digestion", "Solar energy", "Transport tissues"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s3",
+      "sec": "3.1",
+      "title": "Structure Suits Function",
+      "kicker": "The one idea this whole chapter builds",
+      "bullets": [
+        "Growth patterns in plants and animals vary because the tissues responsible for growth differ in structure and function.",
+        "In this chapter we learn how the structures of plant and animal tissues relate to their specific functions.",
+        "Meet a Scientist: B.G.L. Swamy, expert in plant morphology and anatomy, won the Kendra Sahitya Akademi award in 1978."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Compare plant and animal cells", "Spot the tissue differences", "Match structure to function"]
+      },
+      "note": "Ek hi funda baar baar: jo shape, wahi kaam."
+    },
+    {
+      "id": "sc-ch03a-s4",
+      "sec": "3.2",
+      "title": "A Seedling's Promise",
+      "kicker": "Small seed today, tall tree tomorrow",
+      "bullets": [
+        "A small seedling grows into a tall tree and its roots grow deep into the soil.",
+        "Stems become thicker with time, and grass grows again after being eaten by grazing animals.",
+        "The big question: which tissues are responsible for these changes?"
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Tall tree", "Deep roots", "Thicker stem", "Regrowing grass"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s5",
+      "sec": "3.2",
+      "title": "Three Ways to Grow",
+      "kicker": "Length, girth, and a comeback",
+      "bullets": [
+        "Increase in length means height of the stem and depth of the roots.",
+        "Increase in girth means thickness of the stem.",
+        "Regrowth means growing again after cutting the branches or grazing by animals."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Plant growth",
+        "children": ["Growth in length", "Growth in girth", "Regrowth after cutting"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s6",
+      "sec": "3.2",
+      "title": "Meet the Meristematic Tissue",
+      "kicker": "Dividing cells are the growth engine",
+      "bullets": [
+        "Growth in plants requires actively dividing cells.",
+        "These actively dividing cells together form a tissue called meristematic tissue.",
+        "Plants have different kinds of meristematic tissues, one for each growth job."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Actively dividing cells", "Meristematic tissue", "Plant growth"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s7",
+      "sec": "3.2.1",
+      "title": "The Two Jar Experiment",
+      "kicker": "Onion bulbs settle a growing debate",
+      "bullets": [
+        "Take two glass jars filled with water and place one onion bulb in each.",
+        "Observe root growth and measure root lengths on days 1, 2 and 3.",
+        "On day 3, cut the root tips of the onion bulb in Jar B by about 1 cm, then measure lengths for four more days."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Two jars, two onion bulbs", "Measure roots on days 1 to 3", "Cut Jar B root tips by 1 cm", "Observe for four more days"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s8",
+      "sec": "3.2.1",
+      "title": "What the Jars Showed",
+      "kicker": "Cut the tip, stop the growth",
+      "bullets": [
+        "Roots in Jar A continue to grow in length through the experiment.",
+        "Roots in Jar B stop growing after the tips are cut.",
+        "This shows that roots grow only from their tips, which consist of cells that divide continuously."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Jar A", "items": ["Root tips intact", "Roots keep growing in length"] },
+        "right": { "title": "Jar B", "items": ["Root tips cut on day 3", "Roots stop growing"] }
+      },
+      "note": "Tip katao toh lambai ruk jaati hai, seedha proof!"
+    },
+    {
+      "id": "sc-ch03a-s9",
+      "sec": "3.2.1",
+      "title": "Apical Meristem at Work",
+      "kicker": "Growth zones hiding at every tip",
+      "bullets": [
+        "Observing mitosis in onion root tips, as done in Chapter 2, confirms that root tips contain actively dividing cells.",
+        "Shoot tips also contain actively dividing cells that help the shoots grow in length.",
+        "Plants have growth zones at the tips of roots and shoots called apical meristems, which help plants grow in length."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Root tip", "Shoot tip", "Continuous division", "Growth in length"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s10",
+      "sec": "3.2.2",
+      "title": "Rings That Tell Time",
+      "kicker": "A trunk's diary carved in wood",
+      "bullets": [
+        "A cut trunk seen at a timber yard shows ring-like patterns called annual growth rings.",
+        "Some annual rings are wide and some are narrow, reflecting favourable or unfavourable growth conditions during a particular year.",
+        "By counting these annual rings, scientists can estimate the age of a tree and understand the climatic conditions under which it grew."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Annual rings", "Wide ring", "Narrow ring", "Tree age", "Climate clues"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s11",
+      "sec": "3.2.2",
+      "title": "Girth Needs a Ring",
+      "kicker": "Dividing cells circle the stem",
+      "bullets": [
+        "Increase in girth occurs due to actively dividing cells arranged in a ring in the stem.",
+        "These cells divide and produce new cells inside and outside in a concentric manner.",
+        "The result is an increase in the diameter of the stem."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Cells arranged in a ring", "Cells divide actively", "New cells form inside and outside", "Stem diameter increases"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s12",
+      "sec": "3.2.2",
+      "title": "Lateral Meristem Defined",
+      "kicker": "Dicot stems widen year by year",
+      "bullets": [
+        "Stems of dicot plants grow in length and also increase in diameter or girth over time.",
+        "One possible explanation for this increase is the activity of meristematic tissues.",
+        "This ring-shaped meristematic tissue is called the lateral meristem."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Lateral meristem", "Concentric new cells", "Thicker stem"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s13",
+      "sec": "3.2.3",
+      "title": "Cut Tip, New Branches",
+      "kicker": "Pruning wakes up sleepy nodes",
+      "bullets": [
+        "If the tip of a young stem is cut, the stem stops growing in length.",
+        "New branches then arise from the nodes of the stem.",
+        "The intercalary meristem is located at the base of internode or just above the node."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Stem tip cut", "Length growth stops", "Branches arise from nodes"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s14",
+      "sec": "3.2.3",
+      "title": "Hedges and Mowed Grass",
+      "kicker": "The bushy comeback trick",
+      "bullets": [
+        "When a garden hedge is cut, more branches appear after some time, giving the hedge a bushy appearance.",
+        "Grass also appears again after being mowed or grazed by animals.",
+        "This regrowth happens because of intercalary meristem at the nodes of the grass stem."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Node", "Internode", "Intercalary meristem", "Bushy hedge", "Regrowing grass"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s15",
+      "sec": "3.2.3",
+      "title": "Three Meristems, One Team",
+      "kicker": "Length, girth and regrowth settled",
+      "bullets": [
+        "The apical meristem, located at the root and shoot tips, increases length.",
+        "The lateral meristem, located along the circumference of stems, increases girth.",
+        "The intercalary meristem, located at the base of certain plants such as grasses, helps them regenerate after cutting."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Where it sits", "items": ["Apical: root and shoot tips", "Lateral: around the stem", "Intercalary: base of grasses"] },
+        "right": { "title": "What it does", "items": ["Grows length", "Grows girth", "Regrows after cutting"] }
+      },
+      "note": "Teen meristem milke poora plant grow karte hain."
+    },
+    {
+      "id": "sc-ch03a-s16",
+      "sec": "3.2.3",
+      "title": "Inside a Dividing Cell",
+      "kicker": "Built for speed, built for division",
+      "bullets": [
+        "Meristematic cells are small, have thin cell walls, a large and prominent nucleus, and dense cytoplasm with many organelles.",
+        "Vacuoles are generally absent, and the cells are tightly packed with little or no intercellular space.",
+        "These characteristics allow continuous and rapid cell division."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Small cell", "Thin wall", "Prominent nucleus", "Dense cytoplasm", "No vacuoles"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s17",
+      "sec": "3.2.3",
+      "title": "From Meristem to Permanent",
+      "kicker": "When dividing cells pick a career",
+      "bullets": [
+        "Meristematic tissue keeps adding new cells; some stay meristematic while others lose the ability to divide.",
+        "Cells that lose the ability to divide change in structure and function, and become permanent tissues.",
+        "They become specialised for support, transport or storage; this process is called differentiation."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Meristematic tissue", "Some cells stop dividing", "Permanent tissue", "Support, transport, storage"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s18",
+      "sec": "3.2.4",
+      "title": "Permanent Tissues Appear",
+      "kicker": "A stem slice under the microscope",
+      "bullets": [
+        "A transverse section of a sunflower stem shows different groups of cells, each tissue specialised to perform a specific function.",
+        "These specialised groups of cells are permanent tissues.",
+        "Permanent tissues can be simple, composed of only one type of cell, or complex, composed of more than one type of cell."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Simple", "items": ["Made of only one type of cell"] },
+        "right": { "title": "Complex", "items": ["Made of more than one type of cell"] }
+      }
+    },
+    {
+      "id": "sc-ch03a-s19",
+      "sec": "3.2.4",
+      "title": "Epidermis, the Shield",
+      "kicker": "One tight layer guards the plant",
+      "bullets": [
+        "The epidermis forms the outermost layer of the plant body, protecting all its parts.",
+        "It consists of a tightly packed, single layer of flat and rectangular cells.",
+        "A waxy layer of cutin called the cuticle covers the cells, reducing water loss and guarding against injury and parasites."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Outermost layer", "Flat rectangular cells", "Cuticle", "Protection"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s20",
+      "sec": "3.2.4",
+      "title": "Stomata and Root Hairs",
+      "kicker": "Two tiny doors, two big jobs",
+      "bullets": [
+        "In leaves, the epidermis has pores called stomata for gaseous exchange and transpiration, the evaporation of water vapours.",
+        "Transpiration creates a pull in the xylem that helps water transport and removes wastes.",
+        "In roots, hair-like projections called root hairs increase the surface area for absorption of water and minerals from the soil."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "In leaves", "items": ["Stomata pores", "Gaseous exchange", "Transpiration pull in xylem"] },
+        "right": { "title": "In roots", "items": ["Root hair projections", "More surface area", "Absorb water and minerals"] }
+      },
+      "note": "Stomata se paani bhi bhaagta hai, gas bhi aati jaati hai."
+    },
+    {
+      "id": "sc-ch03a-s21",
+      "sec": "3.2.4",
+      "title": "Supporting Tissues Begin",
+      "kicker": "Fresh twigs bend, dry twigs break",
+      "bullets": [
+        "Supporting tissues carry functions like keeping a plant upright, hard seed coats and floating aquatic plants.",
+        "There are three types of supporting tissues or simple permanent tissues; the book names parenchyma and collenchyma among them.",
+        "Parenchyma consists of living cells with thin walls, loosely packed with intercellular spaces."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Supporting tissue", "Parenchyma", "Collenchyma", "Thin walls", "Intercellular spaces"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s22",
+      "sec": "3.3",
+      "title": "Your Body Is Busy Now",
+      "kicker": "Blink, breathe, clench, feel",
+      "bullets": [
+        "Blink your eyes quickly, clench and open your fist, take a deep breath, touch something warm or cold.",
+        "Each action asks a question: which tissue helps you move, sense heat or cold, let oxygen enter the blood, or hold the body together?",
+        "The answers lie in the diversity of animal tissues, which are specially adapted to perform different functions."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Movement", "Sensing", "Oxygen", "Holding together"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s23",
+      "sec": "3.3",
+      "title": "Cells That Team Up",
+      "kicker": "Similar cells, one shared mission",
+      "bullets": [
+        "Like plants, animal cells also group together and specialise in performing different functions.",
+        "These groups of similar cells form animal tissues.",
+        "Each animal tissue performs a specific function."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Animal cells", "Group together", "Animal tissue", "Specific function"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s24",
+      "sec": "3.3",
+      "title": "Structure Suits Function",
+      "kicker": "Same question, animal edition",
+      "bullets": [
+        "Animal tissues are specially adapted to perform different functions.",
+        "It is interesting to understand how the structure of an animal tissue suits its specific function.",
+        "First stop on the tour: epithelial tissue, the body's own covering and lining."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Watch one body action", "Find the tissue behind it", "Match structure to function"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s25",
+      "sec": "3.3.1",
+      "title": "The Body's Cover Story",
+      "kicker": "Skin outside, linings inside",
+      "bullets": [
+        "Epithelial tissue forms the outer covering of the body, the skin.",
+        "It also lines the internal organs, such as the mouth, lungs, blood vessels and intestine.",
+        "One tissue works at two stations: the outside cover and the inner linings."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Skin", "Mouth", "Lungs", "Blood vessels", "Intestine"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s26",
+      "sec": "3.3.1",
+      "title": "Packed Tight for Safety",
+      "kicker": "No gaps, no entry for germs",
+      "bullets": [
+        "Epithelial tissue is composed of closely packed cells with very little space between them.",
+        "This structure prevents the entry of germs and reduces water loss.",
+        "It also helps in the absorption, secretion and movement of substances."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Closely packed cells", "Germ entry blocked", "Water loss reduced", "Absorption and secretion"]
+      }
+    },
+    {
+      "id": "sc-ch03a-s27",
+      "sec": "3.3.1",
+      "title": "One Tissue, Many Shapes",
+      "kicker": "Structure and function paired up",
+      "bullets": [
+        "Different types of epithelial tissues are structurally adapted to perform different functions.",
+        "Receptor epithelial cells found in the nostrils, taste buds and inner ear handle sensations like taste.",
+        "A single layer of tall, pillar-like cells, often hair-like, lines the small intestine for absorbing nutrients and water."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Reception", "items": ["Nostrils", "Taste buds", "Inner ear"] },
+        "right": { "title": "Absorption", "items": ["Tall pillar-like cells", "Hair-like structures", "Small intestine lining"] }
+      },
+      "note": "Shape dekho, kaam samajh aayega."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch03a-f1", "sec": "3.1", "front": "What makes plant cells rigid but animal cells flexible?", "back": "Plant cells have a cell wall that provides rigidity and strength. Animal cells lack it, so they can change shape easily.", "tag": "concept" },
+    { "id": "sc-ch03a-f2", "sec": "3.1", "front": "How do plants and animals get their food differently?", "back": "Plant tissues utilise solar energy to synthesise food by photosynthesis, while animals have tissues to digest food from different sources.", "tag": "concept" },
+    { "id": "sc-ch03a-f3", "sec": "3.1", "front": "Which Indian scientist studied plant morphology and anatomy?", "back": "B.G.L. Swamy, honoured with the Kendra Sahitya Akademi award in 1978 for his popular Kannada book describing plants of the Western Ghats.", "tag": "trivia" },
+    { "id": "sc-ch03a-f4", "sec": "3.2", "front": "Which tissue powers all growth in plants?", "back": "Meristematic tissue, made of actively dividing cells.", "tag": "definition" },
+    { "id": "sc-ch03a-f5", "sec": "3.2", "front": "Name the three ways plants grow.", "back": "Increase in length (height of stem and depth of roots), increase in girth (thickness of stem), and regrowth after cutting or grazing.", "tag": "concept" },
+    { "id": "sc-ch03a-f6", "sec": "3.2", "front": "Give one everyday sign of plant regrowth.", "back": "Grass grows again after grazing animals eat it, and a hedge turns bushy some time after trimming.", "tag": "example" },
+    { "id": "sc-ch03a-f7", "sec": "3.2.1", "front": "What did the onion jar experiment prove?", "back": "Jar A roots kept growing while Jar B roots stopped after the tips were cut, so roots grow only from their tips.", "tag": "example" },
+    { "id": "sc-ch03a-f8", "sec": "3.2.1", "front": "Where is the apical meristem and what does it do?", "back": "It sits at the tips of roots and shoots; its continuously dividing cells help the plant grow in length.", "tag": "definition" },
+    { "id": "sc-ch03a-f9", "sec": "3.2.1", "front": "Which cell process was seen in onion root tips in Chapter 2?", "back": "Mitosis, which confirms that root tips contain actively dividing cells.", "tag": "concept" },
+    { "id": "sc-ch03a-f10", "sec": "3.2.2", "front": "What are annual growth rings?", "back": "Ring-like patterns on the cut surface of wood; wide rings reflect favourable growth conditions and narrow rings unfavourable ones that year.", "tag": "definition" },
+    { "id": "sc-ch03a-f11", "sec": "3.2.2", "front": "How can scientists estimate a tree's age?", "back": "By counting annual growth rings on the cut trunk; the rings also reveal the climatic conditions under which the tree grew.", "tag": "concept" },
+    { "id": "sc-ch03a-f12", "sec": "3.2.2", "front": "Define lateral meristem.", "back": "Actively dividing cells arranged in a ring in the stem; they produce new cells inside and outside, increasing the girth.", "tag": "definition" },
+    { "id": "sc-ch03a-f13", "sec": "3.2.3", "front": "What happens when the tip of a young stem is cut?", "back": "The stem stops growing in length, but new branches arise from the nodes of the stem.", "tag": "concept" },
+    { "id": "sc-ch03a-f14", "sec": "3.2.3", "front": "Distinguish node and internode.", "back": "A node is the point on the stem where branches or leaves arise; the internode is the part of stem between two nodes.", "tag": "definition" },
+    { "id": "sc-ch03a-f15", "sec": "3.2.3", "front": "Why does mowed grass grow back?", "back": "Intercalary meristem at the nodes of its stem helps grass regenerate after cutting or grazing.", "tag": "concept" },
+    { "id": "sc-ch03a-f16", "sec": "3.2.3", "front": "List three traits of meristematic cells.", "back": "Small cells with thin walls, a large prominent nucleus and dense cytoplasm; vacuoles generally absent; tightly packed with little or no intercellular space.", "tag": "concept" },
+    { "id": "sc-ch03a-f17", "sec": "3.2.4", "front": "What is differentiation in plants?", "back": "The process by which meristematic tissue loses the ability to divide and becomes permanent tissue specialised for specific functions.", "tag": "definition" },
+    { "id": "sc-ch03a-f18", "sec": "3.2.4", "front": "Simple versus complex permanent tissue?", "back": "Simple permanent tissue is composed of only one type of cell; complex permanent tissue is composed of more than one type of cell.", "tag": "definition" },
+    { "id": "sc-ch03a-f19", "sec": "3.2.4", "front": "What is the cuticle made of and what does it do?", "back": "A waxy layer of cutin covering epidermal cells; it reduces water loss and protects against mechanical injury and invasion by parasites.", "tag": "definition" },
+    { "id": "sc-ch03a-f20", "sec": "3.2.4", "front": "How do root hairs and stomata serve the plant?", "back": "Root hairs increase surface area for absorbing water and minerals; stomata allow gaseous exchange and transpiration.", "tag": "concept" },
+    { "id": "sc-ch03a-f21", "sec": "3.2.4", "front": "Describe parenchyma cells.", "back": "Living cells with thin walls, loosely packed with intercellular spaces.", "tag": "definition" },
+    { "id": "sc-ch03a-f22", "sec": "3.3", "front": "What forms an animal tissue?", "back": "Groups of similar animal cells that group together and specialise to perform a specific function.", "tag": "definition" },
+    { "id": "sc-ch03a-f23", "sec": "3.3", "front": "Name four quick actions that reveal animal tissues at work.", "back": "Blinking your eyes, clenching and opening your fist, taking a deep breath, and touching something warm or cold.", "tag": "example" },
+    { "id": "sc-ch03a-f24", "sec": "3.3", "front": "What big question guides the study of animal tissues?", "back": "How the structure of an animal tissue suits its specific function.", "tag": "concept" },
+    { "id": "sc-ch03a-f25", "sec": "3.3.1", "front": "Where does epithelial tissue occur in the body?", "back": "It forms the outer covering of the body (skin) and lines internal organs such as the mouth, lungs, blood vessels and intestine.", "tag": "definition" },
+    { "id": "sc-ch03a-f26", "sec": "3.3.1", "front": "Which jobs does epithelial tissue do besides protection?", "back": "It helps in absorption, secretion and movement of substances.", "tag": "concept" },
+    { "id": "sc-ch03a-f27", "sec": "3.3.1", "front": "Which epithelial cells handle taste and sensing?", "back": "Receptor cells found in the nostrils, taste buds and inner ear.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "sc-ch03a-q1", "sec": "3.1", "q": "What gives plant cells their rigidity and strength?", "options": ["The cell membrane", "Large water vacuoles", "The cell wall", "Green chlorophyll"], "answer": 2, "why": "The book states plant cells have a cell wall that provides rigidity and strength.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q2", "sec": "3.1", "q": "Why do animal bodies suit movement and locomotion?", "options": ["Their cells change shape easily without a rigid cell wall", "Their cells have rigid walls like plants", "They stay fixed in one place like plants", "Their tissues make food by photosynthesis"], "answer": 0, "why": "Without a rigid cell wall, animal cells can change shape easily, which helps locomotion.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q3", "sec": "3.1", "q": "How do plants and animals differ in their mode of nutrition?", "options": ["Animals digest food from different sources", "Plants digest food from other organisms", "Plants utilise solar energy to synthesise food", "Animals make food using sunlight"], "answer": 2, "why": "Animals have tissues to digest food, while plant tissues use solar energy for photosynthesis.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q4", "sec": "3.2", "q": "Growth in plants requires cells that", "options": ["store water in big vacuoles", "divide actively", "stop growing at once", "float freely in air"], "answer": 1, "why": "Growth requires actively dividing cells, which together form meristematic tissue.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q5", "sec": "3.2", "q": "An increase in girth means an increase in", "options": ["height of the stem", "depth of the roots", "thickness of the stem", "number of leaves"], "answer": 2, "why": "Girth is the thickness of the stem, one of the three ways plants grow.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q6", "sec": "3.2", "q": "Which tissue is made of actively dividing cells?", "options": ["Permanent tissue", "Meristematic tissue", "Epidermis", "Parenchyma"], "answer": 1, "why": "Meristematic tissue is formed of actively dividing cells responsible for plant growth.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q7", "sec": "3.2.1", "q": "Apical meristems are found", "options": ["at the tips of roots and shoots", "around the stem like a ring", "at the base of internodes", "inside the flower petals"], "answer": 0, "why": "Growth zones at the tips of roots and shoots are called apical meristems.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q8", "sec": "3.2.1", "q": "In Activity 3.1, roots in Jar B stopped growing because", "options": ["the jar water became cold", "the onion bulb lost its skin", "their growing tips with dividing cells were cut", "three days of growth had already passed"], "answer": 2, "why": "Cutting the root tips removed the continuously dividing cells, so growth stopped.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q9", "sec": "3.2.1", "q": "Roots grow in length only from their", "options": ["middle region", "base", "whole surface", "tips"], "answer": 3, "why": "Jar B roots stopped after tip cutting, showing roots grow only from their tips.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q10", "sec": "3.2.1", "q": "Which Chapter 2 observation confirms that root tips contain actively dividing cells?", "options": ["Mitosis observed in onion root tips", "Rings seen in a cut trunk", "Stomata opening in sunlight", "Grass regrowing after mowing"], "answer": 0, "why": "Recalling mitosis in onion root tips from Chapter 2 confirms active division in the tips.", "difficulty": "hard" },
+    { "id": "sc-ch03a-q11", "sec": "3.2.2", "q": "The meristematic tissue that increases the girth of a dicot stem is", "options": ["apical meristem", "lateral meristem", "intercalary meristem", "epidermis"], "answer": 1, "why": "Lateral meristem, a ring of dividing cells in the stem, increases diameter or girth.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q12", "sec": "3.2.2", "q": "Wide annual rings on a cut trunk show that the year had", "options": ["unfavourable growth conditions", "no seasons at all", "favourable growth conditions", "a forest fire"], "answer": 2, "why": "Wide rings reflect favourable growth conditions; narrow rings reflect unfavourable ones.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q13", "sec": "3.2.2", "q": "Lateral meristem increases stem diameter because its cells", "options": ["divide and produce new cells inside and outside in a concentric manner", "stretch longer like elastic bands", "swell up with stored water", "move outward along the leaves"], "answer": 0, "why": "The ring of dividing cells adds new cells inside and outside, increasing diameter.", "difficulty": "hard" },
+    { "id": "sc-ch03a-q14", "sec": "3.2.3", "q": "If the tip of a young stem is cut, the stem", "options": ["stops growing in length but new branches arise from nodes", "stops all growth and dries at once", "grows even faster in length", "turns into a root"], "answer": 0, "why": "Cutting the tip stops length growth, but branches arise from the nodes.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q15", "sec": "3.2.3", "q": "The intercalary meristem is located", "options": ["only at the root cap", "at the base of internode or just above the node", "on the waxy cuticle", "deep inside the wood"], "answer": 1, "why": "Intercalary meristem sits at the base of internode or just above the node.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q16", "sec": "3.2.3", "q": "The part of a stem between two nodes is called", "options": ["a node", "a stoma", "an internode", "a cuticle"], "answer": 2, "why": "The internode is the part of the stem between the two nodes.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q17", "sec": "3.2.3", "q": "Which features let meristematic cells divide continuously and rapidly?", "options": ["Large vacuoles and thick walls", "Wide intercellular spaces", "Small size, thin walls, dense cytoplasm and a prominent nucleus", "Hard lignified coverings"], "answer": 2, "why": "Small thin-walled cells with dense cytoplasm and no vacuoles allow rapid division.", "difficulty": "hard" },
+    { "id": "sc-ch03a-q18", "sec": "3.2.4", "q": "The outermost protective layer of the plant body is the", "options": ["epidermis", "parenchyma", "xylem", "pith"], "answer": 0, "why": "The epidermis forms the outermost layer and protects all parts of the plant.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q19", "sec": "3.2.4", "q": "A permanent tissue made of only one type of cell is called", "options": ["complex", "meristematic", "mixed", "simple"], "answer": 3, "why": "Simple permanent tissues are composed of only one type of cell.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q20", "sec": "3.2.4", "q": "Stomata in the epidermis of leaves help in", "options": ["gaseous exchange and transpiration", "making annual rings", "growing new branches", "storing surplus sugar"], "answer": 0, "why": "Stomata are pores that allow gaseous exchange and transpiration of water vapours.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q21", "sec": "3.2.4", "q": "Root hairs help the plant by", "options": ["protecting against parasites only", "increasing surface area for absorption of water and minerals", "carrying food from leaves to roots", "making the cuticle waxy"], "answer": 1, "why": "Root hairs increase the surface area for absorbing water and minerals from the soil.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q22", "sec": "3.2.4", "q": "Transpiration helps water transport mainly by", "options": ["pushing food downward through the stem", "dissolving minerals in the leaves", "creating a transpiration pull in the xylem", "closing the stomata forever"], "answer": 2, "why": "Transpiration creates a pull in the xylem that helps water transportation and waste removal.", "difficulty": "hard" },
+    { "id": "sc-ch03a-q23", "sec": "3.3", "q": "A group of similar animal cells specialised for one function forms", "options": ["an organ system", "an animal tissue", "a meristem", "a cell wall"], "answer": 1, "why": "Groups of similar cells that specialise together form animal tissues.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q24", "sec": "3.3", "q": "Blinking, deep breathing and clenching your fist show that your body uses", "options": ["only nerve cells", "only blood", "different animal tissues for different actions", "only bones"], "answer": 2, "why": "These simple activities reveal diverse animal tissues, each adapted to a function.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q25", "sec": "3.3", "q": "While studying animal tissues, the key idea is that each tissue's", "options": ["structure suits its specific function", "colour decides its name", "cells stay separate and loose", "shape never changes"], "answer": 0, "why": "The book highlights how the structure of a tissue suits its specific function.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q26", "sec": "3.3.1", "q": "Epithelial tissue forms", "options": ["the transport pipes in roots", "the rings inside a trunk", "the bones of the skull", "the outer covering of the body and lining of internal organs"], "answer": 3, "why": "Epithelial tissue covers the body as skin and lines organs like the mouth, lungs and intestine.", "difficulty": "easy" },
+    { "id": "sc-ch03a-q27", "sec": "3.3.1", "q": "Epithelial cells are closely packed with very little space between them. This helps", "options": ["prevent entry of germs and reduce water loss", "store more oxygen", "absorb sunlight faster", "grow new limbs"], "answer": 0, "why": "The tightly packed structure blocks germs and reduces water loss.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q28", "sec": "3.3.1", "q": "Which epithelial lining efficiently absorbs nutrients in the small intestine?", "options": ["Hard dead cells arranged in rings", "A single layer of tall, pillar-like cells, often with hair-like structures", "Loosely packed cells with big gaps", "Cells covered with a waxy cuticle"], "answer": 1, "why": "The book describes tall, pillar-like cells, often hair-like, for absorption in the small intestine.", "difficulty": "medium" },
+    { "id": "sc-ch03a-q29", "sec": "3.3.1", "q": "Receptor epithelial cells for sensing are located in", "options": ["the nostrils, taste buds and inner ear", "the rib cage", "the knee joint", "the heel of the foot"], "answer": 0, "why": "Receptor cells are found in the nostrils, taste buds and inner ear.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch03a-e1",
+      "title": "Predict the onion jar results",
+      "problem": "In Activity 3.1, two onion bulbs sit in two jars of water. On day 3, the Jar A root measures 20 mm and the Jar B root measures 18 mm, and then the root tips of Jar B are cut by about 1 cm. Predict the readings from day 4 to day 7 and explain your prediction.",
+      "steps": [
+        "Recall the experiment conclusion: roots grow only from their tips, which consist of cells that divide continuously.",
+        "Jar A keeps its tips, so its dividing cells keep adding length and the root grows a little more each day beyond 20 mm.",
+        "Jar B lost its root tips on day 3, so the actively dividing cells were removed and the root stays at about 18 mm.",
+        "Compare with Table 3.1 of the book: only the jar with intact tips shows rising readings after day 3."
+      ],
+      "answer": "Jar A keeps growing beyond 20 mm, while Jar B stops at about 18 mm, proving that root tips hold the apical meristem that grows roots in length."
+    },
+    {
+      "id": "sc-ch03a-e2",
+      "title": "Read a tree's life from its rings",
+      "problem": "The cut trunk of a tree seen at a timber yard shows 40 annual growth rings, of which 26 are wide and 14 are narrow. What can you conclude about the tree's age and the conditions it grew in?",
+      "steps": [
+        "Each ring-like pattern on the cut surface is an annual growth ring, so 40 rings mean about 40 years of growth.",
+        "Wide rings reflect favourable growth conditions during that particular year.",
+        "Narrow rings reflect unfavourable growth conditions during that particular year.",
+        "So 26 of its 40 years were favourable for growth and 14 years were unfavourable."
+      ],
+      "answer": "The tree was about 40 years old, with 26 favourable years (wide rings) and 14 unfavourable years (narrow rings); the rings also reveal the climatic conditions under which it grew."
+    },
+    {
+      "id": "sc-ch03a-e3",
+      "title": "Match each job to its tissue",
+      "problem": "Classify these plant parts and events: (a) a root growing deeper into the soil, (b) an old dicot trunk growing thicker, (c) mowed grass sprouting again, (d) the outermost layer of a sunflower stem guarding it, (e) loosely packed living cells with thin walls inside the stem.",
+      "steps": [
+        "(a) Growth in depth happens at the root tip, so the apical meristem is at work.",
+        "(b) A widening trunk shows actively dividing cells arranged in a ring, so the lateral meristem is at work.",
+        "(c) Regrowth after cutting points to the intercalary meristem at the nodes of grass.",
+        "(d) The outermost single layer of flat rectangular cells with a waxy cuticle is the epidermis, a protective tissue.",
+        "(e) Living, thin-walled, loosely packed cells with intercellular spaces describe parenchyma, a simple permanent tissue."
+      ],
+      "answer": "(a) apical meristem, (b) lateral meristem, (c) intercalary meristem, (d) epidermis, (e) parenchyma"
+    }
+  ],
+  "conceptMap": {
+    "center": "Tissues in Action",
+    "groups": [
+      { "id": "g1", "label": "Growth meristems" },
+      { "id": "g2", "label": "Plant permanent tissues" },
+      { "id": "g3", "label": "Animal tissues" },
+      { "id": "g4", "label": "Big ideas" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Meristematic tissue", "group": "g1" },
+      { "id": "n2", "label": "Apical meristem", "group": "g1" },
+      { "id": "n3", "label": "Lateral meristem", "group": "g1" },
+      { "id": "n4", "label": "Intercalary meristem", "group": "g1" },
+      { "id": "n5", "label": "Annual rings", "group": "g1" },
+      { "id": "n6", "label": "Differentiation", "group": "g2" },
+      { "id": "n7", "label": "Permanent tissue", "group": "g2" },
+      { "id": "n8", "label": "Epidermis", "group": "g2" },
+      { "id": "n9", "label": "Parenchyma", "group": "g2" },
+      { "id": "n10", "label": "Stomata", "group": "g2" },
+      { "id": "n11", "label": "Epithelial tissue", "group": "g3" },
+      { "id": "n12", "label": "Cell wall", "group": "g4" },
+      { "id": "n13", "label": "Structure and function", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "at tips" },
+      { "from": "n1", "to": "n3", "label": "ring in stem" },
+      { "from": "n1", "to": "n4", "label": "at nodes" },
+      { "from": "n3", "to": "n5", "label": "creates" },
+      { "from": "n1", "to": "n6", "label": "cells stop dividing" },
+      { "from": "n6", "to": "n7", "label": "forms" },
+      { "from": "n7", "to": "n8", "label": "protective" },
+      { "from": "n7", "to": "n9", "label": "supporting" },
+      { "from": "n8", "to": "n10", "label": "has pores" },
+      { "from": "n2", "to": "n13", "label": "grows length" },
+      { "from": "n4", "to": "n13", "label": "regrows grass" },
+      { "from": "n11", "to": "n13", "label": "covers and lines" },
+      { "from": "n12", "to": "n13", "label": "gives rigidity" }
+    ]
+  },
+  "flowchart": {
+    "title": "How Tissues in Action flows",
+    "steps": [
+      { "id": "s1", "label": "Why tissues differ", "detail": "Plants are fixed with cell walls; animals move with flexible cells." },
+      { "id": "s2", "label": "Meristematic tissue", "detail": "Actively dividing cells power all plant growth." },
+      { "id": "s3", "label": "Apical meristem", "detail": "The onion jar experiment shows tips grow roots in length." },
+      { "id": "s4", "label": "Lateral meristem", "detail": "A ring of dividing cells adds girth; annual rings record the years." },
+      { "id": "s5", "label": "Intercalary meristem", "detail": "Nodes of grass and hedges regrow after cutting." },
+      { "id": "s6", "label": "Differentiation", "detail": "Some new cells stop dividing and specialise for specific jobs." },
+      { "id": "s7", "label": "Permanent tissues", "detail": "Epidermis protects the plant; simple tissues like parenchyma support it." },
+      { "id": "s8", "label": "Animal tissues", "detail": "Similar cells team up; epithelial tissue covers and lines the body." }
+    ],
+    "edges": [[0, 1], [1, 2], [1, 3], [1, 4], [2, 5], [3, 5], [4, 5], [5, 6], [6, 7]]
+  }
+}

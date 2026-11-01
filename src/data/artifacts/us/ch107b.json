@@ -1,0 +1,426 @@
+{
+  "book": "us",
+  "chapter": 107,
+  "part": "b",
+  "title": "Governance and Public Policy",
+  "grade": 9,
+  "sections": [
+    { "id": "107.6", "title": "Public Policy" },
+    { "id": "107.7", "title": "Participants in the Public Policy Process" },
+    { "id": "107.8", "title": "The Making of a Public Policy" },
+    { "id": "107.9", "title": "Policy Coordination" },
+    { "id": "107.10", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch107b-s1",
+      "sec": "107.6",
+      "title": "Policies All Around You",
+      "kicker": "Your whole morning runs on public policies",
+      "bullets": [
+        "Roads we travel on, traffic signals that help us cross safely, and clean drinking water at home all come from public policies.",
+        "Electricity that lights our classrooms, public parks where we play, and neighbourhood waste collection are public services too.",
+        "Public policies work quietly in the background, making our daily lives safer, healthier, and more convenient."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Roads", "Traffic signals", "Clean drinking water", "Public parks", "Waste collection", "Classroom electricity"]
+      },
+      "note": "Spot one public service on your way to school."
+    },
+    {
+      "id": "us-ch107b-s2",
+      "sec": "107.6",
+      "title": "The Plastic-Free Campus",
+      "kicker": "Ek school story that shows what policy means",
+      "bullets": [
+        "Students brought single-use plastic bottles and wrappers every day, so waste piled up and the campus slowly degraded the environment.",
+        "The principal discussed the issue with teachers, students, and parents, and together they introduced a Plastic-Free Campus Policy.",
+        "Reusable bottles encouraged, plastic bags discouraged, segregation dustbins placed, monthly awareness programmes, teachers monitored.",
+        "These decisions form a policy because they give a planned course of action to solve a problem and reach a sustainable goal."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Plastic waste problem", "Principal talks to all", "Plastic-Free Campus Policy", "Cleaner, greener campus"]
+      },
+      "note": "One school problem, one planned course of action."
+    },
+    {
+      "id": "us-ch107b-s3",
+      "sec": "107.6",
+      "title": "What Public Policy Means",
+      "kicker": "The government's planned answer to society's problems",
+      "bullets": [
+        "Public policy is a course of action adopted by the government to solve public problems and promote the welfare of society.",
+        "It decides what should be done, why, who will do it, how it will be implemented, and how success will be measured.",
+        "The policy is monitored and evaluated through a feedback loop, and necessary changes are made to it if required."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["What should be done", "Why it should be done", "Who will do it", "How it will be implemented", "How success is measured"]
+      },
+      "note": "Policy is a loop, not a full stop."
+    },
+    {
+      "id": "us-ch107b-s4",
+      "sec": "107.6",
+      "title": "What Makes It Public",
+      "kicker": "Made by the public, for the public, with public money",
+      "bullets": [
+        "The word public refers to all the people living in a society or community.",
+        "A policy becomes public when it is made for public benefit, implemented by public institutions, and often financed through taxes.",
+        "Public policies address issues that concern society as a whole, like education, healthcare, transportation, sanitation, and public safety.",
+        "Public policy responds to the needs and aspirations of the people, so people play an important role in it."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Education", "Healthcare", "Transportation", "Sanitation", "Environmental protection", "Public safety"]
+      },
+      "note": "Aapke taxes, aapki policies."
+    },
+    {
+      "id": "us-ch107b-s5",
+      "sec": "107.7",
+      "title": "Not Just the Government",
+      "kicker": "Who really decides what gets built and fixed?",
+      "bullets": [
+        "Who decides if new schools are built, roads are repaired, or taxes are changed? Not the government alone.",
+        "It takes the combined efforts of many individuals, organisations, officials, and even ordinary citizens.",
+        "Together they identify issues, provide solutions, and put them into action."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Policy Participants",
+        "children": ["Citizens", "Elected representatives", "Government officials", "NGOs, experts and media", "Private sector", "International organisations"]
+      },
+      "note": "Democracy is a team game, not a solo match."
+    },
+    {
+      "id": "us-ch107b-s6",
+      "sec": "107.7",
+      "title": "Citizens and Representatives",
+      "kicker": "From a zebra crossing request to an Assembly question",
+      "bullets": [
+        "Citizens identify problems, vote, participate, give suggestions, and give feedback, like residents seeking a zebra crossing.",
+        "Elected representatives, MPs, MLAs, and local representatives, represent people, raise public issues, make laws, and approve budgets.",
+        "An MLA raising the issue of drinking water shortage in the Assembly shows people's voices reaching the House."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Citizens do", "items": ["Identify problems", "Vote and participate", "Give suggestions and feedback"] },
+        "right": { "title": "Representatives do", "items": ["Represent the people", "Raise public issues", "Make laws, approve budgets"] }
+      },
+      "note": "One request can start real change."
+    },
+    {
+      "id": "us-ch107b-s7",
+      "sec": "107.7",
+      "title": "Officials, Experts and Media",
+      "kicker": "The hands that prepare, deliver, and watch closely",
+      "bullets": [
+        "Officials, departments, and ministries of Central, State, and Local governments prepare and implement policies and programmes.",
+        "They coordinate departments, deliver public services, and monitor progress, like a district collector coordinating a scheme.",
+        "Civil society organisations, NGOs, experts, researchers, and the media study problems, suggest solutions, and create awareness.",
+        "An NGO ran a water-conservation campaign while the media highlighted pollution concerns."
+      ],
+      "note": "Coordination is the collector's superpower."
+    },
+    {
+      "id": "us-ch107b-s8",
+      "sec": "107.7",
+      "title": "Business and the World",
+      "kicker": "Partners bring technology, resources, and global experience",
+      "bullets": [
+        "The private sector facilitates technical know-how, innovation, resources, and expertise, often working with the government.",
+        "A company installing solar panels in government schools through a public-private partnership shows this teamwork.",
+        "International organisations bring international experience, technical know-how, and financial support.",
+        "The World Health Organization assists countries in controlling infectious diseases."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Private sector brings", "items": ["Technical know-how", "Innovation and resources", "Expertise via partnerships"] },
+        "right": { "title": "International bodies bring", "items": ["Global experience", "Technical know-how", "Financial support"] }
+      },
+      "note": "PPP means public and private working together."
+    },
+    {
+      "id": "us-ch107b-s9",
+      "sec": "107.8",
+      "title": "A Cycle, Not One Decision",
+      "kicker": "Good policy grows through a systematic cycle",
+      "bullets": [
+        "A public policy is developed through a systematic process rather than a single decision.",
+        "It begins when citizens, officials, researchers, or civil society realise a new need, an existing problem, or a facility to improve.",
+        "The cycle runs through problem identification, consultation, policy formulation, implementation, monitoring, evaluation, and improvement.",
+        "This continuous cycle helps the government respond effectively to the changing needs of society."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Problem identified", "Consultation and drafting", "Approved and implemented", "Monitored and evaluated", "Improved over time"]
+      },
+      "note": "A policy is never really finished."
+    },
+    {
+      "id": "us-ch107b-s10",
+      "sec": "107.8",
+      "title": "From Study to Draft",
+      "kicker": "Listen first, consult widely, then write the draft",
+      "bullets": [
+        "The government studies the issue, collects information, and consults experts, stakeholders, and the public.",
+        "These discussions reveal different viewpoints and possible solutions.",
+        "Based on them, the authorities prepare, review, and approve a draft policy.",
+        "Once approved, the policy becomes programmes and schemes, giving ministries, departments, and local bodies a clear framework to act."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Study the issue", "Consult experts and public", "Prepare and review the draft", "Approve the policy", "Turn it into programmes"]
+      },
+      "note": "Suno sabki, phir likho."
+    },
+    {
+      "id": "us-ch107b-s11",
+      "sec": "107.8",
+      "title": "Early Stages of the Cycle",
+      "kicker": "From a felt need to a signed law",
+      "bullets": [
+        "Policy desirability asks what needs and problems are to be addressed.",
+        "Prioritising policy decides which issues need to be addressed on a priority basis.",
+        "Policy formulation means consultation with stakeholders, drafting the policy, and assessing financial feasibility.",
+        "Policy adoption frames the legislation, the laws governing the policy, and the regulations, the rules and guidelines."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Policy desirability", "Prioritising policy", "Policy formulation", "Policy adoption"]
+      },
+      "note": "Pehle samjho, phir priority, phir kanoon."
+    },
+    {
+      "id": "us-ch107b-s12",
+      "sec": "107.8",
+      "title": "Action and Follow-Through",
+      "kicker": "A policy on paper helps nobody",
+      "bullets": [
+        "Policy implementation puts the policy into action through officials, local bodies, civil societies, private organisations, and citizens.",
+        "Policy monitoring measures the policy's progress, ensures accountability, and identifies shortcomings.",
+        "Policy evaluation assesses the results and impact of the policy and generates feedback.",
+        "Feedback from citizens and stakeholders is used to improve the policy over time."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Implementation", "Monitoring", "Evaluation", "Feedback and improvement"]
+      },
+      "note": "After launch, the real exam begins."
+    },
+    {
+      "id": "us-ch107b-s13",
+      "sec": "107.8",
+      "title": "NEP 2020, a Real Journey",
+      "kicker": "A policy written with the whole country's voice",
+      "bullets": [
+        "The National Education Policy 2020 shows how policy is built through consultation, expert advice, and public participation.",
+        "India's previous National Policy on Education was introduced in 1986.",
+        "Over time, society changed rapidly, so the country crafted a new education policy for new times."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["NEP 2020", "Consultation", "Expert advice", "Public participation", "Previous policy 1986"]
+      },
+      "note": "NEP 2020, a new thinking after 1986."
+    },
+    {
+      "id": "us-ch107b-s14",
+      "sec": "107.9",
+      "title": "Coordination Makes It Work",
+      "kicker": "Many departments, one mission, zero confusion",
+      "bullets": [
+        "Policy coordination among different government departments, institutions, and stakeholders is essential for addressing public problems.",
+        "It is equally essential for responding to emergencies and delivering public services efficiently.",
+        "When departments and institutions move together, public services reach people smoothly and on time."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Departments and institutions", "Policy coordination", "Problems addressed", "Efficient public services"]
+      },
+      "note": "Teamwork, but at government scale."
+    },
+    {
+      "id": "us-ch107b-s15",
+      "sec": "107.9",
+      "title": "Citizens Power Democracy",
+      "kicker": "Voting is only the beginning of your part",
+      "bullets": [
+        "Active citizen participation means voting, giving feedback, obeying laws, community involvement, and holding authorities accountable.",
+        "Such participation strengthens democracy and promotes good governance.",
+        "Coordination is a two-way street: institutions must align, and citizens must engage."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Voting", "Feedback", "Obeying laws", "Community involvement", "Accountability"]
+      },
+      "note": "Democracy grows with every active citizen."
+    },
+    {
+      "id": "us-ch107b-s16",
+      "sec": "107.9",
+      "title": "Why Coordination Matters",
+      "kicker": "When one department stalls, the mission stalls",
+      "bullets": [
+        "Most public problems touch many departments at once, so no single office can solve them alone.",
+        "That is why coordination among departments, institutions, and stakeholders is essential for public problems and emergencies alike.",
+        "Efficient delivery of public services is the everyday payoff of good coordination."
+      ],
+      "note": "Think relay race, not solo sprint."
+    },
+    {
+      "id": "us-ch107b-s17",
+      "sec": "107.10",
+      "title": "Argue and Reflect",
+      "kicker": "Time to think like a policymaker",
+      "bullets": [
+        "Is good governance the responsibility of the government alone? Question one asks you to decide and defend your view.",
+        "Question two asks whether students can contribute, through five ways of becoming more responsible and active citizens.",
+        "Question four wants one-line answers on governance, its difference from government, public policy, and four principles of good governance.",
+        "Question five asks you to compare government with governance, and policy with public policy, in table form."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Agree or disagree", "Five student ways", "Short answers", "Table compare"]
+      },
+      "note": "Opinion needs reasons to count."
+    },
+    {
+      "id": "us-ch107b-s18",
+      "sec": "107.10",
+      "title": "Your Policy Chart Project",
+      "kicker": "Pick one mission and map its whole journey",
+      "bullets": [
+        "Choose one public policy: Right to Education, Swachh Bharat Mission, PM POSHAN, Ayushman Bharat, Digital India, or Jal Jeevan Mission.",
+        "Prepare a chart showing the problem it addresses and the major stakeholders involved.",
+        "Also show how different actors coordinate and the role of citizens in its success.",
+        "Then present your findings to the class."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Pick one policy", "Find the problem it solves", "Map the stakeholders", "Show coordination and citizen role", "Present to class"]
+      },
+      "note": "One chart, one policy's full story."
+    },
+    {
+      "id": "us-ch107b-s19",
+      "sec": "107.10",
+      "title": "Prioritise and Diagnose",
+      "kicker": "Three picks only, policymaker, choose wisely",
+      "bullets": [
+        "As advisor to the district administration you must choose three priority areas from your six proposals.",
+        "The six: drinking water in schools, sanitation and public toilets, tricycles for orthopaedically challenged students, park swings.",
+        "Plus stray dog vaccination to prevent rabies, and iron and folic acid tablets for female students in schools.",
+        "The tree case: funds flowed for one lakh trees, but only a few saplings survived, since none were watered or protected."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Drinking water", "Sanitation", "Tricycles", "Park swings", "Dog vaccination", "Iron tablets"]
+      },
+      "note": "Tough choices need sahi soch."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch107b-f1", "sec": "107.6", "front": "What is public policy?", "back": "A course of action adopted by the government to solve public problems, meet people's needs, and promote the welfare of society.", "tag": "definition" },
+    { "id": "us-ch107b-f2", "sec": "107.6", "front": "Name three everyday services made possible by public policies.", "back": "Roads and traffic signals, clean drinking water, classroom electricity, public parks, and neighbourhood waste collection.", "tag": "example" },
+    { "id": "us-ch107b-f3", "sec": "107.6", "front": "What three things make a policy public?", "back": "It is made for public benefit, implemented by public institutions, and often financed with public money collected through taxes.", "tag": "concept" },
+    { "id": "us-ch107b-f4", "sec": "107.6", "front": "Why did the school's plastic decisions count as a policy?", "back": "They formed a planned course of action to solve a problem and achieve a sustainable goal.", "tag": "example" },
+    { "id": "us-ch107b-f5", "sec": "107.7", "front": "Who are the key participants in the public policy process?", "back": "Citizens, elected representatives, government officials and departments, NGOs, experts, media, the private sector, and international organisations.", "tag": "concept" },
+    { "id": "us-ch107b-f6", "sec": "107.7", "front": "What roles do citizens play in policy-making?", "back": "They identify problems, vote, participate, give suggestions, and provide feedback, like requesting a zebra crossing near a school.", "tag": "concept" },
+    { "id": "us-ch107b-f7", "sec": "107.7", "front": "What do elected representatives do in the policy process?", "back": "They represent people, raise public issues, participate in law-making, and approve budgets.", "tag": "concept" },
+    { "id": "us-ch107b-f8", "sec": "107.7", "front": "Give the book's example of a public-private partnership.", "back": "A company installed solar panels in government schools through a public-private partnership.", "tag": "example" },
+    { "id": "us-ch107b-f9", "sec": "107.7", "front": "How does the World Health Organization help countries?", "back": "It brings international experience, technical know-how, and financial support, assisting countries in controlling infectious diseases.", "tag": "example" },
+    { "id": "us-ch107b-f10", "sec": "107.8", "front": "What is policy desirability?", "back": "The stage that asks what needs and problems of the people are to be addressed.", "tag": "definition" },
+    { "id": "us-ch107b-f11", "sec": "107.8", "front": "What happens during policy formulation?", "back": "Consultation with various stakeholders, drafting the policy, and assessing financial feasibility.", "tag": "definition" },
+    { "id": "us-ch107b-f12", "sec": "107.8", "front": "What happens during policy adoption?", "back": "Framing the legislation, the laws governing the policy, and the regulations, the rules and guidelines.", "tag": "definition" },
+    { "id": "us-ch107b-f13", "sec": "107.8", "front": "How do policy monitoring and evaluation differ?", "back": "Monitoring measures progress, ensures accountability, and spots shortcomings; evaluation assesses results, impact, and generates feedback.", "tag": "concept" },
+    { "id": "us-ch107b-f14", "sec": "107.8", "front": "Which earlier policy did NEP 2020 follow, and from when?", "back": "India's previous National Policy on Education was introduced in 1986.", "tag": "trivia" },
+    { "id": "us-ch107b-f15", "sec": "107.9", "front": "Why is policy coordination essential?", "back": "To address public problems, respond to emergencies, and deliver public services efficiently across departments and stakeholders.", "tag": "concept" },
+    { "id": "us-ch107b-f16", "sec": "107.9", "front": "List five ways citizens can participate actively.", "back": "Voting, providing feedback, obeying laws, community involvement, and holding public authorities accountable.", "tag": "concept" },
+    { "id": "us-ch107b-f17", "sec": "107.9", "front": "What does active citizen participation strengthen?", "back": "It strengthens democracy and promotes good governance.", "tag": "concept" },
+    { "id": "us-ch107b-f18", "sec": "107.10", "front": "Which policies does the book offer for the chart activity?", "back": "Right to Education, Swachh Bharat Mission, PM POSHAN, Ayushman Bharat, Digital India, or Jal Jeevan Mission.", "tag": "trivia" },
+    { "id": "us-ch107b-f19", "sec": "107.10", "front": "What four things must your policy chart show?", "back": "The problem it addresses, the major stakeholders, how different actors coordinate, and the role of citizens in its success.", "tag": "concept" },
+    { "id": "us-ch107b-f20", "sec": "107.10", "front": "In the tree case, why did most saplings fail?", "back": "Funds were allocated, but only a few saplings survived because they were not watered or protected.", "tag": "example" },
+    { "id": "us-ch107b-f21", "sec": "107.10", "front": "Assessing the impact of a policy belongs to which stage?", "back": "Policy evaluation, which assesses results and impact and generates feedback.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "us-ch107b-q1", "sec": "107.6", "q": "Which of these is a public service made possible through public policies?", "options": ["A shopping mall's weekend discount sale", "Traffic signals that help us cross safely", "A private birthday party invite", "A video game's paid new skin"], "answer": 1, "why": "The book lists traffic signals, roads, drinking water, parks, and waste collection as services from public policies.", "difficulty": "easy" },
+    { "id": "us-ch107b-q2", "sec": "107.6", "q": "In the school story, what problem did the Plastic-Free Campus Policy tackle?", "options": ["Too much homework for students", "Waste from single-use plastic bottles and wrappers", "Late school buses", "Expensive canteen food"], "answer": 1, "why": "Students brought single-use plastic daily, creating waste and dirtying the campus.", "difficulty": "easy" },
+    { "id": "us-ch107b-q3", "sec": "107.6", "q": "A policy becomes a public policy when it is...", "options": ["printed as a thick government book", "for public benefit, run by public institutions, financed by taxes", "decided by one officer without discussion", "shared only on social media"], "answer": 1, "why": "Public benefit, public institutions, and public money through taxes make a policy public.", "difficulty": "medium" },
+    { "id": "us-ch107b-q4", "sec": "107.6", "q": "Which question is NOT part of what a public policy decides, per the book?", "options": ["What should be done", "Who will do it", "How success will be measured", "Which private company earns the most profit"], "answer": 3, "why": "The book lists what, why, who, how, and how to measure success, never private profit.", "difficulty": "hard" },
+    { "id": "us-ch107b-q5", "sec": "107.7", "q": "Residents requested a zebra crossing near a school. Which stakeholder group were they acting as?", "options": ["Private sector", "Citizens", "International organisation", "Elected representatives"], "answer": 1, "why": "Citizens identify problems and give feedback, like the zebra crossing request.", "difficulty": "easy" },
+    { "id": "us-ch107b-q6", "sec": "107.7", "q": "Which organisation does the book name for helping countries control infectious diseases?", "options": ["WHO", "NATO", "OPEC", "ASEAN"], "answer": 0, "why": "The World Health Organization assists countries in controlling infectious diseases.", "difficulty": "easy" },
+    { "id": "us-ch107b-q7", "sec": "107.7", "q": "An MLA raises a drinking water shortage in the Assembly. Which stakeholder role does this show?", "options": ["Creating private innovation", "Representing people and raising public issues", "Installing solar panels", "Running awareness campaigns"], "answer": 1, "why": "Elected representatives raise public issues, participate in law-making, and approve budgets.", "difficulty": "medium" },
+    { "id": "us-ch107b-q8", "sec": "107.7", "q": "Who prepares and implements policies, coordinates departments, and monitors progress?", "options": ["Civil society organisations", "The private sector", "Government officials, departments, and ministries", "International organisations"], "answer": 2, "why": "This is the book's description of officials, departments, and ministries across all levels.", "difficulty": "medium" },
+    { "id": "us-ch107b-q9", "sec": "107.7", "q": "A company installs solar panels in government schools. The book uses this to illustrate...", "options": ["Civil society awareness work", "The private sector partnering with government", "International financial aid", "Citizens voting on energy"], "answer": 1, "why": "It is the book's public-private partnership example of private-sector technical know-how.", "difficulty": "hard" },
+    { "id": "us-ch107b-q10", "sec": "107.8", "q": "Putting the policy into action is called...", "options": ["Policy desirability", "Policy adoption", "Policy implementation", "Policy evaluation"], "answer": 2, "why": "Implementation puts the policy into action through officials, local bodies, civil societies, and citizens.", "difficulty": "easy" },
+    { "id": "us-ch107b-q11", "sec": "107.8", "q": "Framing the legislation and regulations happens at which stage?", "options": ["Policy adoption", "Policy monitoring", "Policy desirability", "Policy evaluation"], "answer": 0, "why": "The policy cycle frames laws and rules during policy adoption.", "difficulty": "easy" },
+    { "id": "us-ch107b-q12", "sec": "107.8", "q": "Which stage combines stakeholder consultation, drafting, and checking financial feasibility?", "options": ["Policy formulation", "Policy monitoring", "Policy implementation", "Prioritising policy"], "answer": 0, "why": "Policy formulation is consultation, drafting, and assessing financial feasibility.", "difficulty": "medium" },
+    { "id": "us-ch107b-q13", "sec": "107.8", "q": "Which stage decides which issues must be addressed on a priority basis?", "options": ["Policy evaluation", "Prioritising policy", "Policy adoption", "Policy implementation"], "answer": 1, "why": "Prioritising policy decides which issues need attention first.", "difficulty": "easy" },
+    { "id": "us-ch107b-q14", "sec": "107.8", "q": "Progress is measured, accountability ensured, shortcomings identified. Which stage is this, and what follows?", "options": ["Evaluation, then adoption", "Monitoring, then evaluation and improvement", "Formulation, then desirability", "Implementation, then formulation"], "answer": 1, "why": "Monitoring measures progress and finds shortcomings; evaluation then assesses impact and feedback improves the policy.", "difficulty": "hard" },
+    { "id": "us-ch107b-q15", "sec": "107.9", "q": "Which of these is part of active citizen participation?", "options": ["Ignoring public feedback", "Voting in elections", "Avoiding community events", "Skipping laws quietly"], "answer": 1, "why": "The book lists voting, feedback, obeying laws, community involvement, and holding authorities accountable.", "difficulty": "easy" },
+    { "id": "us-ch107b-q16", "sec": "107.9", "q": "Policy coordination among departments is essential for all of these EXCEPT...", "options": ["Addressing public problems", "Responding to emergencies", "Delivering public services efficiently", "Auditing a private company's accounts"], "answer": 3, "why": "The book links coordination to public problems, emergencies, and efficient public services.", "difficulty": "medium" },
+    { "id": "us-ch107b-q17", "sec": "107.9", "q": "Which chain best matches the book's argument in this section?", "options": ["Coordination handles problems and emergencies, while citizen participation strengthens democracy", "Coordination replaces the need for elections", "Citizens should only pay taxes and stay uninvolved", "Coordination matters only for private companies"], "answer": 0, "why": "Coordination serves public problems and emergencies; active participation strengthens democracy and good governance.", "difficulty": "hard" },
+    { "id": "us-ch107b-q18", "sec": "107.10", "q": "Assessing the impact of a policy belongs to which policy cycle stage?", "options": ["Policy evaluation", "Policy implementation", "Policy adoption", "Policy desirability"], "answer": 0, "why": "Question seven's matching places impact assessment at policy evaluation.", "difficulty": "easy" },
+    { "id": "us-ch107b-q19", "sec": "107.10", "q": "In the tree case, funds flowed but few saplings survived. Which stages clearly failed?", "options": ["Desirability and adoption", "Implementation and monitoring", "Formulation only", "Prioritising only"], "answer": 1, "why": "Saplings were not watered or protected, so action on the ground and progress tracking failed.", "difficulty": "medium" },
+    { "id": "us-ch107b-q20", "sec": "107.10", "q": "You may keep only three of the six district proposals. The strongest welfare-first set is...", "options": ["Park swings and open-air gym, stray dog vaccination, tricycles", "School drinking water, sanitation and public toilets, iron and folic acid tablets", "Stray dog vaccination, park swings, drinking water", "Sanitation, park swings, tricycles"], "answer": 1, "why": "Water, sanitation, and nutrition are daily basic needs of students, the welfare core of public policy.", "difficulty": "hard" },
+    { "id": "us-ch107b-q21", "sec": "107.10", "q": "Which two comparisons does question five ask you to present in table form?", "options": ["Government vs governance, and policy vs public policy", "RTE vs Digital India", "Monitoring vs evaluation", "MP vs MLA"], "answer": 0, "why": "Question five lists exactly those two comparisons.", "difficulty": "easy" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch107b-e1",
+      "title": "The Plastic-Free Campus Policy Cycle",
+      "problem": "A school notices that many students bring single-use plastic bottles and wrappers in their lunchboxes and schoolbags every day. A large amount of waste is generated, the campus becomes dirty, and the environment degrades in the long run. Show how the school's response becomes a complete policy cycle.",
+      "steps": [
+        "Problem identification: daily single-use plastic waste is dirtying the campus and degrading the environment in the long run.",
+        "Consultation: the principal discusses the issue with teachers, students, and parents to gather different viewpoints.",
+        "Formulation and adoption: together they introduce the Plastic-Free Campus Policy, a planned course of action for a sustainable goal.",
+        "Implementation: reusable water bottles are encouraged, plastic bags are discouraged, and dustbins for waste segregation are placed around the campus.",
+        "Monitoring and evaluation: monthly awareness programmes are organised and teachers are assigned to monitor the campaign, so feedback can adjust the rules."
+      ],
+      "answer": "The school's decisions form a policy because they provide a planned course of action to solve a problem and achieve a sustainable goal."
+    },
+    {
+      "id": "us-ch107b-e2",
+      "title": "Mapping Stakeholders for a Zebra Crossing",
+      "problem": "Residents near a school want a zebra crossing on a busy road. Using the book's stakeholder table, show who does what to move the request from complaint to crossing.",
+      "steps": [
+        "Citizens identify the problem and give feedback: residents request a zebra crossing near the school.",
+        "Elected representatives raise the public issue and support law-making and budgets, just as an MLA raised a drinking water shortage in the Assembly.",
+        "Government officials and departments prepare and implement the plan, the way a district collector coordinates the implementation of a government scheme in the district.",
+        "Civil society, experts, and the media create awareness and monitor, as an NGO's water-conservation campaign and media coverage of pollution concerns show.",
+        "The combined efforts of all participants identify the issue, provide the solution, and put it into action."
+      ],
+      "answer": "Policy is a team effort: citizens identify, representatives raise, officials implement, and civil society and media create awareness and monitor."
+    },
+    {
+      "id": "us-ch107b-e3",
+      "title": "Sorting Actions into the Policy Cycle",
+      "problem": "Match each policy action to its correct stage: assessing the impact of the policy, putting the policy into action, framing the legislation, multi-dimensional consultation with stakeholders, and addressing a new need of the people.",
+      "steps": [
+        "Addressing a new need of the people is policy desirability, the stage that asks what needs and problems are to be addressed.",
+        "Multi-dimensional consultation with stakeholders, along with drafting and assessing financial feasibility, is policy formulation.",
+        "Framing the legislation and the regulations is policy adoption.",
+        "Putting the policy into action through officials, local bodies, civil societies, private organisations, and citizens is policy implementation.",
+        "Assessing the results and impact of the policy, which generates feedback, is policy evaluation."
+      ],
+      "answer": "Desirability, formulation, adoption, implementation, evaluation: five actions matched to five stages of the policy cycle."
+    },
+    {
+      "id": "us-ch107b-e4",
+      "title": "Diagnosing the Tree Plantation Programme",
+      "problem": "A government programme aims to plant one lakh trees in a city. Funds are allocated, but only a few saplings survive because they are not watered or protected. Identify which policy stages failed and how the programme could improve.",
+      "steps": [
+        "Problem identification and funding worked: the city recognised a need and allocated funds for one lakh trees.",
+        "Implementation failed on the ground: saplings were not watered or protected after planting.",
+        "Monitoring failed too: nobody measured progress or identified the shortcoming of dying saplings in time.",
+        "Evaluation with citizen feedback would have exposed the poor survival rate and its causes.",
+        "Improvement for the next cycle: assign watering and protection duties, track sapling survival regularly, and use feedback to strengthen the programme."
+      ],
+      "answer": "Implementation and monitoring broke down; watering, protection, regular tracking, and feedback would make the next policy cycle succeed."
+    }
+  ]
+}

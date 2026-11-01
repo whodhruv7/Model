@@ -1,0 +1,473 @@
+{
+  "book": "sc",
+  "chapter": 13,
+  "part": "a",
+  "title": "Earth as a System: Energy, Matter, and Life",
+  "grade": 9,
+  "sections": [
+    { "id": "13.1", "title": "Uneven Heating of the Earth" },
+    { "id": "13.1.1", "title": "Interaction of Solar Radiation on the Earth's Surface" },
+    { "id": "13.1.2", "title": "Latitude and Earth's Shape" },
+    { "id": "13.1.3", "title": "Role of the Atmosphere" },
+    { "id": "13.2", "title": "Uneven Heating Causes Wind and Ocean Currents" },
+    { "id": "13.2.1", "title": "Local Winds" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch13a-s1",
+      "sec": "13.1",
+      "title": "Sunlight: Energy for Earth",
+      "kicker": "The Sun powers everything below",
+      "bullets": [
+        "Solar radiation is the main source of energy on the Earth.",
+        "It reaches us as electromagnetic (EM) waves that travel through a vacuum at the speed of light.",
+        "Unlike EM waves, sound waves from Chapter 10 are mechanical waves and need a medium to travel.",
+        "The speed of light in vacuum is 3 x 10^8 m/s."
+      ],
+      "visual": { "kind": "labels", "items": ["gamma rays", "X-rays", "UV", "visible light", "infrared", "radio waves"] },
+      "note": "Sooraj ki energy vacuum mein bhi travel karti hai, no medium needed!"
+    },
+    {
+      "id": "sc-ch13a-s2",
+      "sec": "13.1",
+      "title": "The Electromagnetic Spectrum",
+      "kicker": "From gamma rays to radio waves",
+      "bullets": [
+        "EM waves cover a wide range of frequencies, from high frequency gamma rays and X-rays to low frequency infrared and radio waves.",
+        "High frequency EM waves like gamma rays and X-rays have very high energy and can be harmful for life on Earth.",
+        "About 99 per cent of the Sun's energy reaching Earth falls in the ultraviolet, visible and infrared range.",
+        "Microwaves and radio waves carry very little energy that can significantly warm the Earth."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "High frequency", "items": ["gamma rays and X-rays", "short wavelength", "very high energy, can harm life"] },
+        "right": { "title": "Low frequency", "items": ["infrared and radio waves", "long wavelength", "carry little warming energy"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s3",
+      "sec": "13.1",
+      "title": "How Each Ray Behaves",
+      "kicker": "Three regions, three different jobs",
+      "bullets": [
+        "Short wavelength UV is mostly absorbed by the ozone layer in the upper atmosphere, protecting life and adding some atmospheric heating.",
+        "Visible light reaches the surface and powers photosynthesis, the primary source of food for most organisms, and partly warms land and water.",
+        "Infrared radiation warms the surface, which then re-radiates this heat back into the atmosphere.",
+        "Greenhouse gases such as carbon dioxide, methane and water vapour trap a portion of the outgoing heat, keeping Earth warm enough for life."
+      ],
+      "visual": { "kind": "flow", "items": ["UV absorbed by ozone layer", "Visible light powers photosynthesis", "Infrared warms the surface", "Greenhouse gases trap outgoing heat"] }
+    },
+    {
+      "id": "sc-ch13a-s4",
+      "sec": "13.1",
+      "title": "Insolation and UV Facts",
+      "kicker": "Insolation warms land, air and you",
+      "bullets": [
+        "The amount of the Sun's radiation that reaches the Earth's surface is called insolation.",
+        "Insolation is responsible for warming the Earth's surface and its atmosphere.",
+        "UV rays lie in the wavelength range of 100 nm to 400 nm and have much higher energy than visible light.",
+        "Long UV exposure can damage eyes and skin and raise cancer risk, yet UV also kills germs in water purifiers and powers fluorescent lights."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "UV risks", "items": ["damages eyes and skin", "raises cancer risk on long exposure"] },
+        "right": { "title": "UV uses", "items": ["kills germs in water purifiers", "powers fluorescent lights"] }
+      },
+      "note": "1 nanometre (nm) equals 10^-9 m."
+    },
+    {
+      "id": "sc-ch13a-s5",
+      "sec": "13.1.1",
+      "title": "Surfaces Heat Up Differently",
+      "kicker": "Colour and material decide the heat",
+      "bullets": [
+        "Different materials absorb and heat up differently under sunlight.",
+        "You have already learnt that land heats up faster than water, with variation due to the land material and the colour of the soil.",
+        "Dark surfaces absorb more sunlight, so dark coloured roads heat up more quickly.",
+        "Light coloured surfaces reflect more sunlight and stay cooler, which is why dark clothes feel hotter than white ones in summer."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Dark surfaces", "items": ["absorb more sunlight", "heat up more quickly", "dark roads and dark clothes feel hotter"] },
+        "right": { "title": "Light surfaces", "items": ["reflect more sunlight", "remain comparatively cooler", "white clothes suit summer"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s6",
+      "sec": "13.1.1",
+      "title": "Albedo: The Whiteness Factor",
+      "kicker": "Albedo comes from Latin: whiteness",
+      "bullets": [
+        "The fraction of solar radiation reflected by a surface is called its albedo.",
+        "High albedo surfaces stay cool because they reflect more light.",
+        "Low albedo surfaces reflect less and absorb more, so they heat up more quickly.",
+        "Snow and ice have high albedo, keeping polar regions very cold, while black soil and ocean water have lower albedo and stay warmer."
+      ],
+      "visual": { "kind": "tree", "root": "Albedo", "children": ["snow and ice: high", "black soil: low", "ocean water: low", "polar regions stay cold"] },
+      "note": "Activity 13.2: find the albedo of everyday objects!"
+    },
+    {
+      "id": "sc-ch13a-s7",
+      "sec": "13.1.1",
+      "title": "Night Heat Re-radiation",
+      "kicker": "Why some houses stay cool at night",
+      "bullets": [
+        "All objects radiate heat, which you have learnt in earlier grades.",
+        "We feel hot inside a concrete house at night during hot summer because of the heat re-radiated by the concrete.",
+        "Traditional houses built with thick mud and wooden walls offer cool conditions even in hot summer due to less re-radiation."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Concrete house", "items": ["absorbs heat all day", "re-radiates heat at night", "feels hot on summer nights"] },
+        "right": { "title": "Mud and wood house", "items": ["thick mud and wooden walls", "less re-radiation", "cool even in hot summer"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s8",
+      "sec": "13.1.1",
+      "title": "Urban Heat Island Effect",
+      "kicker": "Cities glow with stored heat",
+      "bullets": [
+        "Cities are warmer than their surrounding rural areas, especially during summer and at night.",
+        "Buildings of steel, concrete and brick, and roads made of concrete and asphalt, absorb solar radiation and retain heat.",
+        "The re-radiated heat from these materials warms cities more than the surrounding rural areas.",
+        "This raises energy demand for air conditioning, further stressing urban ecosystems."
+      ],
+      "visual": { "kind": "labels", "items": ["steel", "concrete", "brick", "asphalt roads", "warm nights", "more AC demand"] }
+    },
+    {
+      "id": "sc-ch13a-s9",
+      "sec": "13.1.2",
+      "title": "A Spherical Earth Angles Rays",
+      "kicker": "Curved planet, angled sunlight",
+      "bullets": [
+        "The Earth is spherical, so the Sun's rays strike different latitudes at different angles.",
+        "Radiation falling on the equatorial region is concentrated over a smaller area.",
+        "In the polar region the same radiation is spread over a larger area.",
+        "This is why equatorial regions remain relatively warm throughout the year while polar regions stay much colder."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Equator", "items": ["rays strike more directly", "energy concentrated on a smaller area", "warm all year"] },
+        "right": { "title": "Poles", "items": ["rays strike at a slant", "energy spread over a larger area", "much colder conditions"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s10",
+      "sec": "13.1.2",
+      "title": "Warm Equator, Cold Poles",
+      "kicker": "One temperature gap, big consequences",
+      "bullets": [
+        "Uneven heating creates temperature differences between the equator and the poles.",
+        "These temperature differences between latitudes are the starting point for large scale movement of air and water.",
+        "Solar radiation is not evenly distributed across the globe."
+      ]
+    },
+    {
+      "id": "sc-ch13a-s11",
+      "sec": "13.1.2",
+      "title": "Tilt, Seasons, Global Circulation",
+      "kicker": "Tilt plus revolution gives seasons",
+      "bullets": [
+        "The Earth's spherical shape and the tilt of its axis of rotation give rise to seasons.",
+        "They also change the length of daytime during one revolution of the Earth around the Sun.",
+        "Because solar radiation is spread unevenly, this uneven heating drives global winds and ocean currents."
+      ],
+      "visual": { "kind": "flow", "items": ["Spherical Earth", "Tilted axis of rotation", "Seasons and changing day length", "Uneven heating across the globe", "Global winds and ocean currents"] }
+    },
+    {
+      "id": "sc-ch13a-s12",
+      "sec": "13.1.3",
+      "title": "Meet the Atmosphere",
+      "kicker": "Gravity holds an ocean of air",
+      "bullets": [
+        "The air surrounding the Earth is called the atmosphere, and it is held in place by the force of Earth's gravity.",
+        "It consists mainly of nitrogen (78 percent) and oxygen (21 percent).",
+        "Small amounts of argon, carbon dioxide, water vapour and other gases are also present."
+      ],
+      "visual": { "kind": "tree", "root": "Atmosphere", "children": ["Nitrogen 78 percent", "Oxygen 21 percent", "Argon and carbon dioxide", "Water vapour and other gases"] }
+    },
+    {
+      "id": "sc-ch13a-s13",
+      "sec": "13.1.3",
+      "title": "Troposphere: Weather's Home Layer",
+      "kicker": "Nearly all weather lives here",
+      "bullets": [
+        "The atmosphere has a layered structure that helps explain key weather patterns.",
+        "Nearly all weather phenomena take place in the troposphere, which has an average height of about 12 km.",
+        "This layer is heated from the Earth's surface, and temperature decreases with height at about 6.5 degrees Celsius per km.",
+        "As warm air rises it drives winds and storms; the troposphere is tallest above the equator and lowest above the polar regions."
+      ],
+      "visual": { "kind": "labels", "items": ["0 to 12 km", "nearly all weather", "heated from the surface", "cools about 6.5 C per km", "tallest at equator"] }
+    },
+    {
+      "id": "sc-ch13a-s14",
+      "sec": "13.1.3",
+      "title": "Stratosphere and Layers Above",
+      "kicker": "Upward, calmer and thinner",
+      "bullets": [
+        "In the stratosphere (12 to 50 km) the ozone layer absorbs UV rays and heats the atmosphere, so temperature rises with height.",
+        "This increase in temperature with height calms the layer due to lack of vertical mixing, keeping weather confined to the troposphere.",
+        "Above it, the mesosphere, thermosphere and exosphere play only a minor role in regulating climate at the surface.",
+        "At about 100 km above the Earth begins the region we call outer space."
+      ],
+      "visual": { "kind": "steps", "items": ["Troposphere 0 to 12 km: weather forms, temperature falls with height", "Stratosphere 12 to 50 km: ozone absorbs UV, temperature rises with height", "Mesosphere, thermosphere, exosphere: minor climate role", "About 100 km up: outer space begins"] }
+    },
+    {
+      "id": "sc-ch13a-s15",
+      "sec": "13.1.3",
+      "title": "Meet a Scientist: Ramanathan",
+      "kicker": "Ozone secrets measured at 18000 feet",
+      "bullets": [
+        "K. R. Ramanathan, India's atmospheric scientist, climbed to 18000 feet in the Himalayas in 1934 to measure ozone levels.",
+        "He discovered the levels were lower than expected.",
+        "His work laid the foundation for understanding how UV absorption varies with altitude and pollution.",
+        "Later, he led early monsoon forecasting efforts."
+      ],
+      "visual": { "kind": "labels", "items": ["18000 feet", "Himalayas 1934", "ozone levels", "UV absorption", "monsoon forecasts"] },
+      "note": "Scientist banke pahad chadhna, that is dedication!"
+    },
+    {
+      "id": "sc-ch13a-s16",
+      "sec": "13.1.3",
+      "title": "The Atmosphere's Two Shield Jobs",
+      "kicker": "Block harmful rays, hold warmth",
+      "bullets": [
+        "Firstly, it partly absorbs incoming solar radiation: the ozone layer blocks harmful UV rays, and clouds and gases absorb some sunlight.",
+        "Secondly, it traps outgoing heat radiated from the warmed surface.",
+        "These two roles show how the atmosphere regulates energy flow, shaping weather, climate and life."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Blocks incoming", "items": ["ozone layer blocks UV rays", "clouds and gases absorb some sunlight"] },
+        "right": { "title": "Traps outgoing", "items": ["greenhouse gases hold outgoing heat", "keeps Earth warm enough for life"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s17",
+      "sec": "13.2",
+      "title": "Wind: High to Low",
+      "kicker": "Air always chases low pressure",
+      "bullets": [
+        "Wind is the movement of air from a region of high pressure to a region of low pressure.",
+        "These pressure differences are mainly caused by the uneven heating of the Earth's surface by the Sun."
+      ],
+      "visual": { "kind": "flow", "items": ["Uneven heating by the Sun", "Pressure difference forms", "Air moves from high to low pressure", "Wind blows"] }
+    },
+    {
+      "id": "sc-ch13a-s18",
+      "sec": "13.2",
+      "title": "Land, Water and Breezes",
+      "kicker": "Same Sun, unequal warming partners",
+      "bullets": [
+        "Uneven heating of land and water is also responsible for phenomena such as land and sea breezes, which you have studied earlier.",
+        "The pressure differences behind these breezes come from the same source: the Sun heating different surfaces unequally."
+      ]
+    },
+    {
+      "id": "sc-ch13a-s19",
+      "sec": "13.2",
+      "title": "Same Idea, Bigger Scale",
+      "kicker": "From a sea breeze to oceans",
+      "bullets": [
+        "The same basic idea of uneven heating and pressure difference helps us understand winds and ocean currents on vastly different scales.",
+        "A breeze in your town and a current crossing an ocean are cousins driven by the same mechanism."
+      ],
+      "visual": { "kind": "labels", "items": ["local breezes", "regional winds", "planetary winds", "ocean currents"] }
+    },
+    {
+      "id": "sc-ch13a-s20",
+      "sec": "13.2.1",
+      "title": "Valley Breeze: Daytime Climb",
+      "kicker": "Morning air walks up the slopes",
+      "bullets": [
+        "In mountainous regions, the slopes and the valley floor do not heat up and cool down at the same rate.",
+        "During the day, mountain slopes facing the Sun are heated more rapidly than the valley floor.",
+        "Air over the slopes becomes warm and rises, creating a low pressure region.",
+        "Cooler air from the valley moves up the slopes to replace the rising warm air; this flow is called a valley breeze."
+      ],
+      "visual": { "kind": "steps", "items": ["Slopes facing the Sun heat faster", "Warm air over slopes rises, low pressure forms", "Cooler valley air flows up the slopes", "This daytime flow is the valley breeze"] }
+    },
+    {
+      "id": "sc-ch13a-s21",
+      "sec": "13.2.1",
+      "title": "Mountain Breeze: Night Flow",
+      "kicker": "Night air slides into the valley",
+      "bullets": [
+        "After sunset, the situation reverses in the mountains.",
+        "The mountain slopes lose heat faster and become cooler, while the valley floor remains relatively warmer.",
+        "Air over the slopes becomes cooler and denser and flows down into the valley.",
+        "This downhill night flow is known as a mountain breeze."
+      ],
+      "visual": { "kind": "steps", "items": ["After sunset slopes lose heat faster", "Air over slopes cools and becomes denser", "Dense air flows down into the valley", "This night flow is the mountain breeze"] }
+    },
+    {
+      "id": "sc-ch13a-s22",
+      "sec": "13.2.1",
+      "title": "Breezes in Himalayan Valleys",
+      "kicker": "Feel the daily wind switch",
+      "bullets": [
+        "Such daily changes in wind direction are commonly experienced in hilly regions like Shimla, Dehradun and other Himalayan valleys.",
+        "The wind reverses twice a day: up the slopes by day, down into the valley at night."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Valley breeze: day", "items": ["air moves up the slopes", "slopes hotter than valley floor"] },
+        "right": { "title": "Mountain breeze: night", "items": ["air moves down into the valley", "slopes cooler than valley floor"] }
+      }
+    },
+    {
+      "id": "sc-ch13a-s23",
+      "sec": "13.2.1",
+      "title": "Small Winds, Big Roles",
+      "kicker": "Local winds quietly run mountain life",
+      "bullets": [
+        "Local winds influence the weather conditions, agriculture and daily life in mountainous regions.",
+        "They help regulate temperature and moisture conditions and support soil and crop health.",
+        "Uneven heating of the Earth's surface sets up these winds, an important part of the Earth's atmospheric circulation."
+      ],
+      "visual": { "kind": "labels", "items": ["Shimla", "Dehradun", "weather", "agriculture", "soil health", "crop health"] }
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch13a-f1", "sec": "13.1", "front": "What is the main source of energy on the Earth?", "back": "Solar radiation. It reaches the Earth as electromagnetic waves travelling through a vacuum at the speed of light.", "tag": "concept" },
+    { "id": "sc-ch13a-f2", "sec": "13.1", "front": "Define insolation.", "back": "The amount of the Sun's radiation that reaches the Earth's surface; it warms the surface and the atmosphere.", "tag": "definition" },
+    { "id": "sc-ch13a-f3", "sec": "13.1", "front": "Which three spectrum regions carry about 99 percent of the Sun's energy to Earth?", "back": "Ultraviolet, visible and infrared. Microwaves and radio waves carry very little warming energy.", "tag": "trivia" },
+    { "id": "sc-ch13a-f4", "sec": "13.1", "front": "Name the greenhouse gases listed in the chapter.", "back": "Carbon dioxide, methane and water vapour. They trap a portion of the outgoing heat and keep Earth warm enough for life.", "tag": "concept" },
+    { "id": "sc-ch13a-f5", "sec": "13.1.1", "front": "What is albedo and where does the word come from?", "back": "The fraction of solar radiation reflected by a surface. The word comes from Latin and means whiteness.", "tag": "definition" },
+    { "id": "sc-ch13a-f6", "sec": "13.1.1", "front": "Why do polar regions remain very cold?", "back": "Snow and ice have high albedo, so they reflect a large proportion of the incoming solar radiation.", "tag": "example" },
+    { "id": "sc-ch13a-f7", "sec": "13.1.1", "front": "Why does a concrete house feel hot at night in summer?", "back": "Concrete re-radiates the heat it absorbed during the day, warming the house at night.", "tag": "concept" },
+    { "id": "sc-ch13a-f8", "sec": "13.1.1", "front": "What is the urban heat island effect?", "back": "Cities stay warmer than rural areas, especially in summer and at night, because steel, concrete, brick and asphalt absorb and retain heat.", "tag": "definition" },
+    { "id": "sc-ch13a-f9", "sec": "13.1.2", "front": "Why is the equator warmer than the poles?", "back": "Sun's radiation is concentrated over a smaller area at the equator but spread over a larger area in the polar region.", "tag": "concept" },
+    { "id": "sc-ch13a-f10", "sec": "13.1.2", "front": "Which two features of the Earth give rise to seasons?", "back": "Its spherical shape and the tilt of its axis of rotation, acting during one revolution around the Sun.", "tag": "concept" },
+    { "id": "sc-ch13a-f11", "sec": "13.1.2", "front": "What does uneven heating across the globe drive?", "back": "It drives global winds and ocean currents across the Earth.", "tag": "concept" },
+    { "id": "sc-ch13a-f12", "sec": "13.1.3", "front": "What holds the atmosphere around the Earth?", "back": "The force of Earth's gravity holds the air surrounding the Earth, which we call the atmosphere.", "tag": "definition" },
+    { "id": "sc-ch13a-f13", "sec": "13.1.3", "front": "Which two gases make up almost all of the atmosphere?", "back": "Nitrogen (78 percent) and oxygen (21 percent), with small amounts of argon, carbon dioxide and water vapour.", "tag": "trivia" },
+    { "id": "sc-ch13a-f14", "sec": "13.1.3", "front": "In which layer does nearly all weather take place?", "back": "The troposphere, with an average height of about 12 km, heated from the Earth's surface.", "tag": "concept" },
+    { "id": "sc-ch13a-f15", "sec": "13.1.3", "front": "Why does temperature rise with height in the stratosphere?", "back": "The ozone layer there absorbs UV rays and heats up the atmosphere, so temperature increases with height.", "tag": "concept" },
+    { "id": "sc-ch13a-f16", "sec": "13.2", "front": "Define wind.", "back": "Wind is the movement of air from a region of high pressure to a region of low pressure.", "tag": "definition" },
+    { "id": "sc-ch13a-f17", "sec": "13.2", "front": "What mainly causes pressure differences on the Earth?", "back": "The uneven heating of the Earth's surface by the Sun.", "tag": "concept" },
+    { "id": "sc-ch13a-f18", "sec": "13.2", "front": "Which familiar phenomenon shows uneven heating of land and water?", "back": "Land and sea breezes, which you have studied earlier.", "tag": "example" },
+    { "id": "sc-ch13a-f19", "sec": "13.2.1", "front": "What is a valley breeze?", "back": "A daytime flow in which cooler air from the valley moves up the slopes to replace rising warm air.", "tag": "definition" },
+    { "id": "sc-ch13a-f20", "sec": "13.2.1", "front": "What is a mountain breeze?", "back": "A night flow in which cooler, denser air over the slopes flows down into the valley.", "tag": "definition" },
+    { "id": "sc-ch13a-f21", "sec": "13.2.1", "front": "Name two hilly places where these daily wind changes are felt.", "back": "Shimla and Dehradun, along with other Himalayan valleys.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "sc-ch13a-q1", "sec": "13.1", "q": "Solar radiation reaches the Earth in the form of which waves?", "options": ["Electromagnetic waves travelling through a vacuum", "Sound waves travelling through air", "Water waves travelling through oceans", "Mechanical waves needing a medium"], "answer": 0, "why": "EM waves travel through vacuum at the speed of light, unlike mechanical sound waves from Chapter 10.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q2", "sec": "13.1", "q": "What is the speed of light in vacuum?", "options": ["3 x 10^5 m/s", "3 x 10^8 m/s", "3 x 10^10 m/s", "340 m/s"], "answer": 1, "why": "The book states the speed of light in vacuum is 3 x 10^8 m/s.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q3", "sec": "13.1", "q": "Which type of solar radiation is mostly absorbed by the ozone layer?", "options": ["Visible light", "Infrared radiation", "Short wavelength UV radiation", "Radio waves"], "answer": 2, "why": "Short wavelength UV is mostly absorbed by the ozone layer in the upper atmosphere, protecting life.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q4", "sec": "13.1", "q": "About what percentage of the Sun's energy reaching Earth falls within UV, visible and infrared wavelengths?", "options": ["50 percent", "78 percent", "99 percent", "21 percent"], "answer": 2, "why": "About 99 per cent of the Sun's energy falls in the UV, visible and infrared range.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q5", "sec": "13.1", "q": "How does infrared radiation help keep the Earth warm enough for life?", "options": ["It is reflected back by clouds into space", "The surface re-radiates it and greenhouse gases trap a portion of the outgoing heat", "It converts carbon dioxide into oxygen", "It speeds up evaporation from oceans"], "answer": 1, "why": "Infrared warms the surface; CO2, methane and water vapour trap a portion of this outgoing heat.", "difficulty": "hard" },
+    { "id": "sc-ch13a-q6", "sec": "13.1.1", "q": "A surface with high albedo will most likely:", "options": ["Absorb more light and heat up quickly", "Reflect more light and stay cooler", "Emit more UV radiation", "Retain more heat at night"], "answer": 1, "why": "Albedo is the reflected fraction; high albedo surfaces reflect more and stay cool.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q7", "sec": "13.1.1", "q": "Which of these surfaces has low albedo and stays relatively warmer?", "options": ["Snow and ice", "Fresh white paint", "Black soil and ocean water", "Light coloured sand"], "answer": 2, "why": "Black soil and ocean water absorb more solar radiation, so they are relatively warmer.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q8", "sec": "13.1.1", "q": "On a hot summer night, why do traditional mud and wooden houses feel cooler than concrete houses?", "options": ["Mud reflects moonlight away", "Wood produces a cooling breeze inside", "Concrete re-radiates stored heat while thick mud and wood re-radiate less", "Concrete conducts the cold from the sky"], "answer": 2, "why": "The book attributes the coolness of mud and wood houses to less re-radiation at night.", "difficulty": "hard" },
+    { "id": "sc-ch13a-q9", "sec": "13.1.2", "q": "Compared with the poles, sunlight falling on the equatorial region is:", "options": ["Concentrated over a smaller area", "Spread over a larger area", "Blocked by the ozone layer", "Reflected by ice sheets"], "answer": 0, "why": "At the equator the radiation is concentrated over a smaller area, keeping it warm all year.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q10", "sec": "13.1.2", "q": "Polar regions experience much colder conditions mainly because:", "options": ["Their night lasts a whole month", "Sun's radiation is spread over a larger area there", "Ocean currents carry all their heat away", "The atmosphere is missing above the poles"], "answer": 1, "why": "Rays strike different latitudes at different angles, spreading polar radiation over a larger area.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q11", "sec": "13.1.2", "q": "Which combination correctly explains the seasons and changing day length?", "options": ["Change in the Sun's energy output over a year", "Distance change from the Sun during revolution", "Spherical shape plus tilt of the axis during one revolution around the Sun", "Only the tilt of the axis, with no revolution"], "answer": 2, "why": "The book credits the Earth's spherical shape and tilted axis of rotation during one revolution.", "difficulty": "hard" },
+    { "id": "sc-ch13a-q12", "sec": "13.1.3", "q": "The atmosphere stays around the Earth because of:", "options": ["Earth's gravity", "Earth's magnetic field", "Ocean pressure from below", "The Moon's pull on air"], "answer": 0, "why": "The air surrounding the Earth is held in place by the force of Earth's gravity.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q13", "sec": "13.1.3", "q": "Roughly what fraction of the atmosphere is nitrogen?", "options": ["78 percent", "21 percent", "50 percent", "1 percent"], "answer": 0, "why": "Nitrogen makes up 78 percent and oxygen 21 percent, with small amounts of other gases.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q14", "sec": "13.1.3", "q": "How does temperature change with height in the troposphere?", "options": ["It increases by about 6.5 degrees C per km", "It stays the same at all heights", "It decreases at about 6.5 degrees C per km", "It drops only above 12 km"], "answer": 2, "why": "The troposphere is heated from the surface, so temperature decreases with height, about 6.5 C per km.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q15", "sec": "13.1.3", "q": "Why is there little vertical mixing of air in the stratosphere?", "options": ["Ozone makes the air heavier at the bottom", "Temperature rises with height as ozone absorbs UV, calming the layer", "Strong planetary winds flatten the layer", "The stratosphere contains almost no gases"], "answer": 1, "why": "Rising temperature with height calms the stratosphere, keeping weather confined to the troposphere.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q16", "sec": "13.2", "q": "Wind always moves air from:", "options": ["Low pressure to high pressure", "High pressure to low pressure", "North to south only", "Land to sea only"], "answer": 1, "why": "Wind is the movement of air from a region of high pressure to a region of low pressure.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q17", "sec": "13.2", "q": "The pressure differences that create winds are mainly caused by:", "options": ["The Moon's gravitational pull", "Uneven heating of the Earth's surface by the Sun", "The rotation of ocean water", "Burning of fuels in cities"], "answer": 1, "why": "The book states pressure differences are mainly caused by uneven heating of the surface by the Sun.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q18", "sec": "13.2", "q": "Which statement correctly links small and large scale circulation?", "options": ["The same uneven heating idea explains land and sea breezes as well as winds and ocean currents on vastly different scales", "Breezes need mountains while winds need deserts", "Ocean currents are caused only by the Moon", "Local and global winds follow completely unrelated causes"], "answer": 0, "why": "The same basic idea of uneven heating works on vastly different scales, from breezes to ocean currents.", "difficulty": "hard" },
+    { "id": "sc-ch13a-q19", "sec": "13.2.1", "q": "During the day in a mountain valley, the cooler air typically flows:", "options": ["Up the slopes from the valley", "Down into the valley", "Towards the equator", "Straight up into outer space"], "answer": 0, "why": "Warm air rises over heated slopes, so cooler valley air moves up as the valley breeze.", "difficulty": "easy" },
+    { "id": "sc-ch13a-q20", "sec": "13.2.1", "q": "A mountain breeze forms at night because:", "options": ["The valley floor cools faster than the slopes", "Slopes lose heat faster and their cool dense air flows down into the valley", "The Moon heats the mountain slopes", "Snow melts suddenly after sunset"], "answer": 1, "why": "After sunset slopes cool first; the denser air over them flows down into the warmer valley.", "difficulty": "medium" },
+    { "id": "sc-ch13a-q21", "sec": "13.2.1", "q": "Why do local winds matter to people in hilly regions?", "options": ["They cause the seasons to change", "They create ocean currents nearby", "They regulate temperature and moisture and support soil and crop health", "They block harmful UV rays"], "answer": 2, "why": "Local winds influence weather, agriculture and daily life, regulating temperature, moisture, soil and crop health.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch13a-e1",
+      "title": "Which roof stays cooler under the same Sun?",
+      "problem": "Two terrace roofs in the same colony receive the same sunlight. One roof is painted light in colour and the other is dark like a black road. Using the idea of albedo, predict which roof stays cooler and explain why.",
+      "steps": [
+        "Albedo is the fraction of solar radiation reflected by a surface; the word comes from Latin and means whiteness.",
+        "A light coloured surface has high albedo, so it reflects more sunlight and absorbs less, just like snow and ice that reflect a large proportion of incoming radiation and keep polar regions cold.",
+        "A dark surface has low albedo, like black soil and ocean water, so it reflects less, absorbs more solar radiation and heats up more quickly.",
+        "This matches what you see daily: dark coloured roads heat up quickly and dark clothes feel hotter than white ones in summer."
+      ],
+      "answer": "The light coloured roof stays comparatively cooler because its high albedo reflects more sunlight; the dark roof absorbs more radiation and heats up faster."
+    },
+    {
+      "id": "sc-ch13a-e2",
+      "title": "How much cooler at the top of the troposphere?",
+      "problem": "The troposphere has an average height of about 12 km, and its temperature decreases with height at about 6.5 degrees Celsius per km. Estimate how much cooler the air at the top of the troposphere is compared with the air at the surface.",
+      "steps": [
+        "Rate of temperature decrease with height = 6.5 degrees Celsius per km.",
+        "Average height of the troposphere = 12 km.",
+        "Total decrease = 6.5 x 12 = 78 degrees Celsius.",
+        "This falling temperature with height is why warm air rises, driving winds and storms in this layer; the layer is tallest above the equator and lowest above the polar regions."
+      ],
+      "answer": "The top of the troposphere is about 78 degrees Celsius cooler than the surface (6.5 x 12 = 78)."
+    },
+    {
+      "id": "sc-ch13a-e3",
+      "title": "One day of breezes in a Himalayan valley",
+      "problem": "A student spends a full day in Shimla. Describe the direction of the wind in the valley from afternoon to late night, naming each breeze and explaining the heating pattern that causes it.",
+      "steps": [
+        "In the afternoon, mountain slopes facing the Sun are heated more rapidly than the valley floor.",
+        "The air over the slopes becomes warm and rises, creating a low pressure region, so cooler air from the valley moves up the slopes. This daytime flow is the valley breeze.",
+        "After sunset the situation reverses: the slopes lose heat faster and become cooler, while the valley floor remains relatively warmer.",
+        "The air over the slopes becomes cooler and denser and flows down into the valley. This night flow is the mountain breeze."
+      ],
+      "answer": "Afternoon: valley breeze blows up the slopes from the valley. Late night: mountain breeze blows down into the valley. The direction reverses daily, as commonly experienced in Shimla, Dehradun and other Himalayan valleys."
+    }
+  ],
+  "conceptMap": {
+    "center": "Earth as a System",
+    "groups": [
+      { "id": "g1", "label": "Sun's Energy" },
+      { "id": "g2", "label": "Surface and Latitude" },
+      { "id": "g3", "label": "Atmosphere" },
+      { "id": "g4", "label": "Moving Air and Water" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Electromagnetic Spectrum", "group": "g1" },
+      { "id": "n2", "label": "Insolation", "group": "g1" },
+      { "id": "n3", "label": "Ultraviolet Rays", "group": "g1" },
+      { "id": "n4", "label": "Visible Light", "group": "g1" },
+      { "id": "n5", "label": "Infrared Heat", "group": "g1" },
+      { "id": "n6", "label": "Albedo", "group": "g2" },
+      { "id": "n7", "label": "Uneven Heating", "group": "g2" },
+      { "id": "n8", "label": "Latitude Effect", "group": "g2" },
+      { "id": "n9", "label": "Ozone Layer", "group": "g3" },
+      { "id": "n10", "label": "Troposphere", "group": "g3" },
+      { "id": "n11", "label": "Greenhouse Gases", "group": "g3" },
+      { "id": "n12", "label": "Pressure Difference", "group": "g4" },
+      { "id": "n13", "label": "Local Winds", "group": "g4" },
+      { "id": "n14", "label": "Ocean Currents", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "arrives as" },
+      { "from": "n1", "to": "n3", "label": "contains" },
+      { "from": "n1", "to": "n4", "label": "contains" },
+      { "from": "n1", "to": "n5", "label": "contains" },
+      { "from": "n3", "to": "n9", "label": "blocked by" },
+      { "from": "n2", "to": "n7", "label": "causes" },
+      { "from": "n2", "to": "n8", "label": "spread unevenly" },
+      { "from": "n8", "to": "n7", "label": "sharpens" },
+      { "from": "n6", "to": "n7", "label": "decides warming" },
+      { "from": "n5", "to": "n11", "label": "trapped by" },
+      { "from": "n11", "to": "n10", "label": "warms from below" },
+      { "from": "n7", "to": "n12", "label": "creates" },
+      { "from": "n12", "to": "n13", "label": "drives" },
+      { "from": "n12", "to": "n14", "label": "drives" },
+      { "from": "n13", "to": "n10", "label": "stirs weather" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Sun sends energy", "detail": "Solar radiation travels as electromagnetic waves through vacuum at the speed of light." },
+      { "id": "s2", "label": "Atmosphere filters rays", "detail": "Ozone absorbs most UV; clouds and gases absorb some incoming sunlight." },
+      { "id": "s3", "label": "Surface absorbs unevenly", "detail": "Albedo, land versus water and colour decide how much heat each place keeps." },
+      { "id": "s4", "label": "Latitude spreads heat", "detail": "Equator gets concentrated rays; poles get rays spread over a larger area." },
+      { "id": "s5", "label": "Pressure differences form", "detail": "Warm air rises leaving low pressure; cooler air flows in from high pressure." },
+      { "id": "s6", "label": "Winds begin to blow", "detail": "Local breezes near mountains and larger winds circle the globe." },
+      { "id": "s7", "label": "Ocean currents flow", "detail": "Strong planetary winds drag surface water, moving huge ocean masses." },
+      { "id": "s8", "label": "Matter cycles link spheres", "detail": "Water, carbon and nitrogen circulate between air, life, soil and rocks." },
+      { "id": "s9", "label": "Life stays in balance", "detail": "Greenhouse gases keep Earth warm enough while cycles renew matter for life." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8]]
+  }
+}

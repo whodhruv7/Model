@@ -12,7 +12,7 @@ import { Composer } from './composer';
 import { SidebarContent, type ConversationListItem } from './sidebar';
 import { SettingsSheet } from './settings-sheet';
 import { parseSaathyMeta, stripStreamingMeta } from '@/lib/saathy-meta';
-import type { ChatMeta, ChatMode, ConceptCtx, ContextResponse, MasterySnapshot, ProfileCtx, QuickCheck } from '@/lib/saathy-types';
+import type { ChatMeta, ChatMode, ConceptCtx, ContextResponse, LearnMeta, MasterySnapshot, ProfileCtx, QuickCheck } from '@/lib/saathy-types';
 
 let tempId = 0;
 const nextTempId = () => `temp-${Date.now()}-${tempId++}`;
@@ -199,6 +199,46 @@ export function ChatApp() {
       setSendError(null);
       setInput('');
       stickRef.current = true;
+
+      // Learn-module intent: "learn <topic>" / "module <topic>" / "seekho <topic>"
+      // → resolve the chapter in the artifact library and deep-link into the
+      // full-screen learning flow (level check → slides → quiz → cards → games).
+      const mLearn = content.match(/^(?:learn|module|seekho)\s+(.{2,80})$/i);
+      if (mLearn && !content.includes('?')) {
+        const userMsgL: UiMessage = { id: nextTempId(), role: 'user', content, meta: null };
+        const pendingId = nextTempId();
+        const pending: UiMessage = { id: pendingId, role: 'assistant', content: '', meta: null, streaming: true };
+        setMessages((prev) => [...prev, userMsgL, pending]);
+        setStreaming(true);
+        try {
+          const r = await fetch('/api/learn/resolve', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ topic: mLearn[1] }),
+          });
+          const j = (await r.json().catch(() => ({}))) as { learn?: LearnMeta | null };
+          if (j.learn) {
+            setMessages((prev) => prev.map((m) => (m.id === pendingId ? {
+              id: pendingId,
+              role: 'assistant' as const,
+              content: `**${j.learn!.title}** ka poora module ready hai — ${j.learn!.bookName}, Chapter ${j.learn!.chapter}. Module me pehle level check hoga, phir slides se concept, quiz se practice, flashcards se revision aur last me games.`,
+              meta: { learn: j.learn!, followups: [`Explain ${j.learn!.title}`, `Give me a YouTube video plan for ${j.learn!.title}`] },
+            } : m)));
+          } else {
+            setMessages((prev) => prev.map((m) => (m.id === pendingId ? {
+              id: pendingId,
+              role: 'assistant' as const,
+              content: 'Is topic ka module nahi mila meri 3 books me. Browsing kar lo — **Learning modules** kholo sidebar se, ya phir seedha poochho — main yahin samjha doonga.',
+              meta: null,
+            } : m)));
+          }
+        } catch {
+          setMessages((prev) => prev.map((m) => (m.id === pendingId ? { ...m, streaming: false, error: 'Module resolve nahi ho paya — dobara try karo.' } : m)));
+        } finally {
+          setStreaming(false);
+        }
+        return;
+      }
 
       const userMsg: UiMessage = { id: nextTempId(), role: 'user', content, meta: null };
       const streamMsg: UiMessage = { id: 'streaming', role: 'assistant', content: '', meta: null, streaming: true };
@@ -617,6 +657,7 @@ export function ChatApp() {
                     { label: 'Video se dekho', desc: 'YouTube plan + watch timeline', act: () => chipSend(`Give me a YouTube video plan for ${currentChapterInfo?.chapter.name ?? focusConcept?.name ?? 'my current topic'} with a watch timeline`, 'explain') },
                     { label: 'Notes bhar do', desc: 'teacher material, compressed', act: () => chipSend(`Summarise my teacher's notes for ${currentChapterInfo?.chapter.name ?? 'the current chapter'}`, 'summarise') },
                     { label: 'Meri position', desc: 'what to revise, what is strong', act: () => chipSend('Give me my honest position across my chapters — what to revise first', 'chat') },
+                    { label: 'Learning modules', desc: 'slides, quiz, cards, games — full flow', act: () => { window.location.href = '/learn'; } },
                   ].map((chip, i) => (
                     <button
                       key={chip.label}
@@ -689,6 +730,45 @@ export function ChatApp() {
           onClearFocus={() => patchProfile({ focusConceptId: null })}
         />
       </main>
+
+      {/* Right panel (laptop, per VidhyaSaathy reference) — Saathy profile + module shelf */}
+      <aside className="hidden w-[300px] shrink-0 flex-col gap-3 overflow-y-auto border-l border-[#f0e4d8] bg-[#fff9f5]/70 px-4 py-4 backdrop-blur xl:flex">
+        <div className="rounded-2xl border border-[#ece7e0] bg-white/85 px-4 py-4 text-center shadow-[0_1px_8px_rgba(30,58,138,0.05)]">
+          <Mascot pose="idle" size={56} animationsEnabled={animations} className="mx-auto" />
+          <p className="mt-1.5 text-[16px] font-extrabold text-[#16305b]">Saathy</p>
+          <p className="text-[11.5px] font-bold text-[#637c96]">VidhyaSaathy's AI Tutor</p>
+          <p className="mt-2 font-hand text-[16px] font-bold text-[#2a5298]">Ask. Learn. Grow.</p>
+          <p className="mt-1 text-[11.5px] font-semibold leading-relaxed text-[#637c96]">
+            Trained on your school books and teacher notes to give accurate, context-aware answers — at exactly your depth.
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-[#ece7e0] bg-white/85 px-4 py-3.5 shadow-[0_1px_8px_rgba(30,58,138,0.05)]">
+          <p className="text-[10.5px] font-extrabold uppercase tracking-wider text-[#2a5298]">Model Information</p>
+          <dl className="mt-2 space-y-1.5 text-[11.5px] font-semibold">
+            <div className="flex justify-between gap-2"><dt className="text-[#8a94a8]">Model Name</dt><dd className="text-right font-extrabold text-[#17324f]">Saathy v.1</dd></div>
+            <div className="flex justify-between gap-2"><dt className="text-[#8a94a8]">Trained On</dt><dd className="text-right font-extrabold text-[#17324f]">Your books + NCERT</dd></div>
+            <div className="flex justify-between gap-2"><dt className="text-[#8a94a8]">Knowledge Base</dt><dd className="text-right font-extrabold text-[#17324f]">36 chapters, 267 sections</dd></div>
+            <div className="flex justify-between gap-2"><dt className="text-[#8a94a8]">Subjects</dt><dd className="text-right font-extrabold text-[#17324f]">Maths · Science · SST</dd></div>
+          </dl>
+        </div>
+
+        <div className="rounded-2xl border border-[#ece7e0] bg-white/85 px-4 py-3.5 shadow-[0_1px_8px_rgba(30,58,138,0.05)]">
+          <p className="text-[10.5px] font-extrabold uppercase tracking-wider text-[#2a5298]">Key Features</p>
+          <ul className="mt-2 space-y-2 text-[11.5px] font-semibold leading-snug text-[#637c96]">
+            <li className="flex gap-2"><span className="mt-0.5 text-[#46a758]">✓</span><span><b className="text-[#17324f]">Level-first teaching</b> — checks your depth, then teaches at it</span></li>
+            <li className="flex gap-2"><span className="mt-0.5 text-[#46a758]">✓</span><span><b className="text-[#17324f]">Context aware</b> — knows your class, chapter and focus concept</span></li>
+            <li className="flex gap-2"><span className="mt-0.5 text-[#46a758]">✓</span><span><b className="text-[#17324f]">Verified videos</b> — direct links, 3 teachers per concept</span></li>
+            <li className="flex gap-2"><span className="mt-0.5 text-[#46a758]">✓</span><span><b className="text-[#17324f]">Safe & honest</b> — school-appropriate, admits what it doesn't know</span></li>
+          </ul>
+        </div>
+
+        <a href="/learn" className="group rounded-2xl border border-[#d8e6f4] bg-gradient-to-br from-[#f3f9ff] to-[#eaf3fb] px-4 py-3.5 shadow-[0_1px_8px_rgba(30,58,138,0.06)] transition hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(30,58,138,0.12)]">
+          <p className="text-[12.5px] font-extrabold text-[#16305b]">📚 Learning modules</p>
+          <p className="mt-0.5 text-[11px] font-semibold leading-snug text-[#637c96]">3,353 artifacts across 36 chapters — slides, quiz, flashcards, games, reports.</p>
+          <p className="mt-1 text-[11px] font-extrabold text-[#2a5298] group-hover:underline">Kholo →</p>
+        </a>
+      </aside>
 
       {/* Settings */}
       <SettingsSheet

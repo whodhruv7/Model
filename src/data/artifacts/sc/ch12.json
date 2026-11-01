@@ -1,0 +1,720 @@
+{
+  "book": "sc",
+  "chapter": 12,
+  "title": "Patterns in Life: Diversity and Classification",
+  "grade": 9,
+  "sections": [
+    { "id": "12.6.4", "title": "Kingdom Plantae- Multicellular, autotrophic" },
+    { "id": "12.6.5", "title": "Kingdom Animalia- Multicellular, heterotrophic" },
+    { "id": "12.7", "title": "Adaptations as Outcomes of Structural Change" },
+    { "id": "12.8", "title": "Scientific Naming - The Binomial System" },
+    { "id": "12.9", "title": "Fossils as Evidence" },
+    { "id": "12.10", "title": "Biodiversity Under Threat" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch12-s1",
+      "sec": "12.6.4",
+      "title": "The Plant Kingdom",
+      "kicker": "Green factories that feed the planet",
+      "bullets": [
+        "Plants are multicellular, autotrophic organisms: they make their own food through photosynthesis.",
+        "Their cells have a rigid cell wall made mainly of cellulose, which provides support and protection.",
+        "Plants form the base of most food chains and release the oxygen essential for life on the Earth."
+      ],
+      "visual": { "kind": "labels", "items": ["Photosynthesis", "Cellulose cell wall", "Multicellular", "Oxygen release"] },
+      "note": "Every breath you take is a plant's gift!"
+    },
+    {
+      "id": "sc-ch12-s2",
+      "sec": "12.6.4",
+      "title": "Five Classes of Plants",
+      "kicker": "One kingdom, five classes to explore",
+      "bullets": [
+        "All plants belong to kingdom Plantae, which is further divided into five classes.",
+        "The classes are Thallophyta, Bryophyta, Pteridophyta, Gymnosperm and Angiosperm.",
+        "Thallophytes are described as among the simplest plant forms, mostly found in water or moist environments."
+      ],
+      "visual": { "kind": "tree", "root": "Kingdom Plantae", "children": ["Thallophyta", "Bryophyta", "Pteridophyta", "Gymnosperm", "Angiosperm"] },
+      "note": "Five shelves in the green library of life."
+    },
+    {
+      "id": "sc-ch12-s3",
+      "sec": "12.6.4",
+      "title": "Thallophyta: Simple Aquatic Bodies",
+      "kicker": "Algae with simple thallus bodies",
+      "bullets": [
+        "Thallophyta joins thallos, meaning undifferentiated body, with phyton, meaning plant.",
+        "Their body, the thallus, is so simple that gases, nutrients and water exchange directly with the surroundings.",
+        "Mostly found in water or moist places, they are well adapted to aquatic habitats.",
+        "Spirogyra is a familiar example of Thallophyta."
+      ],
+      "visual": { "kind": "labels", "items": ["Thallus", "Aquatic homes", "Direct exchange", "Spirogyra"] },
+      "note": "A simple body is a perfect body, if your home is a pond."
+    },
+    {
+      "id": "sc-ch12-s4",
+      "sec": "12.6.4",
+      "title": "Bryophyta: Amphibians of Plants",
+      "kicker": "First steps on land, still tied to water",
+      "bullets": [
+        "Bryophyta joins bryon, meaning moss, with phyton; mosses and liverworts mark a shift from water to land.",
+        "They grow as green mats on damp rocks, walls of old buildings and soil, especially during the monsoons.",
+        "Their bodies are more differentiated than thallophytes: rhizoids plus simple stem-like and leaf-like structures.",
+        "Because they still require water for reproduction, bryophytes are called the amphibians of the plant kingdom."
+      ],
+      "visual": { "kind": "labels", "items": ["Rhizoids", "Green mats", "Moist and shady", "Marchantia"] },
+      "note": "Try Activity 12.6 with a hand lens and a dissecting microscope!"
+    },
+    {
+      "id": "sc-ch12-s5",
+      "sec": "12.6.4",
+      "title": "Lichens: Alga Plus Fungus",
+      "kicker": "Two partners, one team",
+      "bullets": [
+        "A lichen is a symbiotic, mutual association between an alga and a fungus living as one body.",
+        "The fungal partner provides protection, while the algal partner photosynthesises and provides food.",
+        "Some lichens are poisonous, so classifying and identifying them properly keeps their utilisation safe."
+      ],
+      "visual": { "kind": "labels", "items": ["Symbiosis", "Alga makes food", "Fungus protects", "Handle with care"] },
+      "note": "Two partners, one body: nature's teamwork!"
+    },
+    {
+      "id": "sc-ch12-s6",
+      "sec": "12.6.5",
+      "title": "What Makes an Animal",
+      "kicker": "Multicellular movers that hunt for food",
+      "bullets": [
+        "Animals are multicellular and heterotrophic organisms: they depend on other organisms for their food.",
+        "Most animals show locomotion, rapid response to stimuli and coordinated behaviour.",
+        "These abilities let animals actively search for food, avoid predators and interact with their surroundings."
+      ],
+      "visual": { "kind": "labels", "items": ["Heterotrophic", "Locomotion", "Rapid response", "Coordinated behaviour"] },
+      "note": "Animals move to find food, plants stay and make it."
+    },
+    {
+      "id": "sc-ch12-s7",
+      "sec": "12.6.5",
+      "title": "The Notochord Divide",
+      "kicker": "One flexible rod splits the animal kingdom",
+      "bullets": [
+        "A major criterion for classifying animals is the presence or absence of the notochord, a flexible rod-shaped structure.",
+        "Animals without a notochord are non-chordata (invertebrata); animals with one are chordata.",
+        "In some chordates the notochord is a precursor for the vertebral column, and chordata splits into protochordata and vertebrata."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Non-chordata", "items": ["No notochord", "Also called invertebrata"] },
+        "right": { "title": "Chordata", "items": ["Notochord present", "Divided into protochordata and vertebrata"] }
+      }
+    },
+    {
+      "id": "sc-ch12-s8",
+      "sec": "12.6.5",
+      "title": "Porifera: The Pore-Bearers",
+      "kicker": "Simplest body plan, no tissues",
+      "bullets": [
+        "Sponges have one of the simplest animal body plans: multicellular, but without organisation of tissues and organs.",
+        "Numerous pores let water flow through continuously, bringing food particles and oxygen to cells and carrying waste away.",
+        "Poriferans remain fixed in one place and are found in aquatic environments."
+      ],
+      "visual": { "kind": "labels", "items": ["Pore-bearers", "Water flow", "Fixed in place", "No tissues"] },
+      "note": "Could a sponge survive on land? Think and answer!"
+    },
+    {
+      "id": "sc-ch12-s9",
+      "sec": "12.6.5",
+      "title": "Cnidaria: Tissues and Tentacles",
+      "kicker": "Tentacles replace waiting on water currents",
+      "bullets": [
+        "Hydra, jellyfish and corals are cnidarians showing a major change: tissue-level organisation of the body.",
+        "Specialised cells do specific jobs, such as tentacles that capture prey instead of waiting for water currents.",
+        "One single opening serves both food intake and waste removal, a body-plan limitation worth pondering."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Porifera", "items": ["No tissues", "Water currents bring food", "Many pores"] },
+        "right": { "title": "Cnidaria", "items": ["Tissue-level organisation", "Tentacles catch prey", "Single opening"] }
+      }
+    },
+    {
+      "id": "sc-ch12-s10",
+      "sec": "12.6.5",
+      "title": "Platyhelminthes: Directional Movement",
+      "kicker": "Symmetry gives movement a direction",
+      "bullets": [
+        "Flatworms, the Platyhelminthes, show organisational advancement through bilateral symmetry and directional movement.",
+        "Studying invertebrates traces how the animal body gradually changed, from simple structures to complex organ systems.",
+        "Each step brings advances in movement, feeding habits and control and coordination, along with exceptions and new challenges."
+      ],
+      "visual": { "kind": "flow", "items": ["Porifera: no tissues", "Cnidaria: true tissues", "Platyhelminthes: bilateral symmetry"] }
+    },
+    {
+      "id": "sc-ch12-s11",
+      "sec": "12.7",
+      "title": "Structure Shapes Survival",
+      "kicker": "Fins, feathers, fur: structure shapes survival",
+      "bullets": [
+        "Fins and gills allow fish to move and breathe in water.",
+        "Feathers and hollow bones make flight possible in birds.",
+        "Fat storage in camels and thick fur in polar bears support survival under extreme conditions.",
+        "In mammals, mammary glands improve the survival of young ones."
+      ],
+      "visual": { "kind": "labels", "items": ["Fins and gills", "Feathers", "Hollow bones", "Mammary glands"] },
+      "note": "Body parts are survival tools shaped by environments."
+    },
+    {
+      "id": "sc-ch12-s12",
+      "sec": "12.7",
+      "title": "The Ladder of Classification",
+      "kicker": "From kingdom wide to species narrow",
+      "bullets": [
+        "Classification follows a step-by-step order, starting from very broad groups and moving to smaller, specific ones.",
+        "At each lower level, organisms share more common features than at the level above.",
+        "The full ladder runs Kingdom, Phylum, Class, Order, Family, Genus and Species.",
+        "Every lower group is a part of the group above it."
+      ],
+      "visual": { "kind": "steps", "items": ["Kingdom: broadest group", "Phylum, Class, Order", "Family, Genus", "Species: most specific"] }
+    },
+    {
+      "id": "sc-ch12-s13",
+      "sec": "12.7",
+      "title": "Classification Works Like an Address",
+      "kicker": "Zoom in step by step, like an address",
+      "bullets": [
+        "The hierarchy works like a house address, which helps us locate a place exactly.",
+        "It lets scientists identify, compare and study organisms accurately, and understand how they are related.",
+        "Fig. 12.17 shows such pyramids for a tiger and a pea plant, with kingdom at the top and species at the base."
+      ],
+      "visual": { "kind": "labels", "items": ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"] },
+      "note": "Kingdom se species tak: zoom in like an address!"
+    },
+    {
+      "id": "sc-ch12-s14",
+      "sec": "12.8",
+      "title": "One Name for the World",
+      "kicker": "Bagh, puli, tiger, tigre: one universal name",
+      "bullets": [
+        "A tiger is bagh in Hindi, puli in Tamil, tiger in English and tigre in French, so confusion may arise.",
+        "Binomial nomenclature, introduced by Carolus Linnaeus in the 18th century, gives every organism one universal name.",
+        "Each scientific name has two parts, written in Latin or a Latinised form."
+      ],
+      "visual": { "kind": "labels", "items": ["Panthera tigris", "Mangifera indica", "Carolus Linnaeus", "Latinised form", "Universal name"] }
+    },
+    {
+      "id": "sc-ch12-s15",
+      "sec": "12.8",
+      "title": "Genus Plus Species",
+      "kicker": "Two words that work worldwide",
+      "bullets": [
+        "The first word is the genus: Panthera holds the roaring cats, tiger and lion, which have similar skull structure.",
+        "The second word is the species: a group of similar individuals capable of interbreeding and producing offsprings.",
+        "Together the two words form a unique scientific name used worldwide, like Mangifera indica for mango."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Genus", "items": ["Capital letter", "Groups closely related species", "Panthera, Mangifera"] },
+        "right": { "title": "Species", "items": ["Lower case", "Interbreeding individuals", "tigris, indica"] }
+      }
+    },
+    {
+      "id": "sc-ch12-s16",
+      "sec": "12.8",
+      "title": "Rules for Scientific Names",
+      "kicker": "Capitals, order and italics matter",
+      "bullets": [
+        "Rule one: the name has two parts, genus and species.",
+        "Rule two: the genus name comes first with a capital letter, followed by the species name in small letters.",
+        "Rule three: in print the name is written in italics, and when handwritten it is underlined."
+      ],
+      "visual": { "kind": "steps", "items": ["Two parts only", "Genus first, capital letter", "Species second, lower case", "Italics in print, underline by hand"] }
+    },
+    {
+      "id": "sc-ch12-s17",
+      "sec": "12.8",
+      "title": "Three Domains of Life",
+      "kicker": "DNA rewrites the story: three domains",
+      "bullets": [
+        "The five kingdom system was more comprehensive than earlier systems, yet could not fully explain the diversity of life.",
+        "With better microscopes and genetic studies, scientists began comparing organisms at the DNA level.",
+        "Organisms with similar DNA are considered to have a common ancestry.",
+        "From genetic data, Carl Woese proposed the three domain system in 1977: Bacteria, Archaea and Eukarya."
+      ],
+      "visual": { "kind": "tree", "root": "Domains of life", "children": ["Bacteria", "Archaea", "Eukarya"] },
+      "note": "Microbes were hiding their diversity until DNA spoke."
+    },
+    {
+      "id": "sc-ch12-s18",
+      "sec": "12.9",
+      "title": "What Are Fossils?",
+      "kicker": "Life's diary written in stone",
+      "bullets": [
+        "Fossils are preserved remains of plants and animals found in layers of rocks, sand and mud.",
+        "They act as natural records of life on the Earth.",
+        "Fossils help us understand how life has changed over millions of years."
+      ],
+      "visual": { "kind": "labels", "items": ["Preserved remains", "Rocks, sand, mud", "Natural records", "Millions of years"] }
+    },
+    {
+      "id": "sc-ch12-s19",
+      "sec": "12.9",
+      "title": "Layers Tell Life's Story",
+      "kicker": "Older layers simple, newer layers complex",
+      "bullets": [
+        "Generally, older layers contain simpler organisms.",
+        "Newer layers show more complex forms.",
+        "Reading layer by layer is like reading a book from its first page to the last."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Older layers", "items": ["Simpler organisms", "Early chapters of life"] },
+        "right": { "title": "Newer layers", "items": ["More complex forms", "Later chapters of life"] }
+      },
+      "note": "Read the rocks like pages of a book."
+    },
+    {
+      "id": "sc-ch12-s20",
+      "sec": "12.9",
+      "title": "Fossil Finds in India",
+      "kicker": "Dinosaurs, early humans, ancient plants",
+      "bullets": [
+        "From giant dinosaurs to early humans and ancient plants, some important fossils have been discovered in India.",
+        "Each fossil is evidence that connects today's diversity with the life of the past.",
+        "Such natural records make fossils key evidence for how life changed over millions of years."
+      ],
+      "visual": { "kind": "labels", "items": ["Dinosaurs", "Early humans", "Ancient plants", "India"] }
+    },
+    {
+      "id": "sc-ch12-s21",
+      "sec": "12.10",
+      "title": "Every Species Has a Role",
+      "kicker": "Lose one thread, the web weakens",
+      "bullets": [
+        "Each species, large or small, plays an important role in nature.",
+        "Plants produce food and oxygen; animals pollinate flowers and disperse seeds; microorganisms recycle nutrients.",
+        "When one species disappears, others that depend on it may decline in number and eventually also disappear."
+      ],
+      "visual": { "kind": "labels", "items": ["Food and oxygen", "Pollination", "Seed dispersal", "Nutrient recycling"] },
+      "note": "Nature runs on teamwork: no role is too small."
+    },
+    {
+      "id": "sc-ch12-s22",
+      "sec": "12.10",
+      "title": "Biodiversity Under Threat",
+      "kicker": "Four pressures squeezing life's variety",
+      "bullets": [
+        "Human activities such as pollution, deforestation, the overuse of resources and climate change are reducing biodiversity.",
+        "Losing species weakens the natural roles that keep the living world working.",
+        "That is why identifying and classifying species correctly is the first step to protecting them."
+      ],
+      "visual": { "kind": "labels", "items": ["Pollution", "Deforestation", "Overuse of resources", "Climate change"] }
+    },
+    {
+      "id": "sc-ch12-s23",
+      "sec": "12.10",
+      "title": "The Purple Frog Story",
+      "kicker": "A 2003 discovery hidden underground",
+      "bullets": [
+        "The Purple Frog (Nasikabatrachus sahyadrensis) from Kerala has a species name after the Sahyadri Hills.",
+        "It lives underground for most of the year and comes out only during the monsoon to breed.",
+        "It belongs to an ancient family of frogs, as understood from fossils.",
+        "Its discovery in 2003 highlighted the need for biodiversity conservation in the Western Ghats."
+      ],
+      "visual": { "kind": "flow", "items": ["New organism found", "Compare with known species", "Recognise ancient lineage", "Conserve the habitat"] },
+      "note": "Discovered in 2003: nature still surprises us!"
+    },
+    {
+      "id": "sc-ch12-s24",
+      "sec": "12.10",
+      "title": "Phumdis and the Sangai",
+      "kicker": "Floating homes of the dancing deer",
+      "bullets": [
+        "Phumdis are floating grasslands in the Loktak lake of Keibul Lamjo National Park, Manipur, a unique habitat of the world.",
+        "These floating beds of soil, a few centimetres to two metres thick, grow rooted vegetation in rich organic matter.",
+        "They are home to the endangered Sangai, the dancing deer endemic to Manipur.",
+        "The deer was declared extinct in 1951 and was rediscovered in 1953."
+      ],
+      "visual": { "kind": "labels", "items": ["Phumdis", "Loktak lake", "Sangai deer", "Endemic to Manipur"] },
+      "note": "A deer that dances on floating meadows!"
+    },
+    {
+      "id": "sc-ch12-s25",
+      "sec": "12.10",
+      "title": "Meet Birbal Sahni",
+      "kicker": "The fossil pioneer of Lucknow",
+      "bullets": [
+        "Birbal Sahni was an eminent scientist who studied fossil plants.",
+        "He founded the Birbal Sahni Institute of Palaeosciences (BSIP) in Lucknow, which continues his work even today.",
+        "His studies connected plants with their ancestors and showed that life on the Earth has a long, connected history."
+      ],
+      "visual": { "kind": "labels", "items": ["Fossil plants", "BSIP, Lucknow", "Past environments", "Connected history"] }
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch12-f1", "sec": "12.6.4", "front": "Which kingdom do all plants belong to?", "back": "Kingdom Plantae. Plants are multicellular autotrophs that perform photosynthesis.", "tag": "definition" },
+    { "id": "sc-ch12-f2", "sec": "12.6.4", "front": "What makes up the plant cell wall and what does it do?", "back": "Cellulose, mainly. The rigid wall provides support and protection to plant cells.", "tag": "definition" },
+    { "id": "sc-ch12-f3", "sec": "12.6.4", "front": "What does the word Thallophyta literally mean?", "back": "Thallos means undifferentiated body and phyton means plant; the body is a simple thallus.", "tag": "concept" },
+    { "id": "sc-ch12-f4", "sec": "12.6.4", "front": "Name one example of Thallophyta.", "back": "Spirogyra, an aquatic alga with a simple thallus body.", "tag": "example" },
+    { "id": "sc-ch12-f5", "sec": "12.6.4", "front": "Why are bryophytes called the amphibians of the plant kingdom?", "back": "They live on land but still require water for reproduction, so they bridge both worlds.", "tag": "concept" },
+    { "id": "sc-ch12-f6", "sec": "12.6.4", "front": "In a lichen, which partner makes the food?", "back": "The algal partner photosynthesises and provides food; the fungal partner provides protection.", "tag": "concept" },
+    { "id": "sc-ch12-f7", "sec": "12.6.5", "front": "What is a notochord?", "back": "A flexible, rod-shaped structure whose presence or absence is a major criterion for classifying animals.", "tag": "definition" },
+    { "id": "sc-ch12-f8", "sec": "12.6.5", "front": "Name the two animal groups split by the notochord.", "back": "Non-chordata (invertebrata) without a notochord and chordata with one.", "tag": "concept" },
+    { "id": "sc-ch12-f9", "sec": "12.6.5", "front": "How does a sponge get food and oxygen?", "back": "Water flowing through body pores carries food particles and oxygen to cells and removes waste.", "tag": "concept" },
+    { "id": "sc-ch12-f10", "sec": "12.6.5", "front": "Name three cnidarians.", "back": "Hydra, jellyfish and corals.", "tag": "example" },
+    { "id": "sc-ch12-f11", "sec": "12.7", "front": "List the seven ranks of classification in order.", "back": "Kingdom, Phylum, Class, Order, Family, Genus, Species.", "tag": "concept" },
+    { "id": "sc-ch12-f12", "sec": "12.7", "front": "Which features make flight possible in birds?", "back": "Feathers and hollow bones are the structural features that make flight possible.", "tag": "example" },
+    { "id": "sc-ch12-f13", "sec": "12.7", "front": "What changes as you move to lower levels of classification?", "back": "Organisms share more common features; each lower group is part of the group above it.", "tag": "concept" },
+    { "id": "sc-ch12-f14", "sec": "12.8", "front": "Who introduced binomial nomenclature, and when?", "back": "Carolus Linnaeus, in the 18th century.", "tag": "trivia" },
+    { "id": "sc-ch12-f15", "sec": "12.8", "front": "What are the two parts of a scientific name?", "back": "The genus name first, with a capital letter, and the species name second, in lower case.", "tag": "definition" },
+    { "id": "sc-ch12-f16", "sec": "12.8", "front": "How is a scientific name written in print and by hand?", "back": "In italics when printed; underlined when handwritten.", "tag": "concept" },
+    { "id": "sc-ch12-f17", "sec": "12.8", "front": "What does a species name indicate?", "back": "A group of similar individuals capable of interbreeding and producing offsprings.", "tag": "definition" },
+    { "id": "sc-ch12-f18", "sec": "12.8", "front": "Name the three domains proposed by Carl Woese.", "back": "Bacteria, Archaea and Eukarya, proposed in 1977 based on genetic data.", "tag": "trivia" },
+    { "id": "sc-ch12-f19", "sec": "12.9", "front": "What are fossils?", "back": "Preserved remains of plants and animals found in layers of rocks, sand and mud.", "tag": "definition" },
+    { "id": "sc-ch12-f20", "sec": "12.9", "front": "What do older rock layers usually contain?", "back": "Simpler organisms, while newer layers show more complex forms.", "tag": "concept" },
+    { "id": "sc-ch12-f21", "sec": "12.9", "front": "Which institute continues Birbal Sahni's fossil studies?", "back": "The Birbal Sahni Institute of Palaeosciences (BSIP) in Lucknow.", "tag": "trivia" },
+    { "id": "sc-ch12-f22", "sec": "12.10", "front": "Which human activities reduce biodiversity?", "back": "Pollution, deforestation, the overuse of resources and climate change.", "tag": "concept" },
+    { "id": "sc-ch12-f23", "sec": "12.10", "front": "Why is the Purple Frog named sahyadrensis?", "back": "Its species name comes from the Sahyadri Hills of Kerala, where it was discovered.", "tag": "example" },
+    { "id": "sc-ch12-f24", "sec": "12.10", "front": "What are phumdis and which animal depends on them?", "back": "Floating grasslands of Loktak lake, Manipur, home to the endangered Sangai dancing deer.", "tag": "example" }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch12-q1",
+      "sec": "12.6.4",
+      "q": "Plants are called autotrophic because they...",
+      "options": ["make their own food by photosynthesis", "absorb ready-made food from other organisms", "catch small prey with tentacles", "do not need any food at all"],
+      "answer": 0,
+      "why": "The book defines plants as multicellular autotrophs that perform photosynthesis.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q2",
+      "sec": "12.6.4",
+      "q": "The rigid plant cell wall is made primarily of...",
+      "options": ["cellulose", "starch", "protein", "fat"],
+      "answer": 0,
+      "why": "Cellulose walls provide plant cells with support and protection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q3",
+      "sec": "12.6.4",
+      "q": "A water plant with a simple, undifferentiated thallus body belongs to...",
+      "options": ["Bryophyta", "Thallophyta", "Pteridophyta", "Angiosperm"],
+      "answer": 1,
+      "why": "Thallophytes like Spirogyra have a simple thallus and live in water.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q4",
+      "sec": "12.6.4",
+      "q": "Bryophytes are called the amphibians of the plant kingdom because they...",
+      "options": ["swim like frogs during monsoons", "live on land but need water to reproduce", "have green skin that breathes", "are half animal and half plant"],
+      "answer": 1,
+      "why": "They colonised land yet remain dependent on water for reproduction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q5",
+      "sec": "12.6.4",
+      "q": "In a lichen, which partner photosynthesises and provides food?",
+      "options": ["the algal partner", "the fungal partner", "both partners equally", "neither partner"],
+      "answer": 0,
+      "why": "The fungus gives protection; the alga photosynthesises and provides food.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q6",
+      "sec": "12.6.5",
+      "q": "Animals are heterotrophic, which means they...",
+      "options": ["produce food by photosynthesis", "depend on other organisms for food", "need no food at all", "make food from cellulose"],
+      "answer": 1,
+      "why": "The book states animals depend on other organisms for their food.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q7",
+      "sec": "12.6.5",
+      "q": "The flexible, rod-shaped structure used to classify animals is the...",
+      "options": ["rhizoid", "thallus", "notochord", "cell wall"],
+      "answer": 2,
+      "why": "Presence or absence of the notochord is a major criterion for classifying animals.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q8",
+      "sec": "12.6.5",
+      "q": "Water flowing through a sponge's pores mainly...",
+      "options": ["brings food and oxygen to cells and carries waste away", "helps the sponge swim to new places", "keeps predators away", "cools the sponge in summer"],
+      "answer": 0,
+      "why": "Pores let water carry food particles and oxygen in and waste out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q9",
+      "sec": "12.6.5",
+      "q": "A limitation of the cnidarian body plan is that...",
+      "options": ["they have no cells at all", "one opening serves both food intake and waste removal", "they cannot live in water", "their tentacles cannot move"],
+      "answer": 1,
+      "why": "Cnidarians possess a single opening that functions for both intake and waste removal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q10",
+      "sec": "12.6.5",
+      "q": "Which order traces increasing body organisation, as the chapter presents it?",
+      "options": ["Porifera, Cnidaria, Platyhelminthes", "Platyhelminthes, Cnidaria, Porifera", "Cnidaria, Porifera, Platyhelminthes", "Porifera, Platyhelminthes, Cnidaria"],
+      "answer": 0,
+      "why": "Sponges lack tissues, cnidarians add tissues, flatworms add bilateral symmetry.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch12-q11",
+      "sec": "12.7",
+      "q": "Which features allow fish to move and breathe in water?",
+      "options": ["fins and gills", "feathers and hollow bones", "thick fur and fat storage", "mammary glands"],
+      "answer": 0,
+      "why": "Fins allow movement and gills allow breathing in water.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q12",
+      "sec": "12.7",
+      "q": "The correct order of classification ranks is...",
+      "options": ["Kingdom, Phylum, Class, Order, Family, Genus, Species", "Kingdom, Class, Phylum, Order, Species, Family, Genus", "Species, Genus, Family, Order, Class, Phylum, Kingdom", "Kingdom, Phylum, Order, Class, Family, Genus, Species"],
+      "answer": 0,
+      "why": "The book lists kingdom as the broadest level and species as the base.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q13",
+      "sec": "12.7",
+      "q": "As we move to lower levels of classification, organisms...",
+      "options": ["share more common features", "share fewer features", "become totally unrelated", "stop sharing any features"],
+      "answer": 0,
+      "why": "At each lower level, organisms share more common features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q14",
+      "sec": "12.7",
+      "q": "Why does the chapter compare classification to a house address?",
+      "options": ["both are written in Latin", "both help locate or identify something exactly, step by step", "both contain exactly seven parts", "both were invented by Linnaeus"],
+      "answer": 1,
+      "why": "An address locates a place exactly, just as ranks identify an organism accurately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch12-q15",
+      "sec": "12.8",
+      "q": "Binomial nomenclature was introduced by...",
+      "options": ["Carolus Linnaeus", "Carl Woese", "Birbal Sahni", "Charles Darwin"],
+      "answer": 0,
+      "why": "Linnaeus introduced the two-part naming system in the 18th century.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q16",
+      "sec": "12.8",
+      "q": "In the name Mangifera indica, the word indica is the...",
+      "options": ["genus name", "species name", "family name", "order name"],
+      "answer": 1,
+      "why": "The first word is the genus; the second, lower-case word is the species.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q17",
+      "sec": "12.8",
+      "q": "A scientific name written by hand should be...",
+      "options": ["underlined", "written in capital letters", "put in quotation marks", "circled in red"],
+      "answer": 0,
+      "why": "Names are italicised in print and underlined when handwritten.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q18",
+      "sec": "12.8",
+      "q": "The tiger and lion share the genus Panthera because they...",
+      "options": ["live in the same forest", "are closely related roaring cats with similar skull structure", "have the same common name everywhere", "were named on the same day"],
+      "answer": 1,
+      "why": "A genus groups closely related species that share common features.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q19",
+      "sec": "12.8",
+      "q": "Carl Woese's three domain system was based on...",
+      "options": ["counting fossil layers", "comparisons of DNA, the genetic material", "the old five kingdom ranks", "body size measurements"],
+      "answer": 1,
+      "why": "Genetic data showed organisms with similar DNA have a common ancestry.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch12-q20",
+      "sec": "12.9",
+      "q": "Fossils are...",
+      "options": ["preserved remains of plants and animals in layers of rocks, sand and mud", "living organisms hiding underground", "recent footprints on soil", "kinds of minerals used in industry"],
+      "answer": 0,
+      "why": "The book defines fossils as preserved remains found in layered rocks, sand and mud.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q21",
+      "sec": "12.9",
+      "q": "In general, newer rock layers contain...",
+      "options": ["more complex forms", "only simpler organisms", "no fossils at all", "only dinosaur bones"],
+      "answer": 0,
+      "why": "Older layers hold simpler organisms; newer layers show more complex forms.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q22",
+      "sec": "12.9",
+      "q": "Fossils are called natural records because they...",
+      "options": ["show how life changed over millions of years", "prove that species never change", "list every species alive today", "replace the need for classification"],
+      "answer": 0,
+      "why": "Fossils help us understand how life has changed over millions of years.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch12-q23",
+      "sec": "12.10",
+      "q": "Which human activities are reducing biodiversity?",
+      "options": ["pollution, deforestation, overuse of resources, climate change", "planting trees and recycling water", "photosynthesis and pollination", "bird watching and studying fossils"],
+      "answer": 0,
+      "why": "The book lists pollution, deforestation, overuse and climate change as threats.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q24",
+      "sec": "12.10",
+      "q": "The Purple Frog's species name sahyadrensis honours...",
+      "options": ["the Sahyadri Hills", "a French scientist", "its purple tadpoles", "the city of Kochi"],
+      "answer": 0,
+      "why": "Its name comes from the Sahyadri Hills; species names may reflect a place of discovery.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch12-q25",
+      "sec": "12.10",
+      "q": "Phumdis in Loktak lake are home to...",
+      "options": ["the Sangai dancing deer", "the Purple Frog", "giant dinosaurs", "coral reefs"],
+      "answer": 0,
+      "why": "Phumdis shelter the endangered Sangai, endemic to Manipur.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch12-q26",
+      "sec": "12.10",
+      "q": "The Sangai deer story is special because it...",
+      "options": ["was declared extinct in 1951 but rediscovered in 1953", "migrates across all of India yearly", "is the largest deer on the Earth", "lives only in Antarctica"],
+      "answer": 0,
+      "why": "It was declared extinct in 1951 and rediscovered in 1953 on the phumdis.",
+      "difficulty": "medium"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch12-e1",
+      "title": "Sorting plants into their classes",
+      "problem": "During the monsoon, Ravi finds Spirogyra floating in pond water, and a green mat of Marchantia and moss growing on damp rocks nearby. Using the descriptions in the chapter, name the class of each organism and give one reason for each.",
+      "steps": [
+        "Look at the body of Spirogyra: it is a simple, undifferentiated body called a thallus, which exchanges gases, nutrients and water directly with the surroundings.",
+        "Thallophytes are among the simplest plant forms and are mostly found in water or moist environments, so Spirogyra belongs to Thallophyta.",
+        "Look at the green mat on the rocks: these plants have root-like rhizoids and simple stem-like and leaf-like structures, and they grow in moist and shady places.",
+        "Plants with such bodies that still require water for reproduction are bryophytes, so Marchantia and moss belong to Bryophyta."
+      ],
+      "answer": "Spirogyra is a thallophyte (Thallophyta, algae); Marchantia and moss are bryophytes (Bryophyta)."
+    },
+    {
+      "id": "sc-ch12-e2",
+      "title": "Correcting a scientific name",
+      "problem": "A student writes the tiger's scientific name as panthera Tigris in her notebook. Using the rules of binomial nomenclature, rewrite it correctly and explain each correction.",
+      "steps": [
+        "Rule one: the name must have two parts, genus and species, so panthera and Tigris must stay together as one name.",
+        "Rule two: the genus comes first and begins with a capital letter, so panthera becomes Panthera.",
+        "Rule two again: the species name follows in small letters, so Tigris becomes tigris.",
+        "Rule three: when handwritten, the scientific name should be underlined."
+      ],
+      "answer": "The correct handwritten form is Panthera tigris, underlined: genus first with a capital letter, species second in lower case."
+    },
+    {
+      "id": "sc-ch12-e3",
+      "title": "Tracing the tiger through the ranks",
+      "problem": "Using the hierarchy Kingdom, Phylum, Class, Order, Family, Genus, Species, explain how the tiger (scientific name Panthera tigris) fits into the classification pyramid shown in Fig. 12.17.",
+      "steps": [
+        "Start at the broadest rank: the tiger belongs to kingdom Animalia, because it is a multicellular, heterotrophic organism.",
+        "Move down the ladder: each lower level is a smaller group inside the one above, and organisms there share more common features.",
+        "Reach the genus rank: Panthera groups closely related species that share common features, like the roaring cats with similar skull structure, including the lion Panthera leo.",
+        "Reach the base: the species tigris marks the group of similar individuals capable of interbreeding and producing offsprings."
+      ],
+      "answer": "The tiger's pyramid runs from kingdom Animalia at the top down to species tigris at the base, with genus Panthera just above it: Panthera tigris."
+    },
+    {
+      "id": "sc-ch12-e4",
+      "title": "Reading a fossil site like a timeline",
+      "problem": "A dig in India finds an older rock layer with remains of simple organisms, and a newer layer above it with remains of more complex organisms. What can a scientist conclude from this site, and why?",
+      "steps": [
+        "Identify what was found: fossils, the preserved remains of plants and animals in layers of rocks, sand and mud.",
+        "Recall the pattern: generally, older layers contain simpler organisms, while newer layers show more complex forms.",
+        "Match the site to the pattern: the older layer with simple remains and the newer layer with complex remains fit exactly.",
+        "Draw the conclusion: the site is a natural record showing how life has changed over millions of years."
+      ],
+      "answer": "The site shows life changing over time: simpler organisms in the older layer, more complex forms in the newer layer, exactly as the fossil record predicts."
+    }
+  ],
+  "conceptMap": {
+    "center": "Diversity and Classification",
+    "groups": [
+      { "id": "g1", "label": "Plant Kingdom" },
+      { "id": "g2", "label": "Animal Kingdom" },
+      { "id": "g3", "label": "Naming and Ranks" },
+      { "id": "g4", "label": "Change and Conservation" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Kingdom Plantae", "group": "g1" },
+      { "id": "n2", "label": "Thallophyta (algae)", "group": "g1" },
+      { "id": "n3", "label": "Bryophyta (mosses)", "group": "g1" },
+      { "id": "n4", "label": "Cellulose cell wall", "group": "g1" },
+      { "id": "n5", "label": "Kingdom Animalia", "group": "g2" },
+      { "id": "n6", "label": "Notochord", "group": "g2" },
+      { "id": "n7", "label": "Porifera (sponges)", "group": "g2" },
+      { "id": "n8", "label": "Cnidaria (tissues)", "group": "g2" },
+      { "id": "n9", "label": "Binomial nomenclature", "group": "g3" },
+      { "id": "n10", "label": "Genus and species", "group": "g3" },
+      { "id": "n11", "label": "Hierarchy of ranks", "group": "g3" },
+      { "id": "n12", "label": "Adaptations", "group": "g4" },
+      { "id": "n13", "label": "Fossils", "group": "g4" },
+      { "id": "n14", "label": "Biodiversity threat", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n4", "label": "support and protection" },
+      { "from": "n1", "to": "n2", "label": "simplest class" },
+      { "from": "n1", "to": "n3", "label": "needs water to breed" },
+      { "from": "n2", "to": "n3", "label": "water to land" },
+      { "from": "n5", "to": "n6", "label": "key criterion" },
+      { "from": "n7", "to": "n6", "label": "lacks it" },
+      { "from": "n8", "to": "n7", "label": "tissues beyond pores" },
+      { "from": "n5", "to": "n12", "label": "body plans changed" },
+      { "from": "n13", "to": "n12", "label": "evidence of change" },
+      { "from": "n9", "to": "n10", "label": "two-part name" },
+      { "from": "n10", "to": "n11", "label": "lowest ranks" },
+      { "from": "n1", "to": "n11", "label": "kingdom level" },
+      { "from": "n5", "to": "n11", "label": "kingdom level" },
+      { "from": "n14", "to": "n13", "label": "ancient clues" }
+    ]
+  },
+  "flowchart": {
+    "title": "From diversity to conservation",
+    "steps": [
+      { "id": "s1", "label": "Observe diversity", "detail": "Life shows endless variety in body form, food habits and habitats." },
+      { "id": "s2", "label": "Sort by features", "detail": "Scientists group organisms by shared features like cell walls, nutrition and body plans." },
+      { "id": "s3", "label": "Place in kingdoms", "detail": "Autotrophic plants with cellulose walls go to Plantae; heterotrophic animals go to Animalia." },
+      { "id": "s4", "label": "Zoom into classes", "detail": "Plantae splits into five classes; Animalia splits by presence or absence of the notochord." },
+      { "id": "s5", "label": "Build the hierarchy", "detail": "Ranks from kingdom to species put every organism into smaller, more specific groups." },
+      { "id": "s6", "label": "Name scientifically", "detail": "Binomial nomenclature gives a two-part genus and species name used worldwide." },
+      { "id": "s7", "label": "Check the evidence", "detail": "Fossils in rock layers record how life has changed over millions of years." },
+      { "id": "s8", "label": "Protect biodiversity", "detail": "Knowing and naming species helps conserve them from pollution, deforestation and climate change." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

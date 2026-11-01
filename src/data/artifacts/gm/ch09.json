@@ -1,0 +1,909 @@
+{
+  "book": "gm",
+  "chapter": 9,
+  "title": "Propositions and Number Patterns",
+  "grade": 9,
+  "sections": [
+    { "id": "9.1", "title": "Part 1" },
+    { "id": "9.2", "title": "Part 2" },
+    { "id": "9.3", "title": "Part 3" },
+    { "id": "9.4", "title": "Part 4" },
+    { "id": "9.5", "title": "Part 5" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch09-s1",
+      "sec": "9.1",
+      "title": "What is a proposition?",
+      "kicker": "Statements math can judge true or false",
+      "bullets": [
+        "A proposition is a statement that is either true or false, never both and never neither.",
+        "Book's Statement 1: if two sides of a triangle are equal, then the angles opposite the equal sides are equal.",
+        "Only statements that can be judged true or false count, so a question or a request is not a proposition."
+      ],
+      "visual": { "kind": "labels", "items": ["A statement", "True", "False", "If X then Y"] },
+      "note": "True ya false — proposition ke beech koi middle ground nahi!"
+    },
+    {
+      "id": "gm-ch09-s2",
+      "sec": "9.1",
+      "title": "Meet the converse",
+      "kicker": "Swap the if part and the then part",
+      "bullets": [
+        "The converse of 'if X then Y' is 'if Y then X' — the two parts simply trade places.",
+        "Book's Statement 2: if two angles of a triangle are equal, the opposite sides have equal lengths — the converse.",
+        "'If X then Y' can also be written as 'X implies Y', and the book uses both formulations interchangeably."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Proposition", "items": ["If X then Y", "Two equal sides, so opposite angles equal"] },
+        "right": { "title": "Converse", "items": ["If Y then X", "Two equal angles, so opposite sides equal"] }
+      },
+      "note": "Converse banane ka funda: X aur Y ki jagah swap karo!"
+    },
+    {
+      "id": "gm-ch09-s3",
+      "sec": "9.1",
+      "title": "True, but converse?",
+      "kicker": "A true proposition does not guarantee its converse",
+      "bullets": [
+        "The chapter's big question: if a proposition is true, is its converse always true?",
+        "Book's Example 1: 'if it rains, then the road is wet' is true, but the converse 'if the road is wet, then it has rained' may not be.",
+        "The road may be wet because a tanker spilled water on it — so the converse fails in that situation."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Proposition P: true", "items": ["If it rains, then the road is wet"] },
+        "right": { "title": "Converse Q: not always", "items": ["If the road is wet, then it has rained", "A tanker could have spilled the water"] }
+      },
+      "note": "Road geeli hai, par barish zaroori nahi — tanker bhi gira sakta hai!"
+    },
+    {
+      "id": "gm-ch09-s4",
+      "sec": "9.1",
+      "title": "Counterexamples rule",
+      "kicker": "One example can fell a whole claim",
+      "bullets": [
+        "A counterexample is a situation that illustrates why a given proposition is not necessarily true — it contradicts the stated proposition.",
+        "Finding a suitable counterexample is an important ingredient of mathematics: it shows a proposition is false in a short and convincing way.",
+        "Book's Example 2: every multiple of 6 is a multiple of 3, yet 3 itself is a multiple of 3 that is not a multiple of 6."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Claim: every multiple of 3 is a multiple of 6", "Try 3: a multiple of 3, but not of 6", "Counterexample found, claim is false"]
+      },
+      "note": "Ek counterexample = poora claim out!"
+    },
+    {
+      "id": "gm-ch09-s5",
+      "sec": "9.1",
+      "title": "Fermat meets Euler",
+      "kicker": "A famous claim felled by one number",
+      "bullets": [
+        "Fermat claimed that all numbers of the form 2^(2^n)+1 are prime, for n = 0, 1, 2, 3 and so on.",
+        "For example, 257 is a number of this form, and it is prime.",
+        "Euler disproved the claim by showing that another number of this form is composite — one counterexample was enough."
+      ],
+      "visual": { "kind": "labels", "items": ["Fermat claim", "2^(2^n)+1", "257 prime", "Euler composite"] },
+      "note": "Bade mathematician bhi galat ho sakte hain — proof hi boss hai!"
+    },
+    {
+      "id": "gm-ch09-s6",
+      "sec": "9.2",
+      "title": "Factor-partner pairs",
+      "kicker": "Every factor carries a partner along",
+      "bullets": [
+        "Each factor has a partner factor: 5 is a factor of 35, and 5 × 7 = 35, so 7 is the partner of 5.",
+        "For the number 12, the factor-partner pairs are (1, 12), (2, 6) and (3, 4).",
+        "Pairing factors like this will unlock a lovely secret about squares and factor counts."
+      ],
+      "visual": { "kind": "tree", "root": "Factors of 12", "children": ["(1, 12)", "(2, 6)", "(3, 4)"] },
+      "note": "Har factor ka ek partner — jodi banate chalo!"
+    },
+    {
+      "id": "gm-ch09-s7",
+      "sec": "9.2",
+      "title": "Odd factors mean square",
+      "kicker": "The chain that proves the converse claim",
+      "bullets": [
+        "The book's chain: n has an odd number of factors, so some factor-partner pair repeats as (f, f), so n = f × f is a square.",
+        "Like the partner of 5 in 25: the pair (5, 5) repeats, and 25 = 5 × 5.",
+        "If no pair repeats, every factor has a distinct partner, so the number of factors is even."
+      ],
+      "visual": { "kind": "flow", "items": ["Odd number of factors", "A pair (f, f) repeats", "n = f × f, a square"] },
+      "note": "Odd ginti? Koi factor khud ka hi partner ban gaya!"
+    },
+    {
+      "id": "gm-ch09-s8",
+      "sec": "9.2",
+      "title": "Squares have odd factors",
+      "kicker": "Only one self-pairing partner is possible",
+      "bullets": [
+        "For the other direction, start at the end of the chain: n = f × f clearly gives the repeating pair (f, f).",
+        "But a repeating pair does not by itself force an odd count: two repeating pairs (f, f) and (g, g) would give an even number of factors.",
+        "A number cannot have more than one factor pair with repeating factors, so a square number necessarily has an odd number of factors."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["n is a square: n = f × f", "The pair (f, f) repeats", "A second repeating pair is impossible", "So the factor count is odd"]
+      },
+      "note": "Do self-partner jodiyan? Sirf ek hi mumkin!"
+    },
+    {
+      "id": "gm-ch09-s9",
+      "sec": "9.2",
+      "title": "A two-way street",
+      "kicker": "Perfect square and odd factors imply each other",
+      "bullets": [
+        "In Example 3, 'n is a perfect square' and 'n has an odd number of factors' imply each other.",
+        "So here both the proposition P and its converse Q are true — a genuinely two-way implication.",
+        "The chapter's lesson: a proposition can be true without its converse, or both can be true together."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "P true, Q false", "items": ["If it rains, the road is wet", "Wet road means it rained? No"] },
+        "right": { "title": "P and Q both true", "items": ["Perfect square, so odd number of factors", "Odd number of factors, so perfect square"] }
+      },
+      "note": "Kabhi ek tarafda, kabhi dono tarafda — dono possible!"
+    },
+    {
+      "id": "gm-ch09-s10",
+      "sec": "9.2",
+      "title": "Same area, congruent?",
+      "kicker": "Book's Example 4 tests both directions",
+      "bullets": [
+        "Proposition P: if two triangles have the same area, then they are congruent.",
+        "Converse Q: if two triangles are congruent, then they have the same area.",
+        "Congruent triangles always share one area, but two triangles can share an area yet have different side lengths — test P with such a pair."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Q: congruent triangles", "Same area, guaranteed", "P: same-area triangles", "Congruence not guaranteed"]
+      },
+      "note": "Area barabar, par shape alag ho sakti hai!"
+    },
+    {
+      "id": "gm-ch09-s11",
+      "sec": "9.3",
+      "title": "Baudhāyana–Pythagoras",
+      "kicker": "The right-triangle statement in if-then form",
+      "bullets": [
+        "Let a, b, c be the sidelengths of a triangle: if the triangle is right-angled, then a^2 + b^2 = c^2.",
+        "This is the Baudhāyana–Pythagoras theorem, written as a proposition of the form if X then Y.",
+        "Here X is 'the triangle is right-angled' and Y is 'a^2 + b^2 = c^2'."
+      ],
+      "visual": { "kind": "labels", "items": ["Right-angled triangle", "a^2 + b^2 = c^2", "Baudhāyana", "Pythagoras"] },
+      "note": "Right angle ho toh sides ka hisaab pakka!"
+    },
+    {
+      "id": "gm-ch09-s12",
+      "sec": "9.3",
+      "title": "Writing the converse",
+      "kicker": "Keep the first sentence, flip the second",
+      "bullets": [
+        "To write the converse, keep the first sentence of the theorem as it is and make the necessary change in the second.",
+        "Converse: let a, b, c be the sidelengths of a triangle; if a^2 + b^2 = c^2, then the triangle is right-angled.",
+        "The natural question now: is this converse true?"
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Theorem", "items": ["If right-angled", "Then a^2 + b^2 = c^2"] },
+        "right": { "title": "Converse", "items": ["If a^2 + b^2 = c^2", "Then right-angled"] }
+      },
+      "note": "Pehla sentence waisa hi, doosra ulta — converse ready!"
+    },
+    {
+      "id": "gm-ch09-s13",
+      "sec": "9.3",
+      "title": "Converse proved true",
+      "kicker": "SSS congruence seals the argument",
+      "bullets": [
+        "Take triangle ABC with sidelengths a, b, c and a^2 + b^2 = c^2; picture a right-angled triangle XYZ with legs a and b.",
+        "By the Baudhāyana–Pythagoras theorem applied to XYZ, the hypotenuse satisfies XY^2 = a^2 + b^2 = c^2, so XY = c.",
+        "All three sides match, so ABC and XYZ are congruent by the SSS criterion — ABC had to be a right triangle after all."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Right triangle XYZ with legs a, b", "XY = c by the theorem", "SSS: ABC congruent to XYZ", "ABC is right-angled"]
+      },
+      "note": "SSS ne kaam kar dikhaya — converse bhi sach!"
+    },
+    {
+      "id": "gm-ch09-s14",
+      "sec": "9.3",
+      "title": "When means if",
+      "kicker": "Same meaning in a new dress",
+      "bullets": [
+        "'If X then Y' is not the only wording; 'Y when X' conveys the same meaning.",
+        "'A number has an odd number of factors when it is a perfect square' says the same thing as the if-then version from Example 3.",
+        "So while reading propositions, watch for when and other sentence structures that hide an if-then."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "If-then form", "items": ["If a number is a perfect square, then it has an odd number of factors"] },
+        "right": { "title": "When form", "items": ["A number has an odd number of factors when it is a perfect square"] }
+      },
+      "note": "When dikhe toh if-then samjho!"
+    },
+    {
+      "id": "gm-ch09-s15",
+      "sec": "9.4",
+      "title": "A proposition at the incentre",
+      "kicker": "Bisectors meet, then a neat if-then claim",
+      "bullets": [
+        "Given any triangle ABC, bisect the angles at B and C; the bisectors meet at the incentre I of the triangle.",
+        "Now extend the bisectors beyond I till they meet the opposite sides at E and F.",
+        "The book's proposition: if AB = AC, then IE = IF."
+      ],
+      "visual": { "kind": "labels", "items": ["Bisect angles at B, C", "Meet at incentre I", "Extend to E and F", "If AB = AC then IE = IF"] },
+      "note": "Incentre = angle bisectors ka adda!"
+    },
+    {
+      "id": "gm-ch09-s16",
+      "sec": "9.4",
+      "title": "Equations think if-then",
+      "kicker": "The move you use every single time",
+      "bullets": [
+        "Proposition: if x = y, then a + x = a + y, where x, y and a are any three numbers.",
+        "This proposition and its converse are routinely used while solving equations.",
+        "Adding the same number to both sides keeps an equation balanced — that is the if-then logic at work."
+      ],
+      "visual": { "kind": "flow", "items": ["x = y", "Add a to both sides", "a + x = a + y", "Equation solved"] },
+      "note": "Equation solve karte waqt if-then hi chal raha hota hai!"
+    },
+    {
+      "id": "gm-ch09-s17",
+      "sec": "9.4",
+      "title": "Prime generators fail",
+      "kicker": "No neat expression makes only primes",
+      "bullets": [
+        "There are no known 'neat' expressions that generate only primes.",
+        "The exercise lists claims to test: all numbers of the form 4n^2 + 1, or n^2 + n + 11, or 4^n + 3 are prime.",
+        "Also on trial: if n is prime then 2^n - 1 is prime, and if n is even then 2^n + 1 is prime."
+      ],
+      "visual": { "kind": "labels", "items": ["4n^2 + 1", "n^2 + n + 11", "4^n + 3", "2^n - 1 for prime n", "2^n + 1 for even n"] },
+      "note": "Formula dekh ke prime mat maano — test karo!"
+    },
+    {
+      "id": "gm-ch09-s18",
+      "sec": "9.4",
+      "title": "Felling the prime claims",
+      "kicker": "Two worked counterexamples from the exercise",
+      "bullets": [
+        "Claim: n^2 + n + 11 is always prime. At n = 10 it gives 100 + 10 + 11 = 121 = 11 × 11, which is composite.",
+        "Claim: if n is prime then 2^n - 1 is prime. At n = 11 it gives 2047 = 23 × 89, which is composite.",
+        "In each case a single value of n contradicts the claim, so the claim is false."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Claim: n^2 + n + 11 always prime", "Try n = 10: get 121 = 11 × 11", "Claim: 2^n - 1 prime for prime n", "Try n = 11: get 2047 = 23 × 89"]
+      },
+      "note": "n = 10 aur n = 11 — chhote numbers, bade claims gaye!"
+    },
+    {
+      "id": "gm-ch09-s19",
+      "sec": "9.4",
+      "title": "The divisibility converse trap",
+      "kicker": "A converse trap hiding in divisibility",
+      "bullets": [
+        "True proposition: if a number is divisible by 8, then it is divisible by both 2 and 4.",
+        "Justify it: n = 8 × k = 2 × (4k) and also n = 4 × (2k), so divisibility by 2 and by 4 both follow.",
+        "The converse fails: 12 is divisible by 2 and by 4 but not by 8, so checking 2 and 4 is not enough for 8."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Divisible by 8", "items": ["Then divisible by 2", "Then divisible by 4"] },
+        "right": { "title": "Divisible by 2 and 4", "items": ["Need not be divisible by 8", "12 = 2 × 6 = 4 × 3, yet 12 is not a multiple of 8"] }
+      },
+      "note": "2 aur 4 ka test pass? 8 abhi bhi risk mein!"
+    },
+    {
+      "id": "gm-ch09-s20",
+      "sec": "9.4",
+      "title": "Digit-sum test both ways",
+      "kicker": "One divisibility rule, two if-then sentences",
+      "bullets": [
+        "A shortcut from earlier grades: to check divisibility by 3, add the digits of the number and see if the sum is a multiple of 3.",
+        "If-then form 1: if a number is divisible by 3, then the sum of its digits is a multiple of 3.",
+        "If-then form 2: if the sum of the digits is a multiple of 3, then the number is divisible by 3."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Add the digits of the number", "Check if the sum is a multiple of 3", "Yes means divisible by 3", "No means not divisible by 3"]
+      },
+      "note": "Digit jodo, 3 ka test ho gaya!"
+    },
+    {
+      "id": "gm-ch09-s21",
+      "sec": "9.4",
+      "title": "Build Q with sticks",
+      "kicker": "Two sticks become the diagonals",
+      "bullets": [
+        "We know quadrilateral types — squares, rectangles, parallelograms, rhombi, kites and trapezia — and we can invent new categories, like Q.",
+        "Task: take two thin sticks, put them together as diagonals, and join their endpoints so the quadrilateral obtained is of type Q.",
+        "Everything hinges on which if-then property the category Q satisfies."
+      ],
+      "visual": { "kind": "flow", "items": ["Two thin sticks", "Place as diagonals", "Join the endpoints", "A quadrilateral of type Q"] },
+      "note": "Stick = diagonal. Ab rules ka khel dekho!"
+    },
+    {
+      "id": "gm-ch09-s22",
+      "sec": "9.5",
+      "title": "Rule 1: Q gives equals",
+      "kicker": "Sticks equal for sure, placement still matters",
+      "bullets": [
+        "Property: if a quadrilateral is of type Q, then it has equal-length diagonals.",
+        "So the two sticks must be of equal length — unequal diagonals would rule out type Q at the very start.",
+        "But the arrangement still matters: only the forward direction is promised, so equal diagonals alone need not produce type Q."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Stick lengths", "items": ["Must be of equal length", "Unequal sticks cannot give type Q"] },
+        "right": { "title": "Arrangement", "items": ["How they are put together matters", "Equal diagonals alone do not promise Q"] }
+      },
+      "note": "Rule 1 ek tarafda rasta hai — ulta pakka nahi!"
+    },
+    {
+      "id": "gm-ch09-s23",
+      "sec": "9.5",
+      "title": "Rule 2: equals give Q",
+      "kicker": "Now equal sticks guarantee success",
+      "bullets": [
+        "Property now: if a quadrilateral has equal diagonals, then it is of type Q.",
+        "Keep the sticks of equal length; then every arrangement gives equal diagonals, so every arrangement gives type Q.",
+        "So the answers flip from Rule 1: sticks equal, but it does not matter how the two sticks are put together."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Stick lengths", "items": ["Sticks must be of equal length", "Equal diagonals then force type Q"] },
+        "right": { "title": "Arrangement", "items": ["Any arrangement works", "It does not matter how they join"] }
+      },
+      "note": "Rule 2 mein arrangement free — bas sticks barabar rakho!"
+    },
+    {
+      "id": "gm-ch09-s24",
+      "sec": "9.5",
+      "title": "Four truth patterns",
+      "kicker": "How P and its converse can behave",
+      "bullets": [
+        "It can happen that a proposition is true while its converse is false — the rain and wet road pair.",
+        "Both can be true, like perfect squares and odd factors — or both can be false.",
+        "So never trust a converse on credit — test it separately, with a proof or a counterexample."
+      ],
+      "visual": { "kind": "labels", "items": ["P true, Q false", "Both true", "Both false", "Test every converse"] },
+      "note": "Converse ko apna alag test do — free ka trust nahi!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "gm-ch09-f1",
+      "sec": "9.1",
+      "front": "What is a proposition?",
+      "back": "A statement that is either true or false, such as: if two sides of a triangle are equal, then the angles opposite them are equal.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f2",
+      "sec": "9.1",
+      "front": "How do you form the converse of 'if X then Y'?",
+      "back": "Swap the two parts: the converse is 'if Y then X'. For example, 'if it rains, the road is wet' becomes 'if the road is wet, it has rained'.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f3",
+      "sec": "9.1",
+      "front": "What is a counterexample?",
+      "back": "A situation that illustrates why a proposition is not necessarily true — an example that contradicts the stated proposition.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f4",
+      "sec": "9.1",
+      "front": "What did Euler show about Fermat's prime claim?",
+      "back": "Fermat claimed all numbers of the form 2^(2^n)+1 are prime; Euler disproved it by showing one such number is composite.",
+      "tag": "trivia"
+    },
+    {
+      "id": "gm-ch09-f5",
+      "sec": "9.1",
+      "front": "'X implies Y' is another way of writing what?",
+      "back": "The proposition 'if X then Y'. The book uses both formulations interchangeably.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f6",
+      "sec": "9.2",
+      "front": "What is a partner factor of a factor?",
+      "back": "The factor that multiplies it to give the number: 5 × 7 = 35, so 7 is the partner factor of 5 in 35.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f7",
+      "sec": "9.2",
+      "front": "Name the factor-partner pairs of 12.",
+      "back": "(1, 12), (2, 6) and (3, 4) — each pair multiplies to 12.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch09-f8",
+      "sec": "9.2",
+      "front": "If a number has an odd number of factors, what must be true about it?",
+      "back": "It must be a perfect square: some factor-partner pair repeats as (f, f), so n = f × f.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f9",
+      "sec": "9.2",
+      "front": "Why does a square number have an odd number of factors?",
+      "back": "All factors pair up except one repeating pair (f, f); a number cannot have more than one such repeating pair.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f10",
+      "sec": "9.2",
+      "front": "Are congruent triangles guaranteed to have the same area?",
+      "back": "Yes. But two triangles with the same area need not be congruent, so the converse is false.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f11",
+      "sec": "9.3",
+      "front": "State the Baudhāyana–Pythagoras theorem in if-then form.",
+      "back": "Let a, b, c be the sidelengths of a triangle: if the triangle is right-angled, then a^2 + b^2 = c^2.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch09-f12",
+      "sec": "9.3",
+      "front": "State the converse of the Baudhāyana–Pythagoras theorem.",
+      "back": "Let a, b, c be the sidelengths of a triangle: if a^2 + b^2 = c^2, then the triangle is right-angled.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch09-f13",
+      "sec": "9.3",
+      "front": "Is the converse of the Baudhāyana–Pythagoras theorem true?",
+      "back": "Yes. A right triangle with legs a, b has XY = c by the theorem, and SSS congruence then shows ABC is right-angled too.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f14",
+      "sec": "9.3",
+      "front": "What does 'Y when X' mean?",
+      "back": "The same as 'if X then Y'. Example: a number has an odd number of factors when it is a perfect square.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f15",
+      "sec": "9.4",
+      "front": "What is the incentre of a triangle?",
+      "back": "The point where the angle bisectors meet; the book bisects the angles at B and C, and the bisectors meet at the incentre I.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch09-f16",
+      "sec": "9.4",
+      "front": "State the book's proposition about IE and IF.",
+      "back": "With the bisectors extended to meet the opposite sides at E and F: if AB = AC, then IE = IF.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f17",
+      "sec": "9.4",
+      "front": "Give a counterexample to: n^2 + n + 11 is always prime.",
+      "back": "n = 10 gives 121 = 11 × 11, which is composite, so the claim is false.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch09-f18",
+      "sec": "9.4",
+      "front": "Is 'divisible by 2 and 4' enough to conclude 'divisible by 8'?",
+      "back": "No. For example 12 is divisible by 2 and by 4 but not by 8; the converse of the true proposition fails.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f19",
+      "sec": "9.4",
+      "front": "State the digit rule for 3 as an if-then sentence.",
+      "back": "If a number is divisible by 3, then the sum of its digits is a multiple of 3 — and conversely.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch09-f20",
+      "sec": "9.4",
+      "front": "In the sticks task, what do the two thin sticks represent?",
+      "back": "The diagonals; putting the sticks together as diagonals and joining their endpoints gives a quadrilateral of type Q.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f21",
+      "sec": "9.5",
+      "front": "Q has equal-length diagonals. Must the two sticks be equal?",
+      "back": "Yes. Every type-Q quadrilateral has equal diagonals, so unequal sticks could never build a type-Q quadrilateral.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f22",
+      "sec": "9.5",
+      "front": "If equal diagonals mean type Q, does the sticks arrangement matter?",
+      "back": "No. Any arrangement of equal sticks gives equal diagonals, and that forces type Q.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch09-f23",
+      "sec": "9.5",
+      "front": "Name the truth patterns a proposition P and its converse can show.",
+      "back": "P true while its converse is false, both true, or both false — so test each direction separately.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gm-ch09-q1",
+      "sec": "9.1",
+      "q": "Which of these is a proposition?",
+      "options": [
+        "What a beautiful rainbow!",
+        "If two sides of a triangle are equal, then the angles opposite them are equal",
+        "Please find the value of x",
+        "Is 17 a prime number?"
+      ],
+      "answer": 1,
+      "why": "A proposition is a statement that is either true or false; the others are an exclamation, a request and a question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q2",
+      "sec": "9.1",
+      "q": "What is the converse of: if it rains, then the road is wet?",
+      "options": [
+        "If it does not rain, then the road is dry",
+        "If it rains, then the road is not wet",
+        "If the road is wet, then it has rained",
+        "If the road is not wet, then it has not rained"
+      ],
+      "answer": 2,
+      "why": "Forming the converse swaps the two parts: if Y then X, exactly as in Example 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q3",
+      "sec": "9.1",
+      "q": "Which number is a counterexample to: every multiple of 3 is a multiple of 6?",
+      "options": ["12", "3", "18", "6"],
+      "answer": 1,
+      "why": "3 is a multiple of 3 but not a multiple of 6, so it contradicts the converse statement Q.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q4",
+      "sec": "9.1",
+      "q": "Why is finding a suitable counterexample an important ingredient of mathematics?",
+      "options": [
+        "It proves the converse of the proposition",
+        "It shows the proposition holds for most cases",
+        "It is useful only when the proposition is about geometry",
+        "It shows a proposition is false in a short and convincing way"
+      ],
+      "answer": 3,
+      "why": "The book calls a counterexample a short and convincing way to show a proposition is false.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q5",
+      "sec": "9.1",
+      "q": "Fermat claimed every number of the form 2^(2^n)+1 is prime. What did Euler's counterexample establish?",
+      "options": [
+        "The claim is false, because one number of that form is composite",
+        "257 is not actually of that form",
+        "Every number of that form is composite",
+        "The converse of the claim must be true"
+      ],
+      "answer": 0,
+      "why": "One example that contradicts the claim is enough: Euler showed a number of the form 2^(2^n)+1 is composite.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch09-q6",
+      "sec": "9.2",
+      "q": "For the number 35, what is the partner factor of 5?",
+      "options": ["30", "40", "7", "12"],
+      "answer": 2,
+      "why": "5 × 7 = 35, so 7 is the partner factor of 5.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q7",
+      "sec": "9.2",
+      "q": "A number has an odd number of factors. What must it be?",
+      "options": ["A prime number", "A perfect square", "A multiple of 6", "An even number"],
+      "answer": 1,
+      "why": "An odd factor count forces a repeating pair (f, f), so the number is n = f × f.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q8",
+      "sec": "9.2",
+      "q": "In the pairing argument, why do two repeating pairs like (f, f) and (g, g) matter?",
+      "options": [
+        "They would make the factor count even, but a number cannot have more than one repeating pair",
+        "They prove every number has an odd number of factors",
+        "They show prime numbers have many partner factors",
+        "They only occur in triangles"
+      ],
+      "answer": 0,
+      "why": "Two repeating pairs would give an even count, but a number cannot have more than one, so squares end with an odd count.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch09-q9",
+      "sec": "9.2",
+      "q": "Which statement about triangles is true?",
+      "options": [
+        "If two triangles have the same area, then they are congruent",
+        "If two triangles are congruent, then they have the same area",
+        "Equal area always means equal sidelengths",
+        "Congruent triangles can have different areas"
+      ],
+      "answer": 1,
+      "why": "Congruent triangles have the same area; the same-area-then-congruent direction is the one Example 4 asks us to question.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q10",
+      "sec": "9.3",
+      "q": "What is the converse of the Baudhāyana–Pythagoras theorem?",
+      "options": [
+        "If a triangle is right-angled, then a^2 + b^2 = c^2",
+        "If a^2 + b^2 = c^2, then the triangle is right-angled",
+        "If a^2 + b^2 is not c^2, then the triangle is right-angled",
+        "If the triangle is not right-angled, then a^2 + b^2 = c^2"
+      ],
+      "answer": 1,
+      "why": "Keep the first sentence and flip the second: a^2 + b^2 = c^2 forces a right angle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q11",
+      "sec": "9.3",
+      "q": "'A number has an odd number of factors when it is a perfect square' means:",
+      "options": [
+        "If a number has an odd number of factors, then it is a perfect square",
+        "If a number is a perfect square, then it has an odd number of factors",
+        "The two properties are unrelated",
+        "Perfect squares never have an odd number of factors"
+      ],
+      "answer": 1,
+      "why": "'Y when X' carries the same meaning as 'if X then Y', as the note in the book explains.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q12",
+      "sec": "9.3",
+      "q": "In proving the converse, a right triangle XYZ is built with legs a and b. Why is XY = c?",
+      "options": [
+        "By the SSS criterion",
+        "Because XY is the longest side of any triangle",
+        "By the Baudhāyana–Pythagoras theorem, XY^2 = a^2 + b^2 = c^2",
+        "Because congruent triangles have equal hypotenuses"
+      ],
+      "answer": 2,
+      "why": "Apply the theorem to the right triangle XYZ: XY^2 = a^2 + b^2 = c^2, so XY = c; SSS comes after.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch09-q13",
+      "sec": "9.4",
+      "q": "In triangle ABC, the bisectors of the angles at B and C meet at a special point. Its name?",
+      "options": ["Centroid", "Circumcentre", "Orthocentre", "The incentre I"],
+      "answer": 3,
+      "why": "The book bisects the angles at B and C, and the bisectors meet at the incentre I.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q14",
+      "sec": "9.4",
+      "q": "In the book's equation proposition, if x = y, then:",
+      "options": [
+        "a - x = a - y only when a = 0",
+        "a + x = a + y, where x, y and a are any three numbers",
+        "x + y must equal a",
+        "a + x equals y alone"
+      ],
+      "answer": 1,
+      "why": "If x = y then a + x = a + y; this proposition and its converse are routinely used while solving equations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q15",
+      "sec": "9.4",
+      "q": "Which value of n is a counterexample to the claim: all numbers of the form n^2 + n + 11 are prime?",
+      "options": [
+        "n = 5, since 25 + 5 + 11 = 41",
+        "n = 3, since 9 + 3 + 11 = 23",
+        "n = 10, since 100 + 10 + 11 = 121 = 11 × 11",
+        "n = 1, since 1 + 1 + 11 = 13"
+      ],
+      "answer": 2,
+      "why": "121 = 11 × 11 is composite, so n = 10 contradicts the claim; the other three values give primes.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch09-q16",
+      "sec": "9.4",
+      "q": "A number is divisible by 2 and by 4. What follows about divisibility by 8?",
+      "options": [
+        "It must be divisible by 8",
+        "It is divisible by 8 only if it is odd",
+        "It need not be divisible by 8; for example 12 is not",
+        "Divisibility by 8 can never be checked"
+      ],
+      "answer": 2,
+      "why": "Divisible by 8 gives divisible by 2 and 4, but the converse fails: 12 is divisible by 2 and 4, not by 8.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q17",
+      "sec": "9.4",
+      "q": "To check divisibility by 3, what does the digit shortcut say?",
+      "options": [
+        "Multiply the digits and check the product for 3",
+        "Add the digits and check if the sum is a multiple of 3",
+        "Subtract the digits repeatedly",
+        "Check only the last digit"
+      ],
+      "answer": 1,
+      "why": "Add the digits of the number and check whether the sum is a multiple of 3.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch09-q18",
+      "sec": "9.5",
+      "q": "Q satisfies: if a quadrilateral is of type Q, then it has equal-length diagonals. What must you ensure while building Q with sticks?",
+      "options": [
+        "Sticks of any lengths, joined in any way",
+        "Unequal sticks, joined at the midpoint",
+        "Equal sticks, and the arrangement still matters",
+        "Equal sticks, joined only at right angles"
+      ],
+      "answer": 2,
+      "why": "Type Q forces equal diagonals, so sticks must be equal; but equal diagonals alone does not promise type Q.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch09-q19",
+      "sec": "9.5",
+      "q": "Now Q satisfies: if a quadrilateral has equal diagonals, then it is of type Q. How should you place two equal sticks?",
+      "options": [
+        "Only one special arrangement works",
+        "Any arrangement works, since equal diagonals then force type Q",
+        "They must be unequal first, then made equal",
+        "The arrangement matters as much as the length"
+      ],
+      "answer": 1,
+      "why": "Equal diagonals guarantee type Q, so it does not matter how the two sticks are put together.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch09-q20",
+      "sec": "9.5",
+      "q": "Which pattern can a proposition P and its converse show?",
+      "options": [
+        "Only both true",
+        "Only both false",
+        "P true with converse false, both true, or both false",
+        "Always exactly one of them is true"
+      ],
+      "answer": 2,
+      "why": "The chapter closes: true with a false converse, both true, or both false can all happen.",
+      "difficulty": "easy"
+    }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch09-e1",
+      "title": "Converse check for multiples",
+      "problem": "Consider the proposition P: if a number is a multiple of 6, then it is a multiple of 3. Justify P, then determine whether its converse Q is true, giving a counterexample if it is not.",
+      "steps": [
+        "Write P with symbols: if n is a multiple of 6, then n = 6 × k for some whole number k.",
+        "Rewrite n = 3 × (2 × k), which shows n is a multiple of 3, so proposition P is true.",
+        "The converse Q says: if a number is a multiple of 3, then it is a multiple of 6. Test the smallest multiple of 3.",
+        "Take 3: it equals 3 × 1, but 3 is not a multiple of 6, so 3 is a counterexample and Q is false."
+      ],
+      "answer": "P is true; its converse Q is false, with 3 as a counterexample."
+    },
+    {
+      "id": "gm-ch09-e2",
+      "title": "Odd factors meet perfect squares",
+      "problem": "Use factor-partner pairs to show that 25 has an odd number of factors while 12 does not, and connect this to the perfect square property.",
+      "steps": [
+        "Pair the factors of 12: (1, 12), (2, 6) and (3, 4). Every factor has a distinct partner, so 12 has 6 factors, an even number.",
+        "Pair the factors of 25: (1, 25) and (5, 5). Here 5 is its own partner, so the pair (5, 5) repeats.",
+        "The factors of 25 are 1, 5 and 25 — that is 3 factors, an odd number, and 25 = 5 × 5 is a perfect square.",
+        "Generalise: an odd factor count means one repeating pair (f, f), so n = f × f; and a square has exactly one such pair, so its factor count is odd."
+      ],
+      "answer": "12 has an even number of factors and is not a square; 25 has an odd number of factors and is a perfect square — each fact implies the other."
+    },
+    {
+      "id": "gm-ch09-e3",
+      "title": "Proving the Baudhāyana–Pythagoras converse",
+      "problem": "Let a, b, c be the sidelengths of a triangle ABC with a^2 + b^2 = c^2. Show that triangle ABC is right-angled.",
+      "steps": [
+        "Construct a right-angled triangle XYZ whose legs a and b meet at the right angle.",
+        "Apply the Baudhāyana–Pythagoras theorem to XYZ: the hypotenuse satisfies XY^2 = a^2 + b^2.",
+        "Since a^2 + b^2 = c^2, we get XY^2 = c^2, so XY = c.",
+        "Now triangle ABC and triangle XYZ both have sidelengths a, b, c, so they are congruent by the SSS criterion.",
+        "The congruence matches the right angle of XYZ with the corresponding angle of ABC, so ABC had to be a right triangle after all."
+      ],
+      "answer": "The converse is true: if a^2 + b^2 = c^2, then the triangle is right-angled."
+    },
+    {
+      "id": "gm-ch09-e4",
+      "title": "Counterexample hunt for prime claims",
+      "problem": "Find counterexamples to two claims from the exercise: (i) all numbers of the form n^2 + n + 11 are prime; (ii) if n is a prime number, then 2^n - 1 is a prime number.",
+      "steps": [
+        "For claim (i), compute n^2 + n + 11 for small n: n = 1 gives 13, n = 3 gives 23, n = 5 gives 41 — all prime so far.",
+        "At n = 10: 10^2 + 10 + 11 = 121 = 11 × 11, which is composite. So n = 10 is a counterexample and claim (i) is false.",
+        "For claim (ii), test prime n: n = 2 gives 3, n = 3 gives 7, n = 5 gives 31 — all prime so far.",
+        "At n = 11: 2^11 - 1 = 2048 - 1 = 2047 = 23 × 89, which is composite. So n = 11 is a counterexample and claim (ii) is false."
+      ],
+      "answer": "Claim (i) falls at n = 10, where 121 is composite; claim (ii) falls at n = 11, where 2047 is composite."
+    }
+  ],
+  "conceptMap": {
+    "center": "Propositions and Number Patterns",
+    "groups": [
+      { "id": "g1", "label": "If-Then Language" },
+      { "id": "g2", "label": "Testing Truth" },
+      { "id": "g3", "label": "Number Patterns" },
+      { "id": "g4", "label": "Geometry Links" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Proposition", "group": "g1" },
+      { "id": "n2", "label": "Converse", "group": "g1" },
+      { "id": "n3", "label": "X implies Y", "group": "g1" },
+      { "id": "n4", "label": "Counterexample", "group": "g2" },
+      { "id": "n5", "label": "Fermat vs Euler", "group": "g2" },
+      { "id": "n6", "label": "Pairing argument", "group": "g2" },
+      { "id": "n7", "label": "Factor-partner pairs", "group": "g3" },
+      { "id": "n8", "label": "Perfect square", "group": "g3" },
+      { "id": "n9", "label": "Odd number of factors", "group": "g3" },
+      { "id": "n10", "label": "Prime-generating claims", "group": "g3" },
+      { "id": "n11", "label": "Baudhāyana–Pythagoras", "group": "g4" },
+      { "id": "n12", "label": "Right triangle", "group": "g4" },
+      { "id": "n13", "label": "SSS congruence", "group": "g4" },
+      { "id": "n14", "label": "Incentre proposition", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "swap the parts" },
+      { "from": "n1", "to": "n3", "label": "same meaning" },
+      { "from": "n2", "to": "n4", "label": "checked by" },
+      { "from": "n5", "to": "n4", "label": "felled by one number" },
+      { "from": "n10", "to": "n4", "label": "one n is enough" },
+      { "from": "n6", "to": "n7", "label": "works with pairs" },
+      { "from": "n7", "to": "n9", "label": "partners pair up" },
+      { "from": "n9", "to": "n8", "label": "so n = f × f" },
+      { "from": "n8", "to": "n9", "label": "one repeating pair" },
+      { "from": "n6", "to": "n8", "label": "proves both ways" },
+      { "from": "n11", "to": "n12", "label": "right angle gives" },
+      { "from": "n12", "to": "n11", "label": "converse also true" },
+      { "from": "n11", "to": "n13", "label": "converse proved with" },
+      { "from": "n13", "to": "n12", "label": "fixes the angle" },
+      { "from": "n14", "to": "n1", "label": "a proposition" }
+    ]
+  },
+  "flowchart": {
+    "title": "How propositions and patterns flow",
+    "steps": [
+      { "id": "s1", "label": "Meet a proposition", "detail": "A statement that is either true or false, written as if X then Y." },
+      { "id": "s2", "label": "Frame the converse", "detail": "Swap the parts to get if Y then X, like the two triangle statements." },
+      { "id": "s3", "label": "Test proposition P", "detail": "Justify true statements with a proof, as with multiples of 6 and 3." },
+      { "id": "s4", "label": "Hunt counterexamples", "detail": "One contradicting example, like the wet road from a tanker, fells a false claim." },
+      { "id": "s5", "label": "Compare P and Q", "detail": "Both true, one true, or both false — each pattern can occur." },
+      { "id": "s6", "label": "Explore number patterns", "detail": "Factor-partner pairs link perfect squares with odd numbers of factors." },
+      { "id": "s7", "label": "Explore geometry links", "detail": "The converse of Baudhāyana–Pythagoras is proved using SSS congruence." },
+      { "id": "s8", "label": "Apply with care", "detail": "Use if-then reasoning in equations, divisibility checks and stick constructions." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [4, 6], [5, 7], [6, 7]]
+  }
+}

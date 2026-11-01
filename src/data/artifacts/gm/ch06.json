@@ -1,0 +1,582 @@
+{
+  "book": "gm",
+  "chapter": 6,
+  "title": "Measuring Space: Perimeter and Area",
+  "grade": 9,
+  "sections": [
+    { "id": "6.1", "title": "Perimeter of a Shape" },
+    { "id": "6.2", "title": "Perimeter of a Circle — The C/D Ratio" },
+    { "id": "6.4", "title": "Length of an Arc of a Circle" },
+    { "id": "6.5", "title": "Problems, Puzzles, and Paradoxes on Perimeter" },
+    { "id": "6.6", "title": "Area of a Rectangle" },
+    { "id": "6.8", "title": "Area of a Triangle" },
+    { "id": "6.9", "title": "Squaring a Rectangle" },
+    { "id": "6.10", "title": "Area of a Circle" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch06-s1",
+      "sec": "6.1",
+      "title": "Walk the Border",
+      "kicker": "An insect shows you what perimeter means",
+      "bullets": [
+        "Perimeter is the total length around the border of any shape.",
+        "Imagine a tiny insect walking around the border, never turning back, till it returns to its starting point.",
+        "The total distance the insect travels is the perimeter of the shape.",
+        "Perimeter is a length, so it is measured in units like cm or m."
+      ],
+      "visual": { "kind": "labels", "items": ["border", "one full walk", "back to start", "total distance"] },
+      "note": "Chalte chalte, the insect measures the whole boundary!"
+    },
+    {
+      "id": "gm-ch06-s2",
+      "sec": "6.1",
+      "title": "Three Perimeter Formulas",
+      "kicker": "Square, triangle, rectangle in one breath",
+      "bullets": [
+        "A square with side a units has perimeter 4a units.",
+        "An equilateral triangle with side a units has perimeter 3a units.",
+        "A rectangle with length a units and width b units has perimeter 2(a + b) units.",
+        "The square formula is a special case of the rectangle formula: put a = b and 2(a + b) becomes 4a."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Square and triangle", "items": ["square, side a: perimeter 4a", "equilateral triangle, side a: perimeter 3a"] },
+        "right": { "title": "Rectangle", "items": ["length a, width b: 2(a + b)", "square is the case a = b"] }
+      }
+    },
+    {
+      "id": "gm-ch06-s3",
+      "sec": "6.1",
+      "title": "Same Shape, Same Ratio",
+      "kicker": "Double the side, double the perimeter",
+      "bullets": [
+        "Double a square's side and its perimeter doubles too: side 2 has perimeter 8, side 4 has perimeter 16.",
+        "The ratio of perimeter to side stays fixed at 4:1 for every square, big or small.",
+        "For equilateral triangles the ratio of perimeter to side is always 3:1.",
+        "For a circle the same question becomes: is the ratio of circumference C to diameter D the same for all sizes?"
+      ],
+      "visual": { "kind": "steps", "items": ["square side 2, perimeter 8", "square side 4, perimeter 16", "ratio stays 4:1", "next: the circle question"] },
+      "note": "This ratio habit leads straight to pi."
+    },
+    {
+      "id": "gm-ch06-s4",
+      "sec": "6.2",
+      "title": "One Ratio for Every Circle",
+      "kicker": "Big or small, C over D never changes",
+      "bullets": [
+        "In ancient days people realised that the ratio of circumference to diameter does not change if we change the size of the circle.",
+        "The book calls this the C/D ratio of the circle.",
+        "The whole game is to find its value: how would you estimate it?"
+      ],
+      "visual": { "kind": "labels", "items": ["circumference C", "diameter D", "C/D", "same for all circles"] }
+    },
+    {
+      "id": "gm-ch06-s5",
+      "sec": "6.2",
+      "title": "The Cotton Reel Experiment",
+      "kicker": "Thread, a reel, and pi at home",
+      "bullets": [
+        "Measure the diameter D of a cotton reel as accurately as you can.",
+        "Tightly wrap very thin thread around the reel 20 times, unwrap, and measure the total length L.",
+        "Compute L/(20D): this is the C/D ratio you want.",
+        "Do you get a ratio between 3 and 4? Between 3.1 and 3.2? Please do the experiment!"
+      ],
+      "visual": { "kind": "steps", "items": ["measure diameter D", "wrap thread 20 times", "unwrap and measure L", "compute L/(20D)"] },
+      "note": "Ghar pe hi pi mil jayega!"
+    },
+    {
+      "id": "gm-ch06-s6",
+      "sec": "6.2",
+      "title": "Meet Pi",
+      "kicker": "Say pie, not pizza",
+      "bullets": [
+        "The C/D ratio is the famous constant we now call π, said as 'pie' and not as in 'pizza'.",
+        "π is a bridge between many different areas of mathematics.",
+        "It connects the straight-edged world of polygons with the infinite curves of nature.",
+        "Early civilisations relied on practical, good-enough values of π for construction and trade."
+      ],
+      "visual": { "kind": "labels", "items": ["π = C/D", "polygons", "curves", "good-enough values"] }
+    },
+    {
+      "id": "gm-ch06-s7",
+      "sec": "6.2",
+      "title": "Mesopotamia to Archimedes",
+      "kicker": "Pi's adventurous journey through history",
+      "bullets": [
+        "In Mesopotamia, c. 1900 BCE, mathematicians moved beyond the crude integer value 3.",
+        "A circle's perimeter is slightly larger than its inscribed hexagon, so π > 3; they set π = 3 + 1/8 = 3.125.",
+        "By 250 BCE, Archimedes of Syracuse trapped π between the perimeters of inscribed and circumscribed polygons.",
+        "Hexagons gave 3 < π < 2 sqrt(3) ≈ 3.46, and Archimedes worked his way up to 96-sided polygons."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Mesopotamia, c. 1900 BCE", "items": ["circle is bigger than inscribed hexagon", "so π is bigger than 3", "they used π = 3 + 1/8 = 3.125"] },
+        "right": { "title": "Archimedes, 250 BCE", "items": ["inscribed and circumscribed polygons", "hexagons: 3 < π < 2 sqrt(3) ≈ 3.46", "pushed on to 96-sided polygons"] }
+      },
+      "note": "The journey's destination: the exact formula of Mādhava."
+    },
+    {
+      "id": "gm-ch06-s8",
+      "sec": "6.4",
+      "title": "Half a Circle's Arc",
+      "kicker": "Fold the circle and count",
+      "bullets": [
+        "A circle of diameter d has circumference πd; since the diameter is twice the radius, this is 2πr.",
+        "Reflect the circle in the diameter AB: the red and blue semicircles exchange places, so they have equal length.",
+        "Each semicircular arc is therefore 2πr ÷ 2 = πr.",
+        "Rotating the figure by 180° about the centre O gives the very same result."
+      ],
+      "visual": { "kind": "flow", "items": ["full circle: 2πr", "two equal semicircles", "each arc: πr"] }
+    },
+    {
+      "id": "gm-ch06-s9",
+      "sec": "6.4",
+      "title": "Quarter Circles Too",
+      "kicker": "A 90 degree turn shares the arc",
+      "bullets": [
+        "Four quarter circles make a full circle.",
+        "Rotate the whole figure through 90°: each quarter circle moves and covers another quarter circle.",
+        "So each quarter-circle arc has the same length, 2πr ÷ 4 = πr/2.",
+        "These formulas also read 2πr × 180°/360° for the semicircle and 2πr × 90°/360° for the quarter circle."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Semicircle", "items": ["half of a full turn", "length 2πr ÷ 2 = πr"] },
+        "right": { "title": "Quarter circle", "items": ["quarter of a full turn", "length 2πr ÷ 4 = πr/2"] }
+      }
+    },
+    {
+      "id": "gm-ch06-s10",
+      "sec": "6.4",
+      "title": "Any Arc, Any Angle",
+      "kicker": "The theta formula for curved pieces",
+      "bullets": [
+        "An arc AB subtends an angle θ° at the centre O of the circle.",
+        "The arc is the fraction θ°/360° of the full circumference.",
+        "So the length of the arc is 2πr × θ°/360°.",
+        "Check it: θ = 180 gives πr, a semicircle; θ = 90 gives πr/2, a quarter circle."
+      ],
+      "visual": { "kind": "steps", "items": ["arc AB subtends angle θ at centre O", "fraction of full turn: θ/360", "arc length = 2πr × θ/360"] },
+      "note": "Fraction of the turn decides fraction of the arc."
+    },
+    {
+      "id": "gm-ch06-s11",
+      "sec": "6.4",
+      "title": "The 400 m Track",
+      "kicker": "Semicircles hiding in a race track",
+      "bullets": [
+        "The track has two straight sections of 84.39 m each, and two curved portions that are semicircles with a common centre.",
+        "The innermost semicircle on each side has radius 36.5 m, and the width of each lane is 1.22 m.",
+        "An athlete running 0.3 m from the inner border covers two straights totalling 168.78 m.",
+        "Her two semicircular ends join into one circle of radius 36.5 + 0.3 = 36.8 m, about 231 m; the whole circuit is about 400 m."
+      ],
+      "visual": { "kind": "steps", "items": ["two straights: 2 × 84.39 = 168.78 m", "curved ends: one circle of radius 36.8 m", "2π × 36.8 ≈ 231 m", "total ≈ 400 m"] },
+      "note": "That is why it is called a 400 m track!"
+    },
+    {
+      "id": "gm-ch06-s12",
+      "sec": "6.5",
+      "title": "Two Circles, One Puzzle",
+      "kicker": "Each circle passes through the other's centre",
+      "bullets": [
+        "Two equal circles of radius r are placed so that each passes through the centre of the other, at A and B.",
+        "They intersect at C and D, and triangle ABC has AB = AC = BC = r, so it is equilateral.",
+        "Hence angle CAB = 60° and angle BAD = 60°, giving angle CAD = 120°.",
+        "Each dotted arc, the part lying inside the other circle, is 1/3 of the circumference of its circle."
+      ],
+      "visual": { "kind": "steps", "items": ["triangle of centres is equilateral", "angles at a centre add to 120°", "dotted arcs are one-third each"] }
+    },
+    {
+      "id": "gm-ch06-s13",
+      "sec": "6.5",
+      "title": "Counting the Red Arcs",
+      "kicker": "What remains after the dotted thirds",
+      "bullets": [
+        "If each dotted arc is 1/3 of the circumference, each red arc is 2/3 of it.",
+        "One full circumference is 2πr, so each red arc measures (2/3) × 2πr.",
+        "The two red arcs together measure 2 × (2/3) × 2πr = 8πr/3."
+      ],
+      "visual": { "kind": "flow", "items": ["dotted arc: 1/3 of 2πr", "red arc: 2/3 of 2πr", "two red arcs: 8πr/3"] },
+      "note": "Draw it, then trust the angles."
+    },
+    {
+      "id": "gm-ch06-s14",
+      "sec": "6.5",
+      "title": "The Semicircle Paradox",
+      "kicker": "One big arc or three small ones?",
+      "bullets": [
+        "Path 1 is one big semicircle a over PQ; path 2 is three semicircles b, c and d over the same PQ.",
+        "With radii a', b', c' and d', the lengths are πa' and π(b' + c' + d').",
+        "PQ equals both 2a' and 2b' + 2c' + 2d', so a' = b' + c' + d'.",
+        "The two paths have exactly equal length. Surprise!"
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Path 1", "items": ["one semicircle a", "length πa'"] },
+        "right": { "title": "Path 2", "items": ["three semicircles b, c, d", "length π(b' + c' + d')"] }
+      },
+      "note": "Same endpoints, same length: count on algebra."
+    },
+    {
+      "id": "gm-ch06-s15",
+      "sec": "6.6",
+      "title": "From Boundary to Space",
+      "kicker": "Area counts the space inside",
+      "bullets": [
+        "From perimeter we move to area, the amount of space occupied by a two-dimensional region in a plane.",
+        "Measurement is always relative to something we call a unit.",
+        "For area the unit is a 1 × 1 square, whose area is taken as 1 unit^2, also written 1 sq. unit."
+      ],
+      "visual": { "kind": "labels", "items": ["2-D region", "unit of area", "1 × 1 square", "1 sq. unit"] }
+    },
+    {
+      "id": "gm-ch06-s16",
+      "sec": "6.6",
+      "title": "Tiling with Unit Squares",
+      "kicker": "Rows times columns of little squares",
+      "bullets": [
+        "Cover a rectangle with unit squares: a squares in each row, b rows in all.",
+        "The count is a × b, so a rectangle with sides a units and b units has area ab sq. units.",
+        "You know this from Grade 8; tiling shows you why it works."
+      ],
+      "visual": { "kind": "steps", "items": ["tile with 1 × 1 squares", "a squares in each row", "b rows in all", "area = a × b sq. units"] }
+    },
+    {
+      "id": "gm-ch06-s17",
+      "sec": "6.6",
+      "title": "Squares and Strips",
+      "kicker": "Special rectangles, same idea",
+      "bullets": [
+        "A square of side a units is a rectangle with a = b, so its area is a^2 sq. units.",
+        "A strip 1 unit wide and b units long has area b sq. units.",
+        "One formula, ab, covers every rectangle."
+      ],
+      "visual": { "kind": "tree", "root": "Rectangle area ab", "children": ["square a × a gives a^2", "strip 1 × b gives b", "general a × b"] }
+    },
+    {
+      "id": "gm-ch06-s18",
+      "sec": "6.8",
+      "title": "A Triangle in a Box",
+      "kicker": "Enclose it, then take half",
+      "bullets": [
+        "To find a triangle's area, enclose the triangle in a rectangle with the same base b and height h.",
+        "Use the rectangle formula, then notice that the triangle fills exactly half of the rectangle.",
+        "So a triangle with base b units and height h units has area (1/2)bh sq. units.",
+        "For an obtuse triangle the base splits as b = b1 + b2, and the same halving works."
+      ],
+      "visual": { "kind": "flow", "items": ["enclose triangle in rectangle", "rectangle area = bh", "triangle takes half", "area = bh/2"] }
+    },
+    {
+      "id": "gm-ch06-s19",
+      "sec": "6.8",
+      "title": "Two Copies, One Parallelogram",
+      "kicker": "A slicker route to bh/2",
+      "bullets": [
+        "Take two congruent copies of a triangle and fit them together.",
+        "They form a parallelogram with base b and height h, whose area is bh.",
+        "Matching angles, like angle B'C'A' with angle BCA, show why the sides fit parallel.",
+        "So each triangle is half the parallelogram: area = (1/2)bh."
+      ],
+      "visual": { "kind": "steps", "items": ["copy the triangle", "fit the copy alongside", "get a parallelogram of area bh", "one triangle is bh/2"] }
+    },
+    {
+      "id": "gm-ch06-s20",
+      "sec": "6.8",
+      "title": "The Median Theorem",
+      "kicker": "One cut, two equal areas",
+      "bullets": [
+        "A median joins a vertex to the midpoint of the opposite side; AD is a median of triangle ABC.",
+        "With BC = 2a, the bases BD and DC are equal, and both small triangles have the same height h.",
+        "Each has area ah/2 sq. units, so the median splits the triangle into two equal areas.",
+        "Surprise: the two pieces are, in general, differently shaped!"
+      ],
+      "visual": { "kind": "labels", "items": ["median AD", "BD = DC", "equal height h", "equal areas"] },
+      "note": "A theorem worth telling your friends."
+    },
+    {
+      "id": "gm-ch06-s21",
+      "sec": "6.9",
+      "title": "What Squaring Meant",
+      "kicker": "Build a square of equal area",
+      "bullets": [
+        "In ancient times, to square a given shape meant to construct a square equal in area to that shape.",
+        "The shape could be a rectangle, a triangle, or a circle.",
+        "Baudhāyana's Śhulbasūtra (800 BCE) shows how to square a rectangle with sides a and b, where a > b.",
+        "The target: construct a square with area ab sq. units."
+      ],
+      "visual": { "kind": "labels", "items": ["square a shape", "equal area", "Baudhāyana", "Śhulbasūtra, 800 BCE"] }
+    },
+    {
+      "id": "gm-ch06-s22",
+      "sec": "6.9",
+      "title": "Baudhāyana's Construction",
+      "kicker": "Ancient steps, still exact today",
+      "bullets": [
+        "In rectangle ABCD with AD = a and AB = b, mark E on AD with AE = AB, and let F be the midpoint of ED.",
+        "Draw square AFGH with side AF and vertex H on AB produced.",
+        "Draw arc AG with centre H, cutting side BC at K.",
+        "Through K draw a line parallel to AH meeting GH at P; the square HPQS on HP has the same area as rectangle ABCD."
+      ],
+      "visual": { "kind": "steps", "items": ["mark E with AE = AB", "F is the midpoint of ED", "square AFGH on side AF", "arc from H cuts BC at K", "square HPQS on HP"] }
+    },
+    {
+      "id": "gm-ch06-s23",
+      "sec": "6.9",
+      "title": "Why the Construction Works",
+      "kicker": "Pythagoras finishes the proof",
+      "bullets": [
+        "From AE = b we get AF = (a + b)/2, and HK = (a + b)/2 as well, because HK is a radius of the arc.",
+        "Also BH = AH − AB = (a + b)/2 − b = (a − b)/2.",
+        "In the right-angled triangle HKP, the Baudhāyana-Pythagoras theorem gives HP^2 = HK^2 − BH^2.",
+        "So HP^2 = ((a+b)/2)^2 − ((a-b)/2)^2 = ab, and square HPQS equals the rectangle in area."
+      ],
+      "visual": { "kind": "steps", "items": ["HK = (a+b)/2", "BH = (a-b)/2", "HP^2 = HK^2 − BH^2", "HP^2 = ab"] }
+    },
+    {
+      "id": "gm-ch06-s24",
+      "sec": "6.9",
+      "title": "An Identity in Disguise",
+      "kicker": "Algebra you can draw with a compass",
+      "bullets": [
+        "The construction is a geometrical translation of ((a+b)/2)^2 − ((a-b)/2)^2 = ab.",
+        "Notice how a difference of squares sits inside a compass-and-line drawing.",
+        "Think and Reflect: what procedure would you use to square a given triangle?"
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Algebra", "items": ["((a+b)/2)^2 − ((a-b)/2)^2", "the difference equals ab"] },
+        "right": { "title": "Geometry", "items": ["HK minus BH in triangle HKP", "square HPQS of area ab"] }
+      },
+      "note": "Baudhāyana draws the difference of two squares!"
+    },
+    {
+      "id": "gm-ch06-s25",
+      "sec": "6.10",
+      "title": "Humans Love Circles",
+      "kicker": "Rope, peg, and thousands of years",
+      "bullets": [
+        "A circle is extremely basic: with a rope and a peg to tie it to, you can draw one.",
+        "Human beings have used the circular shape in settlements, buildings and tools for thousands of years.",
+        "They needed circle areas for cylindrical grain towers, circular gardens and buildings, for planning cities and for tax purposes."
+      ],
+      "visual": { "kind": "labels", "items": ["rope and peg", "grain towers", "gardens", "city planning"] }
+    },
+    {
+      "id": "gm-ch06-s26",
+      "sec": "6.10",
+      "title": "Scaling Keeps Ratios",
+      "kicker": "Why C squared over A must be fixed",
+      "bullets": [
+        "For a square of side a: perimeter P = 4a and area A = a^2, so P^2 : A = 16a^2 : a^2 = 16 : 1.",
+        "This ratio is 16 : 1 for all squares; it does not depend on the size of the square.",
+        "For an equilateral triangle, P^2 : A is likewise one fixed value for all sizes.",
+        "As we change the scale of any shape, the ratio P^2 : A depends only on the shape, not on its scale."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Square", "items": ["P = 4a", "A = a^2", "P^2 : A = 16 : 1"] },
+        "right": { "title": "Equilateral triangle", "items": ["P = 3a", "a fixed ratio too", "same for every size"] }
+      }
+    },
+    {
+      "id": "gm-ch06-s27",
+      "sec": "6.10",
+      "title": "Babylonians and Egyptians",
+      "kicker": "Two ancient formulas for circle area",
+      "bullets": [
+        "For a circle too, the ratio C^2 : A must be some fixed constant.",
+        "Well before 1500 BCE, Babylonians measured the constant as close to 12, giving the formula A ≈ C^2/12.",
+        "Around 1500 BCE, Egyptians came up with A ≈ (8d/9)^2, where d is the diameter of the circle.",
+        "Since d = 2r, the Egyptian formula works out to about 3.16 r^2, much more accurate."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Babylonians", "items": ["measured C^2 : A ≈ 12 : 1", "formula A ≈ C^2/12"] },
+        "right": { "title": "Egyptians, c. 1500 BCE", "items": ["formula A ≈ (8d/9)^2", "equals about 3.16 r^2"] }
+      }
+    },
+    {
+      "id": "gm-ch06-s28",
+      "sec": "6.10",
+      "title": "Landing on πr^2",
+      "kicker": "The ratio story meets pi",
+      "bullets": [
+        "The circumference is C = 2πr, so C^2 = 4π^2 r^2.",
+        "The fixed ratio works out to C^2 : A = 4π : 1, about 12.57 : 1, close to the Babylonian 12 : 1.",
+        "Solving gives the area of a circle: A = C^2/(4π) = πr^2 sq. units.",
+        "From the insect's walk to Mādhava's exact formula, the circle is now fully measured."
+      ],
+      "visual": { "kind": "flow", "items": ["C = 2πr", "C^2 : A = 4π : 1", "A = πr^2"] },
+      "note": "Spot the gap, ask the question: that is how the book teaches."
+    }
+  ],
+  "flashcards": [
+    { "id": "gm-ch06-f1", "sec": "6.1", "front": "What is the perimeter of a shape?", "back": "The total length around its border, like an insect's full walk around the shape back to its starting point.", "tag": "definition" },
+    { "id": "gm-ch06-f2", "sec": "6.1", "front": "What is the perimeter of a rectangle with length a and width b?", "back": "2(a + b) units. The square formula 4a is the special case a = b.", "tag": "formula" },
+    { "id": "gm-ch06-f3", "sec": "6.1", "front": "What ratio of perimeter to side does every square have?", "back": "4:1. It stays fixed whether the square grows larger or smaller.", "tag": "concept" },
+    { "id": "gm-ch06-f4", "sec": "6.1", "front": "What do we call the perimeter of a circle?", "back": "The circumference. The book then asks: is the ratio of circumference C to diameter D the same for circles of all sizes?", "tag": "trivia" },
+    { "id": "gm-ch06-f5", "sec": "6.2", "front": "What is the C/D ratio of a circle?", "back": "The ratio of its circumference to its diameter. It does not change when the size of the circle changes.", "tag": "definition" },
+    { "id": "gm-ch06-f6", "sec": "6.2", "front": "In the cotton reel experiment, what do you compute?", "back": "L/(20D), where L is the length of thread wrapped tightly 20 times around a reel of diameter D.", "tag": "formula" },
+    { "id": "gm-ch06-f7", "sec": "6.2", "front": "What value of π did Mesopotamian mathematicians use around 1900 BCE?", "back": "3 + 1/8 = 3.125, since the circle is slightly larger than its inscribed hexagon, so π must be larger than 3.", "tag": "trivia" },
+    { "id": "gm-ch06-f8", "sec": "6.2", "front": "How did Archimedes trap the value of π?", "back": "Between the perimeters of inscribed and circumscribed polygons; hexagons gave 3 < π < 2 sqrt(3) ≈ 3.46.", "tag": "concept" },
+    { "id": "gm-ch06-f9", "sec": "6.4", "front": "What is the circumference of a circle of radius r?", "back": "2πr units. In terms of the diameter d it is πd, and d = 2r.", "tag": "formula" },
+    { "id": "gm-ch06-f10", "sec": "6.4", "front": "What is the arc length of a semicircle of radius r?", "back": "πr, because reflecting in the diameter swaps the two equal semicircular arcs: 2πr ÷ 2 = πr.", "tag": "formula" },
+    { "id": "gm-ch06-f11", "sec": "6.4", "front": "What is the length of an arc subtending θ° at the centre?", "back": "2πr × θ°/360°, the same fraction of the circumference as the angle is of a full turn.", "tag": "formula" },
+    { "id": "gm-ch06-f12", "sec": "6.4", "front": "Why does a track runner's curved distance form one full circle?", "back": "The two curved ends are semicircles with a common centre, so together they make one circle of radius 36.8 m (36.5 + 0.3).", "tag": "concept" },
+    { "id": "gm-ch06-f13", "sec": "6.5", "front": "In the two-circle puzzle, why is angle CAD 120°?", "back": "Triangle ABC has all sides r, so it is equilateral; angle CAB = 60° and angle BAD = 60° add up to 120°.", "tag": "concept" },
+    { "id": "gm-ch06-f14", "sec": "6.5", "front": "What is the total length of the two red arcs in the two-circle puzzle?", "back": "8πr/3, because each red arc is 2/3 of a circumference 2πr, and there are two of them.", "tag": "formula" },
+    { "id": "gm-ch06-f15", "sec": "6.5", "front": "One semicircle or three: which path from P to Q is longer?", "back": "Neither. The radii satisfy a' = b' + c' + d', so πa' = π(b' + c' + d'): the two paths are equal.", "tag": "concept" },
+    { "id": "gm-ch06-f16", "sec": "6.6", "front": "What does area measure?", "back": "The amount of space occupied by a two-dimensional region in a plane.", "tag": "definition" },
+    { "id": "gm-ch06-f17", "sec": "6.6", "front": "What is the unit of area?", "back": "A 1 × 1 square; its area is taken as 1 unit^2, also written 1 sq. unit.", "tag": "definition" },
+    { "id": "gm-ch06-f18", "sec": "6.6", "front": "What is the area of a rectangle with sides a and b?", "back": "ab sq. units, found by tiling with unit squares: a squares per row and b rows.", "tag": "formula" },
+    { "id": "gm-ch06-f19", "sec": "6.6", "front": "What is the area of a square of side a?", "back": "a^2 sq. units. A square is just a rectangle whose length and width are both a.", "tag": "formula" },
+    { "id": "gm-ch06-f20", "sec": "6.8", "front": "What is the area of a triangle with base b and height h?", "back": "(1/2)bh sq. units, half the area of the rectangle or parallelogram that encloses it.", "tag": "formula" },
+    { "id": "gm-ch06-f21", "sec": "6.8", "front": "How do two congruent copies of a triangle give its area?", "back": "They fit together to make a parallelogram of area bh, so one triangle is half of it.", "tag": "concept" },
+    { "id": "gm-ch06-f22", "sec": "6.8", "front": "What does a median of a triangle do to its area?", "back": "It divides the triangle into two triangles of equal area, even though the two pieces are usually differently shaped.", "tag": "concept" },
+    { "id": "gm-ch06-f23", "sec": "6.9", "front": "What did 'to square a shape' mean in ancient times?", "back": "To construct a square equal in area to that shape, whether the shape was a rectangle, a triangle or a circle.", "tag": "definition" },
+    { "id": "gm-ch06-f24", "sec": "6.9", "front": "Whose 800 BCE text shows how to square a rectangle?", "back": "Baudhāyana's, in his Śhulbasūtra. It builds a square with the same area ab as a rectangle with sides a and b.", "tag": "trivia" },
+    { "id": "gm-ch06-f25", "sec": "6.9", "front": "Which identity is Baudhāyana's construction a picture of?", "back": "((a+b)/2)^2 − ((a-b)/2)^2 = ab, read off the right triangle HKP using the Baudhāyana-Pythagoras theorem.", "tag": "formula" },
+    { "id": "gm-ch06-f26", "sec": "6.9", "front": "In the construction, what are HK and BH in terms of a and b?", "back": "HK = (a+b)/2, being a radius, and BH = (a-b)/2, so HP^2 = HK^2 − BH^2 = ab.", "tag": "concept" },
+    { "id": "gm-ch06-f27", "sec": "6.10", "front": "For any square, what is the ratio P^2 : A?", "back": "16 : 1, whatever its size, since P = 4a and A = a^2.", "tag": "concept" },
+    { "id": "gm-ch06-f28", "sec": "6.10", "front": "What was the Babylonian formula for the area of a circle?", "back": "A ≈ C^2/12, from measuring that the ratio C^2 : A is close to 12 : 1, well before 1500 BCE.", "tag": "trivia" },
+    { "id": "gm-ch06-f29", "sec": "6.10", "front": "What was the Egyptian area formula for a circle, around 1500 BCE?", "back": "A ≈ (8d/9)^2, where d is the diameter; it is much more accurate than the Babylonian formula.", "tag": "trivia" },
+    { "id": "gm-ch06-f30", "sec": "6.10", "front": "What is the area of a circle of radius r?", "back": "A = πr^2 sq. units. With C = 2πr, the fixed ratio C^2 : A works out to 4π : 1.", "tag": "formula" }
+  ],
+  "quiz": [
+    { "id": "gm-ch06-q1", "sec": "6.1", "q": "A square has side 5 cm. What is its perimeter?", "options": ["20 cm", "25 cm", "10 cm", "15 cm"], "answer": 0, "why": "Perimeter of a square is 4 × side, and 4 × 5 = 20 cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q2", "sec": "6.1", "q": "An equilateral triangle has side 7 cm. What is its perimeter?", "options": ["14 cm", "49 cm", "21 cm", "28 cm"], "answer": 2, "why": "The ratio of perimeter to side is 3:1, so 3 × 7 = 21 cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q3", "sec": "6.1", "q": "A rectangle has length 8 cm and width 3 cm. Its perimeter is", "options": ["11 cm", "22 cm", "24 cm", "16 cm"], "answer": 1, "why": "2(a + b) = 2 × 11 = 22 cm. Picking 11 forgets to double; 24 confuses with the area 8 × 3.", "difficulty": "medium" },
+    { "id": "gm-ch06-q4", "sec": "6.1", "q": "The side of a square grows from 3 units to 6 units. Its perimeter changes from 12 units to", "options": ["24 units", "18 units", "36 units", "12 units"], "answer": 0, "why": "Doubling the side doubles the perimeter; the ratio 4:1 never changes.", "difficulty": "hard" },
+    { "id": "gm-ch06-q5", "sec": "6.2", "q": "The constant C/D of any circle is better known as", "options": ["the radius", "the area", "the chord", "π"], "answer": 3, "why": "The ratio of circumference to diameter is the famous constant π, said as 'pie'.", "difficulty": "easy" },
+    { "id": "gm-ch06-q6", "sec": "6.2", "q": "You wrap thread 20 times around a reel of diameter D and measure the total length L. The C/D ratio is", "options": ["L/D", "20L/D", "L/(20D)", "L/20"], "answer": 2, "why": "One full wrap has length L/20, and dividing by the diameter D gives the C/D ratio.", "difficulty": "easy" },
+    { "id": "gm-ch06-q7", "sec": "6.2", "q": "Mesopotamian mathematicians concluded that π is larger than 3 because", "options": ["the circle's perimeter is slightly larger than its inscribed hexagon", "they measured many circles and averaged the results", "the diameter is always shorter than a hexagon side", "3 was too crude for their trade sums"], "answer": 0, "why": "A circle's perimeter is slightly larger than the hexagon inscribed within it, so π had to exceed 3.", "difficulty": "medium" },
+    { "id": "gm-ch06-q8", "sec": "6.2", "q": "Using inscribed and circumscribed hexagons, Archimedes showed that", "options": ["π = 3.125 exactly", "3 < π < 2 sqrt(3) ≈ 3.46", "π lies between 3.1 and 3.2", "π equals 22/7"], "answer": 1, "why": "Trapping π between the two hexagon perimeters gave 3 < π < 2 sqrt(3) ≈ 3.46.", "difficulty": "hard" },
+    { "id": "gm-ch06-q9", "sec": "6.4", "q": "A circle has radius 7 cm. Using π = 22/7, its circumference is", "options": ["44 cm", "22 cm", "154 cm", "14 cm"], "answer": 0, "why": "2πr = 2 × (22/7) × 7 = 44 cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q10", "sec": "6.4", "q": "An arc subtends 60° at the centre of a circle of radius 21 cm. Using π = 22/7, its length is", "options": ["66 cm", "44 cm", "11 cm", "22 cm"], "answer": 3, "why": "60° is one sixth of a full turn, so the arc is 2π × 21 ÷ 6 = 132 ÷ 6 = 22 cm.", "difficulty": "medium" },
+    { "id": "gm-ch06-q11", "sec": "6.4", "q": "A track athlete runs 0.3 m from the inner border. The innermost semicircles have radius 36.5 m. Her curved path is a circle of radius", "options": ["36.5 m", "36.8 m", "37.72 m", "35.8 m"], "answer": 1, "why": "Her path is 0.3 m outside the border, so radius = 36.5 + 0.3 = 36.8 m; the lane width 1.22 m is a decoy.", "difficulty": "hard" },
+    { "id": "gm-ch06-q12", "sec": "6.5", "q": "The perimeter of a circle is 44 cm. Using π = 22/7, its radius is", "options": ["7 cm", "14 cm", "11 cm", "22 cm"], "answer": 0, "why": "2πr = 44 gives r = 44 × 7/(2 × 22) = 7 cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q13", "sec": "6.5", "q": "In the two-circle puzzle, each red arc is what fraction of a full circumference?", "options": ["1/3", "1/2", "2/3", "3/4"], "answer": 2, "why": "Each dotted arc is 1/3 (the angle is 120°), so the remaining red arc is 2/3 of the circumference.", "difficulty": "medium" },
+    { "id": "gm-ch06-q14", "sec": "6.5", "q": "Path 1 is one semicircle over PQ; path 2 is three semicircles over the same PQ. The two paths are equal because", "options": ["the diameters of the three small semicircles add up to the big diameter", "three arcs bend more and so travel further", "this holds only when the three semicircles are equal", "π is larger for the big semicircle"], "answer": 0, "why": "PQ = 2a' = 2b' + 2c' + 2d', so a' = b' + c' + d', and multiplying by π keeps the lengths equal.", "difficulty": "hard" },
+    { "id": "gm-ch06-q15", "sec": "6.6", "q": "A rectangle measures 6 cm by 4 cm. Its area is", "options": ["20 sq. cm", "24 sq. cm", "10 sq. cm", "12 sq. cm"], "answer": 1, "why": "Area = ab = 6 × 4 = 24 sq. cm; 20 sq. cm is the perimeter 2(6 + 4) sneaking in.", "difficulty": "easy" },
+    { "id": "gm-ch06-q16", "sec": "6.6", "q": "A square has area 49 sq. cm. Its side is", "options": ["7 cm", "14 cm", "24.5 cm", "49 cm"], "answer": 0, "why": "Area of a square is a^2, and a^2 = 49 gives a = 7 cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q17", "sec": "6.6", "q": "A rectangle has area 36 sq. cm and one side 9 cm. The other side is", "options": ["27 cm", "45 cm", "324 cm", "4 cm"], "answer": 3, "why": "ab = 36 with a = 9 gives b = 4 cm.", "difficulty": "medium" },
+    { "id": "gm-ch06-q18", "sec": "6.8", "q": "A triangle has base 10 cm and height 6 cm. Its area is", "options": ["30 sq. cm", "60 sq. cm", "15 sq. cm", "16 sq. cm"], "answer": 0, "why": "Area = (1/2)bh = (1/2) × 10 × 6 = 30 sq. cm; 60 sq. cm forgets the half.", "difficulty": "easy" },
+    { "id": "gm-ch06-q19", "sec": "6.8", "q": "AD is a median of triangle ABC with BC = 12 cm and height 5 cm from A. The area of triangle ABD is", "options": ["30 sq. cm", "12 sq. cm", "15 sq. cm", "60 sq. cm"], "answer": 2, "why": "D is the midpoint, so BD = 6, and area = (1/2) × 6 × 5 = 15 sq. cm.", "difficulty": "medium" },
+    { "id": "gm-ch06-q20", "sec": "6.8", "q": "For an obtuse triangle the foot of the height splits the base into b1 and b2. The area is still (1/2)bh because", "options": ["b = b1 + b2, so (1/2)(b1 + b2)h is the same formula", "the two pieces of the base have different heights", "the obtuse angle doubles the height", "the height must fall inside the triangle"], "answer": 0, "why": "The book notes FG = FJ + JG, so b = b1 + b2 and the halving argument works unchanged.", "difficulty": "hard" },
+    { "id": "gm-ch06-q21", "sec": "6.9", "q": "Squaring a rectangle of sides 4 cm and 9 cm means constructing a square of area", "options": ["13 sq. cm", "36 sq. cm", "26 sq. cm", "81 sq. cm"], "answer": 1, "why": "To square a shape is to build a square of equal area; here ab = 36 sq. cm.", "difficulty": "easy" },
+    { "id": "gm-ch06-q22", "sec": "6.9", "q": "Compute ((a+b)/2)^2 − ((a-b)/2)^2 for a = 7 and b = 3.", "options": ["21", "25", "4", "16"], "answer": 0, "why": "5^2 − 2^2 = 25 − 4 = 21, and indeed ab = 7 × 3 = 21.", "difficulty": "medium" },
+    { "id": "gm-ch06-q23", "sec": "6.9", "q": "In Baudhāyana's construction with a = 10 and b = 6, the length HK is", "options": ["2 units", "10 units", "16 units", "8 units"], "answer": 3, "why": "HK is a radius equal to AF = (a + b)/2 = 8 units; (a − b)/2 = 2 is BH.", "difficulty": "hard" },
+    { "id": "gm-ch06-q24", "sec": "6.10", "q": "For a square of any size, the ratio P^2 : A is", "options": ["16 : 1", "4 : 1", "8 : 1", "12 : 1"], "answer": 0, "why": "P = 4a and A = a^2 give P^2 : A = 16a^2 : a^2 = 16 : 1.", "difficulty": "easy" },
+    { "id": "gm-ch06-q25", "sec": "6.10", "q": "The Babylonians measured C^2 : A ≈ 12 : 1. Their formula for the area of a circle was", "options": ["A ≈ 12C^2", "A ≈ C^2/12", "A ≈ C/12", "A ≈ 12/C^2"], "answer": 1, "why": "If C^2 : A is about 12 : 1, then A is about C^2 divided by 12.", "difficulty": "medium" },
+    { "id": "gm-ch06-q26", "sec": "6.10", "q": "The Egyptian formula A ≈ (8d/9)^2, with d = 2r, gives an area of about", "options": ["3 r^2", "3.46 r^2", "3.16 r^2", "12 r^2"], "answer": 2, "why": "(8d/9)^2 = (16r/9)^2 = 256r^2/81 ≈ 3.16 r^2, close to the true area πr^2.", "difficulty": "hard" },
+    { "id": "gm-ch06-q27", "sec": "6.10", "q": "Why is the ratio C^2 : A the same for circles of every size?", "options": ["all circles have the same area", "it depends only on the shape, not on the scale", "the diameter grows more slowly than the area", "π changes slowly with size"], "answer": 1, "why": "As we change the scale of a shape, the ratio P^2 : A stays fixed; it depends only on the shape.", "difficulty": "medium" }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch06-e1",
+      "title": "One Lap of the 400 m Track",
+      "problem": "A 400 m athletics track has two straight sections of 84.39 m each. The two curved ends are semicircles with a common centre, and the innermost semicircle on each side has radius 36.5 m. An athlete runs one complete circuit keeping 0.3 m from the inner border. What total distance does she run? (Use π = 22/7.)",
+      "steps": [
+        "Straight sections: she runs 2 × 84.39 = 168.78 m in all.",
+        "Her curved path lies 0.3 m outside the inner border, so it is a circle of radius 36.5 + 0.3 = 36.8 m.",
+        "The two semicircular ends join into one full circle: 2πr = 2 × (22/7) × 36.8 = 1619.2/7 ≈ 231.31 m.",
+        "Add straights and curves: 168.78 + 231.31 ≈ 400.1 m."
+      ],
+      "answer": "About 400 m, which is exactly why the track is called a 400 m track."
+    },
+    {
+      "id": "gm-ch06-e2",
+      "title": "Arcs of Two Overlapping Circles",
+      "problem": "Two circles of equal radius 7 cm are placed so that each passes through the centre of the other. Find the total length of the two big arcs of the shape they form, ignoring the dotted portions inside, using π = 22/7.",
+      "steps": [
+        "Let the centres be A and B and an intersection point C. Then AB = AC = BC = 7 cm, so triangle ABC is equilateral and angle CAB = 60°.",
+        "The same holds on the other side, so angle CAD = 60° + 60° = 120°, which is 1/3 of a full turn.",
+        "So each dotted arc is 1/3 of a circumference, and each red arc is 2/3 of a circumference.",
+        "One circumference: 2πr = 2 × (22/7) × 7 = 44 cm, so each red arc is (2/3) × 44 = 88/3 cm.",
+        "Total of the two red arcs: 2 × 88/3 = 176/3 ≈ 58.7 cm. In symbols, 2 × (2/3) × 2πr = 8πr/3."
+      ],
+      "answer": "8πr/3, which for r = 7 cm is 176/3, about 58.7 cm."
+    },
+    {
+      "id": "gm-ch06-e3",
+      "title": "A Median Cuts Area in Half",
+      "problem": "In triangle ABC, AD is the median to side BC. BC = 14 cm and the height from A to BC is 6 cm. Find the area of each of triangles ABD and ACD, and check that they are equal.",
+      "steps": [
+        "AD is a median, so D is the midpoint of BC: BD = DC = 14 ÷ 2 = 7 cm.",
+        "Both small triangles have the same height h = 6 cm on equal bases of 7 cm.",
+        "Area of ABD = (1/2) × 7 × 6 = 21 sq. cm; area of ACD = (1/2) × 7 × 6 = 21 sq. cm.",
+        "Check: together they give 42 sq. cm, which equals (1/2) × 14 × 6, the area of the whole triangle."
+      ],
+      "answer": "Each part has area 21 sq. cm; the median divides the triangle into two triangles of equal area."
+    },
+    {
+      "id": "gm-ch06-e4",
+      "title": "Area of a Circular Garden",
+      "problem": "A circular garden has a diameter of 14 m. Using π = 22/7, find its circumference and its area.",
+      "steps": [
+        "Radius r = d/2 = 14 ÷ 2 = 7 m.",
+        "Circumference C = 2πr = 2 × (22/7) × 7 = 44 m.",
+        "Area A = πr^2 = (22/7) × 7 × 7 = 154 sq. m.",
+        "Ratio check: C^2 : A = 44^2 : 154 = 1936 : 154 ≈ 12.57 : 1, matching the exact constant 4π : 1 ≈ 12.57 : 1 (the Babylonians measured it as about 12 : 1)."
+      ],
+      "answer": "Circumference 44 m and area 154 sq. m."
+    }
+  ],
+  "conceptMap": {
+    "center": "Perimeter and Area",
+    "groups": [
+      { "id": "g1", "label": "Perimeter" },
+      { "id": "g2", "label": "Area" },
+      { "id": "g3", "label": "Heritage and History" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Perimeter", "group": "g1" },
+      { "id": "n2", "label": "Rectangle 2(a+b)", "group": "g1" },
+      { "id": "n3", "label": "Circumference 2πr", "group": "g1" },
+      { "id": "n4", "label": "Arc length", "group": "g1" },
+      { "id": "n5", "label": "C/D ratio π", "group": "g1" },
+      { "id": "n6", "label": "Unit square", "group": "g2" },
+      { "id": "n7", "label": "Rectangle area ab", "group": "g2" },
+      { "id": "n8", "label": "Triangle area bh/2", "group": "g2" },
+      { "id": "n9", "label": "Median theorem", "group": "g2" },
+      { "id": "n10", "label": "Circle area πr^2", "group": "g2" },
+      { "id": "n11", "label": "Squaring a rectangle", "group": "g2" },
+      { "id": "n12", "label": "Mesopotamia 3.125", "group": "g3" },
+      { "id": "n13", "label": "Archimedes polygons", "group": "g3" },
+      { "id": "n14", "label": "Baudhāyana Śhulbasūtra", "group": "g3" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "formulas" },
+      { "from": "n1", "to": "n3", "label": "circle case" },
+      { "from": "n5", "to": "n3", "label": "C = πd" },
+      { "from": "n12", "to": "n5", "label": "first value" },
+      { "from": "n13", "to": "n5", "label": "trapped π" },
+      { "from": "n3", "to": "n4", "label": "fraction of turn" },
+      { "from": "n4", "to": "n1", "label": "part of border" },
+      { "from": "n6", "to": "n7", "label": "tiling" },
+      { "from": "n7", "to": "n8", "label": "take half" },
+      { "from": "n8", "to": "n9", "label": "equal areas" },
+      { "from": "n3", "to": "n10", "label": "C^2 : A fixed" },
+      { "from": "n5", "to": "n10", "label": "π inside" },
+      { "from": "n7", "to": "n11", "label": "equal-area square" },
+      { "from": "n14", "to": "n11", "label": "800 BCE method" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Walk the border", "detail": "Perimeter is the distance around, like an insect's full walk back to its start." },
+      { "id": "s2", "label": "Fix the ratio", "detail": "Perimeter to side stays 4:1 for squares and 3:1 for equilateral triangles." },
+      { "id": "s3", "label": "Chase the C/D ratio", "detail": "A home experiment and ancient history uncover the constant π." },
+      { "id": "s4", "label": "Slice the circle", "detail": "An arc takes the fraction θ/360 of the circumference 2πr." },
+      { "id": "s5", "label": "Run the track", "detail": "Two straights of 84.39 m plus a circle of radius 36.8 m make one lap." },
+      { "id": "s6", "label": "Solve the puzzles", "detail": "Overlapping circles give 8πr/3, and stacked semicircles tie the race." },
+      { "id": "s7", "label": "Tile with unit squares", "detail": "Area starts from the 1 × 1 square; a rectangle has area ab." },
+      { "id": "s8", "label": "Halve for triangles", "detail": "Enclose in a rectangle or parallelogram to get (1/2)bh, then meet the median theorem." },
+      { "id": "s9", "label": "Square the rectangle", "detail": "Baudhāyana builds a square of area ab via ((a+b)/2)^2 − ((a-b)/2)^2." },
+      { "id": "s10", "label": "Close the circle", "detail": "The fixed ratio C^2 : A = 4π : 1 lands on A = πr^2." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9]]
+  }
+}

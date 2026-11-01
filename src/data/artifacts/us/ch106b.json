@@ -1,0 +1,385 @@
+{
+  "book": "us",
+  "chapter": 106,
+  "part": "b",
+  "title": "Resistance and Resilience (1000-1700 CE)",
+  "grade": 9,
+  "sections": [
+    { "id": "106.6", "title": "Jat Resistance" },
+    { "id": "106.7", "title": "Bhakti Tradition" },
+    { "id": "106.8", "title": "Temples" },
+    { "id": "106.9", "title": "Indian Economy: Agriculture, Trading Networks, and Merchant Communities" },
+    { "id": "106.10", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch106b-s1",
+      "sec": "106.6",
+      "title": "Jats Under Mughal Pressure",
+      "kicker": "Farmers of the Doab had enough",
+      "bullets": [
+        "The Jats were a farming community from the Ganga-Yamuna Doab.",
+        "In the 17th century they carried heavy taxes and exploitation by the Mughals.",
+        "Aurangzeb's religious policies added to the economic hardships and growing resentment."
+      ],
+      "visual": { "kind": "labels", "items": ["Ganga-Yamuna Doab", "heavy taxes", "exploitation", "religious policies", "resentment"] },
+      "note": "Taxes on the crop, hurt in the heart — kisan ki patience ran out."
+    },
+    {
+      "id": "us-ch106b-s2",
+      "sec": "106.6",
+      "title": "1669: Gokul Jat Rises",
+      "kicker": "One leader, months of Mughal struggle",
+      "bullets": [
+        "In 1669 the Jats rebelled against the Mughal Empire under the leadership of Gokul Jat.",
+        "Mughal forces struggled for many months to suppress the uprising.",
+        "Even after this first revolt was checked, the Jats continued their resistance."
+      ],
+      "visual": { "kind": "flow", "items": ["heavy taxes and exploitation", "Aurangzeb's religious policies", "1669 rising under Gokul Jat", "months of Mughal struggle"] },
+      "note": "Revolt number one: the empire needed months, not weeks."
+    },
+    {
+      "id": "us-ch106b-s3",
+      "sec": "106.6",
+      "title": "1686: The Second Uprising",
+      "kicker": "While Aurangzeb was busy in the Deccan",
+      "bullets": [
+        "In 1686 the Jats rebelled again under the leadership of the zamindars of Sinsani and Sogar.",
+        "They took advantage of Aurangzeb's prolonged military campaigns in the Deccan.",
+        "The Mughals sent several armies; both sides suffered heavy losses in a long fierce struggle.",
+        "By 1691 the Mughals had gained the upper hand, yet the Jat resistance continued."
+      ],
+      "visual": { "kind": "steps", "items": ["1686 rebellion at Sinsani and Sogar", "several Mughal armies sent", "heavy losses on both sides", "1691: Mughals gain the upper hand", "resistance continues"] },
+      "note": "Timing matters: a distracted emperor weakens far away."
+    },
+    {
+      "id": "us-ch106b-s4",
+      "sec": "106.6",
+      "title": "An Italian Records the Jats",
+      "kicker": "Manucci wrote what he saw",
+      "bullets": [
+        "Niccolao Manucci, an Italian traveller, journeyed through 17th century India.",
+        "He wrote an extensive account of India, including descriptions of Jat resistance against the Mughals.",
+        "A traveller's record lets us see the Jat struggle from close quarters."
+      ],
+      "visual": { "kind": "labels", "items": ["Niccolao Manucci", "Italian traveller", "17th century account", "Jat resistance"] },
+      "note": "A traveller's pen can outlast an empire's army."
+    },
+    {
+      "id": "us-ch106b-s5",
+      "sec": "106.7",
+      "title": "A Devotional Wave Rises",
+      "kicker": "Bhakti swept India for ten centuries",
+      "bullets": [
+        "Between the 11th and 17th centuries India's religious and spiritual landscape was profoundly transformed.",
+        "Bhakti is a tradition of personal devotion to the divine, expressed through hymns composed in local languages.",
+        "From the 7th century onwards, Bhakti rose and expanded in peninsular India, shaping social, religious and political life."
+      ],
+      "visual": { "kind": "labels", "items": ["personal devotion", "local languages", "devotional hymns", "peninsular India", "11th to 17th centuries"] },
+      "note": "Devotion sung in your own tongue — that is Bhakti."
+    },
+    {
+      "id": "us-ch106b-s6",
+      "sec": "106.7",
+      "title": "Saints of the People",
+      "kicker": "Inclusive, equal, simple, everyday",
+      "bullets": [
+        "Bhakti emphasised inclusivity, socio-religious equality, simplicity and connecting with everyday life.",
+        "Eknath composed in Marathi and offered a devotional path accessible to all, without dependence on institutions.",
+        "Nayanar saints like Karaikal Ammaiyar (devotees of Shiva) and Alvar saints like Andal (devotees of Vishnu) spread Bhakti through hymns."
+      ],
+      "visual": { "kind": "tree", "root": "Peninsular Bhakti saints", "children": ["Nayanars: Shiva devotees", "Alvars: Vishnu devotees", "Karaikal Ammaiyar", "Andal", "Eknath in Marathi"] },
+      "note": "No gatekeepers here — devotion opened for everyone."
+    },
+    {
+      "id": "us-ch106b-s7",
+      "sec": "106.7",
+      "title": "Two Streams of Bhakti",
+      "kicker": "Formless divine, or divine with attributes",
+      "bullets": [
+        "From the 14th century onwards a strong wave of Bhakti spread across northern India.",
+        "Ramananda, a prominent saint of this period, helped bridge the Bhakti traditions of southern and northern India.",
+        "Nirguna bhakti was devoted to a formless divine; Saguna bhakti centred on a divine with attributes.",
+        "A remarkable feature was the diverse social and cultural background of the Bhakti saints."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Nirguna bhakti", "items": ["devoted to a formless divine", "beyond any one visible form"] }, "right": { "title": "Saguna bhakti", "items": ["centred on a divine with attributes", "worshipped through form"] } },
+      "note": "One wave, two ways of imagining the divine."
+    },
+    {
+      "id": "us-ch106b-s8",
+      "sec": "106.7",
+      "title": "Faith Too Mobile to Crush",
+      "kicker": "When temples fell, songs carried on",
+      "bullets": [
+        "When temple construction faced restrictions or temples were destroyed, devotees turned to nam kirtan, the recitation of the divine Name.",
+        "This nonmaterial worship depended less on physical structures that could be destroyed.",
+        "Local songs and community participation (satsang) made Bhakti accessible to wider sections of society and hard to suppress.",
+        "Sankardev composed the Kirtana Ghosha, a highly respected work that remains central to this day."
+      ],
+      "visual": { "kind": "flow", "items": ["temples restricted or destroyed", "nam kirtan and satsang", "devotion beyond buildings", "Bhakti survives and spreads"] },
+      "note": "You can break stone, but not a song on every lip."
+    },
+    {
+      "id": "us-ch106b-s9",
+      "sec": "106.8",
+      "title": "Temples Ran the Economy",
+      "kicker": "Prayer halls with ledgers",
+      "bullets": [
+        "Temples functioned as central pillars of the region's socio-economic and political life.",
+        "They managed extensive land grants, employed hundreds of specialised workers and served as financial institutions for local traders.",
+        "Temples exercised quasi-judicial authority, collecting local taxes and administering legal penalties.",
+        "As centres of education and culture they preserved artistic traditions such as Bharatanatyam."
+      ],
+      "visual": { "kind": "labels", "items": ["land grants", "specialised workers", "credit to traders", "local taxes", "Bharatanatyam"] },
+      "note": "A temple could be bank, court, school and stage at once."
+    },
+    {
+      "id": "us-ch106b-s10",
+      "sec": "106.8",
+      "title": "Kings as Deputies",
+      "kicker": "When the deity was the real ruler",
+      "bullets": [
+        "The deities of temples were regarded as protectors of the state and its people.",
+        "In some cases the deity was regarded as the ruler, while the actual ruler governed as the deity's deputy.",
+        "The Gajapati rulers of Odisha called themselves the Rauta (deputy) of Jagannath.",
+        "The Kachhwaha rulers of Jaipur governed on behalf of Govindadevaji; the Rajput rulers of Kota saw themselves as representatives of Rama."
+      ],
+      "visual": { "kind": "tree", "root": "Ruler as deputy", "children": ["Gajapati of Odisha: Rauta of Jagannath", "Kachhwaha of Jaipur: Govindadevaji", "Rajputs of Kota: representatives of Rama"] },
+      "note": "A quiet source of legitimacy: rule in the god's name."
+    },
+    {
+      "id": "us-ch106b-s11",
+      "sec": "106.8",
+      "title": "Gold, Credit, Temple Towns",
+      "kicker": "Donations flowed in, loans flowed out",
+      "bullets": [
+        "Temples received donations, endowments and land grants, often given as acts of religious merit.",
+        "The Brihadeeswara (Rajarajeshvara) temple at Thanjavur received extensive donations of gold, ornaments and vessels.",
+        "Temple wealth supported irrigation works and agrarian development; credit went to cultivators, village assemblies and merchant groups.",
+        "This convergence helped temple towns like Thanjavur, Kanchipuram and Puri emerge as prominent urban centres."
+      ],
+      "visual": { "kind": "flow", "items": ["donations, endowments, land grants", "irrigation and agrarian growth", "credit to cultivators and traders", "temple towns rise"] },
+      "note": "Follow the gold: it watered fields and raised cities."
+    },
+    {
+      "id": "us-ch106b-s12",
+      "sec": "106.8",
+      "title": "Patronage, Then Destruction",
+      "kicker": "Prosperity drew invaders too",
+      "bullets": [
+        "Between the 7th and 13th centuries temple construction proliferated across the subcontinent under the patronage of various dynasties.",
+        "From the 11th century onwards, many instances of temple destruction occurred, particularly during the Ghaznavid and Ghurid invasions.",
+        "From the 12th century onwards, many temples and maths were also affected.",
+        "Rulers used temple patronage to strengthen their political legitimacy."
+      ],
+      "visual": { "kind": "steps", "items": ["7th to 13th centuries: building boom", "11th century: destruction begins", "Ghaznavid and Ghurid invasions", "12th century: temples and maths affected"] },
+      "note": "Wealthy temples were both pride and target."
+    },
+    {
+      "id": "us-ch106b-s13",
+      "sec": "106.9",
+      "title": "Land Revenue Powers States",
+      "kicker": "Fields fed the empire's treasury",
+      "bullets": [
+        "The early second millennium CE saw the agrarian economy expand and centres of artisanal and craft production proliferate.",
+        "Land revenue was the main source of state income.",
+        "Expanding frontiers of empires resulted in an increase in the area under cultivation.",
+        "Over time, land revenue collection became increasingly strict and exploitative at various levels of administration."
+      ],
+      "visual": { "kind": "flow", "items": ["empire expands", "area under cultivation grows", "strict, exploitative collection", "state income from land revenue"] },
+      "note": "More fields, more tax — kisan ka jhuka sar aur bhari."
+    },
+    {
+      "id": "us-ch106b-s14",
+      "sec": "106.9",
+      "title": "Half the Harvest as Tax",
+      "kicker": "Khilji and Tughlaq squeezed hardest",
+      "bullets": [
+        "Under Alauddin Khilji and Mohammad bin Tughlaq the land tax rose to as much as 50 per cent of total agricultural production.",
+        "This land tax was in addition to other taxes.",
+        "Sultans of Delhi and later Mughals had a limited role in maritime trade, mostly political, military and customs matters.",
+        "Coastal areas and their commerce remained largely in the hands of regional power holders and local communities."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Sultans and Mughals", "items": ["limited role in maritime trade", "political and military concerns", "some collection of customs duties"] }, "right": { "title": "Coastal commerce", "items": ["regional power holders", "local communities"] } },
+      "note": "The court took half the crop; the coastline kept its freedom."
+    },
+    {
+      "id": "us-ch106b-s15",
+      "sec": "106.9",
+      "title": "Water Works, Bigger Harvests",
+      "kicker": "Small irrigation, Vijayanagara's genius",
+      "bullets": [
+        "Technologies like the rope pulley, spinning wheel and Persian wheel were widely used, enhancing agricultural and economic output.",
+        "In the Vijayanagara Empire, agricultural production varied greatly in both form and scale.",
+        "Irrigation there ranged from extensive canal networks to small rain-fed patches of land.",
+        "A defining feature of the Vijayanagara economy was its investment in small-scale irrigation."
+      ],
+      "visual": { "kind": "compare", "left": { "title": "Extensive canal networks", "items": ["one end of the range", "watered large areas"] }, "right": { "title": "Small rain-fed patches", "items": ["the other end of the range", "small-scale investment"] } },
+      "note": "Smart small works beat no works at all."
+    },
+    {
+      "id": "us-ch106b-s16",
+      "sec": "106.9",
+      "title": "Hundi: Paper Instead of Bullion",
+      "kicker": "The cheque of the second millennium",
+      "bullets": [
+        "Trade grew in this era, and India's inland regions were connected to trade routes in Central Asia.",
+        "Hundi, a financial instrument compared in some respects to modern bank cheques, was widely used.",
+        "It worked as a bill of exchange, enabling large-scale transactions without carrying large amounts of currency.",
+        "Hundis gave secured long-distance remittance through sarrafs, the money-changers, and their agents called gumasthas."
+      ],
+      "visual": { "kind": "flow", "items": ["trader deposits money with a sarraf", "hundi issued as a bill of exchange", "gumastha network carries the promise", "payee collects cash far away"] },
+      "note": "Send paper, not silver — safer on lonely roads."
+    },
+    {
+      "id": "us-ch106b-s17",
+      "sec": "106.10",
+      "title": "The Chapter's Big Idea",
+      "kicker": "Resilience keeps resistance alive",
+      "bullets": [
+        "The key MCQ idea: resistance and resilience connect because resilience enables communities to endure difficulties and sustain resistance.",
+        "Other questions ask why the Sikhs, Marathas and Rajputs asserted their political power and identity in changing times.",
+        "One question explores why some Rajput rulers chose to negotiate alliances with Mughal power."
+      ],
+      "visual": { "kind": "labels", "items": ["resilience", "resistance", "Sikhs", "Marathas", "Rajputs", "alliances"] },
+      "note": "Endure first, resist longer — that is the pairing."
+    },
+    {
+      "id": "us-ch106b-s18",
+      "sec": "106.10",
+      "title": "Traders, Ports and Forts",
+      "kicker": "Activities put you inside history",
+      "bullets": [
+        "One activity imagines a market in port towns like Surat, Masulipatnam or Puducherry.",
+        "You play a foreign trader from Italy or France buying cotton textiles, facing challenges of language, quality and prices.",
+        "Another asks how rulers perceived the strategic importance of forts, using the Tales of Forts videos on indianculture.gov.in.",
+        "A question links architectural changes in temple construction to the resilient nature of Indian civilisation."
+      ],
+      "visual": { "kind": "labels", "items": ["Surat", "Masulipatnam", "Puducherry", "cotton textiles", "forts", "temple architecture"] },
+      "note": "Haggle hard, foreigner — the bazaar teaches history."
+    },
+    {
+      "id": "us-ch106b-s19",
+      "sec": "106.10",
+      "title": "Voices and Fort Design",
+      "kicker": "Two creative finale activities",
+      "bullets": [
+        "Voices from the Past: write accounts as a Bhakti saint, Rajput soldier, Ahom commander, Maratha administrator, merchant or Jat leader.",
+        "Design a Fort: plan walls, water source, food storage, escape route, watchtower, residential complex and administrative area.",
+        "A statement to debate: a tradition becomes more resilient when people can carry it with them.",
+        "A scenario asks how fertile land, local support and terrain knowledge build a kingdom's resilience."
+      ],
+      "visual": { "kind": "tree", "root": "Design a Fort", "children": ["defensive walls", "water source", "food storage", "escape route", "watchtower"] },
+      "note": "Draw the fort, then argue like a saint."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch106b-f1", "sec": "106.6", "front": "Which community were the Jats, and where did they live?", "back": "A farming community from the Ganga-Yamuna Doab, burdened by heavy taxes and exploitation in the 17th century.", "tag": "example" },
+    { "id": "us-ch106b-f2", "sec": "106.6", "front": "Who led the Jat rebellion of 1669?", "back": "Gokul Jat led the 1669 uprising against the Mughal Empire.", "tag": "trivia" },
+    { "id": "us-ch106b-f3", "sec": "106.6", "front": "What two pressures fuelled Jat resentment?", "back": "Heavy Mughal taxes and exploitation, combined with Aurangzeb's religious policies.", "tag": "concept" },
+    { "id": "us-ch106b-f4", "sec": "106.6", "front": "Who led the 1686 Jat rebellion, and why then?", "back": "The zamindars of Sinsani and Sogar, taking advantage of Aurangzeb's prolonged campaigns in the Deccan.", "tag": "example" },
+    { "id": "us-ch106b-f5", "sec": "106.6", "front": "Who was Niccolao Manucci?", "back": "An Italian traveller of the 17th century who wrote an extensive account of India, including Jat resistance.", "tag": "trivia" },
+    { "id": "us-ch106b-f6", "sec": "106.7", "front": "What does Bhakti mean?", "back": "A tradition of personal devotion to the divine, expressed through devotional hymns in local languages.", "tag": "definition" },
+    { "id": "us-ch106b-f7", "sec": "106.7", "front": "Nirguna vs Saguna bhakti?", "back": "Nirguna: devotion to a formless divine. Saguna: centred on a divine with attributes.", "tag": "concept" },
+    { "id": "us-ch106b-f8", "sec": "106.7", "front": "What was Ramananda's role in the Bhakti wave?", "back": "From the 14th century wave, this prominent saint helped bridge the Bhakti traditions of southern and northern India.", "tag": "trivia" },
+    { "id": "us-ch106b-f9", "sec": "106.7", "front": "In which language did Eknath compose?", "back": "Marathi, offering a devotional path accessible to all without dependence on institutions.", "tag": "example" },
+    { "id": "us-ch106b-f10", "sec": "106.7", "front": "What are nam kirtan and satsang?", "back": "Nam kirtan is recitation of the divine Name; satsang is community participation in devotion.", "tag": "definition" },
+    { "id": "us-ch106b-f11", "sec": "106.7", "front": "Which work did Sankardev compose?", "back": "The Kirtana Ghosha, a highly respected work that remains central to this day.", "tag": "trivia" },
+    { "id": "us-ch106b-f12", "sec": "106.7", "front": "Karaikal Ammaiyar and Andal were devotees of whom?", "back": "Karaikal Ammaiyar was a Nayanar devotee of Shiva; Andal was an Alvar devotee of Vishnu.", "tag": "trivia" },
+    { "id": "us-ch106b-f13", "sec": "106.8", "front": "Name three economic functions of temples.", "back": "They managed land grants, employed hundreds of specialised workers and acted as financial institutions for traders.", "tag": "concept" },
+    { "id": "us-ch106b-f14", "sec": "106.8", "front": "Who called themselves the Rauta (deputy) of Jagannath?", "back": "The Gajapati rulers of Odisha.", "tag": "trivia" },
+    { "id": "us-ch106b-f15", "sec": "106.8", "front": "On whose behalf did the Kachhwaha rulers of Jaipur govern?", "back": "On behalf of Govindadevaji; the Rajput rulers of Kota saw themselves as representatives of Rama.", "tag": "trivia" },
+    { "id": "us-ch106b-f16", "sec": "106.8", "front": "What did the Brihadeeswara temple at Thanjavur receive?", "back": "Extensive donations of gold, ornaments and vessels, often given as acts of religious merit.", "tag": "example" },
+    { "id": "us-ch106b-f17", "sec": "106.8", "front": "Which three temple towns emerged as urban centres?", "back": "Thanjavur, Kanchipuram and Puri.", "tag": "example" },
+    { "id": "us-ch106b-f18", "sec": "106.8", "front": "When did temple destruction intensify?", "back": "From the 11th century, particularly during the Ghaznavid and Ghurid invasions; from the 12th century temples and maths too were hit.", "tag": "concept" },
+    { "id": "us-ch106b-f19", "sec": "106.9", "front": "What was the main source of state income?", "back": "Land revenue, collected increasingly strictly and exploitatively as empires expanded.", "tag": "concept" },
+    { "id": "us-ch106b-f20", "sec": "106.9", "front": "Under whom did land tax reach 50 per cent?", "back": "Alauddin Khilji and Mohammad bin Tughlaq, in addition to other taxes.", "tag": "trivia" },
+    { "id": "us-ch106b-f21", "sec": "106.9", "front": "What is a hundi?", "back": "A financial instrument like a modern bank cheque; a bill of exchange enabling big deals without carrying currency.", "tag": "definition" },
+    { "id": "us-ch106b-f22", "sec": "106.9", "front": "Who operated the hundi networks?", "back": "Sarrafs, the money-changers, and their agents called gumasthas.", "tag": "trivia" },
+    { "id": "us-ch106b-f23", "sec": "106.9", "front": "What defined Vijayanagara's approach to irrigation?", "back": "Investment in small-scale irrigation; systems ranged from extensive canals to small rain-fed patches.", "tag": "concept" },
+    { "id": "us-ch106b-f24", "sec": "106.10", "front": "Why are resistance and resilience connected?", "back": "Because resilience enables communities to endure difficulties and sustain resistance.", "tag": "concept" },
+    { "id": "us-ch106b-f25", "sec": "106.10", "front": "Name three port towns from the market activity.", "back": "Surat, Masulipatnam and Puducherry.", "tag": "example" },
+    { "id": "us-ch106b-f26", "sec": "106.10", "front": "List four items in the Design a Fort plan.", "back": "Defensive walls, water source, food storage and escape route, plus watchtower, residential and administrative areas.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "us-ch106b-q1", "sec": "106.6", "q": "In which year did the Jats first rebel under Gokul Jat?", "options": ["1659", "1669", "1686", "1691"], "answer": 1, "why": "Gokul Jat led the Jat rebellion of 1669 against the Mughal Empire.", "difficulty": "easy" },
+    { "id": "us-ch106b-q2", "sec": "106.6", "q": "The Jats were a farming community from which region?", "options": ["Ganga-Yamuna Doab", "the Deccan plateau", "the Ganga delta", "the Malabar coast"], "answer": 0, "why": "The book describes the Jats as a farming community from the Ganga-Yamuna Doab.", "difficulty": "easy" },
+    { "id": "us-ch106b-q3", "sec": "106.6", "q": "Who led the Jat rebellion of 1686?", "options": ["Gokul Jat", "Niccolao Manucci", "the zamindars of Sinsani and Sogar", "the Rajput rulers of Kota"], "answer": 2, "why": "In 1686 the Jats rebelled again under the leadership of the zamindars of Sinsani and Sogar.", "difficulty": "medium" },
+    { "id": "us-ch106b-q4", "sec": "106.6", "q": "Why did the 1686 Jat rebellion find a favourable moment?", "options": ["The Mughal treasury was empty", "A famine weakened the Mughal armies", "The Jats had allied with the Ahoms", "Aurangzeb was engaged in prolonged campaigns in the Deccan"], "answer": 3, "why": "The Jats took advantage of Aurangzeb's prolonged military campaigns in the Deccan.", "difficulty": "hard" },
+    { "id": "us-ch106b-q5", "sec": "106.6", "q": "Niccolao Manucci, who described the Jat resistance, was a traveller from...", "options": ["France", "Portugal", "Italy", "England"], "answer": 2, "why": "Manucci was an Italian traveller who wrote an extensive 17th century account of India.", "difficulty": "medium" },
+    { "id": "us-ch106b-q6", "sec": "106.7", "q": "Bhakti is best described as a tradition of...", "options": ["temple-based ritual sacrifice", "military resistance to invaders", "personal devotion to the divine", "long-distance sea trade"], "answer": 2, "why": "Bhakti is personal devotion to the divine, expressed through hymns in local languages.", "difficulty": "easy" },
+    { "id": "us-ch106b-q7", "sec": "106.7", "q": "Eknath composed his devotional works in which language?", "options": ["Sanskrit", "Marathi", "Tamil", "Persian"], "answer": 1, "why": "Eknath composed in Marathi, offering a path accessible to all without dependence on institutions.", "difficulty": "easy" },
+    { "id": "us-ch106b-q8", "sec": "106.7", "q": "Which saint helped bridge the Bhakti traditions of southern and northern India?", "options": ["Sankardev", "Eknath", "Andal", "Ramananda"], "answer": 3, "why": "Ramananda, a prominent saint of the 14th century wave, bridged the southern and northern traditions.", "difficulty": "medium" },
+    { "id": "us-ch106b-q9", "sec": "106.7", "q": "Nirguna bhakti is devotion to...", "options": ["a divine with attributes", "a formless divine", "a chosen river goddess", "a sacred mountain"], "answer": 1, "why": "Nirguna bhakti was devoted to a formless divine; Saguna centred on a divine with attributes.", "difficulty": "medium" },
+    { "id": "us-ch106b-q10", "sec": "106.7", "q": "Why was the Bhakti tradition difficult to suppress?", "options": ["It was funded by the state", "It depended only on great temples", "Nonmaterial worship, satsang and local songs made it mobile", "It avoided the use of local languages"], "answer": 2, "why": "Nam kirtan and satsang freed devotion from physical structures that could be destroyed.", "difficulty": "hard" },
+    { "id": "us-ch106b-q11", "sec": "106.8", "q": "The Brihadeeswara (Rajarajeshvara) temple stands at...", "options": ["Kanchipuram", "Puri", "Srirangam", "Thanjavur"], "answer": 3, "why": "The Brihadeeswara temple at Thanjavur received donations of gold, ornaments and vessels.", "difficulty": "easy" },
+    { "id": "us-ch106b-q12", "sec": "106.8", "q": "Which of these emerged as temple towns, prominent urban centres?", "options": ["Surat, Masulipatnam and Puducherry", "Thanjavur, Kanchipuram and Puri", "Sinsani, Sogar and Chittor", "Jaipur, Kota and Odisha"], "answer": 1, "why": "The convergence of economic and religious activity raised temple towns like Thanjavur, Kanchipuram and Puri.", "difficulty": "easy" },
+    { "id": "us-ch106b-q13", "sec": "106.8", "q": "The Gajapati rulers of Odisha called themselves...", "options": ["representatives of Rama", "deputies of Govindadevaji", "guardians of the Brihadeeswara temple", "the Rauta (deputy) of Jagannath"], "answer": 3, "why": "The Gajapati rulers of Odisha called themselves the Rauta (deputy) of Jagannath.", "difficulty": "medium" },
+    { "id": "us-ch106b-q14", "sec": "106.8", "q": "Beyond worship, which authority did temples exercise?", "options": ["They minted coins for the king", "They collected local taxes and administered legal penalties", "They commanded the army in wartime", "They appointed the king's ministers"], "answer": 1, "why": "Temples exercised quasi-judicial authority, collecting local taxes and administering legal penalties.", "difficulty": "hard" },
+    { "id": "us-ch106b-q15", "sec": "106.8", "q": "Temple construction proliferated across the subcontinent during which period?", "options": ["11th to 17th centuries", "1st to 6th centuries", "7th to 13th centuries", "14th to 17th centuries"], "answer": 2, "why": "Between the 7th and 13th centuries temples rose under the patronage of various dynasties.", "difficulty": "medium" },
+    { "id": "us-ch106b-q16", "sec": "106.9", "q": "What was the main source of state income in this period?", "options": ["sea trade", "temple gold", "hundi commissions", "land revenue"], "answer": 3, "why": "The main source of state income was land revenue.", "difficulty": "easy" },
+    { "id": "us-ch106b-q17", "sec": "106.9", "q": "Under which rulers did the land tax rise to as much as 50 per cent of production?", "options": ["Alauddin Khilji and Mohammad bin Tughlaq", "Akbar and Aurangzeb", "the Ghaznavids and Ghurids", "the Gajapatis and Kachhwahas"], "answer": 0, "why": "Under Khilji and Tughlaq the land tax reached 50 per cent, in addition to other taxes.", "difficulty": "medium" },
+    { "id": "us-ch106b-q18", "sec": "106.9", "q": "A hundi was most similar to a modern...", "options": ["bank cheque", "postal stamp", "land grant", "trade licence"], "answer": 0, "why": "The hundi was a bill of exchange, comparable in some respects to modern bank cheques.", "difficulty": "medium" },
+    { "id": "us-ch106b-q19", "sec": "106.9", "q": "Who operated the hundi networks of money-changers?", "options": ["zamindars with their soldiers", "sarrafs with agents called gumasthas", "temple priests and monks", "European customs officers"], "answer": 1, "why": "Hundis were operated through sarrafs, the money-changers, and their agents called gumasthas.", "difficulty": "hard" },
+    { "id": "us-ch106b-q20", "sec": "106.9", "q": "Which feature defined the Vijayanagara economy's approach to irrigation?", "options": ["Only huge canals", "No irrigation at all", "Investment in small-scale irrigation", "Dependence on the Persian wheel alone"], "answer": 2, "why": "A defining feature of the Vijayanagara economy was its investment in small-scale irrigation.", "difficulty": "hard" },
+    { "id": "us-ch106b-q21", "sec": "106.9", "q": "Under the Sultans and Mughals, coastal trade and port cities were largely run by...", "options": ["the imperial navy", "European companies", "temple administrations", "regional power holders and local communities"], "answer": 3, "why": "Sultans and Mughals had limited maritime roles, leaving coastal commerce to regional and local hands.", "difficulty": "medium" },
+    { "id": "us-ch106b-q22", "sec": "106.10", "q": "Why are resistance and resilience closely connected?", "options": ["Resistance always involves warfare", "Only large armies can resist", "Resilience enables communities to endure and sustain resistance", "Resilient societies avoid all conflict"], "answer": 2, "why": "The chapter's key idea: resilience lets communities endure difficulties and sustain resistance.", "difficulty": "easy" },
+    { "id": "us-ch106b-q23", "sec": "106.10", "q": "Which port towns appear in the market activity?", "options": ["Thanjavur, Kanchipuram and Puri", "Surat, Masulipatnam and Puducherry", "Agra, Delhi and Lahore", "Chittor, Kota and Jaipur"], "answer": 1, "why": "The activity imagines a market in a port town such as Surat, Masulipatnam or Puducherry.", "difficulty": "medium" },
+    { "id": "us-ch106b-q24", "sec": "106.10", "q": "Which of these belongs to the Design a Fort checklist?", "options": ["Escape route", "Hundi counter", "Shipyard", "Silk warehouse"], "answer": 0, "why": "The fort plan needs walls, water source, food storage, escape route, watchtower and more.", "difficulty": "easy" },
+    { "id": "us-ch106b-q25", "sec": "106.10", "q": "Which Bhakti example best shows a tradition people can carry with them?", "options": ["Stone temple towers", "Nam kirtan, the recitation of the divine Name", "Land grants to maths", "Gold stored in vaults"], "answer": 1, "why": "When temples were destroyed, nam kirtan kept worship alive beyond physical structures.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch106b-e1",
+      "title": "Chronology of the Jat resistance",
+      "problem": "Arrange the Jat resistance against the Mughals into a clear timeline, and state what each stage shows about resilience.",
+      "steps": [
+        "17th century: the Jats of the Ganga-Yamuna Doab face heavy taxes, exploitation and Aurangzeb's religious policies.",
+        "1669: Gokul Jat leads the first rebellion; Mughal forces struggle for many months to suppress it.",
+        "1686: the zamindars of Sinsani and Sogar lead a second rising, using Aurangzeb's absence in prolonged Deccan campaigns.",
+        "1686 to 1691: several Mughal armies fight a long fierce struggle; both sides suffer heavy losses.",
+        "1691: the Mughals gain the upper hand, yet the Jat resistance continues."
+      ],
+      "answer": "1669 first rising under Gokul Jat; 1686 second rising under the zamindars of Sinsani and Sogar; by 1691 the Mughals held the upper hand, but the resistance continued — endurance itself was the Jats' resilience."
+    },
+    {
+      "id": "us-ch106b-e2",
+      "title": "Sorting the Bhakti streams",
+      "problem": "Classify each of the following: devotion to a formless divine, devotion to a divine with attributes, Ramananda, and hymns in local languages.",
+      "steps": [
+        "Recall the definitions: Nirguna bhakti is devoted to a formless divine; Saguna bhakti is centred on a divine with attributes.",
+        "Place devotion to a formless divine in the Nirguna stream.",
+        "Place devotion to a divine with attributes in the Saguna stream.",
+        "Place Ramananda as the prominent 14th century saint who bridged the Bhakti traditions of southern and northern India.",
+        "Note that both streams used devotional hymns composed in local languages, so local-language hymns belong to the whole tradition."
+      ],
+      "answer": "Nirguna: the formless divine. Saguna: the divine with attributes. Ramananda: the bridge between southern and northern Bhakti. Hymns in local languages: common to the entire Bhakti wave."
+    },
+    {
+      "id": "us-ch106b-e3",
+      "title": "Following temple wealth to temple towns",
+      "problem": "Trace how a great temple like the Brihadeeswara temple at Thanjavur turned donations into urban growth.",
+      "steps": [
+        "Devotees and rulers gave donations, endowments and land grants as acts of religious merit; the Brihadeeswara temple received gold, ornaments and vessels.",
+        "As substantial landholders, temples employed architects, artisans, sculptors, priests, musicians and administrative staff.",
+        "Temple wealth supported irrigation works and agrarian development.",
+        "Temples extended credit to cultivators, village assemblies and merchant groups.",
+        "This convergence of economic and religious activity made temple towns like Thanjavur, Kanchipuram and Puri prominent urban centres."
+      ],
+      "answer": "Donations became employment, irrigation and credit; that economic muscle turned Thanjavur, Kanchipuram and Puri into prominent temple towns."
+    },
+    {
+      "id": "us-ch106b-e4",
+      "title": "A merchant sends money by hundi",
+      "problem": "A trader must send the payment for a large consignment of cotton textiles to a distant partner without carrying currency on the road. Using the book's description, show how a hundi completes the payment.",
+      "steps": [
+        "The trader goes to a sarraf, a money-changer, instead of loading a chest of coins.",
+        "The sarraf issues a hundi, a bill of exchange comparable in some respects to a modern bank cheque.",
+        "The hundi travels through the sarraf's agents, the gumasthas, who operate the network.",
+        "The partner presents the hundi and receives the money, a trusted means of secured long-distance remittance.",
+        "The deal settles without carrying large amounts of currency, which is why hundis suited large-scale commercial transactions."
+      ],
+      "answer": "Deposit with a sarraf, hundi issued as a bill of exchange, gumastha network transfers the claim, partner collects the cash at the far end — no bullion on the road."
+    }
+  ]
+}

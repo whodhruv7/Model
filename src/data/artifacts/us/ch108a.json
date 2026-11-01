@@ -1,0 +1,878 @@
+{
+  "book": "us",
+  "chapter": 108,
+  "part": "a",
+  "title": "Managing Your Personal Finances",
+  "grade": 9,
+  "sections": [
+    { "id": "108.1", "title": "Budgeting" },
+    { "id": "108.2", "title": "Saving" },
+    { "id": "108.3", "title": "Investing" },
+    { "id": "108.4", "title": "Common Investment Options" },
+    { "id": "108.5", "title": "Insurance" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch108a-s1",
+      "sec": "108.1",
+      "title": "Pillars of Personal Finance",
+      "kicker": "Paanch pillars, one strong money life!",
+      "bullets": [
+        "Personal finance stands on five pillars: income, budgeting, saving, investing, and protection and risk management.",
+        "Income is the money you receive, such as a salary or business income, and it is the starting point of everything.",
+        "Budgeting decides how much to save, how much to spend, and how one spends that money on needs and wants.",
+        "Protection means safeguarding your money and assets through insurance and debt management."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Pillars of personal finance",
+        "children": ["Income", "Budgeting", "Saving", "Investing", "Protection and risk management"]
+      },
+      "note": "Ek bimaar pillar, poori table hilti hai — keep all five strong."
+    },
+    {
+      "id": "us-ch108a-s2",
+      "sec": "108.1",
+      "title": "Income Comes First",
+      "kicker": "No income, no spending, saving or investing.",
+      "bullets": [
+        "Income is money a person receives regularly or occasionally in return for products sold or services rendered.",
+        "A teacher earns a monthly salary, a shopkeeper earns business profits, and a person earns rent from letting out property.",
+        "An investor earns interest from bank deposits, while a shareholder receives dividends and interest from securities.",
+        "Earn While You Learn programmes let college students earn through part-time work, internships or apprenticeships while gaining real-world skills."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Income (Earnings)",
+        "children": ["Salary", "Business profit", "Rent", "Interest", "Dividends"]
+      },
+      "note": "Think: which skill of yours could earn money one day?"
+    },
+    {
+      "id": "us-ch108a-s3",
+      "sec": "108.1",
+      "title": "Budget: A Written Plan",
+      "kicker": "Write it down, watch impulse spending go.",
+      "bullets": [
+        "Budgeting means planning in advance how income will be spent; a budget is a written plan that aims to balance income and expenses.",
+        "A family may plan monthly spending on food, rent, school fees and transport, and decide how much to save each month.",
+        "Financial goals like a school trip next month, sports equipment after six months, higher education, or emergencies help prioritise needs.",
+        "A budget controls unnecessary spending such as excessive eating out or impulse shopping and protects important expenses."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["School trip", "Sports equipment", "Higher education", "Emergencies", "Food and rent", "School fees"]
+      },
+      "note": "Budget likho warna wallet khud decide karega!"
+    },
+    {
+      "id": "us-ch108a-s4",
+      "sec": "108.1",
+      "title": "Four Goal Questions",
+      "kicker": "Chaar sawaal, ek clear money goal.",
+      "bullets": [
+        "The book suggests one simple way to set any financial goal: turn it into four honest questions.",
+        "Ask what you want to achieve, how much money you will need, by when you want it, and what steps will help you reach it.",
+        "Answering these questions helps people make careful decisions about spending, saving and investing for the future."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "What do I want to achieve?",
+          "How much money will I need?",
+          "By when do I want to achieve it?",
+          "What steps can help me reach this goal?"
+        ]
+      },
+      "note": "Goal with a deadline is a plan, not a wish."
+    },
+    {
+      "id": "us-ch108a-s5",
+      "sec": "108.2",
+      "title": "What Is Saving?",
+      "kicker": "Thoda aaj bachaya, kal ka suraksha kavach.",
+      "bullets": [
+        "Saving means keeping aside a part of one's income for future use; it is a financial surplus accumulated over time.",
+        "Savings are important for comfortable living because life is uncertain and emergencies can arise at any time.",
+        "People also save so they can make future investments in assets such as fixed deposits, stocks, mutual funds and real estate."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Income comes in", "Part is kept aside", "Surplus builds over time", "Money ready for future use"]
+      },
+      "note": "Saving is not leftover money; it is a decision."
+    },
+    {
+      "id": "us-ch108a-s6",
+      "sec": "108.2",
+      "title": "Why Save At All?",
+      "kicker": "Life is uncertain; your piggy bank need not be.",
+      "bullets": [
+        "Emergencies do not send an invitation, so savings act as a cushion for uncertain times.",
+        "Saving first builds the surplus that investing later needs; no savings means nothing to invest.",
+        "The book asks: would you spend ₹100 on a want or a need? Wants and needs, learnt in Building Blocks in Economics: The Problem of Choice, guide smart saving.",
+        "Even individuals with low income can plan to save; the habit matters as much as the amount."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Save first",
+          "items": ["Surplus builds over time", "Emergencies are covered", "Money ready to invest later"]
+        },
+        "right": {
+          "title": "Spend first",
+          "items": ["Little left at month end", "Shocks hit hard", "Nothing grows for the future"]
+        }
+      },
+      "note": "Financial experts suggest saving first, spending what is left."
+    },
+    {
+      "id": "us-ch108a-s21",
+      "sec": "108.2",
+      "title": "The ₹100 Test",
+      "kicker": "Sau ka note, badi soch.",
+      "bullets": [
+        "The book asks: if you received ₹100 today, would you save some or all of it, or spend it right away?",
+        "From the Grade 9 Part 1 chapter Building Blocks in Economics: The Problem of Choice, wants and needs help you decide where money should go.",
+        "Choosing needs before wants leaves a surplus, and that surplus is exactly what saving is built on."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["₹100 arrives", "Need or want?", "Decide the split", "Save the surplus"]
+      },
+      "note": "Chhota amount, badi aadat."
+    },
+    {
+      "id": "us-ch108a-s7",
+      "sec": "108.3",
+      "title": "Priya vs Sameer",
+      "kicker": "Same gift, one year later, alag kahani.",
+      "bullets": [
+        "Priya keeps her ₹500 birthday gift in a piggy bank at home; one year later she still has exactly ₹500.",
+        "Sameer puts his ₹500 into a savings scheme earning 8 percent interest a year; one year later he has ₹540.",
+        "Both are being responsible with money, but they are not doing the same thing: Sameer's money earned a return."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Priya, piggy bank",
+          "items": ["Keeps ₹500 at home", "No interest earned", "Still ₹500 after a year"]
+        },
+        "right": {
+          "title": "Sameer, 8 percent scheme",
+          "items": ["Puts ₹500 in a savings scheme", "Earns ₹40 interest in a year", "Has ₹540 after a year"]
+        }
+      },
+      "note": "Saving and investing are siblings, not twins."
+    },
+    {
+      "id": "us-ch108a-s8",
+      "sec": "108.3",
+      "title": "Investing Grows Wealth",
+      "kicker": "Mango tree logic: patience phal deta hai.",
+      "bullets": [
+        "Investing means putting your savings into assets with the aim of protecting their value and generating returns.",
+        "It is like planting a mango tree: no fruit immediately, but once it starts, it gives fruit for many years.",
+        "Keeping savings in cash provides greater liquidity, but investing increases wealth and protects the value of money.",
+        "Investing helps money grow faster than the rate of inflation, so prices rising cannot silently shrink your wealth."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Savings ready", "Put into assets", "Value protected", "Returns generated"]
+      },
+      "note": "Cash sleeps peacefully; invested money works a night shift."
+    },
+    {
+      "id": "us-ch108a-s9",
+      "sec": "108.3",
+      "title": "Inflation Eats Value",
+      "kicker": "₹1,000 bag today, ₹1,060 next year.",
+      "bullets": [
+        "Inflation is the increase in prices of goods and services over time, which reduces the purchasing power of money.",
+        "If a school bag costs ₹1,000 today and inflation is 6 percent per year, the same bag may cost about ₹1,060 next year.",
+        "Money simply kept at home does not grow, so your purchasing power falls and you may not afford the bag.",
+        "Purchasing power is the real-world value of money, measured by what a single unit of currency can buy."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "bar",
+        "xlabel": "Year",
+        "ylabel": "Bag price in rupees",
+        "points": [[1, 1000], [2, 1060]]
+      },
+      "note": "Prices chillate rehte hain; money ko bhi chilla-na hai — grow!"
+    },
+    {
+      "id": "us-ch108a-s10",
+      "sec": "108.3",
+      "title": "Magic of Compounding",
+      "kicker": "Returns par returns — king and sage wala jadoo.",
+      "bullets": [
+        "Compounding is the process where an investment's earnings, such as interest or dividends, are reinvested to generate their own additional earnings over time.",
+        "Returns are earned not only on the original investment (the principal) but also on returns already earned, accumulating high returns over time.",
+        "The Grade 7 story of the king and the sage from Banks and the Magic of Finance explained this same principle.",
+        "Bhavisha saves ₹1,000 a year at 7 percent starting at age 25; Dhruv starts the same at 35, so her money compounds ten years longer."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "You invest the principal",
+          "First returns are earned",
+          "Returns are reinvested",
+          "Returns now earn their own returns"
+        ]
+      },
+      "note": "Start early, let time do the heavy lifting."
+    },
+    {
+      "id": "us-ch108a-s11",
+      "sec": "108.4",
+      "title": "Four Common Options",
+      "kicker": "FDs, bonds, stocks, mutual funds — apna menu.",
+      "bullets": [
+        "The book lists four common investment options: fixed deposits, bonds, stocks (equity or shares), and mutual funds.",
+        "Each option balances safety, returns and access to money differently, so no single choice fits everyone.",
+        "Savings can be deployed across these assets depending on whether a person prefers safety, stable income or growth."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Common investment options",
+        "children": ["Fixed Deposits (FDs)", "Bonds", "Stocks (Equity or Shares)", "Mutual funds"]
+      },
+      "note": "Menu dekho, bhookh (goal) ke hisaab se order karo."
+    },
+    {
+      "id": "us-ch108a-s12",
+      "sec": "108.4",
+      "title": "Fixed Deposits: Safety First",
+      "kicker": "Neend aa jaati hai FD wale ko.",
+      "bullets": [
+        "Fixed deposits are among the most common and safest investment options, offered by banks and post offices.",
+        "A person deposits a lump sum for a fixed period such as one, three or five years at a fixed rate of interest that stays unchanged.",
+        "FDs offer assured returns and suit people who prefer safety over high returns.",
+        "Government-backed options include the Public Provident Fund (PPF), National Savings Certificate (NSC) and Sukanya Samriddhi Yojana for long-term savings."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Lump sum deposit", "Fixed period", "Unchanged interest rate", "Assured returns", "PPF", "NSC", "Sukanya Samriddhi Yojana"]
+      },
+      "note": "Safety champions: kam adventure, poori guarantee."
+    },
+    {
+      "id": "us-ch108a-s13",
+      "sec": "108.4",
+      "title": "Bonds: Lending for Interest",
+      "kicker": "You become the bank here, dost.",
+      "bullets": [
+        "Bonds are investments through which people lend money to the government or companies, called issuers, for a fixed period.",
+        "Buy a ₹10,000 bond paying 5 percent yearly interest and you receive ₹500 after one year; if it matures then, you get ₹10,500 in total.",
+        "Maturity periods in reality range from 1 day to 30 years or more, and bonds can often be sold before maturity, making them more liquid.",
+        "Government bonds are generally considered safer than corporate bonds and suit those seeking a stable, predictable income."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Government bonds",
+          "items": ["Issuer is the government", "Generally considered safer", "Stable, predictable income"]
+        },
+        "right": {
+          "title": "Corporate bonds",
+          "items": ["Issuer is a company raising capital", "Company promises regular interest", "Repay principal at maturity"]
+        }
+      },
+      "note": "Bond = udhaar likhit roop mein, interest ke saath."
+    },
+    {
+      "id": "us-ch108a-s14",
+      "sec": "108.4",
+      "title": "Stocks: Owning a Piece",
+      "kicker": "Share kharido, company ke hissedaar bano.",
+      "bullets": [
+        "Shares represent ownership in a company; buying shares makes you a part-owner of that company.",
+        "Shareholders may earn returns through dividends as well as an increase in the share price.",
+        "The BSE SENSEX is the benchmark index of the Bombay Stock Exchange, tracking 30 large, financially sound, actively traded companies from different sectors.",
+        "The SENSEX serves as an important indicator of the overall performance of the Indian stock market."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Part-owner", "Dividends", "Share price rise", "BSE SENSEX", "30 companies", "Market indicator"]
+      },
+      "note": "SENSEX = stock market ka report card."
+    },
+    {
+      "id": "us-ch108a-s15",
+      "sec": "108.4",
+      "title": "Match Option To Need",
+      "kicker": "Sahi option, sahi maqsad, best combo.",
+      "bullets": [
+        "Prefer safety and assured returns? Fixed deposits at banks or post offices fit best.",
+        "Want a stable, predictable income by lending money? Bonds, especially government bonds, are designed for that.",
+        "Ready to become a part-owner and accept market ups and downs? Shares offer dividends and possible price gains.",
+        "Mutual funds complete the book's list of common options, and schemes like PPF and Sukanya Samriddhi Yojana support long-term saving."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "If you value safety",
+          "items": ["Fixed deposits", "Government-backed schemes", "Assured, unchanged interest"]
+        },
+        "right": {
+          "title": "If you seek growth",
+          "items": ["Shares give ownership", "Dividends plus price rise", "Track with the SENSEX"]
+        }
+      },
+      "note": "There is no best option; there is a best fit."
+    },
+    {
+      "id": "us-ch108a-s16",
+      "sec": "108.5",
+      "title": "Insurance: A Legal Contract",
+      "kicker": "Chota premium, badi himmat for emergencies.",
+      "bullets": [
+        "Insurance is a legal contract in which an individual pays a regular amount, called a premium, to an insurance company.",
+        "In return, the company agrees to provide financial compensation for specific losses or expenses covered under the policy.",
+        "A family may pay ₹500 every month for health insurance; if a member needs treatment, the company covers a large part of the hospital expenses.",
+        "Without insurance, the family might have to use a substantial portion of its savings for treatment costs."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Pay premium regularly", "Policy lists covered losses", "Loss or expense occurs", "Company compensates"]
+      },
+      "note": "Premium is rent for your peace of mind."
+    },
+    {
+      "id": "us-ch108a-s17",
+      "sec": "108.5",
+      "title": "Risk Sharing Pool",
+      "kicker": "Sab thoda daalte hain, ek ko poori madad.",
+      "bullets": [
+        "Insurance works on the principle of risk sharing: many people pay premiums into a common pool.",
+        "In case of any unexpected loss, those insured receive financial support from the insurance company.",
+        "Insurance provides security during emergencies, reduces the impact of accidents, illness or property damage, and helps families recover from financial setbacks.",
+        "Regular premium payments also encourage people to save and plan their finances."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Many pay premiums", "Money forms a common pool", "Unexpected loss strikes", "Insured get support from the pool"]
+      },
+      "note": "Aam ka achaar jaisa: sab ka contribution, sabki suraksha."
+    },
+    {
+      "id": "us-ch108a-s18",
+      "sec": "108.5",
+      "title": "Health and Life Insurance",
+      "kicker": "Sehat bhi, parivaar bhi — dono covered.",
+      "bullets": [
+        "Health insurance covers medical expenses such as hospitalisation, medicines, diagnostic tests and treatments, letting families focus on recovery.",
+        "In India, the government scheme Ayushman Bharat Pradhan Mantri Jan Arogya Yojana provides health coverage to eligible low-income households.",
+        "Life insurance supports the family if the policyholder, who may be the breadwinner, passes away.",
+        "It helps dependents meet daily expenses, continue children's education and repay loans, ensuring long-term financial security."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Health insurance",
+          "items": ["Hospitalisation, medicines, tests", "Less burden during illness", "Ayushman Bharat for eligible homes"]
+        },
+        "right": {
+          "title": "Life insurance",
+          "items": ["Support if breadwinner passes away", "Daily expenses continue", "Education and loan repayment protected"]
+        }
+      },
+      "note": "Health treats the person; life insurance protects the plan."
+    },
+    {
+      "id": "us-ch108a-s19",
+      "sec": "108.5",
+      "title": "General Insurance",
+      "kicker": "Gaadi, ghar, fasal, pashu — sab ke liye kavach.",
+      "bullets": [
+        "General insurance protects against losses related to vehicles, homes, businesses and other property.",
+        "Motor insurance covers repair costs and damages caused by vehicle accidents.",
+        "Property insurance protects homes and businesses against fire, theft, flood, earthquake and other disasters.",
+        "Crop insurance covers damages from natural disasters, pests and market price changes, while cattle insurance protects farmers and dairy owners if animals die or are disabled."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "General insurance",
+        "children": ["Motor", "Property", "Crop", "Cattle"]
+      },
+      "note": "Farmers ke liye crop and cattle insurance is a lifeline."
+    },
+    {
+      "id": "us-ch108a-s20",
+      "sec": "108.5",
+      "title": "The Protection Pillar",
+      "kicker": "Save, invest, insure — poora circle complete.",
+      "bullets": [
+        "Insurance is one of the most effective ways to achieve financial protection, the pillar that safeguards money and assets.",
+        "It links back to budgeting and saving: premiums are planned expenses, and compensation protects the savings you worked to build.",
+        "Together with investing for growth, insurance ensures that one emergency cannot wipe out years of careful money habits."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Earn and budget wisely",
+          "Save and invest for goals",
+          "Pay premiums regularly",
+          "Emergencies no longer drain savings"
+        ]
+      },
+      "note": "Growth and protection go hand in hand."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch108a-f1",
+      "sec": "108.1",
+      "front": "What is income in personal finance?",
+      "back": "Money received regularly or occasionally in return for products sold or services rendered; the starting point of personal finance.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f2",
+      "sec": "108.1",
+      "front": "Define budgeting.",
+      "back": "Planning in advance how income will be spent; a budget is a written plan that aims to balance income and expenses.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f3",
+      "sec": "108.1",
+      "front": "Name the five pillars of personal finance.",
+      "back": "Income, budgeting, saving, investing, and protection and risk management.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f4",
+      "sec": "108.1",
+      "front": "What are the four questions for setting a financial goal?",
+      "back": "What do I want to achieve? How much money will I need? By when do I want it? What steps can help me reach it?",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f5",
+      "sec": "108.1",
+      "front": "How can college students earn while studying?",
+      "back": "Through Earn While You Learn programmes offering part-time work, internships or apprenticeships with pay and practical skills.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch108a-f6",
+      "sec": "108.2",
+      "front": "Define saving.",
+      "back": "Keeping aside a part of one's income for future use; a financial surplus accumulated over time.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f7",
+      "sec": "108.2",
+      "front": "Why is saving important, according to the book?",
+      "back": "Life is uncertain and emergencies can arise anytime; savings support comfortable living and fund future investments.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f8",
+      "sec": "108.2",
+      "front": "In which assets do people invest their savings, per the book?",
+      "back": "Fixed deposits, stocks, mutual funds and real estate.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch108a-f9",
+      "sec": "108.3",
+      "front": "Define investing.",
+      "back": "Putting your savings into assets with the aim of protecting their value and generating returns.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f10",
+      "sec": "108.3",
+      "front": "What is inflation?",
+      "back": "The increase in prices of goods and services over time, which reduces the purchasing power of money.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f11",
+      "sec": "108.3",
+      "front": "What does liquidity mean?",
+      "back": "How quickly and easily an asset can be converted into cash or cash equivalent without affecting its value.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f12",
+      "sec": "108.3",
+      "front": "Explain compounding in one line.",
+      "back": "An investment's earnings are reinvested to generate their own additional earnings, so returns grow on the principal and past returns.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f13",
+      "sec": "108.3",
+      "front": "In the book's example, how much does Sameer's ₹500 become at 8 percent yearly interest?",
+      "back": "₹540 after one year, while Priya's piggy bank ₹500 stays ₹500.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch108a-f14",
+      "sec": "108.4",
+      "front": "What is a fixed deposit?",
+      "back": "A lump sum deposited in a bank or post office for a fixed period at a fixed interest rate that stays unchanged, offering assured returns.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f15",
+      "sec": "108.4",
+      "front": "Name three government-backed savings schemes.",
+      "back": "Public Provident Fund (PPF), National Savings Certificate (NSC), and Sukanya Samriddhi Yojana.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch108a-f16",
+      "sec": "108.4",
+      "front": "What is the BSE SENSEX?",
+      "back": "The benchmark index of the Bombay Stock Exchange tracking 30 large, financially sound, actively traded companies across sectors.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f17",
+      "sec": "108.4",
+      "front": "How do bondholders earn from bonds?",
+      "back": "They lend money to governments or companies and earn regular interest; a ₹10,000 bond at 5 percent pays ₹500 a year.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f18",
+      "sec": "108.5",
+      "front": "Define insurance and premium.",
+      "back": "Insurance is a legal contract where you pay a regular premium so the company compensates specific covered losses or expenses.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108a-f19",
+      "sec": "108.5",
+      "front": "Which principle does insurance work on?",
+      "back": "Risk sharing: many people pay premiums into a common pool, and the insured receive support when loss strikes.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108a-f20",
+      "sec": "108.5",
+      "front": "What does crop insurance cover?",
+      "back": "Farmer losses from natural disasters, pests and market price changes; cattle insurance covers death or disability of animals.",
+      "tag": "trivia"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch108a-q1",
+      "sec": "108.1",
+      "q": "In personal finance, which of these is called the starting point because spending, saving and investing all depend on it?",
+      "options": ["A written budget", "Income", "Insurance", "A bank loan"],
+      "answer": 1,
+      "why": "The book says without income it is not possible to spend, save or invest.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q2",
+      "sec": "108.1",
+      "q": "A budget is best described as which of the following?",
+      "options": [
+        "A written plan that aims to balance income and expenses",
+        "A government tax on savings",
+        "A type of insurance premium",
+        "A fixed deposit at the post office"
+      ],
+      "answer": 0,
+      "why": "Budgeting means planning in advance how income will be spent.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q3",
+      "sec": "108.1",
+      "q": "Which of these is one of the four questions the book suggests for setting a financial goal?",
+      "options": [
+        "How much money will my friend need?",
+        "By when do I want to achieve it?",
+        "Why should I avoid writing any plan?",
+        "What do others own that I envy?"
+      ],
+      "answer": 1,
+      "why": "The book asks what, how much, by when, and what steps for a goal.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q4",
+      "sec": "108.2",
+      "q": "Saving, as defined in the chapter, means which of these?",
+      "options": [
+        "Spending all income immediately on needs",
+        "Keeping aside a part of income for future use",
+        "Borrowing money for daily expenses",
+        "Earning dividends from shares"
+      ],
+      "answer": 1,
+      "why": "Saving is a financial surplus accumulated over time for future use.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q5",
+      "sec": "108.2",
+      "q": "According to financial experts quoted in the book, what is the suggested order of money habits?",
+      "options": [
+        "Spend first, then save what is left",
+        "Borrow first, then save later",
+        "Save first, then spend what is left",
+        "Save only when income is very high"
+      ],
+      "answer": 2,
+      "why": "The book notes experts suggest saving first and spending what is left.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q6",
+      "sec": "108.2",
+      "q": "People save so they can make future investments in assets such as which of these groups?",
+      "options": [
+        "Only luxury cars and gadgets",
+        "Fixed deposits, stocks, mutual funds and real estate",
+        "Perishable goods like fruits",
+        "Lottery tickets and lucky draws"
+      ],
+      "answer": 1,
+      "why": "The book names fixed deposits, stocks, mutual funds and real estate.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q7",
+      "sec": "108.3",
+      "q": "Sameer puts ₹500 in a scheme earning 8 percent interest a year. How much does he have after one year?",
+      "options": ["₹500", "₹508", "₹580", "₹540"],
+      "answer": 3,
+      "why": "8 percent of ₹500 is ₹40, so ₹500 plus ₹40 makes ₹540.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q8",
+      "sec": "108.3",
+      "q": "Inflation is correctly defined as which of the following?",
+      "options": [
+        "The increase in prices of goods and services over time",
+        "The interest a bank pays on deposits",
+        "A legal contract with an insurance company",
+        "The profit earned from shares"
+      ],
+      "answer": 0,
+      "why": "Inflation reduces the purchasing power of money as prices rise.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q9",
+      "sec": "108.3",
+      "q": "Liquidity of an asset refers to which of these?",
+      "options": [
+        "How quickly and easily it converts to cash without affecting its value",
+        "How much profit it earns every year",
+        "The period after which a bond matures",
+        "The premium paid to insure it"
+      ],
+      "answer": 0,
+      "why": "The book defines liquidity as ease of converting to cash or cash equivalent.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q10",
+      "sec": "108.3",
+      "q": "Bhavisha saves ₹1,000 a year at 7 percent interest from age 25; Dhruv does the same from age 35. Why does Bhavisha end up with more?",
+      "options": [
+        "Dhruv's savings lose money every year",
+        "Bhavisha saves a larger amount each year",
+        "Her returns compound for ten extra years, earning returns on earlier returns",
+        "Dhruv's bank pays a lower interest rate"
+      ],
+      "answer": 2,
+      "why": "With compounding, returns are earned on the principal and on returns already earned, so time matters.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch108a-q11",
+      "sec": "108.4",
+      "q": "Which investment option is described as among the most common and safest, offered by banks and post offices?",
+      "options": ["Fixed deposits", "Stocks", "Corporate bonds", "Mutual funds"],
+      "answer": 0,
+      "why": "FDs pay a fixed, unchanged rate and offer assured returns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q12",
+      "sec": "108.4",
+      "q": "You buy a ₹10,000 bond that pays 5 percent interest per year and matures after one year. What do you receive in total?",
+      "options": ["₹50", "₹5,000", "₹10,000", "₹10,500"],
+      "answer": 3,
+      "why": "₹500 interest plus the ₹10,000 principal equals ₹10,500 at maturity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q13",
+      "sec": "108.4",
+      "q": "Which statement about bonds matches the book?",
+      "options": [
+        "Corporate bonds are always safer than government bonds",
+        "Government bonds are generally considered safer than corporate bonds",
+        "Neither type of bond pays any interest",
+        "Both types always mature only after 30 years"
+      ],
+      "answer": 1,
+      "why": "Government bonds suit those seeking stable, predictable income.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q14",
+      "sec": "108.4",
+      "q": "The BSE SENSEX tracks the performance of which of the following?",
+      "options": [
+        "Only newly listed startup companies",
+        "The price of gold in Mumbai",
+        "All companies listed in the world",
+        "30 large, financially sound, actively traded companies from different sectors"
+      ],
+      "answer": 3,
+      "why": "It is the benchmark index of the Bombay Stock Exchange and a market indicator.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch108a-q15",
+      "sec": "108.5",
+      "q": "In an insurance contract, the regular amount an individual pays to the insurance company is called the what?",
+      "options": ["Premium", "Principal", "Dividend", "Maturity value"],
+      "answer": 0,
+      "why": "The premium buys compensation for specific losses covered under the policy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108a-q16",
+      "sec": "108.5",
+      "q": "Insurance works on which principle?",
+      "options": [
+        "Guaranteed doubling of money",
+        "Risk sharing through a common pool of premiums",
+        "Compulsory payment of taxes",
+        "Borrowing at zero interest"
+      ],
+      "answer": 1,
+      "why": "Many pay premiums into a pool; the insured get support when loss occurs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108a-q17",
+      "sec": "108.5",
+      "q": "A farmer suffers losses when pests and market price changes damage his harvest. Which insurance is designed for this?",
+      "options": ["Motor insurance", "Life insurance", "Crop insurance", "Health insurance"],
+      "answer": 2,
+      "why": "Crop insurance covers damages caused by natural disasters, pests and market price changes.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch108a-e1",
+      "title": "Priya and Sameer's ₹500, One Year Later",
+      "problem": "Priya and Sameer each receive ₹500 as a birthday gift. Priya keeps hers in a piggy bank at home. Sameer puts his into a savings scheme that earns 8 percent interest a year. How much does each have after one year?",
+      "steps": [
+        "Priya's cash at home earns no interest, so it stays ₹500 after one year.",
+        "Sameer's yearly interest equals 500 multiplied by 8 divided by 100, which is ₹40.",
+        "Add the interest to the original amount: 500 plus 40 equals ₹540."
+      ],
+      "answer": "Priya still has ₹500; Sameer has ₹540, exactly ₹40 more, showing investing generates returns."
+    },
+    {
+      "id": "us-ch108a-e2",
+      "title": "Bond Interest and Maturity Payout",
+      "problem": "You buy a bond worth ₹10,000 that pays 5 percent interest per year and matures after one year. How much interest do you earn, and what total amount do you receive at maturity?",
+      "steps": [
+        "Yearly interest equals 10,000 multiplied by 5 divided by 100, which is ₹500.",
+        "Bondholders earn this as regular interest, here received after one year.",
+        "At maturity the issuer repays the principal too: 10,000 plus 500 equals ₹10,500."
+      ],
+      "answer": "You earn ₹500 interest and receive ₹10,500 in total when the bond matures after one year."
+    },
+    {
+      "id": "us-ch108a-e3",
+      "title": "Inflation and the School Bag",
+      "problem": "A school bag costs ₹1,000 today and inflation is 6 percent per year. What will the same bag cost next year, and what does this mean for money kept at home?",
+      "steps": [
+        "Price rise equals 1,000 multiplied by 6 divided by 100, which is ₹60.",
+        "Next year's price is about 1,000 plus 60, that is ₹1,060.",
+        "Money kept at home does not grow, so your purchasing power falls and you fall ₹60 short for the same bag."
+      ],
+      "answer": "The bag costs about ₹1,060 next year; idle money loses purchasing power, which is why investing aims to grow faster than inflation."
+    },
+    {
+      "id": "us-ch108a-e4",
+      "title": "A Year of Health Insurance Premiums",
+      "problem": "A family pays ₹500 every month for health insurance. How much premium do they pay in one full year, and what protection do they get in return?",
+      "steps": [
+        "Yearly premium equals 500 multiplied by 12 months, which is ₹6,000.",
+        "Under the policy, the insurance company covers a large part of hospital expenses if a family member needs medical treatment.",
+        "Without insurance, the family might have to use a substantial portion of its savings for the same treatment."
+      ],
+      "answer": "The family pays ₹6,000 in a year; in return, covered hospital expenses are largely paid by the company, protecting their savings."
+    }
+  ],
+  "conceptMap": {
+    "center": "Managing Personal Finances",
+    "groups": [
+      { "id": "g1", "label": "Foundations" },
+      { "id": "g2", "label": "Growing Money" },
+      { "id": "g3", "label": "Investment Options" },
+      { "id": "g4", "label": "Protection" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Income", "group": "g1" },
+      { "id": "n2", "label": "Budgeting", "group": "g1" },
+      { "id": "n3", "label": "Financial Goals", "group": "g1" },
+      { "id": "n4", "label": "Saving", "group": "g2" },
+      { "id": "n5", "label": "Investing", "group": "g2" },
+      { "id": "n6", "label": "Compounding", "group": "g2" },
+      { "id": "n7", "label": "Inflation", "group": "g2" },
+      { "id": "n8", "label": "Liquidity", "group": "g2" },
+      { "id": "n9", "label": "Fixed Deposits", "group": "g3" },
+      { "id": "n10", "label": "Bonds", "group": "g3" },
+      { "id": "n11", "label": "Stocks", "group": "g3" },
+      { "id": "n12", "label": "Mutual Funds", "group": "g3" },
+      { "id": "n13", "label": "Insurance", "group": "g4" },
+      { "id": "n14", "label": "Premium", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "gets planned" },
+      { "from": "n2", "to": "n3", "label": "sets" },
+      { "from": "n2", "to": "n4", "label": "creates surplus" },
+      { "from": "n4", "to": "n5", "label": "deployed into assets" },
+      { "from": "n5", "to": "n6", "label": "returns on returns" },
+      { "from": "n5", "to": "n7", "label": "grows faster than" },
+      { "from": "n5", "to": "n9", "label": "safest pick" },
+      { "from": "n5", "to": "n10", "label": "lend to issuers" },
+      { "from": "n5", "to": "n11", "label": "own a company" },
+      { "from": "n5", "to": "n12", "label": "pooled option" },
+      { "from": "n9", "to": "n8", "label": "locked, less liquid" },
+      { "from": "n10", "to": "n8", "label": "sell before maturity" },
+      { "from": "n14", "to": "n13", "label": "builds the pool" },
+      { "from": "n13", "to": "n4", "label": "encourages saving" },
+      { "from": "n3", "to": "n13", "label": "protection is a goal" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows: from earning to protecting",
+    "steps": [
+      { "id": "s1", "label": "Earn income", "detail": "Salary, business profit, rent, interest or dividends flow in." },
+      { "id": "s2", "label": "Budget and set goals", "detail": "Write a plan that balances income and expenses around clear goals." },
+      { "id": "s3", "label": "Save first", "detail": "Keep aside a surplus for emergencies and future investments." },
+      { "id": "s4", "label": "Compare options", "detail": "Weigh fixed deposits, bonds, stocks and mutual funds." },
+      { "id": "s5", "label": "Invest early", "detail": "Like Bhavisha starting at 25, early money compounds longer." },
+      { "id": "s6", "label": "Let it compound", "detail": "Returns are reinvested and earn their own returns." },
+      { "id": "s7", "label": "Insure against risk", "detail": "Premiums into a common pool protect savings from shocks." },
+      { "id": "s8", "label": "Review the plan", "detail": "Check impulse spending and keep goals on track." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 2]]
+  }
+}

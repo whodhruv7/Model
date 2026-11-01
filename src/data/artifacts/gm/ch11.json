@@ -1,0 +1,610 @@
+{
+  "book": "gm",
+  "chapter": 11,
+  "title": "The World of Algorithms",
+  "grade": 9,
+  "sections": [
+    { "id": "11.1", "title": "Adding Numbers" },
+    { "id": "11.2", "title": "Greatest Common Divisor" },
+    { "id": "11.3", "title": "Data Structures" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch11-s1",
+      "sec": "11.1",
+      "title": "From Dots to Digits",
+      "kicker": "You once added 5 plus 7 with dots!",
+      "bullets": [
+        "As beginners we added by drawing dots: 5 dots for 5, 7 more for 7, then counted all 12 dots.",
+        "Imagine adding 473 and 695 by drawing dots; the page would fill up before we finished.",
+        "Luckily we discovered a much faster way to add, hidden inside the Indian number system."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Counting dots",
+          "items": ["Draw 5 dots, then 7 more", "Count every dot one by one", "Fine for 12, hopeless for 473 plus 695"]
+        },
+        "right": {
+          "title": "Column addition",
+          "items": ["Write numbers one below the other", "Add each column right to left", "Carry when a sum is 10 or more"]
+        }
+      },
+      "note": "Dots are sweet for 5 plus 7, and pure torture for 473 plus 695."
+    },
+    {
+      "id": "gm-ch11-s2",
+      "sec": "11.1",
+      "title": "Align Digits Right",
+      "kicker": "The Indian place-value system makes it work.",
+      "bullets": [
+        "Write the numbers one below the other, with the rightmost digit aligned.",
+        "In the base-ten place-value system, the rightmost column is the ones place.",
+        "Right alignment makes ones meet ones and tens meet tens, so columns can be added one by one."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Ones", "Tens", "Hundreds", "Thousands", "Align right"]
+      },
+      "note": "Ones first, boss: right to left is the rule."
+    },
+    {
+      "id": "gm-ch11-s3",
+      "sec": "11.1",
+      "title": "The Carry Rule",
+      "kicker": "Ten or more? Pass one to the left.",
+      "bullets": [
+        "Add the digits of a column. If the sum is 10 or more, write only the units digit below the column.",
+        "Set the value of carry to 1, and add that carry in the next column on the left.",
+        "If the column sum is less than 10, write the sum directly and set carry to 0."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Add the two digits", "Sum is 10 or more: write units digit", "Set carry to 1", "Add carry in the next column"]
+      },
+      "note": "Carry is always 0 or 1, never more."
+    },
+    {
+      "id": "gm-ch11-s4",
+      "sec": "11.1",
+      "title": "Repeat, Then Finish",
+      "kicker": "Move left until no digits remain.",
+      "bullets": [
+        "Move to the next column on the left and add the two digits plus the current value of carry.",
+        "Repeat this until there are no more digits on the left.",
+        "If the final carry is 1, write it to the left of the bottom row of the answer."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Add digits plus carry", "Move one column left", "Repeat until digits end", "Write final carry"]
+      },
+      "note": "That final 1 completes the sum."
+    },
+    {
+      "id": "gm-ch11-s5",
+      "sec": "11.1",
+      "title": "What Is an Algorithm?",
+      "kicker": "A step-by-step procedure, written precisely.",
+      "bullets": [
+        "Our addition method is an algorithm: a step-by-step procedure to arrive at an answer.",
+        "We describe an algorithm by writing down the steps as precisely as possible.",
+        "Follow the steps exactly; do not perform any action that is not explicitly mentioned."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Step by step", "Precisely written", "No extra actions", "Reaches the answer"]
+      },
+      "note": "Precise steps mean zero confusion."
+    },
+    {
+      "id": "gm-ch11-s6",
+      "sec": "11.1",
+      "title": "When Numbers Differ in Size",
+      "kicker": "5 digits meet 3 digits; stay calm.",
+      "bullets": [
+        "Exercise 11.1 asks what happens when a 5-digit number is added to a 3-digit number.",
+        "In the base-ten place-value system an empty column simply counts as 0, so the steps still work.",
+        "It also asks why carry cannot exceed 1: the biggest column sum is 9 plus 9 plus 1, which is 19."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Odd inputs", "Empty column is 0", "Biggest sum 19", "Carry at most 1"]
+      },
+      "note": "Exercises are gym time for your algorithm."
+    },
+    {
+      "id": "gm-ch11-s7",
+      "sec": "11.2",
+      "title": "gcd From Scratch",
+      "kicker": "Forget prime factorisation; use the definition.",
+      "bullets": [
+        "Computing the greatest common divisor, or hcf, is a familiar problem.",
+        "We have already solved it using prime factorisation and other methods.",
+        "Now we solve it straight from the definition of gcd, as a written algorithm."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["gcd", "hcf", "From the definition", "Not prime factorisation"]
+      },
+      "note": "Old tools aside, today we argue from the definition."
+    },
+    {
+      "id": "gm-ch11-s8",
+      "sec": "11.2",
+      "title": "Break the Problem Down",
+      "kicker": "Big problem, three small pieces.",
+      "bullets": [
+        "The first step is to understand what is required and break the problem into smaller pieces.",
+        "We want the gcd, so first we compute the divisors of both numbers and note them down.",
+        "Then we compare the two collections and find the largest number present in both."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Compute divisors of m", "Compute divisors of n", "Compare the collections", "Largest common number"]
+      },
+      "note": "Small pieces, big win."
+    },
+    {
+      "id": "gm-ch11-s9",
+      "sec": "11.2",
+      "title": "Hunt for Divisors",
+      "kicker": "Check every j from 1 up to n.",
+      "bullets": [
+        "To compute gcd(375, 825), start by finding the divisors of 375.",
+        "Any divisor, or factor, of 375 must lie between 1 and 375.",
+        "The simplest way is to check each number between 1 and 375 and see if it divides 375."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Take j from 1 to n", "Test whether j divides n", "If yes, record it", "Continue until n"]
+      },
+      "note": "Boring? Yes. Correct? Also yes."
+    },
+    {
+      "id": "gm-ch11-s10",
+      "sec": "11.2",
+      "title": "Keep a List",
+      "kicker": "Start empty, append each find.",
+      "bullets": [
+        "We must keep track of the divisors so we can compare them with the divisors of 825.",
+        "Maintain them in a sequence, or a list, written with square brackets like [1, 4, 9, 16].",
+        "The list starts empty, and every time we find a new divisor we add it at the end."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Start with an empty list", "Find a new divisor", "Add it at the end", "List grows in ascending order"]
+      },
+      "note": "New divisor joins at the end, queue style."
+    },
+    {
+      "id": "gm-ch11-s11",
+      "sec": "11.2",
+      "title": "The Divisor Algorithm",
+      "kicker": "Two steps, endlessly useful.",
+      "bullets": [
+        "Step 1: start with an empty list-of-divisors.",
+        "Step 2: for each number j in the sequence 1, 2, 3 up to n, if j divides n, add j to the list-of-divisors.",
+        "Names like list-of-divisors and j keep the description precise; without j it would be clumsy."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["list-of-divisors", "j", "Empty at start", "Add at the end"]
+      },
+      "note": "Give things names, yaani labels, and steps stay crisp."
+    },
+    {
+      "id": "gm-ch11-s12",
+      "sec": "11.2",
+      "title": "Executing an Algorithm",
+      "kicker": "Run the steps on a real number.",
+      "bullets": [
+        "Running through an algorithm step by step is called executing the algorithm.",
+        "Execute it on 18: j = 1, 2 and 3 divide 18; j = 4 and 5 do not; j = 6 does.",
+        "The finished list is [1, 2, 3, 6, 9, 18], the divisors of 18 in ascending order."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Empty list", "Try j = 1 to 18", "Keep only divisors", "[1, 2, 3, 6, 9, 18]"]
+      },
+      "note": "Watch it run: 1, 2, 3 in; 4 and 5 out."
+    },
+    {
+      "id": "gm-ch11-s13",
+      "sec": "11.3",
+      "title": "Names Carry Values",
+      "kicker": "Middle results need labels too.",
+      "bullets": [
+        "Executing an algorithm computes intermediate quantities, like the lists divisors-of-m and divisors-of-n.",
+        "We give each value a name so we can refer to it later in the algorithm.",
+        "Assigning names to intermediate values is what keeps the written algorithm concise."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["j", "carry", "divisors-of-m", "divisors-of-n"]
+      },
+      "note": "carry was a named value too, back in 11.1."
+    },
+    {
+      "id": "gm-ch11-s14",
+      "sec": "11.3",
+      "title": "A List Is a Data Structure",
+      "kicker": "More than numbers: organised numbers.",
+      "bullets": [
+        "Intermediate values are typically more complicated than simple numbers.",
+        "Here we maintain lists of numbers, arranged in ascending order.",
+        "A list is an example of a data structure."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["List", "Ascending order", "Data structure", "[1, 2, 3, 6, 9, 18]"]
+      },
+      "note": "A list: a shelf with a system."
+    },
+    {
+      "id": "gm-ch11-s15",
+      "sec": "11.3",
+      "title": "Organise to Go Fast",
+      "kicker": "Structure makes algorithms efficient.",
+      "bullets": [
+        "Data structures organise information in a manner that makes an algorithm more efficient.",
+        "In an ascending list, the largest divisor found so far always sits at the end.",
+        "This idea opens a big field of study that we will explore in higher grades."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Data structures",
+        "children": ["List", "Ascending order", "Efficiency", "More in higher grades"]
+      },
+      "note": "Organised data is fast data."
+    },
+    {
+      "id": "gm-ch11-s16",
+      "sec": "11.3",
+      "title": "One Scan Instead of Two",
+      "kicker": "m plus n checks shrink to max(m, n).",
+      "bullets": [
+        "Scanning 1 to m for divisors of m, then 1 to n for divisors of n, checks m + n candidates.",
+        "Let max(m, n) be the maximum of m and n, and run a single scan of j from 1 to max(m, n).",
+        "If j divides m, add it to the divisors of m; if j divides n, add it to the divisors of n.",
+        "The number of possible divisors to check drops from m + n to max(m, n)."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Two separate scans",
+          "items": ["Scan 1 to m", "Then scan 1 to n", "m + n checks in total"]
+        },
+        "right": {
+          "title": "One combined scan",
+          "items": ["Run j from 1 to max(m, n)", "Test j against m and n", "max(m, n) checks in total"]
+        }
+      },
+      "note": "Kaam aadha, result poora."
+    },
+    {
+      "id": "gm-ch11-s17",
+      "sec": "11.3",
+      "title": "Common Divisors Direct",
+      "kicker": "Why keep two lists? Keep one.",
+      "bullets": [
+        "With the scans combined, we can directly compute the list of common divisors.",
+        "Instead of building both divisor lists and combining them, record j only when it divides both.",
+        "The common divisors come out in ascending order, so the last one is the largest, the gcd."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Run j from 1 to max(m, n)", "Does j divide both m and n", "If yes, add to common list", "Last entry is the gcd"]
+      },
+      "note": "One list, no merging homework."
+    },
+    {
+      "id": "gm-ch11-s18",
+      "sec": "11.3",
+      "title": "Think Like a Designer",
+      "kicker": "Same answer, smarter route.",
+      "bullets": [
+        "Exercise Set 11.2 asks for algorithms to find elements of one list that are missing from another.",
+        "It also asks for an lcm algorithm, and whether writing divisors in pairs, like (2, 9) for 18, speeds up the scan.",
+        "Improving the steps without changing the answer is the heart of algorithm design."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["lcm", "Missing elements", "Divisor pairs", "Efficiency"]
+      },
+      "note": "Same answer, less work: that is elegance."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "gm-ch11-f1",
+      "sec": "11.1",
+      "front": "What is an algorithm?",
+      "back": "A step-by-step procedure to arrive at an answer, with every step written as precisely as possible.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch11-f2",
+      "sec": "11.1",
+      "front": "In column addition, when does the carry become 1?",
+      "back": "When a column sum is 10 or more: write the units digit below the column and pass carry 1 to the left.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch11-f3",
+      "sec": "11.1",
+      "front": "Why are the digits aligned from right to left?",
+      "back": "Right alignment lines up ones with ones and tens with tens in the Indian place-value system, so each column adds matching places.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch11-f4",
+      "sec": "11.1",
+      "front": "Why can the carry never be more than 1?",
+      "back": "The largest column sum is 9 plus 9 plus 1, which is 19, still below 20, so the carry is only ever 1.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch11-f5",
+      "sec": "11.2",
+      "front": "What does the gcd of two numbers mean?",
+      "back": "The greatest common divisor, or hcf, is the largest number present in both collections of divisors.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch11-f6",
+      "sec": "11.2",
+      "front": "State the algorithm to find all divisors of n.",
+      "back": "Start with an empty list-of-divisors; for each j from 1 to n, if j divides n, add j to the list-of-divisors.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch11-f7",
+      "sec": "11.2",
+      "front": "What does executing an algorithm mean?",
+      "back": "Running through the algorithm step by step, doing exactly what each step says and nothing more.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch11-f8",
+      "sec": "11.2",
+      "front": "How does the book write a list of values?",
+      "back": "Inside square brackets, like [1, 4, 9, 16], with every new divisor added at the end of the list.",
+      "tag": "trivia"
+    },
+    {
+      "id": "gm-ch11-f9",
+      "sec": "11.3",
+      "front": "What is a data structure?",
+      "back": "A way of organising information, such as a list, that helps make an algorithm more efficient.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch11-f10",
+      "sec": "11.3",
+      "front": "Why do we name intermediate values like divisors-of-m?",
+      "back": "Named values can be referred to later in the algorithm, which keeps the written steps concise.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch11-f11",
+      "sec": "11.3",
+      "front": "One combined scan checks max(m, n) candidates instead of what?",
+      "back": "Instead of m plus n, the total of scanning 1 to m and then 1 to n separately.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch11-f12",
+      "sec": "11.3",
+      "front": "How do the divisors of 18 pair up?",
+      "back": "As (1, 18), (2, 9) and (3, 6): each small divisor pairs with 18 divided by that divisor.",
+      "tag": "example"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gm-ch11-q1",
+      "sec": "11.1",
+      "q": "To add 473 and 695 with the digit-by-digit algorithm, which digits do you add first?",
+      "options": ["The leftmost digits 4 and 6", "The rightmost digits 3 and 5", "All the digits together at once", "Only the middle digits 7 and 9"],
+      "answer": 1,
+      "why": "Step 2 of the algorithm starts at the rightmost column and later steps move left.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch11-q2",
+      "sec": "11.1",
+      "q": "A column sum is 10 or more. What do you write directly below that column?",
+      "options": ["The units digit of the sum", "The full two-digit sum", "The carry value 1 only", "The tens digit of the sum"],
+      "answer": 0,
+      "why": "The book says write the units digit below and set the value of carry to 1.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch11-q3",
+      "sec": "11.1",
+      "q": "A column has digits 8 and 7, and carry 1 arrives from the right. What is written below, and the new carry?",
+      "options": ["6 below, new carry 0", "16 below, new carry 1", "6 below, new carry 1", "5 below, new carry 1"],
+      "answer": 2,
+      "why": "8 plus 7 plus 1 is 16, so the units digit 6 goes below and carry becomes 1.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch11-q4",
+      "sec": "11.1",
+      "q": "Adding 473 and 695 gives 1168. Where does the leftmost 1 of the answer come from?",
+      "options": ["From adding 4 and 6", "From counting the dots of 473", "From the units digits 3 and 5", "From the carry left after the last column"],
+      "answer": 3,
+      "why": "Step 5 says if carry is 1 at the end, write it to the left of the bottom row.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch11-q5",
+      "sec": "11.2",
+      "q": "Any divisor of 375 must lie between which two numbers?",
+      "options": ["Between 2 and 374", "Between 1 and 375", "Between 1 and 100", "Between 375 and 825"],
+      "answer": 1,
+      "why": "A divisor, or factor, of a number lies between 1 and the number itself.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch11-q6",
+      "sec": "11.2",
+      "q": "When the divisor algorithm begins, what does list-of-divisors hold?",
+      "options": ["It is empty", "It holds n itself", "It holds 1 and n", "It holds every number up to n"],
+      "answer": 0,
+      "why": "Step 1 starts with an empty list; each new divisor is added at the end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch11-q7",
+      "sec": "11.2",
+      "q": "Executing the divisor algorithm on 18, which is the first candidate j that fails the test?",
+      "options": ["1", "2", "4", "3"],
+      "answer": 2,
+      "why": "1, 2 and 3 all divide 18, but 4 does not, so 4 fails first.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch11-q8",
+      "sec": "11.2",
+      "q": "For gcd(375, 825), how many candidate divisors do the two separate scans check in total?",
+      "options": ["825", "1200", "375", "750"],
+      "answer": 1,
+      "why": "We scan 1 to 375 and then 1 to 825, and 375 plus 825 is 1200.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch11-q9",
+      "sec": "11.3",
+      "q": "The lists of divisors we build are arranged in which order?",
+      "options": ["Descending order", "Random order", "Alternating order", "Ascending order"],
+      "answer": 3,
+      "why": "Section 11.3 maintains lists of numbers arranged in ascending order.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch11-q10",
+      "sec": "11.3",
+      "q": "With one combined scan for m = 375 and n = 825, how many candidates get checked?",
+      "options": ["825", "1200", "450", "600"],
+      "answer": 0,
+      "why": "The scan runs from 1 to max(375, 825), which is 825, instead of 1200.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch11-q11",
+      "sec": "11.3",
+      "q": "In the direct common-divisor scan, j is added to the list only when...",
+      "options": ["It divides m but not n", "It is bigger than n", "It divides both m and n", "It divides neither m nor n"],
+      "answer": 2,
+      "why": "Common divisors must divide both numbers, so j is recorded only then.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch11-q12",
+      "sec": "11.3",
+      "q": "Divisors of 18 pair as (1, 18), (2, 9), (3, 6). Roughly where can a paired scan stop?",
+      "options": ["At 9, the middle divisor", "At about sqrt(18), near 4", "At 18 divided by 2", "Only at 18 itself"],
+      "answer": 1,
+      "why": "Past sqrt(n) every pair has already appeared, so checking near 4 suffices.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch11-e1",
+      "title": "Run the addition algorithm on 473 plus 695",
+      "problem": "Use the digit-by-digit addition algorithm from Section 11.1 to add 473 and 695. Follow each written step precisely and do not perform any action that is not mentioned.",
+      "steps": [
+        "Step 1: write the numbers one below the other in the base-ten place-value system, digits aligned from right to left: 473 on top, 695 below it.",
+        "Step 2, rightmost column: 3 plus 5 is 8, which is less than 10, so write 8 below and set the value of carry to 0.",
+        "Step 3, middle column: 7 plus 9 plus carry 0 is 16, which is 10 or more, so write the units digit 6 below and set carry to 1.",
+        "Step 3 again, leftmost column: 4 plus 6 plus carry 1 is 11, which is 10 or more, so write 1 below and set carry to 1.",
+        "Step 4: there are no more digits on the left, so stop repeating.",
+        "Step 5: the value of carry is 1, so write 1 to the left of the bottom row."
+      ],
+      "answer": "473 plus 695 equals 1168."
+    },
+    {
+      "id": "gm-ch11-e2",
+      "title": "Execute the divisor algorithm on 18",
+      "problem": "Execute the algorithm to find the divisors of n for n = 18, showing how the list-of-divisors grows, and write the final list in the book's square bracket notation.",
+      "steps": [
+        "Step 1: start with an empty list-of-divisors.",
+        "Try j = 1: 1 divides 18, so add it at the end; the list becomes [1].",
+        "Try j = 2 and j = 3: both divide 18, so the list grows to [1, 2] and then [1, 2, 3].",
+        "Try j = 4 and j = 5: neither divides 18, so nothing is added.",
+        "Try j = 6, then j = 9, then j = 18: each divides 18, so the list grows to [1, 2, 3, 6], then [1, 2, 3, 6, 9], then [1, 2, 3, 6, 9, 18]. Every other j from 7 to 17 fails the test."
+      ],
+      "answer": "The list-of-divisors of 18 is [1, 2, 3, 6, 9, 18]."
+    },
+    {
+      "id": "gm-ch11-e3",
+      "title": "gcd(375, 825) by the improved scan",
+      "problem": "Compute gcd(375, 825) by directly computing the list of common divisors with one combined scan, and state how many candidates were checked compared with the two-scan method.",
+      "steps": [
+        "The two scans of 1 to 375 and 1 to 825 can become one scan of j from 1 to max(375, 825), which is 825.",
+        "Keep j only if it divides both 375 and 825. Testing each j this way, the common divisors are 1, 3, 5, 15, 25 and 75.",
+        "The list of common divisors in ascending order is [1, 3, 5, 15, 25, 75].",
+        "The largest number present in both collections of divisors is the last entry of this ascending list.",
+        "The combined scan checked 825 candidates, while two separate scans would have checked 375 plus 825, which is 1200."
+      ],
+      "answer": "gcd(375, 825) is 75, found by checking 825 candidates instead of 1200."
+    }
+  ],
+  "conceptMap": {
+    "center": "World of Algorithms",
+    "groups": [
+      { "id": "g1", "label": "Algorithm ideas" },
+      { "id": "g2", "label": "Addition algorithm" },
+      { "id": "g3", "label": "gcd algorithm" },
+      { "id": "g4", "label": "Data and efficiency" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Algorithm", "group": "g1" },
+      { "id": "n2", "label": "Precise steps", "group": "g1" },
+      { "id": "n3", "label": "Executing", "group": "g1" },
+      { "id": "n4", "label": "Naming values", "group": "g1" },
+      { "id": "n5", "label": "Place value", "group": "g2" },
+      { "id": "n6", "label": "Column addition", "group": "g2" },
+      { "id": "n7", "label": "Carry", "group": "g2" },
+      { "id": "n8", "label": "Divisor", "group": "g3" },
+      { "id": "n9", "label": "List of divisors", "group": "g3" },
+      { "id": "n10", "label": "Common divisors", "group": "g3" },
+      { "id": "n11", "label": "gcd", "group": "g3" },
+      { "id": "n12", "label": "List data structure", "group": "g4" },
+      { "id": "n13", "label": "Efficiency", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "written as" },
+      { "from": "n2", "to": "n3", "label": "run step by step" },
+      { "from": "n1", "to": "n4", "label": "uses" },
+      { "from": "n4", "to": "n3", "label": "supports" },
+      { "from": "n5", "to": "n6", "label": "aligns digits for" },
+      { "from": "n6", "to": "n7", "label": "produces" },
+      { "from": "n7", "to": "n6", "label": "feeds next column" },
+      { "from": "n2", "to": "n6", "label": "example" },
+      { "from": "n1", "to": "n8", "label": "works on" },
+      { "from": "n8", "to": "n9", "label": "collects into" },
+      { "from": "n9", "to": "n10", "label": "compared for" },
+      { "from": "n10", "to": "n11", "label": "largest is" },
+      { "from": "n9", "to": "n12", "label": "is a" },
+      { "from": "n12", "to": "n13", "label": "organises for" },
+      { "from": "n13", "to": "n1", "label": "improves" }
+    ]
+  },
+  "flowchart": {
+    "title": "How an algorithm gets built and improved",
+    "steps": [
+      { "id": "s1", "label": "Meet a problem", "detail": "Add two numbers, or find the gcd of two numbers." },
+      { "id": "s2", "label": "Break it down", "detail": "Split the problem into smaller pieces we know how to solve." },
+      { "id": "s3", "label": "Write precise steps", "detail": "Describe the method as exact steps, like the addition algorithm." },
+      { "id": "s4", "label": "Name the values", "detail": "Give names such as j, carry and list-of-divisors to intermediate values." },
+      { "id": "s5", "label": "Execute step by step", "detail": "Run the algorithm on real inputs like 18 or 473 plus 695." },
+      { "id": "s6", "label": "Check odd cases", "detail": "Try a 5-digit plus 3-digit sum and confirm the steps survive." },
+      { "id": "s7", "label": "Improve the scan", "detail": "Combine two scans into one, from m + n checks down to max(m, n)." },
+      { "id": "s8", "label": "Organise with structures", "detail": "Keep results in ascending lists so the algorithm runs efficiently." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

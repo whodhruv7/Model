@@ -1,0 +1,482 @@
+{
+  "book": "us",
+  "chapter": 102,
+  "title": "Building Blocks in Economics: The Problem of Choice",
+  "grade": 9,
+  "sections": [
+    { "id": "102.1", "title": "Choices and Limited Resources" },
+    { "id": "102.2", "title": "Factors of Production" },
+    { "id": "102.3", "title": "Economic Systems and How Choices are Made" },
+    { "id": "102.4", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch102-s1",
+      "sec": "102.1",
+      "title": "Choices All Around Us",
+      "kicker": "Pocket money, libraries, farms: economics everywhere",
+      "bullets": [
+        "Spend pocket money on snacks or save for shoes? A library with five copies but twenty students? These are economic choices.",
+        "Individuals, enterprises and governments all make economic choices, like a farmer picking crops or a nation picking highways or hospitals.",
+        "Every choice exists because resources like money, land and time are not endless."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "You and your school", "items": ["Snacks now or shoes later", "Who reads the five storybook copies first"] },
+        "right": { "title": "Farm, factory, government", "items": ["Which crop suits soil and rain", "More labour or capital? Highways or hospitals"] }
+      },
+      "note": "Notice three choices you made before lunch today."
+    },
+    {
+      "id": "us-ch102-s2",
+      "sec": "102.1",
+      "title": "Needs Versus Wants",
+      "kicker": "Food and shelter first, or the new gadget?",
+      "bullets": [
+        "Needs are essentials like food, water and shelter. We cannot run daily life without them.",
+        "Wants are extras like gadgets, vacations or luxury items. They add comfort but are not essential.",
+        "Some of our preferences are needs and others are wants, so every spending decision starts with this sorting."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Needs", "items": ["Food", "Water", "Shelter"] },
+        "right": { "title": "Wants", "items": ["Gadgets", "Vacations", "Luxury items"] }
+      },
+      "note": "Book activity: list three things your parents bought this month and sort them."
+    },
+    {
+      "id": "us-ch102-s3",
+      "sec": "102.1",
+      "title": "Wants Keep Changing",
+      "kicker": "Bicycle today, motorbike tomorrow, car next?",
+      "bullets": [
+        "Human wants are unlimited. They never stay satisfied for long and keep changing with time.",
+        "The book's example: people may want to upgrade from a bicycle to a motorbike and then to a car.",
+        "Unlimited, changing wants collide with limited resources, and that clash creates the problem of choice."
+      ],
+      "visual": { "kind": "flow", "items": ["Bicycle", "Motorbike", "Car", "The next new want"] },
+      "note": "Book asks: can too many wants create problems? Discuss with a friend."
+    },
+    {
+      "id": "us-ch102-s4",
+      "sec": "102.1",
+      "title": "What Are Resources?",
+      "kicker": "From river water to factory technology",
+      "bullets": [
+        "Resources are the factors used for the production of goods and services.",
+        "Natural resources come from nature, like water and coal.",
+        "Human-made resources are created by people, like capital and technology."
+      ],
+      "visual": { "kind": "tree", "root": "Resources", "children": ["Water", "Coal", "Capital", "Technology"] },
+      "note": "Grade 8 flashback: these connect to the factors of production."
+    },
+    {
+      "id": "us-ch102-s5",
+      "sec": "102.1",
+      "title": "One Resource, Many Uses",
+      "kicker": "Same steel, three very different futures",
+      "bullets": [
+        "The book shows steel being used for medical equipment, aircraft manufacturing and refrigerator manufacturing.",
+        "Resources have alternative uses, so using steel for one product means other products get less of it.",
+        "This is why choosing among alternatives is unavoidable for households, enterprises and governments."
+      ],
+      "visual": { "kind": "tree", "root": "Steel", "children": ["Medical equipment", "Aircraft manufacturing", "Refrigerator manufacturing"] },
+      "note": "Ek resource, kitne uses! That is scarcity in action."
+    },
+    {
+      "id": "us-ch102-s6",
+      "sec": "102.1",
+      "title": "Markets: Physical and Virtual",
+      "kicker": "Where buying and selling actually happens",
+      "bullets": [
+        "A market is a place where buying and selling of products and services takes place.",
+        "It could be a physical market you walk into, or a virtual one on the internet.",
+        "Markets connect buyers and sellers, so they matter for every economic choice we study."
+      ],
+      "visual": { "kind": "labels", "items": ["Physical market", "Virtual market", "Products", "Services"] },
+      "note": "Your online shopping cart is a market too."
+    },
+    {
+      "id": "us-ch102-s7",
+      "sec": "102.2",
+      "title": "Four Factors of Production",
+      "kicker": "Land, labour, capital and technology team up",
+      "bullets": [
+        "In Grade 8 you met the factors of production: land, labour, capital and technology.",
+        "These factors are used for the production of goods and services that people need and want.",
+        "Each factor is limited, so producers must plan carefully how to combine them."
+      ],
+      "visual": { "kind": "labels", "items": ["Land", "Labour", "Capital", "Technology"] },
+      "note": "Four ingredients, endless dishes: production in a nutshell."
+    },
+    {
+      "id": "us-ch102-s8",
+      "sec": "102.2",
+      "title": "Resources Are Limited",
+      "kicker": "Scarce for families, scarce for nations",
+      "bullets": [
+        "Both natural and human-made resources are limited in quantity, yet each has many alternative uses.",
+        "A household allocates money to buy fruit or a pair of shoes; the same rupees cannot buy both.",
+        "Economies also must use scarce resources in the best possible way to meet unlimited wants and improve people's quality of life."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Households", "items": ["Fruit or shoes", "Pocket money choices"] },
+        "right": { "title": "Economies", "items": ["Best use of scarce resources", "Improve quality of life"] }
+      },
+      "note": "Scarce means limited in quantity, not unavailable."
+    },
+    {
+      "id": "us-ch102-s9",
+      "sec": "102.2",
+      "title": "Opportunity Cost",
+      "kicker": "Choose one, wave goodbye to the other",
+      "bullets": [
+        "When one alternative is chosen, the other options are given up.",
+        "The value of what is given up is known as the opportunity cost.",
+        "A farmer with limited land, water and labour must decide how much barley and how much wheat to grow."
+      ],
+      "visual": { "kind": "flow", "items": ["Choose barley on the land", "Some wheat is given up", "Value of wheat lost is opportunity cost"] },
+      "note": "Even a free-looking choice costs your next best option."
+    },
+    {
+      "id": "us-ch102-s10",
+      "sec": "102.2",
+      "title": "The Farmer's Combinations",
+      "kicker": "One plot of land, five possible farms",
+      "bullets": [
+        "With the same land the farmer can grow 100 kg wheat and no barley, 100 kg barley and no wheat, or a mix between.",
+        "The book's table shows combinations A to E: 0 and 100, 25 and 90, 50 and 70, 75 and 40, 100 and 0 kg.",
+        "More barley always means less wheat, because land, water and labour are fixed."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Barley in kg", "ylabel": "Wheat in kg", "points": [[0, 100], [25, 90], [50, 70], [75, 40], [100, 0]] },
+      "note": "Trace each point aloud: A, B, C, D, E."
+    },
+    {
+      "id": "us-ch102-s11",
+      "sec": "102.2",
+      "title": "Reading the PPC",
+      "kicker": "A downward slope full of trade-offs",
+      "bullets": [
+        "Plotting the combinations gives a downward sloping curve called the Production Possibility Curve (PPC).",
+        "The PPC shows the trade-off between barley and wheat produced with the given resources.",
+        "As the farmer moves from A to E, more barley and less wheat is produced; the wheat sacrificed is the opportunity cost of barley."
+      ],
+      "visual": { "kind": "steps", "items": ["Plot barley on the x-axis", "Plot wheat on the y-axis", "Join points A to E", "Read the trade-off"] },
+      "note": "PPC definition: different combinations of goods produced using all available resources."
+    },
+    {
+      "id": "us-ch102-s12",
+      "sec": "102.2",
+      "title": "Efficiency on the Curve",
+      "kicker": "Maximum output, zero wastage",
+      "bullets": [
+        "All points on the PPC show the maximum output that can be produced through efficient use of resources by avoiding wastage.",
+        "Producing on the curve means land, water and labour are fully and smartly used.",
+        "This helps in better planning and decision-making by enterprises and governments."
+      ],
+      "visual": { "kind": "labels", "items": ["Maximum output", "Efficient use", "No wastage", "Better planning"] },
+      "note": "Curve par rehna means zero wastage. Stay on the curve!"
+    },
+    {
+      "id": "us-ch102-s13",
+      "sec": "102.3",
+      "title": "Three Key Questions",
+      "kicker": "What, how and for whom to produce",
+      "bullets": [
+        "Every economy must decide what and how much will be produced, how it will be produced, and who will get to use it and at what prices.",
+        "The answers depend on how the resources used to produce goods and services are organised, and who controls the decision-making.",
+        "An economy is the state of a country or region in production and consumption of goods and services, and the flow of money."
+      ],
+      "visual": { "kind": "steps", "items": ["What and how much to produce?", "How will it be produced?", "Who gets it, and at what price?"] },
+      "note": "Same three questions, different systems, different answers."
+    },
+    {
+      "id": "us-ch102-s14",
+      "sec": "102.3",
+      "title": "What Is an Economic System?",
+      "kicker": "The rulebook for production and distribution",
+      "bullets": [
+        "An economic system defines the mechanisms for the production, consumption and distribution of goods, services and resources of a country.",
+        "The book explains three kinds of economic systems: planned, market and mixed.",
+        "Each system answers the three key questions differently, based on who owns and controls resources."
+      ],
+      "visual": { "kind": "tree", "root": "Economic systems", "children": ["Planned economy", "Market economy", "Mixed economy"] },
+      "note": "Mixed economy enters through the book's own activity questions."
+    },
+    {
+      "id": "us-ch102-s15",
+      "sec": "102.3",
+      "title": "Inside a Planned Economy",
+      "kicker": "The government holds the steering wheel",
+      "bullets": [
+        "A central planning authority of the government, such as a planning commission, makes all major economic decisions in the market.",
+        "It decides what and how much will be produced, how, and who will get to use them and at what prices.",
+        "The government owns most resources and sectors like land, factories, banks and transport; private ownership is limited."
+      ],
+      "visual": { "kind": "steps", "items": ["Government sets production targets", "Planners fix prices", "Permits and licenses control entry"] },
+      "note": "Targets first, market demand later, if at all."
+    },
+    {
+      "id": "us-ch102-s16",
+      "sec": "102.3",
+      "title": "Planned Economy Trade-offs",
+      "kicker": "Order and control, but less spark",
+      "bullets": [
+        "Enterprises usually follow the central authority's targets rather than market demand.",
+        "Strict permits and licenses prevent a large number of enterprises from operating, which restricts competition among private enterprises.",
+        "With little competition there is little motivation to improve quality or innovate. Examples: the former Soviet Union, North Korea and Cuba."
+      ],
+      "visual": { "kind": "flow", "items": ["Few enterprises allowed", "Competition restricted", "Little innovation"] },
+      "note": "Soviet Union, North Korea, Cuba: remember these three."
+    },
+    {
+      "id": "us-ch102-s17",
+      "sec": "102.3",
+      "title": "Inside a Market Economy",
+      "kicker": "Demand and supply take the lead",
+      "bullets": [
+        "What, how and how much to produce are addressed mainly by the forces of demand and supply, with little government intervention.",
+        "Ownership of factories, shops, land and other resources largely rests with individuals and private companies.",
+        "The government acts like a referee in a football match: it ensures safety and law and order, and does not control prices or production."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Government as referee", "items": ["Ensures safety", "Maintains law and order", "No price or output control"] },
+        "right": { "title": "Private producers", "items": ["Own factories, shops and land", "Respond to demand and supply"] }
+      },
+      "note": "USA, Japan and Hong Kong are the book's examples."
+    },
+    {
+      "id": "us-ch102-s18",
+      "sec": "102.3",
+      "title": "Competition Powers Markets",
+      "kicker": "Many sellers, better quality, lower prices",
+      "bullets": [
+        "Many producers offer similar products, which encourages better quality, lower prices and innovation in production.",
+        "Even in market economies governments play an important role, such as providing public goods and physical infrastructure.",
+        "Pure economic systems rarely exist in reality, so real countries blend market freedom with government guidance."
+      ],
+      "visual": { "kind": "labels", "items": ["Better quality", "Lower prices", "Innovation", "Public goods"] },
+      "note": "Referee bhi zaroori hai. Markets need rules too."
+    },
+    {
+      "id": "us-ch102-s19",
+      "sec": "102.4",
+      "title": "Wants, Production, Environment",
+      "kicker": "More wants, more extraction, more pressure",
+      "bullets": [
+        "The book asks why people's wants keep changing over time and how that affects production in an economy.",
+        "It also asks why all our wants cannot be satisfied, since resources stay limited while wants grow.",
+        "The constant desire for more creates pressure on the environment, so fulfilment of wants and extraction of resources must be balanced."
+      ],
+      "visual": { "kind": "flow", "items": ["Wants keep growing", "Production expands", "More resource extraction", "Pressure on environment"] },
+      "note": "Balancing wants and extraction is the real challenge."
+    },
+    {
+      "id": "us-ch102-s20",
+      "sec": "102.4",
+      "title": "Scarce but Wasted",
+      "kicker": "Find the leak in your region",
+      "bullets": [
+        "Activity: think of a resource in your region that is scarce but used wastefully.",
+        "Then suggest how it could be managed better, through planning and avoiding wastage.",
+        "This is exactly what efficient use of resources means on the Production Possibility Curve."
+      ],
+      "visual": { "kind": "steps", "items": ["Spot the scarce resource", "Show how it is wasted", "Suggest better management"] },
+      "note": "Water in summer? Electricity? Start observing."
+    },
+    {
+      "id": "us-ch102-s21",
+      "sec": "102.4",
+      "title": "Freedom, Innovation, Reality",
+      "kicker": "Which system would you pick?",
+      "bullets": [
+        "The book asks which economic system, market, planned or mixed, gives people the most freedom.",
+        "It also asks which system is best suited for promoting innovation, and why.",
+        "Pure economic systems rarely exist in reality; a mixed economy is often considered a more practical and effective approach."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Market economy", "items": ["Wider individual freedom", "Competition drives innovation"] },
+        "right": { "title": "Planned economy", "items": ["State control of resources", "Targets over market demand"] }
+      },
+      "note": "Real countries usually blend both, the mixed way."
+    },
+    {
+      "id": "us-ch102-s22",
+      "sec": "102.4",
+      "title": "The 100 Rupee Choice",
+      "kicker": "Notebook now or tennis racket later?",
+      "bullets": [
+        "A student has ₹100 and must choose between buying a notebook or saving the money for buying a tennis racket later.",
+        "Choosing the notebook means giving up the racket for now, and saving for the racket means giving up the notebook.",
+        "The book's own options name this concept: opportunity cost, the value of what is given up."
+      ],
+      "visual": { "kind": "flow", "items": ["₹100 in hand", "Buy the notebook", "The racket is given up", "That loss is opportunity cost"] },
+      "note": "Same logic scales from pocket money to national budgets."
+    },
+    {
+      "id": "us-ch102-s23",
+      "sec": "102.4",
+      "title": "Decisions Need Data",
+      "kicker": "Opportunity cost plus evidence, please",
+      "bullets": [
+        "Understanding opportunity cost improves the quality of economic decision-making by making trade-offs visible.",
+        "The book asks: can effective economic decisions be made without reliable data? You must support your answer with an example.",
+        "It also asks how a country's present economic choices can shape its long-term future, and why future consequences matter today."
+      ],
+      "visual": { "kind": "steps", "items": ["List the alternatives", "Weigh what is given up", "Check reliable data", "Think of future consequences"] },
+      "note": "No data, no direction. Decisions drift."
+    },
+    {
+      "id": "us-ch102-s24",
+      "sec": "102.4",
+      "title": "Economics in the News",
+      "kicker": "Be a production-decision detective",
+      "bullets": [
+        "Activity: find a news article about a product or commodity such as vegetables, fruits, fuel or electronics.",
+        "Look for producers or companies deciding how much to produce or supply.",
+        "Write two or three sentences explaining the example and why the production decision was made."
+      ],
+      "visual": { "kind": "labels", "items": ["Vegetables", "Fruits", "Fuel", "Electronics"] },
+      "note": "Yesterday's newspaper is today's economics case study."
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch102-f1", "sec": "102.1", "front": "What are resources?", "back": "Factors used for the production of goods and services. They can be natural, like water and coal, or human-made, like capital and technology.", "tag": "definition" },
+    { "id": "us-ch102-f2", "sec": "102.1", "front": "How are needs different from wants?", "back": "Needs are essentials like food, water and shelter. Wants are extras like gadgets, vacations or luxury items, and wants keep changing.", "tag": "concept" },
+    { "id": "us-ch102-f3", "sec": "102.1", "front": "Define a market.", "back": "A place where buying and selling of products and services takes place. It could be a physical market or a virtual one on the internet.", "tag": "definition" },
+    { "id": "us-ch102-f4", "sec": "102.1", "front": "Give the book's example of wants that keep changing.", "back": "People may want to upgrade from a bicycle to a motorbike and then to a car. Human wants are unlimited.", "tag": "example" },
+    { "id": "us-ch102-f5", "sec": "102.2", "front": "Name the four factors of production.", "back": "Land, labour, capital and technology. They are used for the production of goods and services.", "tag": "definition" },
+    { "id": "us-ch102-f6", "sec": "102.2", "front": "What is opportunity cost?", "back": "When one alternative is chosen, the other options are given up. The value of what is given up is the opportunity cost.", "tag": "definition" },
+    { "id": "us-ch102-f7", "sec": "102.2", "front": "What does the Production Possibility Curve show?", "back": "Different combinations of goods that can be produced using all available resources, drawn as a downward sloping trade-off curve.", "tag": "definition" },
+    { "id": "us-ch102-f8", "sec": "102.2", "front": "What do all points on the PPC show?", "back": "The maximum output possible through efficient use of resources by avoiding wastage, which helps better planning and decision-making.", "tag": "concept" },
+    { "id": "us-ch102-f9", "sec": "102.2", "front": "Define an economy.", "back": "The state of a country or region in terms of the production and consumption of goods and services, and the flow of money.", "tag": "definition" },
+    { "id": "us-ch102-f10", "sec": "102.3", "front": "What is an economic system?", "back": "The system that defines the mechanisms for the production, consumption and distribution of goods, services and resources of a country.", "tag": "definition" },
+    { "id": "us-ch102-f11", "sec": "102.3", "front": "Who makes major economic decisions in a planned economy?", "back": "A central planning authority of the government, such as the planning commission, decides what, how, and who gets the goods and at what prices.", "tag": "concept" },
+    { "id": "us-ch102-f12", "sec": "102.3", "front": "What is the government's role in a market economy?", "back": "Like a referee in a football match: it ensures safety and law and order, does not control prices, and provides public goods and infrastructure.", "tag": "concept" },
+    { "id": "us-ch102-f13", "sec": "102.3", "front": "Name three planned economies from the book.", "back": "The former Soviet Union, North Korea and Cuba.", "tag": "trivia" },
+    { "id": "us-ch102-f14", "sec": "102.3", "front": "Name three market economies from the book.", "back": "The United States of America, Japan and Hong Kong.", "tag": "trivia" },
+    { "id": "us-ch102-f15", "sec": "102.4", "front": "A student picks a notebook over saving ₹100 for a racket. Which concept?", "back": "Opportunity cost. The value of the forgone choice, the racket or the notebook, is what is given up.", "tag": "concept" },
+    { "id": "us-ch102-f16", "sec": "102.4", "front": "Why do pure economic systems rarely exist in reality?", "back": "Each pure system has limitations, so a mixed economy is often considered a more practical and effective approach in real-world contexts.", "tag": "concept" },
+    { "id": "us-ch102-f17", "sec": "102.4", "front": "How do unlimited wants pressurise the environment?", "back": "The constant desire for more increases the extraction of resources, creating pressure on the environment.", "tag": "concept" },
+    { "id": "us-ch102-f18", "sec": "102.4", "front": "Why weigh future consequences in today's economic choices?", "back": "Because a country's present economic choices shape its long-term future, so decisions today must consider what comes later.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "us-ch102-q1", "sec": "102.1", "q": "Which of these is a need, not a want?", "options": ["A vacation", "Food, water and shelter", "A luxury gadget", "A new motorbike"], "answer": 1, "why": "The book lists food, water and shelter as needs; gadgets, vacations and upgrades are wants.", "difficulty": "easy" },
+    { "id": "us-ch102-q2", "sec": "102.1", "q": "According to the book, a market can be...", "options": ["Only a physical place", "Only a government shop", "Only an app on the internet", "Physical or virtual, even on the internet"], "answer": 3, "why": "A market is where buying and selling happens; it could be physical or virtual on the internet.", "difficulty": "easy" },
+    { "id": "us-ch102-q3", "sec": "102.1", "q": "Which of these is a human-made resource?", "options": ["Water", "Coal", "Technology", "Sunlight"], "answer": 2, "why": "Resources can be natural like water and coal, or human-made like capital and technology.", "difficulty": "easy" },
+    { "id": "us-ch102-q4", "sec": "102.1", "q": "A factory uses its steel for medical equipment. What does it give up?", "options": ["Nothing, steel is unlimited", "The workers' wages", "Other uses like aircraft or refrigerators", "The need for steel"], "answer": 2, "why": "The book shows alternative uses of steel; choosing one means the other options are given up.", "difficulty": "medium" },
+    { "id": "us-ch102-q5", "sec": "102.2", "q": "The four factors of production are...", "options": ["Land, money, machines, shops", "Water, coal, steel, glass", "Needs, wants, choice, cost", "Land, labour, capital, technology"], "answer": 3, "why": "The book lists land, labour, capital and technology as the factors of production.", "difficulty": "easy" },
+    { "id": "us-ch102-q6", "sec": "102.2", "q": "Opportunity cost is best defined as...", "options": ["The money spent on production", "The value of what is given up when one alternative is chosen", "The price of a good in the market", "The profit earned by an enterprise"], "answer": 1, "why": "When one alternative is chosen, the value of what is given up is the opportunity cost.", "difficulty": "medium" },
+    { "id": "us-ch102-q7", "sec": "102.2", "q": "In the farmer's table, moving from combination B to combination C means...", "options": ["Barley rises 25 kg, wheat falls 20 kg", "Both barley and wheat rise", "Both barley and wheat fall", "Barley falls, wheat rises"], "answer": 0, "why": "B is 25 kg barley with 90 kg wheat; C is 50 kg barley with 70 kg wheat.", "difficulty": "medium" },
+    { "id": "us-ch102-q8", "sec": "102.2", "q": "Why does the PPC slope downward as the farmer moves from A to E?", "options": ["Wheat output rises along with barley", "Land and water are unlimited", "Producing more barley forces some wheat to be sacrificed", "The farmer simply dislikes wheat"], "answer": 2, "why": "To grow more barley some wheat must be sacrificed; that trade-off is the opportunity cost.", "difficulty": "hard" },
+    { "id": "us-ch102-q9", "sec": "102.3", "q": "In a planned economy, all major economic decisions are made by...", "options": ["The forces of demand and supply", "A central planning authority of the government", "Individual shopkeepers alone", "Competing private companies only"], "answer": 1, "why": "A central planning authority, such as a planning commission, makes all major economic decisions.", "difficulty": "easy" },
+    { "id": "us-ch102-q10", "sec": "102.3", "q": "Which pair of planned economies appears in the book?", "options": ["USA and Japan", "Hong Kong and Japan", "Former Soviet Union and North Korea", "USA and Hong Kong"], "answer": 2, "why": "The book's planned economy examples are the former Soviet Union, North Korea and Cuba.", "difficulty": "easy" },
+    { "id": "us-ch102-q11", "sec": "102.3", "q": "In a market economy, the government acts like...", "options": ["The owner of all factories", "A central planning commission", "A referee in a football match", "The only seller of goods"], "answer": 2, "why": "It ensures safety and law and order, and does not control prices or production.", "difficulty": "medium" },
+    { "id": "us-ch102-q12", "sec": "102.3", "q": "Why is there little motivation to innovate in a planned economy?", "options": ["Too many enterprises compete fiercely", "Strict permits, targets and low competition reduce the push to improve", "Consumers refuse to buy new products", "Demand and supply change too quickly"], "answer": 1, "why": "Limited private ownership and heavy regulation restrict competition, so quality and innovation suffer.", "difficulty": "hard" },
+    { "id": "us-ch102-q13", "sec": "102.4", "q": "A student with ₹100 chooses between a notebook and saving for a tennis racket. Which concept explains this?", "options": ["Demand", "Production", "Inflation", "Opportunity cost"], "answer": 3, "why": "This is the book's own question; the value of the forgone choice is the opportunity cost.", "difficulty": "easy" },
+    { "id": "us-ch102-q14", "sec": "102.4", "q": "The chapter's activities say the constant desire for more creates pressure on...", "options": ["The environment through extraction of resources", "Only the government's budget", "Markets for luxury goods alone", "School libraries"], "answer": 0, "why": "Fulfilment of unlimited wants increases extraction of resources, pressing on the environment.", "difficulty": "medium" },
+    { "id": "us-ch102-q15", "sec": "102.4", "q": "Which system does the book suggest is often the most practical in the real world?", "options": ["A pure planned economy", "A pure market economy", "An economy without money", "A mixed economy"], "answer": 3, "why": "Pure economic systems rarely exist; a mixed economy is often more practical and effective.", "difficulty": "medium" },
+    { "id": "us-ch102-q16", "sec": "102.4", "q": "Why must a country's present economic choices consider future consequences?", "options": ["Because wants disappear over time", "Because today's choices shape the country's long-term future", "Because resources become unlimited tomorrow", "Because prices never change"], "answer": 1, "why": "The book asks how present economic choices shape the long-term future, so consequences must be weighed.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch102-e1",
+      "title": "Opportunity cost on the farmer's land",
+      "problem": "A farmer has one piece of land and can grow barley or wheat. From the book's table, combination C is 50 kg barley with 70 kg wheat, and combination D is 75 kg barley with 40 kg wheat. If the farmer moves from C to D, what extra barley is gained and what is the opportunity cost?",
+      "steps": [
+        "Read combination C from the table: 50 kg barley and 70 kg wheat.",
+        "Read combination D: 75 kg barley and 40 kg wheat.",
+        "Extra barley gained: 75 minus 50 equals 25 kg.",
+        "Wheat sacrificed: 70 minus 40 equals 30 kg.",
+        "The value of what is given up, here 30 kg of wheat, is the opportunity cost of the extra barley."
+      ],
+      "answer": "Moving from C to D gains 25 kg of barley at an opportunity cost of 30 kg of wheat."
+    },
+    {
+      "id": "us-ch102-e2",
+      "title": "Sorting needs from wants",
+      "problem": "This month a family bought food grains, paid for water and shelter, and also bought a new gadget and planned a vacation. Using the chapter's definitions, classify each item as a need or a want.",
+      "steps": [
+        "Recall the definition: needs are essentials like food, water and shelter.",
+        "Sort the essentials: food grains, water and shelter are needs.",
+        "Recall that wants are items like gadgets, vacations or luxury items.",
+        "Sort the extras: the new gadget and the vacation are wants.",
+        "Remember the book's warning: wants are unlimited and keep changing, like upgrading from a bicycle to a motorbike to a car, while resources to satisfy them are limited."
+      ],
+      "answer": "Needs: food grains, water and shelter. Wants: the gadget and the vacation. Limited resources force the family to choose between them."
+    },
+    {
+      "id": "us-ch102-e3",
+      "title": "The 100 rupee decision",
+      "problem": "A student has ₹100 and must choose between buying a notebook now or saving the money for buying a tennis racket later. Which economic concept best explains this situation, and what exactly is the opportunity cost if the notebook is bought?",
+      "steps": [
+        "Identify the two alternatives: the notebook today or the tennis racket later.",
+        "Note that the same ₹100 cannot buy both, so one must be given up.",
+        "If the notebook is bought, the forgone alternative is the tennis racket.",
+        "Apply the definition: the value of what is given up is the opportunity cost.",
+        "Match with the book's own options: demand, opportunity cost, production, inflation. The correct concept is opportunity cost."
+      ],
+      "answer": "The concept is opportunity cost, and if the notebook is bought, its opportunity cost is the tennis racket given up."
+    }
+  ],
+  "conceptMap": {
+    "center": "The Problem of Choice",
+    "groups": [
+      { "id": "g1", "label": "Scarcity and Wants" },
+      { "id": "g2", "label": "Choice and Cost" },
+      { "id": "g3", "label": "Production" },
+      { "id": "g4", "label": "Economic Systems" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Limited Resources", "group": "g1" },
+      { "id": "n2", "label": "Unlimited Wants", "group": "g1" },
+      { "id": "n3", "label": "Needs", "group": "g1" },
+      { "id": "n4", "label": "Wants", "group": "g1" },
+      { "id": "n5", "label": "Opportunity Cost", "group": "g2" },
+      { "id": "n6", "label": "Trade-off", "group": "g2" },
+      { "id": "n7", "label": "Efficient Use", "group": "g2" },
+      { "id": "n8", "label": "Factors of Production", "group": "g3" },
+      { "id": "n9", "label": "Production Possibility Curve", "group": "g3" },
+      { "id": "n10", "label": "Planned Economy", "group": "g4" },
+      { "id": "n11", "label": "Market Economy", "group": "g4" },
+      { "id": "n12", "label": "Mixed Economy", "group": "g4" },
+      { "id": "n13", "label": "Demand and Supply", "group": "g4" },
+      { "id": "n14", "label": "Three Key Questions", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "cannot satisfy" },
+      { "from": "n3", "to": "n2", "label": "part of" },
+      { "from": "n4", "to": "n2", "label": "part of" },
+      { "from": "n1", "to": "n5", "label": "makes choices costly" },
+      { "from": "n2", "to": "n5", "label": "forces choosing" },
+      { "from": "n5", "to": "n6", "label": "creates a" },
+      { "from": "n8", "to": "n9", "label": "produce combinations" },
+      { "from": "n9", "to": "n5", "label": "shows" },
+      { "from": "n9", "to": "n7", "label": "points mean" },
+      { "from": "n8", "to": "n10", "label": "state owned" },
+      { "from": "n8", "to": "n11", "label": "privately owned" },
+      { "from": "n13", "to": "n11", "label": "sets prices" },
+      { "from": "n10", "to": "n14", "label": "answers" },
+      { "from": "n11", "to": "n14", "label": "answers" },
+      { "from": "n12", "to": "n10", "label": "blends" },
+      { "from": "n12", "to": "n11", "label": "blends" }
+    ]
+  },
+  "flowchart": {
+    "title": "How choice becomes an economic system",
+    "steps": [
+      { "id": "s1", "label": "Wants are unlimited", "detail": "Preferences range from food and shelter to gadgets, vacations and a car." },
+      { "id": "s2", "label": "Resources are limited", "detail": "Natural and human-made resources exist in limited quantity with alternative uses." },
+      { "id": "s3", "label": "Choices must be made", "detail": "Households, enterprises and governments pick how to use scarce resources." },
+      { "id": "s4", "label": "Opportunity cost appears", "detail": "The value of the next best option given up is the cost of choosing." },
+      { "id": "s5", "label": "Map the PPC", "detail": "Combinations like the farmer's barley and wheat trace a downward curve." },
+      { "id": "s6", "label": "Stay efficient", "detail": "Points on the curve give maximum output by avoiding wastage." },
+      { "id": "s7", "label": "Choose a system", "detail": "Planned, market or mixed arrangements answer what, how and for whom." },
+      { "id": "s8", "label": "System shapes results", "detail": "Ownership and control decide prices, competition, quality and innovation." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

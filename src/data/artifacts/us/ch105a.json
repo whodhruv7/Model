@@ -1,0 +1,463 @@
+{
+  "book": "us",
+  "chapter": 105,
+  "part": "a",
+  "title": "Life on Earth",
+  "grade": 9,
+  "sections": [
+    { "id": "105.1", "title": "Types of Biomes" },
+    { "id": "105.2", "title": "Terrestrial Biomes" },
+    { "id": "105.3", "title": "Aquatic Biomes" },
+    { "id": "105.4", "title": "Biome Pyramid" },
+    { "id": "105.5", "title": "Interconnectedness between Biomes and Living Beings" },
+    { "id": "105.6", "title": "Biodiversity" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch105a-s1",
+      "sec": "105.1",
+      "title": "Earth's Patchwork Quilt",
+      "kicker": "A biome is a huge quilt patch",
+      "bullets": [
+        "A biome is a broad environmental region of our planet.",
+        "An ecosystem is like a neighbourhood inside it, where plants, animals and non-living things interact closely.",
+        "Each biome is unique, but together they support diverse life and help maintain the balance of nature."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Biome", "items": ["Broad environmental region", "Part of Earth's giant quilt", "Unique, yet part of the whole"] },
+        "right": { "title": "Ecosystem", "items": ["A neighbourhood within a biome", "Life interacts closely here", "Plants, animals and non-living things"] }
+      },
+      "note": "Biome bada quilt ka patch, ecosystem uske andar ki gali!"
+    },
+    {
+      "id": "us-ch105a-s2",
+      "sec": "105.1",
+      "title": "Biomes Follow Latitudes",
+      "kicker": "The world map tells a zonal story",
+      "bullets": [
+        "The biome map marks the Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn and Antarctic Circle.",
+        "Tropical rainforest, grassland, desert, temperate deciduous, taiga and tundra biomes appear in broad bands.",
+        "The temperate deciduous biome has broad-leaved trees that shed leaves seasonally, with moderate temperatures and distinct seasons.",
+        "The taiga biome has coniferous forests made up mainly of pines, spruces and larches."
+      ],
+      "visual": { "kind": "labels", "items": ["Equator", "Tropics", "Temperate deciduous", "Taiga", "Tundra", "Grassland"] },
+      "note": "Map dekho, latitude ke saath biome badalta hai!"
+    },
+    {
+      "id": "us-ch105a-s3",
+      "sec": "105.1",
+      "title": "Land Biomes, Water Biomes",
+      "kicker": "Two big families of biomes",
+      "bullets": [
+        "Biomes are categorised into terrestrial (land-based) and aquatic (water-based) types.",
+        "Different biomes support diverse plant and animal life across the planet.",
+        "The book's map activity asks which biomes sit in smaller, separate regions and which continent has the fewest biomes."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Terrestrial", "items": ["Land-based biomes", "Forests, grasslands, deserts, tundra", "Shaped by climate"] },
+        "right": { "title": "Aquatic", "items": ["Water-based biomes", "Rivers, lakes, ponds, wetlands", "Oceans, seas and coral reefs"] }
+      },
+      "note": "Pehle pata karo: biome zameen pe hai ya paani mein?"
+    },
+    {
+      "id": "us-ch105a-s4",
+      "sec": "105.1",
+      "title": "Who Survives Where?",
+      "kicker": "Climate sets the guest list",
+      "bullets": [
+        "Temperature and precipitation patterns decide which plants and animals survive and thrive in a biome.",
+        "Dominant plant species and growth forms of vegetation also shape a biome.",
+        "That is why a hot, wet region grows dense rainforest while the driest regions stay desert."
+      ],
+      "visual": { "kind": "labels", "items": ["Temperature", "Precipitation", "Dominant plants", "Growth forms"] },
+      "note": "Jaisa climate, waisa biome!"
+    },
+    {
+      "id": "us-ch105a-s5",
+      "sec": "105.2",
+      "title": "Forests: Green Umbrellas",
+      "kicker": "Hot, wet and bursting with life",
+      "bullets": [
+        "A forest biome is warm, wet and bursting with life from the tallest trees to the damp forest floor.",
+        "Tropical rainforests grow near the Equator between 23.5° N and 23.5° S, staying hot and wet all year.",
+        "Largest rainforests: the Amazon Basin, Congo Basin and Southeast Asia; India adds the Andaman and Nicobar Islands and Northeastern states."
+      ],
+      "visual": { "kind": "labels", "items": ["Amazon Basin", "Congo Basin", "Indonesia", "Malaysia", "Andaman and Nicobar", "Northeast India"] },
+      "note": "Garmi plus barish ka full combo: rainforest!"
+    },
+    {
+      "id": "us-ch105a-s6",
+      "sec": "105.2",
+      "title": "Storeys of a Rainforest",
+      "kicker": "A gene bank with four floors",
+      "bullets": [
+        "Rainforests are the world's richest storehouse of biodiversity, so the book calls them a gene bank.",
+        "They preserve unique genetic material that supports conservation and scientific research.",
+        "Forests also maintain oxygen levels and help balance the Earth's climate.",
+        "Vegetation stacks into the emergent layer, upper canopy, understory or lower canopy, and the forest floor."
+      ],
+      "visual": { "kind": "steps", "items": ["Emergent layer", "Upper canopy", "Understory or lower canopy", "Forest floor"] },
+      "note": "Chhat se zameen tak, har floor pe life!"
+    },
+    {
+      "id": "us-ch105a-s7",
+      "sec": "105.2",
+      "title": "Grasslands: Seas of Grass",
+      "kicker": "Open land, grazing animals",
+      "bullets": [
+        "Grasslands are large open areas covered mainly with grass and very few trees.",
+        "They develop in regions with moderate rainfall that is not enough to support dense forests.",
+        "Temperate grasslands like the prairies in North America and the steppes in Asia have fertile soil often used for farming.",
+        "Tropical savannas in Africa have scattered trees and are home to lions, elephants and giraffes."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Temperate grasslands", "items": ["Prairies in North America", "Steppes in Asia", "Fertile soil, used for farming"] },
+        "right": { "title": "Tropical savannas", "items": ["Found in Africa", "Scattered trees", "Lions, elephants, giraffes"] }
+      },
+      "note": "Ghaas ka samundar, grazing animals ka ghar!"
+    },
+    {
+      "id": "us-ch105a-s8",
+      "sec": "105.2",
+      "title": "Driest Corners of Earth",
+      "kicker": "Deserts get very little rain",
+      "bullets": [
+        "Deserts are the driest biomes, receiving very little rainfall.",
+        "They can be hot like the Sahara in Africa or cold like the Gobi in Asia.",
+        "The book names the Rann of Kutch in Gujarat among the deserts.",
+        "Terrestrial biomes are classified into forests, grasslands, deserts and tundra, based on their climate."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Hot desert", "items": ["Sahara in Africa", "Very little rainfall"] },
+        "right": { "title": "Cold desert", "items": ["Gobi in Asia", "Very little rainfall"] }
+      },
+      "note": "Registan do type ke: garam aur thanda!"
+    },
+    {
+      "id": "us-ch105a-s9",
+      "sec": "105.3",
+      "title": "Three-Fourths Underwater",
+      "kicker": "Aquatic biomes cover most Earth",
+      "bullets": [
+        "Aquatic biomes cover about three-fourths of the Earth's surface.",
+        "They are divided into freshwater and marine biomes.",
+        "Freshwater biomes include rivers, lakes, ponds and wetlands; marine biomes include oceans, seas and coral reefs."
+      ],
+      "visual": { "kind": "tree", "root": "Aquatic biomes", "children": ["Rivers", "Lakes and ponds", "Wetlands", "Oceans and seas", "Coral reefs"] },
+      "note": "Paani hi paani, do flavour: fresh aur marine!"
+    },
+    {
+      "id": "us-ch105a-s10",
+      "sec": "105.3",
+      "title": "Freshwater Lifelines",
+      "kicker": "Rivers, lakes, ponds, wetlands",
+      "bullets": [
+        "Freshwater biomes are crucial for agriculture and for getting access to drinking water.",
+        "They support species such as fish, frogs and insects.",
+        "The book's explore activity asks you to observe how people, plants and animals interact in your own area."
+      ],
+      "visual": { "kind": "labels", "items": ["Rivers", "Lakes", "Ponds", "Wetlands"] },
+      "note": "Nadi aur taalab hi asli lifeline hain!"
+    },
+    {
+      "id": "us-ch105a-s11",
+      "sec": "105.3",
+      "title": "Oceans Feed and Warm",
+      "kicker": "Marine wealth and climate control",
+      "bullets": [
+        "Marine biomes include oceans, seas and coral reefs, which are rich in biodiversity.",
+        "They influence the Earth's climate by storing and distributing heat.",
+        "Whales, dolphins, fish and plankton live here; the sea provides food and livelihood for millions of people."
+      ],
+      "visual": { "kind": "flow", "items": ["Oceans store heat", "Heat is distributed", "Climate is influenced", "Millions get food and work"] },
+      "note": "Samundar khana bhi deta, mausam bhi sambhalta!"
+    },
+    {
+      "id": "us-ch105a-s12",
+      "sec": "105.4",
+      "title": "The Biome Pyramid",
+      "kicker": "A triangle that maps life",
+      "bullets": [
+        "A biome pyramid is a graphical representation of relationships between organisms in a biome, in energy, number or biomass.",
+        "The book's pyramid stretches from cold polar regions to hot tropics, and from dry to wet.",
+        "Its numbered spots run from tundra in the polar cold to rainforest in the hot, wet corner."
+      ],
+      "visual": { "kind": "labels", "items": ["Tundra", "Coniferous forest", "Deciduous forest", "Grassland", "Rainforest", "Desert"] },
+      "note": "Thanda-shushk se garam-geela, sab ek triangle pe!"
+    },
+    {
+      "id": "us-ch105a-s13",
+      "sec": "105.4",
+      "title": "Base to Peak Diners",
+      "kicker": "Producers first, predators last",
+      "bullets": [
+        "At the base are the producers, such as plants and algae, which capture solar energy through photosynthesis.",
+        "The next level has the herbivores, the primary consumers of the biome.",
+        "Above them come carnivores, the secondary consumers, and top predators, the tertiary consumers."
+      ],
+      "visual": { "kind": "steps", "items": ["Producers at the base", "Herbivores, the primary consumers", "Carnivores, the secondary consumers", "Top predators at the peak"] },
+      "note": "Sabse neeche sabse zaroori: producers!"
+    },
+    {
+      "id": "us-ch105a-s14",
+      "sec": "105.4",
+      "title": "Energy Shrinks Upward",
+      "kicker": "Heat tax at every level",
+      "bullets": [
+        "As we move up the pyramid, the number of organisms, biomass and available energy decrease.",
+        "Energy is lost at each trophic level as heat during metabolic processes.",
+        "The pyramid helps us understand ecosystem structure, the flow of energy and the balance between organisms."
+      ],
+      "visual": { "kind": "flow", "items": ["Plants capture sunlight", "Energy passes upward", "Lost as heat each level", "Fewer organisms above"] },
+      "note": "Har level pe thodi energy hawa mein chali jaati hai!"
+    },
+    {
+      "id": "us-ch105a-s15",
+      "sec": "105.5",
+      "title": "A Two-Way Street",
+      "kicker": "Biomes shelter, life shapes",
+      "bullets": [
+        "Biomes provide a natural environment where plants, animals and humans can survive and interact.",
+        "Living beings also influence biomes in return.",
+        "So biomes and living beings depend on one another to maintain ecological balance and biodiversity."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Biomes give life", "items": ["Natural home to survive", "Space to interact", "Shelter for biodiversity"] },
+        "right": { "title": "Life gives biomes", "items": ["Pollination and seed dispersal", "Landscapes changed by humans", "Nutrients recycled"] }
+      },
+      "note": "Rishta two-way hai, dono ek dusre pe depend!"
+    },
+    {
+      "id": "us-ch105a-s16",
+      "sec": "105.5",
+      "title": "Small Workers, Big Jobs",
+      "kicker": "Who does what in a biome",
+      "bullets": [
+        "Animals help in pollination and seed dispersal across the biome.",
+        "Humans modify landscapes for farming or cities.",
+        "Microorganisms quietly recycle nutrients, keeping the whole system running."
+      ],
+      "visual": { "kind": "labels", "items": ["Pollination", "Seed dispersal", "Farming and cities", "Nutrient recycling"] },
+      "note": "Chhote kaam, bada asar!"
+    },
+    {
+      "id": "us-ch105a-s17",
+      "sec": "105.5",
+      "title": "The Balance We Share",
+      "kicker": "Interconnected systems at work",
+      "bullets": [
+        "Biomes and living beings are interconnected systems, the book explains.",
+        "Their constant give and take maintains ecological balance and biodiversity.",
+        "The book continues with more aspects of this interconnectedness in the following sections."
+      ],
+      "visual": { "kind": "flow", "items": ["Biomes shelter life", "Life shapes biomes", "Systems depend on each other", "Balance and biodiversity sustained"] },
+      "note": "Ek jhoolta hai to doosra sambhalta hai!"
+    },
+    {
+      "id": "us-ch105a-s18",
+      "sec": "105.6",
+      "title": "Variety Is Life",
+      "kicker": "Biodiversity, the richness of life",
+      "bullets": [
+        "Biodiversity is the variety of life on Earth: plants, animals, microorganisms and the ecosystems they inhabit.",
+        "It counts genetic differences within species and the variety of habitats and ecological processes that sustain life.",
+        "This richness of life forms keeps ecosystems healthy and supports human survival."
+      ],
+      "visual": { "kind": "tree", "root": "Biodiversity", "children": ["Species variety", "Genetic differences", "Habitat variety", "Ecological processes"] },
+      "note": "Jitni zyada variety, utni behtar sehat!"
+    },
+    {
+      "id": "us-ch105a-s19",
+      "sec": "105.6",
+      "title": "Geography Guards Life",
+      "kicker": "Location decides conservation",
+      "bullets": [
+        "Location, climate, landforms and ecosystems influence how living organisms are protected and managed.",
+        "Biodiversity is unevenly distributed across the Earth, so geography plays a vital role in conservation.",
+        "Survival of species depends on their location, habitat conditions and human activity in those regions."
+      ],
+      "visual": { "kind": "labels", "items": ["Location", "Climate", "Landforms", "Ecosystems"] },
+      "note": "Kahan ho, wahi decide karta hai!"
+    },
+    {
+      "id": "us-ch105a-s20",
+      "sec": "105.6",
+      "title": "Hotspots and Safe Homes",
+      "kicker": "Where unique species cling on",
+      "bullets": [
+        "Hotspots such as the Himalaya, Western Ghats, North-East India and the Andaman and Nicobar Islands hold species found nowhere else.",
+        "Identifying and protecting these hotspots is a priority in conservation.",
+        "National parks, wildlife sanctuaries, biosphere reserves and World Heritage Sites protect critical habitats from fragmentation."
+      ],
+      "visual": { "kind": "labels", "items": ["Himalaya", "Western Ghats", "North-East India", "Andaman and Nicobar Islands"] },
+      "note": "In jagahon ko bachana sabse pehla kaam hai!"
+    },
+    {
+      "id": "us-ch105a-s21",
+      "sec": "105.6",
+      "title": "Conservation Fits the Place",
+      "kicker": "Every biome needs its own plan",
+      "bullets": [
+        "Strategies must suit the geographical setting, like mangrove protection along coasts or afforestation in mountains.",
+        "Rivers, mountains and valleys act as barriers or corridors for animal movement and gene flow, so planners create wildlife corridors.",
+        "Communities follow sustainable practices that vary with geography, such as terrace farming in the hills and agroforestry in the plains."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Barriers and corridors", "items": ["Rivers, mountains, valleys shape movement", "Corridors keep gene flow going"] },
+        "right": { "title": "Living with the land", "items": ["Terrace farming in the hills", "Agroforestry in the plains"] }
+      },
+      "note": "Har ilaake ka apna conservation plan!"
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch105a-f1", "sec": "105.1", "front": "What is a biome?", "back": "A broad environmental region of Earth; together biomes form a giant patchwork quilt that supports diverse life.", "tag": "definition" },
+    { "id": "us-ch105a-f2", "sec": "105.1", "front": "How is an ecosystem different from a biome?", "back": "A biome is the broad region; an ecosystem is like a neighbourhood within it where plants, animals and non-living things interact.", "tag": "concept" },
+    { "id": "us-ch105a-f3", "sec": "105.1", "front": "Name the two broad categories of biomes.", "back": "Terrestrial biomes (land-based) and aquatic biomes (water-based).", "tag": "concept" },
+    { "id": "us-ch105a-f4", "sec": "105.1", "front": "Which factors decide which organisms thrive in a biome?", "back": "Temperature, precipitation patterns, dominant plant species and growth forms of vegetation.", "tag": "concept" },
+    { "id": "us-ch105a-f5", "sec": "105.1", "front": "What makes the taiga biome special?", "back": "It has coniferous forests made up mainly of pines, spruces and larches.", "tag": "definition" },
+    { "id": "us-ch105a-f6", "sec": "105.2", "front": "Where do tropical rainforests grow?", "back": "Near the Equator, between the Tropic of Cancer and the Tropic of Capricorn, 23.5° N to 23.5° S.", "tag": "example" },
+    { "id": "us-ch105a-f7", "sec": "105.2", "front": "Why is a rainforest called a gene bank?", "back": "It preserves unique genetic material, supporting conservation and scientific research.", "tag": "definition" },
+    { "id": "us-ch105a-f8", "sec": "105.2", "front": "Name the temperate grasslands of North America and Asia.", "back": "The prairies in North America and the steppes in Asia; their fertile soil is often used for farming.", "tag": "example" },
+    { "id": "us-ch105a-f9", "sec": "105.2", "front": "Give one hot and one cold desert named in the book.", "back": "The hot Sahara in Africa and the cold Gobi in Asia; deserts are the driest biomes with very little rainfall.", "tag": "example" },
+    { "id": "us-ch105a-f10", "sec": "105.3", "front": "How much of Earth's surface do aquatic biomes cover?", "back": "About three-fourths of the Earth's surface.", "tag": "trivia" },
+    { "id": "us-ch105a-f11", "sec": "105.3", "front": "What do freshwater biomes include?", "back": "Rivers, lakes, ponds and wetlands, crucial for agriculture, drinking water and species like fish, frogs and insects.", "tag": "definition" },
+    { "id": "us-ch105a-f12", "sec": "105.3", "front": "How do marine biomes shape Earth's climate?", "back": "Oceans, seas and coral reefs store and distribute heat, influencing the climate.", "tag": "concept" },
+    { "id": "us-ch105a-f13", "sec": "105.4", "front": "What does a biome pyramid show?", "back": "The relationship between organisms within a biome, usually in terms of energy, number or biomass.", "tag": "definition" },
+    { "id": "us-ch105a-f14", "sec": "105.4", "front": "Who are the producers at the pyramid's base?", "back": "Plants and algae, which capture solar energy through photosynthesis.", "tag": "concept" },
+    { "id": "us-ch105a-f15", "sec": "105.4", "front": "What happens to energy at each trophic level?", "back": "It decreases, because energy is lost as heat during metabolic processes as we move up the pyramid.", "tag": "concept" },
+    { "id": "us-ch105a-f16", "sec": "105.5", "front": "How do animals serve their biomes?", "back": "They help in pollination and seed dispersal.", "tag": "concept" },
+    { "id": "us-ch105a-f17", "sec": "105.5", "front": "How do humans and microorganisms influence biomes?", "back": "Humans modify landscapes for farming or cities; microorganisms recycle nutrients.", "tag": "concept" },
+    { "id": "us-ch105a-f18", "sec": "105.5", "front": "Why are biomes and living beings called interconnected?", "back": "They depend on one another to maintain ecological balance and biodiversity.", "tag": "concept" },
+    { "id": "us-ch105a-f19", "sec": "105.6", "front": "Define biodiversity.", "back": "The variety of life on Earth, including species, genetic differences within species, habitats and ecological processes.", "tag": "definition" },
+    { "id": "us-ch105a-f20", "sec": "105.6", "front": "Name India's biodiversity hotspots from the book.", "back": "The Himalaya, the Western Ghats, North-East India and the Andaman and Nicobar Islands.", "tag": "example" },
+    { "id": "us-ch105a-f21", "sec": "105.6", "front": "Which sustainable practices match hills and plains?", "back": "Terrace farming in the hills and agroforestry in the plains.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "us-ch105a-q1", "sec": "105.1", "q": "A biome is best described as a...", "options": ["Single small pond", "Broad environmental region", "Weekly weather report", "Layer of soil"], "answer": 1, "why": "The book calls a biome a broad environmental region, part of Earth's giant patchwork quilt.", "difficulty": "easy" },
+    { "id": "us-ch105a-q2", "sec": "105.1", "q": "An ecosystem is compared to what within a biome?", "options": ["A whole continent", "A giant umbrella", "A neighbourhood where life interacts", "A dry sandy trail"], "answer": 2, "why": "Book: an ecosystem is like a neighbourhood within the biome where plants, animals and non-living things interact.", "difficulty": "easy" },
+    { "id": "us-ch105a-q3", "sec": "105.1", "q": "Which factors decide which plants and animals thrive in a biome?", "options": ["Temperature and precipitation patterns", "Only the height of trees", "Names of nearby cities", "The number of rivers alone"], "answer": 0, "why": "The book lists temperature, precipitation patterns, dominant plant species and growth forms of vegetation.", "difficulty": "medium" },
+    { "id": "us-ch105a-q4", "sec": "105.1", "q": "The two broad categories of biomes are...", "options": ["Hot and cold biomes", "Wet and dry biomes", "Terrestrial and aquatic biomes", "Old and new biomes"], "answer": 2, "why": "The book categorises biomes into terrestrial (land-based) and aquatic (water-based).", "difficulty": "easy" },
+    { "id": "us-ch105a-q5", "sec": "105.2", "q": "Tropical rainforests grow mainly between which latitudes?", "options": ["23.5° N and 23.5° S", "66.5° N and 66.5° S", "0° and 10° W", "40° E and 40° W"], "answer": 0, "why": "Book: rainforests lie between the Tropic of Cancer and the Tropic of Capricorn, 23.5° N to 23.5° S.", "difficulty": "easy" },
+    { "id": "us-ch105a-q6", "sec": "105.2", "q": "Why are tropical rainforests called a gene bank?", "options": ["They store seeds of only one crop", "They preserve unique genetic material for conservation and research", "They are cooled like refrigerators", "They breed only river fish"], "answer": 1, "why": "The book says rainforests preserve unique genetic material, supporting conservation and scientific research.", "difficulty": "medium" },
+    { "id": "us-ch105a-q7", "sec": "105.2", "q": "The temperate grasslands of North America and Asia are called...", "options": ["Savannas and taiga", "Prairies and steppes", "Tundra and chaparral", "Rann and Gobi"], "answer": 1, "why": "Book: temperate grasslands such as the prairies in North America and the steppes in Asia have fertile soil.", "difficulty": "medium" },
+    { "id": "us-ch105a-q8", "sec": "105.2", "q": "Why do grasslands stay open with very few trees?", "options": ["Trees are cut by people everywhere", "Moderate rainfall cannot support dense forests", "Grass roots push out tree seeds", "Strong winds blow every tree away"], "answer": 1, "why": "Grasslands develop where moderate rainfall is not enough to support dense forests, says the book.", "difficulty": "hard" },
+    { "id": "us-ch105a-q9", "sec": "105.3", "q": "About how much of the Earth's surface do aquatic biomes cover?", "options": ["One-fourth", "Half", "Three-fourths", "All of it"], "answer": 2, "why": "The book states aquatic biomes cover about three-fourths of the Earth's surface.", "difficulty": "easy" },
+    { "id": "us-ch105a-q10", "sec": "105.3", "q": "Which of these belongs to freshwater biomes?", "options": ["Coral reefs", "Wetlands", "Seas", "Oceans"], "answer": 1, "why": "Freshwater biomes include rivers, lakes, ponds and wetlands, says the book.", "difficulty": "easy" },
+    { "id": "us-ch105a-q11", "sec": "105.3", "q": "How do marine biomes influence the Earth's climate?", "options": ["By storing and distributing heat", "By growing tall trees", "By blocking the Sun's light", "By raising new mountains"], "answer": 0, "why": "Book: oceans, seas and coral reefs influence climate by storing and distributing heat.", "difficulty": "medium" },
+    { "id": "us-ch105a-q12", "sec": "105.4", "q": "Who stands at the base of the biome pyramid?", "options": ["Top predators", "Carnivores", "Herbivores", "Producers such as plants and algae"], "answer": 3, "why": "The base holds producers like plants and algae that capture solar energy through photosynthesis.", "difficulty": "easy" },
+    { "id": "us-ch105a-q13", "sec": "105.4", "q": "Herbivores in a biome pyramid are also called...", "options": ["Primary consumers", "Tertiary consumers", "Producers", "Decomposers"], "answer": 0, "why": "The book names herbivores as the primary consumers, just above the producers.", "difficulty": "medium" },
+    { "id": "us-ch105a-q14", "sec": "105.4", "q": "What happens to energy as we climb the biome pyramid?", "options": ["It multiplies at every level", "It stays exactly the same", "It decreases, lost as heat during metabolic processes", "It returns from the top predators"], "answer": 2, "why": "Book: number, biomass and available energy decrease as energy is lost as heat at each trophic level.", "difficulty": "hard" },
+    { "id": "us-ch105a-q15", "sec": "105.4", "q": "A biome pyramid shows relationships between organisms in terms of...", "options": ["Energy, number or biomass", "Speed, colour or size", "Rain, wind or clouds", "Age, name or place"], "answer": 0, "why": "The book defines the biome pyramid using energy, number, or biomass.", "difficulty": "medium" },
+    { "id": "us-ch105a-q16", "sec": "105.5", "q": "How do animals help their biomes?", "options": ["By causing droughts", "Through pollination and seed dispersal", "By paving the ground", "By eating sunlight"], "answer": 1, "why": "The book says animals help in pollination and seed dispersal.", "difficulty": "easy" },
+    { "id": "us-ch105a-q17", "sec": "105.5", "q": "What do microorganisms do within biomes?", "options": ["Recycle nutrients", "Build cities", "Melt glaciers", "Shift mountains"], "answer": 0, "why": "The book states that microorganisms recycle nutrients in biomes.", "difficulty": "easy" },
+    { "id": "us-ch105a-q18", "sec": "105.5", "q": "Biomes and living beings are best described as...", "options": ["Separate worlds", "Interconnected systems depending on one another", "Rivals competing for space", "Unrelated neighbours"], "answer": 1, "why": "Book: they are interconnected systems that depend on one another to maintain ecological balance and biodiversity.", "difficulty": "medium" },
+    { "id": "us-ch105a-q19", "sec": "105.6", "q": "Biodiversity means...", "options": ["The variety of life on Earth", "Only the count of tigers", "The weight of the oceans", "The height of mountains"], "answer": 0, "why": "Book: biodiversity is the variety of life, including plants, animals, microorganisms and their ecosystems.", "difficulty": "easy" },
+    { "id": "us-ch105a-q20", "sec": "105.6", "q": "Which of these is a biodiversity hotspot named in the book?", "options": ["Thar Desert", "Western Ghats", "Deccan Plateau", "Rann of Kutch"], "answer": 1, "why": "The book lists the Himalaya, Western Ghats, North-East India and the Andaman and Nicobar Islands as hotspots.", "difficulty": "medium" },
+    { "id": "us-ch105a-q21", "sec": "105.6", "q": "Which set of protected areas does the book list?", "options": ["Zoos, farms, parks and ponds", "National parks, wildlife sanctuaries, biosphere reserves, World Heritage Sites", "Stadiums, museums, libraries and schools", "Canals, dams, lakes and wells"], "answer": 1, "why": "Book: national parks, wildlife sanctuaries, biosphere reserves and World Heritage Sites preserve critical habitats.", "difficulty": "medium" },
+    { "id": "us-ch105a-q22", "sec": "105.6", "q": "Why do conservation planners create wildlife corridors?", "options": ["To let animals cross barriers and keep gene flow going", "To build roads for tourists", "To divide forests into smaller parts", "To move cities closer to animals"], "answer": 0, "why": "Rivers, mountains and valleys act as barriers or corridors influencing animal movement and gene flow.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch105a-e1",
+      "title": "Biome Detective: Name That Region",
+      "problem": "A region lies between the Tropic of Cancer and the Tropic of Capricorn. It stays hot and wet throughout the year and is covered in dense forests. Name its biome, list the largest rainforest regions of the world, and explain why such forests are called a gene bank.",
+      "steps": [
+        "Check the latitude: 23.5° N to 23.5° S is exactly the belt near the Equator where rainforests grow.",
+        "Check the climate: hot and wet conditions throughout the year support the growth of dense forests.",
+        "Match the clues: the region is a tropical rainforest biome.",
+        "The largest tropical rainforests lie in the Amazon Basin in South America, the Congo Basin in Africa and parts of Southeast Asia such as Indonesia and Malaysia; smaller ones grow in Central America, India's Andaman and Nicobar Islands and the Northeastern states.",
+        "These forests preserve unique genetic material that supports conservation and scientific research, so the book calls them a gene bank."
+      ],
+      "answer": "Tropical rainforest biome; the largest lie in the Amazon Basin, Congo Basin and parts of Southeast Asia; they are called a gene bank because they preserve unique genetic material for conservation and research."
+    },
+    {
+      "id": "us-ch105a-e2",
+      "title": "Climbing the Biome Pyramid",
+      "problem": "In a grassland, grass uses sunlight, a grasshopper eats the grass, a frog eats the grasshopper, and a bird of prey eats the frog. Place each organism at its level of the biome pyramid and explain what happens to the available energy at every step.",
+      "steps": [
+        "Grass is a producer at the base of the pyramid, capturing solar energy through photosynthesis.",
+        "The grasshopper eats the grass, so it is a herbivore, the primary consumer on the second level.",
+        "The frog eats a herbivore, making it a carnivore, the secondary consumer on the third level.",
+        "The bird of prey is a top predator, the tertiary consumer at the peak of the pyramid.",
+        "At each trophic level energy is lost as heat during metabolic processes, so the number of organisms, biomass and available energy shrink as we move up."
+      ],
+      "answer": "Grass is the producer at the base, the grasshopper is the primary consumer, the frog is the secondary consumer and the bird is the tertiary consumer; energy decreases level by level, which is why top levels hold fewer organisms than the base."
+    },
+    {
+      "id": "us-ch105a-e3",
+      "title": "Two Districts, Two Conservation Plans",
+      "problem": "A coastal district full of mangroves and a hilly district with degraded forest both want to conserve biodiversity. Suggest a suitable conservation strategy for each using the book's geographical aspects, and name India's biodiversity hotspots.",
+      "steps": [
+        "Match strategy to geography: the coastal district needs mangrove protection, while the hilly district needs afforestation.",
+        "Choose protected areas such as national parks, wildlife sanctuaries, biosphere reserves or World Heritage Sites to preserve critical habitats and prevent habitat fragmentation.",
+        "Use knowledge of barriers and corridors: rivers, mountains and valleys influence animal movement and gene flow, so plan wildlife corridors between habitats.",
+        "Involve local communities with sustainable practices that fit the setting, such as terrace farming in the hills.",
+        "Name the hotspots to prioritise: the Himalaya, the Western Ghats, North-East India and the Andaman and Nicobar Islands."
+      ],
+      "answer": "Coast: mangrove protection; hills: afforestation; add protected areas, wildlife corridors and local sustainable practices; hotspots are the Himalaya, Western Ghats, North-East India and the Andaman and Nicobar Islands."
+    }
+  ],
+  "conceptMap": {
+    "center": "Life on Earth",
+    "groups": [
+      { "id": "g1", "label": "Biome basics" },
+      { "id": "g2", "label": "Land biomes" },
+      { "id": "g3", "label": "Water biomes" },
+      { "id": "g4", "label": "Energy and life" },
+      { "id": "g5", "label": "Balance and care" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Biome", "group": "g1" },
+      { "id": "n2", "label": "Ecosystem", "group": "g1" },
+      { "id": "n3", "label": "Climate factors", "group": "g1" },
+      { "id": "n4", "label": "Forests", "group": "g2" },
+      { "id": "n5", "label": "Grasslands", "group": "g2" },
+      { "id": "n6", "label": "Deserts", "group": "g2" },
+      { "id": "n7", "label": "Tundra", "group": "g2" },
+      { "id": "n8", "label": "Freshwater", "group": "g3" },
+      { "id": "n9", "label": "Marine", "group": "g3" },
+      { "id": "n10", "label": "Biome pyramid", "group": "g4" },
+      { "id": "n11", "label": "Energy flow", "group": "g4" },
+      { "id": "n12", "label": "Interconnectedness", "group": "g5" },
+      { "id": "n13", "label": "Biodiversity", "group": "g5" },
+      { "id": "n14", "label": "Hotspots and protected areas", "group": "g5" }
+    ],
+    "edges": [
+      { "from": "n3", "to": "n1", "label": "shape it" },
+      { "from": "n1", "to": "n2", "label": "contains many" },
+      { "from": "n1", "to": "n4", "label": "terrestrial" },
+      { "from": "n1", "to": "n7", "label": "terrestrial" },
+      { "from": "n1", "to": "n8", "label": "aquatic" },
+      { "from": "n1", "to": "n9", "label": "aquatic" },
+      { "from": "n3", "to": "n5", "label": "moderate rain" },
+      { "from": "n3", "to": "n6", "label": "driest lands" },
+      { "from": "n10", "to": "n11", "label": "tracks" },
+      { "from": "n11", "to": "n12", "label": "links all life" },
+      { "from": "n12", "to": "n13", "label": "maintains" },
+      { "from": "n13", "to": "n14", "label": "saved through" },
+      { "from": "n4", "to": "n13", "label": "gene bank" },
+      { "from": "n9", "to": "n3", "label": "stores and moves heat" },
+      { "from": "n1", "to": "n12", "label": "shelters life" }
+    ]
+  },
+  "flowchart": {
+    "title": "How Life on Earth flows",
+    "steps": [
+      { "id": "s1", "label": "Earth's patchwork quilt", "detail": "A biome is a broad region; ecosystems are neighbourhoods within it." },
+      { "id": "s2", "label": "Climate decides life", "detail": "Temperature, precipitation and vegetation decide who survives in each biome." },
+      { "id": "s3", "label": "Land biomes form", "detail": "Forests, grasslands, deserts and tundra appear based on their climate." },
+      { "id": "s4", "label": "Water biomes cover Earth", "detail": "Freshwater and marine biomes cover about three-fourths of the surface." },
+      { "id": "s5", "label": "Pyramid of energy", "detail": "Producers capture sunlight at the base; consumers rise level by level." },
+      { "id": "s6", "label": "Energy shrinks upward", "detail": "Energy is lost as heat at each trophic level, so top levels stay small." },
+      { "id": "s7", "label": "Life interconnects", "detail": "Pollination, seed dispersal and nutrient recycling tie biomes and beings together." },
+      { "id": "s8", "label": "Protect biodiversity hotspots", "detail": "Hotspots, protected areas and corridors keep the richness of life alive." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

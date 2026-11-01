@@ -1,0 +1,511 @@
+{
+  "book": "gm",
+  "chapter": 8,
+  "title": "Predicting What Comes Next: Sequences and Progressions",
+  "grade": 9,
+  "sections": [
+    { "id": "8.1", "title": "Introduction to Sequences" },
+    { "id": "8.2", "title": "Explicit Rule for a Sequence" },
+    { "id": "8.3", "title": "Recursive Rule for a Sequence" },
+    { "id": "8.4", "title": "Arithmetic Progressions" },
+    { "id": "8.5", "title": "Sum of the First n Natural Numbers" },
+    { "id": "8.6", "title": "Geometric Progressions" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch08-s1",
+      "sec": "8.1",
+      "title": "Patterns All Around Us",
+      "kicker": "Nature, music, finance: patterns are everywhere!",
+      "bullets": [
+        "Patterns in nature, art, music and finance help us make sense of the world and predict what comes next.",
+        "In mathematics, a sequence is a special kind of pattern formed by numbers or other objects arranged in a particular order.",
+        "Understanding sequences shows how numbers grow, shrink or repeat, and helps us solve real-life problems."
+      ],
+      "visual": { "kind": "labels", "items": ["nature", "art", "music", "finance", "everyday life"] },
+      "note": "Spot the pattern, predict the future."
+    },
+    {
+      "id": "gm-ch08-s2",
+      "sec": "8.1",
+      "title": "Sequences You Already Know",
+      "kicker": "Old friends from Grades 6, 7 and 8 return.",
+      "bullets": [
+        "Natural numbers: 1, 2, 3, 4, 5, 6, ... where every term is one more than the previous term.",
+        "Odd numbers: 1, 3, 5, 7, 9, 11, ... with a difference of 2 between any two consecutive terms.",
+        "Triangular numbers: 1, 3, 6, 10, 15, 21, ... and square numbers: 1, 4, 9, 16, 25, 36, ...",
+        "The three dots mean the sequence continues indefinitely."
+      ],
+      "visual": { "kind": "tree", "root": "Famous sequences", "children": ["Natural numbers", "Odd numbers", "Triangular numbers", "Square numbers"] },
+      "note": "You have met all four before."
+    },
+    {
+      "id": "gm-ch08-s3",
+      "sec": "8.1",
+      "title": "Terms, Finite, Infinite",
+      "kicker": "Every number in the line is a term.",
+      "bullets": [
+        "A sequence is an ordered list of numbers where each number is a term of the sequence.",
+        "In the square numbers, 1 is the first term, 4 is the second term and 25 is the fifth term.",
+        "The four famous sequences are infinite, but 6, 12, 24, 48, 96 is a finite sequence of five terms."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Finite", "items": ["6, 12, 24, 48, 96", "Five terms, then it stops"] },
+        "right": { "title": "Infinite", "items": ["1, 2, 3, 4, ...", "The dots mean it goes on forever"] }
+      },
+      "note": "Can you spot a finite sequence in your day?"
+    },
+    {
+      "id": "gm-ch08-s4",
+      "sec": "8.1",
+      "title": "Triangular Number Secret",
+      "kicker": "Each triangular number hides a running sum.",
+      "bullets": [
+        "Rewrite the triangular numbers as sums: 1 = 1, 3 = 1 + 2, 6 = 1 + 2 + 3, 10 = 1 + 2 + 3 + 4.",
+        "Each term is the sum of the natural numbers up to that term; 15, the fifth triangular number, equals 1 + 2 + 3 + 4 + 5.",
+        "Among the first six terms, the differences between consecutive triangular numbers are 2, 3, 4, 5 and 6."
+      ],
+      "visual": { "kind": "steps", "items": ["1 = 1", "3 = 1 + 2", "6 = 1 + 2 + 3", "10 = 1 + 2 + 3 + 4"] },
+      "note": "Stack dots in a triangle and see."
+    },
+    {
+      "id": "gm-ch08-s5",
+      "sec": "8.2",
+      "title": "Name Any Term: tn",
+      "kicker": "Position n goes in, term value comes out.",
+      "bullets": [
+        "We use notation like tn, sn or un for the term in the nth position of a sequence.",
+        "An explicit formula uses the term's position number, n, to calculate its value.",
+        "With an explicit rule you can find the 20th, 53rd or 300th term directly, without knowing any previous term."
+      ],
+      "visual": { "kind": "flow", "items": ["Position n", "Explicit formula", "Term value tn"] },
+      "note": "Formula mila, term mila."
+    },
+    {
+      "id": "gm-ch08-s6",
+      "sec": "8.2",
+      "title": "The Odd Numbers Formula",
+      "kicker": "un = 2n - 1 builds every odd number.",
+      "bullets": [
+        "The explicit rule un = 2n - 1 gives the nth term of the odd number sequence.",
+        "Substitute n = 1, 2, 3: u1 = 2 × 1 - 1 = 1, u2 = 2 × 2 - 1 = 3, u3 = 2 × 3 - 1 = 5.",
+        "Each substitution lands exactly on the next odd number, so the rule truly captures the sequence."
+      ],
+      "visual": { "kind": "steps", "items": ["u1 = 2 × 1 - 1 = 1", "u2 = 2 × 2 - 1 = 3", "u3 = 2 × 3 - 1 = 5"] },
+      "note": "One rule, infinite odd numbers."
+    },
+    {
+      "id": "gm-ch08-s7",
+      "sec": "8.2",
+      "title": "Is It a Term?",
+      "kicker": "Solve un = k and check that n is natural.",
+      "bullets": [
+        "An explicit rule can test whether a number belongs to a sequence and find its position.",
+        "For 137 in the odd numbers: solving 2n - 1 = 137 gives n = 69, so 137 is the 69th term.",
+        "For sn = 5n - 2, solving 5n - 2 = 471 gives n = 94.6, not a natural number, so 471 is not a term.",
+        "n must be a natural number because positions in a sequence are 1, 2, 3, ..."
+      ],
+      "visual": { "kind": "steps", "items": ["Set 2n - 1 = 137", "Solve: n = 69", "137 is the 69th odd number"] },
+      "note": "No natural n, no seat in the sequence."
+    },
+    {
+      "id": "gm-ch08-s8",
+      "sec": "8.2",
+      "title": "Any Term, Instantly",
+      "kicker": "Reach term 1000 in one step.",
+      "bullets": [
+        "Example 2 uses sn = 5n - 2, whose first six terms are 3, 8, 13, 18, 23, 28.",
+        "The 100th term is 5 × 100 - 2 = 498 and the 1000th term is 5 × 1000 - 2 = 4998.",
+        "One substitution beats writing out a thousand terms; that is the power of an explicit rule."
+      ],
+      "visual": { "kind": "steps", "items": ["s100 = 5 × 100 - 2", "= 500 - 2", "= 498"] },
+      "note": "1000th term? Bas ek second."
+    },
+    {
+      "id": "gm-ch08-s9",
+      "sec": "8.3",
+      "title": "Rule From Previous Terms",
+      "kicker": "A recursive rule grows each term from the last.",
+      "bullets": [
+        "A recursive rule describes a sequence by relating terms to previous terms.",
+        "For 1, 4, 7, 10, 13, ... each term is 3 more than the one before: t(n) = t(n-1) + 3 for n >= 2.",
+        "Write the whole rule as t1 = 1, t(n) = t(n-1) + 3 with n taking values 2, 3, 4, ...",
+        "You must know the earlier terms before the rule can produce the next ones."
+      ],
+      "visual": { "kind": "flow", "items": ["t1 = 1", "t2 = t1 + 3", "t3 = t2 + 3", "t4 = t3 + 3"] },
+      "note": "Domino effect: one term pushes the next."
+    },
+    {
+      "id": "gm-ch08-s10",
+      "sec": "8.3",
+      "title": "Climbing a Recursive Ladder",
+      "kicker": "Feed each term back into the formula.",
+      "bullets": [
+        "Example 3: u1 = 1 and u(n) = 2u(n-1) + 3 for n >= 2.",
+        "u2 = 2 × 1 + 3 = 5, then u3 = 2 × 5 + 3 = 13, then u4 = 2 × 13 + 3 = 29.",
+        "The first four terms are 1, 5, 13, 29; keep computing later terms to test whether 133 ever appears."
+      ],
+      "visual": { "kind": "steps", "items": ["u2 = 2 × 1 + 3 = 5", "u3 = 2 × 5 + 3 = 13", "u4 = 2 × 13 + 3 = 29"] },
+      "note": "Double, add 3, repeat."
+    },
+    {
+      "id": "gm-ch08-s11",
+      "sec": "8.3",
+      "title": "A Wilder Recursion",
+      "kicker": "Multiply the previous term by one less.",
+      "bullets": [
+        "Example 4: s1 = 3 and s(n) = s(n-1) × (s(n-1) - 1) for n >= 2.",
+        "s2 = 3 × (3 - 1) = 6, then s3 = 6 × (6 - 1) = 30, then s4 = 30 × (30 - 1) = 870.",
+        "The first four terms are 3, 6, 30, 870; recursive rules can grow surprisingly fast."
+      ],
+      "visual": { "kind": "steps", "items": ["s2 = 3 × 2 = 6", "s3 = 6 × 5 = 30", "s4 = 30 × 29 = 870"] },
+      "note": "3, 6, 30, 870: hold on tight!"
+    },
+    {
+      "id": "gm-ch08-s12",
+      "sec": "8.3",
+      "title": "Virahanka-Fibonacci Magic",
+      "kicker": "Add the previous two terms and watch it grow.",
+      "bullets": [
+        "A recursive rule does not only involve the previous term; it could involve the previous two or more terms.",
+        "The famous Virahanka-Fibonacci sequence starts V1 = 1, V2 = 2, with V(n) = V(n-1) + V(n-2) for n >= 3.",
+        "V3 = 2 + 1 = 3, V4 = 3 + 2 = 5, V5 = 5 + 3 = 8, giving 1, 2, 3, 5, 8, 13, 21, 34, ...",
+        "Each term is obtained by adding the previous two; the next two terms are 55 and 89."
+      ],
+      "visual": { "kind": "steps", "items": ["V3 = V2 + V1 = 3", "V4 = V3 + V2 = 5", "V5 = V4 + V3 = 8"] },
+      "note": "You met this one in earlier grades!"
+    },
+    {
+      "id": "gm-ch08-s13",
+      "sec": "8.4",
+      "title": "Squares Grow Stage by Stage",
+      "kicker": "Four new squares join at every stage.",
+      "bullets": [
+        "A growing pattern of squares counts 1, 5, 9, 13 tiny squares in its first four stages.",
+        "At each stage, 4 squares get added to the corners of the pattern in the earlier stage.",
+        "The counts can be written as 1, 1 + 4, 1 + 4 + 4, 1 + 4 + 4 + 4, ... or as 1, 1 + 1 × 4, 1 + 2 × 4, 1 + 3 × 4, ..."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Stage", "ylabel": "Squares", "points": [[1, 1], [2, 5], [3, 9], [4, 13]] },
+      "note": "A straight line climbing up: that is a clue."
+    },
+    {
+      "id": "gm-ch08-s14",
+      "sec": "8.4",
+      "title": "Build the Rule: 4n - 3",
+      "kicker": "First term plus n minus 1 jumps of 4.",
+      "bullets": [
+        "From t1 = 1, t2 = 1 + 1 × 4, t3 = 1 + 2 × 4, the nth term is t(n) = 1 + (n - 1) × 4, which simplifies to t(n) = 4n - 3.",
+        "The first six terms are 1, 5, 9, 13, 17, 21, so Stage 5 has 17 squares and Stage 6 has 21.",
+        "In this rule, 1 is the first term of the sequence and 4 is the common difference."
+      ],
+      "visual": { "kind": "steps", "items": ["t(n) = 1 + (n - 1) × 4", "= 4n - 3", "Stage 20: 4 × 20 - 3 = 77"] },
+      "note": "Stage 20? 77 squares, no counting needed."
+    },
+    {
+      "id": "gm-ch08-s15",
+      "sec": "8.4",
+      "title": "What Makes an AP",
+      "kicker": "Same difference between every neighbouring pair.",
+      "bullets": [
+        "Sequences in which the difference between consecutive terms is constant are known as arithmetic progressions, or APs.",
+        "In general an AP is a, a + d, a + 2d, a + 3d, ..., a + (n - 1) × d, where a is the first term and d is the common difference.",
+        "For 1, 4, 7, 10, ... the rule is t(n) = 1 + (n - 1) × 3 with common difference 3.",
+        "The sequence 11, 7, 3, -1, -5, ... decreases by 4, so it is also an AP, with first term 11 and common difference -4."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Growing AP", "items": ["1, 4, 7, 10, ...", "d = 3"] },
+        "right": { "title": "Shrinking AP", "items": ["11, 7, 3, -1, -5, ...", "d = -4"] }
+      },
+      "note": "d can be negative too."
+    },
+    {
+      "id": "gm-ch08-s16",
+      "sec": "8.4",
+      "title": "AP or Not AP?",
+      "kicker": "Test the differences before you decide.",
+      "bullets": [
+        "Natural numbers and odd numbers are APs: their differences are the constant values 1 and 2.",
+        "Triangular numbers are not an AP: their differences among the first six terms are 2, 3, 4, 5 and 6, which keep changing.",
+        "The sequence of prime numbers has no clear regularity in its rule, so it is not an AP either."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "APs", "items": ["1, 2, 3, 4, ... has d = 1", "1, 3, 5, 7, ... has d = 2"] },
+        "right": { "title": "Not APs", "items": ["1, 3, 6, 10, 15, ...", "2, 3, 5, 7, 11, ... primes"] }
+      },
+      "note": "Constant difference is the AP entry ticket."
+    },
+    {
+      "id": "gm-ch08-s17",
+      "sec": "8.5",
+      "title": "Add 1 to 10 Smartly",
+      "kicker": "Write it forward, write it back, then add.",
+      "bullets": [
+        "Let S = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10; we can also write S = 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1.",
+        "Each corresponding pair, 1 + 10, 2 + 9, 3 + 8 and so on up to 10 + 1, adds up to 11.",
+        "Adding the two equations: 2S = 11 added 10 times = 110, so S = 55."
+      ],
+      "visual": { "kind": "steps", "items": ["S = 1 + 2 + ... + 10", "S = 10 + 9 + ... + 1", "2S = 11 × 10 = 110", "S = 55"] },
+      "note": "Ten pairs of 11: neat trick, na?"
+    },
+    {
+      "id": "gm-ch08-s18",
+      "sec": "8.5",
+      "title": "The Formula for Any n",
+      "kicker": "Reverse, add, divide by two. Done.",
+      "bullets": [
+        "Let S = 1 + 2 + ... + n; written backwards it is S = n + (n - 1) + ... + 1.",
+        "Adding the two expressions gives 2S = n(n + 1), so S = n(n + 1)/2.",
+        "Check with n = 10: 10 × 11 / 2 = 55, matching the pairing trick exactly."
+      ],
+      "visual": { "kind": "flow", "items": ["Write S forward", "Reverse the sum", "Add: 2S = n(n + 1)", "Divide by 2"] },
+      "note": "Sn = n(n+1)/2. Yaad kar lo!"
+    },
+    {
+      "id": "gm-ch08-s19",
+      "sec": "8.5",
+      "title": "See It as a Rectangle",
+      "kicker": "Two dot triangles make one tidy rectangle.",
+      "bullets": [
+        "Draw two sets of circles for the sum 1 + 2 + 3 + 4 + 5 + 6, one above and one below a zigzag partition.",
+        "The total number of circles forms a 7 × 6 rectangular array, so 2 × (1 + 2 + ... + 6) = 7 × 6.",
+        "In general 2 × (1 + 2 + ... + n) = n × (n + 1), which again gives Sn = n(n + 1)/2."
+      ],
+      "visual": { "kind": "steps", "items": ["Two copies of the dots", "Split by a zigzag line", "Together a 7 × 6 array", "2S = 7 × 6"] },
+      "note": "Triangles love to become rectangles."
+    },
+    {
+      "id": "gm-ch08-s20",
+      "sec": "8.5",
+      "title": "Aryabhata Got There First",
+      "kicker": "The first written record of this sum formula.",
+      "bullets": [
+        "The first known written mention of the result Sn = n(n + 1)/2 is in Aryabhata's Aryabhatiya, Chapter 2, Verse 19.",
+        "That verse provides two ways to calculate the sums.",
+        "Use the formula yourself: 1 + 2 + ... + 100 = 100 × 101 / 2 = 5050."
+      ],
+      "visual": { "kind": "labels", "items": ["Aryabhatiya", "Chapter 2", "Verse 19", "Sn = n(n + 1)/2"] },
+      "note": "A Bhaaratiya classic, first penned by Aryabhata."
+    },
+    {
+      "id": "gm-ch08-s21",
+      "sec": "8.6",
+      "title": "Doubling Squares Pattern",
+      "kicker": "Every stage doubles the green squares.",
+      "bullets": [
+        "A growing pattern of squares counts 3, 6, 12, 24 green squares in its first four stages.",
+        "At each stage, the number of green squares is doubled, twice the number in the previous stage.",
+        "The successive counts are 3, 3 + 3 = 6, 6 + 6 = 12, 12 + 12 = 24, and so on."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Stage", "ylabel": "Squares", "points": [[1, 3], [2, 6], [3, 12], [4, 24]] },
+      "note": "See the curve swoop up? Different from the AP!"
+    },
+    {
+      "id": "gm-ch08-s22",
+      "sec": "8.6",
+      "title": "Multiply, Don't Add",
+      "kicker": "Common ratio 2 powers this pattern.",
+      "bullets": [
+        "Rewrite the counts as 3, 3 × 2, 3 × 2^2, 3 × 2^3, ... so the nth term is t(n) = 3 × 2^(n - 1).",
+        "As a recursive formula, t1 = 3 and t(n) = 2t(n-1) for n >= 2; the first six terms are 3, 6, 12, 24, 48, 96.",
+        "The constant multiplier is the common ratio: 6/3 = 12/6 = 24/12 = 48/24 = 96/48 = 2."
+      ],
+      "visual": { "kind": "steps", "items": ["t(n) = 3 × 2^(n - 1)", "t1 = 3, t(n) = 2t(n-1)", "Every ratio equals 2"] },
+      "note": "Multiply by 2 and the terms double up."
+    },
+    {
+      "id": "gm-ch08-s23",
+      "sec": "8.6",
+      "title": "The GP Family Portrait",
+      "kicker": "a, ar, ar squared, ar cubed and onwards.",
+      "bullets": [
+        "Such a sequence with a common ratio is known as a geometric progression, or GP.",
+        "In general a GP is a, ar, ar^2, ar^3, ..., ar^(n - 1), where a is the first term, r is the common ratio and t(n) = ar^(n - 1).",
+        "Examples: 1, 2, 4, 8, 16, ... has r = 2; 1, 3, 9, 27, 81, ... has r = 3; 1, -1, 1, -1, 1, ... has r = -1."
+      ],
+      "visual": { "kind": "tree", "root": "Geometric progression", "children": ["r = 2", "r = 3", "r = -1", "r = 3/4"] },
+      "note": "r = -1 makes the terms flip sides."
+    },
+    {
+      "id": "gm-ch08-s24",
+      "sec": "8.6",
+      "title": "AP versus GP",
+      "kicker": "Adding d versus multiplying by r.",
+      "bullets": [
+        "An AP adds the same difference d each step, like 1, 4, 7, 10, ... with d = 3.",
+        "A GP multiplies by the same ratio r each step, like 3, 6, 12, 24, ... with r = 2, so each term is twice the last.",
+        "Even fractions can be ratios: 5, 15/4, 45/16, 135/64, ... is a GP with common ratio 3/4."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Arithmetic", "items": ["Add d every step", "1, 5, 9, 13 grows by 4"] },
+        "right": { "title": "Geometric", "items": ["Multiply by r every step", "3, 6, 12, 24 doubles"] }
+      },
+      "note": "Add d or multiply by r: pick your growth."
+    }
+  ],
+  "flashcards": [
+    { "id": "gm-ch08-f1", "sec": "8.1", "front": "What is a sequence in mathematics?", "back": "An ordered list of numbers where each number is a term of the sequence.", "tag": "definition" },
+    { "id": "gm-ch08-f2", "sec": "8.1", "front": "In the square number sequence 1, 4, 9, 16, ..., which term is 25?", "back": "25 is the fifth term, since the sequence runs 1, 4, 9, 16, 25.", "tag": "example" },
+    { "id": "gm-ch08-f3", "sec": "8.1", "front": "Is 6, 12, 24, 48, 96 a finite or infinite sequence?", "back": "It is a finite sequence of exactly five terms; it stops after 96.", "tag": "concept" },
+    { "id": "gm-ch08-f4", "sec": "8.1", "front": "Why are 1, 3, 6, 10, 15, 21 called triangular numbers?", "back": "Each term is the sum of natural numbers up to that term, like 15 = 1 + 2 + 3 + 4 + 5.", "tag": "concept" },
+    { "id": "gm-ch08-f5", "sec": "8.2", "front": "What does an explicit formula use to calculate a term?", "back": "It uses the term's position number n to calculate the value of the nth term directly.", "tag": "definition" },
+    { "id": "gm-ch08-f6", "sec": "8.2", "front": "Write the explicit rule for the odd number sequence.", "back": "un = 2n - 1; substituting n = 1, 2, 3 gives 1, 3, 5, ...", "tag": "formula" },
+    { "id": "gm-ch08-f7", "sec": "8.2", "front": "Which term of the odd number sequence is 137?", "back": "The 69th term, because solving 2n - 1 = 137 gives n = 69.", "tag": "example" },
+    { "id": "gm-ch08-f8", "sec": "8.2", "front": "For sn = 5n - 2, why is 471 not a term?", "back": "Solving 5n - 2 = 471 gives n = 94.6, and n must be a natural number.", "tag": "example" },
+    { "id": "gm-ch08-f9", "sec": "8.3", "front": "What is a recursive rule for a sequence?", "back": "A rule that describes the sequence by relating terms to previous terms; the earlier terms must be known first.", "tag": "definition" },
+    { "id": "gm-ch08-f10", "sec": "8.3", "front": "Give a recursive rule for 1, 4, 7, 10, 13, ...", "back": "t1 = 1 and t(n) = t(n-1) + 3 for n >= 2; each term is 3 more than the previous one.", "tag": "formula" },
+    { "id": "gm-ch08-f11", "sec": "8.3", "front": "State the Virahanka-Fibonacci rule.", "back": "V1 = 1, V2 = 2, and V(n) = V(n-1) + V(n-2) for n >= 3; add the previous two terms.", "tag": "formula" },
+    { "id": "gm-ch08-f12", "sec": "8.3", "front": "First four terms of u1 = 1, u(n) = 2u(n-1) + 3?", "back": "1, 5, 13, 29: double the previous term and add 3 each time.", "tag": "example" },
+    { "id": "gm-ch08-f13", "sec": "8.4", "front": "What makes a sequence an arithmetic progression?", "back": "The difference between consecutive terms is constant; such sequences are called APs.", "tag": "definition" },
+    { "id": "gm-ch08-f14", "sec": "8.4", "front": "Write the general form of an arithmetic progression.", "back": "a, a + d, a + 2d, a + 3d, ..., a + (n - 1) × d, where a is the first term and d the common difference.", "tag": "formula" },
+    { "id": "gm-ch08-f15", "sec": "8.4", "front": "For the AP 11, 7, 3, -1, -5, ..., what are a and d?", "back": "First term a = 11 and common difference d = -4, since the numbers decrease by 4.", "tag": "example" },
+    { "id": "gm-ch08-f16", "sec": "8.4", "front": "What is the nth term of 1, 5, 9, 13, 17, 21, ...?", "back": "t(n) = 1 + (n - 1) × 4, which simplifies to t(n) = 4n - 3.", "tag": "formula" },
+    { "id": "gm-ch08-f17", "sec": "8.5", "front": "What is Sn, the sum of the first n natural numbers?", "back": "Sn = n(n + 1)/2, found by adding the sum forward and backward.", "tag": "formula" },
+    { "id": "gm-ch08-f18", "sec": "8.5", "front": "Find 1 + 2 + 3 + ... + 10 without adding one by one.", "back": "Pair the forward and backward rows: 2S = 11 added 10 times = 110, so S = 55.", "tag": "example" },
+    { "id": "gm-ch08-f19", "sec": "8.5", "front": "Where does the sum formula first appear in writing?", "back": "In Aryabhata's Aryabhatiya, Chapter 2, Verse 19, the first known written mention.", "tag": "trivia" },
+    { "id": "gm-ch08-f20", "sec": "8.6", "front": "What makes a sequence a geometric progression?", "back": "Each term is obtained by multiplying the previous term by a constant, called the common ratio.", "tag": "definition" },
+    { "id": "gm-ch08-f21", "sec": "8.6", "front": "Write the general form of a GP and its nth term.", "back": "a, ar, ar^2, ar^3, ..., ar^(n - 1), with t(n) = ar^(n - 1); a is the first term, r the common ratio.", "tag": "formula" },
+    { "id": "gm-ch08-f22", "sec": "8.6", "front": "What is the common ratio of 1, -1, 1, -1, 1, ...?", "back": "The ratio is -1: multiplying each term by -1 flips it to the next one.", "tag": "example" },
+    { "id": "gm-ch08-f23", "sec": "8.6", "front": "Give the nth term of 3, 6, 12, 24, 48, 96, ...", "back": "t(n) = 3 × 2^(n - 1); the first term is 3 and the common ratio is 2.", "tag": "formula" }
+  ],
+  "quiz": [
+    { "id": "gm-ch08-q1", "sec": "8.1", "q": "Which sequence is 1, 3, 6, 10, 15, 21, ...?", "options": ["Triangular numbers", "Square numbers", "Odd numbers", "Natural numbers"], "answer": 0, "why": "Triangular numbers are the sums 1, 1 + 2, 1 + 2 + 3, and so on.", "difficulty": "easy" },
+    { "id": "gm-ch08-q2", "sec": "8.1", "q": "In the sequence of square numbers, which term is 25?", "options": ["Third", "Fourth", "Fifth", "Sixth"], "answer": 2, "why": "The squares run 1, 4, 9, 16, 25, so 25 is the fifth term.", "difficulty": "easy" },
+    { "id": "gm-ch08-q3", "sec": "8.1", "q": "The list 6, 12, 24, 48, 96 is best described as...", "options": ["An infinite sequence", "A finite sequence of five terms", "A sequence of six terms", "Not a sequence at all"], "answer": 1, "why": "The book gives it as a finite sequence of five terms, unlike the endless dotted sequences.", "difficulty": "easy" },
+    { "id": "gm-ch08-q4", "sec": "8.1", "q": "Among the first six triangular numbers, the differences between consecutive terms are...", "options": ["1, 2, 3, 4, 5", "Always 2", "2, 3, 4, 5, 6", "3, 5, 7, 9, 11"], "answer": 2, "why": "From 1, 3, 6, 10, 15, 21 the gaps are 2, 3, 4, 5 and 6, so the differences are not constant.", "difficulty": "medium" },
+    { "id": "gm-ch08-q5", "sec": "8.2", "q": "The explicit rule un = 2n - 1 generates which sequence?", "options": ["Even numbers", "Natural numbers", "Square numbers", "Odd numbers"], "answer": 3, "why": "Substituting n = 1, 2, 3 gives 1, 3, 5, the odd numbers.", "difficulty": "easy" },
+    { "id": "gm-ch08-q6", "sec": "8.2", "q": "Using un = 2n - 1, what is the 53rd term of the odd number sequence?", "options": ["107", "105", "106", "103"], "answer": 1, "why": "u53 = 2 × 53 - 1 = 105, found without any earlier terms.", "difficulty": "medium" },
+    { "id": "gm-ch08-q7", "sec": "8.2", "q": "For sn = 5n - 2, which position does 308 occupy?", "options": ["61st", "63rd", "62nd", "It is not a term"], "answer": 2, "why": "Solving 5n - 2 = 308 gives 5n = 310 and n = 62, a natural number.", "difficulty": "medium" },
+    { "id": "gm-ch08-q8", "sec": "8.2", "q": "For sn = 5n - 2, why does the membership check for 471 fail?", "options": ["Solving gives n = 94.6, which is not a natural number", "471 is bigger than the 100th term", "Solving gives n = 94, which is too small", "All terms of this sequence are even"], "answer": 0, "why": "5n - 2 = 471 leads to 5n = 473 and n = 94.6, and positions must be natural numbers.", "difficulty": "hard" },
+    { "id": "gm-ch08-q9", "sec": "8.3", "q": "A recursive rule finds each new term using...", "options": ["Only the position number n", "The previous term or terms", "The last term squared", "A random choice"], "answer": 1, "why": "Recursive rules relate each term to previous terms, so earlier terms must be known first.", "difficulty": "easy" },
+    { "id": "gm-ch08-q10", "sec": "8.3", "q": "The rule is u1 = 1 and u(n) = 2u(n-1) + 3 for n >= 2. Its first four terms are...", "options": ["1, 2, 4, 8", "1, 5, 11, 23", "1, 5, 13, 29", "1, 4, 13, 29"], "answer": 2, "why": "u2 = 2 × 1 + 3 = 5, u3 = 2 × 5 + 3 = 13 and u4 = 2 × 13 + 3 = 29.", "difficulty": "medium" },
+    { "id": "gm-ch08-q11", "sec": "8.3", "q": "For s1 = 3 and s(n) = s(n-1) × (s(n-1) - 1), the fourth term is...", "options": ["30", "870", "72", "810"], "answer": 1, "why": "s2 = 3 × 2 = 6, s3 = 6 × 5 = 30 and s4 = 30 × 29 = 870.", "difficulty": "medium" },
+    { "id": "gm-ch08-q12", "sec": "8.3", "q": "The next two terms of the Virahanka-Fibonacci sequence 1, 2, 3, 5, 8, 13, 21, 34, ... are...", "options": ["45, 55", "55, 89", "54, 88", "55, 88"], "answer": 1, "why": "Each term is the sum of the previous two: 21 + 34 = 55 and 34 + 55 = 89.", "difficulty": "medium" },
+    { "id": "gm-ch08-q13", "sec": "8.4", "q": "In an arithmetic progression, the difference between consecutive terms is...", "options": ["Always positive", "Constant", "Doubling each time", "Always even"], "answer": 1, "why": "A constant difference between consecutive terms is exactly what defines an AP.", "difficulty": "easy" },
+    { "id": "gm-ch08-q14", "sec": "8.4", "q": "In the growing square pattern with stages 1, 5, 9, 13, what happens at each new stage?", "options": ["The squares double in number", "4 squares are added at the corners", "3 squares are added on top", "8 squares fill the centre"], "answer": 1, "why": "At each stage, 4 squares get added to the corners of the earlier stage's pattern.", "difficulty": "easy" },
+    { "id": "gm-ch08-q15", "sec": "8.4", "q": "The stage counts follow t(n) = 4n - 3. How many squares are in Stage 20?", "options": ["80", "76", "81", "77"], "answer": 3, "why": "t20 = 4 × 20 - 3 = 77.", "difficulty": "medium" },
+    { "id": "gm-ch08-q16", "sec": "8.4", "q": "Which of these sequences is NOT an arithmetic progression?", "options": ["11, 7, 3, -1, -5, ...", "1, 4, 7, 10, ...", "1, 3, 6, 10, 15, ...", "1, 3, 5, 7, ..."], "answer": 2, "why": "Triangular numbers have differences 2, 3, 4, 5, which are not constant; the others are APs with d = -4, 3 and 2.", "difficulty": "hard" },
+    { "id": "gm-ch08-q17", "sec": "8.5", "q": "The sum of the first ten natural numbers is...", "options": ["100", "110", "55", "50"], "answer": 2, "why": "Pairing forward and backward rows gives 2S = 11 × 10 = 110, so S = 55.", "difficulty": "easy" },
+    { "id": "gm-ch08-q18", "sec": "8.5", "q": "Using Sn = n(n + 1)/2, what is 1 + 2 + 3 + ... + 100?", "options": ["5000", "10100", "5050", "5500"], "answer": 2, "why": "100 × 101 / 2 = 5050; note that 10100 is the doubled sum 2S.", "difficulty": "medium" },
+    { "id": "gm-ch08-q19", "sec": "8.5", "q": "Pictorially, two copies of the dots for 1 + 2 + ... + 6 together form which array?", "options": ["A 6 × 6 square", "A 7 × 6 rectangle", "A 7 × 7 square", "A 12 × 3 rectangle"], "answer": 1, "why": "The circles above and below the zigzag partition fill a 7 × 6 array, so 2S = 7 × 6.", "difficulty": "medium" },
+    { "id": "gm-ch08-q20", "sec": "8.5", "q": "The first known written mention of Sn = n(n + 1)/2 appears in...", "options": ["Virahanka's rule", "Fibonacci's book", "Aryabhata's Aryabhatiya", "Euclid's Elements"], "answer": 2, "why": "The Aryabhatiya, Chapter 2, Verse 19, carries the first known written mention of this result.", "difficulty": "easy" },
+    { "id": "gm-ch08-q21", "sec": "8.6", "q": "1, 2, 4, 8, 16, ... is a geometric progression. Its common ratio is...", "options": ["1", "16", "4", "2"], "answer": 3, "why": "Each term is obtained by multiplying the previous term by 2.", "difficulty": "easy" },
+    { "id": "gm-ch08-q22", "sec": "8.6", "q": "1, -1, 1, -1, 1, ... is a geometric progression because...", "options": ["The terms simply alternate", "Each term is the previous term times -1", "The terms are all whole numbers", "The difference between terms is constant"], "answer": 1, "why": "Multiplying by the constant ratio -1 produces every term, which is exactly what a GP needs.", "difficulty": "medium" },
+    { "id": "gm-ch08-q23", "sec": "8.6", "q": "For the GP 5, 15/4, 45/16, 135/64, ..., the nth term is...", "options": ["t(n) = 5 × (4/3)^(n - 1)", "t(n) = 5 × (3/4)^n", "t(n) = 5 × (3/4)^(n - 1)", "t(n) = 5 × (1/4)^(n - 1)"], "answer": 2, "why": "Each ratio is (15/4) ÷ 5 = 3/4, so with a = 5 the nth term is t(n) = 5 × (3/4)^(n - 1).", "difficulty": "hard" },
+    { "id": "gm-ch08-q24", "sec": "8.6", "q": "What is the key difference between an AP and a GP?", "options": ["An AP multiplies by a constant, a GP adds one", "A GP must always grow faster than an AP", "An AP adds a constant difference, a GP multiplies by a constant ratio", "A GP must start at 1"], "answer": 2, "why": "APs add the common difference d each step; GPs multiply by the common ratio r each step.", "difficulty": "medium" }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch08-e1",
+      "title": "Any Term of the Odd Numbers, Instantly",
+      "problem": "The odd number sequence has the explicit rule un = 2n - 1. Find the 53rd term, the 108th term and the 1170th term.",
+      "steps": [
+        "The rule uses only the position n, so substitute each position straight into un = 2n - 1.",
+        "u53 = 2 × 53 - 1 = 106 - 1 = 105.",
+        "u108 = 2 × 108 - 1 = 216 - 1 = 215.",
+        "u1170 = 2 × 1170 - 1 = 2340 - 1 = 2339."
+      ],
+      "answer": "The 53rd, 108th and 1170th terms are 105, 215 and 2339."
+    },
+    {
+      "id": "gm-ch08-e2",
+      "title": "Testing Two Numbers for Membership",
+      "problem": "The sequence generated by sn = 5n - 2 begins 3, 8, 13, 18, 23, 28, ... Check whether 308 and 471 are terms of this sequence.",
+      "steps": [
+        "A number is a term only if solving sn = k gives a natural number n.",
+        "For 308: solve 5n - 2 = 308, so 5n = 310 and n = 62, which is a natural number.",
+        "So 308 is the 62nd term of the sequence.",
+        "For 471: solve 5n - 2 = 471, so 5n = 473 and n = 94.6, which is not a natural number.",
+        "Since positions must be 1, 2, 3, ..., 471 cannot be a term."
+      ],
+      "answer": "308 is the 62nd term of the sequence, and 471 is not a term at all."
+    },
+    {
+      "id": "gm-ch08-e3",
+      "title": "Climbing the Recursive Ladder",
+      "problem": "A sequence is given by u1 = 1 and u(n) = 2u(n-1) + 3 for n >= 2. Find the first four terms, and check whether 133 is a term of this sequence.",
+      "steps": [
+        "Start from u1 = 1 and feed each term back into the rule.",
+        "u2 = 2 × u1 + 3 = 2 × 1 + 3 = 5.",
+        "u3 = 2 × u2 + 3 = 2 × 5 + 3 = 13.",
+        "u4 = 2 × u3 + 3 = 2 × 13 + 3 = 29.",
+        "To test 133, continue climbing: u5 = 2 × 29 + 3 = 61, u6 = 2 × 61 + 3 = 125, u7 = 2 × 125 + 3 = 253.",
+        "The terms jump from 125 to 253 without ever landing on 133."
+      ],
+      "answer": "The first four terms are 1, 5, 13, 29, and 133 is not a term of this sequence."
+    },
+    {
+      "id": "gm-ch08-e4",
+      "title": "A Geometric Progression in Fractions",
+      "problem": "Check whether the sequence 5, 15/4, 45/16, 135/64, ... is a geometric progression, and find its nth term.",
+      "steps": [
+        "A GP needs the same ratio between every pair of consecutive terms, so divide each term by the one before it.",
+        "t2/t1 = (15/4) ÷ 5 = 15/20 = 3/4.",
+        "t3/t2 = (45/16) ÷ (15/4) = 45/16 × 4/15 = 3/4.",
+        "t4/t3 = (135/64) ÷ (45/16) = 135/64 × 16/45 = 3/4.",
+        "Every ratio equals 3/4, so this is a GP with first term a = 5 and common ratio r = 3/4.",
+        "Apply the general rule t(n) = ar^(n - 1) = 5 × (3/4)^(n - 1)."
+      ],
+      "answer": "Yes, it is a GP with common ratio 3/4 and nth term t(n) = 5 × (3/4)^(n - 1)."
+    }
+  ],
+  "conceptMap": {
+    "center": "Sequences and Progressions",
+    "groups": [
+      { "id": "g1", "label": "Basics of Sequences" },
+      { "id": "g2", "label": "Rules of a Sequence" },
+      { "id": "g3", "label": "Special Progressions" },
+      { "id": "g4", "label": "Sums and Heritage" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Sequence", "group": "g1" },
+      { "id": "n2", "label": "Term", "group": "g1" },
+      { "id": "n3", "label": "Finite or Infinite", "group": "g1" },
+      { "id": "n4", "label": "Patterns Around Us", "group": "g1" },
+      { "id": "n5", "label": "Explicit Rule", "group": "g2" },
+      { "id": "n6", "label": "Recursive Rule", "group": "g2" },
+      { "id": "n7", "label": "Position Check", "group": "g2" },
+      { "id": "n8", "label": "Arithmetic Progression", "group": "g3" },
+      { "id": "n9", "label": "Common Difference", "group": "g3" },
+      { "id": "n10", "label": "Geometric Progression", "group": "g3" },
+      { "id": "n11", "label": "Common Ratio", "group": "g3" },
+      { "id": "n12", "label": "Sum 1 to n", "group": "g4" },
+      { "id": "n13", "label": "Virahanka-Fibonacci", "group": "g4" },
+      { "id": "n14", "label": "Aryabhatiya", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n4", "to": "n1", "label": "numbers in order" },
+      { "from": "n1", "to": "n2", "label": "made of" },
+      { "from": "n1", "to": "n3", "label": "may be" },
+      { "from": "n1", "to": "n5", "label": "predict with" },
+      { "from": "n1", "to": "n6", "label": "predict with" },
+      { "from": "n5", "to": "n7", "label": "solve un = k" },
+      { "from": "n6", "to": "n13", "label": "famous two-term rule" },
+      { "from": "n8", "to": "n9", "label": "has" },
+      { "from": "n10", "to": "n11", "label": "has" },
+      { "from": "n8", "to": "n5", "label": "t(n) = a + (n - 1)d" },
+      { "from": "n10", "to": "n5", "label": "t(n) = ar^(n - 1)" },
+      { "from": "n6", "to": "n8", "label": "add d each step" },
+      { "from": "n6", "to": "n10", "label": "multiply by r" },
+      { "from": "n12", "to": "n14", "label": "first written in" },
+      { "from": "n5", "to": "n12", "label": "Sn = n(n + 1)/2" }
+    ]
+  },
+  "flowchart": {
+    "title": "how this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Spot a Pattern", "detail": "Patterns in nature, art, music and finance point to number sequences." },
+      { "id": "s2", "label": "List the Terms", "detail": "Write the numbers in order; each one is a term, finite or infinite." },
+      { "id": "s3", "label": "Guess the Rule", "detail": "Ask how terms grow: adding, multiplying, or running sums." },
+      { "id": "s4", "label": "Write Explicit Rule", "detail": "Write the rule using n, like un = 2n - 1, to reach any term at once." },
+      { "id": "s5", "label": "Write Recursive Rule", "detail": "Relate each term to previous ones, like t(n) = t(n-1) + 3, starting from t1." },
+      { "id": "s6", "label": "Check Any Position", "detail": "Solve t(n) = k for n; the answer must be a natural number." },
+      { "id": "s7", "label": "Name the Progression", "detail": "Constant difference means an AP; constant ratio means a GP." },
+      { "id": "s8", "label": "Predict and Sum", "detail": "Use t(n) and Sn = n(n + 1)/2 to predict terms and totals, like Aryabhata did." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [2, 4], [3, 5], [4, 5], [5, 6], [6, 7]]
+  }
+}

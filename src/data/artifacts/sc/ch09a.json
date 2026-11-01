@@ -1,0 +1,705 @@
+{
+  "book": "sc",
+  "chapter": 9,
+  "part": "a",
+  "title": "Atomic Foundations of Matter",
+  "grade": 9,
+  "sections": [
+    { "id": "9.2", "title": "Law of Constant Proportions" },
+    { "id": "9.3", "title": "Dalton's Atomic Theory" },
+    { "id": "9.4", "title": "How Atoms Combine?" },
+    { "id": "9.4.1", "title": "Bonding by sharing of electrons - Covalent Bond" },
+    { "id": "9.4.2", "title": "Bonding by electron transfer - Ionic bond" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch09a-s1",
+      "sec": "9.2",
+      "title": "Proust Finds a Pattern",
+      "kicker": "Water is water, everywhere the same?",
+      "bullets": [
+        "Soon after Lavoisier, Joseph Proust proposed that in any compound, the elements combine in a fixed ratio by mass.",
+        "Water collected from rivers, borewells or the ocean, when purified and analysed, always contains hydrogen and oxygen in a mass ratio of 1:8.",
+        "If 9 g of purified water from any source is decomposed, 1 g of hydrogen and 8 g of oxygen are always obtained.",
+        "This is the Law of Constant Proportions, also called the Law of Definite Proportions or Proust's Law."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Water from any source", "items": ["River water", "Borewell water", "Ocean water"] },
+        "right": { "title": "All give the same ratio", "items": ["Hydrogen : Oxygen = 1:8 by mass", "9 g water gives 1 g H and 8 g O"] }
+      },
+      "note": "Fixed ratio, no matter the source - Proust ka pakka promise!"
+    },
+    {
+      "id": "sc-ch09a-s2",
+      "sec": "9.2",
+      "title": "Cinnabar Tells the Story",
+      "kicker": "Ancient paint held a chemistry secret",
+      "bullets": [
+        "In many ancient civilisations, a red substance derived from rocks was used in painting and as a colouring agent; in India it was known as hingula, and in Latin as cinnabar.",
+        "Over the centuries, many civilisations discovered that heating cinnabar gives two elements, mercury and sulfur.",
+        "The mass composition is around 86.22 percent mercury and 13.78 percent sulfur.",
+        "Proust also studied copper carbonate and showed it always contains copper, carbon and oxygen in the same proportion by mass, however it is prepared."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["hingula", "cinnabar", "mercury 86.22%", "sulfur 13.78%", "copper carbonate"]
+      },
+      "note": "Old painters were doing chemistry without knowing it!"
+    },
+    {
+      "id": "sc-ch09a-s3",
+      "sec": "9.2",
+      "title": "Working With the Ratio",
+      "kicker": "Use the fixed ratio to predict masses",
+      "bullets": [
+        "Sodium chloride contains sodium and chlorine in the mass ratio of 23:35.5.",
+        "To find how much chlorine reacts with a given mass of sodium, first find how many times 23 fits into the sodium mass.",
+        "Multiply that same factor by 35.5 to get the mass of chlorine, because the ratio must stay fixed.",
+        "The Law of Definite Proportions holds for compounds but not for mixtures, since only compounds have a fixed composition."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Note the fixed mass ratio, here Na : Cl = 23 : 35.5",
+          "Find the factor: 46 divided by 23 equals 2",
+          "Multiply chlorine mass: 35.5 times 2 equals 71 g"
+        ]
+      },
+      "note": "Ratio fix hai, so masses scale together."
+    },
+    {
+      "id": "sc-ch09a-s4",
+      "sec": "9.3",
+      "title": "Meet John Dalton",
+      "kicker": "A teacher who changed how we see matter",
+      "bullets": [
+        "John Dalton was born in England and moved to Manchester in 1793 to teach mathematics, physics and chemistry at a college.",
+        "He spent most of his life teaching and research, and in 1808 he presented his atomic theory.",
+        "A postulate is a fundamental assumption accepted as truth without formal proof, from which further ideas are formed or developed.",
+        "Dalton's postulates combined earlier experimental observations and served as the basis for modern scientific theory."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "1793: moves to Manchester to teach",
+          "Studies mathematics, physics and chemistry",
+          "1808: presents the atomic theory"
+        ]
+      },
+      "note": "Ek teacher ki soch ne badal diya science!"
+    },
+    {
+      "id": "sc-ch09a-s5",
+      "sec": "9.3",
+      "title": "The Five Postulates",
+      "kicker": "Tiny atoms, big rules",
+      "bullets": [
+        "All matter is made up of very tiny particles called atoms, which participate in chemical reactions.",
+        "Atoms are indivisible and cannot be created or destroyed in a chemical reaction.",
+        "Atoms of a given element are identical in mass and chemical properties, while atoms of different elements have different masses and chemical properties.",
+        "Atoms combine in the ratio of simple whole numbers to form compounds, and the relative number and kinds of atoms are constant in a given compound."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Dalton's postulates",
+        "children": ["Indivisible atoms", "Identical per element", "Simple whole ratios", "Constant composition"]
+      },
+      "note": "Five assumptions, one giant leap for chemistry."
+    },
+    {
+      "id": "sc-ch09a-s6",
+      "sec": "9.3",
+      "title": "Postulates in Action",
+      "kicker": "Atoms rearrange, never vanish",
+      "bullets": [
+        "Hydrogen and oxygen atoms combine to form water, but the atoms themselves are not destroyed or changed into something else.",
+        "When magnesium burns in air, a white powder of magnesium oxide forms, showing magnesium atoms have combined with oxygen atoms.",
+        "The book's assertion shows 2 g of hydrogen combining with 16 g of oxygen to form 18 g of water, so total mass is conserved.",
+        "Atoms combine in a simple whole number ratio by mass to form compounds."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Magnesium atoms", "Burns in air (oxygen)", "Magnesium oxide, a white powder"]
+      },
+      "note": "Nothing lost, nothing extra - mass stays balanced."
+    },
+    {
+      "id": "sc-ch09a-s7",
+      "sec": "9.4",
+      "title": "What Is a Molecule?",
+      "kicker": "Atoms team up into neutral groups",
+      "bullets": [
+        "A molecule is an electrically neutral entity consisting of more than one atom, capable of independent existence, and it shows all the properties of that substance.",
+        "Atoms of an element can combine to form a molecule of that element, like a hydrogen molecule made of two hydrogen atoms.",
+        "Atoms of different elements combine to form a molecule of a compound, like one hydrogen atom with one chlorine atom forming hydrogen chloride.",
+        "Some elements, such as helium, exist only as atoms because their atoms are already stable."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Molecule of an element", "items": ["Two hydrogen atoms join", "Forming one H2 molecule"] },
+        "right": { "title": "Molecule of a compound", "items": ["One hydrogen atom, one chlorine atom", "Forming hydrogen chloride"] }
+      },
+      "note": "Helium ko jodi ki zaroorat hi nahi - already stable!"
+    },
+    {
+      "id": "sc-ch09a-s8",
+      "sec": "9.4",
+      "title": "Why Atoms Combine",
+      "kicker": "Everyone wants a full outer shell",
+      "bullets": [
+        "Atoms with 8 electrons in the outermost valence shell, or 2 electrons if the K shell is the outermost shell, are stable.",
+        "If the valence shell has fewer than eight electrons, atoms may share, gain or lose electrons to complete their valence shell and become stable.",
+        "When atoms combine, the total energy of the system becomes lower than the sum of the energies of the individual atoms, making the arrangement more stable.",
+        "The force that holds atoms together is called a chemical bond."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Check the valence electrons",
+          "Share, gain or lose electrons to complete the shell",
+          "Total energy drops, so the arrangement is stable",
+          "A chemical bond holds the atoms together"
+        ]
+      },
+      "note": "Lower energy = happier atoms, simple as that."
+    },
+    {
+      "id": "sc-ch09a-s9",
+      "sec": "9.4",
+      "title": "Two Ways to Bond",
+      "kicker": "Share it or hand it over",
+      "bullets": [
+        "Atoms combine in two general ways to form compounds.",
+        "In sharing, atoms share a few or all of their valence electrons with another atom.",
+        "In transfer, an atom transfers one or more valence electrons to another atom, or accepts one or more electrons from some other atom.",
+        "Both paths lead to the same goal, a complete valence shell for each atom."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Sharing of electrons", "items": ["Valence electrons are shared", "Leads to the covalent bond"] },
+        "right": { "title": "Transfer of electrons", "items": ["Electrons move across atoms", "Leads to the ionic bond"] }
+      },
+      "note": "Do raste, ek manzil - stable valence shell."
+    },
+    {
+      "id": "sc-ch09a-s10",
+      "sec": "9.4.1",
+      "title": "Hydrogen Holds Hands",
+      "kicker": "One shared pair builds H2",
+      "bullets": [
+        "Hydrogen has atomic number 1, with only one electron in its K shell, and a K shell can hold two electrons, so it needs one more to become stable.",
+        "A hydrogen atom shares one electron with another hydrogen atom to form a hydrogen molecule, H2.",
+        "The shared pair of electrons attracts both the nuclei and makes the molecule stable.",
+        "This interaction through a shared pair of electrons is called a covalent bond; sharing one electron each gives a single bond, drawn as H-H."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["H atom with one electron", "H atom with one electron", "They share a pair", "H2 molecule, drawn H-H"]
+      },
+      "note": "Ek-do, share done - H2 ban gaya!"
+    },
+    {
+      "id": "sc-ch09a-s11",
+      "sec": "9.4.1",
+      "title": "Chlorine and Oxygen Team Up",
+      "kicker": "Single bond for Cl2, double bond for O2",
+      "bullets": [
+        "A chlorine atom has seven electrons in its valence shell and requires one electron to attain a stable electronic configuration.",
+        "A chlorine molecule forms when two chlorine atoms share one electron each, so it is joined by a single covalent bond and written as Cl-Cl.",
+        "An oxygen atom has six electrons in its valence shell and requires two more electrons to complete its octet.",
+        "Two oxygen atoms share two electrons each, forming an oxygen molecule O2 joined by a double bond, written as O=O."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Chlorine molecule", "items": ["Seven valence electrons each", "Share one electron each", "Single bond, Cl-Cl"] },
+        "right": { "title": "Oxygen molecule", "items": ["Six valence electrons each", "Share two electrons each", "Double bond, O=O"] }
+      },
+      "note": "Need one, share one; need two, share two."
+    },
+    {
+      "id": "sc-ch09a-s12",
+      "sec": "9.4.1",
+      "title": "One Line or Two",
+      "kicker": "Drawing bonds the chemist way",
+      "bullets": [
+        "Two atoms joined by sharing one electron each are said to be joined by a single bond.",
+        "A single bond is drawn as one line between the two atom symbols, like H-H for hydrogen or Cl-Cl for chlorine.",
+        "When two atoms are joined by two pairs of shared electrons, they are held together by a double bond.",
+        "A double bond is drawn as two lines between the atoms, like O=O for the oxygen molecule."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["shared pair", "single bond", "one line, H-H", "double bond", "two lines, O=O"]
+      },
+      "note": "Lines in a drawing literally count shared pairs."
+    },
+    {
+      "id": "sc-ch09a-s13",
+      "sec": "9.4.2",
+      "title": "Sodium Gives, Chlorine Takes",
+      "kicker": "An electron changes everything",
+      "bullets": [
+        "If the valence shell of an atom has less than four electrons, it generally donates its valence electrons to achieve a stable configuration; with more than four, it usually gains or shares.",
+        "Sodium has atomic number 11 and its valence shell contains only one electron, which it loses to attain a stable electronic configuration.",
+        "After losing one electron, sodium becomes a positively charged sodium cation, Na+, with 11 protons and 10 electrons.",
+        "Chlorine has seven valence electrons, so it gains one electron to become a negatively charged chloride anion, Cl-, written as Cl-."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Na loses 1 electron", "Na+ cation forms, 11 protons, 10 electrons", "Cl gains 1 electron", "Cl- anion forms"]
+      },
+      "note": "Protons zyada, charge positive - that is Na+."
+    },
+    {
+      "id": "sc-ch09a-s14",
+      "sec": "9.4.2",
+      "title": "Opposites Make Ionic Bonds",
+      "kicker": "Attraction locks the ions together",
+      "bullets": [
+        "Cations and anions are collectively called ions.",
+        "Once the sodium and chloride ions are formed, they are held together by the electrostatic force of attraction due to their opposite charges.",
+        "The electrostatic force of attraction between oppositely charged ions that holds them together is called an ionic bond.",
+        "In sodium chloride, the electron transfer gives Na+ and Cl-, which stay joined as NaCl."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Na gives one electron to Cl", "Na+ and Cl- ions form", "Opposite charges attract", "Ionic bond in NaCl"]
+      },
+      "note": "Opposite charges pull, and the bond stays put."
+    },
+    {
+      "id": "sc-ch09a-s15",
+      "sec": "9.4.2",
+      "title": "Salt Builds a Crystal City",
+      "kicker": "Ions stack in a repeating 3-D pattern",
+      "bullets": [
+        "Ionic compounds usually do not remain as single units; they form three-dimensional crystals in which ions are arranged in a repeating pattern.",
+        "In sodium chloride, each sodium ion is surrounded by six chloride ions.",
+        "Each chloride ion is likewise surrounded by six sodium ions.",
+        "These oppositely charged ions arranged in a regular, repeating 3-D pattern are known as a crystal structure."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Na+ ion", "Cl- ion", "six neighbours each", "3-D pattern", "crystal structure"]
+      },
+      "note": "Every salt grain is a tiny repeating city of ions."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sc-ch09a-f1",
+      "sec": "9.2",
+      "front": "Who proposed the Law of Constant Proportions and what does it state?",
+      "back": "Joseph Proust proposed that in any compound, the elements combine in a fixed ratio by mass, irrespective of the source of the compound.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f2",
+      "sec": "9.2",
+      "front": "In what mass ratio are hydrogen and oxygen found in pure water?",
+      "back": "Always 1:8 by mass; decomposing 9 g of water from any source gives 1 g of hydrogen and 8 g of oxygen.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch09a-f3",
+      "sec": "9.2",
+      "front": "What is cinnabar (hingula) and what does heating it give?",
+      "back": "A red substance from rocks used in painting; heating cinnabar gives mercury and sulfur in mass composition of about 86.22 percent and 13.78 percent.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch09a-f4",
+      "sec": "9.3",
+      "front": "What is a postulate?",
+      "back": "A fundamental assumption accepted as truth without formal proof, from which further ideas are formed or developed.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f5",
+      "sec": "9.3",
+      "front": "According to Dalton, can atoms be created or destroyed in a chemical reaction?",
+      "back": "No. Atoms are indivisible particles which cannot be created or destroyed in a chemical reaction.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f6",
+      "sec": "9.3",
+      "front": "What did Dalton say about atoms of a given element?",
+      "back": "Atoms of a given element are identical in mass and chemical properties, while atoms of different elements have different masses and chemical properties.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f7",
+      "sec": "9.3",
+      "front": "In what ratio do atoms combine to form compounds, per Dalton?",
+      "back": "Atoms combine in the ratio of simple whole numbers, and the relative number and kinds of atoms are constant in a given compound.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f8",
+      "sec": "9.4",
+      "front": "Define a molecule.",
+      "back": "An electrically neutral entity of more than one atom, capable of independent existence, that shows all the properties of that substance.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f9",
+      "sec": "9.4",
+      "front": "Which element exists only as single atoms, not molecules?",
+      "back": "Helium. Its atoms are already stable, so it exists only as atoms.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch09a-f10",
+      "sec": "9.4",
+      "front": "What is a chemical bond?",
+      "back": "The force that holds atoms together; it forms because the combined arrangement has lower total energy than the separate atoms.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f11",
+      "sec": "9.4.1",
+      "front": "How do two hydrogen atoms form a hydrogen molecule?",
+      "back": "Each hydrogen atom has one K-shell electron and shares it, so a shared pair of electrons attracts both nuclei, forming H2 with a single bond.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f12",
+      "sec": "9.4.1",
+      "front": "What kind of bond joins the two atoms in an oxygen molecule?",
+      "back": "A double bond. Two oxygen atoms share two electrons each, forming two shared pairs, drawn as O=O.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f13",
+      "sec": "9.4.1",
+      "front": "Why do two chlorine atoms share one electron each?",
+      "back": "Each chlorine atom has seven valence electrons and requires one more to attain a stable electronic configuration.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch09a-f14",
+      "sec": "9.4.2",
+      "front": "What is a cation, and how does Na+ form?",
+      "back": "A cation is a positively charged ion. Sodium, with atomic number 11, loses its one valence electron and becomes Na+ with 11 protons and 10 electrons.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f15",
+      "sec": "9.4.2",
+      "front": "What force holds Na+ and Cl- together in sodium chloride?",
+      "back": "The electrostatic force of attraction between the oppositely charged ions, called an ionic bond.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch09a-f16",
+      "sec": "9.4.2",
+      "front": "In a sodium chloride crystal, how many ions surround each ion?",
+      "back": "Each Na+ is surrounded by six Cl- ions, and each Cl- by six Na+ ions, in a regular repeating 3-D crystal structure.",
+      "tag": "trivia"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch09a-q1",
+      "sec": "9.2",
+      "q": "Purified water collected from rivers, borewells or the ocean always contains hydrogen and oxygen in which mass ratio?",
+      "options": ["1:8", "8:1", "1:2", "2:1"],
+      "answer": 0,
+      "why": "Proust showed water from any source has hydrogen and oxygen in a fixed 1:8 mass ratio.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q2",
+      "sec": "9.2",
+      "q": "If 9 g of purified water from any source is completely decomposed, what do you obtain?",
+      "options": ["8 g of hydrogen and 1 g of oxygen", "1 g of hydrogen and 8 g of oxygen", "4.5 g of hydrogen and 4.5 g of oxygen", "2 g of hydrogen and 7 g of oxygen"],
+      "answer": 1,
+      "why": "The fixed 1:8 ratio means 9 g of water always yields 1 g of hydrogen and 8 g of oxygen.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q3",
+      "sec": "9.2",
+      "q": "Sodium chloride has sodium and chlorine in mass ratio 23:35.5. If 46 g of sodium reacts completely, how much chlorine is needed?",
+      "options": ["35.5 g", "46 g", "58.5 g", "71 g"],
+      "answer": 3,
+      "why": "The factor is 46 divided by 23, which is 2, so chlorine needed is 35.5 times 2, that is 71 g (Example 9.3).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09a-q4",
+      "sec": "9.2",
+      "q": "Why does the Law of Definite Proportions hold for compounds but not for mixtures?",
+      "options": ["Because mixtures cannot be formed from elements", "Because mixtures have no fixed composition, while compounds have fixed ratios by mass", "Because compounds always taste the same", "Because mixtures are always made of liquids"],
+      "answer": 1,
+      "why": "Only compounds have elements in a fixed ratio by mass irrespective of source; mixtures have no such fixed ratio.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q5",
+      "sec": "9.3",
+      "q": "Who presented his atomic theory in 1808?",
+      "options": ["Joseph Proust", "Antoine Lavoisier", "John Dalton", "Joseph Louis"],
+      "answer": 2,
+      "why": "John Dalton presented his atomic theory in 1808 while teaching in Manchester.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q6",
+      "sec": "9.3",
+      "q": "What is a postulate?",
+      "options": ["A measurement taken in a laboratory", "A fundamental assumption accepted as truth without formal proof", "A law proved by many experiments", "A chemical formula of a compound"],
+      "answer": 1,
+      "why": "The book defines a postulate as an assumption accepted as truth without formal proof, from which further ideas are formed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q7",
+      "sec": "9.3",
+      "q": "According to Dalton's Atomic Theory, atoms combine to form compounds in the ratio of:",
+      "options": ["Any fractional numbers", "Equal masses", "Simple whole numbers", "Varying decimals"],
+      "answer": 2,
+      "why": "A postulate states that atoms combine in the ratio of simple whole numbers to form compounds.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q8",
+      "sec": "9.3",
+      "q": "2 g of hydrogen combines completely with 16 g of oxygen. What mass of water is formed?",
+      "options": ["14 g", "16 g", "18 g", "32 g"],
+      "answer": 2,
+      "why": "Atoms are neither created nor destroyed, so all the mass stays: 2 g plus 16 g gives 18 g of water.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q9",
+      "sec": "9.4",
+      "q": "Which of these best defines a molecule?",
+      "options": ["Any single atom of an element", "A charged cluster of atoms", "An electrically neutral entity of more than one atom, capable of independent existence", "Only a pair of identical atoms"],
+      "answer": 2,
+      "why": "A molecule is neutral, has more than one atom, can exist independently and shows all properties of the substance.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q10",
+      "sec": "9.4",
+      "q": "Which element exists only as individual atoms because its atoms are stable?",
+      "options": ["Hydrogen", "Oxygen", "Chlorine", "Helium"],
+      "answer": 3,
+      "why": "The book notes helium exists only as atoms because its atoms are stable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q11",
+      "sec": "9.4",
+      "q": "An atom whose valence shell has fewer than eight electrons can complete its shell by:",
+      "options": ["Losing protons to another atom", "Sharing, gaining or losing electrons", "Only gaining electrons, never losing", "Doing nothing, it is already stable"],
+      "answer": 1,
+      "why": "Atoms with fewer than eight valence electrons may share, gain or lose electrons to complete the valence shell.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q12",
+      "sec": "9.4.1",
+      "q": "How many electrons does each hydrogen atom share while forming a hydrogen molecule?",
+      "options": ["One", "Two", "Three", "None"],
+      "answer": 0,
+      "why": "Each hydrogen atom has one K-shell electron and shares it, giving one shared pair in H-H.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q13",
+      "sec": "9.4.1",
+      "q": "The two oxygen atoms in an oxygen molecule are joined by:",
+      "options": ["A single bond from one shared pair", "A double bond from two shared pairs", "An ionic bond from electron transfer", "No bond, they only touch"],
+      "answer": 1,
+      "why": "Each oxygen atom shares two electrons, so two shared pairs form a double bond, drawn as O=O.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q14",
+      "sec": "9.4.1",
+      "q": "Nitrogen has five valence electrons. To complete its octet by sharing, how many covalent bonds will one nitrogen atom form?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": 2,
+      "why": "With five valence electrons, nitrogen needs three more, so it shares three pairs, one for each bond.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch09a-q15",
+      "sec": "9.4.2",
+      "q": "When a sodium atom loses its one valence electron, it becomes:",
+      "options": ["A neutral neon atom", "A sodium cation, Na+", "A sodium anion with extra electrons", "A chloride anion"],
+      "answer": 1,
+      "why": "Losing one electron leaves sodium with 11 protons and 10 electrons, so it becomes the positive ion Na+.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q16",
+      "sec": "9.4.2",
+      "q": "An anion is formed when an atom:",
+      "options": ["Gains one or more electrons", "Loses one or more electrons", "Loses protons", "Shares protons with another atom"],
+      "answer": 0,
+      "why": "Gaining electrons gives extra negative charge, like chlorine becoming the chloride anion Cl-.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch09a-q17",
+      "sec": "9.4.2",
+      "q": "In the crystal structure of sodium chloride, each sodium ion is surrounded by how many chloride ions?",
+      "options": ["Two", "Four", "Six", "Eight"],
+      "answer": 2,
+      "why": "In the 3-D crystal, each Na+ is surrounded by six Cl-, and each Cl- by six Na+.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch09a-q18",
+      "sec": "9.4.2",
+      "q": "Why does the sodium cation Na+ carry a positive charge?",
+      "options": ["It has 11 protons but only 10 electrons after losing one valence electron", "It gained an extra electron from chlorine", "Its protons increased to 12", "Its electrons increased to 12"],
+      "answer": 0,
+      "why": "After losing one valence electron, sodium has 11 protons and 10 electrons, so the net charge is positive.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch09a-e1",
+      "title": "Decomposing a bigger sample of water",
+      "problem": "Pure water always contains hydrogen and oxygen in the mass ratio of 1:8. If 36 g of purified water is completely decomposed, what masses of hydrogen and oxygen are obtained?",
+      "steps": [
+        "The fixed ratio by mass is hydrogen : oxygen = 1 : 8, so every 9 g of water contains 1 g of hydrogen and 8 g of oxygen.",
+        "Find how many 9 g portions are in 36 g: 36 divided by 9 equals 4.",
+        "Multiply each part of the ratio by 4: hydrogen = 1 x 4 = 4 g, oxygen = 8 x 4 = 32 g.",
+        "Check: 4 g plus 32 g equals 36 g, so mass is conserved."
+      ],
+      "answer": "36 g of water gives 4 g of hydrogen and 32 g of oxygen."
+    },
+    {
+      "id": "sc-ch09a-e2",
+      "title": "Chlorine needed to make salt (Example 9.3)",
+      "problem": "Sodium chloride contains sodium and chlorine in the mass ratio of 23:35.5. If 46 g of sodium reacts completely, how much chlorine is needed to form NaCl?",
+      "steps": [
+        "The fixed mass ratio is sodium : chlorine = 23 : 35.5.",
+        "Compare the given sodium mass with the ratio value: 46 divided by 23 equals 2.",
+        "The same factor applies to chlorine: 35.5 x 2 equals 71 g.",
+        "Check the ratio: 46 : 71 simplifies to 23 : 35.5, so the proportion holds."
+      ],
+      "answer": "71 g of chlorine is needed to react completely with 46 g of sodium."
+    },
+    {
+      "id": "sc-ch09a-e3",
+      "title": "Oxygen that joins carbon in carbon monoxide",
+      "problem": "Carbon monoxide contains carbon and oxygen in the mass ratio of 3:4. How much oxygen will combine with 9 g of carbon to form carbon monoxide?",
+      "steps": [
+        "The fixed mass ratio is carbon : oxygen = 3 : 4.",
+        "Find the factor for carbon: 9 divided by 3 equals 3.",
+        "Apply the same factor to oxygen: 4 x 3 equals 12 g.",
+        "Check: 9 : 12 simplifies to 3 : 4, matching the law of constant proportions."
+      ],
+      "answer": "12 g of oxygen will combine with 9 g of carbon."
+    },
+    {
+      "id": "sc-ch09a-e4",
+      "title": "Finding the oxygen in a sulfur oxide sample",
+      "problem": "A compound consists of 40 percent sulfur and 60 percent oxygen by mass. In a 50 g sample of this compound, 20 g is sulfur. What mass of oxygen must be present to satisfy the Law of Constant Proportions?",
+      "steps": [
+        "The fixed composition is 40 parts sulfur to 60 parts oxygen in every 100 parts by mass.",
+        "The sulfur in the sample is 20 g, which is 40 percent, so the whole sample has mass 20 divided by 0.40, that is 50 g.",
+        "Oxygen must be the remaining mass: 50 minus 20 equals 30 g.",
+        "Check the ratio: 20 : 30 equals 40 : 60, the same fixed proportion."
+      ],
+      "answer": "30 g of oxygen must be present in the sample."
+    }
+  ],
+  "conceptMap": {
+    "center": "Atomic Foundations of Matter",
+    "groups": [
+      { "id": "g1", "label": "Laws and Theory" },
+      { "id": "g2", "label": "Why Atoms Combine" },
+      { "id": "g3", "label": "Covalent Bonding" },
+      { "id": "g4", "label": "Ionic Bonding" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Proust's Law", "group": "g1" },
+      { "id": "n2", "label": "Dalton's Postulates", "group": "g1" },
+      { "id": "n3", "label": "Fixed Mass Ratio", "group": "g1" },
+      { "id": "n4", "label": "Molecule", "group": "g2" },
+      { "id": "n5", "label": "Stable Octet", "group": "g2" },
+      { "id": "n6", "label": "Chemical Bond", "group": "g2" },
+      { "id": "n7", "label": "Shared Electrons", "group": "g3" },
+      { "id": "n8", "label": "Hydrogen Molecule", "group": "g3" },
+      { "id": "n9", "label": "Oxygen Molecule", "group": "g3" },
+      { "id": "n10", "label": "Double Bond", "group": "g3" },
+      { "id": "n11", "label": "Cation", "group": "g4" },
+      { "id": "n12", "label": "Anion", "group": "g4" },
+      { "id": "n13", "label": "Ionic Bond", "group": "g4" },
+      { "id": "n14", "label": "Salt Crystal", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n3", "label": "states a" },
+      { "from": "n1", "to": "n2", "label": "inspired" },
+      { "from": "n2", "to": "n3", "label": "explains it" },
+      { "from": "n2", "to": "n4", "label": "atoms form" },
+      { "from": "n4", "to": "n5", "label": "needs" },
+      { "from": "n5", "to": "n6", "label": "drives" },
+      { "from": "n6", "to": "n7", "label": "by sharing" },
+      { "from": "n6", "to": "n13", "label": "by transfer" },
+      { "from": "n7", "to": "n8", "label": "makes" },
+      { "from": "n7", "to": "n9", "label": "makes" },
+      { "from": "n9", "to": "n10", "label": "has a" },
+      { "from": "n11", "to": "n13", "label": "attracts" },
+      { "from": "n12", "to": "n13", "label": "attracts" },
+      { "from": "n13", "to": "n14", "label": "builds" },
+      { "from": "n8", "to": "n4", "label": "is a" }
+    ]
+  },
+  "flowchart": {
+    "title": "How atoms build compounds",
+    "steps": [
+      {
+        "id": "s1",
+        "label": "Meet the laws",
+        "detail": "Proust shows elements always combine in a fixed ratio by mass, like 1:8 in water."
+      },
+      {
+        "id": "s2",
+        "label": "Dalton explains",
+        "detail": "Indivisible atoms combine in simple whole-number ratios to form compounds."
+      },
+      {
+        "id": "s3",
+        "label": "Atoms want stability",
+        "detail": "Eight valence electrons, or two in the K shell, make an atom stable."
+      },
+      {
+        "id": "s4",
+        "label": "Choose a path",
+        "detail": "Atoms complete their valence shell by sharing electrons or by transferring them."
+      },
+      {
+        "id": "s5",
+        "label": "Share: covalent bond",
+        "detail": "Shared pairs hold atoms together; H2 and Cl2 have single bonds, O2 a double bond."
+      },
+      {
+        "id": "s6",
+        "label": "Transfer: ions form",
+        "detail": "Sodium loses an electron to become Na+, chlorine gains one to become Cl-."
+      },
+      {
+        "id": "s7",
+        "label": "Ionic bond forms",
+        "detail": "The electrostatic attraction between opposite charges holds the ions together."
+      },
+      {
+        "id": "s8",
+        "label": "Compounds result",
+        "detail": "Covalent molecules like water and ionic crystals like NaCl are the result."
+      }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [3, 5], [5, 6], [4, 7], [6, 7]]
+  }
+}

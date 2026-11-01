@@ -1,0 +1,562 @@
+{
+  "book": "us",
+  "chapter": 108,
+  "part": "b",
+  "title": "Managing Your Personal Finances",
+  "grade": 9,
+  "sections": [
+    { "id": "108.6", "title": "Borrowing and Credit" },
+    { "id": "108.7", "title": "Risk and Return" },
+    { "id": "108.8", "title": "Taxes" },
+    { "id": "108.9", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch108b-s1",
+      "sec": "108.6",
+      "title": "Loans and Credit Basics",
+      "kicker": "Borrowing can build you up or pull you down",
+      "bullets": [
+        "Sometimes people need to borrow money from banks, relatives, or other sources as loans.",
+        "Borrowing or using credit is helpful when it is used for productive purposes, but it becomes harmful if misused.",
+        "An education loan can help a student pursue higher education and build a better future.",
+        "Borrowing for unnecessary consumer goods may lead to a debt burden and financial difficulties."
+      ],
+      "visual": { "kind": "labels", "items": ["Loan", "Credit", "Debt", "Productive use"] },
+      "note": "Credit ek tool hai — use it to build, not to splurge!"
+    },
+    {
+      "id": "us-ch108b-s2",
+      "sec": "108.6",
+      "title": "Borrow Responsibly",
+      "kicker": "Two simple rules before you sign any loan",
+      "bullets": [
+        "Responsible borrowing means taking loans only when they are truly necessary.",
+        "Before borrowing, make sure the loan can be repaid on time.",
+        "Debt is the amount of money owed to somebody, and unplanned debt grows stressful fast."
+      ],
+      "visual": { "kind": "flow", "items": ["Need to borrow?", "Is it necessary?", "Can you repay on time?", "Borrow responsibly"] },
+      "note": "Plan pehle, loan baad mein."
+    },
+    {
+      "id": "us-ch108b-s3",
+      "sec": "108.6",
+      "title": "What Is an EMI",
+      "kicker": "That monthly 'EMI paid' line, decoded",
+      "bullets": [
+        "An EMI (equated monthly instalment) is the fixed amount of money a person pays every month to repay a loan.",
+        "Each EMI includes a portion of the original loan amount, called the principal.",
+        "It also includes the interest charged by the lender for letting you use the money."
+      ],
+      "visual": { "kind": "labels", "items": ["Equated Monthly Instalment", "Fixed monthly amount", "Principal", "Interest"] },
+      "note": "EMI = principal + interest, every single month."
+    },
+    {
+      "id": "us-ch108b-s4",
+      "sec": "108.6",
+      "title": "Fridge on EMI Example",
+      "kicker": "A ₹30,000 fridge, paid slowly",
+      "bullets": [
+        "A family wants a refrigerator costing ₹30,000 but does not want to pay the entire amount at once.",
+        "They take a loan and repay it through an EMI of ₹3,000 every month for 12 months.",
+        "EMIs are commonly used to purchase mobile phones, household appliances, two-wheelers, homes, and cars."
+      ],
+      "visual": { "kind": "steps", "items": ["Fridge price ₹30,000", "EMI ₹3,000 per month", "12 months of payments", "Total paid ₹36,000"] },
+      "note": "12 x 3000 = 36000. The extra ₹6,000 is the cost of credit."
+    },
+    {
+      "id": "us-ch108b-s5",
+      "sec": "108.6",
+      "title": "EMI Trade-offs to Weigh",
+      "kicker": "Too many EMIs can eat your savings",
+      "bullets": [
+        "Buying on EMI spreads a big cost over months, even though it may cost more in the long run.",
+        "Having too many EMIs can squeeze monthly savings and emergency funds.",
+        "So count your EMIs before adding one more, and borrow only what you can repay on time."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Sensible use of EMI", "items": ["Necessary, planned purchase", "EMI fits the monthly budget", "Repaid fully on time"] },
+        "right": { "title": "Risky use of EMI", "items": ["Unnecessary consumer goods", "Too many EMIs at once", "Savings and emergency funds shrink"] }
+      },
+      "note": "Ek EMI plan karo, paanch nahi!"
+    },
+    {
+      "id": "us-ch108b-s6",
+      "sec": "108.7",
+      "title": "Four Factors Before Investing",
+      "kicker": "Check these before money goes anywhere",
+      "bullets": [
+        "When deciding where to invest money, consider four factors: risk, return, time horizon, and liquidity.",
+        "Risk is the chance of losing money, and return is the profit earned from an investment.",
+        "Time horizon is how long money can remain invested, and liquidity is how easily an asset becomes cash."
+      ],
+      "visual": { "kind": "tree", "root": "Investment factors", "children": ["Risk", "Return", "Time horizon", "Liquidity"] },
+      "note": "Four boxes to tick before you invest."
+    },
+    {
+      "id": "us-ch108b-s7",
+      "sec": "108.7",
+      "title": "Options: Risk Ladder",
+      "kicker": "FDs climb low, shares climb high",
+      "bullets": [
+        "Fixed deposits are generally low-risk options that provide steady but relatively lower returns.",
+        "Mutual funds may offer higher returns than fixed deposits.",
+        "Shares (equity) have the potential to generate the highest returns over the long term, but they involve the highest level of risk."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Lower risk, lower return", "items": ["Fixed deposits: low risk", "Steady but relatively lower returns"] },
+        "right": { "title": "Higher risk, higher potential", "items": ["Mutual funds: may offer higher returns", "Shares: highest potential returns, highest risk"] }
+      },
+      "note": "Ladder socho: FD, then mutual funds, then shares."
+    },
+    {
+      "id": "us-ch108b-s8",
+      "sec": "108.7",
+      "title": "The Risk-Return Trade-off",
+      "kicker": "No free lunch in investing",
+      "bullets": [
+        "In general, lower-risk investments tend to offer lower returns.",
+        "Higher-risk investments may offer higher returns, but nothing is guaranteed.",
+        "The book draws this as a trade-off: low risk goes with low return, higher risk with higher potential return."
+      ],
+      "visual": { "kind": "labels", "items": ["Risk-return trade-off", "Low risk, low return", "Higher risk, higher potential", "No guarantee"] },
+      "note": "Bigger returns ka promise, bigger risk ke saath aata hai."
+    },
+    {
+      "id": "us-ch108b-s9",
+      "sec": "108.7",
+      "title": "Choose What Fits You",
+      "kicker": "Your goal picks your investment",
+      "bullets": [
+        "People should choose investments based on their financial goals.",
+        "Also consider the amount of risk you are willing to take.",
+        "And think about when you are likely to need the money."
+      ],
+      "visual": { "kind": "steps", "items": ["Set your financial goal", "Decide your risk appetite", "Check when you need the money", "Choose the matching option"] },
+      "note": "Goal, risk, timing — then invest."
+    },
+    {
+      "id": "us-ch108b-s10",
+      "sec": "108.8",
+      "title": "What Taxes Are",
+      "kicker": "Everyone chips in for the country",
+      "bullets": [
+        "Taxes are compulsory payments made by individuals and businesses to the government.",
+        "They fund public services such as schools, hospitals, transport, and defence.",
+        "Taxes also support other essential facilities that everyone in the country shares."
+      ],
+      "visual": { "kind": "labels", "items": ["Compulsory payment", "Schools", "Hospitals", "Transport", "Defence"] },
+      "note": "Compulsory hai — voluntary donation nahi!"
+    },
+    {
+      "id": "us-ch108b-s11",
+      "sec": "108.8",
+      "title": "Direct Taxes",
+      "kicker": "Straight from income to government",
+      "bullets": [
+        "Direct taxes are paid directly on a person's or organisation's income or profits.",
+        "Income tax is the book's example of a direct tax.",
+        "The person or organisation earning the income pays it straight to the government."
+      ],
+      "visual": { "kind": "flow", "items": ["Income or profit earned", "Tax paid directly", "Government funds services"] },
+      "note": "Earner pays it directly — that is the 'direct'."
+    },
+    {
+      "id": "us-ch108b-s12",
+      "sec": "108.8",
+      "title": "Indirect Taxes",
+      "kicker": "Sitting quietly inside the price tag",
+      "bullets": [
+        "Indirect taxes are added to the price of goods and services you buy.",
+        "The Goods and Services Tax (GST) is the book's example of an indirect tax.",
+        "You pay it every time you purchase taxed goods or services."
+      ],
+      "visual": { "kind": "steps", "items": ["You buy a good or service", "GST is added to its price", "Tax reaches the government"] },
+      "note": "Bill pe GST dekha? That is indirect tax."
+    },
+    {
+      "id": "us-ch108b-s13",
+      "sec": "108.8",
+      "title": "Direct vs Indirect",
+      "kicker": "Same government, two different routes",
+      "bullets": [
+        "Both tax types fund public services, but they travel different routes to reach the government.",
+        "Direct tax: paid on income or profits, like income tax.",
+        "Indirect tax: added to the price of goods and services, like GST."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Direct taxes", "items": ["Paid directly on income or profits", "Example: income tax", "Paid by the earner"] },
+        "right": { "title": "Indirect taxes", "items": ["Added to price of goods and services", "Example: GST", "Paid at the time of purchase"] }
+      },
+      "note": "Salary pe income tax, shopping pe GST."
+    },
+    {
+      "id": "us-ch108b-s14",
+      "sec": "108.9",
+      "title": "Big Questions: Money Sense",
+      "kicker": "The book makes you argue it out",
+      "bullets": [
+        "Why is managing money wisely important for all individuals, irrespective of their income?",
+        "How can budgeting help people balance present needs with future financial goals? Give examples.",
+        "Why is saving alone often not enough to build wealth, and how do investments increase the value of money over time?"
+      ],
+      "visual": { "kind": "labels", "items": ["Wisdom beats income", "Budget today", "Invest for tomorrow", "Inflation matters"] },
+      "note": "Answer in full sentences — examples ke saath."
+    },
+    {
+      "id": "us-ch108b-s15",
+      "sec": "108.9",
+      "title": "Big Questions: Choose Wisely",
+      "kicker": "Risk, insurance, and a big windfall",
+      "bullets": [
+        "Is taking higher risks always the best way to earn higher returns? How should a person decide what suits them?",
+        "Why do people buy insurance policies even though they may never face a major loss?",
+        "The book ends by asking you to imagine your family receives ₹1,00,000 — plan it with budgeting, saving, investing, and insurance."
+      ],
+      "visual": { "kind": "tree", "root": "Think it through", "children": ["Risk vs return", "Inflation", "Insurance security", "₹1,00,000 plan"] },
+      "note": "There are no trick questions — only thoughtful answers."
+    },
+    {
+      "id": "us-ch108b-s16",
+      "sec": "108.9",
+      "title": "School Reopening Budget",
+      "kicker": "₹3,000, one list, zero overspending",
+      "bullets": [
+        "Your parents have given you ₹3,000 to prepare for the new school year.",
+        "List the items you need and find their prices by visiting local stores or asking a parent or teacher, then prepare a budget.",
+        "If the total is under ₹3,000 you may add one additional item; if it exceeds ₹3,000, decide which items to postpone or avoid.",
+        "The book's template lists school bag, books, uniform and shoes, notebooks, pens, pencils, and art supplies."
+      ],
+      "visual": { "kind": "steps", "items": ["List needed items", "Find real prices", "Total the expenses", "Stay within ₹3,000"] },
+      "note": "Accurate calculation mangta hai book — no guessing!"
+    },
+    {
+      "id": "us-ch108b-s17",
+      "sec": "108.9",
+      "title": "Investment Planning Activity",
+      "kicker": "Turn ₹1,500 into a mini portfolio",
+      "bullets": [
+        "You received cash gifts worth ₹3,000 on your last birthday and decided to save ₹1,500.",
+        "With your teacher, calculate returns for combinations like ₹500 in a fixed deposit, ₹800 in the stock market, and ₹200 in gold.",
+        "Use reliable sources such as newspapers, magazines, or official websites for returns of different options.",
+        "Then prepare an investment plan explaining why each option is suitable or unsuitable."
+      ],
+      "visual": { "kind": "flow", "items": ["Save ₹1,500", "Split across options", "Check returns from reliable sources", "Write your investment plan"] },
+      "note": "Try other combinations bhi — compare karo."
+    },
+    {
+      "id": "us-ch108b-s18",
+      "sec": "108.9",
+      "title": "Plan a ₹1,00,000 Windfall",
+      "kicker": "One family, one lakh, many choices",
+      "bullets": [
+        "The book imagines a family receiving ₹1,00,000 and asks how you would manage it.",
+        "Use the chapter's toolkit: budget the needs, keep savings for emergencies, and invest by goal and risk.",
+        "Protect the family with insurance, and borrow only for productive purposes that can be repaid on time."
+      ],
+      "visual": { "kind": "steps", "items": ["Budget the essentials", "Build emergency savings", "Invest by risk and horizon", "Insure against shocks"] },
+      "note": "Sahi plan = budget + savings + smart investing."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch108b-f1",
+      "sec": "108.6",
+      "front": "When is borrowing or credit helpful, and when does it turn harmful?",
+      "back": "Helpful for productive purposes like an education loan; misused on unnecessary consumer goods, it leads to a debt burden and financial difficulties.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108b-f2",
+      "sec": "108.6",
+      "front": "What is an EMI?",
+      "back": "An equated monthly instalment: the fixed amount paid every month to repay a loan, made up of part of the principal plus interest.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f3",
+      "sec": "108.6",
+      "front": "What does the book mean by debt?",
+      "back": "Debt is the amount of money owed to somebody.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f4",
+      "sec": "108.6",
+      "front": "What two habits make borrowing responsible?",
+      "back": "Taking a loan only when necessary and making sure it can be repaid on time.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108b-f5",
+      "sec": "108.7",
+      "front": "Name the four factors to weigh before an investment decision.",
+      "back": "Risk, return, time horizon, and liquidity.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108b-f6",
+      "sec": "108.7",
+      "front": "What is liquidity in investing?",
+      "back": "Liquidity is how easily an asset can be converted into cash when needed.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f7",
+      "sec": "108.7",
+      "front": "What is a time horizon?",
+      "back": "The length of time for which money can remain invested.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f8",
+      "sec": "108.7",
+      "front": "Which has the highest long-term return potential: FDs, mutual funds, or shares?",
+      "back": "Shares (equity) have the highest potential returns over the long term, but also the highest risk; FDs are low-risk with steady, lower returns.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch108b-f9",
+      "sec": "108.8",
+      "front": "What are taxes?",
+      "back": "Compulsory payments made by individuals and businesses to the government to fund public services like schools, hospitals, transport, and defence.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f10",
+      "sec": "108.8",
+      "front": "What is a direct tax? Give the book's example.",
+      "back": "A tax paid directly on a person's or organisation's income or profits; income tax is the example.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f11",
+      "sec": "108.8",
+      "front": "What is an indirect tax? Give the book's example.",
+      "back": "A tax added to the price of goods and services; the Goods and Services Tax (GST) is the example.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch108b-f12",
+      "sec": "108.8",
+      "front": "What does GST stand for, and what type of tax is it?",
+      "back": "Goods and Services Tax; it is an indirect tax added to the price of goods and services.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch108b-f13",
+      "sec": "108.9",
+      "front": "In the school reopening activity, what are the two budget rules?",
+      "back": "If the total is under ₹3,000 you may add one additional item; if it exceeds ₹3,000, postpone or avoid some items to fit the budget.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch108b-f14",
+      "sec": "108.9",
+      "front": "What sample investment split does the book suggest for ₹1,500?",
+      "back": "₹500 in a fixed deposit, ₹800 in the stock market, and ₹200 in gold, and then compare returns of other combinations too.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch108b-f15",
+      "sec": "108.9",
+      "front": "Which reliable sources does the book suggest for checking investment returns?",
+      "back": "Newspapers, magazines, or official websites.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch108b-f16",
+      "sec": "108.9",
+      "front": "Why is saving alone often not enough to build wealth in the long run?",
+      "back": "Money that only sits idle does not grow much; investments help increase the value of money over time.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch108b-q1",
+      "sec": "108.6",
+      "q": "What does EMI stand for?",
+      "options": ["Equated Monthly Instalment", "Extra Money Invested", "Equal Monthly Interest", "Every Month's Income"],
+      "answer": 0,
+      "why": "The book defines an EMI as an equated monthly instalment, the fixed amount paid monthly to repay a loan.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q2",
+      "sec": "108.6",
+      "q": "A refrigerator costs ₹30,000 and is bought on an EMI of ₹3,000 per month for 12 months. What is the total paid?",
+      "options": ["₹30,000", "₹33,000", "₹36,000", "₹27,000"],
+      "answer": 2,
+      "why": "12 EMIs of ₹3,000 add up to ₹36,000, which is more than the cash price because interest is included.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q3",
+      "sec": "108.6",
+      "q": "Which loan does the book give as an example of productive, helpful borrowing?",
+      "options": ["A loan for unnecessary consumer goods", "An education loan for higher studies", "A loan taken with no repayment plan", "A loan that adds many EMIs at once"],
+      "answer": 1,
+      "why": "An education loan helps a student pursue higher education, while borrowing for unnecessary goods creates a debt burden.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108b-q4",
+      "sec": "108.6",
+      "q": "Each EMI a family pays contains which two parts?",
+      "options": ["Only the interest", "Only the principal", "A premium and a subsidy", "A portion of the principal plus interest"],
+      "answer": 3,
+      "why": "The book says every EMI includes part of the original loan amount (the principal) plus the interest charged by the lender.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch108b-q5",
+      "sec": "108.7",
+      "q": "Risk, in investing, refers to...",
+      "options": ["The profit earned from an investment", "The chance of losing money", "How easily an asset becomes cash", "How long money stays invested"],
+      "answer": 1,
+      "why": "The book defines risk as the chance of losing money on an investment.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q6",
+      "sec": "108.7",
+      "q": "Liquidity refers to...",
+      "options": ["The chance of losing money", "The profit from an investment", "How easily an asset can be converted into cash", "The interest rate on a loan"],
+      "answer": 2,
+      "why": "Liquidity is how easily an asset can be converted into cash when needed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q7",
+      "sec": "108.7",
+      "q": "Which investment does the book say has the potential for the highest long-term returns?",
+      "options": ["Fixed deposits", "Mutual funds", "Shares (equity)", "A piggy bank at home"],
+      "answer": 2,
+      "why": "Shares can generate the highest returns over the long term, but they also involve the highest level of risk.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108b-q8",
+      "sec": "108.7",
+      "q": "You may need the money within a few months and cannot afford losses. Using the chapter's factors, which choice fits best?",
+      "options": ["Shares, for the highest possible returns", "A fixed deposit, for steady lower returns with low risk", "The highest-risk mutual fund available", "Any option, since returns never vary"],
+      "answer": 1,
+      "why": "Lower-risk options like FDs give steady but lower returns; choice depends on goals, risk appetite, and when you need the money.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch108b-q9",
+      "sec": "108.8",
+      "q": "Taxes are best described as...",
+      "options": ["Voluntary gifts to the government", "Compulsory payments to fund public services", "Fees paid to insurance companies", "Money saved in a piggy bank"],
+      "answer": 1,
+      "why": "The book defines taxes as compulsory payments by individuals and businesses to the government to fund public services.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q10",
+      "sec": "108.8",
+      "q": "Which of these is an indirect tax?",
+      "options": ["Income tax on a salary", "GST added to a product's price", "A tax on an organisation's profits", "Both income tax and GST"],
+      "answer": 1,
+      "why": "Indirect taxes are added to the price of goods and services, like the Goods and Services Tax.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q11",
+      "sec": "108.8",
+      "q": "Income tax is an example of a...",
+      "options": ["Direct tax on income or profits", "Indirect tax on goods and services", "EMI on a loan", "Premium on a policy"],
+      "answer": 0,
+      "why": "Direct taxes are paid directly on a person's or organisation's income or profits, such as income tax.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108b-q12",
+      "sec": "108.8",
+      "q": "A shop adds a tax to a school bag's price, while a father pays a tax on his salary. Which pairing is correct?",
+      "options": ["Bag tax is direct; salary tax is indirect", "Bag tax is GST (indirect); salary tax is income tax (direct)", "Both are direct taxes", "Both are indirect taxes"],
+      "answer": 1,
+      "why": "GST is added to the price of goods, while income tax is paid directly on income or profits.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch108b-q13",
+      "sec": "108.9",
+      "q": "In the school reopening budget activity, if your total exceeds ₹3,000 you should...",
+      "options": ["Borrow money on EMI", "Ignore the budget template", "Postpone or avoid buying some items", "Remove the savings line and spend more"],
+      "answer": 2,
+      "why": "The book says to decide which items you can postpone or avoid buying to stay within the ₹3,000 budget.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q14",
+      "sec": "108.9",
+      "q": "Which reliable sources does the book suggest for finding returns of different investment options?",
+      "options": ["Rumours from friends", "Newspapers, magazines, and official websites", "Unknown forwarded messages", "Guesswork and luck"],
+      "answer": 1,
+      "why": "The investment planning activity says to use reliable sources such as newspapers, magazines, or official websites.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch108b-q15",
+      "sec": "108.9",
+      "q": "With ₹1,500 saved from birthday gifts, which combination does the book suggest trying first?",
+      "options": ["₹500 in a fixed deposit, ₹800 in the stock market, ₹200 in gold", "₹1,500 all in a piggy bank", "₹1,500 spent on a party", "₹800 in a fixed deposit, ₹500 in gold, ₹200 in cash"],
+      "answer": 0,
+      "why": "The investment planning activity suggests exactly this sample split and then asks you to try other combinations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch108b-q16",
+      "sec": "108.9",
+      "q": "Is taking higher risk always the best way to earn higher returns, according to the chapter's logic?",
+      "options": ["Yes, higher risk always guarantees higher returns", "No; choose investments based on goals, risk appetite, and when you need the money", "No; one should never invest at all", "Yes, but only for fixed deposits"],
+      "answer": 1,
+      "why": "Higher-risk investments may offer higher returns, but the choice must match financial goals, risk willingness, and time horizon.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch108b-e1",
+      "title": "Refrigerator on EMI",
+      "problem": "A family buys a refrigerator costing ₹30,000. They do not want to pay the entire amount at once, so they take a loan and repay it through an EMI of ₹3,000 every month for 12 months. Find the total amount paid and the extra cost of buying on EMI.",
+      "steps": [
+        "Each EMI carries a portion of the principal plus the interest charged by the lender.",
+        "Total paid = 12 EMIs x ₹3,000 = ₹36,000.",
+        "Extra cost = ₹36,000 - ₹30,000 = ₹6,000, which is the cost of credit."
+      ],
+      "answer": "The family pays ₹36,000 in total, which is ₹6,000 more than the ₹30,000 cash price."
+    },
+    {
+      "id": "us-ch108b-e2",
+      "title": "School Reopening Budget of ₹3,000",
+      "problem": "Your parents give you ₹3,000 for the new school year. Using the book's template items (school bag, books, uniform and shoes, notebooks, pens, pencils, art supplies) with sample prices collected from local stores, prepare a budget and check that it stays within ₹3,000.",
+      "steps": [
+        "Assign prices: bag ₹650, books ₹900, uniform and shoes ₹800, notebooks ₹250, pens ₹100, pencils ₹80, art supplies ₹120.",
+        "Total expenses = 650 + 900 + 800 + 250 + 100 + 80 + 120 = ₹2,900.",
+        "₹2,900 is within ₹3,000, so ₹100 remains.",
+        "Since the total is under ₹3,000, the book allows adding one additional item of your choice, or the ₹100 can be written as savings."
+      ],
+      "answer": "Total expenses ₹2,900, within the ₹3,000 budget, leaving ₹100 as savings or one small extra item."
+    },
+    {
+      "id": "us-ch108b-e3",
+      "title": "Investing Birthday Gift Money",
+      "problem": "You received cash gifts worth ₹3,000 on your birthday and saved ₹1,500. You invest ₹500 in a fixed deposit at 8% a year (the same rate as the savings scheme in this chapter), ₹800 in the stock market, and ₹200 in gold. Suppose after one year the stock portion grows 10% and the gold portion grows 6% (sample rates for practice; real returns vary, so check reliable sources). Find the total value after one year.",
+      "steps": [
+        "Fixed deposit: 8% of ₹500 = ₹40, so it becomes ₹540.",
+        "Stocks: 10% of ₹800 = ₹80, so it becomes ₹880.",
+        "Gold: 6% of ₹200 = ₹12, so it becomes ₹212.",
+        "Total = ₹540 + ₹880 + ₹212 = ₹1,632.",
+        "Gain = ₹1,632 - ₹1,500 = ₹132, about 8.8% in a year, while idle cash would still be ₹1,500."
+      ],
+      "answer": "The ₹1,500 grows to ₹1,632 in one year, a gain of ₹132, showing how investing can increase the value of money over time."
+    }
+  ]
+}

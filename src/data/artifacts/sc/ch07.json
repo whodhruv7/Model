@@ -1,0 +1,981 @@
+{
+  "book": "sc",
+  "chapter": 7,
+  "title": "Work, Energy, and Simple Machines",
+  "grade": 9,
+  "sections": [
+    { "id": "7.4.2", "title": "Potential energy" },
+    { "id": "7.4.3", "title": "Conservation of mechanical energy" },
+    { "id": "7.5", "title": "Power" },
+    { "id": "7.6", "title": "Simple Machines" },
+    { "id": "7.6.1", "title": "Pulley" },
+    { "id": "7.6.2", "title": "Inclined plane" },
+    { "id": "7.6.3", "title": "Lever" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch07-s1",
+      "sec": "7.4.2",
+      "title": "Slingshot Secrets",
+      "kicker": "How a gulel stores and gives energy",
+      "bullets": [
+        "Pull back a slingshot (gulel) and release it: the stretched elastic band shoots the object forward.",
+        "An archer pulls the string of a bow, bending its arms; when released, the bow springs back and the arrow flies off.",
+        "In both cases the stretched band or bent bow applies a force on the object in contact, setting it in motion and giving it kinetic energy."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Stretch the band", "Release it", "Force pushes the object", "Object gains kinetic energy"]
+      },
+      "note": "Gulel ki yaad hai? Stretch first, speed later!"
+    },
+    {
+      "id": "sc-ch07-s2",
+      "sec": "7.4.2",
+      "title": "Work Gets Stored",
+      "kicker": "Deforming an object is like charging it",
+      "bullets": [
+        "The coins, ball and arrow gain kinetic energy they did not originally possess; the energy must come from the stretched band or bent bow.",
+        "A deformed object has the capacity to do work because of its shape; the work done to cause the deformation gets stored in it.",
+        "Stretch or compress a spring and you do work on it; the spring stores this energy while it is held in the deformed state."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["You deform the spring", "Work is done on it", "Energy is stored in its shape", "Release: it does work"]
+      },
+      "note": "Stored energy sits quietly inside the shape."
+    },
+    {
+      "id": "sc-ch07-s3",
+      "sec": "7.4.2",
+      "title": "Springs Push Back",
+      "kicker": "Internal forces undo the deformation",
+      "bullets": [
+        "You need an external force to overcome the internal forces inside a spring and deform it.",
+        "Once you remove the external force, the internal forces undo the deformation, and in the process the spring can carry out work.",
+        "This is how internal forces allow energy to be stored in a deformed object."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["external force", "internal forces", "deformation", "stored energy"]
+      },
+      "note": "Andar ki taakat hi kaam karti hai!"
+    },
+    {
+      "id": "sc-ch07-s4",
+      "sec": "7.4.2",
+      "title": "Stored by Arrangement",
+      "kicker": "Magnets store energy too",
+      "bullets": [
+        "Energy can be stored not only by deforming an object but also by changing the arrangement of objects in a system.",
+        "Like poles of magnets repel each other, while unlike poles attract each other.",
+        "Separating the unlike poles of two magnets requires applying a force, and that work gets stored in the new arrangement."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Stored by shape", "items": ["stretched rubber band", "bent bow", "compressed spring"] },
+        "right": { "title": "Stored by arrangement", "items": ["two magnets pulled apart", "unlike poles separated against attraction"] }
+      },
+      "note": "Same idea, new trick: rearrange instead of deform."
+    },
+    {
+      "id": "sc-ch07-s5",
+      "sec": "7.4.3",
+      "title": "Meet Mechanical Energy",
+      "kicker": "Kinetic plus potential, one team",
+      "bullets": [
+        "The sum of the kinetic energy and the potential energy of an object is called its mechanical energy.",
+        "A moving, falling object usually carries both kinds of energy at the same time.",
+        "Let us track both energies for an object of mass m lifted to a height h and then dropped."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["kinetic energy", "potential energy", "mechanical energy", "the fixed sum"]
+      },
+      "note": "KE plus PE: motion plus position in one number."
+    },
+    {
+      "id": "sc-ch07-s6",
+      "sec": "7.4.3",
+      "title": "Top vs Mid-Fall",
+      "kicker": "mgh holds steady all the way down",
+      "bullets": [
+        "At point A, height h, dropped from rest: potential energy is mgh, kinetic energy is 0, so mechanical energy is mgh.",
+        "After falling for a time t to point B, the velocity has grown and the height has shrunk.",
+        "At B the lost potential energy exactly equals the gained kinetic energy, so the mechanical energy is still mgh."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "At the top A", "items": ["potential energy = mgh", "kinetic energy = 0", "mechanical energy = mgh"] },
+        "right": { "title": "While falling at B", "items": ["potential energy below mgh", "kinetic energy = the loss made up", "mechanical energy still mgh"] }
+      },
+      "note": "PE girti hai, KE badhti hai, total set rehta hai."
+    },
+    {
+      "id": "sc-ch07-s7",
+      "sec": "7.4.3",
+      "title": "Conservation Stated",
+      "kicker": "Lost height becomes gained speed",
+      "bullets": [
+        "As the object falls, its potential energy decreases while its kinetic energy increases.",
+        "The lost potential energy is converted into kinetic energy during the motion.",
+        "If no other external forces act, an object moving under gravity keeps its mechanical energy: conservation of mechanical energy."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Object at height: all potential", "Object falls: PE turns into KE", "No other external forces act", "Mechanical energy stays mgh"]
+      },
+      "note": "Upar se girte hue, energy ka hisaab nahi badalta."
+    },
+    {
+      "id": "sc-ch07-s8",
+      "sec": "7.4.3",
+      "title": "Pendulum Check",
+      "kicker": "The bob keeps its energy book",
+      "bullets": [
+        "Activity 7.2: set up a simple pendulum and draw a horizontal line above the position of the hanging bob.",
+        "Take the bob to point P at the level of the line and let it go.",
+        "The bob climbs to nearly the same level on the other side: potential energy at the ends, kinetic energy at the bottom."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Bob at P: potential energy", "Swings down: PE becomes KE", "Lowest point: fastest bob", "Climbs up: KE becomes PE"]
+      },
+      "note": "Jhoolta pendulum, hisaab barabar!"
+    },
+    {
+      "id": "sc-ch07-s9",
+      "sec": "7.5",
+      "title": "Same Work, Different Rush",
+      "kicker": "Stairs tell the power story",
+      "bullets": [
+        "Carry your bag up a flight of stairs to your classroom and notice how it feels.",
+        "Running up in one minute feels very different from walking up slowly in five minutes.",
+        "The same work is done in both cases; the difference between them is described by a quantity called power."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Running up", "items": ["same work done", "1 minute", "feels exhausting"] },
+        "right": { "title": "Walking up", "items": ["same work done", "5 minutes", "gentler effort"] }
+      },
+      "note": "Same kaam, alag speed: yahi power hai."
+    },
+    {
+      "id": "sc-ch07-s10",
+      "sec": "7.5",
+      "title": "Defining Power",
+      "kicker": "Work done divided by time taken",
+      "bullets": [
+        "Power is defined as the rate at which work is done.",
+        "The average power P is the work done W divided by the time taken t: P = W/t.",
+        "To do more work in the same time needs more power; to do the same work in a shorter time also needs more power."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["work W", "time t", "P = W/t", "rate of work"]
+      },
+      "note": "Kaam jaldi karo, power badhao!"
+    },
+    {
+      "id": "sc-ch07-s11",
+      "sec": "7.5",
+      "title": "Watts and Horsepower",
+      "kicker": "Units that measure your effort",
+      "bullets": [
+        "The SI unit of power is the watt (W): 1 watt is 1 joule of work done per second, so 1 W = 1 J/s.",
+        "Car engines and pumps used to lift water are often measured in horsepower (hp); 1 hp = 746 W.",
+        "The unit watt is named in honour of James Watt, known for steam engines that could produce motion and move wheels."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Watt, the SI unit", "items": ["1 W = 1 J/s", "named after James Watt"] },
+        "right": { "title": "Horsepower", "items": ["used for engines and pumps", "1 hp = 746 W"] }
+      },
+      "note": "James Watt ke naam par watt."
+    },
+    {
+      "id": "sc-ch07-s12",
+      "sec": "7.6",
+      "title": "Why Simple Machines",
+      "kicker": "Same work, kinder force",
+      "bullets": [
+        "Everyday life often asks us to do work against gravity or other forces, such as lifting or moving heavy objects.",
+        "The total work required for a task cannot be reduced, but the task can be made easier.",
+        "Devices that change the magnitude or direction of the force to be applied are called simple machines."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Simple machines",
+        "children": ["Pulley", "Inclined plane", "Lever"]
+      },
+      "note": "Kaam poora, force aasaan."
+    },
+    {
+      "id": "sc-ch07-s13",
+      "sec": "7.6",
+      "title": "Effort, Load, Advantage",
+      "kicker": "Three words to judge a machine",
+      "bullets": [
+        "The force we apply to a machine is called the effort.",
+        "The force that needs to be overcome is called the load.",
+        "Mechanical advantage is the ratio of the load to the effort; it describes how a machine changes the magnitude of the applied force."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["effort", "load", "mechanical advantage", "load divided by effort"]
+      },
+      "note": "Load bade toh machine shabaash!"
+    },
+    {
+      "id": "sc-ch07-s14",
+      "sec": "7.6",
+      "title": "What Machines Cannot Do",
+      "kicker": "They trade, they never cheat",
+      "bullets": [
+        "A simple machine can reduce the force you need or turn it in a friendlier direction.",
+        "It cannot reduce the total work required for the task.",
+        "Whatever you save in force, you pay back by pushing over a larger distance or in a new direction."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Small effort applied", "Machine changes the force", "Load is overcome", "Total work stays the same"]
+      },
+      "note": "Machine force badalti hai, kaam nahi."
+    },
+    {
+      "id": "sc-ch07-s15",
+      "sec": "7.6.1",
+      "title": "The Flagpole Pulley",
+      "kicker": "Pull down, the flag goes up",
+      "bullets": [
+        "You may have seen a flag or a load being raised while the rope is pulled downward; a pulley fixed at the top does this.",
+        "A pulley is a wheel with a groove that guides a rope.",
+        "It is easier for us to pull downward than to lift a load by applying an upward force directly."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Pull rope downward", "Pulley turns at the top", "Rope moves up", "Flag rises"]
+      },
+      "note": "Neeche kheencho, jhanda upar jaye."
+    },
+    {
+      "id": "sc-ch07-s16",
+      "sec": "7.6.1",
+      "title": "Fixed Pulley, Direction Hero",
+      "kicker": "Same force, friendlier direction",
+      "bullets": [
+        "A fixed pulley does not reduce the magnitude of the force required; it only changes its direction.",
+        "Since the effort and the load are equal in magnitude, the mechanical advantage of a fixed pulley is 1.",
+        "Its gift is convenience: you pull down comfortably while the load moves up."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Lifting directly", "items": ["upward force equal to the load", "awkward direction"] },
+        "right": { "title": "Using a fixed pulley", "items": ["pull downward", "effort equals load", "mechanical advantage 1"] }
+      },
+      "note": "Force wahi, direction nayi."
+    },
+    {
+      "id": "sc-ch07-s17",
+      "sec": "7.6.1",
+      "title": "Movable Pulley Systems",
+      "kicker": "Team up pulleys for big loads",
+      "bullets": [
+        "Movable pulleys or a system of pulleys can have a mechanical advantage greater than 1.",
+        "They can lift much heavier objects with much smaller effort; in a movable pulley system the load is attached to the movable pulley.",
+        "One end of the rope is fixed to a point while the other end is free to apply effort; elevators and cranes use pulleys widely."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Load on the movable pulley", "Rope end fixed to a support", "Effort on the free end", "Heavy load rises easily"]
+      },
+      "note": "Elevator mein bhi yahi jaadu!"
+    },
+    {
+      "id": "sc-ch07-s18",
+      "sec": "7.6.2",
+      "title": "The Too-Heavy Box",
+      "kicker": "When lifting straight up fails",
+      "bullets": [
+        "To lift a heavy box onto a platform, lifting it vertically requires an upward force equal to its weight.",
+        "What if the box is too heavy for you to lift directly?",
+        "You can place the box on a smooth inclined plank and push it up the plank to the platform instead."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Box too heavy", "Place on a smooth plank", "Push it up the slope", "Reach the platform"]
+      },
+      "note": "Seedha uthana mushkil? Raste mein dhyaan do."
+    },
+    {
+      "id": "sc-ch07-s19",
+      "sec": "7.6.2",
+      "title": "Ramp Experiment",
+      "kicker": "Spring balance on the case",
+      "bullets": [
+        "Activity 7.3: pull a cart attached to a spring balance up a plank about 1.5 m long, reaching a stool or book pile about 0.5 m high.",
+        "Lifted vertically and steadily, the balance reads the force equal to the weight of the cart.",
+        "Pulled along the plank, the reading is smaller: the ramp asks for less force."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Lift the cart vertically: reading = weight", "Pull along the plank", "Spring balance reading is smaller"]
+      },
+      "note": "Spring balance sach bolta hai."
+    },
+    {
+      "id": "sc-ch07-s20",
+      "sec": "7.6.2",
+      "title": "Gentler Slope, Longer Push",
+      "kicker": "Less force, more distance",
+      "bullets": [
+        "Reduce the angle of the plank and the force needed to pull the cart up to the same height decreases further.",
+        "The catch: you must apply the force over a larger distance to bring the cart to the same height.",
+        "The work done, the product of force and distance, is the same; a longer ramp asks for an even smaller force."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Steep ramp", "items": ["larger force", "smaller distance"] },
+        "right": { "title": "Gentle long ramp", "items": ["smaller force", "larger distance", "same work done"] }
+      },
+      "note": "Seedhi raah lambi, par aasaan!"
+    },
+    {
+      "id": "sc-ch07-s21",
+      "sec": "7.6.2",
+      "title": "Ramp Arithmetic",
+      "kicker": "Mechanical advantage = L/h",
+      "bullets": [
+        "For a load of mass m, the load to overcome is the weight mg; the effort F pushes it up the length L to a height h.",
+        "Since the work done is the same on both paths: F times L equals mg times h, so F = mgh/L.",
+        "Mechanical advantage = load/effort = mg / (mgh/L) = L/h; a longer ramp gives a bigger advantage."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Work same on both paths", "F x L = mg x h", "Effort F = mgh/L", "MA = L/h"]
+      },
+      "note": "Lamba ramp, chhota effort."
+    },
+    {
+      "id": "sc-ch07-s22",
+      "sec": "7.6.3",
+      "title": "Erasers Lift a Stapler",
+      "kicker": "A scale and pencil do the trick",
+      "bullets": [
+        "Activity 7.4: place a 30 cm scale over a pencil kept closer to one end of the scale.",
+        "Put the stapler on the end nearer the pencil and erasers on the other end.",
+        "A much heavier object like the stapler gets lifted by a much lighter eraser; the scale is working as a lever."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Scale rests on a pencil", "Stapler near the pencil", "Erasers on the far end", "Heavy stapler rises"]
+      },
+      "note": "Halki eraser, bhaari stapler!"
+    },
+    {
+      "id": "sc-ch07-s23",
+      "sec": "7.6.3",
+      "title": "Parts of a Lever",
+      "kicker": "Fulcrum, load, effort in one bar",
+      "bullets": [
+        "A lever is a rigid bar, such as your scale, that can rotate about a fixed point, such as the point of contact with the pencil.",
+        "Its three main parts: fulcrum, the fixed point of rotation; load, the force to overcome; effort, the force applied.",
+        "The distance of the load from the fulcrum is the load arm; the distance of the effort from the fulcrum is the effort arm."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["fulcrum", "load", "effort", "load arm", "effort arm"]
+      },
+      "note": "Teen hisse, ek saral machine."
+    },
+    {
+      "id": "sc-ch07-s24",
+      "sec": "7.6.3",
+      "title": "Trade Distance for Force",
+      "kicker": "One end travels, the other presses",
+      "bullets": [
+        "The end with the small effort F1 moves the larger distance d1; the other end applies a larger force F2 over a smaller distance d2.",
+        "The work done on one end of the lever is transferred to the other end: F1 d1 = F2 d2.",
+        "Thus, by increasing the effort arm, the lever applies a larger force to the load compared to the effort you put in."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Small effort, long effort arm", "Work transferred through the bar", "Large force, short load arm", "Heavy load lifted"]
+      },
+      "note": "Lamba hathiyaar, chhota effort!"
+    },
+    {
+      "id": "sc-ch07-s25",
+      "sec": "7.6.3",
+      "title": "Beam Balance Lever",
+      "kicker": "Coins, cups and a level beam",
+      "bullets": [
+        "A beam balance is an example of a lever; build one with a long scale, a string and two paper cups.",
+        "Tie the string tightly around the midpoint of the scale to act as the fulcrum, and hang the beam so it swings freely.",
+        "Fix the cups as pans at both ends, place identical coins as weights, and adjust until the beam is levelled.",
+        "A lever reduces the force needed to perform a task, but not the work itself."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["String at midpoint = fulcrum", "Cups as pans at both ends", "Add identical coins", "Adjust till the beam levels"]
+      },
+      "note": "Taraazu bhi ek lever hai!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sc-ch07-f1",
+      "sec": "7.4.2",
+      "front": "What is potential energy?",
+      "back": "Energy stored in an object because of its changed shape or changed arrangement; it is a capacity to do work.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f2",
+      "sec": "7.4.2",
+      "front": "In a slingshot, where does the ball's kinetic energy come from?",
+      "back": "From the work stored in the stretched elastic band; on release the band applies a force and gives the ball motion.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch07-f3",
+      "sec": "7.4.2",
+      "front": "Why can a released compressed spring do work?",
+      "back": "Its internal forces undo the deformation once the external force is removed, and it transfers stored energy to the object in contact.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f4",
+      "sec": "7.4.2",
+      "front": "Name two ways energy can be stored in a system.",
+      "back": "By deforming an object like a spring, and by changing the arrangement of objects, like separating the unlike poles of magnets.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f5",
+      "sec": "7.4.3",
+      "front": "What is mechanical energy?",
+      "back": "The sum of the kinetic energy and the potential energy of an object.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f6",
+      "sec": "7.4.3",
+      "front": "Mass m dropped from rest at height h: mechanical energy at the top?",
+      "back": "mgh, because the potential energy is mgh and the kinetic energy is 0 at the moment of release.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch07-f7",
+      "sec": "7.4.3",
+      "front": "What happens to PE and KE as an object falls freely?",
+      "back": "Potential energy decreases, kinetic energy increases by the same amount, and mechanical energy stays constant at mgh.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f8",
+      "sec": "7.4.3",
+      "front": "State the conservation of mechanical energy.",
+      "back": "As an object moves due to the gravitational force, its mechanical energy remains the same if no other external forces act on it.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f9",
+      "sec": "7.4.3",
+      "front": "In a pendulum swing, where is kinetic energy greatest?",
+      "back": "At the lowest point of the swing, where the bob moves fastest; at the extreme points the energy is potential.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch07-f10",
+      "sec": "7.5",
+      "front": "Define power.",
+      "back": "Power is the rate at which work is done: average power P equals the work done W divided by the time taken t.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f11",
+      "sec": "7.5",
+      "front": "What is the SI unit of power and how is it defined?",
+      "back": "The watt (W); 1 watt equals 1 joule of work done per second, so 1 W = 1 J/s.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch07-f12",
+      "sec": "7.5",
+      "front": "One horsepower equals how many watts?",
+      "back": "1 horsepower (hp) = 746 W; hp is used for car engines and pumps used to lift water.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch07-f13",
+      "sec": "7.5",
+      "front": "A weightlifter lifts 75 kg by 2 m in 5 s. What power does she need?",
+      "back": "Work = mgh = 75 x 10 x 2 = 1500 J; power = 1500/5 = 300 W.",
+      "tag": "example"
+    },
+    {
+      "id": "sc-ch07-f14",
+      "sec": "7.5",
+      "front": "After which scientist is the unit of power named?",
+      "back": "James Watt, known for steam engines that could produce motion and move wheels.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch07-f15",
+      "sec": "7.6",
+      "front": "What is a simple machine?",
+      "back": "A device that changes the magnitude or direction of the force you apply, making a task easier without reducing the total work.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f16",
+      "sec": "7.6",
+      "front": "Distinguish effort and load in a machine.",
+      "back": "Effort is the force we apply to the machine; load is the force that needs to be overcome.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f17",
+      "sec": "7.6",
+      "front": "Write the formula for mechanical advantage.",
+      "back": "Mechanical advantage = load / effort, the ratio of the load to the effort.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch07-f18",
+      "sec": "7.6.1",
+      "front": "What is a pulley?",
+      "back": "A wheel with a groove that guides a rope, used to raise loads such as a flag.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f19",
+      "sec": "7.6.1",
+      "front": "What does a fixed pulley change about your force?",
+      "back": "Only its direction, not its magnitude; the effort and load are equal, so its mechanical advantage is 1.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f20",
+      "sec": "7.6.1",
+      "front": "How is the rope arranged in a movable pulley system?",
+      "back": "The load is attached to the movable pulley; one end of the rope is fixed to a point and the other end is free to apply effort.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f21",
+      "sec": "7.6.1",
+      "front": "Where do you meet pulleys in daily life?",
+      "back": "In elevators and cranes, which use pulleys widely for the convenience they provide.",
+      "tag": "trivia"
+    },
+    {
+      "id": "sc-ch07-f22",
+      "sec": "7.6.2",
+      "front": "What is an inclined plane?",
+      "back": "A simple machine that helps move a heavy load to a higher or lower level, like a smooth plank used as a ramp.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f23",
+      "sec": "7.6.2",
+      "front": "What is the trade-off when you use a gentler ramp?",
+      "back": "The force needed becomes smaller, but you apply it over a larger distance; the work done stays the same.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch07-f24",
+      "sec": "7.6.2",
+      "front": "Mechanical advantage of an inclined plane of length L and height h?",
+      "back": "L/h. Since F x L = mg x h, the effort is mgh/L, so load/effort = L/h; a longer ramp gives a bigger advantage.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch07-f25",
+      "sec": "7.6.3",
+      "front": "What is a lever?",
+      "back": "A rigid bar that can rotate about a fixed point, used to lift heavy objects with a small force.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f26",
+      "sec": "7.6.3",
+      "front": "Name the three main parts of a lever.",
+      "back": "The fulcrum, the fixed point about which it rotates; the load, the force to be overcome; and the effort, the force applied.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f27",
+      "sec": "7.6.3",
+      "front": "Which distances are the load arm and the effort arm?",
+      "back": "Load arm: distance of the load from the fulcrum. Effort arm: distance of the effort from the fulcrum.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch07-f28",
+      "sec": "7.6.3",
+      "front": "How is work transferred between the two ends of a lever?",
+      "back": "The small effort times its larger distance equals the larger load force times its smaller distance: F1 d1 = F2 d2.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch07-f29",
+      "sec": "7.6.3",
+      "front": "Which everyday device is an example of a lever?",
+      "back": "A beam balance; its beam swings about the string tied at its midpoint, which acts as the fulcrum.",
+      "tag": "trivia"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch07-q1",
+      "sec": "7.4.2",
+      "q": "When a stretched slingshot band is released, the object it shoots gains...",
+      "options": ["kinetic energy", "potential energy", "thermal energy only", "no energy at all"],
+      "answer": 0,
+      "why": "The released band applies a force on the object, setting it in motion and giving it kinetic energy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q2",
+      "sec": "7.4.2",
+      "q": "While a spring is held in a compressed state, its energy is due to its...",
+      "options": ["colour", "speed", "configuration or shape", "temperature"],
+      "answer": 2,
+      "why": "While held deformed, the energy of the spring is due to its configuration or shape.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q3",
+      "sec": "7.4.2",
+      "q": "Separating the unlike poles of two magnets requires you to...",
+      "options": ["apply a force", "heat them up", "wait for them to separate", "push them closer together"],
+      "answer": 0,
+      "why": "Unlike poles attract, so separating them needs a force; the work done is stored in the new arrangement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q4",
+      "sec": "7.4.2",
+      "q": "You compress a spring and hold it closed. The work you did is now...",
+      "options": ["destroyed", "stored in the spring as a capacity to do work", "converted fully into kinetic energy at once", "lost as sound"],
+      "answer": 1,
+      "why": "The work done by the force that caused the deformation is stored in the deformed spring.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch07-q5",
+      "sec": "7.4.3",
+      "q": "Mechanical energy is the sum of...",
+      "options": ["potential energy and kinetic energy", "force and distance", "power and time", "weight and height"],
+      "answer": 0,
+      "why": "Mechanical energy is defined as the sum of the kinetic energy and the potential energy.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q6",
+      "sec": "7.4.3",
+      "q": "An object is dropped from rest at height h. Its kinetic energy at the top is...",
+      "options": ["mgh", "0", "2mgh", "mv"],
+      "answer": 1,
+      "why": "At release the initial velocity is zero, so the kinetic energy is 0 and all the mechanical energy is mgh.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q7",
+      "sec": "7.4.3",
+      "q": "As a freely falling object descends, its mechanical energy...",
+      "options": ["increases", "decreases", "stays constant", "first increases, then decreases"],
+      "answer": 2,
+      "why": "Lost potential energy converts into kinetic energy, so the sum stays mgh when no other external forces act.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q8",
+      "sec": "7.4.3",
+      "q": "Objects A (mass m) and B (mass 4m) have the same kinetic energy. The ratio of the magnitudes of their velocities is...",
+      "options": ["1:2", "2:1", "1:4", "4:1"],
+      "answer": 1,
+      "why": "Equal KE means m vA^2 = 4m vB^2, so vA : vB = 2 : 1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch07-q9",
+      "sec": "7.5",
+      "q": "Power is defined as...",
+      "options": ["the total work done", "the rate at which work is done", "force times distance", "energy stored in a spring"],
+      "answer": 1,
+      "why": "Power is the rate of doing work: P = W/t.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q10",
+      "sec": "7.5",
+      "q": "1 watt equals...",
+      "options": ["1 joule", "1 joule per second", "1 newton per metre", "1 joule per metre"],
+      "answer": 1,
+      "why": "1 W = 1 J/s: one joule of work done each second.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q11",
+      "sec": "7.5",
+      "q": "Doing the same work in half the time requires power that is...",
+      "options": ["half", "the same", "double", "four times"],
+      "answer": 2,
+      "why": "P = W/t; halving the time doubles the power for the same work.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q12",
+      "sec": "7.5",
+      "q": "A water pump rated 1 horsepower delivers about...",
+      "options": ["746 W", "1000 W", "100 W", "7460 W"],
+      "answer": 0,
+      "why": "One horsepower is equal to 746 W.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q13",
+      "sec": "7.5",
+      "q": "A 1000 kg car starts from rest and reaches 72 km/h in 10 s. The engine power needed is about...",
+      "options": ["2000 W", "20000 W", "200000 W", "1000 W"],
+      "answer": 1,
+      "why": "Work = KE gain = (1/2) x 1000 x 20^2 = 200000 J; power = 200000/10 = 20000 W.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q14",
+      "sec": "7.6",
+      "q": "A simple machine makes a task easier by changing the...",
+      "options": ["total work required", "magnitude or direction of the applied force", "speed of the load", "mass of the load"],
+      "answer": 1,
+      "why": "The total work cannot be reduced; machines change the magnitude or direction of the force applied.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q15",
+      "sec": "7.6",
+      "q": "The force you apply to a machine is called the...",
+      "options": ["load", "effort", "fulcrum", "power"],
+      "answer": 1,
+      "why": "Effort is the force we apply; the load is the force that needs to be overcome.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q16",
+      "sec": "7.6",
+      "q": "A machine overcomes a load of 60 N with an effort of 20 N. Its mechanical advantage is...",
+      "options": ["1/3", "3", "40", "80"],
+      "answer": 1,
+      "why": "Mechanical advantage = load/effort = 60/20 = 3.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q17",
+      "sec": "7.6.1",
+      "q": "A fixed pulley mainly helps by...",
+      "options": ["reducing the force needed", "changing the direction of the force", "increasing the work done", "reducing the load"],
+      "answer": 1,
+      "why": "A fixed pulley does not reduce the magnitude of the force; it only changes its direction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q18",
+      "sec": "7.6.1",
+      "q": "The mechanical advantage of a single fixed pulley is...",
+      "options": ["0", "1", "2", "more than 2"],
+      "answer": 1,
+      "why": "The effort and the load are equal in magnitude for a fixed pulley.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q19",
+      "sec": "7.6.1",
+      "q": "In a movable pulley system, the load is attached to...",
+      "options": ["the fixed rope end", "the movable pulley", "the free effort end", "the ceiling directly"],
+      "answer": 1,
+      "why": "In a movable pulley system the load hangs on the movable pulley; one rope end is fixed to a point.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q20",
+      "sec": "7.6.1",
+      "q": "You pull a rope over a single fixed pulley with 50 N to raise a flag. Ignoring friction, the rope pulls the flag upward with...",
+      "options": ["25 N", "50 N", "100 N", "0 N"],
+      "answer": 1,
+      "why": "Effort and load are equal in magnitude for a fixed pulley, so the upward force is 50 N.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q21",
+      "sec": "7.6.2",
+      "q": "An inclined plane is a simple machine that helps move a heavy load to a...",
+      "options": ["higher or lower level", "horizontal track only", "smaller weight", "shorter distance only"],
+      "answer": 0,
+      "why": "An inclined plane helps move a heavy load to a higher or lower level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q22",
+      "sec": "7.6.2",
+      "q": "Pulling a cart up a less steep plank requires...",
+      "options": ["more force over a shorter distance", "less force over a larger distance", "more work done overall", "no force at all"],
+      "answer": 1,
+      "why": "A gentler plank needs a smaller force, but applied over a larger distance; the work done is the same.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q23",
+      "sec": "7.6.2",
+      "q": "A ramp is 5 m long and rises to a height of 1 m. Its mechanical advantage is...",
+      "options": ["1", "4", "5", "1/5"],
+      "answer": 2,
+      "why": "Mechanical advantage = L/h = 5/1 = 5.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch07-q24",
+      "sec": "7.6.3",
+      "q": "The fixed point about which a lever rotates is called the...",
+      "options": ["load", "effort", "fulcrum", "pan"],
+      "answer": 2,
+      "why": "The fulcrum is the fixed point about which the lever rotates.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q25",
+      "sec": "7.6.3",
+      "q": "A beam balance is an example of a...",
+      "options": ["pulley", "lever", "inclined plane", "spring balance"],
+      "answer": 1,
+      "why": "A beam balance is a lever: its beam rotates about the string tied at its midpoint.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch07-q26",
+      "sec": "7.6.3",
+      "q": "Increasing the effort arm of a lever makes the force applied on the load...",
+      "options": ["smaller", "larger", "zero", "unchanged"],
+      "answer": 1,
+      "why": "F1 d1 = F2 d2; by increasing the effort arm, the lever applies a larger force to the load.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch07-q27",
+      "sec": "7.6.3",
+      "q": "An effort of 20 N acts 30 cm from the fulcrum and lifts a load 10 cm from it. The load force is...",
+      "options": ["6.7 N", "20 N", "60 N", "200 N"],
+      "answer": 2,
+      "why": "F1 d1 = F2 d2: 20 x 30 = F2 x 10, so F2 = 60 N.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch07-e1",
+      "title": "Jet Lands on an Aircraft Carrier",
+      "problem": "A jet aircraft of mass 15000 kg lands on the deck of an aircraft carrier. A hook on its tail is caught by a wire stretched across the deck; the wire exerts an approximately constant backward force of 367500 N and stops the jet within 100 m. What was the velocity of the aircraft just before the wire caught the hook?",
+      "steps": [
+        "The change in kinetic energy equals the work done by the wire: initial KE = (1/2) x 15000 x v^2, and the final KE = 0 J.",
+        "The displacement of the aircraft and the force of the wire are in opposite directions, so the work done by the wire is negative.",
+        "Work done by the wire = F x s = 367500 N x (-100 m) = -36750000 J, which must equal 0 - (1/2) x 15000 x v^2.",
+        "So (1/2) x 15000 x v^2 = 367500 x 100 = 36750000, giving v^2 = 4900 m^2/s^2, and v = 70 m/s.",
+        "Convert: 70 m/s x 3600 s / 1000 m = 252 km/h."
+      ],
+      "answer": "70 m/s, that is 252 km/h, directed towards the aircraft carrier."
+    },
+    {
+      "id": "sc-ch07-e2",
+      "title": "Weightlifter's Power",
+      "problem": "A weightlifter lifts a 75 kg mass by 2 m in 5 seconds. How much power does she require for this task?",
+      "steps": [
+        "The work done equals mgh = 75 kg x 10 m/s^2 x 2 m.",
+        "Multiply: 75 x 10 x 2 = 1500 J.",
+        "Power = work done / time taken = 1500 J / 5 s."
+      ],
+      "answer": "300 W of power."
+    },
+    {
+      "id": "sc-ch07-e3",
+      "title": "Engine Powers a Car",
+      "problem": "A car of mass 1000 kg starts from rest and reaches a speed of 72 km/h in 10 seconds. Calculate the power of the engine required to achieve this start.",
+      "steps": [
+        "Convert the final velocity: 72 km/h = 72000 m per 3600 s = 20 m/s; the initial velocity u = 0 m/s.",
+        "Work done by the engine in 10 s = final kinetic energy minus initial kinetic energy = (1/2) x 1000 kg x (20 m/s)^2 - 0 J = 200000 J.",
+        "Power = work done / time = 200000 J / 10 s."
+      ],
+      "answer": "20000 W of engine power."
+    },
+    {
+      "id": "sc-ch07-e4",
+      "title": "Ramp Rescue",
+      "problem": "A box of weight 600 N must be raised onto a platform 1 m high. Instead of lifting it straight up, you push it up a smooth plank 5 m long, as in Activity 7.3. Find the effort needed and the mechanical advantage of the ramp.",
+      "steps": [
+        "The load is the weight 600 N; the ramp has length L = 5 m and height h = 1 m.",
+        "The work done is the same on both paths: effort x L = load x h, so effort = (600 x 1) / 5 = 120 N.",
+        "Mechanical advantage = load / effort = 600 / 120 = 5, which equals L/h = 5/1.",
+        "Check the work: 120 N x 5 m = 600 J, the same as lifting 600 N through 1 m."
+      ],
+      "answer": "Effort = 120 N and mechanical advantage = 5; the ramp trades distance for force while the work stays 600 J."
+    }
+  ],
+  "conceptMap": {
+    "center": "Work, Energy and Simple Machines",
+    "groups": [
+      { "id": "g1", "label": "Stored energy" },
+      { "id": "g2", "label": "Energy conversions" },
+      { "id": "g3", "label": "Power" },
+      { "id": "g4", "label": "Simple machines" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Potential energy", "group": "g1" },
+      { "id": "n2", "label": "Deformed spring", "group": "g1" },
+      { "id": "n3", "label": "Magnet arrangement", "group": "g1" },
+      { "id": "n4", "label": "Mechanical energy", "group": "g2" },
+      { "id": "n5", "label": "KE and PE exchange", "group": "g2" },
+      { "id": "n6", "label": "Pendulum swing", "group": "g2" },
+      { "id": "n7", "label": "Work F x s", "group": "g2" },
+      { "id": "n8", "label": "Power W/t", "group": "g3" },
+      { "id": "n9", "label": "Watt", "group": "g3" },
+      { "id": "n10", "label": "Horsepower 746 W", "group": "g3" },
+      { "id": "n11", "label": "Mechanical advantage", "group": "g4" },
+      { "id": "n12", "label": "Fixed pulley", "group": "g4" },
+      { "id": "n13", "label": "Inclined plane L/h", "group": "g4" },
+      { "id": "n14", "label": "Lever arms", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n2", "to": "n1", "label": "stores" },
+      { "from": "n3", "to": "n1", "label": "stores" },
+      { "from": "n1", "to": "n4", "label": "plus KE" },
+      { "from": "n5", "to": "n4", "label": "sum constant" },
+      { "from": "n6", "to": "n5", "label": "shows it live" },
+      { "from": "n7", "to": "n4", "label": "changes it" },
+      { "from": "n7", "to": "n8", "label": "over time" },
+      { "from": "n8", "to": "n9", "label": "SI unit" },
+      { "from": "n10", "to": "n8", "label": "equals 746 W" },
+      { "from": "n12", "to": "n11", "label": "MA is 1" },
+      { "from": "n13", "to": "n11", "label": "gives L/h" },
+      { "from": "n14", "to": "n11", "label": "arms decide" },
+      { "from": "n13", "to": "n7", "label": "same work, longer path" },
+      { "from": "n6", "to": "n1", "label": "top holds PE" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Store by shape", "detail": "Stretching a band, bending a bow or compressing a spring stores the work you did on it." },
+      { "id": "s2", "label": "Store by arrangement", "detail": "Separating the unlike poles of magnets also stores energy by changing the arrangement of a system." },
+      { "id": "s3", "label": "Release and move", "detail": "The deformed object returns to its original shape and hands its stored energy to the object in contact as kinetic energy." },
+      { "id": "s4", "label": "Conserve mechanical energy", "detail": "In free fall, lost potential energy becomes kinetic energy, so KE plus PE stays mgh." },
+      { "id": "s5", "label": "Watch the pendulum", "detail": "The bob trades potential and kinetic energy every swing and returns to nearly the same height." },
+      { "id": "s6", "label": "Rate it with power", "detail": "Power equals work divided by time, measured in watts; 1 horsepower is 746 W." },
+      { "id": "s7", "label": "Change force or direction", "detail": "Simple machines ease a task by changing the force, without reducing the total work." },
+      { "id": "s8", "label": "Pull with pulleys", "detail": "A fixed pulley reverses your pull with mechanical advantage 1; pulley systems can do better than 1." },
+      { "id": "s9", "label": "Push up ramps", "detail": "An inclined plane lowers the force by stretching the push over a longer distance; MA = L/h." },
+      { "id": "s10", "label": "Press on levers", "detail": "A long effort arm turns a small push into a large load force, with F1 d1 = F2 d2." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9]]
+  }
+}

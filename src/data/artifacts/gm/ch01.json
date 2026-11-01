@@ -1,0 +1,111 @@
+{
+  "book": "gm",
+  "chapter": 1,
+  "title": "Orienting Yourself: The Use of Coordinates",
+  "grade": 9,
+  "sections": [
+    { "id": "1.1", "title": "Introduction" },
+    { "id": "1.2", "title": "Settling In" },
+    { "id": "1.3", "title": "The 2-d Cartesian Coordinate System" },
+    { "id": "1.4", "title": "Distance Between Two Points in the 2-D Plane" }
+  ],
+  "slides": [
+    { "id": "gm-ch01-s1", "sec": "1.1", "title": "Streets were coordinates", "kicker": "A whole city built on a grid — 5000 years ago", "bullets": ["A coordinate system is a structured framework, like grid lines on a map, that uses numbers to describe exact locations.", "In the Sindhu-Sarasvati Civilisation, city streets ran precisely North-South and East-West, at uniform distances of about 10 metres.", "A merchant could find any shop by counting East-West and North-South units from the city centre — coordinates in daily practice."], "visual": { "kind": "flow", "items": ["City centre", "Count E-W units", "Count N-S units", "Shop found"] }, "note": "Grid soch humare yahan bahut purani hai!" },
+    { "id": "gm-ch01-s2", "sec": "1.1", "title": "Baudhayana laid the base", "kicker": "The theorem behind coordinate geometry", "bullets": ["Baudhayana (c. 800 BCE) used East-West and North-South lines for his deep geometric constructions.", "He developed the Baudhayana-Pythagoras Theorem, laying the foundation of coordinate geometry.", "Putting coordinates on the Earth later became vital for navigation across oceans."], "visual": { "kind": "tree", "root": "Baudhayana's grid lines", "children": ["E-W lines", "N-S lines", "Baudhayana-Pythagoras Theorem"] } },
+    { "id": "gm-ch01-s3", "sec": "1.1", "title": "Zero makes quadrants possible", "kicker": "Why Brahmagupta matters to this chapter", "bullets": ["Ujjayini was the central longitude meridian from which locations were measured, named 'Arin' in Arabic geography.", "Aryabhata (c. 499 CE) replaced Greek 'chords' with 'sines', making star and city coordinates far easier to calculate.", "Brahmagupta (c. 628 CE) formalised zero and negative numbers — the 'origin' is zero and negative axes hold values less than zero."], "visual": { "kind": "steps", "items": ["Ujjayini meridian: zero longitude", "Aryabhata: sines over chords", "Brahmagupta: zero and negatives", "Four-quadrant plane becomes possible"] }, "note": "Origin = zero. Thanks, Brahmagupta." },
+    { "id": "gm-ch01-s4", "sec": "1.2", "title": "Reiaan's felt map", "kicker": "A blind student 'sees' a room through a grid", "bullets": ["Reiaan moved to a new city; his sister Shalini used coordinate geometry from Grade 9 to help him settle in.", "She fixed pins and threads on a rectangular grid to show the floor of the room, using a scale of 1 cm : 1 foot.", "Corners of objects were connected with thick wool so Reiaan could feel their positions with his fingers."], "visual": { "kind": "labels", "items": ["pins", "threads", "1 cm : 1 foot", "floor map", "wool edges"] }, "note": "Math that you can touch." },
+    { "id": "gm-ch01-s5", "sec": "1.2", "title": "Why windows are missing", "kicker": "A map of the floor cannot hold height", "bullets": ["Shalini's sketch only shows the map of the floor — a 2-D picture of a 3-D room.", "The position of windows cannot be marked on this map because windows sit at a height above the floor.", "A floor map records two directions; height would need a third coordinate."], "visual": { "kind": "compare", "left": { "title": "Floor map shows", "items": ["corners of objects", "door positions", "walking space"] }, "right": { "title": "Floor map cannot show", "items": ["window height", "ceiling fan", "shelf levels"] } } },
+    { "id": "gm-ch01-s6", "sec": "1.2", "title": "Scale: the quiet hero", "kicker": "1 cm on paper = 1 foot in the room", "bullets": ["Every map needs a scale — here 1 cm on the grid stands for 1 foot in the actual room.", "With a fixed scale, counting grid units gives real distances a blind learner can trust.", "Changing the scale changes every measured distance, so it must stay fixed."], "visual": { "kind": "steps", "items": ["Pick a scale: 1 cm = 1 foot", "Mark points with pins", "Count grid units", "Convert to real feet"] } },
+    { "id": "gm-ch01-s7", "sec": "1.3", "title": "One line is not enough", "kicker": "From number line to 2-D space", "bullets": ["In earlier grades you used the number line, which is one-dimensional — one number fixes a point.", "A 2-D coordinate system uses two lines at right angles to mark points in 2-D space.", "The horizontal line is the x-axis; the vertical line is the y-axis; together they are the coordinate axes."], "visual": { "kind": "compare", "left": { "title": "Number line (1-D)", "items": ["one axis", "one number per point", "left-right only"] }, "right": { "title": "Cartesian plane (2-D)", "items": ["two axes at right angles", "a pair (x, y) per point", "all flat positions"] } } },
+    { "id": "gm-ch01-s8", "sec": "1.3", "title": "The origin O", "kicker": "Where counting begins", "bullets": ["The point where the x-axis and y-axis intersect is the origin O, with coordinates (0, 0).", "Distances from O are marked in equal units on both axes.", "Right of O and upwards from O are positive; left of O and downwards are negative."], "visual": { "kind": "labels", "items": ["O = (0, 0)", "right = +x", "up = +y", "left = -x", "down = -y"] }, "note": "O hai center of everything." },
+    { "id": "gm-ch01-s9", "sec": "1.3", "title": "Reading a point (x, y)", "kicker": "First x, then y — always in order", "bullets": ["A point's coordinates are written as an ordered pair (x, y): x tells the horizontal move, y the vertical move.", "Point H = (0, 4) sits on the y-axis: no horizontal shift, 4 units up.", "Point E = (-2.9, 0) sits on the x-axis: 2.9 units left, no vertical shift."], "visual": { "kind": "flow", "items": ["Start at O", "Move x along x-axis", "Move y parallel to y-axis", "Mark the point"] } },
+    { "id": "gm-ch01-s10", "sec": "1.4", "title": "Distance when it's slanted", "kicker": "Axis-parallel was easy — now the diagonal", "bullets": ["If a segment is parallel to an axis, the distance is a simple subtraction of coordinates.", "For slanted segments we use the Baudhayana-Pythagoras theorem, studied in Grade 8.", "The horizontal and vertical gaps become the two perpendicular sides of a right triangle."], "visual": { "kind": "tree", "root": "Distance between two points", "children": ["Parallel to axis: subtract", "Slanted: Baudhayana-Pythagoras"] } },
+    { "id": "gm-ch01-s11", "sec": "1.4", "title": "The distance formula", "kicker": "Pythagoras, wearing coordinates", "bullets": ["For points A(x1, y1) and B(x2, y2), the horizontal gap is x2 - x1 and the vertical gap is y2 - y1.", "The distance AB = sqrt((x2 - x1)^2 + (y2 - y1)^2) — the hypotenuse of the right triangle.", "Squaring removes sign worries: left or right, the gap length is positive."], "visual": { "kind": "steps", "items": ["Find x2 - x1", "Find y2 - y1", "Square both and add", "Take the square root"] }, "note": "Formula = theorem in coordinate clothes." },
+    { "id": "gm-ch01-s12", "sec": "1.4", "title": "Check with a right angle", "kicker": "A quick sanity test before you compute", "bullets": ["If two points share an x-coordinate or a y-coordinate, the segment is axis-parallel — subtract directly.", "If both coordinates differ, draw the right triangle first, then apply the formula.", "The formula never gives a negative distance; if you get one, recheck the squaring."], "visual": { "kind": "flow", "items": ["Same x or same y?", "Yes: subtract", "No: build right triangle", "Apply distance formula"] } }
+  ],
+  "flashcards": [
+    { "id": "gm-ch01-f1", "sec": "1.1", "front": "What is a coordinate system?", "back": "A structured framework, like grid lines on a map, that uses numbers to describe the exact location of points or objects.", "tag": "definition" },
+    { "id": "gm-ch01-f2", "sec": "1.1", "front": "Which ancient civilisation built streets on a precise grid about 10 m apart?", "back": "The Sindhu-Sarasvati Civilisation — streets ran exactly North-South and East-West at uniform distances of about 10 metres.", "tag": "example" },
+    { "id": "gm-ch01-f3", "sec": "1.1", "front": "Which theorem did Baudhayana develop that coordinate geometry stands on?", "back": "The Baudhayana-Pythagoras Theorem, from his constructions with East-West and North-South lines.", "tag": "concept" },
+    { "id": "gm-ch01-f4", "sec": "1.1", "front": "Which city was the zero-longitude meridian in early Siddhantas?", "back": "Ujjayini — it entered Arabic geography as 'Arin', the reference meridian for early maps.", "tag": "trivia" },
+    { "id": "gm-ch01-f5", "sec": "1.1", "front": "What did Aryabhata replace 'chords' with, and why?", "back": "He replaced chords with sines (c. 499 CE), making it much easier to calculate coordinates of stars and cities.", "tag": "concept" },
+    { "id": "gm-ch01-f6", "sec": "1.1", "front": "Why is Brahmagupta's work essential for the four-quadrant plane?", "back": "He formalised zero and negative numbers — the origin is zero and negative axes represent values below zero.", "tag": "concept" },
+    { "id": "gm-ch01-f7", "sec": "1.2", "front": "In Shalini's grid model, what scale did she use?", "back": "1 cm on the grid stood for 1 foot in the actual room (1 cm : 1 foot).", "tag": "example" },
+    { "id": "gm-ch01-f8", "sec": "1.2", "front": "Why can't windows be marked on Reiaan's floor map?", "back": "The map shows only the floor in 2-D; windows sit at a height above the floor, which needs a third coordinate.", "tag": "concept" },
+    { "id": "gm-ch01-f9", "sec": "1.2", "front": "How did Reiaan 'feel' object positions on the grid?", "back": "Corners of objects were connected with thick wool between pins, so he could trace their positions with his fingers.", "tag": "example" },
+    { "id": "gm-ch01-f10", "sec": "1.3", "front": "Define the x-axis and y-axis.", "back": "The horizontal line through O is the x-axis; the vertical line is the y-axis; they meet at right angles.", "tag": "definition" },
+    { "id": "gm-ch01-f11", "sec": "1.3", "front": "What are the coordinates of the origin?", "back": "The origin O is the intersection of the axes and has coordinates (0, 0).", "tag": "definition" },
+    { "id": "gm-ch01-f12", "sec": "1.3", "front": "Which directions from O are positive?", "back": "Right of O along the x-axis and upwards along the y-axis are positive; left and downwards are negative.", "tag": "concept" },
+    { "id": "gm-ch01-f13", "sec": "1.3", "front": "Where does H = (0, 4) lie?", "back": "On the y-axis, 4 units above O — x is 0, so there is no horizontal shift.", "tag": "example" },
+    { "id": "gm-ch01-f14", "sec": "1.4", "front": "How do you find distance between points on a line parallel to the x-axis?", "back": "Subtract their x-coordinates (same y), and take the absolute value of the difference.", "tag": "formula" },
+    { "id": "gm-ch01-f15", "sec": "1.4", "front": "State the distance formula for A(x1, y1) and B(x2, y2).", "back": "AB = sqrt((x2 - x1)^2 + (y2 - y1)^2), from the Baudhayana-Pythagoras theorem.", "tag": "formula" },
+    { "id": "gm-ch01-f16", "sec": "1.4", "front": "Why can the distance formula never output a negative number?", "back": "Both gaps are squared before adding, so the sum is non-negative and its square root is non-negative.", "tag": "concept" }
+  ],
+  "quiz": [
+    { "id": "gm-ch01-q1", "sec": "1.1", "q": "In the Sindhu-Sarasvati cities, how far apart were the parallel streets?", "options": ["About 10 metres", "About 10 kilometres", "Exactly 1 metre", "About 100 feet"], "answer": 0, "why": "Streets ran N-S and E-W at uniform distances of about 10 metres.", "difficulty": "easy" },
+    { "id": "gm-ch01-q2", "sec": "1.1", "q": "Who developed the Baudhayana-Pythagoras Theorem?", "options": ["Brahmagupta", "Aryabhata", "Baudhayana", "Ptolemy"], "answer": 2, "why": "Baudhayana (c. 800 BCE) used grid lines for deep geometric constructions and developed the theorem.", "difficulty": "easy" },
+    { "id": "gm-ch01-q3", "sec": "1.1", "q": "Why was Brahmagupta's formalisation of zero and negatives crucial for the Cartesian plane?", "options": ["It gave names to the axes", "The origin is zero and negative axes need negative numbers", "It invented graph paper", "It proved lines are parallel"], "answer": 1, "why": "Without zero and negatives as algebraic entities, the four-quadrant plane is impossible.", "difficulty": "medium" },
+    { "id": "gm-ch01-q4", "sec": "1.2", "q": "Shalini's scale is 1 cm : 1 foot. A table is 5 cm across on the grid. How wide is it really?", "options": ["5 feet", "10 feet", "5 metres", "1 foot"], "answer": 0, "why": "Each cm stands for one foot, so 5 cm means 5 feet.", "difficulty": "easy" },
+    { "id": "gm-ch01-q5", "sec": "1.2", "q": "Why can't the window's position appear on the floor map?", "options": ["Windows are invisible", "The map is 2-D and windows sit at a height", "Pins cannot mark glass", "Threads block windows"], "answer": 1, "why": "A floor map records two directions; height would need a third coordinate.", "difficulty": "medium" },
+    { "id": "gm-ch01-q6", "sec": "1.2", "q": "What did the thick wool between pins represent?", "options": ["Walls and object edges", "Electric wires", "Roads outside", "Water pipes"], "answer": 0, "why": "Points marking corners of objects were connected with thick wool so their edges could be felt.", "difficulty": "easy" },
+    { "id": "gm-ch01-q7", "sec": "1.3", "q": "The point where the x-axis and y-axis meet is called the", "options": ["vertex", "origin", "quadrant", "meridian"], "answer": 1, "why": "The intersection point of the axes is the origin O with coordinates (0, 0).", "difficulty": "easy" },
+    { "id": "gm-ch01-q8", "sec": "1.3", "q": "A point has coordinates (-3, 2). Where does it sit relative to O?", "options": ["3 right, 2 up", "3 left, 2 up", "3 left, 2 down", "3 right, 2 down"], "answer": 1, "why": "Negative x means left of O; positive y means upwards.", "difficulty": "medium" },
+    { "id": "gm-ch01-q9", "sec": "1.3", "q": "Which point lies ON the x-axis?", "options": ["(0, 4)", "(-2.9, 0)", "(2, 3)", "(0, 0) only"], "answer": 1, "why": "E = (-2.9, 0) has y = 0, so it sits on the x-axis; (0,0) is the origin itself.", "difficulty": "medium" },
+    { "id": "gm-ch01-q10", "sec": "1.4", "q": "Find the distance between A(1, 2) and B(4, 6).", "options": ["5", "7", "sqrt(7)", "25"], "answer": 0, "why": "sqrt((4-1)^2 + (6-2)^2) = sqrt(9+16) = sqrt(25) = 5.", "difficulty": "medium" },
+    { "id": "gm-ch01-q11", "sec": "1.4", "q": "Which theorem powers the distance formula?", "options": ["Baudhayana-Pythagoras theorem", "Aryabhata's sine rule", "Brahmagupta's identity", "Ptolemy's theorem"], "answer": 0, "why": "The horizontal and vertical gaps form a right triangle; the formula is Pythagoras in coordinates.", "difficulty": "easy" },
+    { "id": "gm-ch01-q12", "sec": "1.4", "q": "The distance between P(2, 5) and Q(2, -1) is", "options": ["6", "4", "sqrt(40)", "0"], "answer": 0, "why": "Same x-coordinate, so subtract y: |5 - (-1)| = 6.", "difficulty": "hard" }
+  ],
+  "examples": [
+    { "id": "gm-ch01-e1", "title": "Locating the study table", "problem": "On Shalini's room grid (1 cm : 1 foot), the table's corner pin is at (4, 3) from the door pin at O. How far east and how far north is the table corner?", "steps": ["Read the ordered pair (4, 3): x = 4, y = 3.", "x = 4 means 4 grid units east — at 1 cm : 1 foot, that is 4 feet east.", "y = 3 means 3 grid units north — 3 feet north."], "answer": "4 feet east and 3 feet north of the door." },
+    { "id": "gm-ch01-e2", "title": "Distance across the room", "problem": "Two pins are at A(1, 2) and B(4, 6) on the grid. Find the straight-line distance between them.", "steps": ["Horizontal gap: x2 - x1 = 4 - 1 = 3.", "Vertical gap: y2 - y1 = 6 - 2 = 4.", "By the Baudhayana-Pythagoras theorem: AB = sqrt(3^2 + 4^2) = sqrt(25)."], "answer": "AB = 5 units (5 feet on the room's scale)." }
+  ],
+  "conceptMap": {
+    "center": "Coordinates",
+    "groups": [
+      { "id": "g1", "label": "Heritage" },
+      { "id": "g2", "label": "The plane" },
+      { "id": "g3", "label": "Measuring" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Sindhu-Sarasvati grid", "group": "g1" },
+      { "id": "n2", "label": "Baudhayana theorem", "group": "g1" },
+      { "id": "n3", "label": "Ujjayini meridian", "group": "g1" },
+      { "id": "n4", "label": "Aryabhata's sines", "group": "g1" },
+      { "id": "n5", "label": "Brahmagupta's zero", "group": "g1" },
+      { "id": "n6", "label": "x-axis and y-axis", "group": "g2" },
+      { "id": "n7", "label": "Origin (0, 0)", "group": "g2" },
+      { "id": "n8", "label": "Ordered pair (x, y)", "group": "g2" },
+      { "id": "n9", "label": "Positive and negative directions", "group": "g2" },
+      { "id": "n10", "label": "Axis-parallel distance", "group": "g3" },
+      { "id": "n11", "label": "Distance formula", "group": "g3" },
+      { "id": "n12", "label": "Right triangle model", "group": "g3" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "led to" },
+      { "from": "n2", "to": "n12", "label": "powers" },
+      { "from": "n3", "to": "n5", "label": "zero longitude, zero number" },
+      { "from": "n4", "to": "n3", "label": "easier star coordinates" },
+      { "from": "n5", "to": "n7", "label": "origin is zero" },
+      { "from": "n5", "to": "n9", "label": "negatives" },
+      { "from": "n6", "to": "n7", "label": "meet at" },
+      { "from": "n7", "to": "n8", "label": "counting starts here" },
+      { "from": "n8", "to": "n9", "label": "signs from direction" },
+      { "from": "n10", "to": "n11", "label": "special case of" },
+      { "from": "n12", "to": "n11", "label": "gives" },
+      { "from": "n6", "to": "n10", "label": "same axis" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Feel the need", "detail": "Reiaan must navigate a new room — locations need a system." },
+      { "id": "s2", "label": "Grid thinking", "detail": "Streets and pins show positions by counting along two directions." },
+      { "id": "s3", "label": "Two axes", "detail": "Set the x-axis and y-axis at right angles, meeting at the origin." },
+      { "id": "s4", "label": "Name a point", "detail": "Every point becomes an ordered pair (x, y) with signs fixed by direction." },
+      { "id": "s5", "label": "Measure gaps", "detail": "Axis-parallel gaps come from subtraction of coordinates." },
+      { "id": "s6", "label": "Slant it", "detail": "For slanted segments, build the right triangle on the two gaps." },
+      { "id": "s7", "label": "Apply the formula", "detail": "Distance = sqrt((x2-x1)^2 + (y2-y1)^2) via Baudhayana-Pythagoras." }
+    ],
+    "edges": [ [0,1], [1,2], [2,3], [3,4], [4,5], [5,6] ]
+  }
+}

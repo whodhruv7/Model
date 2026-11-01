@@ -1,0 +1,515 @@
+{
+  "book": "sc",
+  "chapter": 5,
+  "title": "Exploring Mixtures and their Separation",
+  "grade": 9,
+  "sections": [
+    { "id": "5.3.1", "title": "Crystallization" },
+    { "id": "5.3.2", "title": "Distillation" },
+    { "id": "5.4.1", "title": "Separation of two immiscible liquids" },
+    { "id": "5.4.2", "title": "Sublimation" },
+    { "id": "5.4.3", "title": "Suspensions" },
+    { "id": "5.4.4", "title": "Colloids" },
+    { "id": "5.5", "title": "Tyndall Effect" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch05-s1",
+      "sec": "5.3.1",
+      "title": "Crystals all around us",
+      "kicker": "Snowflakes, mishri and frost are all crystals!",
+      "bullets": [
+        "A crystal is a solid whose particles are arranged in a regular geometric pattern.",
+        "Rock salt and mishri sugar crystals grow in everyday life; snowflakes form when water vapour freezes in the air.",
+        "Frost on windows appears when water vapour turns into ice crystals."
+      ],
+      "visual": { "kind": "labels", "items": ["Rock salt", "Mishri sugar", "Snowflakes", "Frost on windows"] },
+      "note": "Mishri ke crystals are chemistry you can eat!"
+    },
+    {
+      "id": "sc-ch05-s2",
+      "sec": "5.3.1",
+      "title": "Cooling drops the solubility",
+      "kicker": "A solubility curve predicts the crystal harvest.",
+      "bullets": [
+        "A saturated solution of compound B at 60 °C holds 287 g of B in every 100 g of water.",
+        "Read the solubility curve: at 40 °C only 241 g of B can stay dissolved per 100 g of water.",
+        "The extra 46 g separates out as a pure solid, often as crystals."
+      ],
+      "visual": { "kind": "plot", "type": "line", "xlabel": "Temperature in °C", "ylabel": "Solubility in g per 100 g water", "points": [[40, 241], [60, 287]] },
+      "note": "Numbers straight from Fig. 5.6."
+    },
+    {
+      "id": "sc-ch05-s3",
+      "sec": "5.3.1",
+      "title": "Why crystallization purifies",
+      "kicker": "Changing solubility with temperature does the work.",
+      "bullets": [
+        "Crystallization is the process of forming crystals from a saturated solution.",
+        "It separates two solids when one compound is present in a small quantity, and it purifies solids.",
+        "The principle rests on the difference in solubility of a substance at different temperatures."
+      ],
+      "visual": { "kind": "flow", "items": ["Hot saturated solution", "Slow cooling", "Pure crystals separate"] },
+      "note": "Cool slowly, grow big shiny crystals."
+    },
+    {
+      "id": "sc-ch05-s4",
+      "sec": "5.3.1",
+      "title": "Grow blue crystals yourself",
+      "kicker": "Activity 5.3: grow your own blue gems.",
+      "bullets": [
+        "Take 1 g of copper sulfate (blue vitriol) in 25 mL of water with a drop of dilute sulfuric acid; heat gently in a water bath.",
+        "Keep adding copper sulfate until the solution is saturated, then filter the hot solution to remove insoluble impurities.",
+        "Cool slowly without disturbing it; shiny blue crystals grow, then rinse them with cold water and dry."
+      ],
+      "visual": { "kind": "steps", "items": ["Heat in a water bath", "Saturate and filter hot", "Cool slowly, undisturbed", "Rinse and dry the crystals"] },
+      "note": "Safety first: only the teacher adds sulfuric acid."
+    },
+    {
+      "id": "sc-ch05-s5",
+      "sec": "5.3.2",
+      "title": "Boil, condense, collect",
+      "kicker": "Boil, condense, collect: distillation in four moves.",
+      "bullets": [
+        "A homogeneous mixture of two miscible liquids can be separated by heating until the lower-boiling liquid vaporises.",
+        "The vapour cools in a condenser, usually by circulating water or air, and turns back into pure liquid.",
+        "Distillation works when boiling points differ by at least about 25 °C, and can also recover solvent from dissolved solids."
+      ],
+      "visual": { "kind": "flow", "items": ["Heat the mixture", "Vapours rise", "Condenser cools vapours", "Pure liquid collected"] },
+      "note": "What boils later stays in the flask."
+    },
+    {
+      "id": "sc-ch05-s6",
+      "sec": "5.3.2",
+      "title": "Acetone and water apart",
+      "kicker": "A 44 degree gap makes distillation easy.",
+      "bullets": [
+        "Acetone boils at about 56 °C while water boils at 100 °C.",
+        "The large gap lets acetone vaporise long before water vapours form in significant amount.",
+        "Condensed acetone is collected in a separate vessel while water stays behind in the distillation flask."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Acetone", "items": ["Boils at about 56 °C", "Vaporises first", "Collected as the distillate"] },
+        "right": { "title": "Water", "items": ["Boils at 100 °C", "Stays in the flask", "Has the higher boiling point"] }
+      },
+      "note": "56 to 100: a gap of 44 °C."
+    },
+    {
+      "id": "sc-ch05-s7",
+      "sec": "5.3.2",
+      "title": "Perfume from the earth",
+      "kicker": "Kannauj bottles the smell of the first rain.",
+      "bullets": [
+        "Kannauj in Uttar Pradesh, the perfume capital of India, captures the earthy smell after the first rain as Mitti ka Ittar.",
+        "It is distilled by the traditional Deg-Bhapka method, passed down through generations.",
+        "The Fragrance and Flavour Development Centre there supports farmers growing fragrance-producing plants."
+      ],
+      "visual": { "kind": "labels", "items": ["Kannauj", "Mitti ka Ittar", "Deg-Bhapka method", "Perfume capital of India"] },
+      "note": "First rain smells sweet in Kannauj."
+    },
+    {
+      "id": "sc-ch05-s8",
+      "sec": "5.3.2",
+      "title": "Refineries scale it up",
+      "kicker": "Crude oil is a mixture worth splitting.",
+      "bullets": [
+        "A petroleum refinery is an industrial unit where crude oil is processed to obtain useful petroleum products.",
+        "Petroleum gas, petrol, kerosene and diesel are mixtures of useful gases and liquids.",
+        "Crude petroleum drawn from the Earth's crust is separated into these different fractions."
+      ],
+      "visual": { "kind": "tree", "root": "Crude petroleum", "children": ["Petroleum gas", "Petrol", "Kerosene", "Diesel"] },
+      "note": "Separation runs whole industries."
+    },
+    {
+      "id": "sc-ch05-s9",
+      "sec": "5.4.1",
+      "title": "Oil and water refuse to mix",
+      "kicker": "Immiscible liquids settle into separate layers.",
+      "bullets": [
+        "Water poured into oil forms separate layers; liquids that do not mix are called immiscible.",
+        "Sand and water, and iron filings with sulfur, also refuse to mix: heterogeneous mixtures.",
+        "In mustard oil and water, the yellow oil makes the upper layer and water the lower layer."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Mustard oil", "items": ["Yellow coloured", "Forms the upper layer"] },
+        "right": { "title": "Water", "items": ["Forms the lower layer", "Sits below the oil"] }
+      },
+      "note": "Think layers, not mixing."
+    },
+    {
+      "id": "sc-ch05-s10",
+      "sec": "5.4.1",
+      "title": "The separating funnel at work",
+      "kicker": "Activity 5.6: drain the bottom layer first.",
+      "bullets": [
+        "Pour 5 mL mustard oil and 20 mL water into a 50 mL separating funnel and let it stand undisturbed.",
+        "Open the stopcock slowly to drain the lower water layer, closing it when the water is almost gone.",
+        "Discard the small mixed portion that follows, then collect the oil layer separately."
+      ],
+      "visual": { "kind": "steps", "items": ["Mix oil and water", "Let layers form", "Drain the lower water", "Collect the oil layer"] },
+      "note": "Slow stopcock, steady hands."
+    },
+    {
+      "id": "sc-ch05-s11",
+      "sec": "5.4.1",
+      "title": "Gases mix, smokes do not",
+      "kicker": "Gases mix freely, smoke and fog do not.",
+      "bullets": [
+        "Gas particles move freely, so gases mix easily and uniformly; hydrogen and oxygen fuel for rockets is homogeneous.",
+        "Smoke, fog and dust in air are heterogeneous mixtures with gas as one component.",
+        "Smoke holds solid particles in air while fog holds tiny liquid water droplets."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Homogeneous", "items": ["Hydrogen and oxygen rocket fuel", "Gases mix uniformly"] },
+        "right": { "title": "Heterogeneous", "items": ["Smoke: solids in air", "Fog: droplets in air"] }
+      },
+      "note": "Fog is just water hiding in air."
+    },
+    {
+      "id": "sc-ch05-s12",
+      "sec": "5.4.2",
+      "title": "Solid to vapour, no stop",
+      "kicker": "Camphor vanishes into vapour, skipping the liquid stop.",
+      "bullets": [
+        "Heated below its melting point, camphor changes directly from solid to vapour without becoming liquid: sublimation.",
+        "On cooling, the vapours condense straight back into solid; this is called deposition.",
+        "Camphor separates from sand because camphor sublimes while sand does not sublime on heating."
+      ],
+      "visual": { "kind": "flow", "items": ["Solid camphor heated", "Vapour forms", "Vapours cool", "Solid deposits back"] },
+      "note": "Solid to gas to solid, no liquid stop."
+    },
+    {
+      "id": "sc-ch05-s13",
+      "sec": "5.4.2",
+      "title": "The china dish experiment",
+      "kicker": "Activity 5.7: catch camphor on a funnel wall.",
+      "bullets": [
+        "Put crushed camphor and sand in a china dish; invert a glass funnel with a cotton-plugged nozzle over it.",
+        "Heat the dish gently: white camphor deposits on the inner funnel wall while sand stays behind.",
+        "Naphthalene works the same way, and dry ice used for ice cream storage sublimes too."
+      ],
+      "visual": { "kind": "steps", "items": ["Mix camphor and sand", "Invert the funnel", "Heat gently", "Camphor deposits, sand stays"] },
+      "note": "Naphthalene balls in cupboards sublime too."
+    },
+    {
+      "id": "sc-ch05-s14",
+      "sec": "5.4.2",
+      "title": "Alloys: metals melted together",
+      "kicker": "Melt metals together and a new material is born.",
+      "bullets": [
+        "Metals do not dissolve into each other at room temperature, but melted metals at high heat can mix into a solution.",
+        "A homogeneous mixture of two or more metals, or a metal and a non-metal, is an alloy.",
+        "No physical method separates an alloy; alloys are made stronger, more rigid or more corrosion-resistant."
+      ],
+      "visual": { "kind": "tree", "root": "Common alloys", "children": ["Brass: 80 percent copper, 20 percent zinc", "Bronze: 80 percent copper, 20 percent tin", "Stainless steel: iron with carbon, chromium, nickel"] },
+      "note": "Chromium in steel: about 16 to 18 percent."
+    },
+    {
+      "id": "sc-ch05-s15",
+      "sec": "5.4.3",
+      "title": "Particles you can see",
+      "kicker": "Stir all you want, the sand stays visible.",
+      "bullets": [
+        "In a suspension, solid particles do not dissolve but stay suspended through the bulk of the medium.",
+        "The undissolved particles are larger than solution particles and are visible to the naked eye.",
+        "Sand in water, sawdust in water and tea leaves in water are all suspensions."
+      ],
+      "visual": { "kind": "labels", "items": ["Sand in water", "Sawdust in water", "Tea leaves in water", "Muddy water"] },
+      "note": "Stir all you like, the sand still shows."
+    },
+    {
+      "id": "sc-ch05-s16",
+      "sec": "5.4.3",
+      "title": "Why mud defeats filtering",
+      "kicker": "Muddy water needs more than one trick.",
+      "bullets": [
+        "Left undisturbed, muddy water lets heavier mud particles settle at the bottom, though the water stays cloudy.",
+        "Filtering through a cotton cloth or filter paper removes some larger particles, but clouds often remain.",
+        "Filtration cannot catch every tiny particle, so centrifugation and coagulation step in."
+      ],
+      "visual": { "kind": "flow", "items": ["Let the mud settle", "Filter through cloth", "Water still cloudy", "Centrifuge or add alum"] },
+      "note": "Tiny particles love slipping through paper."
+    },
+    {
+      "id": "sc-ch05-s17",
+      "sec": "5.4.3",
+      "title": "The spin that separates",
+      "kicker": "The spin that flings heavy particles outward.",
+      "bullets": [
+        "Centrifugation spins a mixture in a tube at high speed, and the tubes become horizontal.",
+        "Centrifugal force, the outward push on anything moving in a circle, drives heavier particles outward to settle at the bottom.",
+        "The lighter liquid stays on top; labs use this to separate red blood cells from plasma."
+      ],
+      "visual": { "kind": "steps", "items": ["Load the mixture in a tube", "Spin at high speed", "Heavy particles settle outward", "Light liquid stays on top"] },
+      "note": "The folk dance phugadi gives that outward pull!"
+    },
+    {
+      "id": "sc-ch05-s18",
+      "sec": "5.4.3",
+      "title": "Alum to the rescue",
+      "kicker": "Fitkari clumps the tiniest particles together.",
+      "bullets": [
+        "In coagulation, powdered alum, called fitkari, is added to a beaker of muddy water.",
+        "The Paperfuge model, made from a cardboard disc and thick thread, mimics a centrifuge.",
+        "Watching heavier particles move outward in your model makes the science hands-on and fun."
+      ],
+      "visual": { "kind": "labels", "items": ["Alum, called fitkari", "Coagulation", "Paperfuge model", "Cardboard disc and thread"] },
+      "note": "Fitkari to the rescue of cloudy water."
+    },
+    {
+      "id": "sc-ch05-s19",
+      "sec": "5.4.4",
+      "title": "Blood is neither",
+      "kicker": "Not a solution, not a suspension: a colloid.",
+      "bullets": [
+        "Blood coagulates and its cells cannot be seen with the naked eye: is it a suspension or a solution?",
+        "Neither: blood is a colloid, and so are milk, tomato sauce and ice cream.",
+        "Colloids look uniform, but their particles are larger than the particles of a true solution."
+      ],
+      "visual": { "kind": "labels", "items": ["Blood", "Milk", "Tomato sauce", "Ice cream"] },
+      "note": "Blood donation is safe; the body refills in weeks."
+    },
+    {
+      "id": "sc-ch05-s20",
+      "sec": "5.4.4",
+      "title": "Particle size is the key",
+      "kicker": "One number decides solution, colloid or suspension.",
+      "bullets": [
+        "Solutions, suspensions and colloids differ mainly in the size of their dissolved or suspended particles.",
+        "Solution particles are smallest, under 1 nm across; colloid particles range from 1 to 1000 nm.",
+        "Suspension particles are the giants of the three, measuring more than 1000 nm across."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Colloid", "items": ["Particles 1 to 1000 nm", "Do not settle over time"] },
+        "right": { "title": "Suspension", "items": ["Particles over 1000 nm", "Settle over time"] }
+      },
+      "note": "1 nm is unimaginably small."
+    },
+    {
+      "id": "sc-ch05-s21",
+      "sec": "5.4.4",
+      "title": "Uniform like a solution",
+      "kicker": "Colloid particles never settle down.",
+      "bullets": [
+        "Unlike a suspension, the particles in a colloid do not settle over time.",
+        "They stay uniformly dispersed through the mixture, just like particles in a solution.",
+        "In blood banks, donated blood is separated into plasma, platelets, white and red blood cells for safe storage."
+      ],
+      "visual": { "kind": "flow", "items": ["Colloid particles", "Stay dispersed", "Never settle", "Mixture looks uniform"] },
+      "note": "Do you know your blood group?"
+    },
+    {
+      "id": "sc-ch05-s22",
+      "sec": "5.5",
+      "title": "The laser beam test",
+      "kicker": "Activity 5.1: one beam, three verdicts.",
+      "bullets": [
+        "A laser beam left no visible path through solution A in Activity 5.1.",
+        "Suspension B scattered the beam, making its path clearly visible.",
+        "Mixture C also showed a visible path even though it looked homogeneous."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Solution A", "items": ["No visible beam path", "Particles too small to scatter"] },
+        "right": { "title": "Mixtures B and C", "items": ["Beam path visible", "Particles scatter the light"] }
+      },
+      "note": "One beam, three verdicts."
+    },
+    {
+      "id": "sc-ch05-s23",
+      "sec": "5.5",
+      "title": "Light that scatters",
+      "kicker": "John Tyndall explained the glowing beam.",
+      "bullets": [
+        "The scattering of light by particles is the Tyndall effect, first explained by John Tyndall.",
+        "Light scatters in a colloid or a suspension, but never in a transparent solution.",
+        "A beam entering a dark room through a small hole glows, scattered by dust and smoke particles."
+      ],
+      "visual": { "kind": "labels", "items": ["Tyndall effect", "Scattered light", "Dark room beam", "Stadium floodlights"] },
+      "note": "Stadium floodlights put on the show."
+    },
+    {
+      "id": "sc-ch05-s24",
+      "sec": "5.5",
+      "title": "Two parts of a colloid",
+      "kicker": "Every colloid has two named parts.",
+      "bullets": [
+        "A colloid has two components: the dispersed phase and the dispersion medium.",
+        "The solute-like dispersed particles form the dispersed phase.",
+        "The component in which the dispersed phase is suspended is the dispersion medium."
+      ],
+      "visual": { "kind": "labels", "items": ["Dispersed phase", "Dispersion medium", "Scattered light", "Uniform appearance"] },
+      "note": "Name both parts to describe a colloid."
+    },
+    {
+      "id": "sc-ch05-s25",
+      "sec": "5.5",
+      "title": "Emulsions everywhere",
+      "kicker": "Oil, water and a little soap magic.",
+      "bullets": [
+        "When both the dispersed phase and the dispersion medium are liquids, the colloid is an emulsion.",
+        "Milk and vanishing creams are oil-in-water; butter, body lotions and cold creams are water-in-oil.",
+        "Proteins in milk and butter act as emulsifying agents that stabilise emulsions."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Oil-in-water", "items": ["Milk", "Vanishing creams"] },
+        "right": { "title": "Water-in-oil", "items": ["Butter", "Body lotions and cold creams"] }
+      },
+      "note": "Shake oil with soapy water: instant emulsion."
+    }
+  ],
+  "flashcards": [
+    { "id": "sc-ch05-f1", "sec": "5.3.1", "front": "What is a crystal?", "back": "A solid made up of particles arranged in a regular geometric pattern, like rock salt or mishri sugar.", "tag": "definition" },
+    { "id": "sc-ch05-f2", "sec": "5.3.1", "front": "Define crystallization.", "back": "The process of forming crystals from a saturated solution, used to separate and purify solids.", "tag": "definition" },
+    { "id": "sc-ch05-f3", "sec": "5.3.1", "front": "Why do crystals form when a hot saturated solution cools?", "back": "Solubility falls with temperature, so the extra solute cannot stay dissolved and separates as pure crystals.", "tag": "concept" },
+    { "id": "sc-ch05-f4", "sec": "5.3.2", "front": "What is distillation?", "back": "Heating a miscible liquid mixture so the lower-boiling liquid vaporises, then condensing the vapour to collect pure liquid.", "tag": "definition" },
+    { "id": "sc-ch05-f5", "sec": "5.3.2", "front": "When can distillation separate two liquids?", "back": "When their boiling points differ by at least about 25 °C, like acetone at 56 °C and water at 100 °C.", "tag": "concept" },
+    { "id": "sc-ch05-f6", "sec": "5.3.2", "front": "What happens inside a condenser?", "back": "Vapours are cooled, usually by circulating water or air, and condense back into a pure liquid.", "tag": "concept" },
+    { "id": "sc-ch05-f7", "sec": "5.4.1", "front": "What are immiscible liquids?", "back": "Liquids that do not mix and form separate layers, like mustard oil and water.", "tag": "definition" },
+    { "id": "sc-ch05-f8", "sec": "5.4.1", "front": "Which liquid leaves a separating funnel first?", "back": "The lower layer. Water below mustard oil is drained slowly through the stopcock.", "tag": "concept" },
+    { "id": "sc-ch05-f9", "sec": "5.4.1", "front": "Name two heterogeneous mixtures that have gas as a component.", "back": "Smoke, which is solid particles suspended in air, and fog, which is tiny water droplets in air.", "tag": "example" },
+    { "id": "sc-ch05-f10", "sec": "5.4.2", "front": "What is sublimation?", "back": "A solid changing directly to vapour on heating, without becoming liquid, as camphor does below its melting point.", "tag": "definition" },
+    { "id": "sc-ch05-f11", "sec": "5.4.2", "front": "What is deposition?", "back": "The change where vapours cool and condense back into a solid without becoming a liquid.", "tag": "definition" },
+    { "id": "sc-ch05-f12", "sec": "5.4.2", "front": "What is an alloy?", "back": "A homogeneous mixture of two or more metals, or a metal and a non-metal; physical methods cannot separate its parts.", "tag": "definition" },
+    { "id": "sc-ch05-f13", "sec": "5.4.3", "front": "What is a suspension?", "back": "A heterogeneous mixture where solid particles do not dissolve but stay suspended, visible to the naked eye, like sand in water.", "tag": "definition" },
+    { "id": "sc-ch05-f14", "sec": "5.4.3", "front": "How does centrifugation separate a mixture?", "back": "High-speed spinning makes centrifugal force push heavier particles outward to settle, leaving lighter liquid on top.", "tag": "concept" },
+    { "id": "sc-ch05-f15", "sec": "5.4.3", "front": "Why is simple filtering not enough for muddy water?", "back": "Tiny particles slip through cloth or filter paper, so the water stays cloudy; centrifugation or alum helps.", "tag": "concept" },
+    { "id": "sc-ch05-f16", "sec": "5.4.4", "front": "Is blood a solution or a suspension?", "back": "Neither. Blood is a colloid, like milk, tomato sauce and ice cream.", "tag": "concept" },
+    { "id": "sc-ch05-f17", "sec": "5.4.4", "front": "What particle sizes define solutions, colloids and suspensions?", "back": "Solutions under 1 nm, colloids 1 to 1000 nm, suspensions more than 1000 nm in diameter.", "tag": "concept" },
+    { "id": "sc-ch05-f18", "sec": "5.4.4", "front": "How do colloid particles behave over time?", "back": "They do not settle; they stay uniformly dispersed throughout the mixture, as in a solution.", "tag": "concept" },
+    { "id": "sc-ch05-f19", "sec": "5.5", "front": "What is the Tyndall effect?", "back": "The scattering of light by particles in a colloid or suspension, first explained by John Tyndall.", "tag": "definition" },
+    { "id": "sc-ch05-f20", "sec": "5.5", "front": "Where does light scatter and where does it not?", "back": "Scattering occurs in colloids and suspensions, but not in transparent solutions.", "tag": "concept" },
+    { "id": "sc-ch05-f21", "sec": "5.5", "front": "Name the two components of a colloid.", "back": "The dispersed phase, the solute-like particles, and the dispersion medium in which they are suspended.", "tag": "definition" }
+  ],
+  "quiz": [
+    { "id": "sc-ch05-q1", "sec": "5.3.1", "q": "Snowflakes, which form when water vapour freezes in the air, are an example of...", "options": ["Suspensions", "A solution of air in water", "Crystals", "Colloids of ice in gas"], "answer": 2, "why": "The book says snowflakes are crystals formed when water vapour freezes in the air.", "difficulty": "easy" },
+    { "id": "sc-ch05-q2", "sec": "5.3.1", "q": "A 60 °C saturated solution of compound B holds 287 g per 100 g water. At 40 °C its solubility is 241 g. How much crystallises out on cooling?", "options": ["287 g", "241 g", "46 g", "528 g"], "answer": 2, "why": "Only 241 g can stay dissolved at 40 °C, so 287 minus 241 gives 46 g of crystals.", "difficulty": "medium" },
+    { "id": "sc-ch05-q3", "sec": "5.3.1", "q": "Crystallization can separate a mixture of two solids when...", "options": ["Both compounds have the same solubility at every temperature", "Both compounds sublime at room temperature", "The two solids are actually immiscible liquids", "One compound is in small quantity and solubility changes with temperature"], "answer": 3, "why": "The method suits two solids with one in a small quantity, using solubility differences at different temperatures.", "difficulty": "hard" },
+    { "id": "sc-ch05-q4", "sec": "5.3.2", "q": "During distillation, which liquid vaporises first?", "options": ["The one with the higher boiling point", "The denser liquid", "The one with the lower boiling point", "The liquid present in larger amount"], "answer": 2, "why": "Heating makes the liquid with the lower boiling point vaporise first.", "difficulty": "easy" },
+    { "id": "sc-ch05-q5", "sec": "5.3.2", "q": "Acetone boils at about 56 °C and water at 100 °C. Why does distillation work on their mixture?", "options": ["Their boiling points differ by about 44 °C, more than 25 °C", "They have different colours", "Acetone is lighter than water", "Water is a poorer solvent than acetone"], "answer": 0, "why": "A large boiling point gap lets acetone vaporise before water vapours form in significant amount.", "difficulty": "medium" },
+    { "id": "sc-ch05-q6", "sec": "5.3.2", "q": "A solution has salt dissolved in water. Which method recovers the water as a pure liquid?", "options": ["Filtration through filter paper", "Distillation, condensing the vapour of the liquid", "Separating funnel drainage", "Sublimation of the salt"], "answer": 1, "why": "Distillation can separate a liquid from a solution containing dissolved solids.", "difficulty": "medium" },
+    { "id": "sc-ch05-q7", "sec": "5.4.1", "q": "Mustard oil and water stand undisturbed in a separating funnel. Where is the oil?", "options": ["As the upper yellow layer", "As the lower layer", "Evenly mixed throughout", "Stuck to the funnel walls"], "answer": 0, "why": "The yellow mustard oil forms the upper layer while water forms the lower layer.", "difficulty": "easy" },
+    { "id": "sc-ch05-q8", "sec": "5.4.1", "q": "Which of these is a homogeneous mixture?", "options": ["Smoke in air", "A hydrogen and oxygen mixture used as rocket fuel", "Fog in air", "Iron filings mixed with sulfur"], "answer": 1, "why": "Gas particles mix easily and uniformly, so most mixtures of gases are homogeneous.", "difficulty": "medium" },
+    { "id": "sc-ch05-q9", "sec": "5.4.1", "q": "While draining water from an oil and water funnel, a small portion with both liquids comes out. What does the activity say to do?", "options": ["Discard that portion, then collect the oil", "Shake the funnel and restart", "Heat the funnel to boil off water", "Add detergent to emulsify it"], "answer": 0, "why": "The activity says discard the next small portion that may contain both liquids.", "difficulty": "medium" },
+    { "id": "sc-ch05-q10", "sec": "5.4.2", "q": "In the camphor and sand activity, where does camphor collect?", "options": ["In the china dish with the sand", "On the inner wall of the inverted funnel", "Inside the cotton plug at the nozzle", "As a liquid pool under the dish"], "answer": 1, "why": "Camphor vapours condense on the funnel wall as white solid deposits while sand stays in the dish.", "difficulty": "easy" },
+    { "id": "sc-ch05-q11", "sec": "5.4.2", "q": "Dry ice, used for ice cream storage, is famous for...", "options": ["Melting into a sugary syrup", "Subliming from solid straight to gas", "Freezing the air around it", "Dissolving completely in water"], "answer": 1, "why": "Solid carbon dioxide, dry ice, undergoes sublimation.", "difficulty": "easy" },
+    { "id": "sc-ch05-q12", "sec": "5.4.2", "q": "Which elements does stainless steel mix with iron?", "options": ["Zinc and tin only", "Copper and zinc", "Carbon, chromium, nickel and molybdenum", "Sulfur and phosphorus"], "answer": 2, "why": "Stainless steel usually mixes iron with carbon, chromium, nickel and molybdenum.", "difficulty": "hard" },
+    { "id": "sc-ch05-q13", "sec": "5.4.3", "q": "Which of these is a suspension?", "options": ["Sugar fully dissolved in water", "Tea leaves in water", "Hydrogen and oxygen gas mixture", "An alloy like brass"], "answer": 1, "why": "Tea leaves in water, like sand or sawdust in water, stays suspended and undissolved.", "difficulty": "easy" },
+    { "id": "sc-ch05-q14", "sec": "5.4.3", "q": "During centrifugation, the heavier particles in the tube...", "options": ["Float upward to the top", "Evaporate with the liquid", "Move outward and settle at the bottom", "Dissolve into the liquid"], "answer": 2, "why": "Centrifugal force pushes heavier particles outward; they settle at the bottom while lighter liquid stays on top.", "difficulty": "medium" },
+    { "id": "sc-ch05-q15", "sec": "5.4.3", "q": "Muddy water is still cloudy after settling and filtering. The chapter suggests...", "options": ["Stirring the water faster", "Adding more water to dilute the mud", "Boiling the water until it evaporates", "Centrifugation and coagulation with alum"], "answer": 3, "why": "When filtration is not enough, techniques such as centrifugation and coagulation are used.", "difficulty": "hard" },
+    { "id": "sc-ch05-q16", "sec": "5.4.4", "q": "Milk, tomato sauce and ice cream are examples of...", "options": ["Colloids", "Suspensions", "True solutions", "Alloys"], "answer": 0, "why": "The book lists blood, milk, tomato sauce and ice cream as colloids.", "difficulty": "easy" },
+    { "id": "sc-ch05-q17", "sec": "5.4.4", "q": "A mixture has particles over 1000 nm across that settle over time. It is best called a...", "options": ["Solution", "Colloid", "Emulsion", "Suspension"], "answer": 3, "why": "Suspension particles are much larger, more than 1000 nm in diameter.", "difficulty": "medium" },
+    { "id": "sc-ch05-q18", "sec": "5.4.4", "q": "Arrange the mixtures from smallest to largest particle size.", "options": ["Colloid, solution, suspension", "Suspension, colloid, solution", "Solution, colloid, suspension", "Solution, suspension, colloid"], "answer": 2, "why": "Solution particles are under 1 nm, colloids 1 to 1000 nm, suspensions over 1000 nm.", "difficulty": "hard" },
+    { "id": "sc-ch05-q19", "sec": "5.5", "q": "The scattering of light by particles is named after which scientist?", "options": ["C. V. Raman", "John Tyndall", "Albert Einstein", "John Dalton"], "answer": 1, "why": "John Tyndall first explained the scattering of light by particles.", "difficulty": "easy" },
+    { "id": "sc-ch05-q20", "sec": "5.5", "q": "A thin laser beam shows a glowing path in which mixture?", "options": ["A transparent solution", "A colloid", "Pure distilled water", "A true solution of sugar"], "answer": 1, "why": "Particles in a colloid or suspension scatter the beam; transparent solutions do not.", "difficulty": "easy" },
+    { "id": "sc-ch05-q21", "sec": "5.5", "q": "Milk is an oil-in-water emulsion. Which pairing matches the book?", "options": ["Butter is water-in-oil while vanishing cream is oil-in-water", "Butter and milk are both water-in-oil", "Vanishing cream is water-in-oil while milk is oil-in-water", "Cold cream is a true solution, not an emulsion"], "answer": 0, "why": "Milk and vanishing creams are oil-in-water; butter, body lotions and cold creams are water-in-oil.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch05-e1",
+      "title": "Harvest from a cooling solution",
+      "problem": "A saturated solution of compound B is prepared at 60 °C by dissolving 287 g of B in 100 g of water. The solution is slowly cooled to 40 °C, where the solubility of B is 241 g per 100 g of water. How much pure solid separates out?",
+      "steps": [
+        "At 60 °C, the solution holds 287 g of compound B per 100 g of water.",
+        "Read the solubility curve: at 40 °C only 241 g of B can stay dissolved in 100 g of water.",
+        "The solution must shed the extra solute: 287 g minus 241 g.",
+        "The excess separates as a pure solid, often as crystals."
+      ],
+      "answer": "46 g of compound B crystallises out as a pure solid."
+    },
+    {
+      "id": "sc-ch05-e2",
+      "title": "Choosing distillation for acetone and water",
+      "problem": "A student has a homogeneous mixture of acetone and water. Acetone boils at about 56 °C and water boils at 100 °C. Can distillation separate them, and which liquid is collected first?",
+      "steps": [
+        "Find the boiling point difference: 100 °C minus 56 °C gives 44 °C.",
+        "Distillation needs boiling points to differ by at least about 25 °C, and 44 °C is well above that.",
+        "On heating, acetone vaporises first because it has the lower boiling point.",
+        "The acetone vapours cool in the condenser and the pure liquid is collected, while water remains in the distillation flask."
+      ],
+      "answer": "Yes, distillation works. Acetone distils over first since the 44 °C gap comfortably exceeds the 25 °C rule."
+    },
+    {
+      "id": "sc-ch05-e3",
+      "title": "Draining a mustard oil and water mixture",
+      "problem": "5 mL of mustard oil is mixed with 20 mL of water and poured into a 50 mL separating funnel. Describe the layers and list the steps to get both liquids back.",
+      "steps": [
+        "Let the funnel stand undisturbed until two separate layers form.",
+        "The yellow mustard oil forms the upper layer, sitting above the lower water layer.",
+        "Open the stopcock slowly and collect the lower water layer; close it when the water is almost fully drained.",
+        "Discard the small mixed portion that follows, then open the stopcock again to collect the oil."
+      ],
+      "answer": "The water layer drains out first, then the mustard oil is collected separately as a second clean liquid."
+    },
+    {
+      "id": "sc-ch05-e4",
+      "title": "Sorting mixtures by particle size",
+      "problem": "Three mixtures are given: a sugar solution with particles below 1 nm, milk with particles between 1 and 1000 nm, and muddy water with particles above 1000 nm. Classify each and predict which shows the Tyndall effect.",
+      "steps": [
+        "Particles smaller than 1 nm make a true solution, so the sugar solution is a solution.",
+        "Particles of 1 to 1000 nm define a colloid, so milk is a colloid.",
+        "Particles larger than 1000 nm define a suspension, so the muddy water is a suspension.",
+        "Light scatters in colloids and suspensions but not in transparent solutions."
+      ],
+      "answer": "Sugar solution: solution, no Tyndall effect. Milk: colloid, Tyndall effect. Muddy water: suspension, Tyndall effect."
+    }
+  ],
+  "conceptMap": {
+    "center": "Mixtures and Separation",
+    "groups": [
+      { "id": "g1", "label": "From a solution" },
+      { "id": "g2", "label": "Liquids apart" },
+      { "id": "g3", "label": "Heat a solid" },
+      { "id": "g4", "label": "Cloudy mixtures" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Crystallization", "group": "g1" },
+      { "id": "n2", "label": "Saturated solution", "group": "g1" },
+      { "id": "n3", "label": "Solubility curve", "group": "g1" },
+      { "id": "n4", "label": "Distillation", "group": "g2" },
+      { "id": "n5", "label": "Condenser", "group": "g2" },
+      { "id": "n6", "label": "Separating funnel", "group": "g2" },
+      { "id": "n7", "label": "Immiscible layers", "group": "g2" },
+      { "id": "n8", "label": "Sublimation", "group": "g3" },
+      { "id": "n9", "label": "Deposition", "group": "g3" },
+      { "id": "n10", "label": "Alloy", "group": "g3" },
+      { "id": "n11", "label": "Suspension", "group": "g4" },
+      { "id": "n12", "label": "Colloid", "group": "g4" },
+      { "id": "n13", "label": "Tyndall effect", "group": "g4" },
+      { "id": "n14", "label": "Centrifugation", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n2", "to": "n1", "label": "cool it slowly" },
+      { "from": "n3", "to": "n1", "label": "predicts the yield" },
+      { "from": "n3", "to": "n2", "label": "reads solubility" },
+      { "from": "n4", "to": "n5", "label": "vapours condense in" },
+      { "from": "n6", "to": "n7", "label": "splits into" },
+      { "from": "n8", "to": "n9", "label": "vapours give" },
+      { "from": "n11", "to": "n12", "label": "larger particles than" },
+      { "from": "n12", "to": "n13", "label": "shows" },
+      { "from": "n11", "to": "n13", "label": "shows too" },
+      { "from": "n14", "to": "n11", "label": "separates" },
+      { "from": "n4", "to": "n1", "label": "also purifies" },
+      { "from": "n8", "to": "n10", "label": "unlike alloys" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Meet the mixture", "detail": "Is it uniform or non-uniform? The answer decides the route." },
+      { "id": "s2", "label": "Study the parts", "detail": "Solids, liquids, gases and particle sizes hint at the method." },
+      { "id": "s3", "label": "Distill miscible liquids", "detail": "Boiling points differing by about 25 °C or more make distillation work." },
+      { "id": "s4", "label": "Funnel immiscible liquids", "detail": "Layers in a separating funnel are drained one by one." },
+      { "id": "s5", "label": "Crystallize dissolved solids", "detail": "Cool a saturated solution and pure crystals grow." },
+      { "id": "s6", "label": "Sublime volatile solids", "detail": "Camphor escapes as vapour while sand stays behind in the dish." },
+      { "id": "s7", "label": "Clean cloudy water", "detail": "Settle and filter, then centrifuge or add alum to coagulate." },
+      { "id": "s8", "label": "Probe with light", "detail": "The Tyndall effect exposes colloids and suspensions." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

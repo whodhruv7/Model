@@ -1,0 +1,915 @@
+{
+  "book": "sc",
+  "chapter": 4,
+  "title": "Describing Motion Around Us",
+  "grade": 9,
+  "sections": [
+    { "id": "4.2.2", "title": "Position-time graphs" },
+    { "id": "4.2.3", "title": "Velocity-time graphs" },
+    { "id": "4.3", "title": "Kinematic Equations for Motion in a Straight Line with Constant Acceleration" },
+    { "id": "4.4.1", "title": "Uniform circular motion" }
+  ],
+  "slides": [
+    {
+      "id": "sc-ch04-s1",
+      "sec": "4.2.2",
+      "title": "What the Position-Time Graph Shows",
+      "kicker": "Every journey leaves a trail on paper",
+      "bullets": [
+        "A position-time graph represents the motion of an object, that is, how its position changes with time.",
+        "Time is marked along the X-axis and position along the Y-axis, so each point shows where the object was at that instant.",
+        "From such a graph you can read the position of the object at each instant of time."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["position on Y-axis", "time on X-axis", "position at each instant", "change in position"]
+      },
+      "note": "Graph padh ke poora safar dikh jaata hai."
+    },
+    {
+      "id": "sc-ch04-s2",
+      "sec": "4.2.2",
+      "title": "Straight Line, Constant Velocity",
+      "kicker": "Equal 20 m steps, every single time",
+      "bullets": [
+        "In Fig. 4.13a, the object covers equal displacements of 20 m in equal intervals of time.",
+        "Equal displacement in equal time means the magnitude of velocity is constant.",
+        "So a straight-line position-time graph indicates that the object is moving with a constant velocity."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Time (s)",
+        "ylabel": "Position (m)",
+        "points": [[0, 0], [2, 20], [4, 40], [6, 60]]
+      },
+      "note": "Straight graph means steady velocity. Seedha raasta!"
+    },
+    {
+      "id": "sc-ch04-s3",
+      "sec": "4.2.2",
+      "title": "Curved Graph Means Accelerated Motion",
+      "kicker": "When the line bends, motion speeds up",
+      "bullets": [
+        "In Fig. 4.13b, the magnitudes of displacement grow larger in equal intervals of time, so the magnitude of velocity is increasing.",
+        "A curved position-time graph indicates the velocity is not constant.",
+        "Velocity that keeps changing means the object is in accelerated motion."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Time (s)",
+        "ylabel": "Position (m)",
+        "points": [[0, 0], [2, 10], [4, 40], [6, 90]]
+      }
+    },
+    {
+      "id": "sc-ch04-s4",
+      "sec": "4.2.2",
+      "title": "Build the Slope Triangle",
+      "kicker": "Activity 4.4 draws a helpful triangle",
+      "bullets": [
+        "Take a part AB of the plotted position-time graph, as done in Activity 4.4.",
+        "From point A draw a line parallel to the X-axis, and from point B draw a line parallel to the Y-axis.",
+        "The two lines form triangle ABC, where BC represents the change in position (s2 - s1) and CA represents the change in time (t2 - t1)."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Pick two points A and B on the graph",
+          "From A, draw a line parallel to the X-axis",
+          "From B, draw a line parallel to the Y-axis",
+          "Triangle ABC forms: BC is change in position, CA is change in time"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s5",
+      "sec": "4.2.2",
+      "title": "Slope Gives Average Velocity",
+      "kicker": "Rise over run, graph style",
+      "bullets": [
+        "Divide the change in position BC by the change in time CA to get the average velocity, exactly as in Eq. (4.2a).",
+        "Geometrically, this ratio (s2 - s1)/(t2 - t1) is called the slope of the line AB joining the initial position A and the final position B.",
+        "So from a position-time graph, positions at two instants are enough to calculate the average velocity."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Change in position BC", "Change in time CA", "Divide BC by CA", "Average velocity"]
+      },
+      "note": "BC divided by CA — graph se velocity nikal gayi."
+    },
+    {
+      "id": "sc-ch04-s6",
+      "sec": "4.2.2",
+      "title": "Reading a Position-Time Graph",
+      "kicker": "Two readings, one full story",
+      "bullets": [
+        "A position-time graph hands you two gifts: the position at any instant and the average velocity between two instants.",
+        "A straight line section means constant velocity; a curved section means accelerated motion.",
+        "The steeper the line, the larger the magnitude of the velocity it shows."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Position-time graph",
+        "children": [
+          "position at any instant",
+          "slope is average velocity",
+          "straight line: constant velocity",
+          "curved line: accelerated motion"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s7",
+      "sec": "4.2.3",
+      "title": "Velocity-Time Graph Basics",
+      "kicker": "Now velocity gets its own graph",
+      "bullets": [
+        "A velocity-time graph represents the change in velocity of an object with time.",
+        "You can plot it in a manner similar to the position-time graph, following the steps of Activity 4.3.",
+        "Each point on the graph gives the magnitude of velocity of the object at that instant."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Measure velocity at each instant",
+          "Time on X-axis, velocity on Y-axis",
+          "Plot the points",
+          "Velocity-time graph ready"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s8",
+      "sec": "4.2.3",
+      "title": "Steady 72 km/h Highway Drive",
+      "kicker": "Flat line, zero acceleration, smooth cruise",
+      "bullets": [
+        "A car moves in the same direction on a straight stretch of highway at a steady velocity of 72 km/h, which is 20 m/s.",
+        "Its velocity-time graph is a straight line parallel to the X-axis, as in Fig. 4.17a.",
+        "The height of this line never changes, so the velocity is constant and the acceleration is zero."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Time (s)",
+        "ylabel": "Velocity (m/s)",
+        "points": [[0, 20], [5, 20], [10, 20], [15, 20], [20, 20], [25, 20], [30, 20]]
+      },
+      "note": "72 km/h means 20 m/s. Dono ek hi baat."
+    },
+    {
+      "id": "sc-ch04-s9",
+      "sec": "4.2.3",
+      "title": "Speeding Up at Constant Acceleration",
+      "kicker": "Equal jumps in velocity every second",
+      "bullets": [
+        "Another car starts moving from rest, and its velocity increases with time as listed in Table 4.5.",
+        "In equal intervals of time the velocity increases by equal amounts, so the acceleration is constant.",
+        "Its velocity-time graph (Fig. 4.17b) is a straight line sloping upward: velocity increasing with constant acceleration in the direction of velocity."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Car starts from rest",
+          "Velocity rises by equal amounts in equal times",
+          "Equal steps mean constant acceleration",
+          "Graph: straight line tilting upward"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s10",
+      "sec": "4.2.3",
+      "title": "Slowing Down at Constant Acceleration",
+      "kicker": "Braking gently, equal drops each second",
+      "bullets": [
+        "A third car moves with a velocity of 15.0 m/s, and its velocity decreases with time as listed in Table 4.6.",
+        "In equal intervals of time the velocity decreases by equal amounts, so this too is constant acceleration.",
+        "Its velocity-time graph (Fig. 4.17c) is a straight line sloping downward: the acceleration acts opposite to the direction of velocity."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Speeding up, Fig. 4.17b",
+          "items": ["starts from rest", "velocity rises in equal steps", "acceleration along the velocity"]
+        },
+        "right": {
+          "title": "Slowing down, Fig. 4.17c",
+          "items": ["starts at 15.0 m/s", "velocity falls in equal steps", "acceleration opposite to the velocity"]
+        }
+      }
+    },
+    {
+      "id": "sc-ch04-s11",
+      "sec": "4.2.3",
+      "title": "Slope Gives Acceleration",
+      "kicker": "Steeper line, harder acceleration",
+      "bullets": [
+        "The slope of the line on a velocity-time graph tells how fast the velocity is changing with time, that is, the acceleration.",
+        "For the steady 20 m/s car in Fig. 4.17a, there is no change in the height of the line from the X-axis, so the slope is zero.",
+        "Zero slope means constant velocity and zero acceleration; rising or falling slopes mean velocity changing at a constant rate."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Pick two points on the v-t line",
+          "Find the change in velocity between them",
+          "Find the change in time between them",
+          "Divide change in velocity by change in time to get acceleration"
+        ]
+      },
+      "note": "Yahan slope acceleration deta hai, velocity nahi. Dhyan se!"
+    },
+    {
+      "id": "sc-ch04-s12",
+      "sec": "4.2.3",
+      "title": "Area Under the Graph",
+      "kicker": "Area under the line hides displacement",
+      "bullets": [
+        "Besides velocity at each instant and acceleration from the slope, a velocity-time graph hides one more treasure.",
+        "The displacement of the object during a time interval is given by the area enclosed under its velocity-time graph.",
+        "For a straight-line graph this area can be split into simple shapes, like the rectangle OACD plus the triangle ABC used for region OABD."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["area under graph", "displacement", "rectangle plus triangle", "region OABD"]
+      }
+    },
+    {
+      "id": "sc-ch04-s13",
+      "sec": "4.3",
+      "title": "Constant Acceleration, Special Case",
+      "kicker": "When a never changes, equations appear",
+      "bullets": [
+        "Let us consider the special case of motion with constant acceleration and derive equations to analyse such motion.",
+        "Since the acceleration is constant, the acceleration at each instant equals the average acceleration over any time interval.",
+        "This single fact lets us turn the definition of acceleration into equations that predict motion."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Constant acceleration",
+        "children": [
+          "same at every instant",
+          "equals average acceleration",
+          "straight-line velocity-time graph"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s14",
+      "sec": "4.3",
+      "title": "First Kinematic Equation",
+      "kicker": "Slope trick turns into an equation",
+      "bullets": [
+        "Using the definition of average acceleration (Eq. 4.3c), a = (v - u)/t, where u is the initial velocity at t = 0 and v is the final velocity at time t.",
+        "Multiply both sides by t to get at = v - u, then rearrange.",
+        "This gives v = u + at (Eq. 4.4a), which calculates the velocity at all times when u and a are known."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Average acceleration: a = (v - u)/t",
+          "Multiply both sides by t: at = v - u",
+          "Rearrange the terms",
+          "v = u + at, Eq. 4.4a"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s15",
+      "sec": "4.3",
+      "title": "Displacement as Graph Area",
+      "kicker": "Rectangle plus triangle equals displacement",
+      "bullets": [
+        "The displacement s during time t equals the area enclosed within OABD on the velocity-time graph of Eq. 4.4a (Fig. 4.19).",
+        "Split OABD into the rectangle OACD with area AO × DO, that is u × t, and the triangle ABC.",
+        "Triangle ABC has base CA = t and height BC = v - u, so its area is (1/2) × t × (v - u)."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Rectangle OACD",
+          "items": ["base DO = t", "height AO = u", "area u × t"]
+        },
+        "right": {
+          "title": "Triangle ABC",
+          "items": ["base CA = t", "height BC = v - u", "area (1/2) × t × (v - u)"]
+        }
+      }
+    },
+    {
+      "id": "sc-ch04-s16",
+      "sec": "4.3",
+      "title": "Second Kinematic Equation",
+      "kicker": "Swap v minus u for at",
+      "bullets": [
+        "Adding the two areas gives s = u × t + (1/2) × t × (v - u).",
+        "Substitute the value of (v - u) from Eq. 4.4a, where v - u = at.",
+        "The result is s = ut + (1/2)at^2 (Eq. 4.4b), the displacement equation for constant acceleration."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Start with s = ut + (1/2) × t × (v - u)",
+          "Use v - u = at from Eq. 4.4a",
+          "Replace (v - u) by at",
+          "s = ut + (1/2)at^2, Eq. 4.4b"
+        ]
+      },
+      "note": "Half a t squared yaad rakho, exam favourite."
+    },
+    {
+      "id": "sc-ch04-s17",
+      "sec": "4.3",
+      "title": "Third Kinematic Equation",
+      "kicker": "Kick time out, keep the rest",
+      "bullets": [
+        "Combining the primary equations in different ways gives three more equations; here we eliminate t from Eq. 4.4b.",
+        "From Eq. 4.4a we get t = (v - u)/a, and we substitute this into Eq. 4.4b.",
+        "Expanding and simplifying leaves v^2 = u^2 + 2as (Eq. 4.4c), an equation with no time in it."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "From Eq. 4.4a, t = (v - u)/a",
+          "Substitute this t into Eq. 4.4b",
+          "Expand the terms and simplify",
+          "v^2 = u^2 + 2as, Eq. 4.4c"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s18",
+      "sec": "4.3",
+      "title": "Five Quantities, Three Equations",
+      "kicker": "Five quantities, three tidy equations",
+      "bullets": [
+        "For motion in a straight line with constant acceleration, five quantities matter: displacement s, time interval t, initial velocity u, final velocity v and acceleration a.",
+        "Eq. 4.4a, Eq. 4.4b and Eq. 4.4c, known as the kinematic equations, link all five of them.",
+        "These equations give a mathematical description of how the motion of an object changes with time; two more equations wait in The Journey Beyond at the chapter's end."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["displacement s", "time t", "initial velocity u", "final velocity v", "acceleration a"]
+      }
+    },
+    {
+      "id": "sc-ch04-s19",
+      "sec": "4.4.1",
+      "title": "Distance Versus Displacement on Circles",
+      "kicker": "Curve ABC versus straight line AC",
+      "bullets": [
+        "When an object moves in a circular path, its motion is called circular motion.",
+        "A child on a moving merry-go-round travels from A to B to C: the distance travelled is the curve ABC, while the displacement is the straight line AC.",
+        "As you can see, the two are not equal, even for the same ride."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Distance travelled",
+          "items": ["the curve ABC", "follows the actual path", "always grows as the child moves"]
+        },
+        "right": {
+          "title": "Displacement",
+          "items": ["the straight line AC", "the shortest route from start to finish", "depends only on start and end points"]
+        }
+      }
+    },
+    {
+      "id": "sc-ch04-s20",
+      "sec": "4.4.1",
+      "title": "One Full Revolution",
+      "kicker": "Round and round, back to start",
+      "bullets": [
+        "The distance travelled by the child in making one revolution equals the circumference of the circle.",
+        "If the radius of the circular path is R, the distance for one revolution is 2πR.",
+        "The displacement after one revolution is zero, since the child comes back to the original position."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["one revolution", "distance 2πR", "zero displacement", "back at the starting point"]
+      },
+      "note": "Full circle, zero displacement. Baaki sab distance."
+    },
+    {
+      "id": "sc-ch04-s21",
+      "sec": "4.4.1",
+      "title": "Speed of a Revolution",
+      "kicker": "Circumference divided by time T",
+      "bullets": [
+        "If the object takes time T to make one revolution, its average speed follows from Eq. 4.1.",
+        "The average speed is v_av = 2πR/T (Eq. 4.5), the circumference divided by the time of one round.",
+        "The average velocity during the same interval T is 0, because the displacement is 0."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "One revolution in time T",
+        "children": [
+          "distance is 2πR",
+          "average speed 2πR/T",
+          "average velocity 0"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s22",
+      "sec": "4.4.1",
+      "title": "Uniform Circular Motion Defined",
+      "kicker": "Speed steady, direction dancing",
+      "bullets": [
+        "Uniform circular motion is the motion of an object moving in a circular path with constant, that is uniform, speed.",
+        "The speed stays constant, but the direction of velocity at an instant does not: it keeps changing.",
+        "Because the direction of velocity changes continuously, uniform circular motion is accelerated motion."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["circular path", "uniform speed", "changing direction", "velocity changes continuously"]
+      }
+    },
+    {
+      "id": "sc-ch04-s23",
+      "sec": "4.4.1",
+      "title": "From Rectangle to Circle",
+      "kicker": "An athlete's track becomes a circle",
+      "bullets": [
+        "An athlete running at uniform speed on a rectangular track ABCD changes direction four times to complete one round.",
+        "On a hexagonal track the athlete changes direction six times per round (Fig. 4.23).",
+        "If the number of sides increases indefinitely, turns come more and more frequently, and the track approaches a circle where the direction of velocity changes continuously."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": [
+          "Rectangle: 4 turns per round",
+          "Hexagon: 6 turns per round",
+          "More and more sides",
+          "Turns ever more frequent",
+          "Circle: direction changes continuously"
+        ]
+      }
+    },
+    {
+      "id": "sc-ch04-s24",
+      "sec": "4.4.1",
+      "title": "Marble in a Ring",
+      "kicker": "Activity 4.5 spins a marble",
+      "bullets": [
+        "Take a ring, such as an adhesive tape ring, and one marble for Activity 4.5.",
+        "Place the ring flat on a smooth surface and throw the marble inside it.",
+        "The marble rotates along the inner boundary of the ring, circling with its direction of motion changing at every point."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Take an adhesive tape ring and a marble",
+          "Place the ring flat on a smooth surface",
+          "Throw the marble inside the ring",
+          "Watch it rotate along the inner boundary"
+        ]
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "sc-ch04-f1",
+      "sec": "4.2.2",
+      "front": "What does a straight-line position-time graph tell you about the motion?",
+      "back": "The object is moving with a constant velocity, since equal displacements happen in equal intervals of time.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f2",
+      "sec": "4.2.2",
+      "front": "What does a curved position-time graph indicate?",
+      "back": "The velocity is not constant, so the object is in accelerated motion.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f3",
+      "sec": "4.2.2",
+      "front": "How do you find average velocity from a position-time graph?",
+      "back": "Read positions s1 and s2 at instants t1 and t2, then compute (s2 - s1)/(t2 - t1), which is the slope of line AB.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f4",
+      "sec": "4.2.2",
+      "front": "In the slope triangle ABC on a position-time graph, what do sides BC and CA represent?",
+      "back": "BC represents the change in position (s2 - s1) and CA represents the change in time (t2 - t1).",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch04-f5",
+      "sec": "4.2.3",
+      "front": "A car moves at a steady 72 km/h. What does its velocity-time graph look like?",
+      "back": "A straight line parallel to the X-axis at 20 m/s, and its acceleration is zero.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f6",
+      "sec": "4.2.3",
+      "front": "What does the slope of a line on a velocity-time graph give?",
+      "back": "The acceleration, that is, how fast the velocity is changing with time.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f7",
+      "sec": "4.2.3",
+      "front": "A velocity-time line rises by equal amounts in equal times. What motion is this?",
+      "back": "Velocity increasing with constant acceleration, in the direction of the velocity.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f8",
+      "sec": "4.2.3",
+      "front": "What does the area enclosed under a velocity-time graph give?",
+      "back": "The displacement of the object during that time interval.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f9",
+      "sec": "4.3",
+      "front": "Write the kinematic equation that gives final velocity with constant acceleration.",
+      "back": "v = u + at, where u is initial velocity, a is acceleration and t is the time interval (Eq. 4.4a).",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f10",
+      "sec": "4.3",
+      "front": "Write the kinematic equation for displacement with constant acceleration.",
+      "back": "s = ut + (1/2)at^2, derived from the area of the v-t graph (Eq. 4.4b).",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f11",
+      "sec": "4.3",
+      "front": "Which kinematic equation links v, u, a and s without time?",
+      "back": "v^2 = u^2 + 2as (Eq. 4.4c).",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f12",
+      "sec": "4.3",
+      "front": "Why can we use average acceleration at every instant when acceleration is constant?",
+      "back": "Because constant acceleration is the same at each instant, it equals the average acceleration over any time interval.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f13",
+      "sec": "4.4.1",
+      "front": "Define uniform circular motion.",
+      "back": "The motion of an object moving in a circular path with constant (uniform) speed.",
+      "tag": "definition"
+    },
+    {
+      "id": "sc-ch04-f14",
+      "sec": "4.4.1",
+      "front": "After one revolution of a circle of radius R, what are the distance and displacement?",
+      "back": "Distance equals the circumference 2πR, while displacement is zero because the object returns to its starting position.",
+      "tag": "concept"
+    },
+    {
+      "id": "sc-ch04-f15",
+      "sec": "4.4.1",
+      "front": "What is the average speed for one revolution that takes time T?",
+      "back": "v_av = 2πR/T (Eq. 4.5); the average velocity over the same interval is 0 since displacement is 0.",
+      "tag": "formula"
+    },
+    {
+      "id": "sc-ch04-f16",
+      "sec": "4.4.1",
+      "front": "In uniform circular motion, what keeps changing even though speed is constant?",
+      "back": "The direction of velocity changes continuously as the object moves along the circular path.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "sc-ch04-q1",
+      "sec": "4.2.2",
+      "q": "The position-time graph of an object is a straight line. What does this indicate?",
+      "options": [
+        "The object is at rest throughout",
+        "The object moves with constant velocity",
+        "The object is in accelerated motion",
+        "The velocity of the object is zero"
+      ],
+      "answer": 1,
+      "why": "Fig. 4.13a shows a straight line position-time graph means the object moves with constant velocity.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q2",
+      "sec": "4.2.2",
+      "q": "In Fig. 4.13a the object covers equal displacements of 20 m in equal intervals of time. Its velocity magnitude is:",
+      "options": ["Constant", "Increasing", "Decreasing", "Zero"],
+      "answer": 0,
+      "why": "Equal displacements of 20 m in equal time intervals mean the magnitude of velocity is constant.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q3",
+      "sec": "4.2.2",
+      "q": "On a position-time graph you form triangle ABC, where BC is change in position and CA is change in time. What is BC divided by CA?",
+      "options": ["Acceleration", "Average speed", "Average velocity", "Displacement"],
+      "answer": 2,
+      "why": "By Eq. (4.2a), dividing change in position by change in time gives the average velocity, the slope of line AB.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch04-q4",
+      "sec": "4.2.2",
+      "q": "A position-time graph is curved, rising more and more steeply as time passes. What is happening to the motion?",
+      "options": [
+        "Velocity is steadily decreasing",
+        "Velocity is increasing, so the motion is accelerated",
+        "Velocity is constant but displacement grows",
+        "The object pauses at each plotted point"
+      ],
+      "answer": 1,
+      "why": "Displacements grow in equal intervals, so velocity increases; a curved position-time graph means accelerated motion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch04-q5",
+      "sec": "4.2.3",
+      "q": "The book's car cruises a straight highway at 72 km/h. What is this velocity in m/s?",
+      "options": ["15 m/s", "20 m/s", "25 m/s", "30 m/s"],
+      "answer": 1,
+      "why": "Section 4.2.3 states 72 km/h equals 20 m/s.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q6",
+      "sec": "4.2.3",
+      "q": "A velocity-time graph is a straight line parallel to the X-axis. What is the acceleration?",
+      "options": [
+        "It increases steadily",
+        "It decreases steadily",
+        "It is zero",
+        "It equals the velocity"
+      ],
+      "answer": 2,
+      "why": "For Fig. 4.17a there is no change in the height of the line, so the slope is zero and acceleration is zero.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q7",
+      "sec": "4.2.3",
+      "q": "A car starts from rest and its velocity increases by equal amounts in equal intervals (Table 4.5). Its velocity-time graph is:",
+      "options": [
+        "A straight line sloping upward with constant acceleration",
+        "A horizontal line parallel to the X-axis",
+        "A curve that keeps getting flatter",
+        "A vertical straight line at t = 0"
+      ],
+      "answer": 0,
+      "why": "Fig. 4.17b shows velocity increasing with constant acceleration is a straight-line velocity-time graph.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch04-q8",
+      "sec": "4.2.3",
+      "q": "A car moving at 15.0 m/s slows down, its velocity decreasing by equal amounts in equal times (Table 4.6). The acceleration is directed:",
+      "options": [
+        "Along the direction of velocity",
+        "Opposite to the direction of velocity",
+        "Perpendicular to the velocity",
+        "Nowhere, the acceleration is zero"
+      ],
+      "answer": 1,
+      "why": "Fig. 4.17c shows velocity decreasing with constant acceleration opposite to the direction of velocity.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch04-q9",
+      "sec": "4.3",
+      "q": "Which of these is the first kinematic equation for motion with constant acceleration?",
+      "options": [
+        "s = ut + (1/2)at^2",
+        "v^2 = u^2 + 2as",
+        "v = u + at",
+        "a = (v - u)/s"
+      ],
+      "answer": 2,
+      "why": "Eq. 4.4a, v = u + at, comes from the definition of average acceleration and gives velocity at all times.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q10",
+      "sec": "4.3",
+      "q": "In deriving s = ut + (1/2)at^2, the area OABD of the velocity-time graph is split into which two parts?",
+      "options": [
+        "A rectangle of area (1/2)ut and a triangle of area (1/2)vt",
+        "Two triangles of equal area ut",
+        "A square of area u × t and a circle of area 2πR",
+        "A rectangle of area u × t plus a triangle of area (1/2) × t × (v - u)"
+      ],
+      "answer": 3,
+      "why": "Area OABD equals rectangle OACD with area u × t plus triangle ABC with area (1/2) × t × (v - u).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch04-q11",
+      "sec": "4.3",
+      "q": "You know u, v, a and s but not the time. Which kinematic equation should you use?",
+      "options": [
+        "v^2 = u^2 + 2as",
+        "v = u + at",
+        "s = ut + (1/2)at^2",
+        "a = (v - u)/t"
+      ],
+      "answer": 0,
+      "why": "Eq. 4.4c, v^2 = u^2 + 2as, was obtained by eliminating t, so it contains no time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch04-q12",
+      "sec": "4.3",
+      "q": "How exactly is the third kinematic equation derived from the two primary equations?",
+      "options": [
+        "Displacement s is eliminated using s = ut",
+        "Time t is eliminated by substituting t = (v - u)/a into Eq. 4.4b",
+        "Acceleration a is eliminated using a = (v - u)/t",
+        "Initial velocity u is simply set to zero"
+      ],
+      "answer": 1,
+      "why": "The book eliminates t by substituting t = (v - u)/a from Eq. 4.4a into Eq. 4.4b, giving v^2 = u^2 + 2as.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-ch04-q13",
+      "sec": "4.4.1",
+      "q": "An object moves in a circular path with constant speed. This particular motion is called:",
+      "options": [
+        "Circular motion with increasing speed",
+        "Circular motion with zero velocity",
+        "Uniform circular motion",
+        "Rectilinear motion"
+      ],
+      "answer": 2,
+      "why": "Motion in a circular path with constant (uniform) speed is defined as uniform circular motion.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q14",
+      "sec": "4.4.1",
+      "q": "A child on a merry-go-round of radius R completes exactly one revolution. The displacement is:",
+      "options": ["2πR", "R", "πR", "0"],
+      "answer": 3,
+      "why": "After one revolution the child is back at the original position, so displacement is zero.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-ch04-q15",
+      "sec": "4.4.1",
+      "q": "One revolution of radius R takes time T. What is the average velocity for that revolution?",
+      "options": ["0", "2πR/T", "πR/T", "R/T"],
+      "answer": 0,
+      "why": "Average velocity is displacement over time, and displacement for one full revolution is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sc-ch04-q16",
+      "sec": "4.4.1",
+      "q": "An athlete runs uniform-speed rounds on a rectangular track, then a hexagonal track, then a circular one (Fig. 4.23). The key change is:",
+      "options": [
+        "Direction never changes, only speed changes",
+        "Direction changes 4 times, then 6 times, then continuously on the circle",
+        "Speed keeps increasing from track to track",
+        "Displacement after one round becomes larger"
+      ],
+      "answer": 1,
+      "why": "Fig. 4.23 shows 4 turns on the rectangle, 6 on the hexagon, and continuous direction change on the circle.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "sc-ch04-e1",
+      "title": "Average Velocity from a Graph",
+      "problem": "A car moves along a straight road and its position-time graph is a straight line like Fig. 4.13a. From the graph, the position is 20 m at 2 s and 60 m at 6 s. Using the method of Activity 4.4, find the average velocity between these two instants.",
+      "steps": [
+        "Read the two positions from the graph: s1 = 20 m at t1 = 2 s and s2 = 60 m at t2 = 6 s.",
+        "Form the slope triangle ABC: side BC is the change in position, s2 - s1 = 60 - 20 = 40 m, and side CA is the change in time, t2 - t1 = 6 - 2 = 4 s.",
+        "Divide change in position by change in time as in Eq. (4.2a): average velocity = BC/CA = 40/4.",
+        "Sanity check: the graph is a straight line, so equal 20 m displacements occur in equal 2 s intervals, matching a constant slope."
+      ],
+      "answer": "Average velocity = 10 m/s, which is the slope of the straight line AB on the position-time graph."
+    },
+    {
+      "id": "sc-ch04-e2",
+      "title": "Car Starting from Rest",
+      "problem": "A car starts from rest and moves in a straight line with a constant acceleration of 2 m/s^2 for 5 s. Using the kinematic equations, find its velocity at the end of 5 s and its displacement in that time, then verify with the third equation.",
+      "steps": [
+        "Starting from rest means initial velocity u = 0. Given a = 2 m/s^2 and t = 5 s.",
+        "Velocity from Eq. 4.4a: v = u + at = 0 + 2 × 5 = 10 m/s.",
+        "Displacement from Eq. 4.4b: s = ut + (1/2)at^2 = 0 × 5 + (1/2) × 2 × 5^2 = 25 m.",
+        "Verify with Eq. 4.4c: v^2 = u^2 + 2as = 0 + 2 × 2 × 25 = 100, so v = 10 m/s, which matches the value from Eq. 4.4a."
+      ],
+      "answer": "Final velocity is 10 m/s and displacement is 25 m; all three kinematic equations agree."
+    },
+    {
+      "id": "sc-ch04-e3",
+      "title": "One Round on a Merry-Go-Round",
+      "problem": "A child rides a merry-go-round of radius 7 m and completes one revolution in 4 s. Taking π as 22/7, find the distance travelled, the displacement, the average speed and the average velocity for that one round.",
+      "steps": [
+        "Distance in one revolution equals the circumference of the circle: 2πR = 2 × (22/7) × 7 = 44 m.",
+        "After one revolution the child is back at the original position, so the displacement is 0.",
+        "Average speed from Eq. 4.5: v_av = 2πR/T = 44/4 = 11 m/s.",
+        "Average velocity over the interval T is displacement divided by time, and since the displacement is 0, the average velocity is 0."
+      ],
+      "answer": "Distance 44 m, displacement 0, average speed 11 m/s and average velocity 0 for the single revolution."
+    }
+  ],
+  "conceptMap": {
+    "center": "Describing Motion",
+    "groups": [
+      { "id": "g1", "label": "Motion Graphs" },
+      { "id": "g2", "label": "Quantities" },
+      { "id": "g3", "label": "Kinematic Equations" },
+      { "id": "g4", "label": "Circular Motion" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Position-time graph", "group": "g1" },
+      { "id": "n2", "label": "Velocity-time graph", "group": "g1" },
+      { "id": "n3", "label": "Slope", "group": "g1" },
+      { "id": "n4", "label": "Straight line", "group": "g1" },
+      { "id": "n5", "label": "Curved line", "group": "g1" },
+      { "id": "n6", "label": "Area under graph", "group": "g1" },
+      { "id": "n7", "label": "Velocity", "group": "g2" },
+      { "id": "n8", "label": "Acceleration", "group": "g2" },
+      { "id": "n9", "label": "Displacement", "group": "g2" },
+      { "id": "n10", "label": "v = u + at", "group": "g3" },
+      { "id": "n11", "label": "s = ut + at^2/2", "group": "g3" },
+      { "id": "n12", "label": "v^2 = u^2 + 2as", "group": "g3" },
+      { "id": "n13", "label": "Uniform circular motion", "group": "g4" },
+      { "id": "n14", "label": "Speed 2πR/T", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n3", "label": "slope of line AB" },
+      { "from": "n3", "to": "n7", "label": "gives velocity" },
+      { "from": "n1", "to": "n4", "label": "straight means" },
+      { "from": "n4", "to": "n7", "label": "constant velocity" },
+      { "from": "n1", "to": "n5", "label": "curved means" },
+      { "from": "n5", "to": "n8", "label": "accelerated motion" },
+      { "from": "n2", "to": "n3", "label": "slope of line" },
+      { "from": "n3", "to": "n8", "label": "gives acceleration" },
+      { "from": "n2", "to": "n6", "label": "area enclosed" },
+      { "from": "n6", "to": "n9", "label": "gives displacement" },
+      { "from": "n8", "to": "n10", "label": "constant a builds" },
+      { "from": "n10", "to": "n11", "label": "substitute v - u = at" },
+      { "from": "n10", "to": "n12", "label": "eliminate t" },
+      { "from": "n11", "to": "n12", "label": "combine" },
+      { "from": "n13", "to": "n14", "label": "one revolution in T" },
+      { "from": "n13", "to": "n8", "label": "direction changes, so accelerated" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      {
+        "id": "s1",
+        "label": "Plot position vs time",
+        "detail": "Record the position at each instant and draw the position-time graph."
+      },
+      {
+        "id": "s2",
+        "label": "Read the graph shape",
+        "detail": "Straight line means constant velocity; a curved line means accelerated motion."
+      },
+      {
+        "id": "s3",
+        "label": "Slope gives velocity",
+        "detail": "Triangle ABC: divide change in position BC by change in time CA for average velocity."
+      },
+      {
+        "id": "s4",
+        "label": "Plot velocity vs time",
+        "detail": "Use the same Activity 4.3 steps with velocity on the Y-axis and time on the X-axis."
+      },
+      {
+        "id": "s5",
+        "label": "Slope and area",
+        "detail": "The slope of the v-t line gives acceleration; the area under it gives displacement."
+      },
+      {
+        "id": "s6",
+        "label": "Build kinematic equations",
+        "detail": "For constant acceleration, v = u + at and s = ut + (1/2)at^2 follow from the graph."
+      },
+      {
+        "id": "s7",
+        "label": "Eliminate t",
+        "detail": "Substituting t = (v - u)/a gives v^2 = u^2 + 2as, linking five motion quantities."
+      },
+      {
+        "id": "s8",
+        "label": "Enter circular motion",
+        "detail": "Uniform circular motion: speed constant, distance 2πR per round, direction changing continuously."
+      }
+    ],
+    "edges": [[0, 1], [1, 2], [1, 3], [2, 4], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

@@ -252,6 +252,17 @@ export interface VideoKitMeta {
   alternates: VideoKitEntry[];
 }
 
+// Learn module deep-link (server resolves the topic to a chapter of the artifact library)
+export interface LearnMeta {
+  book: string;
+  bookName: string;
+  chapter: number;
+  title: string;
+  slides: number;
+  cards: number;
+  quiz: number;
+}
+
 export interface ChatMeta {
   mode?: ChatMode;
   followups?: string[];
@@ -261,6 +272,7 @@ export interface ChatMeta {
   artifact?: Artifact | null;
   youtube?: YoutubePlan | null;
   videos?: VideoKitMeta | null;
+  learn?: LearnMeta | null;
   focusConcept?: string | null;
 }
 

@@ -1,0 +1,435 @@
+{
+  "book": "us",
+  "chapter": 105,
+  "part": "b",
+  "title": "Life on Earth",
+  "grade": 9,
+  "sections": [
+    { "id": "105.7", "title": "Forests and Livelihoods" },
+    { "id": "105.8", "title": "Geographical Indication" },
+    { "id": "105.9", "title": "Challenges Faced by People Living in Forests" },
+    { "id": "105.10", "title": "Government Efforts to Support Forest Dwellers" },
+    { "id": "105.11", "title": "Questions and Activities" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch105b-s1",
+      "sec": "105.7",
+      "title": "Forests Feed Livelihoods",
+      "kicker": "Jungle sirf ped nahi, roti bhi hai!",
+      "bullets": [
+        "People, particularly rural and tribal communities, rely heavily on forests for their livelihoods.",
+        "Forests provide essential resources such as food, fuel, fodder, medicine, shelter, timber, bamboo, and firewood.",
+        "Forests also support livestock grazing, small forest-based industries, ecotourism, and employment."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Food", "Fodder", "Medicine", "Timber", "Bamboo", "Firewood"]
+      },
+      "note": "Jungle hi dukaan, dawa khana aur ghar hai!"
+    },
+    {
+      "id": "us-ch105b-s2",
+      "sec": "105.7",
+      "title": "Non-Timber Forest Products",
+      "kicker": "Shahad aur mahua bhi kamai hai!",
+      "bullets": [
+        "Non-timber forest products include honey, fruits, nuts, resins, and medicinal plants.",
+        "These products help forest families meet daily needs and earn income.",
+        "Jharkhand and Odisha are known for wild fruits, honey, mushrooms, and roots.",
+        "Madhya Pradesh and Chhattisgarh supply tendu leaves, mahua flowers, sal seeds, and gums."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Timber-based", "items": ["Timber", "Bamboo", "Firewood"] },
+        "right": { "title": "Non-timber products", "items": ["Honey", "Fruits and nuts", "Resins", "Medicinal plants"] }
+      },
+      "note": "Gathering bhi ek professional skill hai!"
+    },
+    {
+      "id": "us-ch105b-s3",
+      "sec": "105.7",
+      "title": "Sacred Groves of India",
+      "kicker": "Chhote jungle, bade raksha-doot!",
+      "bullets": [
+        "Sacred groves are small forest patches protected by local communities for religious and cultural purposes.",
+        "Across India there are over 1,00,000 sacred groves, though many are not officially recorded.",
+        "They are known by different names such as Devrai, Devarakadu, Kavu, and Sarna.",
+        "Despite being small, they preserve rare plants, medicinal species, and wildlife, and some maintain streams and groundwater."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Devrai", "Devarakadu", "Kavu", "Sarna"]
+      },
+      "note": "Kitne groves tumne ab tak dekhe?"
+    },
+    {
+      "id": "us-ch105b-s4",
+      "sec": "105.7",
+      "title": "Faith Meets Sustainability",
+      "kicker": "Pehle pranam, phir upaj lo!",
+      "bullets": [
+        "Communities including the Gonds and Bhils perform rituals to honour forest deities before collecting resources.",
+        "Such rituals reflect sustainable cultural practices and a deep respect for nature.",
+        "Forest dwellers rely on forests for household needs, cultural practices, and livelihood activities.",
+        "Women play a vital role in collecting and managing forest resources, sustaining traditional knowledge and practices."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Honour forest deities", "Collect resources carefully", "Forest regenerates", "Livelihood continues"]
+      },
+      "note": "Prakriti ka samman, pehle pranam!"
+    },
+    {
+      "id": "us-ch105b-s5",
+      "sec": "105.8",
+      "title": "What is a GI Tag",
+      "kicker": "Product ka permanent address proof!",
+      "bullets": [
+        "A Geographical Indication (GI) tag is an intellectual property right that identifies a product as originating from a specific place.",
+        "A given quality, reputation, or other characteristic of the product is essentially linked to its geographic origin.",
+        "In simple terms, it is a label showing that a product comes from a particular region and gets its uniqueness from that place."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Specific origin", "Linked quality", "Reputation", "Exclusive recognition"]
+      },
+      "note": "GI matlab product ka address proof!"
+    },
+    {
+      "id": "us-ch105b-s6",
+      "sec": "105.8",
+      "title": "Why GI Tagging Matters",
+      "kicker": "Gaon ka naam, duniya tak pehchaan!",
+      "bullets": [
+        "GI tagging helps protect region-specific products from losing their identity.",
+        "It promotes the cultural heritage tied to a place and its traditions.",
+        "It generates economic benefits for local communities through exclusive market recognition."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Product gets GI tag", "Origin gets protected", "Heritage gets promoted", "Communities earn more"]
+      },
+      "note": "Ek tag, teen fayde!"
+    },
+    {
+      "id": "us-ch105b-s7",
+      "sec": "105.8",
+      "title": "GI Honey, Litchi, Toys",
+      "kicker": "Shahad se khilone tak, sab GI!",
+      "bullets": [
+        "Ramban Sulai Honey of Jammu and Kashmir has strong antioxidant and immuno-modulatory potential and a distinct flavour, aroma, and taste.",
+        "Tezpur Litchi of Assam grows in forest-influenced soil and climate, with a distinctive bright colour and high pulp content.",
+        "Channapatna Toys of Karnataka are made from Wrightia tinctoria, a forest tree locally known as Aale mara."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Food and health", "items": ["Ramban Sulai Honey: nutrition and antioxidants", "Tezpur Litchi: bright colour, high pulp"] },
+        "right": { "title": "Crafts and produce", "items": ["Channapatna Toys: Aale mara wood", "Wrightia tinctoria: forest tree of Karnataka"] }
+      },
+      "note": "Khilone bhi jungle ki den!"
+    },
+    {
+      "id": "us-ch105b-s8",
+      "sec": "105.8",
+      "title": "Turmeric, Tea, Fruits",
+      "kicker": "Haldi se chai tak, sab apne!",
+      "bullets": [
+        "Kandhamal Haldi of Odisha is grown by tribal communities in forest regions and is known for high curcumin content and medicinal value.",
+        "Erode Turmeric of Tamil Nadu is cultivated in forest-influenced soils and is used for cooking and ayurvedic medicine.",
+        "Nilgiri Tea is plantation-based, yet its quality depends on the forest ecosystem conditions of the Western Ghats.",
+        "Tripura Queen Pineapple is famous for sweetness and aroma, while Khasi Mandarin is a citrus fruit from the forest-rich hills of Meghalaya."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Kandhamal Haldi", "Erode Turmeric", "Nilgiri Tea", "Tripura Queen Pineapple", "Khasi Mandarin"]
+      },
+      "note": "Mitti bhi jungle se, swad bhi!"
+    },
+    {
+      "id": "us-ch105b-s9",
+      "sec": "105.9",
+      "title": "Daily Struggles in Forests",
+      "kicker": "Suvidhaen door, mehnat paas!",
+      "bullets": [
+        "People living in forests often struggle to access essential facilities such as healthcare, education, and clean water.",
+        "Women are exposed to fuelwood fumes and face many health issues, making their daily lives difficult.",
+        "Forest dwellers depend heavily on forest produce such as firewood, honey, bamboo, and medicinal plants for their livelihood."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Healthcare", "Education", "Clean water", "Fuelwood fumes"]
+      },
+      "note": "PMUY kaise badlega yeh soorat? Socho!"
+    },
+    {
+      "id": "us-ch105b-s10",
+      "sec": "105.9",
+      "title": "Blocked Access, Lost Income",
+      "kicker": "Kanoon bhi, zaroorat bhi, takraar!",
+      "bullets": [
+        "Restrictions on forest use, deforestation, and commercial exploitation often limit forest dwellers' access to resources.",
+        "This creates a conflict between conservation laws and their survival needs, leading to economic insecurity.",
+        "Many forest dwellers face discrimination and neglect, and often sell forest products at relatively low prices.",
+        "Processing and marketing opportunities, help with government schemes, and awareness of legal rights are essential to raise incomes."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Restrictions and deforestation", "Limited access to resources", "Conflict with conservation laws", "Economic insecurity"]
+      },
+      "note": "Kam daam wala loop todo!"
+    },
+    {
+      "id": "us-ch105b-s11",
+      "sec": "105.9",
+      "title": "Disasters and Forest Fires",
+      "kicker": "Aag aur landslide, dono khatra!",
+      "bullets": [
+        "Floods in forested hilly regions wash away homes, crops, and roads, while landslides can bury villages and cut off essential services.",
+        "Forest fires spread quickly through dense vegetation, destroying homes and resources; human care and preventive measures can prevent many.",
+        "As per the Forest Survey of India, about 36 per cent of the country's forest cover is prone to fires, nearly 4 per cent extremely prone.",
+        "Climate change as well as human-induced factors are the main reasons for such occurrences."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Floods", "Landslides", "Forest fires", "36 per cent prone", "4 per cent extreme"]
+      },
+      "note": "4 per cent bahut bada number hai!"
+    },
+    {
+      "id": "us-ch105b-s12",
+      "sec": "105.9",
+      "title": "Wildlife Conflict and Fairness",
+      "kicker": "Haathi bhi, kisan bhi, dono yaad rakhna!",
+      "bullets": [
+        "Crops are often damaged by elephants, monkeys, or wild boars, and sometimes people face direct attacks.",
+        "Such conflicts cause economic losses and create fear and insecurity among forest communities.",
+        "Forest dwellers often sell their products at low prices, so opportunities for processing and marketing are essential to enhance income.",
+        "Communities also require assistance in accessing government schemes and greater awareness of their legal rights."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Human-wildlife conflict", "items": ["Crops damaged by elephants, monkeys, and wild boars", "Sometimes direct attacks on people", "Fear and insecurity in villages"] },
+        "right": { "title": "Economic challenges", "items": ["Low prices for forest products", "Need for processing and marketing", "Need awareness of legal rights"] }
+      },
+      "note": "Dono taraf se sulah zaroori!"
+    },
+    {
+      "id": "us-ch105b-s13",
+      "sec": "105.10",
+      "title": "The Forest Rights Act 2006",
+      "kicker": "Jameen, jungle, haq, sab likhit!",
+      "bullets": [
+        "The Forest Rights Act (FRA), 2006, is the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act.",
+        "It recognises the rights of eligible communities over the forest land and resources they have traditionally depended upon.",
+        "It allows them to collect minor forest produce such as bamboo, honey, and medicinal plants.",
+        "It also grants ownership of small patches of land cultivated by them."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["Traditional dependence proved", "FRA recognises rights", "Minor forest produce allowed", "Ownership of cultivated patches"]
+      },
+      "note": "Haq ab kagaz pe bhi!"
+    },
+    {
+      "id": "us-ch105b-s14",
+      "sec": "105.10",
+      "title": "Schemes and Programmes",
+      "kicker": "Padhai, sehat, hunaar, sab yojana!",
+      "bullets": [
+        "The Government runs tribal welfare schemes including education scholarships, healthcare programmes, and skill development initiatives.",
+        "The Joint Forest Management (JFM) programme encourages local communities to protect forests while benefiting from forest produce.",
+        "PESA, the Panchayats (Extension to Scheduled Areas) Act, and the Dharti Aaba Janjatiya Gram Utkarsh Abhiyan (DAJGUA) are other initiatives.",
+        "PM JANMAN, the Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan, also aims to promote the welfare of such communities."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["FRA 2006", "JFM", "PESA", "DAJGUA", "PM JANMAN"]
+      },
+      "note": "Naam lambe, maksad pyaare!"
+    },
+    {
+      "id": "us-ch105b-s15",
+      "sec": "105.10",
+      "title": "Mendha Lekha: First FRA Village",
+      "kicker": "Mawa Nate Mawa Raj, gaon ka raj!",
+      "bullets": [
+        "Mendha Lekha is a small tribal village in the Gadchiroli district of Maharashtra, inhabited mainly by the Gond tribe.",
+        "It became the first village in India to gain rights over its forest resources under the Forest Rights Act, 2006.",
+        "The village follows the principle of Mawa Nate Mawa Raj, meaning our village, our rule.",
+        "All decisions are made collectively through the Gram Sabha."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Gadchiroli, Maharashtra", "Gond tribe", "First under FRA", "Gram Sabha"]
+      },
+      "note": "Pehla gaon, pehla adhikar!"
+    },
+    {
+      "id": "us-ch105b-s16",
+      "sec": "105.10",
+      "title": "1,800 Hectares, One Community",
+      "kicker": "Ped kaato nahi, zimdari nibhao!",
+      "bullets": [
+        "The people of Mendha Lekha protect and sustainably utilise 1,800 hectares of forest.",
+        "They regulate tree cutting, prevent forest fires, and promote bamboo harvesting as a renewable resource.",
+        "Revenue from forest produce funds community welfare activities such as education and infrastructure.",
+        "Villagers uphold their right to join governance and their duty of protecting biodiversity and preventing illegal exploitation."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Gram Sabha decides", "Sustainable use of 1,800 hectares", "Revenue from forest produce", "Education and infrastructure for all"]
+      },
+      "note": "Adhikar bhi, kartavya bhi!"
+    },
+    {
+      "id": "us-ch105b-s17",
+      "sec": "105.11",
+      "title": "Think Like a Geographer",
+      "kicker": "Sawaal poochho, biome samjho!",
+      "bullets": [
+        "The chapter asks why India has diverse biomes and how local geography connects to this diversity.",
+        "Factors like temperature, precipitation patterns, and dominant plant species decide which biome develops in a region.",
+        "It also asks why forests are called the lungs of the Earth; forests maintain oxygen levels and balance the Earth's climate."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Biomes", "Geography", "Climate", "Oxygen"]
+      },
+      "note": "Geography se hi jawab milta hai!"
+    },
+    {
+      "id": "us-ch105b-s18",
+      "sec": "105.11",
+      "title": "Your Field Projects",
+      "kicker": "Apne ilaqe ka survey khud karo!",
+      "bullets": [
+        "List economically valuable native plants in your region and comment on their abundance.",
+        "Prepare a map of your state or Union Territory showing national parks and sanctuaries.",
+        "Discuss traditional forest conservation methods with your grandparents or an elderly person."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": ["List native plants", "Map protected areas", "Interview elders", "Share findings"]
+      },
+      "note": "Asli fieldwork, ghar se shuru!"
+    },
+    {
+      "id": "us-ch105b-s19",
+      "sec": "105.11",
+      "title": "Fire, Climate, Community Guardians",
+      "kicker": "Jungle bachaao, climate bachaao!",
+      "bullets": [
+        "Study the impact of forest fires on people dependent on forests: their causes, losses, and preventive measures.",
+        "The chapter asks what long-term effect the destruction of large forest areas would have on the global climate.",
+        "Forest dwellers help protect forests through sacred groves, community rules in Mendha Lekha, and Joint Forest Management."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Causes of fires", "Losses to people", "Preventive measures", "Community guardianship"]
+      },
+      "note": "Jungle bachaao, toh climate bachega!"
+    }
+  ],
+  "flashcards": [
+    { "id": "us-ch105b-f1", "sec": "105.7", "front": "Name five essential resources that forests provide to communities.", "back": "Forests provide food, fuel, fodder, medicine, shelter, timber, bamboo, and firewood for daily needs and livelihoods.", "tag": "concept" },
+    { "id": "us-ch105b-f2", "sec": "105.7", "front": "What are non-timber forest products? Give four examples.", "back": "Products other than timber, such as honey, fruits, nuts, resins, and medicinal plants, used for daily needs and income.", "tag": "definition" },
+    { "id": "us-ch105b-f3", "sec": "105.7", "front": "What is a sacred grove?", "back": "A small forest patch protected by a local community for religious and cultural purposes, often rich in rare species.", "tag": "definition" },
+    { "id": "us-ch105b-f4", "sec": "105.7", "front": "Which two communities perform rituals to honour forest deities before collection?", "back": "The Gonds and the Bhils, reflecting sustainable cultural practices and a deep respect for nature.", "tag": "trivia" },
+    { "id": "us-ch105b-f5", "sec": "105.7", "front": "What vital role do women play in forest communities?", "back": "They collect and manage forest resources for household needs, sustain traditional knowledge, and contribute to livelihoods.", "tag": "concept" },
+    { "id": "us-ch105b-f6", "sec": "105.8", "front": "What is a Geographical Indication tag?", "back": "An intellectual property right identifying a product as coming from a place its quality, reputation, or characteristics are linked to.", "tag": "definition" },
+    { "id": "us-ch105b-f7", "sec": "105.8", "front": "Which tree is used for Channapatna Toys, and what is it locally called?", "back": "Wrightia tinctoria, a forest tree locally known as Aale mara in Karnataka.", "tag": "trivia" },
+    { "id": "us-ch105b-f8", "sec": "105.8", "front": "What is Kandhamal Haldi famous for?", "back": "High curcumin content and medicinal value; it is grown by tribal communities in the forest regions of Kandhamal, Odisha.", "tag": "example" },
+    { "id": "us-ch105b-f9", "sec": "105.8", "front": "What are forest-influenced soils?", "back": "Soil profiles shaped over long periods by forest vegetation, root systems, and organic litter accumulation.", "tag": "definition" },
+    { "id": "us-ch105b-f10", "sec": "105.8", "front": "Why does Nilgiri Tea hold a GI tag?", "back": "Though plantation-based, its quality depends on the forest ecosystem conditions of the Western Ghats.", "tag": "concept" },
+    { "id": "us-ch105b-f11", "sec": "105.9", "front": "What share of India's forest cover is prone to fires as per FSI?", "back": "About 36 per cent is prone to forest fires, and nearly 4 per cent of it is extremely prone.", "tag": "trivia" },
+    { "id": "us-ch105b-f12", "sec": "105.9", "front": "Which animals often damage the crops of forest dwellers?", "back": "Elephants, monkeys, and wild boars damage crops, and sometimes people face direct attacks.", "tag": "example" },
+    { "id": "us-ch105b-f13", "sec": "105.9", "front": "What conflict do conservation laws create for forest dwellers?", "back": "Restrictions on forest use and commercial exploitation clash with survival needs, causing economic insecurity.", "tag": "concept" },
+    { "id": "us-ch105b-f14", "sec": "105.9", "front": "Why do forest communities earn low returns from forest products?", "back": "They often sell products at relatively low prices, so processing and marketing opportunities are essential.", "tag": "concept" },
+    { "id": "us-ch105b-f15", "sec": "105.9", "front": "What main reasons does the book give for forest fires?", "back": "Climate change as well as human-induced factors are the main reasons for forest fire occurrences.", "tag": "concept" },
+    { "id": "us-ch105b-f16", "sec": "105.10", "front": "What is the Forest Rights Act and when was it passed?", "back": "The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, commonly called FRA.", "tag": "definition" },
+    { "id": "us-ch105b-f17", "sec": "105.10", "front": "What does the FRA allow forest communities to do?", "back": "Collect minor forest produce like bamboo, honey, and medicinal plants, and own small patches of land they cultivate.", "tag": "concept" },
+    { "id": "us-ch105b-f18", "sec": "105.10", "front": "What does Joint Forest Management encourage?", "back": "Local communities to participate in protecting forests while benefiting from forest produce.", "tag": "concept" },
+    { "id": "us-ch105b-f19", "sec": "105.10", "front": "What does Mawa Nate Mawa Raj mean, and who follows it?", "back": "Our village, our rule; Mendha Lekha's Gond community decides everything through the Gram Sabha.", "tag": "trivia" },
+    { "id": "us-ch105b-f20", "sec": "105.10", "front": "How much forest does Mendha Lekha manage, and how?", "back": "1,800 hectares, by regulating tree cutting, preventing fires, and promoting bamboo harvesting as a renewable resource.", "tag": "example" },
+    { "id": "us-ch105b-f21", "sec": "105.11", "front": "Why are forests called the lungs of the Earth?", "back": "Forests maintain oxygen levels and balance the Earth's climate.", "tag": "concept" },
+    { "id": "us-ch105b-f22", "sec": "105.11", "front": "Name two factors that decide which biome develops in a region.", "back": "Temperature and precipitation patterns, along with dominant plant species, decide a region's biome.", "tag": "concept" },
+    { "id": "us-ch105b-f23", "sec": "105.11", "front": "Which chapter activity asks you to map protected areas?", "back": "Preparing a map of your state or Union Territory showing national parks and sanctuaries.", "tag": "trivia" },
+    { "id": "us-ch105b-f24", "sec": "105.11", "front": "How do forest dwellers contribute to forest protection?", "back": "Through sacred groves, rituals before resource collection, community rules in Mendha Lekha, and Joint Forest Management.", "tag": "example" }
+  ],
+  "quiz": [
+    { "id": "us-ch105b-q1", "sec": "105.7", "q": "Which of these is a non-timber forest product?", "options": ["Timber", "Honey", "Fodder", "Firewood"], "answer": 1, "why": "The book lists honey, fruits, nuts, resins, and medicinal plants as non-timber forest products.", "difficulty": "easy" },
+    { "id": "us-ch105b-q2", "sec": "105.7", "q": "Sacred groves are small forest patches protected by communities for which purposes?", "options": ["Religious and cultural purposes", "Commercial timber trade", "Mining and quarrying", "Sports and recreation"], "answer": 0, "why": "The book defines sacred groves as patches protected for religious and cultural purposes.", "difficulty": "easy" },
+    { "id": "us-ch105b-q3", "sec": "105.7", "q": "According to the book, about how many sacred groves are there across India?", "options": ["About 10,000", "About 5,000", "Over 1,00,000", "Over 10,00,000"], "answer": 2, "why": "India has over 1,00,000 sacred groves, though many are not officially recorded.", "difficulty": "medium" },
+    { "id": "us-ch105b-q4", "sec": "105.7", "q": "Tendu leaves, mahua flowers, sal seeds, and gums are forest produces mainly of which states?", "options": ["Jammu and Kashmir", "Meghalaya and Tripura", "Rajasthan and Punjab", "Madhya Pradesh and Chhattisgarh"], "answer": 3, "why": "The state map in the book lists these products for Madhya Pradesh and Chhattisgarh.", "difficulty": "medium" },
+    { "id": "us-ch105b-q5", "sec": "105.7", "q": "Gonds and Bhils performing rituals before collecting forest resources reflects what?", "options": ["A desire to sell more timber", "Fear of wild animals", "Sustainable cultural practices and respect for nature", "A recent government instruction"], "answer": 2, "why": "The book says these rituals reflect sustainable cultural practices and a deep respect for nature.", "difficulty": "hard" },
+    { "id": "us-ch105b-q6", "sec": "105.8", "q": "A Geographical Indication tag is a type of what?", "options": ["Intellectual property right", "Bank loan scheme", "Vaccination programme", "Crop insurance plan"], "answer": 0, "why": "The book defines a GI tag as a type of intellectual property right.", "difficulty": "easy" },
+    { "id": "us-ch105b-q7", "sec": "105.8", "q": "Ramban Sulai Honey carries the GI tag of which region?", "options": ["Assam", "Odisha", "Tripura", "Jammu and Kashmir"], "answer": 3, "why": "Ramban Sulai Honey is listed as a GI product of Jammu and Kashmir.", "difficulty": "easy" },
+    { "id": "us-ch105b-q8", "sec": "105.8", "q": "Which GI product is made from the forest tree Wrightia tinctoria?", "options": ["Tezpur Litchi", "Channapatna Toys", "Kandhamal Haldi", "Nilgiri Tea"], "answer": 1, "why": "Channapatna Toys are made from Wrightia tinctoria, locally called Aale mara.", "difficulty": "medium" },
+    { "id": "us-ch105b-q9", "sec": "105.8", "q": "Erode Turmeric of Tamil Nadu is cultivated in forest-influenced soils and used for what?", "options": ["Building furniture", "Weaving cloth", "Cooking and ayurvedic medicine", "Making paper"], "answer": 2, "why": "The book says Erode Turmeric is used for cooking and ayurvedic medicine.", "difficulty": "medium" },
+    { "id": "us-ch105b-q10", "sec": "105.8", "q": "Which statement best explains why Nilgiri Tea holds a GI tag?", "options": ["It grows only inside Kandhamal forest regions", "Its quality depends on forest ecosystem conditions of the Western Ghats", "It is carved from Aale mara wood", "It has the highest curcumin content in India"], "answer": 1, "why": "Though plantation-based, Nilgiri Tea's quality depends on Western Ghats forest conditions.", "difficulty": "hard" },
+    { "id": "us-ch105b-q11", "sec": "105.9", "q": "Which essential facilities do people living in forests often struggle to access?", "options": ["Healthcare, education, and clean water", "Cinemas, malls, and gyms", "Airports and metro rail", "Stock exchanges and banks"], "answer": 0, "why": "The book says forest dwellers struggle to access healthcare, education, and clean water.", "difficulty": "easy" },
+    { "id": "us-ch105b-q12", "sec": "105.9", "q": "Floods in forested hilly regions can do what?", "options": ["Improve soil fertility everywhere", "Create new national parks", "Raise forest produce prices", "Wash away homes, crops, and roads"], "answer": 3, "why": "The book says floods can wash away homes, crops, and roads.", "difficulty": "easy" },
+    { "id": "us-ch105b-q13", "sec": "105.9", "q": "Nearly what per cent of India's forest cover is extremely prone to forest fires?", "options": ["14 per cent", "36 per cent", "4 per cent", "54 per cent"], "answer": 2, "why": "FSI estimates nearly 4 per cent of the 36 per cent fire-prone cover is extremely prone.", "difficulty": "medium" },
+    { "id": "us-ch105b-q14", "sec": "105.9", "q": "What does the book say is essential to enhance the income of forest communities?", "options": ["Banning all forest collection", "Opportunities for processing and marketing products", "Cutting more timber for sale", "Moving all families to cities"], "answer": 1, "why": "Creating processing and marketing opportunities is essential to enhance their income.", "difficulty": "medium" },
+    { "id": "us-ch105b-q15", "sec": "105.9", "q": "Which pair of factors does the book call the main reasons for forest fires?", "options": ["Grazing and ecotourism", "Heavy rainfall and snowfall", "Bamboo harvesting and grazing", "Climate change and human-induced factors"], "answer": 3, "why": "The book states climate change as well as human-induced factors are the main reasons.", "difficulty": "hard" },
+    { "id": "us-ch105b-q16", "sec": "105.10", "q": "The Forest Rights Act recognises the rights of which people over what?", "options": ["Eligible communities over traditionally used forest land and resources", "Only timber companies over forest land", "Only forest officers over all produce", "Only city dwellers over village land"], "answer": 0, "why": "FRA recognises rights of eligible communities over forest land and resources they traditionally depended upon.", "difficulty": "easy" },
+    { "id": "us-ch105b-q17", "sec": "105.10", "q": "Mendha Lekha, the first village to gain FRA rights, is in which district?", "options": ["Kandhamal, Odisha", "Gadchiroli, Maharashtra", "Nilgiri, Tamil Nadu", "Tezpur, Assam"], "answer": 1, "why": "Mendha Lekha is a small tribal village in the Gadchiroli district of Maharashtra.", "difficulty": "easy" },
+    { "id": "us-ch105b-q18", "sec": "105.10", "q": "What does Joint Forest Management (JFM) encourage?", "options": ["Companies to buy forest land", "Villages to cut more timber", "Local communities to protect forests while benefiting from produce", "Officers to patrol without villagers"], "answer": 2, "why": "JFM encourages local communities to participate in protecting forests while benefiting from forest produce.", "difficulty": "medium" },
+    { "id": "us-ch105b-q19", "sec": "105.10", "q": "Which of these is the Panchayats (Extension to Scheduled Areas) Act, as named in the book?", "options": ["JFM", "FRA", "PM JANMAN", "PESA"], "answer": 3, "why": "PESA stands for the Panchayats (Extension to Scheduled Areas) Act.", "difficulty": "medium" },
+    { "id": "us-ch105b-q20", "sec": "105.10", "q": "In Mendha Lekha, how are all decisions made and under which principle?", "options": ["By timber contractors, by market prices", "By the district collector, by forest laws", "Collectively through the Gram Sabha, by Mawa Nate Mawa Raj", "By the eldest family, by custom alone"], "answer": 2, "why": "The village follows Mawa Nate Mawa Raj and decides collectively through the Gram Sabha.", "difficulty": "hard" },
+    { "id": "us-ch105b-q21", "sec": "105.11", "q": "Which chapter activity asks you to prepare a map of your state or Union Territory?", "options": ["Marking national parks and sanctuaries", "Marking railway lines", "Plotting rainfall graphs", "Tracing river pollution"], "answer": 0, "why": "The book asks for a state or UT map showing national parks and sanctuaries.", "difficulty": "easy" },
+    { "id": "us-ch105b-q22", "sec": "105.11", "q": "Why are forests often called the lungs of the Earth, as the chapter suggests?", "options": ["They provide honey and tendu leaves", "They maintain oxygen levels and balance the Earth's climate", "They stop all rainfall in a region", "They are home to GI-tagged products"], "answer": 1, "why": "The book says forests maintain oxygen levels and balance the Earth's climate.", "difficulty": "medium" },
+    { "id": "us-ch105b-q23", "sec": "105.11", "q": "If large forest areas continue to be destroyed, what long-term effect follows from chapter ideas?", "options": ["More GI tags get issued", "Sacred groves expand quickly", "Ecotourism jobs increase", "Oxygen levels and the Earth's climate balance get disturbed"], "answer": 3, "why": "Forests maintain oxygen and balance climate, so their destruction disturbs this balance.", "difficulty": "hard" }
+  ],
+  "examples": [
+    {
+      "id": "us-ch105b-e1",
+      "title": "From Forest to Family Income",
+      "problem": "Rani's family lives near a forest in Chhattisgarh. Using the chapter, describe how forests support their household: name at least three resources, two non-timber forest products they could gather, and one cultural practice that keeps this use sustainable.",
+      "steps": [
+        "Identify household resources: forests provide food, fuel, fodder, medicine, shelter, timber, bamboo, and firewood.",
+        "Pick the non-timber products: honey, fruits, nuts, resins, and medicinal plants help families meet daily needs and earn income.",
+        "Match the state map: Chhattisgarh is listed for tendu leaves, mahua flowers, sal seeds, and gums.",
+        "Add the sustainability layer: like the Gonds and Bhils, the family performs rituals to honour forest deities before collecting resources."
+      ],
+      "answer": "Forests meet Rani's family's needs through resources like fuel and fodder and products like tendu leaves and mahua flowers, while rituals before collection keep the use sustainable."
+    },
+    {
+      "id": "us-ch105b-e2",
+      "title": "Be a GI Detective",
+      "problem": "A product is grown by tribal communities in the forest regions of Kandhamal, has high curcumin content, and is valued for medicinal use. Identify the GI-tagged product and its state, and state what its GI tag achieves.",
+      "steps": [
+        "Clue one: grown by tribal communities in forest regions points to a forest-based product.",
+        "Clue two: high curcumin content and medicinal value point to a turmeric variety.",
+        "Match with the GI list in the book: Kandhamal Haldi from Odisha fits all the clues.",
+        "Recall what a GI tag does: it protects region-specific products, promotes cultural heritage, and generates economic benefits through exclusive market recognition."
+      ],
+      "answer": "Kandhamal Haldi from Odisha; its GI tag certifies its origin-linked quality and brings protection, recognition, and income to local communities."
+    },
+    {
+      "id": "us-ch105b-e3",
+      "title": "How Fire-Prone Is This Forest?",
+      "problem": "A district has 500 square kilometres of forest cover. As a model calculation using the Forest Survey of India estimates given in the book, find how much of this area is prone to forest fires and how much is extremely prone.",
+      "steps": [
+        "The book states that about 36 per cent of the country's forest cover is prone to forest fires.",
+        "Prone area: 36 per cent of 500 = 0.36 x 500 = 180 square kilometres.",
+        "The book adds that nearly 4 per cent of this fire-prone cover is extremely prone: 4 per cent of 180 = 7.2 square kilometres.",
+        "Check the remainder: 500 - 180 = 320 square kilometres is relatively less prone."
+      ],
+      "answer": "About 180 square kilometres is prone to forest fires, of which nearly 7.2 square kilometres is extremely prone."
+    },
+    {
+      "id": "us-ch105b-e4",
+      "title": "Plan Like Mendha Lekha",
+      "problem": "Your village Gram Sabha wants to manage its community forest the way Mendha Lekha does. Draft the main steps of the plan using the case study from the chapter.",
+      "steps": [
+        "Adopt the principle of Mawa Nate Mawa Raj: take every decision collectively through the Gram Sabha.",
+        "Protect the forest by regulating tree cutting and preventing forest fires.",
+        "Promote bamboo harvesting as a renewable resource so the forest keeps regenerating.",
+        "Use the revenue from forest produce for community welfare activities such as education and infrastructure."
+      ],
+      "answer": "A Gram Sabha-led plan that protects the forest, harvests bamboo sustainably, and reinvests revenue in education and infrastructure, balancing rights with duties."
+    }
+  ]
+}

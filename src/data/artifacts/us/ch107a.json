@@ -1,0 +1,733 @@
+{
+  "book": "us",
+  "chapter": 107,
+  "part": "a",
+  "title": "Governance and Public Policy",
+  "grade": 9,
+  "sections": [
+    { "id": "107.1", "title": "Governance" },
+    { "id": "107.2", "title": "Understanding Government and Governance" },
+    { "id": "107.3", "title": "Evolution of Governance in India" },
+    { "id": "107.4", "title": "Good Governance" },
+    { "id": "107.5", "title": "Challenges to Good Governance" }
+  ],
+  "slides": [
+    {
+      "id": "us-ch107a-s1",
+      "sec": "107.1",
+      "title": "What Is Governance?",
+      "kicker": "Not just orders — a team effort!",
+      "bullets": [
+        "Governance is the process where institutions and citizens work together to decide, act, and stay answerable.",
+        "Democratic governance rests on four foundations: transparency, accountability, participation, and the rule of law.",
+        "It places citizens at the centre of the political process, making it people-centric and welfare-oriented."
+      ],
+      "note": "Governance = government plus people, in action!"
+    },
+    {
+      "id": "us-ch107a-s2",
+      "sec": "107.1",
+      "title": "A Town in Heavy Rain",
+      "kicker": "Floods hit — who saves the day?",
+      "bullets": [
+        "Days of unusually heavy rainfall flood roads, close schools, disrupt electricity, and raise public health concerns.",
+        "People struggle to reach schools, workplaces, and even hospitals across the town.",
+        "During such situations, organisations and individuals come together to help all in need."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Heavy rain floods the town", "Daily life comes to a halt", "Everyone steps in to help"]
+      },
+      "note": "Think of your own town during monsoon."
+    },
+    {
+      "id": "us-ch107a-s3",
+      "sec": "107.1",
+      "title": "Many Hands, Many Roles",
+      "kicker": "One crisis, many kinds of helpers",
+      "bullets": [
+        "The municipal corporation clears drains and removes garbage; the Public Works Department repairs damaged roads.",
+        "The police manage traffic while school authorities inform parents that schools will remain closed.",
+        "Health workers prevent disease, local representatives raise concerns, and residents volunteer and report flooded areas."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Municipal corporation", "Public Works Department", "Police", "Health workers", "Local representatives", "Residents"]
+      },
+      "note": "Count the helpers — more than six!"
+    },
+    {
+      "id": "us-ch107a-s4",
+      "sec": "107.1",
+      "title": "Why Together Wins",
+      "kicker": "Alone we struggle, together we fix",
+      "bullets": [
+        "No single department can solve a flood-like crisis on its own because roads, health, traffic, and schools are all affected.",
+        "If departments did not communicate or coordinate with one another, the response would break down.",
+        "Solving public problems needs much more than a government issuing orders."
+      ],
+      "note": "Coordination is the secret ingredient."
+    },
+    {
+      "id": "us-ch107a-s5",
+      "sec": "107.2",
+      "title": "Government vs Governance",
+      "kicker": "Close cousins, not synonyms",
+      "bullets": [
+        "Government refers to the institutions and authorities that exercise political power.",
+        "Governance is the process by which decisions are made, implemented, and monitored in the public interest.",
+        "The two terms are closely related, but they are not synonymous."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Government",
+          "items": ["Institutions with political authority", "Legislature, Executive, Judiciary", "Focuses on who governs"]
+        },
+        "right": {
+          "title": "Governance",
+          "items": ["Process of decisions and implementation", "Government, citizens, media, civil society, private organisations", "Focuses on how governing is carried out"]
+        }
+      },
+      "note": "Who governs vs how governing happens."
+    },
+    {
+      "id": "us-ch107a-s6",
+      "sec": "107.2",
+      "title": "The Full Governance Team",
+      "kicker": "Citizens are players, not spectators",
+      "bullets": [
+        "Government includes the Legislature, the Executive, and the Judiciary.",
+        "Governance includes government, citizens, media, civil society, and private organisations.",
+        "Good governance makes policies transparent, accountable, effective, and responsive to people's needs."
+      ],
+      "note": "Media and civil society join the game too."
+    },
+    {
+      "id": "us-ch107a-s7",
+      "sec": "107.2",
+      "title": "The Street Light Test",
+      "kicker": "One bulb, two big ideas",
+      "bullets": [
+        "Installing street lights is government work: the municipal corporation or panchayat holds the authority to provide this public service.",
+        "Planning, maintaining, and improving the lights is governance: people identify dark spots, report non-functional lights, and give feedback.",
+        "Governance ensures continuous delivery of public services like well-lit streets and greater public safety."
+      ],
+      "note": "Spot more such examples in your daily life."
+    },
+    {
+      "id": "us-ch107a-s8",
+      "sec": "107.2",
+      "title": "Governance Is Everywhere",
+      "kicker": "From country to classroom",
+      "bullets": [
+        "Governance is the way a country, state, city, village, school, or organisation is managed.",
+        "It is the system through which decisions are made, implemented, and monitored for the welfare of the people.",
+        "Understanding governance is essential to know how government impacts our lives."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Governance shapes",
+        "children": ["Country", "State", "City or village", "School", "Organisation"]
+      },
+      "note": "Even your school has governance!"
+    },
+    {
+      "id": "us-ch107a-s9",
+      "sec": "107.3",
+      "title": "Institutions and Function",
+      "kicker": "Structure shapes how work gets done",
+      "bullets": [
+        "Government is the institutional aspect, while governance is its functional aspect.",
+        "The government's institutional setup influences the nature of governance.",
+        "Governance initiatives in turn require institutional adaptations to implement policies and schemes."
+      ],
+      "note": "Two sides of one coin."
+    },
+    {
+      "id": "us-ch107a-s10",
+      "sec": "107.3",
+      "title": "Life Before Colonial Rule",
+      "kicker": "Societies once ruled themselves",
+      "bullets": [
+        "European powers colonised many societies, particularly in Asia, Africa, and the Americas.",
+        "Before colonial rulers forced their own models, these societies governed themselves through local and organic systems.",
+        "Most colonies became independent by the end of the 20th century, yet colonial institutions largely persisted."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "Before colonial rule",
+          "items": ["Local and organic systems", "Own models of governance and policy-making"]
+        },
+        "right": {
+          "title": "Under colonial rule",
+          "items": ["Colonial models forced on people", "Colonial institutions persisted after independence"]
+        }
+      },
+      "note": "Remember colonialism from Grade 8?"
+    },
+    {
+      "id": "us-ch107a-s11",
+      "sec": "107.3",
+      "title": "India's Two Special Ways",
+      "kicker": "Memory kept, values renewed",
+      "bullets": [
+        "India preserved most of its knowledge of pre-colonial institutions and governance traditions through texts and practices.",
+        "After Independence in 1947, replacing all colonial institutions at once was not possible.",
+        "India's leaders framed the Constitution in the spirit of India's own values and ideals."
+      ],
+      "note": "Old wisdom, modern democracy."
+    },
+    {
+      "id": "us-ch107a-s12",
+      "sec": "107.3",
+      "title": "Mottos Tell the Story",
+      "kicker": "Words that carry values",
+      "bullets": [
+        "The British Order of the Star of India had the motto 'Heaven's Light, Our Guide'; India adopted 'Satyamev Jayate' after Independence.",
+        "The Supreme Court chose 'Yato Dharmastato Jayah' from the Mahabharata, meaning 'Where there is Dharma, there is victory'.",
+        "These changes are not merely symbolic; they signify core values and ideals."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": {
+          "title": "British era",
+          "items": ["Order of the Star of India", "Heaven's Light, Our Guide"]
+        },
+        "right": {
+          "title": "After Independence",
+          "items": ["Satyamev Jayate, from the Mundaka Upanishad", "Yato Dharmastato Jayah, from the Mahabharata"]
+        }
+      },
+      "note": "Truth alone triumphs!"
+    },
+    {
+      "id": "us-ch107a-s13",
+      "sec": "107.4",
+      "title": "The Sengol Story",
+      "kicker": "A thousand-year mark of righteous rule",
+      "bullets": [
+        "The Sengol, a cultural marker of rulership and good governance, was placed in the new Parliament building in 2023 by PM Narendra Modi.",
+        "The tradition began more than a thousand years ago during the reign of the Chola dynasty.",
+        "At midnight on 15th August 1947, Jawaharlal Nehru received the Sengol from the Adheenam Saints of Tamil Nadu."
+      ],
+      "note": "An old Shaivite tradition lives on."
+    },
+    {
+      "id": "us-ch107a-s14",
+      "sec": "107.4",
+      "title": "Ram Rajya and Rajadharma",
+      "kicker": "Rule as sacred responsibility",
+      "bullets": [
+        "Gandhi visualised ideal governance as Ram Rajya, rooted in probity, transparency, compassion, welfare, and people-centric spirit.",
+        "From the Vedic period to the Ramayana and Mahabharata, governance was seen as a sacred responsibility, not just a means of power.",
+        "Rajadharma, the foremost duty of an ideal king, was to protect the people by upholding Dharma and promote the welfare of society."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Probity", "Transparency", "Compassion", "Welfare", "People-centric"]
+      },
+      "note": "Ram Rajya shines in the Ramayana and Ramcharitamanas."
+    },
+    {
+      "id": "us-ch107a-s15",
+      "sec": "107.4",
+      "title": "Wisdom of the Ancients",
+      "kicker": "Happiness of people first",
+      "bullets": [
+        "Kautilya's Arthashastra says: Prajasukhe sukham rajnah prajanam cha hite hitam.",
+        "It means in the happiness of the people lies the happiness of the ruler, and in the interest of the people lies the interest of the ruler.",
+        "The Rigveda refers to the Sabha and Samiti as institutions where matters of governance and public welfare were discussed."
+      ],
+      "note": "Good governance was measured by peace, prosperity, justice, and well-being."
+    },
+    {
+      "id": "us-ch107a-s16",
+      "sec": "107.4",
+      "title": "Good Governance Daily",
+      "kicker": "What good governance does for you",
+      "bullets": [
+        "It maintains law and order so that people can live safely and peacefully.",
+        "It protects the rights and freedom of citizens, which are essential in a democratic society.",
+        "It helps people access public services such as education, healthcare, and transport, and promotes justice and fairness."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Law and order", "Rights and freedom", "Education", "Healthcare", "Transport", "Justice and fairness"]
+      },
+      "note": "Governance touches your whole day."
+    },
+    {
+      "id": "us-ch107a-s17",
+      "sec": "107.5",
+      "title": "Governance Never Finishes",
+      "kicker": "New times, new demands",
+      "bullets": [
+        "The task of governance is always ongoing.",
+        "With time, the needs, desires, and aspirations of people evolve, creating new challenges.",
+        "The government and its institutions have to keep responding to these changing demands."
+      ],
+      "note": "Governance is a journey, not a destination."
+    },
+    {
+      "id": "us-ch107a-s18",
+      "sec": "107.5",
+      "title": "Four Big Challenges",
+      "kicker": "Know the obstacles to fix them",
+      "bullets": [
+        "Weak coordination between institutions and departments can affect the implementation of government programmes.",
+        "Unequal access to public services can leave behind groups facing social, economic, or geographical barriers.",
+        "Malpractices and misuse of public offices stop resources and benefits from reaching the people.",
+        "Misinformation and fake news also pose a serious challenge to good governance."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["Weak coordination", "Unequal access", "Malpractices", "Misinformation"]
+      },
+      "note": "Fake news is a governance problem too."
+    },
+    {
+      "id": "us-ch107a-s19",
+      "sec": "107.5",
+      "title": "Who Fixes the Challenges",
+      "kicker": "Institutions, officials, citizens — all in",
+      "bullets": [
+        "Addressing these challenges requires effective institutions and responsible officials.",
+        "It also needs active citizens and a continued commitment to the principles of good governance.",
+        "Shared responsibility keeps democratic governance healthy."
+      ],
+      "note": "You are part of the answer."
+    },
+    {
+      "id": "us-ch107a-s20",
+      "sec": "107.5",
+      "title": "E-Governance Steps In",
+      "kicker": "A big helper for good governance",
+      "bullets": [
+        "The initiative of e-governance has contributed significantly towards good governance.",
+        "Details about e-governance are explored in the section that follows this one.",
+        "25th December is celebrated as National Good Governance Day."
+      ],
+      "note": "Ask why 25th December was chosen!"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "us-ch107a-f1",
+      "sec": "107.1",
+      "front": "Which four foundations support democratic governance?",
+      "back": "Transparency, accountability, participation, and the rule of law.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f2",
+      "sec": "107.1",
+      "front": "What is governance?",
+      "back": "The process where institutions and citizens work together, make decisions, implement them effectively, and remain accountable.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch107a-f3",
+      "sec": "107.1",
+      "front": "In the flood example, which department repaired the damaged roads?",
+      "back": "The Public Works Department repaired the damaged roads.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch107a-f4",
+      "sec": "107.1",
+      "front": "What did residents do during the heavy rainfall crisis?",
+      "back": "They volunteered to help vulnerable neighbours and reported on flooded areas.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch107a-f5",
+      "sec": "107.2",
+      "front": "What does the term government refer to?",
+      "back": "The institutions and authorities that exercise political power.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch107a-f6",
+      "sec": "107.2",
+      "front": "What does governance refer to?",
+      "back": "The process by which decisions are made, implemented, and monitored in the public interest.",
+      "tag": "definition"
+    },
+    {
+      "id": "us-ch107a-f7",
+      "sec": "107.2",
+      "front": "Which three institutions make up the government?",
+      "back": "The Legislature, the Executive, and the Judiciary.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f8",
+      "sec": "107.2",
+      "front": "In the street light example, which part is governance?",
+      "back": "Planning, implementing, and maintaining the lights with people identifying dark spots, reporting faults, and giving feedback.",
+      "tag": "example"
+    },
+    {
+      "id": "us-ch107a-f9",
+      "sec": "107.3",
+      "front": "Name the two ways India stands out among formerly colonised societies.",
+      "back": "It preserved pre-colonial governance knowledge through texts and practices, and framed its Constitution in the spirit of its own values.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f10",
+      "sec": "107.3",
+      "front": "What is India's national motto and its source?",
+      "back": "'Satyamev Jayate' (Truth alone triumphs), taken from the Mundaka Upanishad.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch107a-f11",
+      "sec": "107.3",
+      "front": "What is the motto of the Supreme Court of India?",
+      "back": "'Yato Dharmastato Jayah' from the Mahabharata, meaning 'Where there is Dharma, there is victory'.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch107a-f12",
+      "sec": "107.3",
+      "front": "What was the motto of the British Order of the Star of India?",
+      "back": "'Heaven's Light, Our Guide'.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch107a-f13",
+      "sec": "107.4",
+      "front": "What is the Sengol?",
+      "back": "A cultural marker of rulership and good governance, placed in the newly inaugurated Parliament building in 2023.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch107a-f14",
+      "sec": "107.4",
+      "front": "Who received the Sengol in 1947, and from whom?",
+      "back": "Jawaharlal Nehru received it at midnight on 15th August 1947 from the Adheenam Saints of Tamil Nadu.",
+      "tag": "trivia"
+    },
+    {
+      "id": "us-ch107a-f15",
+      "sec": "107.4",
+      "front": "What ideals define Gandhi's idea of Ram Rajya?",
+      "back": "Probity, transparency, compassion, welfare, and a people-centric orientation in governance and public policy.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f16",
+      "sec": "107.4",
+      "front": "What was Rajadharma?",
+      "back": "The foremost duty of an ideal king: to protect the people by upholding Dharma and promote the welfare of society.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f17",
+      "sec": "107.5",
+      "front": "Name the challenges to good governance listed in the book.",
+      "back": "Weak coordination, unequal access to services, malpractices and misuse of offices, and misinformation and fake news.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f18",
+      "sec": "107.5",
+      "front": "Which groups does unequal access leave behind?",
+      "back": "Groups facing social, economic, geographical, or other barriers.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f19",
+      "sec": "107.5",
+      "front": "Which initiative has contributed significantly to good governance?",
+      "back": "E-governance, which the book explores in detail in the next section.",
+      "tag": "concept"
+    },
+    {
+      "id": "us-ch107a-f20",
+      "sec": "107.5",
+      "front": "When is National Good Governance Day celebrated?",
+      "back": "On 25th December.",
+      "tag": "trivia"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "us-ch107a-q1",
+      "sec": "107.1",
+      "q": "In the book's flood example, which department repaired the damaged roads?",
+      "options": ["Public Works Department", "Municipal corporation", "Police department", "Health department"],
+      "answer": 0,
+      "why": "The Public Works Department repairs damaged roads while other bodies handle drains, traffic, and health.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q2",
+      "sec": "107.1",
+      "q": "Democratic governance is based on transparency, accountability, participation, and which other principle?",
+      "options": ["Rule of law", "Profit motive", "Majority power", "Fixed terms"],
+      "answer": 0,
+      "why": "The four foundations are transparency, accountability, participation, and the rule of law.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q3",
+      "sec": "107.1",
+      "q": "Why could no single department solve the flood crisis alone?",
+      "options": [
+        "Each department had too little staff",
+        "The crisis affected roads, health, traffic, and schools together",
+        "Departments are not allowed to act in emergencies",
+        "Only citizens were affected, not departments"
+      ],
+      "answer": 1,
+      "why": "Flooding disrupted many services at once, and the situation improved with the collective efforts of all.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch107a-q4",
+      "sec": "107.2",
+      "q": "Which question does government focus on, compared to governance?",
+      "options": ["Who governs", "How governing is carried out", "Why governing is needed", "When elections happen"],
+      "answer": 0,
+      "why": "Government focuses on who governs; governance focuses on how governing is carried out.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q5",
+      "sec": "107.2",
+      "q": "In the street light example, identifying dark spots and reporting non-functional lights shows which side?",
+      "options": [
+        "Government, because the corporation owns the lights",
+        "Governance, because citizens join the process of delivery",
+        "Judiciary, because rights are involved",
+        "Private organisations, because they build roads"
+      ],
+      "answer": 1,
+      "why": "Governance is the ongoing process involving people in planning, reporting, and feedback.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch107a-q6",
+      "sec": "107.2",
+      "q": "Which statement best captures the book's distinction between government and governance?",
+      "options": [
+        "Government makes decisions while governance only announces them",
+        "Government is the institutions with political authority while governance is the process of decision-making and implementation",
+        "Government and governance are exactly synonymous",
+        "Governance includes only elected leaders while government includes everyone"
+      ],
+      "answer": 1,
+      "why": "Government is institutional; governance is the functional process including citizens, media, and civil society.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch107a-q7",
+      "sec": "107.3",
+      "q": "From which text is the national motto 'Satyamev Jayate' taken?",
+      "options": ["The Mundaka Upanishad", "The Rigveda", "The Mahabharata", "The Arthashastra"],
+      "answer": 0,
+      "why": "Satyamev Jayate, meaning Truth alone triumphs, comes from the Mundaka Upanishad.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q8",
+      "sec": "107.3",
+      "q": "Which pair correctly lists the two ways India stands out from other colonised societies?",
+      "options": [
+        "It forgot its traditions and copied colonial models",
+        "It kept pre-colonial knowledge and framed its Constitution on its own values",
+        "It replaced all institutions at once in 1947",
+        "It avoided colonial rule completely"
+      ],
+      "answer": 1,
+      "why": "India preserved its governance traditions through texts and practices and framed the Constitution in the spirit of its own ideals.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch107a-q9",
+      "sec": "107.3",
+      "q": "According to the book, what do motto changes like adopting Satyamev Jayate actually signify?",
+      "options": [
+        "Only a decorative change of words",
+        "Core values and ideals, not merely symbolic changes",
+        "A complete break from Indian tradition",
+        "A plan to restore colonial institutions"
+      ],
+      "answer": 1,
+      "why": "The changes signify core values and ideals, reflecting the continuing importance of Indian ethical values in public life.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch107a-q10",
+      "sec": "107.4",
+      "q": "In which year was the Sengol placed in the newly inaugurated Parliament building?",
+      "options": ["1947", "2023", "2014", "1950"],
+      "answer": 1,
+      "why": "Prime Minister Narendra Modi placed the Sengol in the new Parliament building in 2023.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q11",
+      "sec": "107.4",
+      "q": "According to Kautilya's Arthashastra, where does the ruler's happiness lie?",
+      "options": [
+        "In the happiness of the people",
+        "In the size of the treasury",
+        "In the strength of the army",
+        "In the praise of poets"
+      ],
+      "answer": 0,
+      "why": "Prajasukhe sukham rajnah: in the happiness of the people lies the happiness of the ruler.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch107a-q12",
+      "sec": "107.4",
+      "q": "How was good governance measured in Indian tradition, beyond the ruler's authority?",
+      "options": [
+        "By the number of forts a king built",
+        "By peace, prosperity, justice, and well-being in society",
+        "By the taxes collected each year",
+        "By the victories in battles alone"
+      ],
+      "answer": 1,
+      "why": "Good governance was measured by the peace, prosperity, justice, and well-being in society.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "us-ch107a-q13",
+      "sec": "107.5",
+      "q": "On which date is National Good Governance Day celebrated?",
+      "options": ["25th December", "15th August", "26th January", "2nd October"],
+      "answer": 0,
+      "why": "25th December is celebrated as National Good Governance Day.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "us-ch107a-q14",
+      "sec": "107.5",
+      "q": "Which modern problem does the book list as a serious challenge to good governance?",
+      "options": [
+        "Misinformation and fake news",
+        "Slow internet speed",
+        "Rising cricket viewership",
+        "Long school holidays"
+      ],
+      "answer": 0,
+      "why": "Misinformation and fake news pose a serious challenge to good governance.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "us-ch107a-q15",
+      "sec": "107.5",
+      "q": "What combination does the book say is needed to address governance challenges?",
+      "options": [
+        "Only stricter laws and punishments",
+        "Effective institutions, responsible officials, active citizens, and continued commitment",
+        "Only more government departments",
+        "Only foreign investment and technology"
+      ],
+      "answer": 1,
+      "why": "Addressing challenges requires effective institutions, responsible officials, active citizens, and commitment to good governance principles.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "us-ch107a-e1",
+      "title": "The Flooded Town Response Map",
+      "problem": "Your town experiences several days of unusually heavy rainfall. Roads flood, schools close, electricity is disrupted, and public health concerns rise. Using the book's example, list which organisations and individuals act, what each one does, and why the response succeeds.",
+      "steps": [
+        "Identify the crisis: flooded roads, closed schools, disrupted electricity, and rising public health concerns.",
+        "Match civic bodies to roles: the municipal corporation clears drains and removes garbage; the Public Works Department repairs damaged roads.",
+        "Add safety and information roles: the police manage traffic; school authorities inform parents that schools will remain closed; health workers prevent the spread of diseases.",
+        "Add people's roles: local representatives raise people's concerns; residents volunteer to help vulnerable neighbours and report on flooded areas.",
+        "Conclude: the situation improves with the collective efforts of all, because institutions communicate, coordinate, and remain accountable."
+      ],
+      "answer": "The crisis is handled through governance: different institutions and citizens working together, making decisions, implementing them, and remaining accountable."
+    },
+    {
+      "id": "us-ch107a-e2",
+      "title": "Sorting Government from Governance",
+      "problem": "Your colony has several dark spots at night because street lights are not working. Following the book's street light example, separate the government's part from the governance part in solving this problem.",
+      "steps": [
+        "Spot the authority: the municipal corporation or panchayat has the authority to provide the public service of street lighting. That is government.",
+        "Spot the process: planning the lighting, implementing it, and maintaining it is governance.",
+        "Include the people: residents identify dark spots, report non-functional lights, and provide feedback.",
+        "Check the outcome: continuous delivery of the public service, giving well-lit streets and greater public safety."
+      ],
+      "answer": "Government installs the lights as the authority; governance keeps them working through a continuous process that involves people at every step."
+    },
+    {
+      "id": "us-ch107a-e3",
+      "title": "Tracing Values Through Mottos",
+      "problem": "Independent India changed the mottos it inherited. Trace each motto to its source and explain what the change signifies.",
+      "steps": [
+        "Note the old motto: the British 'Order of the Star of India' used 'Heaven's Light, Our Guide'.",
+        "Note the new motto: after Independence, India adopted 'Satyamev Jayate' (Truth alone triumphs) from the Mundaka Upanishad as its national motto.",
+        "Add the judiciary: the Supreme Court of India chose 'Yato Dharmastato Jayah' from the Mahabharata, meaning 'Where there is Dharma, there is victory'.",
+        "Explain the significance: these changes are not merely symbolic; they signify core values and ideals, reflecting the continuing importance of Indian ethical values in public life."
+      ],
+      "answer": "The new mottos show India drawing on traditional ideas and values of governance and adapting them to the needs of a modern democracy."
+    }
+  ],
+  "conceptMap": {
+    "center": "Governance and Public Policy",
+    "groups": [
+      { "id": "g1", "label": "Foundations" },
+      { "id": "g2", "label": "Actors" },
+      { "id": "g3", "label": "Indian Heritage" },
+      { "id": "g4", "label": "Challenges and Response" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Transparency", "group": "g1" },
+      { "id": "n2", "label": "Accountability", "group": "g1" },
+      { "id": "n3", "label": "Participation", "group": "g1" },
+      { "id": "n4", "label": "Rule of Law", "group": "g1" },
+      { "id": "n5", "label": "Government", "group": "g2" },
+      { "id": "n6", "label": "Citizens", "group": "g2" },
+      { "id": "n7", "label": "Media and Civil Society", "group": "g2" },
+      { "id": "n8", "label": "Private Organisations", "group": "g2" },
+      { "id": "n9", "label": "Rajadharma", "group": "g3" },
+      { "id": "n10", "label": "Ram Rajya", "group": "g3" },
+      { "id": "n11", "label": "Sabha and Samiti", "group": "g3" },
+      { "id": "n12", "label": "Arthashastra", "group": "g3" },
+      { "id": "n13", "label": "Governance Challenges", "group": "g4" },
+      { "id": "n14", "label": "E-Governance", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n5", "label": "builds trust" },
+      { "from": "n2", "to": "n5", "label": "keeps answerable" },
+      { "from": "n3", "to": "n6", "label": "empowers" },
+      { "from": "n4", "to": "n5", "label": "limits power" },
+      { "from": "n5", "to": "n6", "label": "delivers services" },
+      { "from": "n6", "to": "n5", "label": "feedback and votes" },
+      { "from": "n7", "to": "n5", "label": "watches and informs" },
+      { "from": "n8", "to": "n5", "label": "supports delivery" },
+      { "from": "n12", "to": "n9", "label": "teaches ruler's duty" },
+      { "from": "n10", "to": "n5", "label": "Gandhi's ideal" },
+      { "from": "n11", "to": "n3", "label": "ancient roots" },
+      { "from": "n13", "to": "n5", "label": "tests" },
+      { "from": "n14", "to": "n13", "label": "helps address" },
+      { "from": "n14", "to": "n6", "label": "better access" }
+    ]
+  },
+  "flowchart": {
+    "title": "How governance responds to a public problem",
+    "steps": [
+      { "id": "s1", "label": "Public problem appears", "detail": "Heavy rain floods roads, closes schools, and disrupts electricity." },
+      { "id": "s2", "label": "Actors come together", "detail": "Departments, local representatives, and residents coordinate instead of acting alone." },
+      { "id": "s3", "label": "Decisions are made", "detail": "Choices are made in the public interest, keeping citizens at the centre." },
+      { "id": "s4", "label": "Work is implemented", "detail": "Drains are cleared, roads repaired, traffic managed, and health risks controlled." },
+      { "id": "s5", "label": "Citizens participate", "detail": "People volunteer, report flooded areas, and give feedback." },
+      { "id": "s6", "label": "Accountability is maintained", "detail": "Actions are monitored so delivery stays transparent and responsive." },
+      { "id": "s7", "label": "New challenges emerge", "detail": "Weak coordination, unequal access, malpractice, and misinformation test the system." },
+      { "id": "s8", "label": "E-governance strengthens response", "detail": "E-governance contributes significantly towards good governance." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+  }
+}

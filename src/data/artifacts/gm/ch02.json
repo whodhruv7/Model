@@ -1,0 +1,944 @@
+{
+  "book": "gm",
+  "chapter": 2,
+  "title": "Introduction to Linear Polynomials",
+  "grade": 9,
+  "sections": [
+    { "id": "2.1", "title": "Introduction" },
+    { "id": "2.2", "title": "Linear Polynomials" },
+    { "id": "2.4", "title": "Linear growth and linear decay" },
+    { "id": "2.5", "title": "Linear Relationships" },
+    { "id": "2.6", "title": "Visualising linear relationships" }
+  ],
+  "slides": [
+    {
+      "id": "gm-ch02-s1",
+      "sec": "2.1",
+      "title": "Old Friends, New Name",
+      "kicker": "Algebraic expressions you know, now with a mission.",
+      "bullets": [
+        "In earlier grades you met algebraic expressions built from terms joined by plus and minus signs.",
+        "This chapter studies a special family of such expressions called linear polynomials, starting from everyday situations.",
+        "Every expression is a team of terms, and each term carries a story: boxes of pens, fences, seeds."
+      ],
+      "visual": {
+        "kind": "tree",
+        "root": "Algebraic expression",
+        "children": ["Terms", "Variables", "Coefficients", "Constants"]
+      },
+      "note": "Same expressions, now with a superpower."
+    },
+    {
+      "id": "gm-ch02-s2",
+      "sec": "2.1",
+      "title": "Raju Counts Pens, Pencils",
+      "kicker": "A shop, some boxes, and one neat expression.",
+      "bullets": [
+        "Red boxes hold 4 pens each and blue boxes hold 5 pencils each, so x red boxes give 4x pens and y blue boxes give 5y pencils.",
+        "With 3 extra pens free, Raju's total is 4x + 5y + 3, an algebraic expression with three terms: 4x, 5y and 3.",
+        "The letters x and y are variables (the book's letter-numbers), 4 and 5 are their coefficients, and 3 is a constant."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "x red boxes give 4x pens",
+          "y blue boxes give 5y pencils",
+          "3 pens come free",
+          "Total: 4x + 5y + 3"
+        ]
+      },
+      "note": "4 pens per box is why the 4 sits beside x."
+    },
+    {
+      "id": "gm-ch02-s3",
+      "sec": "2.1",
+      "title": "Naming Every Part",
+      "kicker": "Four jobs inside one small expression.",
+      "bullets": [
+        "In 4x + 5y + 3 the terms are 4x, 5y and 3; the variables are x and y, also called letter-numbers.",
+        "The coefficient is the number multiplying a variable: 4 for x and 5 for y.",
+        "A constant term like 3 never changes, because no variable is attached to it."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["term 4x", "variable x", "coefficient 4", "constant 3", "term 5y", "coefficient 5"]
+      },
+      "note": "Book's new word: variables, for our old letter-numbers."
+    },
+    {
+      "id": "gm-ch02-s4",
+      "sec": "2.1",
+      "title": "Fencing the Garden",
+      "kicker": "Wire, wood and seeds each add a term.",
+      "bullets": [
+        "A garden of length l and width w needs wire fence along the length at Rs 100 per metre, costing 2l × 100 = 200l.",
+        "Wooden fence along the width costs 2w × 80 = 160w, and sowing seeds at Rs 50 per square metre costs 50 × l × w = 50lw.",
+        "Total cost is 200l + 160w + 50lw: terms 200l, 160w, 50lw with variables l and w and coefficients 200, 160 and 50."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Wire fence: 200l", "Wooden fence: 160w", "Seeds: 50lw", "Add them all"]
+      },
+      "note": "Fence hugs both lengths, so 2l metres of wire."
+    },
+    {
+      "id": "gm-ch02-s5",
+      "sec": "2.1",
+      "title": "One Wire, Many Rectangles",
+      "kicker": "A 20 cm wire bends into different rectangles.",
+      "bullets": [
+        "Bend a 20 cm wire into a rectangle of length 7 cm and width 3 cm: the perimeter is 7 + 3 + 7 + 3 = 20 cm.",
+        "The same wire also makes a rectangle of length 5.5 cm and width 4.5 cm, so the perimeter stays 20 cm.",
+        "Changing length and width changes the shape, but the sum of all four sides is fixed by the wire."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Rectangle 1", "items": ["length 7 cm", "width 3 cm", "perimeter 20 cm"] },
+        "right": { "title": "Rectangle 2", "items": ["length 5.5 cm", "width 4.5 cm", "perimeter 20 cm"] }
+      },
+      "note": "Try your own: length 6 cm needs width 4 cm."
+    },
+    {
+      "id": "gm-ch02-s6",
+      "sec": "2.2",
+      "title": "Perimeter Powers a Pattern",
+      "kicker": "A square's perimeter is a linear polynomial.",
+      "bullets": [
+        "A square of side x has perimeter 4x, and the book calls 4x a linear polynomial in the variable x.",
+        "When the side grows from 1 to 1.5 to 2 to 2.5 to 3 cm, the perimeters run 4, 6, 8, 10, 12 cm.",
+        "Every extra 0.5 cm of side adds exactly 2 cm of perimeter: the jump never changes."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Side (cm)",
+        "ylabel": "Perimeter (cm)",
+        "points": [[1, 4], [1.5, 6], [2, 8], [2.5, 10], [3, 12]]
+      },
+      "note": "Side badhe toh perimeter badhe, by the same step!"
+    },
+    {
+      "id": "gm-ch02-s7",
+      "sec": "2.2",
+      "title": "The Chess Club Bill",
+      "kicker": "Joining fee plus Rs 50 per match.",
+      "bullets": [
+        "A chess club charges Rs 200 to join plus Rs 50 per match, so m matches cost 200 + 50m rupees.",
+        "The bill runs 250, 300, 350, 400, 450 for 1 to 5 matches, rising by a constant Rs 50 each time.",
+        "200 + 50m is a linear polynomial in m, and its steady rise is what the book calls a linear pattern."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Matches played",
+        "ylabel": "Amount paid (Rs)",
+        "points": [[1, 250], [2, 300], [3, 350], [4, 400], [5, 450]]
+      },
+      "note": "The Rs 200 joins before even one match."
+    },
+    {
+      "id": "gm-ch02-s8",
+      "sec": "2.2",
+      "title": "What Makes It Linear",
+      "kicker": "One test: constant difference between steps.",
+      "bullets": [
+        "A linear polynomial has one signature: the difference between successive values at integers is constant.",
+        "Perimeters of squares rose by 2 cm for each 0.5 cm of side; chess bills rose by Rs 50 for each extra match.",
+        "Patterns with this constant jump are called linear patterns, and straight-line graphs will show why later."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Square perimeters", "items": ["side steps of 0.5 cm", "perimeter steps of 2 cm"] },
+        "right": { "title": "Chess payments", "items": ["match steps of 1", "payment steps of Rs 50"] }
+      },
+      "note": "Same-size jumps, every single time."
+    },
+    {
+      "id": "gm-ch02-s9",
+      "sec": "2.2",
+      "title": "Polynomial Meets Equation",
+      "kicker": "Equate it to a constant and solve.",
+      "bullets": [
+        "Two numbers add to 64 and one is 10 more than the other: if the smaller is x, the larger is x + 10.",
+        "The condition x + (x + 10) = 64 becomes 2x + 10 = 64, and 2x + 10 is a linear polynomial.",
+        "Equating a linear polynomial in one variable to a constant gives a linear equation, here 2x = 54, so x = 27."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["x + (x + 10) = 64", "2x + 10 = 64", "2x = 54", "x = 27"]
+      },
+      "note": "The numbers are 27 and 37. Check: they add to 64."
+    },
+    {
+      "id": "gm-ch02-s10",
+      "sec": "2.2",
+      "title": "The Input-Output Machine",
+      "kicker": "Feed in x, the polynomial answers.",
+      "bullets": [
+        "Think of a polynomial as a machine: for the polynomial 2x + 3, every input x produces exactly one output value.",
+        "Input x = 4 gives 2 × 4 + 3 = 11; input x = -6 gives 2 × (-6) + 3 = -9.",
+        "Substituting the value of x into the expression is all the machine does, for any x you choose."
+      ],
+      "visual": {
+        "kind": "flow",
+        "items": ["Input x = 4", "Multiply by 2", "Add 3", "Output 11"]
+      },
+      "note": "Negative inputs welcome; the machine never complains."
+    },
+    {
+      "id": "gm-ch02-s11",
+      "sec": "2.4",
+      "title": "Cost of a Journey",
+      "kicker": "Rs 100 to start, Rs 60 for each km.",
+      "bullets": [
+        "The journey cost is modelled by the linear function C(d) = 100 + 60d, with C in rupees and d in km.",
+        "The table of values runs 100, 160, 220, 280, 340, 400 as d goes from 0 to 5 km.",
+        "Each extra km adds a fixed Rs 60, so the cost grows in equal steps."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Distance d (km)",
+        "ylabel": "Cost C (Rs)",
+        "points": [[0, 100], [1, 160], [2, 220], [3, 280], [4, 340], [5, 400]]
+      },
+      "note": "Even at 0 km you pay Rs 100."
+    },
+    {
+      "id": "gm-ch02-s12",
+      "sec": "2.4",
+      "title": "Linear Growth Defined",
+      "kicker": "Up by a constant over equal intervals.",
+      "bullets": [
+        "Linear growth describes a linear pattern where a quantity increases by a constant amount over equal intervals.",
+        "In the journey example, d increasing by one km (an equal interval) makes C increase by Rs 60 (a constant amount).",
+        "The same story fits a plant of height 1.75 feet growing 0.5 feet each month, from Exercise Set 2.4."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Pick equal intervals",
+          "Measure the quantity",
+          "Check the increase each step",
+          "Constant increase means growth"
+        ]
+      },
+      "note": "One km, Rs 60. One month, 0.5 feet. See the rhythm?"
+    },
+    {
+      "id": "gm-ch02-s13",
+      "sec": "2.4",
+      "title": "The Shrinking Tank",
+      "kicker": "Water falls 0.5 m every month.",
+      "bullets": [
+        "A cylindrical tank holds water 3 m deep at the start of summer, and h(t) = 3 - 0.5t gives the height after t months.",
+        "Heights run 3, 2.5, 2, 1.5, 1 m for t = 0 to 4 months, dropping by a fixed 0.5 each month.",
+        "A quantity that decreases by a constant amount over equal intervals shows linear decay."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Months t",
+        "ylabel": "Height h (m)",
+        "points": [[0, 3], [1, 2.5], [2, 2], [3, 1.5], [4, 1]]
+      },
+      "note": "After 5 months only 0.5 m remains."
+    },
+    {
+      "id": "gm-ch02-s14",
+      "sec": "2.4",
+      "title": "Growth or Decay?",
+      "kicker": "The sign of the constant decides.",
+      "bullets": [
+        "Linear growth and linear decay use the same idea with opposite signs: constant change over equal intervals.",
+        "Journey cost C(d) = 100 + 60d rises by 60 each km, while tank height h(t) = 3 - 0.5t falls by 0.5 each month.",
+        "A phone bought for Rs 10,000 that loses Rs 800 every year is decay in action, straight from the exercises."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Linear growth", "items": ["C(d) = 100 + 60d", "rises by Rs 60 per km"] },
+        "right": { "title": "Linear decay", "items": ["h(t) = 3 - 0.5t", "falls by 0.5 m per month"] }
+      },
+      "note": "Same idea, opposite direction."
+    },
+    {
+      "id": "gm-ch02-s15",
+      "sec": "2.5",
+      "title": "One Rule, Two Variables",
+      "kicker": "Two variables, linked by one rule.",
+      "bullets": [
+        "A linear relationship expresses how two variables x and y connect, written as y = ax + b.",
+        "Here a and b are fixed numbers: a scales the input x and b is the starting value added on.",
+        "Every pair (x, y) that follows the rule satisfies this one equation."
+      ],
+      "visual": {
+        "kind": "labels",
+        "items": ["y depends on x", "a is the rate", "b is the start", "one straight rule"]
+      },
+      "note": "a is the doer, b is the head start."
+    },
+    {
+      "id": "gm-ch02-s16",
+      "sec": "2.5",
+      "title": "Tiles Get an Equation",
+      "kicker": "The tile pattern returns as an equation.",
+      "bullets": [
+        "In the growing pattern of square tiles, x is the number of the term and y is the number of square tiles.",
+        "The linear relationship between them is y = 2x - 1, exactly the pattern met earlier in the chapter.",
+        "Using the equation: term 1 has 1 tile, term 2 has 3 tiles, term 3 has 5 tiles, and so on."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "Term number x",
+        "ylabel": "Tiles y",
+        "points": [[1, 1], [2, 3], [3, 5], [4, 7]]
+      },
+      "note": "One rule, endless terms."
+    },
+    {
+      "id": "gm-ch02-s17",
+      "sec": "2.5",
+      "title": "The Telecom Bill Puzzle",
+      "kicker": "Two bills are enough to crack it.",
+      "bullets": [
+        "A telecom company charges a fixed monthly fee plus a cost per GB, and y = ax + b should model the bill.",
+        "The student observes 10 GB cost Rs 350 and 20 GB cost Rs 550, giving 350 = 10a + b and 550 = 20a + b.",
+        "Two observations, two equations: exactly what we need to find the two unknowns a and b."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "Observation 1", "items": ["x = 10 GB", "y = Rs 350", "350 = 10a + b"] },
+        "right": { "title": "Observation 2", "items": ["x = 20 GB", "y = Rs 550", "550 = 20a + b"] }
+      },
+      "note": "Two clues, two unknowns."
+    },
+    {
+      "id": "gm-ch02-s18",
+      "sec": "2.5",
+      "title": "Solving for a and b",
+      "kicker": "Substitute, simplify, done.",
+      "bullets": [
+        "From 350 = 10a + b write b = 350 - 10a, then substitute into 550 = 20a + b.",
+        "That gives 550 = 20a + 350 - 10a, so 550 = 10a + 350 and 10a = 200, hence a = 20.",
+        "Then b = 350 - 10a = 350 - 200 = 150, and the relationship is y = 20x + 150."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Write b = 350 - 10a",
+          "Substitute in 550 = 20a + b",
+          "Get 10a = 200, so a = 20",
+          "Back out b = 150"
+        ]
+      },
+      "note": "y = 20x + 150: Rs 20 per GB, fee Rs 150."
+    },
+    {
+      "id": "gm-ch02-s19",
+      "sec": "2.5",
+      "title": "Reading a and b",
+      "kicker": "The numbers have real meaning.",
+      "bullets": [
+        "In y = 20x + 150, the number 20 is the cost of each GB of data used.",
+        "The number 150 is the fixed monthly fee, paid even before any data is used.",
+        "Matching a and b to the situation is how you check that your equation tells the true story."
+      ],
+      "visual": {
+        "kind": "compare",
+        "left": { "title": "a = 20", "items": ["cost per GB", "multiplies the variable x"] },
+        "right": { "title": "b = 150", "items": ["fixed monthly fee", "stands alone as constant"] }
+      },
+      "note": "Sense-check a and b against the story."
+    },
+    {
+      "id": "gm-ch02-s20",
+      "sec": "2.6",
+      "title": "Two Points Draw a Line",
+      "kicker": "Any two points will do the job.",
+      "bullets": [
+        "A linear equation like y = ax + b can be plotted as a straight line on the coordinate plane.",
+        "To plot y = 2x + 1, find two points: when x = 0, y = 1 giving A (0, 1), and when x = 3, y = 7 giving B (3, 7).",
+        "Plot A and B, join them with a ruler, and extend the line in both directions."
+      ],
+      "visual": {
+        "kind": "steps",
+        "items": [
+          "Choose any x",
+          "Compute y = 2x + 1",
+          "Plot the two points",
+          "Join and extend"
+        ]
+      },
+      "note": "Graph paper makes this genuinely fun."
+    },
+    {
+      "id": "gm-ch02-s21",
+      "sec": "2.6",
+      "title": "Points That Obey the Rule",
+      "kicker": "On the line means in the equation.",
+      "bullets": [
+        "Other points on y = 2x + 1 include (1, 3) and (7, 15), found by substituting each x.",
+        "A point lies on a line only if its coordinates satisfy the equation of the line.",
+        "Check (7, 15): putting x = 7 and y = 15 gives 2 × 7 + 1 = 15, so it truly sits on the line."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "x",
+        "ylabel": "y",
+        "points": [[0, 1], [1, 3], [3, 7], [7, 15]]
+      },
+      "note": "If it satisfies, it sits on the line."
+    },
+    {
+      "id": "gm-ch02-s22",
+      "sec": "2.6",
+      "title": "Five Points, One Line",
+      "kicker": "y is three times x here.",
+      "bullets": [
+        "Plot (-1, -3), (0, 0), (1, 3), (3, 9), (4, 12) and join (-1, -3) to (4, 12): all five points fall on one straight line.",
+        "For every point, the y-coordinate is three times the x-coordinate, so the equation of the line is y = 3x.",
+        "Spotting how y depends on x lets you write the equation without any extra formula."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "x",
+        "ylabel": "y",
+        "points": [[-1, -3], [0, 0], [1, 3], [3, 9], [4, 12]]
+      },
+      "note": "Equation guessing, detective style."
+    },
+    {
+      "id": "gm-ch02-s23",
+      "sec": "2.6",
+      "title": "A Line That Falls",
+      "kicker": "Negative a tilts the line down.",
+      "bullets": [
+        "The points (-3, 6), (-2, 4), (0, 0), (1, -2), (2, -4), (3, -6) all lie on one straight line.",
+        "Here each y-coordinate is -2 times the x-coordinate, so the line is y = -2x.",
+        "Because a is negative, the line slopes downward as x grows, the picture of linear decay."
+      ],
+      "visual": {
+        "kind": "plot",
+        "type": "line",
+        "xlabel": "x",
+        "ylabel": "y",
+        "points": [[-3, 6], [-2, 4], [0, 0], [1, -2], [2, -4], [3, -6]]
+      },
+      "note": "Negative a: the line walks downhill."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "gm-ch02-f1",
+      "sec": "2.1",
+      "front": "Raju buys x red pen boxes and y blue pencil boxes, plus 3 free pens. Total expression?",
+      "back": "4x + 5y + 3. The 4x pens, 5y pencils and 3 free pens are the three terms.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f2",
+      "sec": "2.1",
+      "front": "In 4x + 5y + 3, what are the coefficients of x and y?",
+      "back": "4 and 5. Each coefficient is the number multiplying its variable.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch02-f3",
+      "sec": "2.1",
+      "front": "What is a variable?",
+      "back": "A letter-number, like x or y, whose value can change. The book now calls letter-numbers variables.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch02-f4",
+      "sec": "2.1",
+      "front": "Why does the garden seed cost come out as 50lw?",
+      "back": "Seeds cost Rs 50 per square metre and the garden area is l times w, so the cost is 50lw.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f5",
+      "sec": "2.1",
+      "front": "A 20 cm wire is bent into different rectangles. What stays the same?",
+      "back": "The perimeter: 7 by 3 and 5.5 by 4.5 both use up exactly 20 cm of wire.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f6",
+      "sec": "2.2",
+      "front": "What is the perimeter of a square of side x?",
+      "back": "4x, a linear polynomial in the variable x, straight from Example 4.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch02-f7",
+      "sec": "2.2",
+      "front": "Chess club: Rs 200 joining fee plus Rs 50 per match. Cost after m matches?",
+      "back": "200 + 50m rupees, a linear polynomial in m. Each match adds a constant Rs 50.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch02-f8",
+      "sec": "2.2",
+      "front": "What is a linear equation?",
+      "back": "A linear polynomial in one variable equated to a constant, like 2x = 54.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch02-f9",
+      "sec": "2.2",
+      "front": "What single feature marks a linear pattern?",
+      "back": "The difference between successive values at integers is constant, like Rs 50 per extra match.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f10",
+      "sec": "2.2",
+      "front": "For the polynomial 2x + 3, what is the output when x = -6?",
+      "back": "-9, because 2 times -6 plus 3 equals -9.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f11",
+      "sec": "2.4",
+      "front": "Journey cost is C(d) = 100 + 60d. What is the cost at d = 0 km?",
+      "back": "Rs 100, the fixed part of the cost before any distance is travelled.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f12",
+      "sec": "2.4",
+      "front": "Define linear growth.",
+      "back": "A linear pattern where a quantity increases by a constant amount over equal intervals.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch02-f13",
+      "sec": "2.4",
+      "front": "Tank height is h(t) = 3 - 0.5t. What is h after 4 months?",
+      "back": "3 - 0.5 × 4 = 1 m. The height drops a fixed 0.5 m each month.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f14",
+      "sec": "2.4",
+      "front": "Define linear decay.",
+      "back": "A linear pattern where a quantity decreases by a constant amount over equal intervals.",
+      "tag": "definition"
+    },
+    {
+      "id": "gm-ch02-f15",
+      "sec": "2.4",
+      "front": "A phone bought for Rs 10,000 loses Rs 800 every year. Growth or decay?",
+      "back": "Linear decay: the value falls by a constant Rs 800 every year.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f16",
+      "sec": "2.5",
+      "front": "What is the general form of a linear relationship between x and y?",
+      "back": "y = ax + b, where a and b are fixed numbers.",
+      "tag": "formula"
+    },
+    {
+      "id": "gm-ch02-f17",
+      "sec": "2.5",
+      "front": "The square-tile pattern has relationship y = 2x - 1. How many tiles in term 4?",
+      "back": "2 × 4 - 1 = 7 tiles.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f18",
+      "sec": "2.5",
+      "front": "In y = ax + b, what does the number a represent?",
+      "back": "The rate of change: how much y grows for each unit of x, like rupees per GB.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f19",
+      "sec": "2.5",
+      "front": "Telecom bill: 10 GB cost Rs 350, 20 GB cost Rs 550. Find a and b.",
+      "back": "a = 20 and b = 150, so y = 20x + 150.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f20",
+      "sec": "2.5",
+      "front": "Gym: 10 court-hours cost Rs 800, 15 hours cost Rs 1100, bill y = ax + b. Find a.",
+      "back": "a = 60, since 1100 - 800 = 300 over 5 extra hours gives Rs 60 per hour.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f21",
+      "sec": "2.6",
+      "front": "What is the fewest number of points needed to plot a straight line?",
+      "back": "Two. Find any two points, plot them, join with a ruler and extend both ways.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f22",
+      "sec": "2.6",
+      "front": "For y = 2x + 1, which point comes from x = 0?",
+      "back": "The point A (0, 1): when x = 0, y = 2 × 0 + 1 = 1.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f23",
+      "sec": "2.6",
+      "front": "How do you verify that (7, 15) lies on the line y = 2x + 1?",
+      "back": "Substitute x = 7 and y = 15 into the equation: 2 × 7 + 1 = 15, so the point satisfies it.",
+      "tag": "concept"
+    },
+    {
+      "id": "gm-ch02-f24",
+      "sec": "2.6",
+      "front": "The points (1, 3), (3, 9), (4, 12) lie on one line. What is its equation?",
+      "back": "y = 3x, because each y-coordinate is three times the x-coordinate.",
+      "tag": "example"
+    },
+    {
+      "id": "gm-ch02-f25",
+      "sec": "2.6",
+      "front": "Points (-3, 6), (0, 0), (3, -6) lie on y = -2x. What does negative a do to the graph?",
+      "back": "It makes the line slope downward as x increases, the picture of linear decay.",
+      "tag": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "gm-ch02-q1",
+      "sec": "2.1",
+      "q": "In the expression 4x + 5y + 3, how many terms are there?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "why": "The terms are 4x, 5y and 3, joined by plus signs.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q2",
+      "sec": "2.1",
+      "q": "In Raju's total 4x + 5y + 3, which part is the constant?",
+      "options": ["4x", "5y", "x", "3"],
+      "answer": 3,
+      "why": "A constant has no variable attached; here it is the 3 free pens.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q3",
+      "sec": "2.1",
+      "q": "Wire fence costs Rs 100 per metre along both lengths of the garden. Which term shows this cost?",
+      "options": ["100l", "2l", "200l", "200w"],
+      "answer": 2,
+      "why": "Both lengths mean 2l metres, so 2l × 100 = 200l.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q4",
+      "sec": "2.1",
+      "q": "The garden cost 200l + 160w + 50lw differs from Raju's 4x + 5y + 3 because it has",
+      "options": ["a term that multiplies two variables", "no variables at all", "only a constant term", "no coefficients"],
+      "answer": 0,
+      "why": "The seeding cost 50lw multiplies l and w, unlike any term in 4x + 5y + 3.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q5",
+      "sec": "2.1",
+      "q": "A 20 cm wire forms a rectangle with length 7 cm. What is its width?",
+      "options": ["6 cm", "13 cm", "10 cm", "3 cm"],
+      "answer": 3,
+      "why": "The perimeter stays 20: 7 + 3 + 7 + 3 = 20, so the width is 3 cm.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch02-q6",
+      "sec": "2.2",
+      "q": "The perimeter of a square of side x is",
+      "options": ["x + 4", "x^4", "4x", "x/4"],
+      "answer": 2,
+      "why": "A square has four equal sides, so 4x is a linear polynomial in x.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q7",
+      "sec": "2.2",
+      "q": "Chess club fee is 200 + 50m rupees. What is the bill for 3 matches?",
+      "options": ["Rs 250", "Rs 400", "Rs 300", "Rs 350"],
+      "answer": 3,
+      "why": "200 + 50 × 3 = 350, matching the book's table.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q8",
+      "sec": "2.2",
+      "q": "A player paid the chess club Rs 750. How many matches did he play?",
+      "options": ["9", "10", "11", "13"],
+      "answer": 2,
+      "why": "750 = 200 + 50m gives 50m = 550, so m = 11.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q9",
+      "sec": "2.2",
+      "q": "Two numbers add to 64 and one is 10 more than the other. The larger number is",
+      "options": ["37", "27", "47", "32"],
+      "answer": 0,
+      "why": "x + (x + 10) = 64 gives x = 27, so the numbers are 27 and 37.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q10",
+      "sec": "2.2",
+      "q": "The machine for 2x + 3 gives output -9. What was the input?",
+      "options": ["-3", "3", "-6", "6"],
+      "answer": 2,
+      "why": "2 × (-6) + 3 = -9, so the input x was -6.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch02-q11",
+      "sec": "2.4",
+      "q": "Journey cost is C(d) = 100 + 60d. What does 60 represent?",
+      "options": ["starting fee", "cost per km", "number of km", "total cost"],
+      "answer": 1,
+      "why": "Each extra km adds Rs 60 to the cost.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q12",
+      "sec": "2.4",
+      "q": "Using h(t) = 3 - 0.5t, the tank height after 2 months is",
+      "options": ["1 m", "2.5 m", "2 m", "3 m"],
+      "answer": 2,
+      "why": "3 - 0.5 × 2 = 2, as in the book's table.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q13",
+      "sec": "2.4",
+      "q": "The journey cost is Rs 700. How far was the journey?",
+      "options": ["10 km", "8 km", "12 km", "15 km"],
+      "answer": 0,
+      "why": "100 + 60d = 700 gives 60d = 600, so d = 10.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q14",
+      "sec": "2.4",
+      "q": "A phone bought for Rs 10,000 loses Rs 800 every year. Its value after 3 years is",
+      "options": ["Rs 8400", "Rs 9200", "Rs 6000", "Rs 7600"],
+      "answer": 3,
+      "why": "10000 - 800 × 3 = 7600; the value decays linearly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q15",
+      "sec": "2.4",
+      "q": "Which situation shows linear growth?",
+      "options": ["tank height falling 0.5 m monthly", "village population 750 rising by 50 people every year", "phone value dropping Rs 800 yearly", "a bill that changes by different amounts"],
+      "answer": 1,
+      "why": "A constant increase of 50 people per year over equal intervals is linear growth.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch02-q16",
+      "sec": "2.5",
+      "q": "A linear relationship between x and y is written as",
+      "options": ["xy = b", "y = a/x + b", "y = ax^2 + b", "y = ax + b"],
+      "answer": 3,
+      "why": "The book defines the linear relationship between two variables as y = ax + b.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q17",
+      "sec": "2.5",
+      "q": "Tile pattern: y = 2x - 1. How many tiles does term 3 use?",
+      "options": ["6", "5", "7", "4"],
+      "answer": 1,
+      "why": "2 × 3 - 1 = 5 tiles.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q18",
+      "sec": "2.5",
+      "q": "Telecom example found a = 20 and b = 150. What does 150 mean?",
+      "options": ["cost per GB of data", "number of GB used", "fixed monthly fee", "total bill"],
+      "answer": 2,
+      "why": "150 is paid even with no data; 20 is the per-GB cost.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q19",
+      "sec": "2.5",
+      "q": "Using y = 20x + 150, what is the bill for 15 GB?",
+      "options": ["Rs 300", "Rs 450", "Rs 500", "Rs 170"],
+      "answer": 1,
+      "why": "20 × 15 + 150 = 450 rupees.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q20",
+      "sec": "2.5",
+      "q": "Gym: 10 hours cost Rs 800, 15 hours cost Rs 1100, and y = ax + b. Find a and b.",
+      "options": ["a = 60, b = 200", "a = 80, b = 0", "a = 30, b = 500", "a = 60, b = 800"],
+      "answer": 0,
+      "why": "800 = 10a + b and 1100 = 15a + b give 5a = 300, so a = 60 and b = 200.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch02-q21",
+      "sec": "2.6",
+      "q": "For the line y = 2x + 1, what is y when x = 0?",
+      "options": ["0", "2", "3", "1"],
+      "answer": 3,
+      "why": "2 × 0 + 1 = 1, giving the point A (0, 1).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gm-ch02-q22",
+      "sec": "2.6",
+      "q": "Which point lies on the line y = 2x + 1?",
+      "options": ["(7, 14)", "(3, 6)", "(7, 15)", "(0, 0)"],
+      "answer": 2,
+      "why": "2 × 7 + 1 = 15, so (7, 15) satisfies the equation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q23",
+      "sec": "2.6",
+      "q": "The points (1, 3), (3, 9), (4, 12) lie on one line. Its equation is",
+      "options": ["y = 3x", "y = x + 2", "y = 4x", "y = 2x + 1"],
+      "answer": 0,
+      "why": "Each y-coordinate is three times the x-coordinate, so y = 3x.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gm-ch02-q24",
+      "sec": "2.6",
+      "q": "Which equation fits the points (-3, 6), (0, 0) and (3, -6)?",
+      "options": ["y = 2x", "y = -3x", "y = -2x", "y = x - 3"],
+      "answer": 2,
+      "why": "Each y is -2 times x: 6 = -2 × (-3) and -6 = -2 × 3.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gm-ch02-q25",
+      "sec": "2.6",
+      "q": "To plot y = 2x + 1, the book finds two points A and B. They are",
+      "options": ["(1, 0) and (7, 3)", "(0, 1) and (3, 7)", "(0, 0) and (1, 1)", "(2, 5) and (5, 2)"],
+      "answer": 1,
+      "why": "x = 0 gives y = 1 and x = 3 gives y = 7.",
+      "difficulty": "hard"
+    }
+  ],
+  "examples": [
+    {
+      "id": "gm-ch02-e1",
+      "title": "Two Numbers That Sum to 64",
+      "problem": "The sum of two numbers is 64. One of the numbers is 10 more than the other. Find the two numbers. (Example 6 in the book.)",
+      "steps": [
+        "Let the smaller number be x. Then the larger number is x + 10.",
+        "Their sum is 64, so x + (x + 10) = 64, which simplifies to the linear equation 2x + 10 = 64.",
+        "Move the constant across: 2x = 64 - 10 = 54.",
+        "Divide by 2: x = 27, so the larger number is x + 10 = 37.",
+        "Check: 27 + 37 = 64 and 37 - 27 = 10, exactly as the problem says."
+      ],
+      "answer": "The two numbers are 27 and 37."
+    },
+    {
+      "id": "gm-ch02-e2",
+      "title": "Cracking the Telecom Bill",
+      "problem": "A telecom company charges a fixed monthly fee plus a cost per GB of data. A student observes that using 10 GB costs Rs 350 and using 20 GB costs Rs 550. If the bill is y = ax + b, find a and b. (Example 11 in the book.)",
+      "steps": [
+        "Substitute the two observations into y = ax + b to get 350 = 10a + b and 550 = 20a + b.",
+        "From the first equation, write b = 350 - 10a.",
+        "Substitute into the second equation: 550 = 20a + (350 - 10a).",
+        "Simplify: 550 = 10a + 350, so 10a = 200 and a = 20.",
+        "Substitute back: b = 350 - 10 × 20 = 350 - 200 = 150.",
+        "The 20 is the cost per GB of data and the 150 is the fixed monthly fee."
+      ],
+      "answer": "a = 20 and b = 150, so the monthly bill is y = 20x + 150 rupees."
+    },
+    {
+      "id": "gm-ch02-e3",
+      "title": "Journey Cost Questions",
+      "problem": "The cost of a journey is C(d) = 100 + 60d rupees, where d is the distance travelled in km. Find the cost of travelling 15 km, and find the distance for which the cost is Rs 700. (Think and Reflect questions of Example 9.)",
+      "steps": [
+        "For 15 km, substitute d = 15 into C(d) = 100 + 60d.",
+        "Compute 60 × 15 = 900, so C = 100 + 900 = 1000 rupees.",
+        "For the second part, start from the linear equation 100 + 60d = 700.",
+        "Subtract 100 from both sides: 60d = 600.",
+        "Divide by 60: d = 10 km."
+      ],
+      "answer": "Travelling 15 km costs Rs 1000, and a journey costing Rs 700 covers 10 km."
+    },
+    {
+      "id": "gm-ch02-e4",
+      "title": "From Plotted Points to Equation",
+      "problem": "The points (-1, -3), (0, 0), (1, 3), (3, 9) and (4, 12) are plotted and joined with a ruler, and all five lie on one straight line. Find the equation of the line and verify a point on it. (Example 12 in the book.)",
+      "steps": [
+        "Compare y with x at each point: -3 = 3 × (-1), 0 = 3 × 0, 3 = 3 × 1, 9 = 3 × 3, 12 = 3 × 4.",
+        "In every case the y-coordinate is three times the x-coordinate.",
+        "So the rule connecting the coordinates is y = 3x.",
+        "Verify by substitution, the same method used for (7, 15) on y = 2x + 1: for the point (3, 9), check 3 × 3 = 9, which is true."
+      ],
+      "answer": "The line is y = 3x, and every point on it satisfies this equation."
+    }
+  ],
+  "conceptMap": {
+    "center": "Linear Polynomials",
+    "groups": [
+      { "id": "g1", "label": "Expression parts" },
+      { "id": "g2", "label": "Patterns and change" },
+      { "id": "g3", "label": "Equations" },
+      { "id": "g4", "label": "Graphs" }
+    ],
+    "nodes": [
+      { "id": "n1", "label": "Terms", "group": "g1" },
+      { "id": "n2", "label": "Variables", "group": "g1" },
+      { "id": "n3", "label": "Coefficients", "group": "g1" },
+      { "id": "n4", "label": "Constant term", "group": "g1" },
+      { "id": "n5", "label": "Linear pattern", "group": "g2" },
+      { "id": "n6", "label": "Linear growth", "group": "g2" },
+      { "id": "n7", "label": "Linear decay", "group": "g2" },
+      { "id": "n8", "label": "Input-output machine", "group": "g2" },
+      { "id": "n9", "label": "Linear equation", "group": "g3" },
+      { "id": "n10", "label": "y = ax + b", "group": "g3" },
+      { "id": "n11", "label": "Straight line", "group": "g4" },
+      { "id": "n12", "label": "Two points", "group": "g4" }
+    ],
+    "edges": [
+      { "from": "n1", "to": "n2", "label": "contain" },
+      { "from": "n3", "to": "n2", "label": "multiply" },
+      { "from": "n4", "to": "n1", "label": "joins as" },
+      { "from": "n1", "to": "n5", "label": "creates" },
+      { "from": "n5", "to": "n6", "label": "rises as" },
+      { "from": "n5", "to": "n7", "label": "falls as" },
+      { "from": "n5", "to": "n8", "label": "runs as" },
+      { "from": "n8", "to": "n9", "label": "equate output" },
+      { "from": "n9", "to": "n10", "label": "generalises to" },
+      { "from": "n6", "to": "n10", "label": "modelled by" },
+      { "from": "n7", "to": "n10", "label": "modelled by" },
+      { "from": "n10", "to": "n12", "label": "gives" },
+      { "from": "n12", "to": "n11", "label": "draws" },
+      { "from": "n10", "to": "n11", "label": "plots as" }
+    ]
+  },
+  "flowchart": {
+    "title": "How this chapter flows",
+    "steps": [
+      { "id": "s1", "label": "Meet expressions", "detail": "Raju's boxes and the garden fence turn stories into terms." },
+      { "id": "s2", "label": "Name the parts", "detail": "Spot terms, variables, coefficients and constants." },
+      { "id": "s3", "label": "Notice the pattern", "detail": "Successive values differ by a constant: a linear pattern." },
+      { "id": "s4", "label": "Write the polynomial", "detail": "Like 4x, 200 + 50m or C(d) = 100 + 60d." },
+      { "id": "s5", "label": "Classify the change", "detail": "Constant increase is growth, constant decrease is decay." },
+      { "id": "s6", "label": "Form the equation", "detail": "Equate the polynomial to a constant, or set y = ax + b." },
+      { "id": "s7", "label": "Solve for unknowns", "detail": "Find x, or use two observations to find a and b." },
+      { "id": "s8", "label": "Draw the line", "detail": "Plot two points, join them, extend both ways." }
+    ],
+    "edges": [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [3, 5]]
+  }
+}
