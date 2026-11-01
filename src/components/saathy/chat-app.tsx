@@ -614,7 +614,9 @@ export function ChatApp() {
                     { label: 'Samjha do', desc: 'step by step, your book, your pace', act: () => chipPrefill(`Explain ${focusConcept?.name ?? currentChapterInfo?.chapter.name ?? 'a concept'} `) },
                     { label: 'Yeh solve karo', desc: 'guided — no copy-paste answers', act: () => chipPrefill('Solve this: ') },
                     { label: 'Test me', desc: 'quick questions at my level', act: () => chipSend(`Start a practice round on ${currentChapterInfo?.chapter.name ?? 'my current chapter'}`, 'practise') },
+                    { label: 'Video se dekho', desc: 'YouTube plan + watch timeline', act: () => chipSend(`Give me a YouTube video plan for ${currentChapterInfo?.chapter.name ?? focusConcept?.name ?? 'my current topic'} with a watch timeline`, 'explain') },
                     { label: 'Notes bhar do', desc: 'teacher material, compressed', act: () => chipSend(`Summarise my teacher's notes for ${currentChapterInfo?.chapter.name ?? 'the current chapter'}`, 'summarise') },
+                    { label: 'Meri position', desc: 'what to revise, what is strong', act: () => chipSend('Give me my honest position across my chapters — what to revise first', 'chat') },
                   ].map((chip, i) => (
                     <button
                       key={chip.label}

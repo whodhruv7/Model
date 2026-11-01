@@ -530,3 +530,5 @@ Stage Summary:
 - Browser QA (390x844 + 1366x900): boot clean (baseline empty img errors only, same as v1), all intents, level-check quiz renders, plan flow, games arcade, reports stage, atom lab, founder PIN unlock + corpus, key autodetect (AIza→gemini), mobile welcome + instructions.
 - Web app: chat-app.tsx welcome restored to the exact old 4 chips (v3's "Video se dekho"/"Meri position" removed) + same instructions block; backend APIs re-verified (context/videos/reports 200, matcher correct).
 - public/Saathy.html rebuilt (970KB) + download/Saathy.html synced. Pushed to GitHub; Pages re-verified.
+
+2026-11-01 — Front end corrected to the NEWEST chat front end (10b26c7 state: YouTube video chat chips "Video se dekho" + "Meri position" restored), keeping only the "How Saathy works" instructions block as the single front-end addition. v4 v1-shell restore reverted.
