@@ -7,6 +7,7 @@
 import { useState } from 'react';
 import { Lightbulb, CheckCircle2, XCircle, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { addXp } from '@/lib/saathy-progress';
 import type { MasterySnapshot, QuickCheck } from '@/lib/saathy-types';
 
 export interface QuickCheckProps {
@@ -32,6 +33,7 @@ export function QuickCheckCard({ qc, onEvidence, onWhy, onHint, onRetry, busy }:
     setSubmitting(true);
     const correct = idx === qc.answer;
     setRevealed(correct ? 'correct' : 'wrong');
+    if (correct) addXp(10); // reference-image: +10 XP per correct quick check
     await onEvidence(correct, qc.difficulty);
     setSubmitting(false);
   };
@@ -107,7 +109,10 @@ export function QuickCheckCard({ qc, onEvidence, onWhy, onHint, onRetry, busy }:
 
         {revealed === 'correct' ? (
           <div className="msg-in mt-3 rounded-lg border border-[#bfe3c4] bg-[#edf7ee] px-3 py-2.5">
-            <p className="text-[13px] font-extrabold text-[#227031]">Great job! Sahi pakda. ☁️</p>
+            <p className="flex items-center justify-between gap-2 text-[13px] font-extrabold text-[#227031]">
+              <span>Great job! Sahi pakda. ☁️</span>
+              <span className="rounded-full bg-[#227031] px-2 py-0.5 text-[10.5px] font-extrabold text-white">✓ +10 XP</span>
+            </p>
             <p className="mt-0.5 text-[12.5px] text-[#3e6b46]">
               Your answer is recorded — Saathy will pitch the next questions at this level.
             </p>

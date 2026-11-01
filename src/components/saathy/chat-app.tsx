@@ -3,7 +3,7 @@
 // Saathy — the chat experience. Orchestrates context, streaming, the mastery
 // loop, and the three-panel layout (sidebar / chat / settings).
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Menu, PanelLeftClose, PanelLeftOpen, Settings as SettingsIcon, Sparkles, Download, FileDown } from 'lucide-react';
+import { Menu, PanelLeftClose, PanelLeftOpen, Settings as SettingsIcon, Sparkles, Download, FileDown, Flame, Lightbulb } from 'lucide-react';
 import { Sheet, SheetContent, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { useToast } from '@/hooks/use-toast';
 import { Mascot, type MascotPose } from './mascot';
@@ -12,6 +12,7 @@ import { Composer } from './composer';
 import { SidebarContent, type ConversationListItem } from './sidebar';
 import { SettingsSheet } from './settings-sheet';
 import { parseSaathyMeta, stripStreamingMeta } from '@/lib/saathy-meta';
+import { addDoubt, addXp as addGlobalXp, getDoubts, getStreak, getXp, touchStreak, XP_EVENT, type Doubt } from '@/lib/saathy-progress';
 import type { ChatMeta, ChatMode, ConceptCtx, ContextResponse, LearnMeta, MasterySnapshot, ProfileCtx, QuickCheck } from '@/lib/saathy-types';
 
 let tempId = 0;
@@ -34,6 +35,12 @@ export function ChatApp() {
   const [celebrate, setCelebrate] = useState(false);
   // Client-only: sessionStorage is not available during SSR.
   const [founderUnlocked, setFounderUnlocked] = useState(false);
+  // Reference-image header pills: daily streak + total XP (games, quiz, quick checks)
+  const [streak, setStreak] = useState(0);
+  const [xpTotal, setXpTotal] = useState(0);
+  // Hint mode — Saathy nudges instead of answering (composer toggle)
+  const [hintMode, setHintMode] = useState(false);
+  const [doubts, setDoubts] = useState<Doubt[]>([]);
 
   const abortRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -70,6 +77,21 @@ export function ChatApp() {
     refreshContext();
     refreshConversations();
   }, [refreshContext, refreshConversations]);
+
+  // Streak + XP pills, recent doubts (reference-image header/panel). Load after a
+  // microtask so the effect doesn't setState synchronously; live-refresh on XP events.
+  useEffect(() => {
+    let alive = true;
+    const load = () => {
+      if (!alive) return;
+      setStreak(getStreak());
+      setXpTotal(getXp());
+      setDoubts(getDoubts());
+    };
+    (async () => { await Promise.resolve(); load(); })();
+    window.addEventListener(XP_EVENT, load);
+    return () => { alive = false; window.removeEventListener(XP_EVENT, load); };
+  }, []);
 
   // Refresh the founder lock state whenever settings opens/closes (client only).
   useEffect(() => {
@@ -199,6 +221,14 @@ export function ChatApp() {
       setSendError(null);
       setInput('');
       stickRef.current = true;
+
+      // Evidence for the reference-image UI: every question feeds "Recent doubts",
+      // every active day grows the streak.
+      const doubtTag = currentChapterInfo ? `${currentChapterInfo.subject} · ${currentChapterInfo.chapter.name}` : (ctx?.profile.className ? `Class ${ctx.profile.className}` : 'Doubt');
+      addDoubt(content, doubtTag);
+      touchStreak();
+      setStreak(getStreak());
+      setDoubts(getDoubts());
 
       // Learn-module intent: "learn <topic>" / "module <topic>" / "seekho <topic>"
       // → resolve the chapter in the artifact library and deep-link into the
@@ -360,7 +390,7 @@ export function ChatApp() {
         abortRef.current = null;
       }
     },
-    [activeId, ctx, refreshConversations, streaming]
+    [activeId, ctx, currentChapterInfo, refreshConversations, streaming]
   );
 
   const stop = () => {
@@ -587,6 +617,20 @@ export function ChatApp() {
             </button>
           ) : null}
 
+          {/* Reference-image pills: streak + XP (live from games, quiz, quick checks) */}
+          <div className="ml-auto flex items-center gap-1.5">
+            {streak > 0 ? (
+              <span className="flex items-center gap-1 rounded-full border border-[#ffd9bd] bg-[#fff3ea] px-2.5 py-1 text-[11px] font-extrabold text-[#a05c2e]" title={`${streak}-day practice streak`}>
+                <Flame className="h-3.5 w-3.5 text-[#e5762f]" />
+                {streak} streak
+              </span>
+            ) : null}
+            <span className="flex items-center gap-1 rounded-full border border-[#d8e6f4] bg-[#f3f9ff] px-2.5 py-1 text-[11px] font-extrabold text-[#2a5298]" title={`${xpTotal} XP earned`}>
+              <Sparkles className="h-3.5 w-3.5 text-[#5E97F0]" />
+              {xpTotal} XP
+            </span>
+          </div>
+
           <a
               href="/api/download/app"
               download="Saathy.html"
@@ -627,6 +671,9 @@ export function ChatApp() {
           <div className="mx-auto flex max-w-3xl flex-col gap-4 pb-6 pt-4">
             {showWelcome ? (
               <div className="flex flex-col items-center pt-6 text-center sm:pt-10">
+                <p className="font-hand text-[20px] font-bold text-[#b0552f]">
+                  Ask Saathy <span className="text-[15px] font-semibold text-[#b08968]">· Today · {new Date().toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' })}</span>
+                </p>
                 <Mascot pose={celebrate ? 'excited' : 'happy'} size={120} float animationsEnabled={animations} interactive alt="Saathy, your learning companion" />
                 <h1 className="mt-3 text-[24px] font-extrabold tracking-tight text-[#16305b] sm:text-[28px]">
                   {(() => {
@@ -722,12 +769,14 @@ export function ChatApp() {
         <Composer
           value={input}
           onChange={setInput}
-          onSend={() => send(input, { mode: 'chat' })}
+          onSend={() => send(input, { mode: 'chat', hintLevel: hintMode ? 1 : undefined })}
           onStop={stop}
           streaming={streaming}
           disabled={false}
           focusConceptName={focusConcept?.name ?? null}
           onClearFocus={() => patchProfile({ focusConceptId: null })}
+          hintMode={hintMode}
+          onToggleHint={setHintMode}
         />
       </main>
 
@@ -768,6 +817,50 @@ export function ChatApp() {
           <p className="mt-0.5 text-[11px] font-semibold leading-snug text-[#637c96]">3,353 artifacts across 36 chapters — slides, quiz, flashcards, games, reports.</p>
           <p className="mt-1 text-[11px] font-extrabold text-[#2a5298] group-hover:underline">Kholo →</p>
         </a>
+
+        {/* Recent doubts (reference-image right panel) */}
+        <div className="rounded-2xl border border-[#ece7e0] bg-white/85 px-4 py-3.5 shadow-[0_1px_8px_rgba(30,58,138,0.05)]">
+          <div className="flex items-center justify-between gap-2">
+            <p className="text-[10.5px] font-extrabold uppercase tracking-wider text-[#2a5298]">Recent doubts</p>
+            <button
+              type="button"
+              onClick={() => { setInput(''); const ta = document.querySelector('textarea'); ta?.focus(); }}
+              className="rounded-full border border-[#d8e6f4] bg-[#f3f9ff] px-2.5 py-0.5 text-[10.5px] font-extrabold text-[#2a5298] transition hover:bg-[#e6f0ff]"
+            >
+              + New doubt
+            </button>
+          </div>
+          {doubts.length > 0 ? (
+            <ul className="mt-2 space-y-2">
+              {doubts.slice(0, 4).map((d, i) => (
+                <li key={d.t + '-' + i} className="min-w-0">
+                  <button
+                    type="button"
+                    onClick={() => { setInput(d.q); document.querySelector('textarea')?.focus(); }}
+                    className="w-full text-left"
+                    title="Ask this again"
+                  >
+                    <p className="truncate text-[12px] font-bold leading-snug text-[#17324f]">{d.q}</p>
+                    <p className="truncate font-hand text-[12.5px] leading-tight text-[#b0552f]">{d.tag}</p>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-2 text-[11.5px] font-semibold leading-snug text-[#8a94a8]">Jaise-jaise tum poochhoge, doubts yahan jama honge — ek tap me dobara poochh sakte ho.</p>
+          )}
+        </div>
+
+        {/* Honesty note (reference-image "Only from your NCERT books") */}
+        <div className="rounded-2xl border border-[#bfe3c4] bg-[#edf7ee] px-4 py-3.5">
+          <p className="flex items-center gap-1.5 text-[12px] font-extrabold text-[#227031]">
+            <Lightbulb className="h-3.5 w-3.5" />
+            Only from your NCERT books
+          </p>
+          <p className="mt-1 text-[11.5px] font-semibold leading-relaxed text-[#3e6b46]">
+            Saathy answers from your class books and your teacher&apos;s notes — aur jab kuch pata na ho, seedha bol deta hai.
+          </p>
+        </div>
       </aside>
 
       {/* Settings */}

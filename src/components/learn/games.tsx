@@ -4,6 +4,7 @@
 // pairs, true/false streak, tile flips. XP + best scores persist locally.
 import { useEffect, useMemo, useState } from "react";
 import type { ChapterArtifacts } from "@/lib/learn/artifacts";
+import { addXp as addGlobalXp } from "@/lib/saathy-progress";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -38,7 +39,7 @@ export function GameHub({ chapter, onExit, onXp }: { chapter: ChapterArtifacts; 
     return () => { alive = false; };
   }, [chapter]);
 
-  const addXp = (n: number) => { setXp(x => { const v = x + n; saveNum(`saathy.games.xp.${chapter.book}${chapter.chapter}`, v); onXp(n); return v; }); };
+  const addXp = (n: number) => { setXp(x => { const v = x + n; saveNum(`saathy.games.xp.${chapter.book}${chapter.chapter}`, v); onXp(n); addGlobalXp(n); return v; }); };
   const setBestIf = (g: string, v: number) => setBest(b => { if (v > (b[g] ?? 0)) { saveNum(`saathy.games.best.${g}.${chapter.book}${chapter.chapter}`, v); return { ...b, [g]: v }; } return b; });
 
   return (

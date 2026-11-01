@@ -1,9 +1,10 @@
 'use client';
 
 // Composer — multi-line input, Enter sends, Shift+Enter newlines, stop while
-// streaming, focus-concept chip, and honest disabled/error states.
+// streaming, focus-concept chip, hint-mode toggle (Saathy nudges instead of
+// answering), and honest disabled/error states.
 import { useEffect, useRef } from 'react';
-import { ArrowUp, Square, X } from 'lucide-react';
+import { ArrowUp, Lightbulb, Square, X } from 'lucide-react';
 
 export interface ComposerProps {
   value: string;
@@ -14,6 +15,8 @@ export interface ComposerProps {
   disabled?: boolean;
   focusConceptName: string | null;
   onClearFocus: () => void;
+  hintMode?: boolean;
+  onToggleHint?: (v: boolean) => void;
 }
 
 export function Composer({
@@ -25,6 +28,8 @@ export function Composer({
   disabled,
   focusConceptName,
   onClearFocus,
+  hintMode = false,
+  onToggleHint,
 }: ComposerProps) {
   const ref = useRef<HTMLTextAreaElement>(null);
 
@@ -56,11 +61,36 @@ export function Composer({
           </div>
         ) : null}
 
+        {hintMode ? (
+          <div className="msg-in mb-1.5 flex justify-end">
+            <span className="rounded-full bg-[#16305b] px-3 py-1 text-[11px] font-extrabold text-white shadow-[0_2px_8px_rgba(22,48,91,0.25)]">Saathy gives hints instead of answers</span>
+          </div>
+        ) : null}
+
         <div
           className={`flex items-end gap-2 rounded-2xl border bg-white/95 p-2 shadow-[0_4px_18px_rgba(30,58,138,0.08)] backdrop-blur transition-colors ${
             disabled ? 'border-[#f3c1c2]' : 'border-[#e6e2dc] focus-within:border-[#7fb3ff] focus-within:ring-2 focus-within:ring-[#7fb3ff]/30'
           }`}
         >
+          {onToggleHint ? (
+            <button
+              type="button"
+              onClick={() => onToggleHint(!hintMode)}
+              aria-pressed={hintMode}
+              title="Hint mode — Saathy nudges you toward the answer instead of giving it"
+              className={`flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1.5 text-[10.5px] font-extrabold transition ${
+                hintMode
+                  ? 'border-[#ffd9bd] bg-[#fff3ea] text-[#a05c2e]'
+                  : 'border-[#e6e2dc] bg-white text-[#8a94a8] hover:border-[#ffd9bd] hover:text-[#a05c2e]'
+              }`}
+            >
+              <Lightbulb className="h-3.5 w-3.5" />
+              Hint mode
+              <span className={`relative inline-flex h-3.5 w-6 items-center rounded-full transition ${hintMode ? 'bg-[#f0a06a]' : 'bg-[#dfe4ee]'}`}>
+                <span className={`absolute h-2.5 w-2.5 rounded-full bg-white shadow transition-all ${hintMode ? 'left-[13px]' : 'left-[2px]'}`} />
+              </span>
+            </button>
+          ) : null}
           <textarea
             ref={ref}
             value={value}
